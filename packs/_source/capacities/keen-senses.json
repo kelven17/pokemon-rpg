@@ -1,0 +1,10 @@
+{
+  "name": "Sentidos Aguçados",
+  "type": "capacity",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "<p>O Pokémon tem ao menos um sentido (visão, audição, olfato) muito mais apurado que o normal.</p>",
+    "value": null,
+    "category": "sense"
+  }
+}

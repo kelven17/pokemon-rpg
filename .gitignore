@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+
+# LevelDB packs are compilados — versionar apenas _source/
+packs/moves/
+packs/talents/
+packs/abilities/
+packs/capacities/
+packs/species/
+
+# Mas o _source DEVE ser versionado:
+!packs/_source/
+!packs/_source/**

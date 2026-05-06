@@ -1,0 +1,10 @@
+{
+  "name": "Velocidade Aquática",
+  "type": "capacity",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "<p>Quão rapidamente o Pokémon nada. Em metros por turno.</p>",
+    "value": 6,
+    "category": "movement"
+  }
+}

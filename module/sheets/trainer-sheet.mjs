@@ -1,0 +1,334 @@
+import { POKEMON_RPG } from "../helpers/config.mjs";
+
+const { HandlebarsApplicationMixin } = foundry.applications.api;
+const { ActorSheetV2 } = foundry.applications.sheets;
+
+/**
+ * Ficha de Treinador (ApplicationV2).
+ */
+export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
+
+  static DEFAULT_OPTIONS = {
+    classes: ["pokemon-rpg", "sheet", "actor", "trainer"],
+    position: { width: 720, height: 760 },
+    window: { resizable: true, contentClasses: ["scrollable"] },
+    actions: {
+      rollSkill: TrainerSheet._onRollSkill,
+      rollAttribute: TrainerSheet._onRollAttribute,
+      toggleProficiency: TrainerSheet._onToggleProficiency,
+      openPokemon: TrainerSheet._onOpenPokemon,
+      removePokemon: TrainerSheet._onRemovePokemon,
+      setActivePokemon: TrainerSheet._onSetActivePokemon,
+      itemCreate: TrainerSheet._onItemCreate,
+      itemEdit: TrainerSheet._onItemEdit,
+      itemDelete: TrainerSheet._onItemDelete,
+      itemUse: TrainerSheet._onItemUse,
+      tab: TrainerSheet._onChangeTab
+    },
+    form: {
+      submitOnChange: true,
+      closeOnSubmit: false
+    }
+  };
+
+  static PARTS = {
+    header: { template: "systems/pokemon-rpg/templates/actor/trainer-header.hbs" },
+    tabs:   { template: "systems/pokemon-rpg/templates/partials/tabs.hbs" },
+    main:   { template: "systems/pokemon-rpg/templates/actor/trainer-main.hbs",   scrollable: [""] },
+    skills: { template: "systems/pokemon-rpg/templates/actor/trainer-skills.hbs", scrollable: [""] },
+    items:  { template: "systems/pokemon-rpg/templates/actor/trainer-items.hbs",  scrollable: [""] },
+    party:  { template: "systems/pokemon-rpg/templates/actor/trainer-party.hbs",  scrollable: [""] },
+    bio:    { template: "systems/pokemon-rpg/templates/actor/trainer-bio.hbs",    scrollable: [""] }
+  };
+
+  static TABS = {
+    primary: {
+      tabs: [
+        { id: "main",   label: "POKEMON_RPG.Tab.Main"   },
+        { id: "skills", label: "POKEMON_RPG.Tab.Skills" },
+        { id: "items",  label: "POKEMON_RPG.Tab.Items"  },
+        { id: "party",  label: "POKEMON_RPG.Tab.Party"  },
+        { id: "bio",    label: "POKEMON_RPG.Tab.Bio"    }
+      ],
+      initial: "main"
+    }
+  };
+
+  /* -------------------------------------------- */
+  /*  Context Preparation                          */
+  /* -------------------------------------------- */
+
+  /** @override */
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
+    const actor = this.actor;
+    const sys = actor.system;
+
+    context.actor = actor;
+    context.system = sys;
+    context.config = POKEMON_RPG;
+
+    // Atributos com labels traduzidos.
+    context.attributes = {};
+    for ( const [key, attr] of Object.entries(sys.attributes) ) {
+      context.attributes[key] = {
+        ...attr,
+        key,
+        label: game.i18n.localize(POKEMON_RPG.attributes[key]),
+        abbr:  game.i18n.localize(POKEMON_RPG.attributeAbbreviations[key])
+      };
+    }
+
+    // Perícias agrupadas por atributo.
+    context.skillsByAttribute = {};
+    for ( const [key, skill] of Object.entries(sys.skills) ) {
+      const cfg = POKEMON_RPG.skills[key];
+      const attr = cfg.attribute;
+      if ( !context.skillsByAttribute[attr] ) {
+        context.skillsByAttribute[attr] = {
+          attrLabel: game.i18n.localize(POKEMON_RPG.attributes[attr]),
+          skills: []
+        };
+      }
+      context.skillsByAttribute[attr].skills.push({
+        key,
+        label: game.i18n.localize(cfg.label),
+        ...skill
+      });
+    }
+
+    // Items separados por tipo.
+    const allClasses = actor.items.filter(i => i.type === "class");
+    const allTalents = actor.items.filter(i => i.type === "talent");
+    context.itemsByType = {
+      class: allClasses,
+      talent: allTalents
+    };
+
+    // ---- Agrupamento de Talentos por Classe ----
+    // Para cada classe que o treinador tem, mostra os talentos que vieram dela
+    // (talents com category="class" e sourceClass = slug da classe).
+    // O resto vai para "general" ou "other" (sem classe associada conhecida).
+    const classGroups = [];
+    const usedTalentIds = new Set();
+    for ( const cls of allClasses ) {
+      const slug = cls.system.slug || "";
+      const parentSlug = cls.system.parentClass || "";
+      // Resolve label da classe-mãe para subclasses.
+      let parentLabel = "";
+      if ( parentSlug ) {
+        const parentDef = POKEMON_RPG.classHierarchy[parentSlug];
+        if ( parentDef ) parentLabel = game.i18n.localize(parentDef.label);
+        else parentLabel = parentSlug;
+      }
+      const groupTalents = allTalents.filter(t =>
+        t.system.category === "class" && slug && t.system.sourceClass === slug
+      );
+      groupTalents.forEach(t => usedTalentIds.add(t.id));
+      classGroups.push({
+        class: cls,
+        slug,
+        parentSlug,
+        parentLabel,
+        isSubclass: !!parentSlug,
+        talents: groupTalents
+      });
+    }
+    context.classGroups = classGroups;
+
+    // Talentos gerais (qualquer um pode pegar).
+    context.generalTalents = allTalents.filter(t =>
+      t.system.category === "general" && !usedTalentIds.has(t.id)
+    );
+    // Talentos sem categoria reconhecida ou de classe que o treinador não possui.
+    context.orphanTalents = allTalents.filter(t =>
+      !usedTalentIds.has(t.id) && t.system.category !== "general"
+    );
+
+    // Lista de slugs disponíveis (para selects no item-sheet).
+    context.classSlugChoices = POKEMON_RPG.allClassSlugs
+      ? Object.fromEntries(
+          Object.entries(POKEMON_RPG.allClassSlugs()).map(([k, l]) => [k, game.i18n.localize(l)])
+        )
+      : {};
+
+    // Party de pokémons.
+    context.party = await sys.getPartyActors();
+
+    // Bio enriquecida.
+    context.enrichedBio = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+      sys.biography.value, { async: true, relativeTo: actor }
+    );
+    context.enrichedNotes = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+      sys.biography.notes, { async: true, relativeTo: actor }
+    );
+
+    // Tabs - constrói contexto manualmente para garantir compatibilidade.
+    const activeTab = this.tabGroups?.primary ?? "main";
+    context.tabs = this.constructor.TABS.primary.tabs.map(t => ({
+      ...t,
+      group: "primary",
+      active: t.id === activeTab,
+      cssClass: t.id === activeTab ? "active" : ""
+    }));
+    context.activeTab = activeTab;
+
+    return context;
+  }
+
+  /** @override */
+  _onRender(context, options) {
+    super._onRender(context, options);
+    // Esconde/mostra tabs com base no ativo.
+    this._applyActiveTab();
+    // Drag-drop de Pokémons na aba party.
+    new foundry.applications.ux.DragDrop.implementation({
+      dragSelector: ".item",
+      dropSelector: ".trainer-sheet, .party-list",
+      callbacks: {
+        drop: this._onDrop.bind(this)
+      }
+    }).bind(this.element);
+  }
+
+  _applyActiveTab() {
+    const active = this.tabGroups?.primary ?? "main";
+    // Esconde todas as section[data-tab], mostra apenas a ativa.
+    const sections = this.element.querySelectorAll('section[data-tab][data-group="primary"]');
+    sections.forEach(s => {
+      s.style.display = s.dataset.tab === active ? "" : "none";
+    });
+    // Atualiza estado visual das nav tabs.
+    const navs = this.element.querySelectorAll('nav.sheet-tabs .item[data-group="primary"]');
+    navs.forEach(a => {
+      a.classList.toggle("active", a.dataset.tab === active);
+    });
+  }
+
+  /**
+   * Action handler para clique em tab: persiste e re-renderiza.
+   */
+  static _onChangeTab(event, target) {
+    const tab = target.dataset.tab;
+    if ( !tab ) return;
+    this.tabGroups ??= {};
+    this.tabGroups.primary = tab;
+    this._applyActiveTab();
+  }
+
+  /* -------------------------------------------- */
+  /*  Drag & Drop                                  */
+  /* -------------------------------------------- */
+
+  async _onDrop(event) {
+    const dataString = event.dataTransfer?.getData("text/plain");
+    if ( !dataString ) return;
+    let data;
+    try { data = JSON.parse(dataString); } catch { return; }
+
+    if ( data.type === "Actor" ) {
+      const actor = await fromUuid(data.uuid);
+      if ( !actor || actor.type !== "pokemon" ) return;
+      await this._addPokemonToParty(actor);
+    } else if ( data.type === "Item" ) {
+      const item = await fromUuid(data.uuid);
+      if ( !item ) return;
+      // Aceita talents e classes.
+      if ( ["talent", "class"].includes(item.type) ) {
+        await this.actor.createEmbeddedDocuments("Item", [item.toObject()]);
+      } else {
+        ui.notifications?.warn(`Treinadores só aceitam talentos e classes. Item ${item.type} ignorado.`);
+      }
+    }
+  }
+
+  async _addPokemonToParty(pokemon) {
+    const party = foundry.utils.deepClone(this.actor.system.party);
+    if ( party.length >= 6 ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Notify.PartyFull"));
+      return;
+    }
+    if ( party.find(p => p.uuid === pokemon.uuid) ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Notify.AlreadyInParty"));
+      return;
+    }
+    party.push({ uuid: pokemon.uuid, slot: party.length + 1, active: party.length === 0 });
+    await this.actor.update({ "system.party": party });
+    // Configura o trainer no pokémon (referência reversa).
+    await pokemon.update({ "system.details.trainer": this.actor.uuid });
+  }
+
+  /* -------------------------------------------- */
+  /*  Action Handlers                              */
+  /* -------------------------------------------- */
+
+  static async _onRollSkill(event, target) {
+    const skillKey = target.dataset.skill;
+    return this.actor.rollSkill(skillKey);
+  }
+
+  static async _onRollAttribute(event, target) {
+    const attrKey = target.dataset.attribute;
+    return this.actor.rollAttribute(attrKey);
+  }
+
+  static async _onToggleProficiency(event, target) {
+    const skillKey = target.dataset.skill;
+    const current = this.actor.system.skills[skillKey].proficient;
+    await this.actor.update({ [`system.skills.${skillKey}.proficient`]: !current });
+  }
+
+  static async _onOpenPokemon(event, target) {
+    const uuid = target.dataset.uuid;
+    const actor = await fromUuid(uuid);
+    actor?.sheet.render(true);
+  }
+
+  static async _onRemovePokemon(event, target) {
+    const uuid = target.dataset.uuid;
+    const party = this.actor.system.party.filter(p => p.uuid !== uuid);
+    await this.actor.update({ "system.party": party });
+    // Remove o trainer do pokémon.
+    const pokemon = await fromUuid(uuid);
+    if ( pokemon ) await pokemon.update({ "system.details.trainer": "" });
+  }
+
+  static async _onSetActivePokemon(event, target) {
+    const uuid = target.dataset.uuid;
+    const party = this.actor.system.party.map(p => ({ ...p, active: p.uuid === uuid }));
+    await this.actor.update({ "system.party": party });
+  }
+
+  static async _onItemCreate(event, target) {
+    const type = target.dataset.type;
+    const itemData = {
+      name: game.i18n.format("POKEMON_RPG.NewItem", { type: game.i18n.localize(`POKEMON_RPG.ItemType.${type}`) }),
+      type
+    };
+    const created = await this.actor.createEmbeddedDocuments("Item", [itemData]);
+    created[0]?.sheet.render(true);
+  }
+
+  static async _onItemEdit(event, target) {
+    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    item?.sheet.render(true);
+  }
+
+  static async _onItemDelete(event, target) {
+    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    if ( !item ) return;
+    const confirmed = await foundry.applications.api.DialogV2.confirm({
+      window: { title: game.i18n.localize("POKEMON_RPG.Confirm.DeleteTitle") },
+      content: `<p>${game.i18n.format("POKEMON_RPG.Confirm.DeleteItem", { name: item.name })}</p>`
+    });
+    if ( confirmed ) await item.delete();
+  }
+
+  static async _onItemUse(event, target) {
+    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    item?.use();
+  }
+}

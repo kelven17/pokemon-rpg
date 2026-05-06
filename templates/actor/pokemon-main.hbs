@@ -1,0 +1,74 @@
+<section class="tab" data-tab="main" data-group="primary">
+    <div class="attributes-grid pokemon-attrs">
+        {{#each attributes as |attr key|}}
+        <div class="attribute-card pokemon-attr-card" data-attribute="{{attr.key}}">
+            <h3 class="attr-name" data-action="rollAttribute" data-attribute="{{attr.key}}">
+                {{attr.label}}
+            </h3>
+            <div class="attr-value">
+                <input type="number" name="system.attributes.{{attr.key}}.value" value="{{attr.value}}" data-dtype="Number" min="0"/>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+    <fieldset class="evasion-block">
+        <legend>{{localize "POKEMON_RPG.Evasion.Title"}}</legend>
+        <div class="evasion-grid">
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Physical"}}</span>
+                <span class="evasion-value">{{system.evasion.physical}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.Def"}}</span>
+            </div>
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Special"}}</span>
+                <span class="evasion-value">{{system.evasion.special}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.SpD"}}</span>
+            </div>
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Fast"}}</span>
+                <span class="evasion-value">{{system.evasion.fast}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.Spe"}}</span>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="species-block">
+        <legend>{{localize "POKEMON_RPG.Species"}}</legend>
+        <div class="form-grid">
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.Type.Primary"}}</label>
+                <select name="system.types.primary">
+                    {{#each typeChoices as |label key|}}
+                    <option value="{{key}}" {{#if (eq key ../system.types.primary)}}selected{{/if}}>{{label}}</option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.Type.Secondary"}}</label>
+                <select name="system.types.secondary">
+                    <option value="" {{#unless system.types.secondary}}selected{{/unless}}>—</option>
+                    {{#each typeChoices as |label key|}}
+                    <option value="{{key}}" {{#if (eq key ../system.types.secondary)}}selected{{/if}}>{{label}}</option>
+                    {{/each}}
+                </select>
+            </div>
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.DexNumber"}}</label>
+                <input type="number" name="system.species.dexNumber" value="{{system.species.dexNumber}}" data-dtype="Number"/>
+            </div>
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.Nature"}}</label>
+                <input type="text" name="system.details.nature" value="{{system.details.nature}}"/>
+            </div>
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.Gender"}}</label>
+                <input type="text" name="system.details.gender" value="{{system.details.gender}}"/>
+            </div>
+            <div class="form-group">
+                <label>{{localize "POKEMON_RPG.Status"}}</label>
+                <input type="text" name="system.details.status" value="{{system.details.status}}" placeholder="—"/>
+            </div>
+        </div>
+    </fieldset>
+</section>

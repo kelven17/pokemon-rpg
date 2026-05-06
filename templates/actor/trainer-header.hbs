@@ -1,0 +1,42 @@
+<header class="sheet-header trainer-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+    <div class="header-fields">
+        <h1 class="charname">
+            <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'POKEMON_RPG.TrainerName'}}"/>
+        </h1>
+        <div class="header-row">
+            <div class="resource">
+                <label>{{localize "POKEMON_RPG.Level"}}</label>
+                <input type="number" name="system.details.level" value="{{system.details.level}}" data-dtype="Number" min="1" max="{{config.maxTrainerLevel}}"/>
+            </div>
+            <div class="resource">
+                <label>{{localize "POKEMON_RPG.Proficiency"}}</label>
+                <span class="readonly">{{signed system.proficiency}}</span>
+            </div>
+            <div class="resource hp-block">
+                <label>{{localize "POKEMON_RPG.Attribute.HP"}}</label>
+                <div class="hp-row">
+                    <input type="number" name="system.hp.value" value="{{system.hp.value}}" data-dtype="Number"/>
+                    <span class="separator">/</span>
+                    <input type="number" name="system.hp.max" value="{{system.hp.max}}" data-dtype="Number"/>
+                </div>
+            </div>
+            <div class="resource">
+                <label>{{localize "POKEMON_RPG.XP"}}</label>
+                <div class="hp-row">
+                    <input type="number" name="system.details.xp.value" value="{{system.details.xp.value}}" data-dtype="Number"/>
+                    <span class="separator">/</span>
+                    <input type="number" name="system.details.xp.max" value="{{system.details.xp.max}}" data-dtype="Number"/>
+                </div>
+            </div>
+            <div class="resource talent-points-block" title="{{localize 'POKEMON_RPG.TalentPoints.Hint'}}">
+                <label>{{localize "POKEMON_RPG.TalentPoints.Label"}}</label>
+                <div class="hp-row">
+                    <span class="readonly tp-available">{{system.talentPoints.available}}</span>
+                    <span class="separator">/</span>
+                    <span class="readonly tp-max">{{system.talentPoints.max}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,29 @@
+{
+  "name": "Pikachu",
+  "type": "species",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "<p>Um Pokémon do tipo Elétrico de orelhas pontudas, capaz de armazenar eletricidade nas bochechas.</p>",
+    "dexNumber": 25,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 35,
+      "atk": 55,
+      "def": 40,
+      "spa": 50,
+      "spd": 50,
+      "spe": 90
+    },
+    "learnset": [
+      { "level": 1, "moveSlug": "thunder-shock" },
+      { "level": 1, "moveSlug": "growl" },
+      { "level": 4, "moveSlug": "quick-attack" }
+    ],
+    "possibleAbilities": [],
+    "naturalCapacities": ["overland", "keen-senses"],
+    "evolutions": []
+  }
+}

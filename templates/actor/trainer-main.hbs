@@ -1,0 +1,55 @@
+<section class="tab" data-tab="main" data-group="primary">
+    <div class="attributes-grid">
+        {{#each attributes as |attr key|}}
+        <div class="attribute-card" data-attribute="{{attr.key}}">
+            <h3 class="attr-name" data-action="rollAttribute" data-attribute="{{attr.key}}">
+                {{attr.label}}
+            </h3>
+            <div class="attr-value">
+                <input type="number" name="system.attributes.{{attr.key}}.value" value="{{attr.value}}" data-dtype="Number"/>
+            </div>
+            <div class="attr-mod">{{signed attr.mod}}</div>
+        </div>
+        {{/each}}
+    </div>
+
+    <fieldset class="evasion-block">
+        <legend>{{localize "POKEMON_RPG.Evasion.Title"}}</legend>
+        <div class="evasion-grid">
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Physical"}}</span>
+                <span class="evasion-value">{{system.evasion.physical}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.Def"}}</span>
+            </div>
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Special"}}</span>
+                <span class="evasion-value">{{system.evasion.special}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.SpD"}}</span>
+            </div>
+            <div class="evasion-card">
+                <span class="evasion-label">{{localize "POKEMON_RPG.Evasion.Fast"}}</span>
+                <span class="evasion-value">{{system.evasion.fast}}</span>
+                <span class="evasion-source">{{localize "POKEMON_RPG.Attribute.Spe"}}</span>
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="trainer-details">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Hometown"}}</label>
+            <input type="text" name="system.details.hometown" value="{{system.details.hometown}}"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Occupation"}}</label>
+            <input type="text" name="system.details.occupation" value="{{system.details.occupation}}"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Age"}}</label>
+            <input type="number" name="system.details.age" value="{{system.details.age}}" data-dtype="Number"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Money"}}</label>
+            <input type="number" name="system.details.money" value="{{system.details.money}}" data-dtype="Number"/>
+        </div>
+    </div>
+</section>

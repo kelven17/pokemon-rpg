@@ -1,0 +1,41 @@
+<header class="sheet-header pokemon-header">
+    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+    <div class="header-fields">
+        <h1 class="charname">
+            <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'POKEMON_RPG.SpeciesName'}}"/>
+        </h1>
+        <div class="nickname-row">
+            <label>{{localize "POKEMON_RPG.Nickname"}}:</label>
+            <input type="text" name="system.details.nickname" value="{{system.details.nickname}}"/>
+        </div>
+        <div class="header-row">
+            <div class="resource">
+                <label>{{localize "POKEMON_RPG.Level"}}</label>
+                <input type="number" name="system.details.level" value="{{system.details.level}}" data-dtype="Number" min="1" max="100"/>
+            </div>
+            <div class="resource hp-block">
+                <label>{{localize "POKEMON_RPG.Attribute.HP"}}</label>
+                <div class="hp-row">
+                    <input type="number" name="system.hp.value" value="{{system.hp.value}}" data-dtype="Number"/>
+                    <span class="separator">/</span>
+                    <input type="number" name="system.hp.max" value="{{system.hp.max}}" data-dtype="Number"/>
+                </div>
+            </div>
+            <div class="type-block">
+                <label>{{localize "POKEMON_RPG.Type"}}</label>
+                <div class="types">
+                    <span class="type-badge type-{{system.types.primary}}">{{typeLabels.primary}}</span>
+                    {{#if system.types.secondary}}
+                    <span class="type-badge type-{{system.types.secondary}}">{{typeLabels.secondary}}</span>
+                    {{/if}}
+                </div>
+            </div>
+            {{#if trainer}}
+            <div class="resource trainer-link">
+                <label>{{localize "POKEMON_RPG.Trainer"}}</label>
+                <a data-action="openTrainer">{{trainer.name}}</a>
+            </div>
+            {{/if}}
+        </div>
+    </div>
+</header>

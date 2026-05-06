@@ -1,0 +1,123 @@
+import { POKEMON_RPG } from "./helpers/config.mjs";
+import { TrainerData } from "./data/actor-trainer.mjs";
+import { PokemonData } from "./data/actor-pokemon.mjs";
+import {
+  MoveData, TalentData, ClassData,
+  AbilityData, CapacityData, SpeciesData
+} from "./data/items.mjs";
+import { PokemonActor } from "./documents/actor.mjs";
+import { PokemonItem } from "./documents/item.mjs";
+import { TrainerSheet } from "./sheets/trainer-sheet.mjs";
+import { PokemonSheet } from "./sheets/pokemon-sheet.mjs";
+import { PokemonItemSheet } from "./sheets/item-sheet.mjs";
+
+/* -------------------------------------------- */
+/*  Init                                         */
+/* -------------------------------------------- */
+
+Hooks.once("init", function() {
+  console.log("pokemon-rpg | Inicializando sistema Pokémon RPG");
+
+  // Expor config no game.
+  game.pokemonRpg = {
+    config: POKEMON_RPG,
+    PokemonActor,
+    PokemonItem
+  };
+  CONFIG.POKEMON_RPG = POKEMON_RPG;
+
+  // Document classes.
+  CONFIG.Actor.documentClass = PokemonActor;
+  CONFIG.Item.documentClass = PokemonItem;
+
+  // DataModels.
+  CONFIG.Actor.dataModels = {
+    trainer: TrainerData,
+    pokemon: PokemonData
+  };
+  CONFIG.Item.dataModels = {
+    move:     MoveData,
+    talent:   TalentData,
+    class:    ClassData,
+    ability:  AbilityData,
+    capacity: CapacityData,
+    species:  SpeciesData
+  };
+
+  // Sheets — API moderna v13/v14 via DocumentSheetConfig.
+  foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
+  foundry.documents.collections.Actors.registerSheet("pokemon-rpg", TrainerSheet, {
+    types: ["trainer"],
+    makeDefault: true,
+    label: "POKEMON_RPG.Sheet.Trainer"
+  });
+  foundry.documents.collections.Actors.registerSheet("pokemon-rpg", PokemonSheet, {
+    types: ["pokemon"],
+    makeDefault: true,
+    label: "POKEMON_RPG.Sheet.Pokemon"
+  });
+
+  foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
+  foundry.documents.collections.Items.registerSheet("pokemon-rpg", PokemonItemSheet, {
+    makeDefault: true,
+    label: "POKEMON_RPG.Sheet.Item"
+  });
+
+  // Helper Handlebars úteis.
+  Handlebars.registerHelper("signed", (n) => {
+    const v = Number(n) || 0;
+    return v >= 0 ? `+${v}` : `${v}`;
+  });
+  Handlebars.registerHelper("typeColor", (type) => {
+    const colors = {
+      normal: "#A8A77A", fire: "#EE8130", water: "#6390F0", grass: "#7AC74C",
+      electric: "#F7D02C", ice: "#96D9D6", fighting: "#C22E28", poison: "#A33EA1",
+      ground: "#E2BF65", flying: "#A98FF3", psychic: "#F95587", bug: "#A6B91A",
+      rock: "#B6A136", ghost: "#735797", dragon: "#6F35FC", dark: "#705746",
+      steel: "#B7B7CE", fairy: "#D685AD"
+    };
+    return colors[type] ?? "#888";
+  });
+  Handlebars.registerHelper("localize", (key) => game.i18n.localize(key));
+  Handlebars.registerHelper("eq", (a, b) => a === b);
+  Handlebars.registerHelper("neq", (a, b) => a !== b);
+  Handlebars.registerHelper("concat", (...args) => {
+    args.pop(); // remove options object
+    return args.join("");
+  });
+  Handlebars.registerHelper("capitalize", (s) => {
+    if ( typeof s !== "string" ) return s;
+    return s.charAt(0).toUpperCase() + s.slice(1);
+  });
+
+  // Carregar partials uma vez.
+  loadTemplates([
+    "systems/pokemon-rpg/templates/partials/tabs.hbs",
+    "systems/pokemon-rpg/templates/partials/attribute-block.hbs"
+  ]);
+});
+
+/* -------------------------------------------- */
+/*  Ready                                        */
+/* -------------------------------------------- */
+
+Hooks.once("ready", function() {
+  console.log("pokemon-rpg | Sistema pronto");
+});
+
+/* -------------------------------------------- */
+/*  Actor creation defaults                       */
+/* -------------------------------------------- */
+
+Hooks.on("preCreateActor", (actor, data, options, userId) => {
+  // Token configs default.
+  const updates = {};
+  if ( actor.type === "pokemon" ) {
+    updates["prototypeToken.actorLink"] = false;
+    updates["prototypeToken.disposition"] = CONST.TOKEN_DISPOSITIONS.NEUTRAL;
+  } else if ( actor.type === "trainer" ) {
+    updates["prototypeToken.actorLink"] = true;
+    updates["prototypeToken.disposition"] = CONST.TOKEN_DISPOSITIONS.FRIENDLY;
+  }
+  if ( Object.keys(updates).length ) actor.updateSource(updates);
+});

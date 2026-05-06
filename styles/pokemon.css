@@ -1,0 +1,707 @@
+/* ==============================================
+   Pokémon RPG — Main Stylesheet
+   ============================================== */
+
+.pokemon-rpg.sheet {
+    --pkrpg-accent: #cc0000;
+    --pkrpg-accent-soft: #ff6b6b;
+    --pkrpg-bg: #f5f5f0;
+    --pkrpg-border: #c9c7c1;
+    --pkrpg-text: #1a1a1a;
+    --pkrpg-muted: #6b6b6b;
+    font-family: "Signika", system-ui, sans-serif;
+}
+
+.pokemon-rpg.sheet .window-content {
+    background: var(--pkrpg-bg);
+    color: var(--pkrpg-text);
+}
+
+/* ----- Header ----- */
+.pokemon-rpg .sheet-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 2px solid var(--pkrpg-accent);
+    background: linear-gradient(180deg, #fff, #f0f0e8);
+}
+.pokemon-rpg .sheet-header .profile-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid var(--pkrpg-border);
+}
+.pokemon-rpg .sheet-header .header-fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.pokemon-rpg .sheet-header h1 {
+    margin: 0;
+    border: 0;
+}
+.pokemon-rpg .sheet-header h1 input {
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 600;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px dashed var(--pkrpg-border);
+}
+.pokemon-rpg .header-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.pokemon-rpg .resource {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.pokemon-rpg .resource label {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--pkrpg-muted);
+    font-weight: 600;
+}
+.pokemon-rpg .resource input {
+    text-align: center;
+    width: 60px;
+}
+.pokemon-rpg .resource .readonly {
+    text-align: center;
+    width: 60px;
+    padding: 2px 4px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 3px;
+}
+.pokemon-rpg .hp-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.pokemon-rpg .hp-row .separator {
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg .nickname-row {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 0.85em;
+}
+.pokemon-rpg .nickname-row input {
+    flex: 1;
+    border: 0;
+    border-bottom: 1px dashed var(--pkrpg-border);
+    background: transparent;
+}
+
+/* ----- Tabs ----- */
+.pokemon-rpg .sheet-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--pkrpg-accent);
+    margin-bottom: 8px;
+}
+.pokemon-rpg .sheet-tabs .item {
+    padding: 6px 14px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.15s;
+    font-weight: 500;
+}
+.pokemon-rpg .sheet-tabs .item:hover {
+    background: rgba(204, 0, 0, 0.05);
+}
+.pokemon-rpg .sheet-tabs .item.active {
+    border-bottom-color: var(--pkrpg-accent);
+    color: var(--pkrpg-accent);
+    font-weight: 600;
+}
+
+/* ----- Attributes ----- */
+.pokemon-rpg .attributes-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    margin-bottom: 12px;
+}
+.pokemon-rpg .attribute-card {
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    transition: all 0.15s;
+}
+.pokemon-rpg .attribute-card:hover {
+    border-color: var(--pkrpg-accent);
+    box-shadow: 0 0 0 2px rgba(204,0,0,0.1);
+}
+.pokemon-rpg .attribute-card .attr-name {
+    margin: 0 0 4px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--pkrpg-muted);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.pokemon-rpg .attribute-card .attr-name:hover {
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg .attribute-card .attr-value input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 600;
+    border: 0;
+    background: transparent;
+}
+.pokemon-rpg .attribute-card .attr-mod {
+    font-size: 1em;
+    color: var(--pkrpg-accent);
+    font-weight: 600;
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+    padding: 2px 0;
+    margin-top: 2px;
+}
+.pokemon-rpg .pokemon-attrs .pokemon-attr-card .attr-mod {
+    display: none;
+}
+
+/* ----- Evasion ----- */
+.pokemon-rpg .evasion-block {
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    padding: 6px 10px 10px;
+    margin-bottom: 12px;
+    background: white;
+}
+.pokemon-rpg .evasion-block legend {
+    padding: 0 6px;
+    font-weight: 600;
+    color: var(--pkrpg-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.85em;
+}
+.pokemon-rpg .evasion-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.pokemon-rpg .evasion-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 6px;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #fff, #f7f6f0);
+    transition: border-color 0.15s;
+}
+.pokemon-rpg .evasion-card:hover {
+    border-color: var(--pkrpg-accent);
+}
+.pokemon-rpg .evasion-card .evasion-label {
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--pkrpg-muted);
+    font-weight: 700;
+    text-align: center;
+}
+.pokemon-rpg .evasion-card .evasion-value {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--pkrpg-accent);
+    line-height: 1;
+}
+.pokemon-rpg .evasion-card .evasion-source {
+    font-size: 0.65em;
+    color: var(--pkrpg-muted);
+    font-style: italic;
+}
+
+/* ----- Skills ----- */
+.pokemon-rpg .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.pokemon-rpg .skill-group {
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    padding: 8px;
+}
+.pokemon-rpg .skill-group-title {
+    margin: 0 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--pkrpg-border);
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: var(--pkrpg-accent);
+    letter-spacing: 0.04em;
+}
+.pokemon-rpg .skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pokemon-rpg .skill-row {
+    display: grid;
+    grid-template-columns: 18px 1fr 36px 40px;
+    gap: 6px;
+    align-items: center;
+    padding: 3px 4px;
+    border-radius: 3px;
+}
+.pokemon-rpg .skill-row:hover {
+    background: rgba(204,0,0,0.05);
+}
+.pokemon-rpg .prof-toggle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid var(--pkrpg-muted);
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+.pokemon-rpg .prof-toggle.is-proficient {
+    background: var(--pkrpg-accent);
+    border-color: var(--pkrpg-accent);
+}
+.pokemon-rpg .skill-name {
+    cursor: pointer;
+}
+.pokemon-rpg .skill-name:hover {
+    color: var(--pkrpg-accent);
+    text-decoration: underline;
+}
+.pokemon-rpg .skill-mod {
+    text-align: right;
+    font-weight: 600;
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg .skill-bonus {
+    width: 36px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+/* ----- Items lists ----- */
+.pokemon-rpg .item-section {
+    margin-bottom: 12px;
+}
+.pokemon-rpg .item-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--pkrpg-border);
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+}
+.pokemon-rpg .item-section-header h3 {
+    margin: 0;
+    font-size: 1em;
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg .header-actions {
+    display: flex;
+    gap: 6px;
+}
+.pokemon-rpg .create-btn,
+.pokemon-rpg .restore-btn {
+    background: var(--pkrpg-accent);
+    color: white;
+    border: 0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+.pokemon-rpg .create-btn:hover,
+.pokemon-rpg .restore-btn:hover {
+    background: var(--pkrpg-accent-soft);
+}
+.pokemon-rpg .restore-btn {
+    background: #2a7;
+}
+.pokemon-rpg .restore-btn:hover {
+    background: #3b8;
+}
+.pokemon-rpg .items-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pokemon-rpg .items-list .item {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 6px;
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 4px;
+    transition: border-color 0.15s;
+}
+.pokemon-rpg .items-list .item:hover {
+    border-color: var(--pkrpg-accent);
+}
+.pokemon-rpg .items-list .item-img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.pokemon-rpg .item-name {
+    font-weight: 500;
+}
+.pokemon-rpg .item-meta {
+    font-size: 0.8em;
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg .item-controls {
+    display: flex;
+    gap: 6px;
+}
+.pokemon-rpg .item-controls a {
+    color: var(--pkrpg-muted);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.pokemon-rpg .item-controls a:hover {
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg .empty {
+    list-style: none;
+    padding: 12px;
+    text-align: center;
+    color: var(--pkrpg-muted);
+    font-style: italic;
+    border: 1px dashed var(--pkrpg-border);
+    border-radius: 4px;
+}
+
+/* ----- Moves specific ----- */
+.pokemon-rpg .moves-list .move-item {
+    grid-template-columns: 32px 1fr auto auto;
+}
+.pokemon-rpg .move-name {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.pokemon-rpg .move-name:hover {
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg .move-stats {
+    font-size: 0.85em;
+    color: var(--pkrpg-muted);
+    display: flex;
+    gap: 8px;
+}
+.pokemon-rpg .move-stats span {
+    white-space: nowrap;
+}
+
+/* ----- Type & category badges ----- */
+.pokemon-rpg .type-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.05em;
+}
+.pokemon-rpg .cat-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 0.7em;
+    font-weight: 500;
+    background: rgba(0,0,0,0.1);
+}
+.pokemon-rpg .cat-physical { background: #c0392b; color: white; }
+.pokemon-rpg .cat-special  { background: #2980b9; color: white; }
+.pokemon-rpg .cat-status   { background: #7f8c8d; color: white; }
+
+.pokemon-rpg .type-normal   { background: #A8A77A; }
+.pokemon-rpg .type-fire     { background: #EE8130; }
+.pokemon-rpg .type-water    { background: #6390F0; }
+.pokemon-rpg .type-grass    { background: #7AC74C; }
+.pokemon-rpg .type-electric { background: #F7D02C; color: #333; }
+.pokemon-rpg .type-ice      { background: #96D9D6; color: #333; }
+.pokemon-rpg .type-fighting { background: #C22E28; }
+.pokemon-rpg .type-poison   { background: #A33EA1; }
+.pokemon-rpg .type-ground   { background: #E2BF65; color: #333; }
+.pokemon-rpg .type-flying   { background: #A98FF3; }
+.pokemon-rpg .type-psychic  { background: #F95587; }
+.pokemon-rpg .type-bug      { background: #A6B91A; }
+.pokemon-rpg .type-rock     { background: #B6A136; }
+.pokemon-rpg .type-ghost    { background: #735797; }
+.pokemon-rpg .type-dragon   { background: #6F35FC; }
+.pokemon-rpg .type-dark     { background: #705746; }
+.pokemon-rpg .type-steel    { background: #B7B7CE; color: #333; }
+.pokemon-rpg .type-fairy    { background: #D685AD; }
+
+/* ----- Party ----- */
+.pokemon-rpg .party-help {
+    background: rgba(0,0,0,0.04);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    margin-bottom: 8px;
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg .party-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.pokemon-rpg .party-member {
+    display: grid;
+    grid-template-columns: 56px 1fr auto;
+    gap: 10px;
+    align-items: center;
+    padding: 6px;
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    transition: all 0.15s;
+}
+.pokemon-rpg .party-member.is-active {
+    border-color: var(--pkrpg-accent);
+    box-shadow: 0 0 0 2px rgba(204,0,0,0.1);
+}
+.pokemon-rpg .party-member .poke-img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.pokemon-rpg .poke-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pokemon-rpg .poke-name {
+    font-weight: 600;
+}
+.pokemon-rpg .poke-name small {
+    color: var(--pkrpg-muted);
+    font-weight: 400;
+}
+.pokemon-rpg .poke-meta {
+    font-size: 0.85em;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pokemon-rpg .poke-hp {
+    font-size: 0.85em;
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg .poke-controls {
+    display: flex;
+    gap: 8px;
+}
+.pokemon-rpg .poke-controls a {
+    color: var(--pkrpg-muted);
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.pokemon-rpg .poke-controls a:hover {
+    color: var(--pkrpg-accent);
+}
+
+/* ----- Forms (item sheet) ----- */
+.pokemon-rpg .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.pokemon-rpg .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.pokemon-rpg .form-group.full {
+    grid-column: 1 / -1;
+}
+.pokemon-rpg .form-group label {
+    font-size: 0.8em;
+    color: var(--pkrpg-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.pokemon-rpg .form-group .hint {
+    font-size: 0.75em;
+    color: var(--pkrpg-muted);
+    font-style: italic;
+    margin: 0;
+}
+.pokemon-rpg fieldset {
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.pokemon-rpg fieldset legend {
+    font-weight: 600;
+    color: var(--pkrpg-accent);
+    padding: 0 4px;
+    font-size: 0.9em;
+}
+.pokemon-rpg .description-section {
+    margin-top: 12px;
+}
+.pokemon-rpg .description-section h3 {
+    margin: 0 0 4px;
+    color: var(--pkrpg-accent);
+    font-size: 1em;
+}
+.pokemon-rpg .item-type-badge {
+    display: inline-block;
+    background: var(--pkrpg-accent);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    align-self: flex-start;
+}
+
+/* ----- Bio ----- */
+.pokemon-rpg .bio-section {
+    margin-bottom: 12px;
+}
+.pokemon-rpg .bio-section h3 {
+    color: var(--pkrpg-accent);
+    margin: 0 0 4px;
+    font-size: 1em;
+}
+.pokemon-rpg prose-mirror {
+    min-height: 120px;
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 4px;
+    padding: 6px;
+    display: block;
+}
+
+/* ----- Trainer details ----- */
+.pokemon-rpg .trainer-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    background: white;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--pkrpg-border);
+}
+
+/* ----- Species block ----- */
+.pokemon-rpg .species-block {
+    margin-top: 12px;
+}
+
+/* ----- Chat cards ----- */
+.pokemon-rpg.move-card,
+.pokemon-rpg.item-card {
+    background: white;
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    padding: 8px;
+}
+.pokemon-rpg.move-card header h3 {
+    margin: 0 0 4px;
+    color: var(--pkrpg-accent);
+}
+.pokemon-rpg.move-card .move-tags {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+.pokemon-rpg.move-card .accuracy-roll,
+.pokemon-rpg.move-card .damage-roll {
+    margin: 4px 0;
+    padding: 4px 6px;
+    background: rgba(0,0,0,0.04);
+    border-radius: 4px;
+}
+.pokemon-rpg.move-card .effect {
+    margin-top: 6px;
+    font-style: italic;
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg.move-card footer {
+    margin-top: 6px;
+    font-size: 0.8em;
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg.move-card .warning {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+/* ----- Type badges visible from chat ----- */
+#chat-log .pokemon-rpg .type-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Inherit the type-XXX classes globally for chat cards */
+.type-normal   { background: #A8A77A; }
+.type-fire     { background: #EE8130; }
+/* (others inherited above via .pokemon-rpg .type-xxx specifically; chat
+   markup includes .pokemon-rpg as wrapper so it works.) */
+
+.pokemon-rpg .badge.hidden-badge {
+    background: var(--pkrpg-accent);
+    color: white;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 0.7em;
+    margin-left: 4px;
+}
+.pokemon-rpg .cap-value {
+    background: rgba(0,0,0,0.1);
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 0.85em;
+    margin-left: 4px;
+}

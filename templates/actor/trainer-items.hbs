@@ -1,0 +1,125 @@
+<section class="tab" data-tab="items" data-group="primary">
+
+    {{!-- Resumo de pontos de talento --}}
+    <div class="talent-points-summary">
+        <span class="tp-icon">🎯</span>
+        <strong>{{localize "POKEMON_RPG.TalentPoints.Label"}}:</strong>
+        <span class="tp-counter">{{system.talentPoints.available}} / {{system.talentPoints.max}}</span>
+        <em class="tp-spent">({{localize "POKEMON_RPG.TalentPoints.Spent"}}: {{system.talentPoints.spent}})</em>
+    </div>
+
+    {{!-- Bloco de classes/subclasses adquiridas --}}
+    <div class="item-section">
+        <header class="item-section-header">
+            <h3>{{localize "POKEMON_RPG.Classes"}}</h3>
+            <button type="button" data-action="itemCreate" data-type="class" class="create-btn">
+                + {{localize "POKEMON_RPG.NewClass"}}
+            </button>
+        </header>
+
+        {{#if classGroups.length}}
+            {{#each classGroups}}
+            <article class="class-block" data-class-slug="{{this.slug}}">
+                <header class="class-block-header" data-item-id="{{this.class.id}}">
+                    <img src="{{this.class.img}}" class="item-img"/>
+                    <div class="class-title">
+                        <strong>{{this.class.name}}</strong>
+                        {{#if this.isSubclass}}
+                        <span class="subclass-tag">
+                            {{localize "POKEMON_RPG.Subclass"}}{{#if this.parentLabel}} · {{this.parentLabel}}{{/if}}
+                        </span>
+                        {{else}}
+                        <span class="class-tag">{{localize "POKEMON_RPG.MainClass"}}</span>
+                        {{/if}}
+                    </div>
+                    <div class="item-controls">
+                        <a data-action="itemEdit" title="{{localize 'POKEMON_RPG.Edit'}}"><i class="fas fa-edit"></i></a>
+                        <a data-action="itemDelete" title="{{localize 'POKEMON_RPG.Delete'}}"><i class="fas fa-trash"></i></a>
+                    </div>
+                </header>
+
+                {{!-- Talentos concedidos por esta classe --}}
+                <div class="class-talent-storage">
+                    <h4 class="storage-title">{{localize "POKEMON_RPG.TalentsOfClass"}}</h4>
+                    <ul class="items-list compact">
+                        {{#each this.talents}}
+                        <li class="item" data-item-id="{{this.id}}">
+                            <img src="{{this.img}}" class="item-img"/>
+                            <div class="item-name">{{this.name}}</div>
+                            <div class="item-meta">
+                                {{localize "POKEMON_RPG.Level"}} {{this.system.requiredLevel}} · {{this.system.activation}}
+                            </div>
+                            <div class="item-controls">
+                                <a data-action="itemUse" title="{{localize 'POKEMON_RPG.Post'}}"><i class="fas fa-comment"></i></a>
+                                <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                                <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </li>
+                        {{else}}
+                        <li class="empty">{{localize "POKEMON_RPG.NoClassTalents"}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </article>
+            {{/each}}
+        {{else}}
+        <ul class="items-list">
+            <li class="empty">{{localize "POKEMON_RPG.NoClasses"}}</li>
+        </ul>
+        {{/if}}
+    </div>
+
+    {{!-- Bloco de talentos gerais --}}
+    <div class="item-section">
+        <header class="item-section-header">
+            <h3>{{localize "POKEMON_RPG.GeneralTalents"}}</h3>
+            <button type="button" data-action="itemCreate" data-type="talent" class="create-btn">
+                + {{localize "POKEMON_RPG.NewTalent"}}
+            </button>
+        </header>
+        <ul class="items-list">
+            {{#each generalTalents}}
+            <li class="item" data-item-id="{{this.id}}">
+                <img src="{{this.img}}" class="item-img"/>
+                <div class="item-name">{{this.name}}</div>
+                <div class="item-meta">
+                    {{localize "POKEMON_RPG.Level"}} {{this.system.requiredLevel}} · {{this.system.activation}}
+                </div>
+                <div class="item-controls">
+                    <a data-action="itemUse" title="{{localize 'POKEMON_RPG.Post'}}"><i class="fas fa-comment"></i></a>
+                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                </div>
+            </li>
+            {{else}}
+            <li class="empty">{{localize "POKEMON_RPG.NoGeneralTalents"}}</li>
+            {{/each}}
+        </ul>
+    </div>
+
+    {{!-- Bloco de talentos órfãos (sem classe correspondente nas classes do treinador) --}}
+    {{#if orphanTalents.length}}
+    <div class="item-section orphan-talents">
+        <header class="item-section-header">
+            <h3>{{localize "POKEMON_RPG.OrphanTalents"}}</h3>
+        </header>
+        <ul class="items-list">
+            {{#each orphanTalents}}
+            <li class="item" data-item-id="{{this.id}}">
+                <img src="{{this.img}}" class="item-img"/>
+                <div class="item-name">{{this.name}}</div>
+                <div class="item-meta">
+                    {{localize "POKEMON_RPG.Level"}} {{this.system.requiredLevel}}
+                    {{#if this.system.sourceClass}} · {{this.system.sourceClass}}{{/if}}
+                </div>
+                <div class="item-controls">
+                    <a data-action="itemUse" title="{{localize 'POKEMON_RPG.Post'}}"><i class="fas fa-comment"></i></a>
+                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    {{/if}}
+</section>

@@ -1,0 +1,13 @@
+{
+  "name": "Treinador",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>A classe básica para qualquer pessoa que treine Pokémons. Versátil e equilibrada — não brilha em nada, mas se vira bem em qualquer situação.</p>",
+    "keyAttribute": "spa",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": ["intimidacao", "empatia", "percepcao"]
+  }
+}

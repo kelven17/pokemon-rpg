@@ -1,0 +1,30 @@
+<section class="tab" data-tab="skills" data-group="primary">
+    <div class="skills-container">
+        {{#each skillsByAttribute as |group attr|}}
+        <div class="skill-group">
+            <h3 class="skill-group-title">{{group.attrLabel}}</h3>
+            <ul class="skill-list">
+                {{#each group.skills}}
+                <li class="skill-row">
+                    <button type="button"
+                            class="prof-toggle {{#if proficient}}is-proficient{{/if}}"
+                            data-action="toggleProficiency"
+                            data-skill="{{key}}"
+                            title="{{localize 'POKEMON_RPG.ToggleProficiency'}}">●</button>
+                    <span class="skill-name" data-action="rollSkill" data-skill="{{key}}">
+                        {{label}}
+                    </span>
+                    <span class="skill-mod">{{signed mod}}</span>
+                    <input type="number"
+                           class="skill-bonus"
+                           name="system.skills.{{key}}.bonus"
+                           value="{{bonus}}"
+                           data-dtype="Number"
+                           title="{{localize 'POKEMON_RPG.MiscBonus'}}"/>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/each}}
+    </div>
+</section>

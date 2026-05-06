@@ -1,0 +1,10 @@
+{
+  "name": "Intimidação",
+  "type": "ability",
+  "img": "icons/svg/terror.svg",
+  "system": {
+    "description": "<p>Ao entrar em batalha, o Pokémon intimida adversários, reduzindo o Ataque deles em 1 nível.</p>",
+    "hidden": false,
+    "trigger": "Ao entrar em batalha"
+  }
+}

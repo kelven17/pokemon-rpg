@@ -1,0 +1,55 @@
+<section class="tab" data-tab="abilities" data-group="primary">
+    <div class="item-section">
+        <header class="item-section-header">
+            <h3>{{localize "POKEMON_RPG.Abilities"}}</h3>
+            <button type="button" data-action="itemCreate" data-type="ability" class="create-btn">
+                + {{localize "POKEMON_RPG.NewAbility"}}
+            </button>
+        </header>
+        <ul class="items-list">
+            {{#each itemsByType.ability}}
+            <li class="item" data-item-id="{{this.id}}">
+                <img src="{{this.img}}" class="item-img"/>
+                <div class="item-name">
+                    {{this.name}}
+                    {{#if this.system.hidden}}<span class="badge hidden-badge">{{localize "POKEMON_RPG.HiddenAbility"}}</span>{{/if}}
+                </div>
+                <div class="item-meta">{{this.system.trigger}}</div>
+                <div class="item-controls">
+                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                </div>
+            </li>
+            {{else}}
+            <li class="empty">{{localize "POKEMON_RPG.NoAbilities"}}</li>
+            {{/each}}
+        </ul>
+    </div>
+
+    <div class="item-section">
+        <header class="item-section-header">
+            <h3>{{localize "POKEMON_RPG.Capacities"}}</h3>
+            <button type="button" data-action="itemCreate" data-type="capacity" class="create-btn">
+                + {{localize "POKEMON_RPG.NewCapacity"}}
+            </button>
+        </header>
+        <ul class="items-list">
+            {{#each itemsByType.capacity}}
+            <li class="item" data-item-id="{{this.id}}">
+                <img src="{{this.img}}" class="item-img"/>
+                <div class="item-name">
+                    {{this.name}}
+                    {{#if this.system.value}}<span class="cap-value">{{this.system.value}}</span>{{/if}}
+                </div>
+                <div class="item-meta">{{this.system.category}}</div>
+                <div class="item-controls">
+                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                </div>
+            </li>
+            {{else}}
+            <li class="empty">{{localize "POKEMON_RPG.NoCapacities"}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</section>

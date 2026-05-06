@@ -1,0 +1,41 @@
+<section class="tab" data-tab="moves" data-group="primary">
+    <header class="item-section-header">
+        <h3>{{localize "POKEMON_RPG.Moves"}}</h3>
+        <div class="header-actions">
+            <button type="button" data-action="restorePP" class="restore-btn">
+                <i class="fas fa-bed"></i> {{localize "POKEMON_RPG.RestorePP"}}
+            </button>
+            <button type="button" data-action="itemCreate" data-type="move" class="create-btn">
+                + {{localize "POKEMON_RPG.NewMove"}}
+            </button>
+        </div>
+    </header>
+    <ul class="items-list moves-list">
+        {{#each itemsByType.move}}
+        <li class="item move-item type-{{this.system.type}}" data-item-id="{{this.id}}">
+            <img src="{{this.img}}" class="item-img"/>
+            <div class="move-name" data-action="rollMove">
+                {{this.name}}
+                <span class="type-badge type-{{this.system.type}}">
+                    {{localize (lookup @root.config.types this.system.type)}}
+                </span>
+                <span class="cat-badge cat-{{this.system.category}}">
+                    {{localize (lookup @root.config.moveCategories this.system.category)}}
+                </span>
+            </div>
+            <div class="move-stats">
+                {{#if this.system.power}}<span title="Power">⚡ {{this.system.power}}</span>{{/if}}
+                {{#if this.system.accuracy}}<span title="Accuracy">🎯 {{this.system.accuracy}}</span>{{/if}}
+                <span title="PP">PP {{this.system.pp.value}}/{{this.system.pp.max}}</span>
+            </div>
+            <div class="item-controls">
+                <a data-action="rollMove" title="{{localize 'POKEMON_RPG.UseMove'}}"><i class="fas fa-bolt"></i></a>
+                <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
+                <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+            </div>
+        </li>
+        {{else}}
+        <li class="empty">{{localize "POKEMON_RPG.NoMoves"}}</li>
+        {{/each}}
+    </ul>
+</section>

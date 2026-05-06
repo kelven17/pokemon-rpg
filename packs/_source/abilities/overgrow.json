@@ -1,0 +1,10 @@
+{
+  "name": "Crescimento Vegetal",
+  "type": "ability",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "<p>Quando o Pokémon está com 1/3 ou menos de seu HP máximo, o poder de seus golpes do tipo Planta aumenta em 50%.</p>",
+    "hidden": false,
+    "trigger": "HP ≤ 1/3 do máximo"
+  }
+}

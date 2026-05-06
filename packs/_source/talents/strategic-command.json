@@ -1,0 +1,12 @@
+{
+  "name": "Comando Estratégico",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Como ação bônus, você pode dar uma ordem complexa ao seu Pokémon ativo. Ele ganha vantagem na próxima rolagem de golpe ou perícia neste turno.</p>",
+    "classRestriction": "",
+    "requiredLevel": 3,
+    "activation": "bonus",
+    "prerequisites": "Mod. de Ataque Especial +2 ou superior"
+  }
+}

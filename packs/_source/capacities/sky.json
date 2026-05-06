@@ -1,0 +1,10 @@
+{
+  "name": "Velocidade de Voo",
+  "type": "capacity",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "<p>Quão rapidamente o Pokémon voa. Em metros por turno.</p>",
+    "value": 8,
+    "category": "movement"
+  }
+}

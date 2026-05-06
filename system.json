@@ -1,0 +1,89 @@
+{
+  "id": "pokemon-rpg",
+  "title": "Pokémon RPG",
+  "description": "Sistema de RPG híbrido D&D + Pokémon. Treinadores com classes, perícias e talentos comandam Pokémons com tipos, golpes e habilidades.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Pokémon RPG Team"
+    }
+  ],
+  "esmodules": [
+    "module/pokemon.mjs"
+  ],
+  "styles": [
+    "styles/pokemon.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "moves",
+      "label": "Golpes",
+      "path": "packs/moves",
+      "type": "Item",
+      "system": "pokemon-rpg"
+    },
+    {
+      "name": "talents",
+      "label": "Talentos",
+      "path": "packs/talents",
+      "type": "Item",
+      "system": "pokemon-rpg"
+    },
+    {
+      "name": "abilities",
+      "label": "Habilidades",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "pokemon-rpg"
+    },
+    {
+      "name": "capacities",
+      "label": "Capacidades",
+      "path": "packs/capacities",
+      "type": "Item",
+      "system": "pokemon-rpg"
+    },
+    {
+      "name": "species",
+      "label": "Espécies",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "pokemon-rpg"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Pokémon RPG",
+      "sorting": "m",
+      "color": "#cc0000",
+      "packs": ["moves", "talents", "abilities", "capacities", "species"]
+    }
+  ],
+  "grid": {
+    "distance": 1.5,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "attributes.hp",
+  "url": "https://example.com",
+  "manifest": "https://example.com/system.json",
+  "download": "https://example.com/pokemon-rpg.zip",
+  "license": "LICENSE.md",
+  "readme": "README.md"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Velocidade Terrestre",
+  "type": "capacity",
+  "img": "icons/svg/footprint.svg",
+  "system": {
+    "description": "<p>Quão rapidamente o Pokémon se move em terra firme. Em metros por turno.</p>",
+    "value": 6,
+    "category": "movement"
+  }
+}

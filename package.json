@@ -1,0 +1,15 @@
+{
+  "name": "pokemon-rpg-build",
+  "version": "0.1.0",
+  "description": "Build tools for the Pokémon RPG Foundry system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:packs": "node tools/build-packs.mjs",
+    "unpack:packs": "node tools/unpack-packs.mjs",
+    "clean:packs": "node tools/clean-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

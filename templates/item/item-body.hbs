@@ -1,0 +1,232 @@
+<section class="item-body">
+    {{!-- MOVE --}}
+    {{#if (eq item.type "move")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Type"}}</label>
+            <select name="system.type">
+                {{#each typeChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.type)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.MoveCategory"}}</label>
+            <select name="system.category">
+                {{#each moveCategoryChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.category)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Power"}}</label>
+            <input type="number" name="system.power" value="{{system.power}}" data-dtype="Number"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Accuracy"}}</label>
+            <input type="number" name="system.accuracy" value="{{system.accuracy}}" data-dtype="Number" min="0"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.PP"}}</label>
+            <div class="hp-row">
+                <input type="number" name="system.pp.value" value="{{system.pp.value}}" data-dtype="Number"/>
+                <span class="separator">/</span>
+                <input type="number" name="system.pp.max" value="{{system.pp.max}}" data-dtype="Number"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.LearnLevel"}}</label>
+            <input type="number" name="system.learnLevel" value="{{system.learnLevel}}" data-dtype="Number" min="0"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Priority"}}</label>
+            <input type="number" name="system.priority" value="{{system.priority}}" data-dtype="Number"/>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.DamageFormula"}}</label>
+            <input type="text" name="system.damageFormula" value="{{system.damageFormula}}" placeholder="ex: 2d6 + @atk"/>
+            <p class="hint">{{localize "POKEMON_RPG.DamageFormulaHint"}}</p>
+        </div>
+    </div>
+    <div class="form-group full">
+        <label>{{localize "POKEMON_RPG.Effect"}}</label>
+        <prose-mirror name="system.effect" value="{{system.effect}}" toggled></prose-mirror>
+    </div>
+    {{/if}}
+
+    {{!-- TALENT --}}
+    {{#if (eq item.type "talent")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.TalentCategory.Label"}}</label>
+            <select name="system.category">
+                {{#each talentCategoryChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.category)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.SourceClass"}}</label>
+            <select name="system.sourceClass">
+                <option value="" {{#unless system.sourceClass}}selected{{/unless}}>—</option>
+                {{#each classSlugChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.sourceClass)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.RequiredLevel"}}</label>
+            <input type="number" name="system.requiredLevel" value="{{system.requiredLevel}}" data-dtype="Number" min="1"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Activation"}}</label>
+            <select name="system.activation">
+                <option value="passive" {{#if (eq system.activation "passive")}}selected{{/if}}>Passiva</option>
+                <option value="action" {{#if (eq system.activation "action")}}selected{{/if}}>Ação</option>
+                <option value="bonus" {{#if (eq system.activation "bonus")}}selected{{/if}}>Bônus</option>
+                <option value="reaction" {{#if (eq system.activation "reaction")}}selected{{/if}}>Reação</option>
+                <option value="free" {{#if (eq system.activation "free")}}selected{{/if}}>Livre</option>
+            </select>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.ClassRestriction"}}</label>
+            <input type="text" name="system.classRestriction" value="{{system.classRestriction}}" placeholder="(opcional, texto livre)"/>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Prerequisites"}}</label>
+            <input type="text" name="system.prerequisites" value="{{system.prerequisites}}"/>
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- CLASS --}}
+    {{#if (eq item.type "class")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.ClassSlug"}}</label>
+            <select name="system.slug">
+                <option value="" {{#unless system.slug}}selected{{/unless}}>—</option>
+                {{#each classSlugChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.slug)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.ParentClass"}}</label>
+            <select name="system.parentClass">
+                <option value="" {{#unless system.parentClass}}selected{{/unless}}>— ({{localize "POKEMON_RPG.MainClass"}})</option>
+                {{#each parentClassChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.parentClass)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.KeyAttribute"}}</label>
+            <select name="system.keyAttribute">
+                {{#each attributeChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.keyAttribute)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.HpBase"}}</label>
+            <input type="number" name="system.hpBase" value="{{system.hpBase}}" data-dtype="Number" min="1"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.HpPerLevel"}}</label>
+            <input type="number" name="system.hpPerLevel" value="{{system.hpPerLevel}}" data-dtype="Number" min="0"/>
+        </div>
+    </div>
+    <fieldset class="class-requirements">
+        <legend>{{localize "POKEMON_RPG.Requirements.Title"}}</legend>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Requirements.SameTree"}}</label>
+            <input type="text" name="system.requirementsSameTree" value="{{system.requirementsSameTree}}" placeholder="{{localize 'POKEMON_RPG.Requirements.SameTreeHint'}}"/>
+            <p class="hint">{{localize "POKEMON_RPG.Requirements.SameTreeHint"}}</p>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Requirements.Other"}}</label>
+            <input type="text" name="system.requirementsOther" value="{{system.requirementsOther}}" placeholder="{{localize 'POKEMON_RPG.Requirements.OtherHint'}}"/>
+            <p class="hint">{{localize "POKEMON_RPG.Requirements.OtherHint"}}</p>
+        </div>
+    </fieldset>
+    {{/if}}
+
+    {{!-- ABILITY --}}
+    {{#if (eq item.type "ability")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>
+                <input type="checkbox" name="system.hidden" {{#if system.hidden}}checked{{/if}}/>
+                {{localize "POKEMON_RPG.HiddenAbility"}}
+            </label>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Trigger"}}</label>
+            <input type="text" name="system.trigger" value="{{system.trigger}}"/>
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- CAPACITY --}}
+    {{#if (eq item.type "capacity")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Category"}}</label>
+            <select name="system.category">
+                <option value="movement" {{#if (eq system.category "movement")}}selected{{/if}}>Movimento</option>
+                <option value="sense" {{#if (eq system.category "sense")}}selected{{/if}}>Sentido</option>
+                <option value="special" {{#if (eq system.category "special")}}selected{{/if}}>Especial</option>
+                <option value="naturewalk" {{#if (eq system.category "naturewalk")}}selected{{/if}}>Naturewalk</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Value"}}</label>
+            <input type="number" name="system.value" value="{{system.value}}" data-dtype="Number"/>
+        </div>
+    </div>
+    {{/if}}
+
+    {{!-- SPECIES --}}
+    {{#if (eq item.type "species")}}
+    <div class="form-grid">
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.DexNumber"}}</label>
+            <input type="number" name="system.dexNumber" value="{{system.dexNumber}}" data-dtype="Number"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Type.Primary"}}</label>
+            <select name="system.types.primary">
+                {{#each typeChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.types.primary)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Type.Secondary"}}</label>
+            <select name="system.types.secondary">
+                <option value="" {{#unless system.types.secondary}}selected{{/unless}}>—</option>
+                {{#each typeChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.types.secondary)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+    </div>
+    <fieldset>
+        <legend>{{localize "POKEMON_RPG.BaseStats"}}</legend>
+        <div class="form-grid">
+            <div class="form-group"><label>HP</label>  <input type="number" name="system.baseStats.hp"  value="{{system.baseStats.hp}}"  data-dtype="Number" min="1"/></div>
+            <div class="form-group"><label>Atk</label> <input type="number" name="system.baseStats.atk" value="{{system.baseStats.atk}}" data-dtype="Number" min="1"/></div>
+            <div class="form-group"><label>Def</label> <input type="number" name="system.baseStats.def" value="{{system.baseStats.def}}" data-dtype="Number" min="1"/></div>
+            <div class="form-group"><label>SpA</label> <input type="number" name="system.baseStats.spa" value="{{system.baseStats.spa}}" data-dtype="Number" min="1"/></div>
+            <div class="form-group"><label>SpD</label> <input type="number" name="system.baseStats.spd" value="{{system.baseStats.spd}}" data-dtype="Number" min="1"/></div>
+            <div class="form-group"><label>Spe</label> <input type="number" name="system.baseStats.spe" value="{{system.baseStats.spe}}" data-dtype="Number" min="1"/></div>
+        </div>
+    </fieldset>
+    {{/if}}
+
+    <div class="description-section">
+        <h3>{{localize "POKEMON_RPG.Description"}}</h3>
+        <prose-mirror name="system.description" value="{{system.description}}" toggled></prose-mirror>
+    </div>
+</section>

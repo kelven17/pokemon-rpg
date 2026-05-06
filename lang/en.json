@@ -1,0 +1,277 @@
+{
+  "POKEMON_RPG": {
+    "TrainerName": "Trainer Name",
+    "SpeciesName": "Species",
+    "Nickname": "Nickname",
+    "Level": "Level",
+    "Proficiency": "Proficiency",
+    "XP": "XP",
+    "Hometown": "Hometown",
+    "Occupation": "Occupation",
+    "Age": "Age",
+    "Money": "Money",
+    "Type": "Type",
+    "Trainer": "Trainer",
+    "Species": "Species",
+    "DexNumber": "Dex No.",
+    "Nature": "Nature",
+    "Gender": "Gender",
+    "Status": "Status",
+    "Biography": "Biography",
+    "Notes": "Notes",
+    "Description": "Description",
+    "Moves": "Moves",
+    "Abilities": "Abilities",
+    "Capacities": "Capacities",
+    "Talents": "Talents",
+    "Classes": "Classes",
+    "Power": "Power",
+    "Accuracy": "Accuracy",
+    "PP": "PP",
+    "MoveCategory": "Category",
+    "DamageFormula": "Damage Formula",
+    "DamageFormulaHint": "Leave empty for automatic calculation based on power.",
+    "Effect": "Effect",
+    "LearnLevel": "Learn Level",
+    "Priority": "Priority",
+    "RequiredLevel": "Required Level",
+    "Activation": "Activation",
+    "ClassRestriction": "Class Restriction",
+    "Prerequisites": "Prerequisites",
+    "KeyAttribute": "Key Attribute",
+    "HpBase": "HP Base",
+    "HpPerLevel": "HP per Level",
+    "HiddenAbility": "Hidden Ability",
+    "Trigger": "Trigger",
+    "Category": "Category",
+    "Value": "Value",
+    "BaseStats": "Base Stats",
+    "MiscBonus": "Misc bonus",
+    "ToggleProficiency": "Toggle proficiency",
+    "View": "View",
+    "Edit": "Edit",
+    "Delete": "Delete",
+    "Post": "Post to chat",
+    "UseMove": "Use move",
+    "RestorePP": "Restore PP",
+    "SetActive": "Set as active",
+    "OpenSheet": "Open sheet",
+    "RemoveFromParty": "Remove from party",
+    "EmptyParty": "No Pokémon in party. Drag a Pokémon here.",
+    "PartyDropHint": "Drag Pokémon Actors here to add them to the party (max 6).",
+    "NoMoves": "No moves.",
+    "NoAbilities": "No abilities.",
+    "NoCapacities": "No capacities.",
+    "NoTalents": "No talents.",
+    "NoClasses": "No classes.",
+    "NewMove": "New Move",
+    "NewAbility": "New Ability",
+    "NewCapacity": "New Capacity",
+    "NewTalent": "New Talent",
+    "NewClass": "New Class",
+    "NewItem": "New {type}",
+
+    "Tab": {
+      "Main": "Main",
+      "Skills": "Skills",
+      "Items": "Items",
+      "Party": "Party",
+      "Bio": "Biography",
+      "Moves": "Moves",
+      "Abilities": "Abilities"
+    },
+
+    "Sheet": {
+      "Trainer": "Trainer Sheet",
+      "Pokemon": "Pokémon Sheet",
+      "Item": "Item Sheet"
+    },
+
+    "Attribute": {
+      "HP": "Health",
+      "Atk": "Attack",
+      "Def": "Defense",
+      "SpA": "Special Attack",
+      "SpD": "Special Defense",
+      "Spe": "Speed"
+    },
+
+    "AttributeAbbr": {
+      "HP": "HP",
+      "Atk": "ATK",
+      "Def": "DEF",
+      "SpA": "SpA",
+      "SpD": "SpD",
+      "Spe": "SPE"
+    },
+
+    "Evasion": {
+      "Title":    "Evasion",
+      "Physical": "Physical Evasion",
+      "Special":  "Special Evasion",
+      "Fast":     "Speed Evasion",
+      "PhysicalAbbr": "EV.PHY",
+      "SpecialAbbr":  "EV.SPE",
+      "FastAbbr":     "EV.SPD"
+    },
+
+    "TalentPoints": {
+      "Label":  "Talent Points",
+      "Spent":  "spent",
+      "Hint":   "Available / total earned by level"
+    },
+
+    "Subclass":         "Subclass",
+    "MainClass":        "Main Class",
+    "ParentClass":      "Parent Class",
+    "ClassSlug":        "Class Identifier",
+    "SourceClass":      "Source Class",
+    "GeneralTalents":   "General Talents",
+    "OrphanTalents":    "Unattached Talents",
+    "TalentsOfClass":   "Talents of this class",
+    "NoClassTalents":   "No talents from this class yet.",
+    "NoGeneralTalents": "No general talents.",
+
+    "TalentCategory": {
+      "Label":   "Category",
+      "General": "General",
+      "Class":   "Class-Granted"
+    },
+
+    "Requirements": {
+      "Title":          "Acquisition Requirements",
+      "SameTree":       "Subclass of Own Class",
+      "SameTreeHint":   "Requirements when the trainer already has the parent class.",
+      "Other":          "Multiclass (Other Tree)",
+      "OtherHint":      "Requirements when coming from a different class/subclass tree."
+    },
+
+    "Class": {
+      "Treinador":         "Trainer",
+      "Elementalista":     "Elementalist",
+      "Especialista":      "Specialist",
+      "Captor":            "Captor",
+      "Engenheiro":        "Engineer",
+      "Ladrao":            "Thief",
+      "Artifice":          "Artificer",
+      "Criador":           "Breeder",
+      "Medico":            "Medic",
+      "Evolucionista":     "Evolutionist",
+      "Tutor":             "Tutor",
+      "Artista":           "Artist",
+      "Cuidador":          "Caretaker",
+      "Observador":        "Observer",
+      "Pesquisador":       "Researcher",
+      "Fotografo":         "Photographer",
+      "Hipnologo":         "Hypnologist",
+      "Ranger":            "Ranger",
+      "Guia":              "Guide",
+      "Guerreiro":         "Warrior",
+      "Monge":             "Monk",
+      "Ninja":             "Ninja",
+      "Soldado":           "Soldier",
+      "Empatico":          "Empath",
+      "Vidente":           "Seer",
+      "Psiquico":          "Psychic",
+      "DobradorElemental": "Element Bender",
+      "Mistico":           "Mystic",
+      "Medium":            "Medium",
+      "Ilusionista":       "Illusionist",
+      "Runico":            "Runic",
+      "Xama":              "Shaman"
+    },
+
+    "Skill": {
+      "Corrida": "Running",
+      "Salto": "Jumping",
+      "Forca": "Force",
+      "Intimidacao": "Intimidation",
+      "Resiliencia": "Resilience",
+      "Jejum": "Fasting",
+      "Apneia": "Apnea",
+      "Imunidade": "Immunity",
+      "Incansavel": "Tireless",
+      "Regeneracao": "Regeneration",
+      "Deflexao": "Deflection",
+      "Concentracao": "Concentration",
+      "Historia": "History",
+      "Programacao": "Programming",
+      "Investigacao": "Investigation",
+      "Engenharia": "Engineering",
+      "Prestidigitacao": "Sleight of Hand",
+      "Acrobacia": "Acrobatics",
+      "Performance": "Performance",
+      "Furtividade": "Stealth",
+      "Empatia": "Empathy",
+      "Manipulacao": "Manipulation",
+      "Percepcao": "Perception",
+      "Manha": "Cunning"
+    },
+
+    "Type": {
+      "Primary": "Primary",
+      "Secondary": "Secondary",
+      "Normal": "Normal",
+      "Fire": "Fire",
+      "Water": "Water",
+      "Grass": "Grass",
+      "Electric": "Electric",
+      "Ice": "Ice",
+      "Fighting": "Fighting",
+      "Poison": "Poison",
+      "Ground": "Ground",
+      "Flying": "Flying",
+      "Psychic": "Psychic",
+      "Bug": "Bug",
+      "Rock": "Rock",
+      "Ghost": "Ghost",
+      "Dragon": "Dragon",
+      "Dark": "Dark",
+      "Steel": "Steel",
+      "Fairy": "Fairy"
+    },
+
+    "MoveCategory": {
+      "Physical": "Physical",
+      "Special": "Special",
+      "Status": "Status"
+    },
+
+    "ItemType": {
+      "move": "Move",
+      "talent": "Talent",
+      "class": "Class",
+      "ability": "Ability",
+      "capacity": "Capacity",
+      "species": "Species"
+    },
+
+    "Notify": {
+      "PartyFull": "Party already has 6 Pokémon.",
+      "AlreadyInParty": "This Pokémon is already in the party.",
+      "PPRestored": "All move PP restored.",
+      "SkillTrainerOnly": "Skills only exist on Trainers.",
+      "MovePokemonOnly": "Moves can only be used by Pokémon."
+    },
+
+    "Confirm": {
+      "DeleteTitle": "Confirm deletion",
+      "DeleteItem": "Delete <strong>{name}</strong>?"
+    },
+
+    "TYPES": {
+      "Actor": {
+        "trainer": "Trainer",
+        "pokemon": "Pokémon"
+      },
+      "Item": {
+        "move": "Move",
+        "talent": "Talent",
+        "class": "Class",
+        "ability": "Ability",
+        "capacity": "Capacity",
+        "species": "Species"
+      }
+    }
+  }
+}

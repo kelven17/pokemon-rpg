@@ -1,0 +1,31 @@
+{
+  "name": "Squirtle",
+  "type": "species",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "<p>Um Pokémon do tipo Água, com uma carapaça resistente que protege seu corpo.</p>",
+    "dexNumber": 7,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 44,
+      "atk": 48,
+      "def": 65,
+      "spa": 50,
+      "spd": 64,
+      "spe": 43
+    },
+    "learnset": [
+      { "level": 1, "moveSlug": "tackle" },
+      { "level": 1, "moveSlug": "growl" },
+      { "level": 3, "moveSlug": "water-gun" }
+    ],
+    "possibleAbilities": ["torrent"],
+    "naturalCapacities": ["overland", "swimmer", "keen-senses"],
+    "evolutions": [
+      { "targetSlug": "wartortle", "condition": "level", "value": "16" }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "POKEMON_RPG": {
+    "TrainerName": "Nome do Treinador",
+    "SpeciesName": "Espécie",
+    "Nickname": "Apelido",
+    "Level": "Nível",
+    "Proficiency": "Proficiência",
+    "XP": "XP",
+    "Hometown": "Cidade Natal",
+    "Occupation": "Ocupação",
+    "Age": "Idade",
+    "Money": "Dinheiro",
+    "Type": "Tipo",
+    "Trainer": "Treinador",
+    "Species": "Espécie",
+    "DexNumber": "Nº Pokédex",
+    "Nature": "Natureza",
+    "Gender": "Gênero",
+    "Status": "Condição",
+    "Biography": "Biografia",
+    "Notes": "Anotações",
+    "Description": "Descrição",
+    "Moves": "Golpes",
+    "Abilities": "Habilidades",
+    "Capacities": "Capacidades",
+    "Talents": "Talentos",
+    "Classes": "Classes",
+    "Power": "Poder",
+    "Accuracy": "Precisão",
+    "PP": "PP",
+    "MoveCategory": "Categoria",
+    "DamageFormula": "Fórmula de Dano",
+    "DamageFormulaHint": "Deixe vazio para cálculo automático baseado em poder.",
+    "Effect": "Efeito",
+    "LearnLevel": "Nível Aprendido",
+    "Priority": "Prioridade",
+    "RequiredLevel": "Nível Requerido",
+    "Activation": "Ativação",
+    "ClassRestriction": "Restrição de Classe",
+    "Prerequisites": "Pré-Requisitos",
+    "KeyAttribute": "Atributo Chave",
+    "HpBase": "HP Base",
+    "HpPerLevel": "HP por Nível",
+    "HiddenAbility": "Habilidade Oculta",
+    "Trigger": "Gatilho",
+    "Category": "Categoria",
+    "Value": "Valor",
+    "BaseStats": "Stats Base",
+    "MiscBonus": "Bônus diverso",
+    "ToggleProficiency": "Alternar proficiência",
+    "View": "Ver",
+    "Edit": "Editar",
+    "Delete": "Excluir",
+    "Post": "Postar no chat",
+    "UseMove": "Usar golpe",
+    "RestorePP": "Restaurar PP",
+    "SetActive": "Tornar ativo",
+    "OpenSheet": "Abrir ficha",
+    "RemoveFromParty": "Remover da party",
+    "EmptyParty": "Nenhum Pokémon na party. Arraste um Pokémon para cá.",
+    "PartyDropHint": "Arraste Actors do tipo Pokémon para esta área para adicioná-los à party (máx. 6).",
+    "NoMoves": "Nenhum golpe.",
+    "NoAbilities": "Nenhuma habilidade.",
+    "NoCapacities": "Nenhuma capacidade.",
+    "NoTalents": "Nenhum talento.",
+    "NoClasses": "Nenhuma classe.",
+    "NewMove": "Novo Golpe",
+    "NewAbility": "Nova Habilidade",
+    "NewCapacity": "Nova Capacidade",
+    "NewTalent": "Novo Talento",
+    "NewClass": "Nova Classe",
+    "NewItem": "Novo {type}",
+
+    "Tab": {
+      "Main": "Principal",
+      "Skills": "Perícias",
+      "Items": "Itens",
+      "Party": "Party",
+      "Bio": "Biografia",
+      "Moves": "Golpes",
+      "Abilities": "Habilidades"
+    },
+
+    "Sheet": {
+      "Trainer": "Ficha de Treinador",
+      "Pokemon": "Ficha de Pokémon",
+      "Item": "Ficha de Item"
+    },
+
+    "Attribute": {
+      "HP": "Saúde",
+      "Atk": "Ataque",
+      "Def": "Defesa",
+      "SpA": "Ataque Especial",
+      "SpD": "Defesa Especial",
+      "Spe": "Velocidade"
+    },
+
+    "AttributeAbbr": {
+      "HP": "SAU",
+      "Atk": "ATK",
+      "Def": "DEF",
+      "SpA": "ATE",
+      "SpD": "DFE",
+      "Spe": "VEL"
+    },
+
+    "Evasion": {
+      "Title":    "Evasão",
+      "Physical": "Evasão Física",
+      "Special":  "Evasão Especial",
+      "Fast":     "Evasão Veloz",
+      "PhysicalAbbr": "EV.FIS",
+      "SpecialAbbr":  "EV.ESP",
+      "FastAbbr":     "EV.VEL"
+    },
+
+    "TalentPoints": {
+      "Label":  "Pontos de Talento",
+      "Spent":  "gastos",
+      "Hint":   "Pontos disponíveis / total ganhos pelo nível"
+    },
+
+    "Subclass":         "Subclasse",
+    "MainClass":        "Classe Principal",
+    "ParentClass":      "Classe-Mãe",
+    "ClassSlug":        "Identificador da Classe",
+    "SourceClass":      "Classe de Origem",
+    "GeneralTalents":   "Talentos Gerais",
+    "OrphanTalents":    "Talentos Soltos",
+    "TalentsOfClass":   "Talentos desta classe",
+    "NoClassTalents":   "Nenhum talento dessa classe ainda.",
+    "NoGeneralTalents": "Nenhum talento geral.",
+
+    "TalentCategory": {
+      "Label":   "Categoria",
+      "General": "Geral",
+      "Class":   "De Classe"
+    },
+
+    "Requirements": {
+      "Title":          "Requisitos para Adquirir",
+      "SameTree":       "Subclasse da Própria Classe",
+      "SameTreeHint":   "Requisitos quando o treinador já tem a classe-mãe.",
+      "Other":          "Multiclasse (Outra Árvore)",
+      "OtherHint":      "Requisitos quando vem de outra classe/subclasse de outra árvore."
+    },
+
+    "Class": {
+      "Treinador":         "Treinador",
+      "Elementalista":     "Elementalista",
+      "Especialista":      "Especialista",
+      "Captor":            "Captor",
+      "Engenheiro":        "Engenheiro",
+      "Ladrao":            "Ladrão",
+      "Artifice":          "Artífice",
+      "Criador":           "Criador",
+      "Medico":            "Médico",
+      "Evolucionista":     "Evolucionista",
+      "Tutor":             "Tutor",
+      "Artista":           "Artista",
+      "Cuidador":          "Cuidador",
+      "Observador":        "Observador",
+      "Pesquisador":       "Pesquisador",
+      "Fotografo":         "Fotógrafo",
+      "Hipnologo":         "Hipnólogo",
+      "Ranger":            "Ranger",
+      "Guia":              "Guia",
+      "Guerreiro":         "Guerreiro",
+      "Monge":             "Monge",
+      "Ninja":             "Ninja",
+      "Soldado":           "Soldado",
+      "Empatico":          "Empático",
+      "Vidente":           "Vidente",
+      "Psiquico":          "Psíquico",
+      "DobradorElemental": "Dobrador de Elemento",
+      "Mistico":           "Místico",
+      "Medium":            "Médium",
+      "Ilusionista":       "Ilusionista",
+      "Runico":            "Rúnico",
+      "Xama":              "Xamã"
+    },
+
+    "Skill": {
+      "Corrida": "Corrida",
+      "Salto": "Salto",
+      "Forca": "Força",
+      "Intimidacao": "Intimidação",
+      "Resiliencia": "Resiliência",
+      "Jejum": "Jejum",
+      "Apneia": "Apneia",
+      "Imunidade": "Imunidade",
+      "Incansavel": "Incansável",
+      "Regeneracao": "Regeneração",
+      "Deflexao": "Deflexão",
+      "Concentracao": "Concentração",
+      "Historia": "História",
+      "Programacao": "Programação",
+      "Investigacao": "Investigação",
+      "Engenharia": "Engenharia",
+      "Prestidigitacao": "Prestidigitação",
+      "Acrobacia": "Acrobacia",
+      "Performance": "Performance",
+      "Furtividade": "Furtividade",
+      "Empatia": "Empatia",
+      "Manipulacao": "Manipulação",
+      "Percepcao": "Percepção",
+      "Manha": "Manha"
+    },
+
+    "Type": {
+      "Primary": "Primário",
+      "Secondary": "Secundário",
+      "Normal": "Normal",
+      "Fire": "Fogo",
+      "Water": "Água",
+      "Grass": "Planta",
+      "Electric": "Elétrico",
+      "Ice": "Gelo",
+      "Fighting": "Lutador",
+      "Poison": "Venenoso",
+      "Ground": "Terrestre",
+      "Flying": "Voador",
+      "Psychic": "Psíquico",
+      "Bug": "Inseto",
+      "Rock": "Pedra",
+      "Ghost": "Fantasma",
+      "Dragon": "Dragão",
+      "Dark": "Sombrio",
+      "Steel": "Aço",
+      "Fairy": "Fada"
+    },
+
+    "MoveCategory": {
+      "Physical": "Físico",
+      "Special": "Especial",
+      "Status": "Status"
+    },
+
+    "ItemType": {
+      "move": "Golpe",
+      "talent": "Talento",
+      "class": "Classe",
+      "ability": "Habilidade",
+      "capacity": "Capacidade",
+      "species": "Espécie"
+    },
+
+    "Notify": {
+      "PartyFull": "A party já tem 6 Pokémons.",
+      "AlreadyInParty": "Esse Pokémon já está na party.",
+      "PPRestored": "PP de todos os golpes restaurado.",
+      "SkillTrainerOnly": "Perícias só existem em Treinadores.",
+      "MovePokemonOnly": "Golpes só podem ser usados por Pokémons."
+    },
+
+    "Confirm": {
+      "DeleteTitle": "Confirmar exclusão",
+      "DeleteItem": "Excluir <strong>{name}</strong>?"
+    },
+
+    "TYPES": {
+      "Actor": {
+        "trainer": "Treinador",
+        "pokemon": "Pokémon"
+      },
+      "Item": {
+        "move": "Golpe",
+        "talent": "Talento",
+        "class": "Classe",
+        "ability": "Habilidade",
+        "capacity": "Capacidade",
+        "species": "Espécie"
+      }
+    }
+  }
+}

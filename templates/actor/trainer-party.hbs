@@ -1,0 +1,52 @@
+<section class="tab" data-tab="party" data-group="primary">
+    <div class="party-help">
+        <p>{{localize "POKEMON_RPG.PartyDropHint"}}</p>
+    </div>
+    <ul class="party-list">
+        {{#each party}}
+        <li class="party-member {{#if this.active}}is-active{{/if}}" data-uuid="{{this.uuid}}">
+            <img src="{{this.actor.img}}" class="poke-img"/>
+            <div class="poke-info">
+                <div class="poke-name">
+                    {{#if this.actor.system.details.nickname}}
+                        {{this.actor.system.details.nickname}}
+                        <small>({{this.actor.name}})</small>
+                    {{else}}
+                        {{this.actor.name}}
+                    {{/if}}
+                </div>
+                <div class="poke-meta">
+                    Nv {{this.actor.system.details.level}} ·
+                    <span class="type-badge type-{{this.actor.system.types.primary}}">
+                        {{localize (lookup @root.config.types this.actor.system.types.primary)}}
+                    </span>
+                    {{#if this.actor.system.types.secondary}}
+                    <span class="type-badge type-{{this.actor.system.types.secondary}}">
+                        {{localize (lookup @root.config.types this.actor.system.types.secondary)}}
+                    </span>
+                    {{/if}}
+                </div>
+                <div class="poke-hp">
+                    HP: {{this.actor.system.hp.value}}/{{this.actor.system.hp.max}}
+                </div>
+            </div>
+            <div class="poke-controls">
+                <a data-action="setActivePokemon" data-uuid="{{this.uuid}}"
+                   title="{{localize 'POKEMON_RPG.SetActive'}}">
+                    <i class="fas {{#if this.active}}fa-star{{else}}fa-star-half-alt{{/if}}"></i>
+                </a>
+                <a data-action="openPokemon" data-uuid="{{this.uuid}}"
+                   title="{{localize 'POKEMON_RPG.OpenSheet'}}">
+                    <i class="fas fa-id-card"></i>
+                </a>
+                <a data-action="removePokemon" data-uuid="{{this.uuid}}"
+                   title="{{localize 'POKEMON_RPG.RemoveFromParty'}}">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </li>
+        {{else}}
+        <li class="empty">{{localize "POKEMON_RPG.EmptyParty"}}</li>
+        {{/each}}
+    </ul>
+</section>
