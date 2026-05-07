@@ -46,8 +46,12 @@ export class PokemonData extends foundry.abstract.TypeDataModel {
         }),
         nature: new StringField({ required: true, initial: "" }),
         gender: new StringField({ required: true, initial: "" }),
-        // UUID do treinador dono. Vazio = selvagem.
+        // UUID do treinador dono. Vazio = sem dono associado.
         trainer: new StringField({ required: true, initial: "" }),
+        // Estado de captura — define o multiplicador de HP (capturado x4, selvagem x3)
+        // e pode ser ajustado manualmente na ficha. É sincronizado automaticamente
+        // quando o Pokémon entra/sai de uma party de treinador.
+        captured: new BooleanField({ required: true, initial: false }),
         nickname: new StringField({ required: true, initial: "" }),
         // Status condition (poison, burn, paralysis, sleep, freeze...)
         status: new StringField({ required: true, initial: "" })
@@ -73,9 +77,12 @@ export class PokemonData extends foundry.abstract.TypeDataModel {
     }
 
     // HP máx do Pokémon:
-    //  - Capturado (tem treinador):  Saúde * 4
-    //  - Selvagem (sem treinador):   Saúde * 3
-    const isCaptured = !!(this.details.trainer && this.details.trainer.length > 0);
+    //  - Capturado:  Saúde * 4
+    //  - Selvagem:   Saúde * 3
+    // Considera capturado se a flag `details.captured` estiver marcada
+    // OU se houver um treinador associado (compat. com pokémons antigos).
+    const isCaptured = !!this.details.captured
+      || !!(this.details.trainer && this.details.trainer.length > 0);
     const multiplier = isCaptured ? 4 : 3;
     const computedMax = (this.attributes.hp.value ?? 0) * multiplier;
     this.hp.max = Math.max(1, computedMax);

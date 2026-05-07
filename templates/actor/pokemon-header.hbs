@@ -30,6 +30,16 @@
                     {{/if}}
                 </div>
             </div>
+            <div class="resource captured-toggle" title="{{localize 'POKEMON_RPG.Captured.Hint'}}">
+                <label>{{localize "POKEMON_RPG.Captured.Label"}}</label>
+                <label class="switch">
+                    <input type="checkbox" name="system.details.captured" {{#if system.details.captured}}checked{{/if}}/>
+                    <span class="slider">
+                        <span class="state-text wild">{{localize "POKEMON_RPG.Captured.Wild"}}</span>
+                        <span class="state-text captured">{{localize "POKEMON_RPG.Captured.Captured"}}</span>
+                    </span>
+                </label>
+            </div>
             {{#if trainer}}
             <div class="resource trainer-link">
                 <label>{{localize "POKEMON_RPG.Trainer"}}</label>

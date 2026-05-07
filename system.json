@@ -2,7 +2,7 @@
   "id": "pokemon-rpg",
   "title": "Pokémon RPG",
   "description": "Sistema de RPG híbrido D&D + Pokémon. Treinadores com classes, perícias e talentos comandam Pokémons com tipos, golpes e habilidades.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
@@ -16,6 +16,20 @@
   "esmodules": [
     "module/pokemon.mjs"
   ],
+  "documentTypes": {
+    "Actor": {
+      "trainer": {},
+      "pokemon": {}
+    },
+    "Item": {
+      "move": {},
+      "talent": {},
+      "class": {},
+      "ability": {},
+      "capacity": {},
+      "species": {}
+    }
+  },
   "styles": [
     "styles/pokemon.css"
   ],

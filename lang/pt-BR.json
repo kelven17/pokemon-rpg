@@ -115,6 +115,13 @@
       "FastAbbr":     "EV.VEL"
     },
 
+    "Captured": {
+      "Label":    "Estado",
+      "Wild":     "Selvagem",
+      "Captured": "Capturado",
+      "Hint":     "Selvagem usa HP × 3, Capturado usa HP × 4. Alterna automaticamente ao entrar/sair de uma party."
+    },
+
     "TalentPoints": {
       "Label":  "Pontos de Talento",
       "Spent":  "gastos",

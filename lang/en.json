@@ -115,6 +115,13 @@
       "FastAbbr":     "EV.SPD"
     },
 
+    "Captured": {
+      "Label":    "State",
+      "Wild":     "Wild",
+      "Captured": "Captured",
+      "Hint":     "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
+    },
+
     "TalentPoints": {
       "Label":  "Talent Points",
       "Spent":  "spent",

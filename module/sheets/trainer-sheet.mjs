@@ -254,8 +254,11 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }
     party.push({ uuid: pokemon.uuid, slot: party.length + 1, active: party.length === 0 });
     await this.actor.update({ "system.party": party });
-    // Configura o trainer no pokémon (referência reversa).
-    await pokemon.update({ "system.details.trainer": this.actor.uuid });
+    // Configura o trainer no pokémon (referência reversa) e marca como capturado.
+    await pokemon.update({
+      "system.details.trainer": this.actor.uuid,
+      "system.details.captured": true
+    });
   }
 
   /* -------------------------------------------- */
@@ -288,9 +291,12 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const uuid = target.dataset.uuid;
     const party = this.actor.system.party.filter(p => p.uuid !== uuid);
     await this.actor.update({ "system.party": party });
-    // Remove o trainer do pokémon.
+    // Remove o trainer do pokémon e marca como selvagem novamente.
     const pokemon = await fromUuid(uuid);
-    if ( pokemon ) await pokemon.update({ "system.details.trainer": "" });
+    if ( pokemon ) await pokemon.update({
+      "system.details.trainer": "",
+      "system.details.captured": false
+    });
   }
 
   static async _onSetActivePokemon(event, target) {
