@@ -81,9 +81,9 @@
     "units": "m"
   },
   "primaryTokenAttribute": "attributes.hp",
-  "url": "https://example.com",
-  "manifest": "https://example.com/system.json",
-  "download": "https://example.com/pokemon-rpg.zip",
+  "url": "https://github.com/kelven17/pokemon-rpg",
+  "manifest": "https://raw.githubusercontent.com/kelven17/pokemon-rpg/main/system.json",
+  "download": "https://github.com/kelven-dasilva99/pokemon-rpg/archive/refs/heads/main.zip",
   "license": "LICENSE.md",
   "readme": "README.md"
 }

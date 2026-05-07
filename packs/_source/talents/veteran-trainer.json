@@ -4,6 +4,8 @@
   "img": "icons/svg/aura.svg",
   "system": {
     "description": "<p>Você tem ampla experiência em comandar Pokémons. Ganha proficiência em Intimidação e Empatia, e seus Pokémons recebem +1 em testes de obediência ao seguir suas ordens.</p>",
+    "category": "general",
+    "sourceClass": "",
     "classRestriction": "",
     "requiredLevel": 1,
     "activation": "passive",

@@ -45,10 +45,11 @@ export class TrainerData extends foundry.abstract.TypeDataModel {
       proficiency: new NumberField({ required: true, nullable: false, integer: true, initial: 2, min: 0 }),
 
       // Pontos de talento. `spent` cresce conforme o jogador gasta em classes/subclasses.
-      // `max` é derivado do nível (ver prepareDerivedData). `available` = max - spent.
+      // `max` e `available` são derivados em prepareDerivedData (não devem ser editados na ficha).
       talentPoints: new SchemaField({
-        spent: new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 }),
-        max:   new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 })
+        spent:     new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 }),
+        max:       new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 }),
+        available: new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 })
       }),
 
       // Lista de Pokémons na party - guardamos UUIDs para referência cruzada.

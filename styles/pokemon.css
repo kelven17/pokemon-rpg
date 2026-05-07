@@ -302,6 +302,138 @@
     font-size: 0.85em;
 }
 
+/* ----- Talent Points & Class blocks ----- */
+.pokemon-rpg .talent-points-summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    background: linear-gradient(90deg, rgba(204,0,0,0.06), rgba(204,0,0,0.0));
+    border: 1px solid var(--pkrpg-border);
+    border-left: 3px solid var(--pkrpg-accent);
+    border-radius: 4px;
+    font-size: 0.95em;
+}
+.pokemon-rpg .talent-points-summary .tp-icon {
+    font-size: 1.2em;
+}
+.pokemon-rpg .talent-points-summary .tp-counter {
+    font-weight: 700;
+    color: var(--pkrpg-accent);
+    font-size: 1.05em;
+}
+.pokemon-rpg .talent-points-summary .tp-spent {
+    color: var(--pkrpg-muted);
+    margin-left: auto;
+    font-size: 0.85em;
+}
+.pokemon-rpg .talent-points-block .readonly {
+    width: auto;
+    padding: 2px 6px;
+}
+
+.pokemon-rpg .class-block {
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    background: white;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.pokemon-rpg .class-block-header {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    gap: 8px;
+    align-items: center;
+    padding: 6px 10px;
+    background: linear-gradient(90deg, rgba(204,0,0,0.08), transparent);
+    border-bottom: 1px solid var(--pkrpg-border);
+}
+.pokemon-rpg .class-block-header .item-img {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.pokemon-rpg .class-block-header .class-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.pokemon-rpg .class-block-header .class-title strong {
+    font-size: 1em;
+    color: var(--pkrpg-text);
+}
+.pokemon-rpg .class-tag,
+.pokemon-rpg .subclass-tag {
+    display: inline-block;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    width: fit-content;
+}
+.pokemon-rpg .class-tag {
+    background: var(--pkrpg-accent);
+    color: white;
+}
+.pokemon-rpg .subclass-tag {
+    background: rgba(204,0,0,0.12);
+    color: var(--pkrpg-accent);
+    border: 1px solid rgba(204,0,0,0.25);
+}
+.pokemon-rpg .class-talent-storage {
+    padding: 6px 10px 8px;
+}
+.pokemon-rpg .class-talent-storage .storage-title {
+    margin: 0 0 4px;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--pkrpg-muted);
+    font-weight: 700;
+}
+.pokemon-rpg .items-list.compact .item {
+    padding: 3px 6px;
+    grid-template-columns: 24px 1fr auto auto;
+}
+.pokemon-rpg .items-list.compact .item-img {
+    width: 22px;
+    height: 22px;
+}
+.pokemon-rpg .orphan-talents .item-section-header h3 {
+    color: var(--pkrpg-muted);
+}
+.pokemon-rpg .orphan-talents .items-list .item {
+    border-style: dashed;
+    background: rgba(0,0,0,0.02);
+}
+
+/* Class form (item-sheet) */
+.pokemon-rpg .class-requirements {
+    border: 1px solid var(--pkrpg-border);
+    border-radius: 6px;
+    padding: 6px 10px 8px;
+    margin-top: 8px;
+    background: rgba(0,0,0,0.02);
+}
+.pokemon-rpg .class-requirements legend {
+    padding: 0 6px;
+    font-weight: 600;
+    color: var(--pkrpg-accent);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.pokemon-rpg .class-requirements .hint {
+    margin: 2px 0 0;
+    font-size: 0.75em;
+    color: var(--pkrpg-muted);
+    font-style: italic;
+}
+
 /* ----- Items lists ----- */
 .pokemon-rpg .item-section {
     margin-bottom: 12px;
