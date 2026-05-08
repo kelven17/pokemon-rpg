@@ -49,6 +49,19 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }
   };
 
+  /**
+   * Formata um multiplicador de efetividade para exibição na ficha.
+   * Ex.: 4 → "×4", 0.5 → "×½", 0.25 → "×¼", 0 → "0".
+   */
+  static _formatMultiplier(mult) {
+    if ( mult === 0 ) return "0";
+    if ( mult === 0.25 ) return "×¼";
+    if ( mult === 0.5 ) return "×½";
+    if ( mult === 2 ) return "×2";
+    if ( mult === 4 ) return "×4";
+    return `×${mult}`;
+  }
+
   /** @override */
   async _prepareContext(options) {
     const context = await super._prepareContext(options);
@@ -77,6 +90,34 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         ? game.i18n.localize(POKEMON_RPG.types[sys.types.secondary])
         : null
     };
+
+    // ---- Efetividade de tipos (fraquezas / resistências / imunidades) ----
+    // Itera sobre cada tipo de ataque possível e calcula o multiplicador
+    // contra a combinação de tipos do Pokémon.
+    const weaknesses = [];   // mult > 1
+    const resistances = [];  // 0 < mult < 1
+    const immunities = [];   // mult = 0
+    for ( const typeKey of Object.keys(POKEMON_RPG.types) ) {
+      const mult = sys.getTypeEffectiveness(typeKey);
+      const entry = {
+        type: typeKey,
+        label: game.i18n.localize(POKEMON_RPG.types[typeKey]),
+        multiplier: mult,
+        // Texto curto exibido junto do badge (×4, ×2, ×½, ×¼, IMUNE).
+        multLabel: PokemonSheet._formatMultiplier(mult)
+      };
+      if ( mult === 0 ) immunities.push(entry);
+      else if ( mult > 1 ) weaknesses.push(entry);
+      else if ( mult < 1 ) resistances.push(entry);
+    }
+    // Ordena fraquezas: maior → menor (×4 antes de ×2).
+    weaknesses.sort((a, b) => b.multiplier - a.multiplier);
+    // Ordena resistências: menor → maior (×¼ antes de ×½).
+    resistances.sort((a, b) => a.multiplier - b.multiplier);
+    context.weaknesses = weaknesses;
+    context.resistances = resistances;
+    context.immunities = immunities;
+    context.hasAnyDefense = (resistances.length + immunities.length) > 0;
 
     // Items por tipo.
     context.itemsByType = {

@@ -12,6 +12,42 @@
         {{/each}}
     </div>
 
+    <div class="effectiveness-row">
+        <fieldset class="effectiveness-block weaknesses">
+            <legend>{{localize "POKEMON_RPG.Effectiveness.Weaknesses"}}</legend>
+            <ul class="effectiveness-list">
+                {{#each weaknesses}}
+                <li class="eff-item">
+                    <span class="type-badge type-{{this.type}}">{{this.label}}</span>
+                    <span class="eff-mult mult-up">{{this.multLabel}}</span>
+                </li>
+                {{else}}
+                <li class="eff-empty">{{localize "POKEMON_RPG.Effectiveness.NoWeakness"}}</li>
+                {{/each}}
+            </ul>
+        </fieldset>
+        <fieldset class="effectiveness-block resistances">
+            <legend>{{localize "POKEMON_RPG.Effectiveness.Resistances"}}</legend>
+            <ul class="effectiveness-list">
+                {{#each immunities}}
+                <li class="eff-item">
+                    <span class="type-badge type-{{this.type}}">{{this.label}}</span>
+                    <span class="eff-mult mult-immune">{{localize "POKEMON_RPG.Effectiveness.Immune"}}</span>
+                </li>
+                {{/each}}
+                {{#each resistances}}
+                <li class="eff-item">
+                    <span class="type-badge type-{{this.type}}">{{this.label}}</span>
+                    <span class="eff-mult mult-down">{{this.multLabel}}</span>
+                </li>
+                {{/each}}
+                {{#unless hasAnyDefense}}
+                <li class="eff-empty">{{localize "POKEMON_RPG.Effectiveness.NoResistance"}}</li>
+                {{/unless}}
+            </ul>
+        </fieldset>
+    </div>
+
     <fieldset class="evasion-block">
         <legend>{{localize "POKEMON_RPG.Evasion.Title"}}</legend>
         <div class="evasion-grid">

@@ -10,7 +10,6 @@
     "Occupation": "Ocupação",
     "Age": "Idade",
     "Money": "Dinheiro",
-    "Type": "Tipo",
     "Trainer": "Treinador",
     "Species": "Espécie",
     "DexNumber": "Nº Pokédex",
@@ -122,6 +121,16 @@
       "Hint":     "Selvagem usa HP × 3, Capturado usa HP × 4. Alterna automaticamente ao entrar/sair de uma party."
     },
 
+    "Effectiveness": {
+      "Weaknesses":   "Fraquezas",
+      "Resistances":  "Resistências",
+      "Immunities":   "Imunidades",
+      "Immune":       "Imune",
+      "NoWeakness":   "Nenhuma fraqueza.",
+      "NoResistance": "Nenhuma resistência.",
+      "NoImmunity":   "Sem imunidades."
+    },
+
     "TalentPoints": {
       "Label":  "Pontos de Talento",
       "Spent":  "gastos",
@@ -216,6 +225,7 @@
     },
 
     "Type": {
+      "Label": "Tipo",
       "Primary": "Primário",
       "Secondary": "Secundário",
       "Normal": "Normal",

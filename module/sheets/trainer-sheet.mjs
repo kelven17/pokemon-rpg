@@ -91,9 +91,9 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         };
       }
       context.skillsByAttribute[attr].skills.push({
+        ...skill,
         key,
-        label: game.i18n.localize(cfg.label),
-        ...skill
+        label: game.i18n.localize(cfg.label)
       });
     }
 

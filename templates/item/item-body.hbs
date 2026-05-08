@@ -3,7 +3,7 @@
     {{#if (eq item.type "move")}}
     <div class="form-grid">
         <div class="form-group">
-            <label>{{localize "POKEMON_RPG.Type"}}</label>
+            <label>{{localize "POKEMON_RPG.Type.Label"}}</label>
             <select name="system.type">
                 {{#each typeChoices as |label key|}}
                 <option value="{{key}}" {{#if (eq key ../system.type)}}selected{{/if}}>{{label}}</option>

@@ -524,6 +524,99 @@
 }
 
 /* ==========================================
+   EFETIVIDADE DE TIPOS (fraquezas / resistências)
+   ========================================== */
+.pokemon-rpg .effectiveness-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+.pokemon-rpg .effectiveness-block {
+    margin: 0;
+    padding: 10px 12px 12px;
+    background: var(--pk-bg-alt);
+    border: 1px solid var(--pk-border-soft);
+    border-radius: var(--pk-radius);
+    box-shadow: var(--pk-shadow-sm);
+}
+.pokemon-rpg .effectiveness-block legend {
+    padding: 0 8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.78em;
+}
+.pokemon-rpg .effectiveness-block.weaknesses legend {
+    color: #DC2626;
+}
+.pokemon-rpg .effectiveness-block.resistances legend {
+    color: #059669;
+}
+.pokemon-rpg .effectiveness-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.pokemon-rpg .eff-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 4px 2px 0;
+    background: var(--pk-bg);
+    border-radius: 999px;
+    border: 1px solid var(--pk-border-soft);
+    transition: transform 0.12s, box-shadow 0.12s;
+}
+.pokemon-rpg .eff-item:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--pk-shadow-sm);
+}
+.pokemon-rpg .eff-item .type-badge {
+    box-shadow: none;
+    margin: 0;
+}
+.pokemon-rpg .eff-mult {
+    font-size: 0.78em;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+    min-width: 28px;
+    text-align: center;
+}
+.pokemon-rpg .eff-mult.mult-up {
+    background: #FEE2E2;
+    color: #B91C1C;
+}
+.pokemon-rpg .eff-mult.mult-down {
+    background: #D1FAE5;
+    color: #047857;
+}
+.pokemon-rpg .eff-mult.mult-immune {
+    background: #1F2937;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    letter-spacing: 0.08em;
+}
+.pokemon-rpg .eff-empty {
+    width: 100%;
+    list-style: none;
+    padding: 8px;
+    text-align: center;
+    color: var(--pk-faint);
+    font-style: italic;
+    font-size: 0.85em;
+    background: transparent;
+    border: 1px dashed var(--pk-border-soft);
+    border-radius: var(--pk-radius-sm);
+}
+
+/* ==========================================
    EVASÃO
    ========================================== */
 .pokemon-rpg .evasion-block {

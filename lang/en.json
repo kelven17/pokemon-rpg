@@ -10,7 +10,6 @@
     "Occupation": "Occupation",
     "Age": "Age",
     "Money": "Money",
-    "Type": "Type",
     "Trainer": "Trainer",
     "Species": "Species",
     "DexNumber": "Dex No.",
@@ -122,6 +121,16 @@
       "Hint":     "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
     },
 
+    "Effectiveness": {
+      "Weaknesses":   "Weaknesses",
+      "Resistances":  "Resistances",
+      "Immunities":   "Immunities",
+      "Immune":       "Immune",
+      "NoWeakness":   "No weaknesses.",
+      "NoResistance": "No resistances.",
+      "NoImmunity":   "No immunities."
+    },
+
     "TalentPoints": {
       "Label":  "Talent Points",
       "Spent":  "spent",
@@ -216,6 +225,7 @@
     },
 
     "Type": {
+      "Label": "Type",
       "Primary": "Primary",
       "Secondary": "Secondary",
       "Normal": "Normal",
