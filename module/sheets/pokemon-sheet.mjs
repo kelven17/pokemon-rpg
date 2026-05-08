@@ -20,6 +20,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       itemDelete: PokemonSheet._onItemDelete,
       restorePP: PokemonSheet._onRestorePP,
       openTrainer: PokemonSheet._onOpenTrainer,
+      applySpecies: PokemonSheet._onApplySpecies,
       tab: PokemonSheet._onChangeTab
     },
     form: {
@@ -132,6 +133,18 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     );
     context.typeChoicesNullable = { "": "—", ...context.typeChoices };
 
+    // Naturezas — choices para o select de natureza.
+    context.natureChoices = {
+      "": game.i18n.localize("POKEMON_RPG.Nature.None"),
+      ...Object.fromEntries(
+        Object.entries(POKEMON_RPG.natures).map(([k, n]) => [k, game.i18n.localize(n.label)])
+      )
+    };
+
+    // Espécies disponíveis (mundo + compendium "species" do sistema).
+    // Ordenado por número da Pokédex.
+    context.speciesOptions = await PokemonSheet._collectSpeciesOptions();
+
     // Trainer info.
     context.trainer = await sys.getTrainer();
 
@@ -195,11 +208,149 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     if ( data.type !== "Item" ) return;
     const item = await fromUuid(data.uuid);
     if ( !item ) return;
+
+    // Espécie: aplica os atributos base ao Pokémon em vez de embutir o item.
+    if ( item.type === "species" ) {
+      return this._applySpecies(item);
+    }
+
     if ( !["move", "ability", "capacity"].includes(item.type) ) {
       ui.notifications?.warn(`Pokémon não aceita item do tipo "${item.type}".`);
       return;
     }
     await this.actor.createEmbeddedDocuments("Item", [item.toObject()]);
+  }
+
+  /* -------------------------------------------- */
+  /*  Aplicação de Espécie                         */
+  /* -------------------------------------------- */
+
+  /**
+   * Coleta espécies disponíveis do mundo + do compendium "species" do sistema.
+   * Retorna [{ uuid, name, dexNumber }] ordenado por número da Pokédex.
+   */
+  static async _collectSpeciesOptions() {
+    const list = [];
+
+    // 1. Itens do tipo "species" no mundo.
+    for ( const item of game.items?.filter(i => i.type === "species") ?? [] ) {
+      list.push({
+        uuid: item.uuid,
+        name: item.name,
+        dexNumber: item.system?.dexNumber ?? 9999
+      });
+    }
+
+    // 2. Itens do compendium "pokemon-rpg.species" (se existir).
+    const pack = game.packs?.get("pokemon-rpg.species");
+    if ( pack ) {
+      try {
+        const index = await pack.getIndex({ fields: ["system.dexNumber"] });
+        for ( const entry of index ) {
+          list.push({
+            uuid: `Compendium.${pack.collection}.${entry._id}`,
+            name: entry.name,
+            dexNumber: entry.system?.dexNumber ?? 9999
+          });
+        }
+      } catch (err) {
+        console.warn("pokemon-rpg | falha ao indexar compendium de espécies:", err);
+      }
+    }
+
+    list.sort((a, b) => (a.dexNumber - b.dexNumber) || a.name.localeCompare(b.name));
+    return list;
+  }
+
+  /**
+   * Aplica os dados de uma Espécie a este Pokémon:
+   *  - número da Pokédex
+   *  - tipos primário/secundário
+   *  - atributos base (do dex, divididos por 10, mín. 1) JÁ COM o delta da
+   *    natureza aplicado: +1 no atributo "up" e -1 no "down".
+   *  - natureza aleatória sorteada
+   *  - referência para o item de espécie
+   * Também renomeia o ator se ele ainda tiver um nome genérico.
+   *
+   * Usa a flag `pkrpgSkipNatureHook` no update para evitar que o hook de
+   * natureza tente reaplicar o delta em cima do que já foi computado aqui.
+   */
+  async _applySpecies(speciesItem) {
+    if ( !speciesItem || speciesItem.type !== "species" ) return;
+    const sys = speciesItem.system ?? {};
+    const stats = sys.baseStats ?? {};
+    const div10 = (n) => Math.max(1, Math.round((Number(n) || 0) / 10));
+
+    // 1. Stats base do dex / 10 (sem nada de natureza ainda).
+    const values = {
+      hp:  div10(stats.hp),
+      atk: div10(stats.atk),
+      def: div10(stats.def),
+      spa: div10(stats.spa),
+      spd: div10(stats.spd),
+      spe: div10(stats.spe)
+    };
+
+    // 2. Sorteia natureza nova SEMPRE que aplica espécie e
+    //    incorpora o delta dela nos values acima.
+    const natureKey = POKEMON_RPG.randomNature();
+    const nature    = POKEMON_RPG.natures?.[natureKey];
+    if ( nature?.up && values[nature.up] !== undefined ) {
+      values[nature.up] = Math.max(0, values[nature.up] + 1);
+    }
+    if ( nature?.down && values[nature.down] !== undefined ) {
+      values[nature.down] = Math.max(0, values[nature.down] - 1);
+    }
+
+    const updates = {
+      "system.species.uuid":         speciesItem.uuid ?? "",
+      "system.species.name":         speciesItem.name ?? "",
+      "system.species.dexNumber":    sys.dexNumber ?? null,
+      "system.types.primary":        sys.types?.primary ?? "normal",
+      "system.types.secondary":      sys.types?.secondary ?? null,
+      "system.details.nature":       natureKey,
+      "system.attributes.hp.value":  values.hp,
+      "system.attributes.atk.value": values.atk,
+      "system.attributes.def.value": values.def,
+      "system.attributes.spa.value": values.spa,
+      "system.attributes.spd.value": values.spd,
+      "system.attributes.spe.value": values.spe
+    };
+
+    // Renomeia o ator se o nome atual for genérico/igual ao tipo.
+    const currentName = this.actor.name ?? "";
+    const genericNames = ["Pokémon", "Pokemon", "New Actor", "Novo Actor"];
+    if ( !currentName || genericNames.includes(currentName) ) {
+      updates["name"] = speciesItem.name;
+    }
+
+    // pkrpgSkipNatureHook garante que o hook de mudança de natureza não
+    // reaplique o delta em cima dos values que já foram computados aqui.
+    await this.actor.update(updates, { pkrpgSkipNatureHook: true });
+    ui.notifications?.info(
+      game.i18n.format("POKEMON_RPG.Species_Applied", { name: speciesItem.name })
+    );
+  }
+
+  /**
+   * Action: chamado pelo botão "Aplicar espécie" no template.
+   * Lê o UUID selecionado no <select> irmão (data-species-select) e aplica.
+   */
+  static async _onApplySpecies(event, target) {
+    event?.preventDefault?.();
+    const root = target.closest(".species-picker") ?? this.element;
+    const select = root.querySelector(".species-pick-select");
+    const uuid = select?.value;
+    if ( !uuid ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Species_NotFound"));
+      return;
+    }
+    const item = await fromUuid(uuid);
+    if ( !item ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Species_NotFound"));
+      return;
+    }
+    return this._applySpecies(item);
   }
 
   /* -------------------------------------------- */

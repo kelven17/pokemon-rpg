@@ -71,6 +71,26 @@
 
     <fieldset class="species-block">
         <legend>{{localize "POKEMON_RPG.Species"}}</legend>
+
+        {{!-- Picker de Espécie: aplica atributos, tipos, natureza e nº da Pokédex automaticamente --}}
+        <div class="species-picker">
+            <label class="picker-label">{{localize "POKEMON_RPG.Species_Choose"}}</label>
+            <div class="picker-row">
+                {{!-- sem `name` para que o auto-submit do form não tente persistir --}}
+                <select class="species-pick-select">
+                    <option value="">—</option>
+                    {{#each speciesOptions}}
+                    <option value="{{this.uuid}}" {{#if (eq this.uuid ../system.species.uuid)}}selected{{/if}}>
+                        {{#if this.dexNumber}}#{{this.dexNumber}} · {{/if}}{{this.name}}
+                    </option>
+                    {{/each}}
+                </select>
+                <button type="button" class="apply-species-btn" data-action="applySpecies">
+                    <i class="fas fa-bolt"></i> {{localize "POKEMON_RPG.Species_Apply"}}
+                </button>
+            </div>
+        </div>
+
         <div class="form-grid">
             <div class="form-group">
                 <label>{{localize "POKEMON_RPG.Type.Primary"}}</label>
@@ -95,7 +115,11 @@
             </div>
             <div class="form-group">
                 <label>{{localize "POKEMON_RPG.Nature"}}</label>
-                <input type="text" name="system.details.nature" value="{{system.details.nature}}"/>
+                <select name="system.details.nature">
+                    {{#each natureChoices as |label key|}}
+                    <option value="{{key}}" {{#if (eq key ../system.details.nature)}}selected{{/if}}>{{label}}</option>
+                    {{/each}}
+                </select>
             </div>
             <div class="form-group">
                 <label>{{localize "POKEMON_RPG.Gender"}}</label>

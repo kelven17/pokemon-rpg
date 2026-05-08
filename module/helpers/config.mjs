@@ -293,3 +293,50 @@ POKEMON_RPG.talentCategories = {
   general: "POKEMON_RPG.TalentCategory.General",
   class:   "POKEMON_RPG.TalentCategory.Class"
 };
+
+/* -------------------------------------------- */
+/*  Naturezas do Pokémon                         */
+/* -------------------------------------------- */
+
+/**
+ * As 25 naturezas tradicionais. Cada uma soma +1 no modificador do atributo `up`
+ * e subtrai 1 do atributo `down`. As 5 naturezas neutras (Hardy, Docile, Serious,
+ * Bashful, Quirky) não têm `up`/`down` — são puramente cosméticas.
+ *
+ * O modificador é aplicado em prepareDerivedData do PokemonData.
+ */
+POKEMON_RPG.natures = {
+  hardy:   { label: "POKEMON_RPG.Nature.Hardy",   up: null,  down: null  },
+  lonely:  { label: "POKEMON_RPG.Nature.Lonely",  up: "atk", down: "def" },
+  brave:   { label: "POKEMON_RPG.Nature.Brave",   up: "atk", down: "spe" },
+  adamant: { label: "POKEMON_RPG.Nature.Adamant", up: "atk", down: "spa" },
+  naughty: { label: "POKEMON_RPG.Nature.Naughty", up: "atk", down: "spd" },
+  bold:    { label: "POKEMON_RPG.Nature.Bold",    up: "def", down: "atk" },
+  docile:  { label: "POKEMON_RPG.Nature.Docile",  up: null,  down: null  },
+  relaxed: { label: "POKEMON_RPG.Nature.Relaxed", up: "def", down: "spe" },
+  impish:  { label: "POKEMON_RPG.Nature.Impish",  up: "def", down: "spa" },
+  lax:     { label: "POKEMON_RPG.Nature.Lax",     up: "def", down: "spd" },
+  timid:   { label: "POKEMON_RPG.Nature.Timid",   up: "spe", down: "atk" },
+  hasty:   { label: "POKEMON_RPG.Nature.Hasty",   up: "spe", down: "def" },
+  serious: { label: "POKEMON_RPG.Nature.Serious", up: null,  down: null  },
+  jolly:   { label: "POKEMON_RPG.Nature.Jolly",   up: "spe", down: "spa" },
+  naive:   { label: "POKEMON_RPG.Nature.Naive",   up: "spe", down: "spd" },
+  modest:  { label: "POKEMON_RPG.Nature.Modest",  up: "spa", down: "atk" },
+  mild:    { label: "POKEMON_RPG.Nature.Mild",    up: "spa", down: "def" },
+  quiet:   { label: "POKEMON_RPG.Nature.Quiet",   up: "spa", down: "spe" },
+  bashful: { label: "POKEMON_RPG.Nature.Bashful", up: null,  down: null  },
+  rash:    { label: "POKEMON_RPG.Nature.Rash",    up: "spa", down: "spd" },
+  calm:    { label: "POKEMON_RPG.Nature.Calm",    up: "spd", down: "atk" },
+  gentle:  { label: "POKEMON_RPG.Nature.Gentle",  up: "spd", down: "def" },
+  sassy:   { label: "POKEMON_RPG.Nature.Sassy",   up: "spd", down: "spe" },
+  careful: { label: "POKEMON_RPG.Nature.Careful", up: "spd", down: "spa" },
+  quirky:  { label: "POKEMON_RPG.Nature.Quirky",  up: null,  down: null  }
+};
+
+/**
+ * Retorna o slug de uma natureza aleatória entre as 25 disponíveis.
+ */
+POKEMON_RPG.randomNature = () => {
+  const keys = Object.keys(POKEMON_RPG.natures);
+  return keys[Math.floor(Math.random() * keys.length)];
+};

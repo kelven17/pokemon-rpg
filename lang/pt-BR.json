@@ -131,6 +131,40 @@
       "NoImmunity":   "Sem imunidades."
     },
 
+    "Nature": {
+      "None":    "—",
+      "Hardy":   "Hardy",
+      "Lonely":  "Lonely",
+      "Brave":   "Brave",
+      "Adamant": "Adamant",
+      "Naughty": "Naughty",
+      "Bold":    "Bold",
+      "Docile":  "Docile",
+      "Relaxed": "Relaxed",
+      "Impish":  "Impish",
+      "Lax":     "Lax",
+      "Timid":   "Timid",
+      "Hasty":   "Hasty",
+      "Serious": "Serious",
+      "Jolly":   "Jolly",
+      "Naive":   "Naive",
+      "Modest":  "Modest",
+      "Mild":    "Mild",
+      "Quiet":   "Quiet",
+      "Bashful": "Bashful",
+      "Rash":    "Rash",
+      "Calm":    "Calm",
+      "Gentle":  "Gentle",
+      "Sassy":   "Sassy",
+      "Careful": "Careful",
+      "Quirky":  "Quirky"
+    },
+
+    "Species_Choose":  "Escolher espécie",
+    "Species_Apply":   "Aplicar espécie",
+    "Species_Applied": "Espécie {name} aplicada — atributos, tipos e número da Pokédex atualizados.",
+    "Species_NotFound": "Nenhuma espécie disponível. Importe espécies do compendium ou crie itens do tipo \"Espécie\".",
+
     "TalentPoints": {
       "Label":  "Pontos de Talento",
       "Spent":  "gastos",

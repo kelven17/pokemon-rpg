@@ -71,7 +71,8 @@ export class PokemonData extends foundry.abstract.TypeDataModel {
 
   prepareDerivedData() {
     // Para Pokémon, "mod" é o próprio valor (stats diretos).
-    // Mantemos o campo `mod` para compatibilidade com o sistema de rolagens.
+    // O valor já vem com o modificador da natureza aplicado pelo hook
+    // preUpdateActor (pokemon.mjs), então mod é só um espelho de value.
     for ( const [key, attr] of Object.entries(this.attributes) ) {
       attr.mod = attr.value;
     }

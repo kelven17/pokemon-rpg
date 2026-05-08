@@ -121,3 +121,51 @@ Hooks.on("preCreateActor", (actor, data, options, userId) => {
   }
   if ( Object.keys(updates).length ) actor.updateSource(updates);
 });
+
+/* -------------------------------------------- */
+/*  Aplicação de Natureza nos atributos          */
+/* -------------------------------------------- */
+
+/**
+ * Quando a natureza de um Pokémon muda, ajusta os valores dos atributos
+ * removendo o delta da natureza antiga e aplicando o delta da nova.
+ *
+ * Cada natureza concede +1 no atributo `up` e -1 no `down`. Naturezas
+ * neutras (Hardy, Docile, etc.) não têm modificadores.
+ *
+ * O sheet pode passar `options.pkrpgSkipNatureHook = true` quando ele já
+ * computou e gravou os values com o delta incluso (ex.: aplicação de espécie),
+ * pra evitar que esse hook reaplique o ajuste em cima.
+ */
+Hooks.on("preUpdateActor", (actor, changes, options, userId) => {
+  if ( actor.type !== "pokemon" ) return;
+  if ( options?.pkrpgSkipNatureHook ) return;
+  if ( !foundry.utils.hasProperty(changes, "system.details.nature") ) return;
+
+  const oldKey = actor.system.details?.nature ?? "";
+  const newKey = foundry.utils.getProperty(changes, "system.details.nature") ?? "";
+  if ( oldKey === newKey ) return;
+
+  const oldNature = oldKey ? POKEMON_RPG.natures?.[oldKey] : null;
+  const newNature = newKey ? POKEMON_RPG.natures?.[newKey] : null;
+
+  // Atributos elegíveis (HP nunca é afetado por natureza).
+  const attrs = ["atk", "def", "spa", "spd", "spe"];
+  for ( const attr of attrs ) {
+    let delta = 0;
+    if ( oldNature?.up   === attr ) delta -= 1; // remove +1 antigo
+    if ( oldNature?.down === attr ) delta += 1; // remove -1 antigo
+    if ( newNature?.up   === attr ) delta += 1; // adiciona +1 novo
+    if ( newNature?.down === attr ) delta -= 1; // adiciona -1 novo
+    if ( delta === 0 ) continue;
+
+    const path = `system.attributes.${attr}.value`;
+    // Pega o valor pendente no update (se já estiver sendo alterado por outro
+    // motivo) ou o valor atual do ator.
+    const baseVal = foundry.utils.getProperty(changes, path)
+                  ?? actor.system.attributes?.[attr]?.value
+                  ?? 0;
+    const newVal = Math.max(0, baseVal + delta);
+    foundry.utils.setProperty(changes, path, newVal);
+  }
+});
