@@ -1,4 +1,4 @@
-<section class="tab" data-tab="bio" data-group="primary">
+<section class="tab {{#if (eq activeTab 'bio')}}active{{/if}}" data-tab="bio" data-group="primary">
     <div class="bio-section">
         <h3>{{localize "POKEMON_RPG.Biography"}}</h3>
         <prose-mirror name="system.biography.value" value="{{system.biography.value}}" toggled></prose-mirror>

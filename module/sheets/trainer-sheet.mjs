@@ -177,10 +177,17 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   /** @override */
+  _initializeApplicationOptions(options) {
+    const opts = super._initializeApplicationOptions(options);
+    // Garante que tabGroups.primary já exista antes do primeiro render.
+    this.tabGroups ??= {};
+    this.tabGroups.primary ??= "main";
+    return opts;
+  }
+
+  /** @override */
   _onRender(context, options) {
     super._onRender(context, options);
-    // Esconde/mostra tabs com base no ativo.
-    this._applyActiveTab();
     // Drag-drop de Pokémons na aba party.
     new foundry.applications.ux.DragDrop.implementation({
       dragSelector: ".item",
@@ -191,29 +198,21 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }).bind(this.element);
   }
 
-  _applyActiveTab() {
-    const active = this.tabGroups?.primary ?? "main";
-    // Esconde todas as section[data-tab], mostra apenas a ativa.
-    const sections = this.element.querySelectorAll('section[data-tab][data-group="primary"]');
-    sections.forEach(s => {
-      s.style.display = s.dataset.tab === active ? "" : "none";
-    });
-    // Atualiza estado visual das nav tabs.
-    const navs = this.element.querySelectorAll('nav.sheet-tabs .item[data-group="primary"]');
-    navs.forEach(a => {
-      a.classList.toggle("active", a.dataset.tab === active);
-    });
-  }
-
   /**
-   * Action handler para clique em tab: persiste e re-renderiza.
+   * Troca de aba — atualiza apenas as classes .active no DOM, sem re-render.
+   * Mantém o estado em this.tabGroups para que o próximo render server-side
+   * já venha com a aba correta marcada.
    */
   static _onChangeTab(event, target) {
     const tab = target.dataset.tab;
     if ( !tab ) return;
     this.tabGroups ??= {};
     this.tabGroups.primary = tab;
-    this._applyActiveTab();
+    // Atualiza classes .active diretamente no DOM atual.
+    const sections = this.element.querySelectorAll('section.tab[data-group="primary"]');
+    sections.forEach(s => s.classList.toggle("active", s.dataset.tab === tab));
+    const navs = this.element.querySelectorAll('nav.sheet-tabs .item[data-group="primary"]');
+    navs.forEach(a => a.classList.toggle("active", a.dataset.tab === tab));
   }
 
   /* -------------------------------------------- */

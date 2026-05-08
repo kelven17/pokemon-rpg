@@ -113,9 +113,16 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   /** @override */
+  _initializeApplicationOptions(options) {
+    const opts = super._initializeApplicationOptions(options);
+    this.tabGroups ??= {};
+    this.tabGroups.primary ??= "main";
+    return opts;
+  }
+
+  /** @override */
   _onRender(context, options) {
     super._onRender(context, options);
-    this._applyActiveTab();
     // Drag-drop para aceitar moves/abilities/capacities.
     new foundry.applications.ux.DragDrop.implementation({
       dragSelector: ".item",
@@ -124,24 +131,18 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }).bind(this.element);
   }
 
-  _applyActiveTab() {
-    const active = this.tabGroups?.primary ?? "main";
-    const sections = this.element.querySelectorAll('section[data-tab][data-group="primary"]');
-    sections.forEach(s => {
-      s.style.display = s.dataset.tab === active ? "" : "none";
-    });
-    const navs = this.element.querySelectorAll('nav.sheet-tabs .item[data-group="primary"]');
-    navs.forEach(a => {
-      a.classList.toggle("active", a.dataset.tab === active);
-    });
-  }
-
+  /**
+   * Troca de aba — atualiza apenas as classes .active sem disparar re-render.
+   */
   static _onChangeTab(event, target) {
     const tab = target.dataset.tab;
     if ( !tab ) return;
     this.tabGroups ??= {};
     this.tabGroups.primary = tab;
-    this._applyActiveTab();
+    const sections = this.element.querySelectorAll('section.tab[data-group="primary"]');
+    sections.forEach(s => s.classList.toggle("active", s.dataset.tab === tab));
+    const navs = this.element.querySelectorAll('nav.sheet-tabs .item[data-group="primary"]');
+    navs.forEach(a => a.classList.toggle("active", a.dataset.tab === tab));
   }
 
   async _onDrop(event) {

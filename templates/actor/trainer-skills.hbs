@@ -1,4 +1,4 @@
-<section class="tab" data-tab="skills" data-group="primary">
+<section class="tab {{#if (eq activeTab 'skills')}}active{{/if}}" data-tab="skills" data-group="primary">
     <div class="skills-container">
         {{#each skillsByAttribute as |group attr|}}
         <div class="skill-group">

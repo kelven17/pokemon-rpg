@@ -1,4 +1,4 @@
-<section class="tab" data-tab="main" data-group="primary">
+<section class="tab {{#if (eq activeTab 'main')}}active{{/if}}" data-tab="main" data-group="primary">
     <div class="attributes-grid">
         {{#each attributes as |attr key|}}
         <div class="attribute-card" data-attribute="{{attr.key}}">
