@@ -1,0 +1,29 @@
+{
+  "name": "Feixe Psíquico",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d12+14",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo é Empurrado 5 metros em uma direção escolhida pelo usuário. Não há dano causado por este empurrão caso se choque em outra criatura ou em um Terreno Bloqueador. Se o resultado do Teste de Acurácia for 17 ou mais, o alvo perde uma Fase de Defesa Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

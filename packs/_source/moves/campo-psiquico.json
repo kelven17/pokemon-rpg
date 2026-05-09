@@ -1,0 +1,31 @@
+{
+  "name": "Campo Psíquico",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por cinco rodadas, a área é considerada Psíquica, o que significa que ninguém que toca o chão pode ser Interrompido (nem voluntariamente) e que todos os Golpes causadores de dano Psíquico causam dano adicional igual ao dobro do Bônus Elemental. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes Psíquicos e se acumula com o próprio Bônus Elemental se houver.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

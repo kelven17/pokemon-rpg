@@ -1,0 +1,29 @@
+{
+  "name": "Reserva",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "1d6+3",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Para cada Fase positiva que o usuário possua, aumente o Dano Basal da Reserva em +1d10.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

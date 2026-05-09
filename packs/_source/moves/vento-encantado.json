@@ -1,0 +1,31 @@
+{
+  "name": "Vento Encantado",
+  "type": "move",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "description": "",
+    "type": "fairy",
+    "category": "special",
+    "aptidao": "beleza",
+    "descritores": [
+      "Coluna 3"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "modelo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

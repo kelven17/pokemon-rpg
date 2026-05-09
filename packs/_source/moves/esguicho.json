@@ -1,0 +1,31 @@
+{
+  "name": "Esguicho",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 10"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Só é possível usar o Esguicho se o usuário possui pelo menos 90% de seus Pontos de Vida máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

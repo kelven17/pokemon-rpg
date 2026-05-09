@@ -1,0 +1,31 @@
+{
+  "name": "Estoicismo",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d10+4",
+    "alcance": "ranged",
+    "alcanceRange": 3,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "As criaturas na área perdem uma Fase de Ataque Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

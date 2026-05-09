@@ -1,0 +1,29 @@
+{
+  "name": "Maldição",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário eleva uma Fase de Ataque e de Defesa, mas per- de uma Fase de Velocidade. Se o usuário for do Tipo Fantas- ma, este Golpe terá um efeito diferente. Ele não eleva Fases do usuário e nem faz perder Fases de Velocidade. Em vez disso, o usuário perde metade de seus Pontos de Vida máximos e determina um alvo a até 4 metros para amaldiçoá-lo. O alvo perderá um oitavo de seus Pontos de Vida máximos no início de cada turno dele. Este uso de Maldição por Fantasmas só pode ser feito uma vez diária.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Pilar de Água",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d8+6",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se este Golpe for usado na mesma rodada que o Pilar de Chamas, reduza em 3 o número mínimo necessário como resultado dos Testes de Acurácia para efeitos de Golpes serem ativados por 1d4+1 rodadas. Se este Golpe for usado na mesma rodada que o Pilar de Folhas, todos os inimigos perdem duas Fases de Velocidade por 1d4+1 rodadas.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

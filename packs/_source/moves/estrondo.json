@@ -1,0 +1,32 @@
+{
+  "name": "Estrondo",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 4",
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+25",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

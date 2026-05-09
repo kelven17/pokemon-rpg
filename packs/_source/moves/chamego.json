@@ -1,0 +1,29 @@
+{
+  "name": "Chamego",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "1d6+3",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Paralisa o alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

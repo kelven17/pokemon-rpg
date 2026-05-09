@@ -1,0 +1,32 @@
+{
+  "name": "Megachute",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Empurrão 6 (1d12)",
+      "Impacto"
+    ],
+    "accuracy": 6,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

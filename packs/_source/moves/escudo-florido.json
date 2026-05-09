@@ -1,0 +1,31 @@
+{
+  "name": "Escudo Florido",
+  "type": "move",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "description": "",
+    "type": "fairy",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 5"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os pokémons de Planta elevam uma Fase de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

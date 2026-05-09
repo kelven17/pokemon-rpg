@@ -1,0 +1,31 @@
+{
+  "name": "Tempestade de Areia",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, uma Tempestade de Areia toma conta da área, o que significa que aqueles que não possuírem os Tipos Metal, Pedra ou Terra perdem 1/16 de seus Pontos de Vida máximos a cada rodada. Além disso, pokémons de Pedra elevam duas Fases de Defesa Especial durante uma Tempestade de Areia.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

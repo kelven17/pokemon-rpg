@@ -1,0 +1,29 @@
+{
+  "name": "Desabilitar",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Escolha um Golpe. Pelo resto do encontro, o alvo não pode usar aquele Golpe, que é considerado Desabilitado. O alvo só pode possuir um Golpe Desabilitado, de modo que se um novo Golpe for Desabilitado, o anterior será reabilitado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

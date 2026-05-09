@@ -51,18 +51,21 @@ export async function rollAttribute(actor, attrKey, options = {}) {
 }
 
 /**
- * Rola um golpe de pokémon.
+ * Rola um golpe de pokémon — molde do Livro do Jogador.
  *
- * Acerto:
- *   Rola 1d20 puro.
- *   O golpe acerta se o resultado for >= accuracy + evasão do alvo.
- *   A evasão usada é:
- *     - Evasão Física  (def) se o golpe for físico
- *     - Evasão Especial (spd) se o golpe for especial
- *     - PORÉM, se a Evasão Veloz (spe) do alvo for a maior evasão dele,
- *       é ela quem é usada no lugar.
+ * Estrutura:
+ *  - Frequência: golpe pode estar em cooldown (rastreado por `system.usado`).
+ *    À Vontade → nunca trava;
+ *    Rodada Sim Rodada Não → trava 1 rodada (uso seguinte só após próxima Recuperação);
+ *    Por Encontro → trava até fim de encontro;
+ *    Diária → trava até descanso longo.
+ *    Aqui apenas marcamos `usado=true` exceto À Vontade. Reset é manual via botão.
  *
- * Dano: como antes (power/10 d6 + atributo apropriado), só rola se acertar.
+ *  - Acurácia: 1d20 puro vs. dificuldade + evasão do alvo. "Automática" ignora rolagem.
+ *    20 = Crítico. 1 = Falha Crítica.
+ *
+ *  - Dano Basal: fórmula como string (ex.: "5d12+18"). Soma Atk se físico ou SpA se especial.
+ *    A categoria do livro vem de "Físico"/"Especial" no Dano Basal.
  */
 export async function rollMove(actor, moveItem, options = {}) {
   const sys = moveItem.system;
@@ -74,53 +77,58 @@ export async function rollMove(actor, moveItem, options = {}) {
   let content = `<div class="pokemon-rpg move-card">`;
   content += `<header><h3>${moveName}</h3>`;
   content += `<div class="move-tags">`;
-  content += `<span class="type type-${moveType}">${game.i18n.localize(POKEMON_RPG.types[moveType])}</span>`;
-  content += `<span class="category">${game.i18n.localize(POKEMON_RPG.moveCategories[cat])}</span>`;
+  content += `<span class="type-badge type-${moveType}">${game.i18n.localize(POKEMON_RPG.types[moveType])}</span>`;
+  if ( cat && cat !== "status" ) {
+    content += `<span class="cat-badge cat-${cat}">${game.i18n.localize(POKEMON_RPG.moveCategories[cat])}</span>`;
+  }
+  // Frequência
+  const freqLabel = game.i18n.localize(POKEMON_RPG.frequencies?.[sys.frequencia] ?? sys.frequencia);
+  content += `<span class="freq-badge">${freqLabel}</span>`;
   content += `</div></header>`;
 
-  // PP check
-  if ( sys.pp.value <= 0 ) {
-    content += `<p class="warning">Sem PP restante!</p>`;
+  // 0. Verifica frequência: golpe já usado e ainda travado?
+  if ( sys.frequencia !== "at-will" && sys.usado ) {
+    content += `<p class="warning">Golpe ainda em cooldown (${freqLabel}). Aguarde recuperar.</p>`;
     await ChatMessage.create({ speaker, content });
     return null;
   }
 
-  // Consumir PP
-  await moveItem.update({ "system.pp.value": Math.max(0, sys.pp.value - 1) });
+  // Marca como usado (exceto À Vontade)
+  if ( sys.frequencia !== "at-will" ) {
+    await moveItem.update({ "system.usado": true });
+  }
 
-  // 1. Rolagem de acerto: 1d20 puro vs accuracy + evasão do alvo.
+  // 1. Rolagem de Acurácia. Se accuracy = null, é Acurácia Automática.
   let hit = true;
-  if ( sys.accuracy !== null && sys.accuracy !== undefined ) {
-    const accRoll = new Roll(`1d20`);
-    await accRoll.evaluate();
+  let crit = false;
+  let critFail = false;
 
-    // Pega o primeiro alvo selecionado pelo usuário, se houver.
+  const automatic = (sys.accuracy === null || sys.accuracy === undefined);
+  if ( !automatic ) {
+    const accRoll = new Roll("1d20");
+    await accRoll.evaluate();
+    const d20 = accRoll.total;
+
+    // Alvo
     const targets = Array.from(game.user?.targets ?? []);
     const targetActor = targets[0]?.actor ?? null;
 
+    // Evasão
     let evasion = 0;
     let evasionLabel = "—";
-
     if ( targetActor ) {
-      // Lê evasões derivadas do system (calculadas em prepareDerivedData).
-      // Funciona tanto para Pokémon quanto para Treinador.
       const ev = targetActor.system.evasion ?? { physical: 0, special: 0, fast: 0 };
       const physEv = ev.physical ?? 0;
       const specEv = ev.special  ?? 0;
       const fastEv = ev.fast     ?? 0;
-
-      // Evasão "padrão" baseada na categoria do golpe.
       let baseEv, baseLabel;
       if ( cat === "special" ) {
         baseEv = specEv;
         baseLabel = game.i18n.localize("POKEMON_RPG.Evasion.Special");
       } else {
-        // Físico e status usam evasão física por padrão.
         baseEv = physEv;
         baseLabel = game.i18n.localize("POKEMON_RPG.Evasion.Physical");
       }
-
-      // Se Evasão Veloz é a MAIOR de todas, ela substitui a base.
       if ( fastEv > physEv && fastEv > specEv ) {
         evasion = fastEv;
         evasionLabel = game.i18n.localize("POKEMON_RPG.Evasion.Fast");
@@ -131,40 +139,97 @@ export async function rollMove(actor, moveItem, options = {}) {
     }
 
     const dc = (sys.accuracy ?? 0) + evasion;
-    hit = accRoll.total >= dc;
+    hit = d20 >= dc;
+    crit = (d20 === 20);     // Crítico
+    critFail = (d20 === 1);  // Falha Crítica
+    if ( crit ) hit = true;
+    if ( critFail ) hit = false;
 
     const targetName = targetActor?.name ?? "sem alvo";
+    let resText;
+    if ( crit ) resText = "💥 CRÍTICO";
+    else if ( critFail ) resText = "💢 FALHA CRÍTICA";
+    else resText = hit ? "✅ acertou" : "❌ errou";
+
     content += `<div class="accuracy-roll">`;
-    content += `Acerto (1d20): <strong>${accRoll.total}</strong> vs <strong>${dc}</strong> `;
-    content += `<em>(Precisão ${sys.accuracy ?? 0} + ${evasionLabel} ${evasion} — alvo: ${targetName})</em> `;
-    content += `— ${hit ? "✅ acertou" : "❌ errou"}`;
+    content += `Acerto (1d20): <strong>${d20}</strong> vs <strong>${dc}</strong> `;
+    content += `<em>(Dif. ${sys.accuracy ?? 0} + ${evasionLabel} ${evasion} — alvo: ${targetName})</em> — ${resText}`;
+    content += `</div>`;
+  } else {
+    content += `<div class="accuracy-roll"><em>Acurácia Automática — golpe acerta sem rolagem.</em></div>`;
+  }
+
+  // 2. Dano Basal (do livro)
+  const damageFormula = sys.damageBasal?.trim() || sys.damageFormula?.trim() || "";
+  const hasDamage = hit && damageFormula && damageFormula !== "-" && damageFormula !== "Ver Efeito"
+                    && cat !== "status";
+  if ( hasDamage ) {
+    const attrKey = (cat === "physical") ? "atk" : "spa";
+    const attrVal = actor.system.attributes?.[attrKey]?.mod ?? 0;
+    let formula = damageFormula;
+    // Soma atributo do usuário ao dano basal.
+    if ( attrVal !== 0 ) formula = `${formula} + ${attrVal}`;
+    // Crítico dobra o dano (regra padrão Pokémon).
+    if ( crit ) formula = `(${formula}) * 2`;
+
+    const dmgRoll = new Roll(formula);
+    await dmgRoll.evaluate();
+    content += `<div class="damage-roll">`;
+    content += `Dano${crit ? " (Crítico ×2)" : ""}: <strong>${dmgRoll.total}</strong> `;
+    content += `<em>(${formula})</em>`;
+    content += `</div>`;
+    content += `<details><summary>Detalhes do dano</summary>${await dmgRoll.render()}</details>`;
+  } else if ( damageFormula === "Ver Efeito" ) {
+    content += `<div class="damage-roll">Dano descrito no Efeito.</div>`;
+  } else if ( cat === "status" || !damageFormula || damageFormula === "-" ) {
+    content += `<div class="status-effect">Golpe sem Dano Basal — ver efeito.</div>`;
+  }
+
+  // 3. Descritores (badges adicionais)
+  if ( Array.isArray(sys.descritores) && sys.descritores.length > 0 ) {
+    content += `<div class="move-descritores">`;
+    for ( const d of sys.descritores ) {
+      content += `<span class="desc-badge">${d}</span>`;
+    }
     content += `</div>`;
   }
 
-  // 2. Rolagem de dano
-  if ( hit && sys.power && cat !== "status" ) {
-    const attrKey = (cat === "physical") ? "atk" : "spa";
-    const attrVal = actor.system.attributes[attrKey]?.mod ?? 0;
-    const diceCount = Math.max(1, Math.ceil(sys.power / 10));
-    const formula = sys.damageFormula?.trim() || `${diceCount}d6 + ${attrVal}`;
-    const dmgRoll = new Roll(formula);
-    await dmgRoll.evaluate();
-    content += `<div class="damage-roll">Dano: <strong>${dmgRoll.total}</strong> <em>(${formula})</em></div>`;
-    // Anexa o detalhe do roll no chat (tooltip).
-    content += `<details><summary>Detalhes do dano</summary>${await dmgRoll.render()}</details>`;
-  } else if ( cat === "status" ) {
-    content += `<div class="status-effect">Golpe de status — sem dano direto.</div>`;
-  }
-
-  // 3. Efeito textual
+  // 4. Efeito textual
   if ( sys.effect ) {
     content += `<div class="effect">${sys.effect}</div>`;
   }
 
-  content += `<footer><small>PP restante: ${Math.max(0, sys.pp.value - 1)}/${sys.pp.max}</small></footer>`;
+  // Footer com alcance
+  const alcanceTxt = game.i18n.localize(POKEMON_RPG.ranges?.[sys.alcance] ?? sys.alcance ?? "");
+  const alcanceFull = sys.alcance === "ranged" && sys.alcanceRange
+    ? `${alcanceTxt} ${sys.alcanceRange}m`
+    : alcanceTxt;
+  content += `<footer><small>Alcance: ${alcanceFull}</small></footer>`;
   content += `</div>`;
 
   await ChatMessage.create({ speaker, content });
+}
+
+/**
+ * Reseta o estado de uso (frequência) de todos os golpes de um Pokémon.
+ * Útil para "fim do encontro" (Por Encontro + Rodada Sim Rodada Não)
+ * e "descanso" (Diária).
+ */
+export async function resetMoveUsage(actor, scope = "encounter") {
+  if ( !actor ) return;
+  const moves = actor.items.filter(i => i.type === "move");
+  const updates = [];
+  for ( const m of moves ) {
+    const f = m.system.frequencia;
+    if ( f === "at-will" ) continue;
+    if ( scope === "encounter" && (f === "per-encounter" || f === "every-other") ) {
+      updates.push({ _id: m.id, "system.usado": false });
+    } else if ( scope === "daily" ) {
+      updates.push({ _id: m.id, "system.usado": false });
+    }
+  }
+  if ( updates.length ) await actor.updateEmbeddedDocuments("Item", updates);
+  ui.notifications?.info(`${updates.length} golpe(s) recuperado(s).`);
 }
 
 /**

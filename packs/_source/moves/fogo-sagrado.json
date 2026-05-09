@@ -1,0 +1,31 @@
+{
+  "name": "Fogo Sagrado",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 7"
+    ],
+    "accuracy": 3,
+    "damageBasal": "4d12+16",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 11 ou mais, os alvos estão com Queimadura.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

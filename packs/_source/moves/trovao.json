@@ -1,0 +1,32 @@
+{
+  "name": "Trovão",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 3 (0)",
+      "Explosão 3"
+    ],
+    "accuracy": 6,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 13 ou mais, os alvos estão Paralisados. A Dificuldade de Acurácia do Trovão varia conforme o Clima na área alvo, mudando para 11 se o Clima estiver Ensolarado ou para Automática se estiver Chuvoso.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

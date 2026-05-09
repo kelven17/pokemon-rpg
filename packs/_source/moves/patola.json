@@ -1,0 +1,31 @@
+{
+  "name": "Patola",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 2"
+    ],
+    "accuracy": 3,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 18 ou mais, a Patola causa um Crítico. Pedras Soltas Ameaça - - À Distância 20 Por Encontro Abstração Escolha cinco metros quadrados dentro do alcance. Todos os quadrados devem estar adjacentes a pelo menos outro quadrado escolhido. Se uma criatura se mover através des- tes de algum quadrado a menos de dez metros de um dos cinco quadrados escolhidos, as Pedras Soltas do quadrado mais próximo da criatura são removidas e o inimigo perde um oitavo de seus PV máximos. Esta perda é considerada dano de Pedra comum, afetado por resistências e vulnerabilidades, mas não se aplicam Atributos. Se um alvo já foi atingido por um dos cinco quadrados, ele não pode ser atingido por outro até o fim do encontro, ou até que seja convocado de volta à pokébola ou fuja.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

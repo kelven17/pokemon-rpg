@@ -1,0 +1,31 @@
+{
+  "name": "Esforço",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [
+      "Impacto"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A quantidade de PV do alvo é reduzida para igualar a quantidade de PV do usuário. O Esforço não funciona se o usuário possui mais PV que o alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

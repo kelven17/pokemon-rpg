@@ -1,0 +1,29 @@
+{
+  "name": "Joia do Poder",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

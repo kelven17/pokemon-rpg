@@ -1,0 +1,29 @@
+{
+  "name": "Mão Amiga",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O aliado alvo da Mão Amiga aumentará o Dano Basal do próximo Golpe que usar em +1d20, desde que o Golpe seja um Golpe causador de dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

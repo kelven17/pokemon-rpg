@@ -1,0 +1,29 @@
+{
+  "name": "Magnetização",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Garante a Habilidade Levitação até o fim do encontro. Se já possuía Levitação, o usuário agora pode agora perder Levitação por qualquer motivo que o faria perder esta Habilidade e ainda continuar levitando.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

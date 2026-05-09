@@ -134,6 +134,94 @@ POKEMON_RPG.moveCategories = {
 };
 
 /* -------------------------------------------- */
+/*  Aptidões (Concursos)                         */
+/* -------------------------------------------- */
+
+POKEMON_RPG.aptitudes = {
+  beleza:      "POKEMON_RPG.Aptidao.Beleza",
+  estilo:      "POKEMON_RPG.Aptidao.Estilo",
+  perspicacia: "POKEMON_RPG.Aptidao.Perspicacia",
+  ternura:     "POKEMON_RPG.Aptidao.Ternura",
+  vigor:       "POKEMON_RPG.Aptidao.Vigor"
+};
+
+/* -------------------------------------------- */
+/*  Alcance dos Golpes                           */
+/* -------------------------------------------- */
+
+POKEMON_RPG.ranges = {
+  si:     "POKEMON_RPG.Alcance.Si",
+  melee:  "POKEMON_RPG.Alcance.Melee",
+  ranged: "POKEMON_RPG.Alcance.Ranged",
+  area:   "POKEMON_RPG.Alcance.Area"
+};
+
+/* -------------------------------------------- */
+/*  Frequência dos Golpes                        */
+/* -------------------------------------------- */
+
+POKEMON_RPG.frequencies = {
+  "at-will":          "POKEMON_RPG.Frequencia.AtWill",
+  "every-other":      "POKEMON_RPG.Frequencia.EveryOther",
+  "per-encounter":    "POKEMON_RPG.Frequencia.PerEncounter",
+  "daily":            "POKEMON_RPG.Frequencia.Daily"
+};
+
+/* -------------------------------------------- */
+/*  Descritores de Concursos                     */
+/* -------------------------------------------- */
+
+POKEMON_RPG.contestDescriptors = {
+  abertura:        "POKEMON_RPG.Concursos.Abertura",
+  abstracao:       "POKEMON_RPG.Concursos.Abstracao",
+  amizade:         "POKEMON_RPG.Concursos.Amizade",
+  climax:          "POKEMON_RPG.Concursos.Climax",
+  cobica:          "POKEMON_RPG.Concursos.Cobica",
+  conquista:       "POKEMON_RPG.Concursos.Conquista",
+  constrangimento: "POKEMON_RPG.Concursos.Constrangimento",
+  continuacao:     "POKEMON_RPG.Concursos.Continuacao",
+  dedicatoria:     "POKEMON_RPG.Concursos.Dedicatoria",
+  desfecho:        "POKEMON_RPG.Concursos.Desfecho",
+  despedida:       "POKEMON_RPG.Concursos.Despedida",
+  encerramento:    "POKEMON_RPG.Concursos.Encerramento",
+  entrada:         "POKEMON_RPG.Concursos.Entrada",
+  especial:        "POKEMON_RPG.Concursos.Especial",
+  excentricidade:  "POKEMON_RPG.Concursos.Excentricidade",
+  extravagancia:   "POKEMON_RPG.Concursos.Extravagancia",
+  incentivo:       "POKEMON_RPG.Concursos.Incentivo",
+  modelo:          "POKEMON_RPG.Concursos.Modelo",
+  modestia:        "POKEMON_RPG.Concursos.Modestia",
+  pausa:           "POKEMON_RPG.Concursos.Pausa",
+  perspectiva:     "POKEMON_RPG.Concursos.Perspectiva",
+  proveito:        "POKEMON_RPG.Concursos.Proveito",
+  reviravolta:     "POKEMON_RPG.Concursos.Reviravolta",
+  seguranca:       "POKEMON_RPG.Concursos.Seguranca",
+  sorteio:         "POKEMON_RPG.Concursos.Sorteio",
+  surpresa:        "POKEMON_RPG.Concursos.Surpresa"
+};
+
+/**
+ * Mapeamento dos Descritores de Concursos para as 5 Aptidões.
+ * Pelo livro:
+ *   - Beleza:       Modelo, Modéstia, Despedida, Pausa
+ *   - Estilo:       Conquista, Encerramento, Excentricidade, Reviravolta, Sorteio
+ *   - Perspicácia:  Abertura, Abstração, Continuação, Desfecho, Perspectiva
+ *   - Ternura:      Amizade, Cobiça, Constrangimento, Dedicatória, Especial, Proveito, Surpresa
+ *   - Vigor:        Clímax, Entrada, Extravagância, Incentivo, Segurança
+ */
+POKEMON_RPG.contestToAptitude = {
+  modelo: "beleza", modestia: "beleza", despedida: "beleza", pausa: "beleza",
+  conquista: "estilo", encerramento: "estilo", excentricidade: "estilo",
+    reviravolta: "estilo", sorteio: "estilo",
+  abertura: "perspicacia", abstracao: "perspicacia", continuacao: "perspicacia",
+    desfecho: "perspicacia", perspectiva: "perspicacia",
+  amizade: "ternura", cobica: "ternura", constrangimento: "ternura",
+    dedicatoria: "ternura", especial: "ternura", proveito: "ternura", surpresa: "ternura",
+  climax: "vigor", entrada: "vigor", extravagancia: "vigor",
+    incentivo: "vigor", seguranca: "vigor"
+};
+
+/* -------------------------------------------- */
 /*  Bônus de Proficiência por Nível             */
 /* -------------------------------------------- */
 

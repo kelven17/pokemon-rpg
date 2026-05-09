@@ -1,0 +1,32 @@
+{
+  "name": "Voz Encantadora",
+  "type": "move",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "description": "",
+    "type": "fairy",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Explosão 4",
+      "Som"
+    ],
+    "accuracy": null,
+    "damageBasal": "1d8+4",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

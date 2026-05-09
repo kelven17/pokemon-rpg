@@ -1,0 +1,32 @@
+{
+  "name": "Incêndio",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Exaustão",
+      "Explosão 3"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o Incêndio falhar em acertar um alvo, este ainda recebe dano igual ao Ataque Especial do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

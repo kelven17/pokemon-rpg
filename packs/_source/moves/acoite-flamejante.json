@@ -1,0 +1,29 @@
+{
+  "name": "Açoite Flamejante",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo perde uma Fase de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

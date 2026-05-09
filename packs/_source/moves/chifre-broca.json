@@ -1,0 +1,29 @@
+{
+  "name": "Chifre Broca",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 16,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "desfecho",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo tem seus PV reduzidos a zero.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

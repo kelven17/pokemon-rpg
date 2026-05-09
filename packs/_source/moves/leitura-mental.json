@@ -1,0 +1,29 @@
+{
+  "name": "Leitura Mental",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O próximo Golpe que o usuário usar contra o alvo que tiver uma Dificuldade de Acurácia diferente de Automática acer- ta automaticamente. O efeito da Leitura Mental, tanto no alvo quanto no usuário, é transferido por Passar o Bastão.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

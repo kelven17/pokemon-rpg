@@ -1,0 +1,31 @@
+{
+  "name": "Geração V",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 10"
+    ],
+    "accuracy": 5,
+    "damageBasal": "8d10+36",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário perde uma Fase de Defesa, de Defesa Especial e de Velocidade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

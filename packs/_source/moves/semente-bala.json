@@ -1,0 +1,31 @@
+{
+  "name": "Semente Bala",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d10+4",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até cinco sementes podem ser atiradas, mas após o primeiro erro, esta Saraivada acaba.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

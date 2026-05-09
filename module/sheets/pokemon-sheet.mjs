@@ -19,6 +19,8 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       itemEdit: PokemonSheet._onItemEdit,
       itemDelete: PokemonSheet._onItemDelete,
       restorePP: PokemonSheet._onRestorePP,
+      resetMovesEncounter: PokemonSheet._onResetMovesEncounter,
+      resetMovesDaily: PokemonSheet._onResetMovesDaily,
       openTrainer: PokemonSheet._onOpenTrainer,
       applySpecies: PokemonSheet._onApplySpecies,
       tab: PokemonSheet._onChangeTab
@@ -226,14 +228,17 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /* -------------------------------------------- */
 
   /**
-   * Coleta espécies disponíveis do mundo + do compendium "species" do sistema.
+   * Coleta espécies disponíveis: itens do mundo + qualquer compendium de Item.
    * Retorna [{ uuid, name, dexNumber }] ordenado por número da Pokédex.
    */
   static async _collectSpeciesOptions() {
     const list = [];
+    const seen = new Set();
 
     // 1. Itens do tipo "species" no mundo.
     for ( const item of game.items?.filter(i => i.type === "species") ?? [] ) {
+      if ( seen.has(item.uuid) ) continue;
+      seen.add(item.uuid);
       list.push({
         uuid: item.uuid,
         name: item.name,
@@ -241,24 +246,40 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       });
     }
 
-    // 2. Itens do compendium "pokemon-rpg.species" (se existir).
-    const pack = game.packs?.get("pokemon-rpg.species");
-    if ( pack ) {
+    // 2. Varre todos os compendiums de Item — não só o do sistema.
+    //    Em Foundry v11+ o UUID do compendium é
+    //    `Compendium.<collection>.<DocumentName>.<entryId>`.
+    const itemPacks = (game.packs ?? []).filter(p => p.metadata?.type === "Item");
+    for ( const pack of itemPacks ) {
       try {
-        const index = await pack.getIndex({ fields: ["system.dexNumber"] });
+        const index = await pack.getIndex({ fields: ["type", "system.dexNumber"] });
         for ( const entry of index ) {
+          if ( entry.type && entry.type !== "species" ) continue;
+          const uuid = entry.uuid
+            ?? `Compendium.${pack.collection}.${pack.documentName}.${entry._id}`;
+          if ( seen.has(uuid) ) continue;
+          seen.add(uuid);
           list.push({
-            uuid: `Compendium.${pack.collection}.${entry._id}`,
+            uuid,
             name: entry.name,
             dexNumber: entry.system?.dexNumber ?? 9999
           });
         }
       } catch (err) {
-        console.warn("pokemon-rpg | falha ao indexar compendium de espécies:", err);
+        console.warn(`pokemon-rpg | falha ao indexar pack ${pack.collection}:`, err);
       }
     }
 
     list.sort((a, b) => (a.dexNumber - b.dexNumber) || a.name.localeCompare(b.name));
+    if ( list.length === 0 ) {
+      console.warn(
+        "pokemon-rpg | nenhuma espécie encontrada. " +
+        "Importe espécies do compendium (Drag-and-drop do compendium pra aba Items, " +
+        "ou crie itens do tipo 'Espécie' manualmente)."
+      );
+    } else {
+      console.log(`pokemon-rpg | ${list.length} espécie(s) disponíveis na ficha.`);
+    }
     return list;
   }
 
@@ -399,6 +420,16 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       .map(i => ({ _id: i.id, "system.pp.value": i.system.pp.max }));
     if ( updates.length ) await this.actor.updateEmbeddedDocuments("Item", updates);
     ui.notifications?.info(game.i18n.localize("POKEMON_RPG.Notify.PPRestored"));
+  }
+
+  static async _onResetMovesEncounter(event, target) {
+    const { resetMoveUsage } = await import("../helpers/rolls.mjs");
+    return resetMoveUsage(this.actor, "encounter");
+  }
+
+  static async _onResetMovesDaily(event, target) {
+    const { resetMoveUsage } = await import("../helpers/rolls.mjs");
+    return resetMoveUsage(this.actor, "daily");
   }
 
   static async _onOpenTrainer(event, target) {

@@ -1,0 +1,32 @@
+{
+  "name": "Canhão de Água",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Exaustão",
+      "Explosão 3"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o Canhão de Água errar, ele ainda causa o Ataque Especial do usuário a todos os alvos nos quais errar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

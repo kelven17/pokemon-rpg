@@ -1,0 +1,31 @@
+{
+  "name": "Supervoadora",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 3,
+    "damageBasal": "5d12+22",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se a Supervoadora errar, o usuário sofre 4d10 de dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

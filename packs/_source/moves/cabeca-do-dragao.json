@@ -1,0 +1,29 @@
+{
+  "name": "Cabeça do Dragão",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

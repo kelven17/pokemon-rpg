@@ -1,0 +1,29 @@
+{
+  "name": "Cauda de Vento",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário e todos os seus aliados elevam uma Fase de Velocidade. Isso dura por 1d6+1 rodadas, quando eles perdem a Fase de Velocidade recebida. Se a Cauda de Vento for usada de novo durante este período, não se recebe outra Fase de Velocidade, mas o período de tempo é renovado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

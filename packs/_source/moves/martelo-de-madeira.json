@@ -1,0 +1,33 @@
+{
+  "name": "Martelo de Madeira",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Empurrão 5 (1d6)",
+      "Impacto",
+      "Rebote (um terço)"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

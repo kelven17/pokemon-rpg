@@ -1,0 +1,31 @@
+{
+  "name": "Armadilha de Concha",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Ameaça"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 1,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Escolha um quadrado adjacente ao usuário para se tornar explosivo. Se alguma criatura se mover através da Armadilha de Concha, ela sofre 7d10+28 de dano Especial de Fogo, aplicando o Ataque Especial do usuário e a Defesa Especial da vítima normalmente, e são aplicadas resistências e vulnerabilidades a este dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Agulhas",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada 5"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d6+1",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até cinco Agulhas podem ser atiradas, mas após o primeiro erro, esta Saraivada acaba.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

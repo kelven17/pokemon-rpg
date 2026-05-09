@@ -1,0 +1,31 @@
+{
+  "name": "Clampeamento",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Prisão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário e o alvo estão Presos por 1d4+1 rodadas. Uma vez por rodada, no início de cada turno do alvo enquanto Presos, ele sofre 1d12 de dano. A menos que o usuário seja Enorme ou Gigantesco, ele não pode clampear mais de um alvo simultaneamente.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

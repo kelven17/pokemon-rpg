@@ -1,0 +1,29 @@
+{
+  "name": "Telecinesia",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, o alvo é imune a Golpes de Terra e to- das as Dificuldades de Acurácia de Golpes feitos contra ele são reduzidas em 5. Os efeitos da Telecinesia não se acumu- lam, mas é possível renovar a duração usando-a de novo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

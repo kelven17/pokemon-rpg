@@ -1,0 +1,32 @@
+{
+  "name": "Sombra Traiçoeira",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interrupção",
+      "Investida"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se um inimigo for usar um Golpe, é possível usar a Sombra Traiçoeira como uma Interrupção antes do Golpe dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

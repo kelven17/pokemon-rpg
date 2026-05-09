@@ -1,0 +1,29 @@
+{
+  "name": "Avessas",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Todas as Fases do alvo são invertidas: aquelas que antes eram Fases negativas agora são positivas e vice-versa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

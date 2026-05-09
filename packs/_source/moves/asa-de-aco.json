@@ -1,0 +1,32 @@
+{
+  "name": "Asa de Aço",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Investida",
+      "Moral"
+    ],
+    "accuracy": 3,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 15 ou mais, eleva uma Fase de Defesa do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

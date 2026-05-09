@@ -1,0 +1,29 @@
+{
+  "name": "Troca de Defesas",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário troca todas as Fases de Defesa e de Defesa Especial que estavam ativas sobre ele pelas Fases que estavam ativas nos mesmos Atributos do alvo e vice-versa. É possível neutralizar Fases.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

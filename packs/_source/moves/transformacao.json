@@ -1,0 +1,29 @@
+{
+  "name": "Transformação",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 25,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário assume a forma do alvo, recebendo seu(s) Tipo(s) e sua(s) Habilidade(s) e aprendendo todos os Golpes conhe- cidos por ele, bem como assumindo sua altura, seu Tama- nho e seu Peso, mas os Atributos do usuário permanecem os seus próprios. O usuário permanece nesta forma até es- colher reverter a sua forma original ou até usar Transforma- ção para se tornar alguma outra coisa, sem precisar reverter até o fim do encontro ou após cinco minutos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Troca de Marcha",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva uma Fase de Ataque do usuário e duas Fases de Velocidade do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Chifre Certeiro",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

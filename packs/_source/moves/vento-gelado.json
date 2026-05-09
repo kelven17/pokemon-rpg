@@ -1,0 +1,31 @@
+{
+  "name": "Vento Gelado",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "special",
+    "aptidao": "beleza",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d10+8",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "pausa",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Velocidade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

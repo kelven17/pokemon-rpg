@@ -1,0 +1,31 @@
+{
+  "name": "Dia de Sol",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, a área é considerada com clima ensolarado. Isso significa que os danos de Fogo aumentam em 50% e os danos de Água são reduzidos à metade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

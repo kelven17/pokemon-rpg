@@ -1,0 +1,31 @@
+{
+  "name": "Garra Sombria",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 18 ou mais, a Garra Sombria é um Crítico.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Clamor",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Explosão 5",
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d12+14",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário do Clamor repetirá um Golpe idêntico ao Clamor por 1d4+1 rodadas depois dessa, podendo se mover normalmente entre os usos. Qualquer criatura Adormecida dentro da área do Clamor imediatamente acorda.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

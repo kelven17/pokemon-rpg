@@ -1,0 +1,31 @@
+{
+  "name": "Fingimento",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Quando um encontro começa, você pode usar Fingimento como uma Interrupção. Não é possível usar o Fingimento em outra situação que não como a Interrupção de início de encontro. O alvo do Fingimento ficará Atordoado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

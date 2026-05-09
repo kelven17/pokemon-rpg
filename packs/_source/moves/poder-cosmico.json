@@ -1,0 +1,29 @@
+{
+  "name": "Poder Cósmico",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "234 -",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva uma Fase de Defesa e de Defesa Especial do usuário. Poder da Natureza - Ver Efeito Ver Efeito Ver Efeito Rodada Sim Rodada Não Sorteio O usuário usa um Golpe de acordo com o ambiente em que se encontra. Se a Frequência do Golpe usado for Por Encontro ou Diária, não será possível usar o Poder da Natureza de novo durante o encontro. Ambiente Golpe Água Doce Surfe Ártico, Taiga e Tundra Nevasca Caverna Esfera de Sombras Céu Rajada de Vento Cidade Estrela Cadente Deserto Ataque de Areia Floresta Folhas Mágicas Montanha Deslizamento de Rochas Oceano Hidrobomba Pradaria Esporos Paralisantes Praia Água Barrenta Selva Folha Navalha Vulcão Onda de Calor",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

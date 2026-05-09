@@ -1,0 +1,31 @@
+{
+  "name": "Canhão de Espinhos",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada 5"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d6+3",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até cinco espinhos podem ser atirados, mas após o primeiro erro, esta Saraivada acaba. Quando adicionar o Ataque a este Golpe, adicione apenas metade do Atributo Ataque.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

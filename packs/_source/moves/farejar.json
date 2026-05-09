@@ -1,0 +1,29 @@
+{
+  "name": "Farejar",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os Golpes Normais e Lutadores do usuário agora podem acertar e afetar Fantasmas normalmente. Além disso, o usuário não recebe aumentos às suas Dificuldades de Acurácia em virtude de Golpes inimigos e nem mesmo alvos podem usar suas Evasões de Velocidade contra os Golpes do usuário, mas ainda podem usar suas Evasões de Defesa e de Defesa Especial. Finalmente, o usuário pode diferenciar o ativador de Multiplicar das cópias. Feitiço - 2 2d8+6 Especial À Distância Por Encontro Incentivo Se o alvo possuir alguma Condição, o Dano Basal do Feitiço se torna 4d12+16 Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

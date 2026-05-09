@@ -1,0 +1,32 @@
+{
+  "name": "Tagarelar",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 1",
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "2d10+8",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos estão Confusos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

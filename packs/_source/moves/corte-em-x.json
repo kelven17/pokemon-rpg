@@ -1,0 +1,31 @@
+{
+  "name": "Corte em X",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Impacto"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

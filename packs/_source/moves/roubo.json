@@ -1,0 +1,29 @@
+{
+  "name": "Roubo",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "cobica",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário não estiver com nenhum item Mantido, ele rouba o item Mantido do alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

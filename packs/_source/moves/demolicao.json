@@ -1,0 +1,32 @@
+{
+  "name": "Demolição",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Exaustão",
+      "Investida"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se a Demolição errar, ela ainda causa o Ataque do usuário a todos os alvos nos quais errar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

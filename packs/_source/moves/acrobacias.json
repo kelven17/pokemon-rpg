@@ -1,0 +1,29 @@
+{
+  "name": "Acrobacias",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d10+8",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Dano Basal deste Golpe é alterado para 4d12+16 Físico se o usuário não estiver portando nenhum item Mantido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

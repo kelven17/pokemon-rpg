@@ -1,0 +1,32 @@
+{
+  "name": "Afrochoque",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Empurrão 5 (1d12)",
+      "Rebote (um quarto)"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

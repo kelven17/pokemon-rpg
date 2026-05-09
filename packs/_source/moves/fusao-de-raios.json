@@ -1,0 +1,31 @@
+{
+  "name": "Fusão de Raios",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 4"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+22",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se alguém tiver usado Fusão de Chamas desde a rodada anterior, Fusão de Raios recebe +8d12 ao Dano Basal.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -2,8 +2,11 @@
     <header class="item-section-header">
         <h3>{{localize "POKEMON_RPG.Moves"}}</h3>
         <div class="header-actions">
-            <button type="button" data-action="restorePP" class="restore-btn">
-                <i class="fas fa-bed"></i> {{localize "POKEMON_RPG.RestorePP"}}
+            <button type="button" data-action="resetMovesEncounter" class="restore-btn" title="{{localize 'POKEMON_RPG.Move.ResetEncounter'}}">
+                <i class="fas fa-rotate-right"></i> {{localize "POKEMON_RPG.Move.ResetEncounter"}}
+            </button>
+            <button type="button" data-action="resetMovesDaily" class="restore-btn" title="{{localize 'POKEMON_RPG.Move.ResetDaily'}}">
+                <i class="fas fa-bed"></i> {{localize "POKEMON_RPG.Move.ResetDaily"}}
             </button>
             <button type="button" data-action="itemCreate" data-type="move" class="create-btn">
                 + {{localize "POKEMON_RPG.NewMove"}}
@@ -12,21 +15,27 @@
     </header>
     <ul class="items-list moves-list">
         {{#each itemsByType.move}}
-        <li class="item move-item type-{{this.system.type}}" data-item-id="{{this.id}}">
+        <li class="item move-item type-{{this.system.type}} {{#if this.system.usado}}is-used{{/if}}" data-item-id="{{this.id}}">
             <img src="{{this.img}}" class="item-img"/>
             <div class="move-name" data-action="rollMove">
                 {{this.name}}
                 <span class="type-badge type-{{this.system.type}}">
                     {{localize (lookup @root.config.types this.system.type)}}
                 </span>
+                {{#unless (eq this.system.category "status")}}
                 <span class="cat-badge cat-{{this.system.category}}">
                     {{localize (lookup @root.config.moveCategories this.system.category)}}
                 </span>
+                {{/unless}}
+                <span class="freq-badge">
+                    {{localize (lookup @root.config.frequencies this.system.frequencia)}}
+                </span>
+                {{#if this.system.usado}}<span class="cooldown-badge">{{localize "POKEMON_RPG.Move.Cooldown"}}</span>{{/if}}
             </div>
             <div class="move-stats">
-                {{#if this.system.power}}<span title="Power">⚡ {{this.system.power}}</span>{{/if}}
-                {{#if this.system.accuracy}}<span title="Accuracy">🎯 {{this.system.accuracy}}</span>{{/if}}
-                <span title="PP">PP {{this.system.pp.value}}/{{this.system.pp.max}}</span>
+                {{#if this.system.damageBasal}}<span title="Dano Basal">⚔ {{this.system.damageBasal}}</span>{{/if}}
+                {{#if this.system.accuracy}}<span title="Dificuldade Acurácia">🎯 {{this.system.accuracy}}</span>{{else}}<span title="Acurácia Automática">🎯 Auto</span>{{/if}}
+                <span title="Alcance">📍 {{localize (lookup @root.config.ranges this.system.alcance)}}{{#if this.system.alcanceRange}} {{this.system.alcanceRange}}m{{/if}}</span>
             </div>
             <div class="item-controls">
                 <a data-action="rollMove" title="{{localize 'POKEMON_RPG.UseMove'}}"><i class="fas fa-bolt"></i></a>

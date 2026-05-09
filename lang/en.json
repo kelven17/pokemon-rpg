@@ -13,7 +13,6 @@
     "Trainer": "Trainer",
     "Species": "Species",
     "DexNumber": "Dex No.",
-    "Nature": "Nature",
     "Gender": "Gender",
     "Status": "Status",
     "Biography": "Biography",
@@ -121,6 +120,72 @@
       "Hint":     "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
     },
 
+    "Aptidao": {
+      "Label":       "Aptitude",
+      "Beleza":      "Beauty",
+      "Estilo":      "Cool",
+      "Perspicacia": "Cleverness",
+      "Ternura":     "Cuteness",
+      "Vigor":       "Toughness"
+    },
+
+    "Alcance": {
+      "Label":  "Range",
+      "Si":     "Self",
+      "Melee":  "Melee",
+      "Ranged": "Ranged",
+      "Area":   "Area"
+    },
+
+    "Frequencia": {
+      "Label":        "Frequency",
+      "AtWill":       "At-Will",
+      "EveryOther":   "Every Other Round",
+      "PerEncounter": "Per Encounter",
+      "Daily":        "Daily"
+    },
+
+    "Concursos": {
+      "Label":           "Contests",
+      "Abertura":        "Opening",
+      "Abstracao":       "Abstraction",
+      "Amizade":         "Friendship",
+      "Climax":          "Climax",
+      "Cobica":          "Greed",
+      "Conquista":       "Conquest",
+      "Constrangimento": "Embarrassment",
+      "Continuacao":     "Continuation",
+      "Dedicatoria":     "Dedication",
+      "Desfecho":        "Conclusion",
+      "Despedida":       "Farewell",
+      "Encerramento":    "Closing",
+      "Entrada":         "Entrance",
+      "Especial":        "Special",
+      "Excentricidade":  "Eccentricity",
+      "Extravagancia":   "Extravagance",
+      "Incentivo":       "Incentive",
+      "Modelo":          "Model",
+      "Modestia":        "Modesty",
+      "Pausa":           "Pause",
+      "Perspectiva":     "Perspective",
+      "Proveito":        "Profit",
+      "Reviravolta":     "Twist",
+      "Seguranca":       "Safety",
+      "Sorteio":         "Lottery",
+      "Surpresa":        "Surprise"
+    },
+
+    "Move": {
+      "Descritores":      "Descriptors",
+      "DificuldadeAcc":   "Accuracy Difficulty",
+      "Automatica":       "Automatic",
+      "DanoBasal":        "Base Damage",
+      "ResetEncounter":   "Reset (Encounter)",
+      "ResetDaily":       "Reset (Day)",
+      "Used":             "Used",
+      "Cooldown":         "On cooldown"
+    },
+
     "Effectiveness": {
       "Weaknesses":   "Weaknesses",
       "Resistances":  "Resistances",
@@ -132,6 +197,7 @@
     },
 
     "Nature": {
+      "Label":   "Nature",
       "None":    "—",
       "Hardy":   "Hardy",
       "Lonely":  "Lonely",

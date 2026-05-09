@@ -1,0 +1,32 @@
+{
+  "name": "Gigaimpacto",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Exaustão",
+      "Impacto"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o Gigaimpacto errar o alvo, ele cria uma Explosão 3 centrada no alvo ainda causando o Ataque do usuário (mas não a rolagem de Dano Basal) a todos aqueles na área da Explosão.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

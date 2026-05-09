@@ -1,0 +1,31 @@
+{
+  "name": "Bomba Ácida",
+  "type": "move",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "",
+    "type": "poison",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 3,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem duas Fases de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

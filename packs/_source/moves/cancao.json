@@ -1,0 +1,32 @@
+{
+  "name": "Canção",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 4",
+      "Som"
+    ],
+    "accuracy": 11,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos são Adormecidos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

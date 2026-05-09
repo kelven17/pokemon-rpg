@@ -1,0 +1,31 @@
+{
+  "name": "Focar Energia",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Pelo resto do combate, os Golpes do usuário são Críticos em resultados de Testes de Acurácia três pontos a menos que aquilo que normalmente é necessário (a menos que um Golpe ou algum efeito aumente a chance de Crítico, isso significa resultados 17 ou mais em Testes de Acurácia). Focar Energia é uma Cobertura, portanto seus efeitos não se acumulam se for usado de novo, já que substituirá a Cobertura atualmente em vigência.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Eco",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "beleza",
+    "descritores": [
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário usar o Eco durante rodadas consecutivas, o Dano Basal aumenta em +1d20 para cada rodada anterior que o usuário usou o Eco, até o máximo de +5d20. Não é preciso ter o mesmo alvo para receber este bônus.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

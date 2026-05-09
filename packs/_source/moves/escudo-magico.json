@@ -1,0 +1,31 @@
+{
+  "name": "Escudo Mágico",
+  "type": "move",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "description": "",
+    "type": "fairy",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário for acertado por um Golpe não causador de da- no, ele pode usar o Escudo Mágico para anunciar que apa- rou o Golpe (o Golpe que o acertaria simplesmente erra).",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Elementalismo",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 6"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d8+12",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Elementalismo só afeta alvos que possuam pelo menos um dos Tipos igual a pelo menos um dos Tipos do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

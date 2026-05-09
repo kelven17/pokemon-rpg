@@ -1,0 +1,29 @@
+{
+  "name": "Rasteira",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo revela a Categoria de Peso dele. O Dano Basal da Rasteira varia conforme a Categoria de Peso do alvo: Categoria de Peso do Alvo Dano Basal da Rasteira Muito Leve 1d10 Físico Leve 1d10+5 Físico Médio 1d10+10 Físico Pesado 2d10+12 Físico Muito Pesado 3d10+14 Físico Extremamente Pesado 5d10+16 Físico",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

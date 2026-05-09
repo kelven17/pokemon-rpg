@@ -1,0 +1,29 @@
+{
+  "name": "Sacrifício",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "desfecho",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os PV do usuário são imediatamente reduzidos a zero e o inimigo sofre uma quantidade de dano idêntica àquela sofrida pelo usuário. Nenhum item é ativado pelo Sacrifício.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

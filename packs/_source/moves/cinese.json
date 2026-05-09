@@ -1,0 +1,31 @@
+{
+  "name": "Cinese",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Barreira"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 3,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Posicione 5 metros de Barreiras que durarão por cinco rodadas posicionadas a até 3 metros do usuário. Se algum Golpe tenta ter um alvo através da Barreira, a Dificuldade de Acurácia do Golpe é aumentada em 3. Quebra Telha não pode destruir a Cinese.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Lançar Teia",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 2"
+    ],
+    "accuracy": 3,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Velocidade. Lançar Teia ganha o Descritor Prisão para criaturas acertadas cinco rodadas seguidas por Lançar Teia ou para criaturas que já perderam todas as Fases de Velocidade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

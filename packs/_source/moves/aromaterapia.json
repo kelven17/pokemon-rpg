@@ -1,0 +1,29 @@
+{
+  "name": "Aromaterapia",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "modelo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo é curado de uma Condição. Se ele possui mais de uma Condição sobre si, é possível escolher qual será curada.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

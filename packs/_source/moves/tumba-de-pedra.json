@@ -1,0 +1,31 @@
+{
+  "name": "Tumba de Pedra",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 5,
+    "damageBasal": "2d8+6",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "pausa",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Velocidade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

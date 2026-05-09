@@ -1,0 +1,31 @@
+{
+  "name": "Descamação",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Descamação faz o usuário perder uma Fase de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

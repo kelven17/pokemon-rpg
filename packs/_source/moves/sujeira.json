@@ -1,0 +1,31 @@
+{
+  "name": "Sujeira",
+  "type": "move",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "",
+    "type": "poison",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 7,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 11 ou mais, os alvos estão Envenenados. Aos alvos contra os quais errar a Sujeira, ela ainda causa o Ataque Especial do usuário, mas não o Dano Basal e não pode Envenenar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

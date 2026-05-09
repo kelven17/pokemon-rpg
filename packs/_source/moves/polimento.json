@@ -1,0 +1,29 @@
+{
+  "name": "Polimento",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva duas Fases de Velocidade do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

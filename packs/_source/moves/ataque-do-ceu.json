@@ -1,0 +1,32 @@
+{
+  "name": "Ataque do Céu",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Investida",
+      "Preparo"
+    ],
+    "accuracy": 4,
+    "damageBasal": "6d12+22",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento em que declarar o uso de Ataque do Céu, o usuário ascende 10 metros no ar e seu turno acaba. Na próxima rodada, ele descerá para causar os efeitos do Golpe. Se o resultado do Teste de Acurácia for 17 ou mais, o alvo está Atordoado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

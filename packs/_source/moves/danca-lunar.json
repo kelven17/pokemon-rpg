@@ -1,0 +1,32 @@
+{
+  "name": "Dança Lunar",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Dança",
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 25,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se os PV do usuário forem reduzidos a zero ou menos, é possível usar a Dança Lunar como uma Interrupção. O alvo é tratado como se tivesse sido curado em um Centro Pokémon. A Dança Lunar pode ter como alvo um pokémon em uma pokébola, desde que ele imediatamente saia da pokébola. A Dança Lunar não restaura o uso diário dos seguintes Golpes: Dança Lunar e Desejo de Cura.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Travessia Fantasmagórica",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "246 Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d12+19",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Assim que começar a Travessia Fantasmagórica, o usuário desaparece do campo de batalha e seu turno acaba. Isso é considerado o tempo de Preparo. O usuário reaparece adjacente ao alvo no turno seguinte, ignorando quaisquer distâncias por Deslocamentos feitos pelo alvo durante este período, e aí então o Dano Basal é causado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

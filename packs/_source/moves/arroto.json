@@ -1,0 +1,29 @@
+{
+  "name": "Arroto",
+  "type": "move",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "",
+    "type": "poison",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 3,
+    "damageBasal": "5d10+25",
+    "alcance": "ranged",
+    "alcanceRange": 3,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Arroto só pode ser usado se o usuário comeu uma fruta durante o encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Camuflagem",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário muda seu Tipo de acordo com o ambiente e com o Clima: Ambiente Clima Tipo Águas Doces, Chuvoso Água Oceanos e Praias Árticos, Taigas e Granizo Gelo Tundras Cavernas e Tempestade de Pedra Montanhas Areia Metal ou Cidades Normal Florestas e Selvas Gramado Planta Se houver dificuldade em determinar qual o Tipo associado uma situação, o Narrador tem a palavra final sobre ele, e deve ser consultado para prever qual Tipo o pokémon se tornará se usar a Camuflagem. Outros Tipos também podem ser associados a este Golpe: por exemplo, um vulcão provavelmente será associado ao Tipo Fogo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

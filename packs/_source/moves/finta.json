@@ -1,0 +1,31 @@
+{
+  "name": "Finta",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d10+4",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Finta pode ser usada para interromper Interceptações e não pode ser usada em outras situações. Jogue um dado. Se o resultado for par, o alvo não consome o uso da Interceptação interrompida pela Finta. Se for ímpar, aquele Golpe conta como tendo sido usado. A Finta anula todos os efeitos da Interceptação do alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

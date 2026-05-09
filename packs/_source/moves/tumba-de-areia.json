@@ -1,0 +1,31 @@
+{
+  "name": "Tumba de Areia",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Prisão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo fica Preso por 1d4+1 rodadas. Enquanto Aprisionado, uma vez por rodada no início do turno do alvo, ele sofre 1d20 de dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

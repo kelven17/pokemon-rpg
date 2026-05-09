@@ -1,0 +1,31 @@
+{
+  "name": "Fertilizante",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 10"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva uma Fase de Ataque e de Ataque Especial de todos os aliados do Tipo Planta na área da Explosão.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

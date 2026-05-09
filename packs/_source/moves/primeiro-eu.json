@@ -1,0 +1,31 @@
+{
+  "name": "Primeiro Eu",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo declarar um Golpe causador de dano e a Velocidade do usuário de Primeiro Eu for maior que a do alvo, é possível interromper o alvo usando Primeiro Eu para usar no alvo o mesmo Golpe que ele pretende usar no usuário antes dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

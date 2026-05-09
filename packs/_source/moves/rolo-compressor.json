@@ -1,0 +1,31 @@
+{
+  "name": "Rolo Compressor",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo for Pequeno, aumente o Dano Basal em +1d10. Se o resultado do Teste de Acurácia for 15 ou mais, o alvo está Atordoado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

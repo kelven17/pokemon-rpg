@@ -1,0 +1,29 @@
+{
+  "name": "Fachada",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário estiver sob alguma Condição, o Dano Basal da Fachada aumenta em +4d12 e a Frequência aumenta para À Vontade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

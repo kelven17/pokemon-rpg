@@ -1,0 +1,29 @@
+{
+  "name": "Presente",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 3,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Role 1d4 e então confira o Dano Basal do Presente: Resultado Dano Basal do Presente 1 1d10+10 Físico 2 2d10+10 Físico 3 3d10+10 Físico Não há nenhum Dano Basal, e o alvo é 4 curado em 65 Pontos de Vida.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

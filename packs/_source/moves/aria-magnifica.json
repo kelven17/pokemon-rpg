@@ -1,0 +1,32 @@
+{
+  "name": "Ária Magnífica",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 4",
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se houver algum aliado com Queimadura na área, este alia- do não sofre o dano e ainda é restaurado da Queimadura.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

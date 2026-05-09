@@ -1,0 +1,29 @@
+{
+  "name": "Chifre Sanguessuga",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário recupera uma quantidade de PV igual à metade do dano sofrido pelo alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

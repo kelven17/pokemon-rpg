@@ -1,0 +1,29 @@
+{
+  "name": "Esquecimento",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 4,
+    "damageBasal": "4d12+17",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário recupera uma quantidade de Pontos de Vida igual a três quartos do dano causado ao alvo.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

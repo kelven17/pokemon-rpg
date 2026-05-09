@@ -1,0 +1,32 @@
+{
+  "name": "Pular",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Explosão (ver texto)",
+      "Preparo"
+    ],
+    "accuracy": 4,
+    "damageBasal": "3d12+14",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento que declarar o uso deste Golpe, o usuário vai Pular a 10 metros no ar e seu turno acaba. Isso é considerado um efeito de Preparo. Na rodada seguinte, o usuário atinge o solo criando uma Explosão com valor conforme sua Categoria de Peso: 1 para Muito Leve, 2 para Leve, 3 para Médio, 4 para Pesado, 5 para Muito Pesado e 6 para Extremamente Pesado. Se o resultado do Teste de Acurácia for 17 ou mais, os alvos estão Paralisados.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Esfera Climática",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d8+6",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o Clima não estiver Ameno, o Dano Basal da Esfera Climática aumenta para 4d12+16 Especial e o Tipo dele muda variando conforme o Clima: Clima Tipo da Esfera Climática Ensolarado Fogo Tempestade de Areia Pedra Granizo Gelo Chuva Água Se houver mais de um Clima em vigência, é possível escolher qual será o Tipo (e o dano consequentemente) da Esfera Climática.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

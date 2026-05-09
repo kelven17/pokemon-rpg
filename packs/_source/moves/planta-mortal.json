@@ -1,0 +1,32 @@
+{
+  "name": "Planta Mortal",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 3",
+      "Exaustão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Caso este Golpe erre, ele ainda causa como dano o Ataque Especial do usuário a todos os alvos no qual errou.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

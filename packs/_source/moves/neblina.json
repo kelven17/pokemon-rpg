@@ -1,0 +1,31 @@
+{
+  "name": "Neblina",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo com a Cobertura de Neblina não pode ter suas Fases reduzidas. É possível usar a Neblina em si mesmo, mesmo sendo um Golpe À Distância.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

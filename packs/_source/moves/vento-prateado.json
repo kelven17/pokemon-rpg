@@ -1,0 +1,32 @@
+{
+  "name": "Vento Prateado",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Coluna 2",
+      "Moral"
+    ],
+    "accuracy": 2,
+    "damageBasal": "248 2d10+8",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 11 ou mais, o usuário eleva uma Fase de todos os Atributos, salvo Saúde. Se o resultado do Teste de Acurácia tiver sido 16 ou mais, todos os aliados dentro da área também elevam uma Fase de todos os Atributos (novamente, salvo Saúde) e não sofrem dano pelo Vento Prateado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

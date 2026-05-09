@@ -1,0 +1,31 @@
+{
+  "name": "Chute Flamejante",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 2 (0)"
+    ],
+    "accuracy": 4,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 16 ou mais, o Chute Flamejante é um Crítico.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

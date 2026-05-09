@@ -1,0 +1,31 @@
+{
+  "name": "Magnitude",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 2"
+    ],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Role 1d6 para definir o Dano Basal da Magnitude: Resultado Dano Basal da Magnitude 1 1d4 Físico 2 1d8 Físico 3 2d8 Físico 4 2d10 Físico 5 3d10 Físico 6 4d10 Físico A Magnitude pode acertar alvos que estão no subsolo em virtude do Golpe Cavar ou de Deslocamento de Escavação.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

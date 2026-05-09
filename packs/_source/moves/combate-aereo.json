@@ -1,0 +1,29 @@
+{
+  "name": "Combate Aéreo",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 3,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Quando aplicar vulnerabilidades, imunidades e resistências, Combate Aéreo será considerado ao mesmo tempo dos Tipos Lutador e Voador.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

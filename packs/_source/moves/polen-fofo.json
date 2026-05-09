@@ -1,0 +1,29 @@
+{
+  "name": "Pólen Fofo",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo for aliado, o dano que seria causado é curado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

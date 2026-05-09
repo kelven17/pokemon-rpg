@@ -1,0 +1,29 @@
+{
+  "name": "Chicote de Vinha",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "- Chifrada Impacto 2 3d8+10 Físico Corpo a Corpo 208 À Vontade Segurança -",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

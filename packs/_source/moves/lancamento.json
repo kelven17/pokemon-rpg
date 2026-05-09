@@ -1,0 +1,29 @@
+{
+  "name": "Lançamento",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d12+5",
+    "alcance": "ranged",
+    "alcanceRange": 12,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário lança o item Mantido quando usa Lançamento. Dependendo do item Mantido, Lançamento causa diferen- tes efeitos. Se for uma fruta, Lançamento não causa dano algum no alvo, que ingere a fruta imediatamente, receben- do seus efeitos. Se o item Mantido possuir um efeito, o efei- to é ativado no alvo. Se outro objeto qualquer for arremes- sado, Lançamento adiciona +2d6 ao Dano Basal. Itens consumíveis lançados são destruídos durante o processo. Os demais podem ser recuperados do chão posteriormente.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

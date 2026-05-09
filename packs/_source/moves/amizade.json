@@ -1,0 +1,29 @@
+{
+  "name": "Amizade",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Uma das Habilidades do alvo (determinada aleatoriamente se ele possuir mais de uma) é trocada por uma das Habilidades do usuário por 1d4+1 rodadas.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

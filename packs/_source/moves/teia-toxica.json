@@ -1,0 +1,31 @@
+{
+  "name": "Teia Tóxica",
+  "type": "move",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "",
+    "type": "poison",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Velocidade e estão Envenenados.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

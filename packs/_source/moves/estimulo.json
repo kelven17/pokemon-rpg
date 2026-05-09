@@ -1,0 +1,29 @@
+{
+  "name": "Estímulo",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d10+8",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "0",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo estiver Paralisado, este Golpe remove a Paralisia dele e tem seu Dano Basal aumentado para 5d10 Físico.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

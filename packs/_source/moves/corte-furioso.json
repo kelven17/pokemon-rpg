@@ -1,0 +1,29 @@
+{
+  "name": "Corte Furioso",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 3,
+    "damageBasal": "1d4",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se Corte Furioso for usado consecutivamente com sucesso contra o mesmo alvo, seu Dano Basal aumenta conforme a tabela abaixo: Rodada Dano Basal Segunda 1d12+6 Físico Terceira 2d12+12 Físico Quarta 3d12+18 Físico Além da Quarta 4d12+24 Físico",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Rajada de Chamas",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 4"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Salvo pelo alvo no centro da área da Explosão, os demais alvos não sofrem o Dano Basal da Rajada de Chamas. Em vez disso, eles perdem 1/16 de seus PV máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

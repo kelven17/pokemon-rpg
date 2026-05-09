@@ -1,0 +1,31 @@
+{
+  "name": "Cauda de Ferro",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 6,
+    "damageBasal": "4d12+16",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 19 ou mais, o alvo perde uma Fase de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

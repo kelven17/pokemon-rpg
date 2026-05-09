@@ -1,0 +1,29 @@
+{
+  "name": "Lapidação",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d8+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Ignore quaisquer bônus ou penalidades à Defesa do alvo, bem como quaisquer Fases que o alvo possua em Defesa, quando calculando o dano da Lapidação.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

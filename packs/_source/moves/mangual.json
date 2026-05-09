@@ -1,0 +1,29 @@
+{
+  "name": "Mangual",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Dano Basal do Mangual depende dos Pontos de Vida do usuário: Dano Basal do PV Atuais Mangual 70% ou mais dos PV máximos 1d10+5 Físico De 36% a 69% dos PV máximos 2d10+10 Físico De 21% a 35% dos PV máximos 3d10+10 Físico De 6% a 20% dos PV máximos 4d10+10 Físico De 1 PV até 5% dos PV máximos 5d10+20 Físico",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

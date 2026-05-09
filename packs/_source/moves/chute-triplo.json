@@ -1,0 +1,31 @@
+{
+  "name": "Chute Triplo",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada 3"
+    ],
+    "accuracy": 3,
+    "damageBasal": "1d6+1",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "3d4",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se todos os três chutes acertarem o mesmo alvo, o terceiro chute tem seu Dano Basal aumentado para 3d12+8 Físico.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

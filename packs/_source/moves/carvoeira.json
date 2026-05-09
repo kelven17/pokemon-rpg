@@ -1,0 +1,31 @@
+{
+  "name": "Carvoeira",
+  "type": "move",
+  "img": "icons/svg/poison.svg",
+  "system": {
+    "description": "",
+    "type": "poison",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário for acertado por um Golpe causador de dano, ele pode usar a Carvoeira para anunciar que se esquivou do Golpe (o Golpe que o acertaria simplesmente erra). Se o Golpe era Corpo a Corpo, o atacante fica Envenenado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

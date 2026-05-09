@@ -1,0 +1,29 @@
+{
+  "name": "Ataque Furtivo",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "1d10+10",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Dilúvio Iônico",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até o próximo turno do usuário, todos os danos Normais a até 10 metros do usuário se tornam danos Elétricos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

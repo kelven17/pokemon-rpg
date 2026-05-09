@@ -1,0 +1,29 @@
+{
+  "name": "Brincadeira",
+  "type": "move",
+  "img": "icons/svg/heal.svg",
+  "system": {
+    "description": "",
+    "type": "fairy",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 18 ou mais, o alvo perde uma Fase de Ataque.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

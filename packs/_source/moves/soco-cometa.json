@@ -1,0 +1,31 @@
+{
+  "name": "Soco Cometa",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada 5"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d6+3",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até cinco socos podem ser feitos, mas após o primeiro erro, esta Saraivada acaba.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

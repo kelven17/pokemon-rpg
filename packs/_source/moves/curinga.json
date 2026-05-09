@@ -1,0 +1,29 @@
+{
+  "name": "Curinga",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "0",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Dano Basal deste Golpe varia conforme o número de vezes que o usuário usou o Curinga neste encontro: Número de Usos de Curinga pelo Dano Basal do Usuário no Encontro Atual Curinga 1 ou 2 1d10+4 Especial 3 1d12+6 Especial 4 2d10+8 Especial 7d10+28 5 Especial Se o Dano Basal do Curinga atingir o máximo em determinado encontro, a Frequência do Curinga se tornará Diária, de forma que não será possível usá-lo novamente naquele mesmo encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

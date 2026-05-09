@@ -1,0 +1,29 @@
+{
+  "name": "Suporte",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "modelo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário recupera uma quantidade de PV igual à metade de seus Pontos de Vida máximos. Se estiver em uma Tem- pestade de Areia, ele recupera dois terços dos Pontos de Vida máximos, em vez de apenas metade dos PV máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Previsão",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 1",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Previsão não consome a Ação de Golpe na rodada em que age, apenas na rodada inicial de Preparo de modo que é possível agir normalmente na rodada que a Previsão causa seu dano. O dano causado pela Previsão é considerado sem Tipo, de modo que causa dano neutro em todos os alvos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

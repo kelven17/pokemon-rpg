@@ -1,0 +1,29 @@
+{
+  "name": "Minimizar",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "+4 às Dificuldades de Acurácia de Golpes feitos contra o usuário, e o Tamanho do usuário é reduzido em uma categoria (de Gigantesco para Enorme, de Enorme para Grande, de Grande para Médio e de Médio para Pequeno).",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

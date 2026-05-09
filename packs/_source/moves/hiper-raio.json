@@ -1,0 +1,32 @@
+{
+  "name": "Hiper-Raio",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 1",
+      "Exaustão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Aos alvos contra os quais errar o Hiper-Raio, ele ainda causa o Ataque Especial do usuário, mas não o Dano Basal.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

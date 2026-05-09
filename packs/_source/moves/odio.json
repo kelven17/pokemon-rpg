@@ -1,0 +1,29 @@
+{
+  "name": "Ódio",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O último Golpe usado pelo alvo tem sua Frequência alterada até o fim do encontro. Se for um Golpe que poderia ser usado À Vontade, ele agora só pode ser usado Rodada Sim Rodada Não. Se for um Golpe usado Rodada Sim Rodada Não, ele só poderá ser usado uma vez por encontro, o que significa que ele não poderá mais ser usado naquele encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

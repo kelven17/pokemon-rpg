@@ -1,0 +1,31 @@
+{
+  "name": "Substituição",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário perde um quarto de seus PV máximos. Se ele não possui pelo menos um quarto de seus Pontos de Vida, ele não pode usar Substituição. Uma Cobertura é feita possuindo a quantidade de PV perdidas como sua quantidade de PV. Se o usuário seria atingido por algum Golpe, a Cobertura é atingida no lugar. A Cobertura possui o(s) mesmo(s) Tipo(s) e os mesmos Atributos do usuário, mas é imune a todas as Condições. Golpes sonoros (aqueles com o Descritor Som) ignoram a Substituição.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

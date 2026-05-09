@@ -1,0 +1,31 @@
+{
+  "name": "Vácuo Dimensional",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 4"
+    ],
+    "accuracy": null,
+    "damageBasal": "3d10+12",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Vácuo Dimensional ignora Barreiras e os efeitos de Levantar o Tapete. Se Hoopa estiver em sua forma não confinada, o Vácuo Dimensional se tornará de Trevas e seu Dano Basal mudará para 4d12+16 Físico, mas o fará perder uma Fase de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

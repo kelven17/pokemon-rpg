@@ -1,0 +1,31 @@
+{
+  "name": "Nevasca",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 3"
+    ],
+    "accuracy": 7,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 16 ou mais, os alvos estão Congelados. Se o clima estiver de Granizo, a Nevasca acerta automaticamente dispensando o Teste de Acurácia.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

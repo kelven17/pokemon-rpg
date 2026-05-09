@@ -1,0 +1,31 @@
+{
+  "name": "Escudo de Espinhos",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário for acertado por um Golpe, ele pode usar o Escudo de Espinhos para anunciar que aparou o Golpe (o Golpe que o acertaria simplesmente erra). Além disso, se o Golpe do inimigo era Corpo a Corpo, este inimigo perde um oitavo de seus PV máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

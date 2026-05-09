@@ -1,0 +1,29 @@
+{
+  "name": "Espelho",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário usa o Golpe usado pelo alvo no último turno dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

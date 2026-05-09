@@ -1,0 +1,31 @@
+{
+  "name": "Revogação",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Revogação só pode afetar um alvo que ainda não agiu naquela rodada. A Revogação garante que o turno do alvo seja o último de toda a rodada.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

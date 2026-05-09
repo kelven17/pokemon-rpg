@@ -1,0 +1,31 @@
+{
+  "name": "Furto",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "cobica",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Furto pode ser usado se o alvo estiver elevando uma ou mais Fases. Independentemente da razão pela qual o alvo ganharia aquelas Fases, ele não mais ganha nenhuma Fase e o usuário do Furto eleva suas Fases no lugar do alvo da mesma forma que o alvo elevaria.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

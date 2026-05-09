@@ -1,0 +1,31 @@
+{
+  "name": "Onda Psíquica",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Coluna 2"
+    ],
+    "accuracy": 5,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Role 1d4 para definir quantos PV os alvos perdem: Resultado da Perda de Pontos de Vida dos Alvos Rolagem 1 ou 2 Metade do Nível do Usuário 3 Nível do Usuário 4 1,5 multiplicado pelo Nível do Usuário",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

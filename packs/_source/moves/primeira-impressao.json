@@ -1,0 +1,31 @@
+{
+  "name": "Primeira Impressão",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Desde que o usuário de Primeira Impressão não tenha usado nenhum Golpe durante o encontro, se um inimigo declarar o uso de um Golpe, é possível usar Primeira Impressão durante o turno dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

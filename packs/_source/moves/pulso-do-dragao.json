@@ -1,0 +1,31 @@
+{
+  "name": "Pulso do Dragão",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d12+10",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

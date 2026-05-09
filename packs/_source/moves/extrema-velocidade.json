@@ -1,0 +1,32 @@
+{
+  "name": "Extrema Velocidade",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Impacto",
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o inimigo declarar o uso de um Golpe, é possível usar a Extrema Velocidade no turno dele antes do Golpe dele. A Extrema Velocidade não pode ser Interrompida. Finalmen- te, depois de causar o dano pela Extrema Velocidade, o usuário ganha uma Ação de Movimento para se deslocar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

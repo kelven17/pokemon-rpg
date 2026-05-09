@@ -1,0 +1,31 @@
+{
+  "name": "Autodestruição",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 4"
+    ],
+    "accuracy": 2,
+    "damageBasal": "10d10+46",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "desfecho",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os Pontos de Vida do usuário são reduzidos para -50% de seus Pontos de Vida máximos. A Lealdade do usuário é reduzida em 1.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

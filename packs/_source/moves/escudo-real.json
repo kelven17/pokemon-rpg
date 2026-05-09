@@ -1,0 +1,31 @@
+{
+  "name": "Escudo Real",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário for acertado por um Golpe, ele pode usar o Escudo Real para anunciar que aparou o Golpe (o Golpe que o acertaria simplesmente erra). Além disso, se o Golpe do inimigo era Corpo a Corpo, este inimigo perde duas Fases de Ataque.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

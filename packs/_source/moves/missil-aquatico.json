@@ -1,0 +1,31 @@
+{
+  "name": "Míssil Aquático",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o inimigo declarar um Golpe, é possível usar o Míssil Aquático no turno dele antes do Golpe dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

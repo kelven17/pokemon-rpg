@@ -1,0 +1,31 @@
+{
+  "name": "Pelas Costas",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário for alvo de um Golpe Corpo a Corpo causador de dano, é possível ir Pelas Costas contra o atacante como uma Interrupção.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

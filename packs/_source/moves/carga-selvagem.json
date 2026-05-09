@@ -1,0 +1,32 @@
+{
+  "name": "Carga Selvagem",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Impacto",
+      "Rebote (um quarto)"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

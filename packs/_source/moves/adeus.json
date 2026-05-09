@@ -1,0 +1,31 @@
+{
+  "name": "Adeus",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo perde uma Fase de Ataque Especial e o usuário imediatamente retorna à pokébola; um novo pokémon é instantaneamente enviado em seu lugar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

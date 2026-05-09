@@ -1,0 +1,29 @@
+{
+  "name": "Selo",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo está Selado, o que significa que ele não pode usar nenhum Golpe que ele poderia fazer. Não é possível manter mais de um alvo Selado simultaneamente. O usuário permanece Selado até que o usuário deseje libertá-lo ou até que o usuário use o Selo em outro alvo, sem precisar libertar o alvo até o fim do encontro ou após cinco minutos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

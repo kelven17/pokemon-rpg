@@ -1,0 +1,32 @@
+{
+  "name": "Aço Solar",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 5",
+      "Impacto"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Não é possível usar nenhum Golpe nem nenhuma Habilidade para negar os efeitos do Feixe Espectral.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

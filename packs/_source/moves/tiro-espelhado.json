@@ -1,0 +1,31 @@
+{
+  "name": "Tiro Espelhado",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 5,
+    "damageBasal": "3d8+10",
+    "alcance": "ranged",
+    "alcanceRange": 7,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 16 ou mais, os alvos têm suas Dificuldades de Acurácia aumentadas em 2.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

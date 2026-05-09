@@ -1,0 +1,31 @@
+{
+  "name": "Teia Pegajosa",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Ameaça"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Escolha dez metros quadrados dentro do alcance. Todos os quadrados devem estar adjacentes a pelo menos outro quadrado escolhido. Se uma criatura se mover através destes quadrados ou para eles, ela perde uma Fase de Velocidade. não mais do que uma Fase de Velocidade por turno é perdida para a Teia Pegajosa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

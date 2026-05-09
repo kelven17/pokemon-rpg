@@ -1,0 +1,32 @@
+{
+  "name": "Cavar",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Impacto",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento que declara o uso deste Golpe, o usuário cava para se mover através do subterrâneo e seu turno acaba. Isso conta como o Preparo. Na próxima rodada, o alvo pode se deslocar usando seu maior Deslocamento entre Terrestre ou de Escavação em direção ao alvo e aí aplicar o Dano Basal por Cavar. Enquanto estiver no subsolo, o usuário não pode ser alvo de Golpes por inimigos na superfície do chão.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

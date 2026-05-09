@@ -89,6 +89,14 @@ Hooks.once("init", function() {
     if ( typeof s !== "string" ) return s;
     return s.charAt(0).toUpperCase() + s.slice(1);
   });
+  Handlebars.registerHelper("join", (arr, sep) => {
+    if ( !Array.isArray(arr) ) return "";
+    return arr.join(typeof sep === "string" ? sep : ", ");
+  });
+  Handlebars.registerHelper("or", (...args) => {
+    args.pop(); // options
+    return args.some(Boolean);
+  });
 
   // Carregar partials uma vez.
   loadTemplates([

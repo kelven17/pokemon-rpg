@@ -1103,6 +1103,51 @@
 .pokemon-rpg .cat-special  { background: #2980B9; color: #fff; }
 .pokemon-rpg .cat-status   { background: #7F8C8D; color: #fff; }
 
+.pokemon-rpg .freq-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.7em;
+    font-weight: 700;
+    background: rgba(0,0,0,0.08);
+    color: var(--pk-text);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.pokemon-rpg .cooldown-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.7em;
+    font-weight: 700;
+    background: #F59E0B;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.pokemon-rpg .desc-badge {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 6px;
+    font-size: 0.72em;
+    background: rgba(255,255,255,0.85);
+    border: 1px solid var(--pk-border);
+    color: var(--pk-text);
+    margin-right: 4px;
+}
+.pokemon-rpg .move-descritores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 6px 0;
+}
+.pokemon-rpg .item.is-used {
+    opacity: 0.6;
+    background: repeating-linear-gradient(
+        45deg, var(--pk-bg-alt), var(--pk-bg-alt) 8px,
+        rgba(245,158,11,0.06) 8px, rgba(245,158,11,0.06) 16px);
+}
+
 .pokemon-rpg .type-normal   { background: #A8A77A; }
 .pokemon-rpg .type-fire     { background: #EE8130; }
 .pokemon-rpg .type-water    { background: #6390F0; }
@@ -1420,6 +1465,20 @@
 }
 .pokemon-rpg .apply-species-btn:active {
     transform: translateY(0);
+}
+.pokemon-rpg .apply-species-btn[disabled],
+.pokemon-rpg .species-picker select[disabled] {
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+.pokemon-rpg .picker-empty-hint {
+    margin: 6px 0 0;
+    font-size: 0.78em;
+    font-style: italic;
+    color: var(--pk-muted);
+    line-height: 1.4;
 }
 
 /* ==========================================

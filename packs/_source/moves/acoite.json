@@ -1,0 +1,29 @@
+{
+  "name": "Açoite",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 3,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário do Açoite repetirá um Golpe idêntico a Açoite por 1d2 rodadas depois dessa, tendo como alvo a criatura mais próxima e se deslocando para alcançá-la. Se há mais de uma criatura equidistante, é possível escolher a criatura que será o alvo. Após estas duas ou três rodadas de uso seguido de Açoite, o usuário cessa o Açoite e está Confuso. Os usos obrigatórios de Açoite na(s) rodada(s) subsequente(s) à inicial ainda consomem normalmente a Ação de Golpe (ou a Ação Padrão, se for humano).",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

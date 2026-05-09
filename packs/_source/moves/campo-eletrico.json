@@ -1,0 +1,31 @@
+{
+  "name": "Campo Elétrico",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por cinco rodadas, a área está Eletrificada, o que significa que ninguém que toca o chão pode Adormecer (nem volun- tariamente) e que todos os Golpes causadores de dano Elétrico causam dano adicional igual ao triplo do Bônus Elemental. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes Elétricos e se acumula com o próprio Bônus Elemental se houver.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Última Chama",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 5"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+22",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário perde o Tipo Fogo por uma hora. Se este era o único Tipo do alvo, ele será do Tipo Normal por uma hora.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

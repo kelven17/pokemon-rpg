@@ -1,0 +1,31 @@
+{
+  "name": "Erupção",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "216 Explosão 10"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Erupção não pode ser executada se o usuário não possuir pelo menos 90% de seus PV máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

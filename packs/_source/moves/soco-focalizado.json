@@ -1,0 +1,32 @@
+{
+  "name": "Soco Focalizado",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Empurrão 10 (1d12)",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "7d10+28",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo se chocar contra um Terreno Bloqueador, ele sofre 2d12, e não apenas 1d12, de dano por isso. O Soco Focaliza- do exige não ter sido acertado por nenhum Golpe causador de dano desde o momento de declarar seu uso até sua execução na rodada seguinte. Se for acertado por um Golpe durante este período, o usuário do Soco Focalizado perderá sua próxima Ação (aquela em que faria o Soco Focalizado).",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

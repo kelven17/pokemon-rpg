@@ -1,0 +1,31 @@
+{
+  "name": "Onda de Calor",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 4,
+    "damageBasal": "4d12+16",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 18 ou mais, os alvos estão Queimados.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

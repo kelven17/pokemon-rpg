@@ -1,0 +1,31 @@
+{
+  "name": "Inferno",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 2"
+    ],
+    "accuracy": 11,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 2,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos sofrem Queimadura.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

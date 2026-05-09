@@ -1,0 +1,29 @@
+{
+  "name": "Bomba Magnética",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "2d10+8",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

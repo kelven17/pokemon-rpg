@@ -1,0 +1,31 @@
+{
+  "name": "Desanuviar",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, a área é considerada de clima amenos, removendo quaisquer condições climáticas que conferem benefícios ou penalidades. Junto a elas, todas as Ameaças, as Barreiras e até mesmo as Coberturas são destruídas.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

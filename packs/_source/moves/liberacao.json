@@ -1,0 +1,29 @@
+{
+  "name": "Liberação",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O número de Fases de Defesa e de Defesa Especial que o usuário recebeu por Estocagem determinará o Dano Basal da Liberação. Fases de Defesa e de Defesa Especial Dano Basal da recebidas por Estocagem Liberação Uma Fase de cada Atributo 3d10+12 Especial Duas Fases de cada Atributo 4d12+16 Especial Três Fases de cada Atributo 5d12+18 Especial Depois de usar Liberação, as Fases recebidas por Estocagem são perdidas. Se o usuário não tiver usado Estocagem, a Liberação não faz nada.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

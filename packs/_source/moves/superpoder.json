@@ -1,0 +1,32 @@
+{
+  "name": "Superpoder",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Empurrão 6 (1d6)",
+      "Impacto"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário perde uma Fase de Ataque e de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

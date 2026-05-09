@@ -1,0 +1,29 @@
+{
+  "name": "Garantia",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d8+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Dano Basal da Garantia aumenta para 4d12+16 Físico se o alvo já sofreu dano por um Golpe na mesma rodada.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

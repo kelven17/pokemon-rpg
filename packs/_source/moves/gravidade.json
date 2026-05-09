@@ -1,0 +1,31 @@
+{
+  "name": "Gravidade",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, a área é considerada Gravitacional, o que significa que Golpes que exigem se deslocar em direção ao céu (como Voar ou Queda Livre) são impossíveis de usar, e pokémons que possuem imunidade a dano de Terra (por serem Voadores ou por possuírem Levitação) perdem esta imunidade. Além disso, a Gravidade reduz em 2 todas as Dificuldades de Acurácia para todos. A Gravidade não substitui o Clima que havia antes, mas se combina a ele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

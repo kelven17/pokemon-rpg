@@ -1,0 +1,31 @@
+{
+  "name": "Espada Sagrada",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Teste de Acurácia e a Dificuldade de Acurácia da Espada Sagrada não pode receber nenhuma variação benéfica ou maléfica.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

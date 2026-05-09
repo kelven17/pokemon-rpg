@@ -1,0 +1,32 @@
+{
+  "name": "Pó Irritante",
+  "type": "move",
+  "img": "icons/svg/bones.svg",
+  "system": {
+    "description": "",
+    "type": "bug",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 1",
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "sorteio",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por uma rodada, os alvos na área só podem atacar o usuário do Pó Irritante a menos que este fique inconsciente ou seja convocado à pokébola.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

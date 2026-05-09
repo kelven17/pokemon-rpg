@@ -1,0 +1,32 @@
+{
+  "name": "Vociferação",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 5",
+      "Som"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d10+8",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Ataque Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

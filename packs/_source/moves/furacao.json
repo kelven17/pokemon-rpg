@@ -1,0 +1,32 @@
+{
+  "name": "Furacão",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 3 (0)",
+      "Explosão 4"
+    ],
+    "accuracy": 6,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 13 ou mais, os alvos estão Confusos. A Dificuldade de Acurácia se torna 11 se o clima estiver Ensolarado, e se torna Automática se o clima estiver Chuvoso. Furacão não precisa fazer o Teste de Acurácia contra alvos que estão no ar em virtude de Golpes como Voar ou Queda Livre.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

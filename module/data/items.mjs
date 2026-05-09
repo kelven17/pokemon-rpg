@@ -4,36 +4,80 @@ import { fieldHelpers } from "./shared.mjs";
 const { SchemaField, NumberField, StringField, HTMLField, BooleanField, ArrayField } = fieldHelpers;
 
 /* -------------------------------------------- */
-/*  Move (Golpe)                                */
+/*  Move (Golpe) — molde do Livro do Jogador     */
 /* -------------------------------------------- */
 
 export class MoveData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
       description: new HTMLField({ required: true, initial: "" }),
+      // Tipo elemental (fogo, água, planta, etc.)
       type: new StringField({
         required: true,
         initial: "normal",
         choices: () => Object.keys(POKEMON_RPG.types)
       }),
+      // Categoria mecânica do dano: físico (Atk), especial (SpA) ou status.
       category: new StringField({
         required: true,
         initial: "physical",
         choices: () => Object.keys(POKEMON_RPG.moveCategories)
       }),
-      power: new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
-      accuracy: new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
-      pp: new SchemaField({
-        value: new NumberField({ required: true, nullable: false, integer: true, initial: 10, min: 0 }),
-        max:   new NumberField({ required: true, nullable: false, integer: true, initial: 10, min: 0 })
+      // Aptidão para concursos: beleza, estilo, perspicacia, ternura, vigor.
+      // (Definida automaticamente via Concursos.descriptor → aptitude.)
+      aptidao: new StringField({
+        required: true,
+        initial: "vigor",
+        choices: () => Object.keys(POKEMON_RPG.aptitudes ?? {})
       }),
-      // Dado de dano formula override - se vazio, calculado automaticamente via power.
-      damageFormula: new StringField({ required: true, initial: "" }),
+      // Lista de descritores estruturais do golpe (Ameaça, Barreira, Coluna, Empurrão,
+      // Explosão, Saraivada, Som, Impacto, Investida, Interceptação, Interrupção,
+      // Preparo, Prisão, Rebote, Exaustão, Cobertura, Clima, Moral, Dança).
+      // Cada entrada é uma string com o descritor e seus argumentos opcionais
+      // (ex.: "Empurrão 5 (1d12)", "Explosão 3", "Saraivada 5").
+      descritores: new ArrayField(new StringField({ blank: false }), { initial: [] }),
+      // Dificuldade de Acurácia. Se null, é Acurácia Automática (não rola d20).
+      // Substitui o antigo `accuracy` (mantemos o mesmo campo por compat.)
+      accuracy: new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+      // Dano Basal — fórmula como string (ex.: "5d12+18", "1d6+3"). Vazio = sem dano basal.
+      // Suporta também "Ver Efeito" para danos descritos no efeito.
+      damageBasal: new StringField({ required: true, initial: "" }),
+      // Alcance: si | melee | ranged | area
+      alcance: new StringField({
+        required: true,
+        initial: "melee",
+        choices: () => Object.keys(POKEMON_RPG.ranges ?? {})
+      }),
+      // Distância em metros, quando alcance = "ranged" (À Distância).
+      alcanceRange: new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+      // Frequência: at-will, every-other-round, per-encounter, daily.
+      // Determina quando o golpe pode ser usado de novo.
+      frequencia: new StringField({
+        required: true,
+        initial: "per-encounter",
+        choices: () => Object.keys(POKEMON_RPG.frequencies ?? {})
+      }),
+      // Estado de uso da frequência (controlado pela rolagem).
+      usado: new BooleanField({ required: true, initial: false }),
+      // Descritor de Concursos (Abertura, Clímax, Conquista, etc.) — referência
+      // ao desempenho em Concursos. Apenas string-slug por enquanto.
+      contestDescriptor: new StringField({ required: true, initial: "" }),
+      // Override de Pontuação Basal de Concursos (string como "1d4" ou "0").
+      contestOverride: new StringField({ required: true, initial: "" }),
+      // PP / Pontos de Poder — mantido por compat. com fichas antigas, mas
+      // o sistema oficial usa Frequência. PP=0 desativa rastreamento de PP.
+      pp: new SchemaField({
+        value: new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 }),
+        max:   new NumberField({ required: true, nullable: false, integer: true, initial: 0, min: 0 })
+      }),
+      // Texto livre do efeito do golpe.
       effect: new HTMLField({ required: true, initial: "" }),
       // Nível em que é aprendido (0 = TM/Move learner, etc).
       learnLevel: new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 0 }),
       priority: new NumberField({ required: true, nullable: false, integer: true, initial: 0 }),
-      target: new StringField({ required: true, initial: "single" })
+      target: new StringField({ required: true, initial: "single" }),
+      // Capacidade ou Deslocamento concedido pelo golpe (ex.: "Combustão", "Eletricidade").
+      grantedCapacity: new StringField({ required: true, initial: "" })
     };
   }
 }

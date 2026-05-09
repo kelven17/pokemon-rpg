@@ -1,0 +1,29 @@
+{
+  "name": "Oferenda",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "cobica",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário dá seu item Mantido ao alvo, a menos que o alvo já esteja com algum item Mantido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

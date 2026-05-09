@@ -1,0 +1,32 @@
+{
+  "name": "Shuriken Aquática",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Interrupção",
+      "Saraivada 5"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d6+3",
+    "alcance": "ranged",
+    "alcanceRange": 7,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se um inimigo declarar um Golpe, é possível usar a Shuriken Aquática no turno dele antes do Golpe dele. Até cinco Shuriken Aquáticas podem ser atiradas, mas após o primeiro erro, esta Saraivada acaba.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

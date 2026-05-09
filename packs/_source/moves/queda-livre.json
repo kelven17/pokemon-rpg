@@ -1,0 +1,32 @@
+{
+  "name": "Queda Livre",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Preparo",
+      "Prisão"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d10+8",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento que Voar, o usuário e o alvo ascendem aos céus 25 metros. Isso é considerado seu preparo e o alvo irá com o usuário sendo considerado Aprisionado pelo usuário. Em seu turno seguinte, ambos descerão ao chão em descida usando os efeitos do Golpe para causar dano ao alvo e ele será libertado da Prisão. Pokémons Voadores não sofrem dano por Queda Livre.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

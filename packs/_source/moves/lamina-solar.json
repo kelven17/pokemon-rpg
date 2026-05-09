@@ -1,0 +1,32 @@
+{
+  "name": "Lâmina Solar",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Investida",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário poderá usar três Ações de Movimento antes de fazer o ataque da Lâmina Solar, mas apenas no turno que atacará, não no turno de Preparo. Se o Clima estiver Ensolarado, o Raio Solar perde a necessidade de Preparo. Se o clima estiver Chuvoso ou de Tempestade de Areia, haverá uma rodada extra de Preparo para usar o Raio Solar. Se o clima estiver de Granizo, o Dano Basal é reduzido a 3d10 Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

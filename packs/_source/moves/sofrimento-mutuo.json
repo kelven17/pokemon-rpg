@@ -1,0 +1,29 @@
+{
+  "name": "Sofrimento Mútuo",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Some os Pontos de Vida do usuário e do alvo. Os Pontos de Vida do usuário e do alvo são agora a metade desta soma, a menos que isso seja maior que os Pontos de Vida máximos de um deles, caso em que o excedente é perdido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Dança do Despertar",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Dança",
+      "Explosão 5"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "cobica",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Tipo da Dança do Despertar muda para igualar o Tipo do pokémon. Se o pokémon possui dois Tipos, o primeiro Tipo listado para ele será o Tipo (e consequentemente o dano) da Dança do Despertar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

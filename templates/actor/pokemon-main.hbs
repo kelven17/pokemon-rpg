@@ -77,7 +77,7 @@
             <label class="picker-label">{{localize "POKEMON_RPG.Species_Choose"}}</label>
             <div class="picker-row">
                 {{!-- sem `name` para que o auto-submit do form não tente persistir --}}
-                <select class="species-pick-select">
+                <select class="species-pick-select" {{#unless speciesOptions.length}}disabled{{/unless}}>
                     <option value="">—</option>
                     {{#each speciesOptions}}
                     <option value="{{this.uuid}}" {{#if (eq this.uuid ../system.species.uuid)}}selected{{/if}}>
@@ -85,10 +85,14 @@
                     </option>
                     {{/each}}
                 </select>
-                <button type="button" class="apply-species-btn" data-action="applySpecies">
+                <button type="button" class="apply-species-btn" data-action="applySpecies"
+                        {{#unless speciesOptions.length}}disabled{{/unless}}>
                     <i class="fas fa-bolt"></i> {{localize "POKEMON_RPG.Species_Apply"}}
                 </button>
             </div>
+            {{#unless speciesOptions.length}}
+            <p class="picker-empty-hint">{{localize "POKEMON_RPG.Species_NotFound"}}</p>
+            {{/unless}}
         </div>
 
         <div class="form-grid">
@@ -114,7 +118,7 @@
                 <input type="number" name="system.species.dexNumber" value="{{system.species.dexNumber}}" data-dtype="Number"/>
             </div>
             <div class="form-group">
-                <label>{{localize "POKEMON_RPG.Nature"}}</label>
+                <label>{{localize "POKEMON_RPG.Nature.Label"}}</label>
                 <select name="system.details.nature">
                     {{#each natureChoices as |label key|}}
                     <option value="{{key}}" {{#if (eq key ../system.details.nature)}}selected{{/if}}>{{label}}</option>

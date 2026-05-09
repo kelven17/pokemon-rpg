@@ -1,0 +1,29 @@
+{
+  "name": "Esboço",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 25,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Uma vez que o Esboço tenha sido usado, remova-o da lista de Golpes do usuário. O último Golpe usado pelo usuário é adicionado à lista de Golpes Naturais do usuário permanentemente, e pode se tornar um Golpe aprendido instantaneamente. O Esboço não pode ser Interrompido nem Interceptado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

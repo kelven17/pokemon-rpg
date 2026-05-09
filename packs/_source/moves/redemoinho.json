@@ -1,0 +1,31 @@
+{
+  "name": "Redemoinho",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Prisão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo está Preso por 1d4+1 rodadas. Uma vez por rodada, no início de cada turno do alvo enquanto Preso, ele sofre 1d12 de dano. O usuário não pode manter Redemoinhos em mais de um alvo simultaneamente.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

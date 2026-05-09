@@ -1,0 +1,31 @@
+{
+  "name": "Corte Falso",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Investida"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se este Golpe reduziria o alvo a zero PV ou menos, o Corte Falso deixa o alvo com 1 PV. Isso não tem efeito se o alvo já estava abaixo de zero PV.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

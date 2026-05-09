@@ -1,0 +1,29 @@
+{
+  "name": "Impacto Psíquico",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A despeito de o Impacto Psíquico ser um Golpe Especial, use a Defesa do alvo – e não a Defesa Especial dele – para reduzir o dano sofrido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Harmonia",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "beleza",
+    "descritores": [
+      "Explosão 3",
+      "Som"
+    ],
+    "accuracy": 2,
+    "damageBasal": "2d10+8",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O próximo uso deste Golpe (pelo usuário ou não) durante o mesmo encontro tem seu Dano Basal aumentado para 2d10+20 Especial. A partir do terceiro uso da Harmonia durante o mesmo encontro (pelo usuário ou não), o Dano Basal se torna 3d10+30 Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

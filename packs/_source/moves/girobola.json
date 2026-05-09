@@ -1,0 +1,29 @@
+{
+  "name": "Girobola",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo revela o Atributo Velocidade dele. Para cada dez pontos que a Velocidade do alvo é superior à Velocidade do usuário, adicione +1d12 ao Dano Basal do Girobola.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

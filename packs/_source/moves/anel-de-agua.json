@@ -1,0 +1,31 @@
+{
+  "name": "Anel de Água",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Cobertura do Anel de Água permite que o usuário recupere 1/16 de seus Pontos de Vida máximos a cada rodada no início de seu turno.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

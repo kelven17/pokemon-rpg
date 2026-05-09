@@ -1,0 +1,29 @@
+{
+  "name": "Multiplicar",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário cria três cópias de si mesmo e as coloca em cam- po de batalha formando um quadrado consigo. O usuário e o Narrador devem saber quais são cópias e qual é o original. Se uma das cópias sofrer dano, ela é destruída. Se o usuário sofrer dano por um Golpe, todas as cópias são destruídas. Quando executar um Golpe, o usuário pode determinar que ele se origina de qualquer das cópias, e o Golpe terá seu efeito normal a despeito disso. O usuário só possui sua Ação de Golpe por rodada, mas cada cópia pode se deslocar separadamente possuindo sua própria Ação de Movimento junto à Ação de Movimento do original. As cópias não preci- sam permanecer adjacentes ao original, mas é necessário tê-las em seu campo visual para controlá-las. Além disso, se o usuário ou se uma cópia estiverem adjacentes a pelo menos uma cópia, as Dificuldades de Acurácia de Golpes contra o usuário ou a cópia aumentam em 2. Quando cada cópia é destruída, o usuário perde 1d12 Pontos de Vida.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

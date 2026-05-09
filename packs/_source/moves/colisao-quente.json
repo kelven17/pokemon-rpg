@@ -1,0 +1,31 @@
+{
+  "name": "Colisão Quente",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [
+      "Impacto"
+    ],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo revela a Categoria de Peso dele. O Dano Basal da Colisão Quente varia conforme a diferença entre as Categorias de Peso do alvo e do usuário: Dano Basal da Categorias de Peso Colisão Quente Iguais 1d10 Físico Usuário mais pesado que o alvo em 1d10+10 Físico uma Categoria de Peso Usuário mais pesado que o alvo em 2d12+12 Físico duas Categorias de Peso Usuário mais pesado que o alvo em 3d10+14 Físico três Categorias de Peso Usuário mais pesado que o alvo em 5d10+16 Físico quatro ou mais Categorias de Peso",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

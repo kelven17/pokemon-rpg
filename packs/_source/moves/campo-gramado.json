@@ -1,0 +1,31 @@
+{
+  "name": "Campo Gramado",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por cinco rodadas, a área é considerada Gramada, o que significa que danos de Planta recebem um bônus igual ao dobro do Bônus Elemental do pokémon, independente se aquele pokémon normalmente recebe Bônus Elemental ou não para o Tipo Planta. Além disso, o Gramado permite que pokémons do Tipo Planta recuperem 1/16 de seus Pontos de Vida máximos a cada rodada em seu turno.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

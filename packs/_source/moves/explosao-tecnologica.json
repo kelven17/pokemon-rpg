@@ -1,0 +1,29 @@
+{
+  "name": "Explosão Tecnológica",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "3d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Explosão Tecnológica causa dano do Tipo associado ao Disco de Memória ou à Placa Elemental que o usuário tem como item Mantido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Glaciação",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Explosão 5"
+    ],
+    "accuracy": 3,
+    "damageBasal": "3d8+10",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Velocidade. Se o resultado do Teste de Acurácia for 11 ou mais, os alvos estão Presos por duas rodadas.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

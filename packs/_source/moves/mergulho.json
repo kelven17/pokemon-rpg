@@ -1,0 +1,32 @@
+{
+  "name": "Mergulho",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Impacto",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento que for fazer o Mergulho, o usuário submerge na água, de modo que é necessário haver um corpo d’água para se fazer o Mergulho. Isso é considerado seu preparo. Em seu turno seguinte, ele ascenderá à superfície usando os efeitos do Golpe. Enquanto submerso, o usuário não pode ser alvo de Golpes por inimigos na superfície do chão.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

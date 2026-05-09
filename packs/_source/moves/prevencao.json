@@ -1,0 +1,31 @@
+{
+  "name": "Prevenção",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por uma rodada, Prevenção garante que nenhum aliado seja alvo de qualquer Golpe usado como Interrupção ou Interceptação. A Prevenção não protege o próprio usuário, apenas os aliados.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

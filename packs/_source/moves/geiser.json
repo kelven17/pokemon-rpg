@@ -1,0 +1,31 @@
+{
+  "name": "Gêiser",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 8,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "seguranca",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Mesmo se o Gêiser errar, o usuário será Descongelado. O Gêiser quente Descongela o alvo se acertar. Se o resultado do Teste de Acurácia for 15 ou mais, o alvo está Queimado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

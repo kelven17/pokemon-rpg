@@ -1,0 +1,32 @@
+{
+  "name": "Laser",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 1",
+      "Exaustão"
+    ],
+    "accuracy": 2,
+    "damageBasal": "7d10+28",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Em alvos nos quais o Laser errar, ele ainda causa o Ataque Especial do usuário (mas não o Dano Basal) como dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

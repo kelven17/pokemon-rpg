@@ -1,0 +1,29 @@
+{
+  "name": "Alvorada",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "modelo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário recupera metade de seus PV máximos. Se o Clima estiver Chuvoso, ele recupera apenas um quarto dos PV má- ximos, em vez de metade. Se o Clima estiver Ensolarado, ele recupera dois terços dos PV máximos, em vez de metade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

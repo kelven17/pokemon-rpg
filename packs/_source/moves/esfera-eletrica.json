@@ -1,0 +1,29 @@
+{
+  "name": "Esfera Elétrica",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "status",
+    "aptidao": "beleza",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "despedida",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo revela a Velocidade atual dele (com Fases, bônus e penalidades aplicados). O Dano Basal da Esfera Elétrica varia conforme a divisão entre a Velocidade atual do usuário e a Velocidade atual do alvo: Velocidade do Usuário comparada Dano Basal da à Velocidade do Alvo Esfera Elétrica Pelo Menos o Quádruplo 5d10+16 Especial Pelo Menos o Triplo 3d10+14 Especial Pelo Menos o Dobro 2d10+12 Especial Outras 1d10+10 Especial",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

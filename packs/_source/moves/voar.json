@@ -1,0 +1,32 @@
+{
+  "name": "Voar",
+  "type": "move",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "",
+    "type": "flying",
+    "category": "physical",
+    "aptidao": "ternura",
+    "descritores": [
+      "Impacto",
+      "Preparo"
+    ],
+    "accuracy": 3,
+    "damageBasal": "3d12+14",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "dedicatoria",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No momento que Voar, o usuário ascende aos céus 25 metros. Isso é considerado seu Preparo. Em seu turno seguinte, ele descerá ao chão em descida usando os efeitos do Golpe.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

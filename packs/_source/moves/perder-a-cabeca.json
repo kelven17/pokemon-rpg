@@ -1,0 +1,31 @@
+{
+  "name": "Perder a Cabeça",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 8"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O usuário perde metade dos PV por Perder a Cabeça.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

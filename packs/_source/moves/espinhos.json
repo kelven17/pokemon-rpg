@@ -1,0 +1,31 @@
+{
+  "name": "Espinhos",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Ameaça"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Escolha dez metros quadrados dentro do alcance. Todos os quadrados devem estar adjacentes a pelo menos outro quadrado escolhido. Se uma criatura se mover através destes quadrados ou para eles, ela perde um oitavo de seus PV máximos. É possível usar este Golpe múltiplas vezes adicionando Espinhos a quadrados que antes já possuíam Espinhos, aumentando o dano que será causado a quem se mover através dos quadrados ou para eles: se um mesmo quadrado foi escolhido duas vezes, o dano se torna de um sexto dos PV máximos, e se o mesmo quadrado for escolhido três ou mais vezes, o dano se torna de um quarto dos PV máximos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

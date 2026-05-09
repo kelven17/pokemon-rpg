@@ -1,0 +1,32 @@
+{
+  "name": "Réquiem",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "Explosão 15",
+      "Som"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Humanos não sofrem os efeitos do Réquiem, mas os poké- mons na área – incluindo o usuário – sofrem, recebendo um contador que começa em 3. No início do turno de cada po- kémon afetado, este contador é reduzido em 1 para aquele pokémon. Quando o contador de cada pokémon atingir ze- ro, aquele pokémon tem seus PV reduzidos instantanea- mente a zero. É possível retirar seu contador sendo convo- cado à pokébola ou fugindo. Se o pokémon ficar inconscien- te durante este período seu contador também desaparece.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

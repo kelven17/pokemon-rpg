@@ -19,20 +19,55 @@
             </select>
         </div>
         <div class="form-group">
-            <label>{{localize "POKEMON_RPG.Power"}}</label>
-            <input type="number" name="system.power" value="{{system.power}}" data-dtype="Number"/>
+            <label>{{localize "POKEMON_RPG.Aptidao.Label"}}</label>
+            <select name="system.aptidao">
+                {{#each aptidaoChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.aptidao)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
         </div>
         <div class="form-group">
-            <label>{{localize "POKEMON_RPG.Accuracy"}}</label>
-            <input type="number" name="system.accuracy" value="{{system.accuracy}}" data-dtype="Number" min="0"/>
+            <label>{{localize "POKEMON_RPG.Move.DificuldadeAcc"}}</label>
+            <input type="number" name="system.accuracy" value="{{system.accuracy}}" data-dtype="Number" min="0" placeholder="{{localize 'POKEMON_RPG.Move.Automatica'}}"/>
+            <p class="hint">{{localize "POKEMON_RPG.Move.Automatica"}} = vazio</p>
         </div>
         <div class="form-group">
-            <label>{{localize "POKEMON_RPG.PP"}}</label>
-            <div class="hp-row">
-                <input type="number" name="system.pp.value" value="{{system.pp.value}}" data-dtype="Number"/>
-                <span class="separator">/</span>
-                <input type="number" name="system.pp.max" value="{{system.pp.max}}" data-dtype="Number"/>
-            </div>
+            <label>{{localize "POKEMON_RPG.Alcance.Label"}}</label>
+            <select name="system.alcance">
+                {{#each alcanceChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.alcance)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Alcance.Ranged"}} (m)</label>
+            <input type="number" name="system.alcanceRange" value="{{system.alcanceRange}}" data-dtype="Number" min="0"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Frequencia.Label"}}</label>
+            <select name="system.frequencia">
+                {{#each frequenciaChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.frequencia)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Concursos.Label"}}</label>
+            <select name="system.contestDescriptor">
+                <option value="" {{#unless system.contestDescriptor}}selected{{/unless}}>—</option>
+                {{#each concursosChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.contestDescriptor)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Move.DanoBasal"}}</label>
+            <input type="text" name="system.damageBasal" value="{{system.damageBasal}}" placeholder="ex: 5d12+18 ou Ver Efeito"/>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Move.Descritores"}}</label>
+            <input type="text" value="{{join system.descritores ', '}}" disabled placeholder="(edite via JSON do item)"/>
+            <p class="hint">Lista separada por vírgula. Editável via API/JSON por enquanto.</p>
         </div>
         <div class="form-group">
             <label>{{localize "POKEMON_RPG.LearnLevel"}}</label>
@@ -41,11 +76,6 @@
         <div class="form-group">
             <label>{{localize "POKEMON_RPG.Priority"}}</label>
             <input type="number" name="system.priority" value="{{system.priority}}" data-dtype="Number"/>
-        </div>
-        <div class="form-group full">
-            <label>{{localize "POKEMON_RPG.DamageFormula"}}</label>
-            <input type="text" name="system.damageFormula" value="{{system.damageFormula}}" placeholder="ex: 2d6 + @atk"/>
-            <p class="hint">{{localize "POKEMON_RPG.DamageFormulaHint"}}</p>
         </div>
     </div>
     <div class="form-group full">

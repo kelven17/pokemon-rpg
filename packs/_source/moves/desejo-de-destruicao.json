@@ -1,0 +1,32 @@
+{
+  "name": "Desejo de Destruição",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Coluna 1",
+      "Preparo"
+    ],
+    "accuracy": 2,
+    "damageBasal": "6d12+22",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "surpresa",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O Desejo de Destruição não consome a Ação de Golpe na rodada em que age, apenas na rodada inicial de Preparo de modo que é possível agir normalmente na rodada que o Desejo de Destruição causa seu dano. O dano causado pelo Desejo de Destruição é considerado sem Tipo, de modo que causa dano neutro em todos os alvos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

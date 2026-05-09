@@ -1,0 +1,31 @@
+{
+  "name": "Cólera",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "physical",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 5"
+    ],
+    "accuracy": 2,
+    "damageBasal": "3d10+12",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o usuário tiver errado seu ataque na rodada anterior ou seu ataque tiver sido interrompido ou interceptado de modo a ser anulado na rodada anterior, o Dano Basal da Cólera se torna 6d12+22 Físico.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

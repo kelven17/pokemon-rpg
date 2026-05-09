@@ -1,0 +1,31 @@
+{
+  "name": "Cauda do Dragão",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 40 (0)"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d10+8",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "desfecho",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se for uma batalha oficial entre humanos, as regras dizem que um pokémon que foi para tão longe deve ser retornado à pokébola e substituído por outro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

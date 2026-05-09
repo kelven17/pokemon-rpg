@@ -1,0 +1,29 @@
+{
+  "name": "Semente Sanguessuga",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [],
+    "accuracy": 4,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 6,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "No início de cada turno do alvo, a Semente Sanguessuga remove dele um oitavo de seus Pontos de Vida máximos. Assim continuará até o alvo fugir, desmaiar ou retornar a uma pokébola. O usuário da Semente Sanguessuga recupera uma quantidade de Pontos de Vida igual à quantidade perdida pelo alvo. A Semente Sanguessuga não afeta pokémons do Tipo Planta.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Poder Oculto",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "reviravolta",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Quando um pokémon aprende seu Poder Oculto, role 1d4 para definir o Dano Basal do Poder Oculto: Resultado da Dano Basal do Rolagem de 1d4 Poder Oculto 1 1d12+6 Especial 2 2d8+6 Especial 3 2d10+8 Especial 4 3d8+10 Especial Além disso, quando um pokémon aprende seu Poder Oculto, role 1d20 para definir o Tipo do Poder Oculto. O Tipo definido será o Tipo do Golpe no lugar do Tipo Normal, de modo que o dano causado será do Tipo definido. Resultado da Tipo do Rolagem de 1d20 Poder Oculto 1 Água 2 Dragão 3 Elétrico 4 Fada 5 Fantasma 6 Fogo 7 Gelo 8 Inseto 9 Lutador 10 Metal 11 Normal 12 Pedra 13 Planta 14 Psíquico 15 Terra 16 Trevas 17 Venenoso 18 Voador 19 ou 20 Role Novamente",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

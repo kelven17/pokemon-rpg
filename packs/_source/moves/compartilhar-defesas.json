@@ -1,0 +1,29 @@
+{
+  "name": "Compartilhar Defesas",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Escolha um Atributo entre Defesa ou Defesa Especial. O alvo revela o valor do Atributo escolhido. Ambos o usuário e o alvo têm o Atributo escolhido substituído pela média dos Atributos do usuário e do alvo até o fim do encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

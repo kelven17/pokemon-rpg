@@ -1,0 +1,31 @@
+{
+  "name": "Fusão de Chamas",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 4"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se alguém tiver usado Fusão de Raios desde a rodada anterior, Fusão de Chamas recebe +8d12 ao Dano Basal.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

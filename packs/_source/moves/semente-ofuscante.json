@@ -1,0 +1,31 @@
+{
+  "name": "Semente Ofuscante",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 5,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos perdem uma Fase de Defesa Especial.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

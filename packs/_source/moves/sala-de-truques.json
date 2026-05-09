@@ -1,0 +1,31 @@
+{
+  "name": "Sala de Truques",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "sorteio",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, a área é considerada Invertida, o que significa que a ordem da iniciativa é totalmente invertida, de modo que o que agiria por último é o primeiro a agir, seguido por aquele que agiria em penúltimo até finalmente aquele que começaria agindo. A Sala de Truques não substitui o Clima que havia antes, mas se combina a ele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

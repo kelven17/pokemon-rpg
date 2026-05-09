@@ -1,0 +1,33 @@
+{
+  "name": "Rugido do Tempo",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Exaustão",
+      "Explosão 10",
+      "Prisão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "7d10+28",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Cada alvo deve rolar 1d20 uma vez a cada rodada. Se o re- sultado for 16 ou mais, eles se libertam da Prisão temporal.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

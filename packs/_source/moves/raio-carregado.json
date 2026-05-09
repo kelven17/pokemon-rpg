@@ -1,0 +1,32 @@
+{
+  "name": "Raio Carregado",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 1",
+      "Moral"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d8+6",
+    "alcance": "ranged",
+    "alcanceRange": 5,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 11 ou mais, eleva uma Fase do Ataque Especial do usuário.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

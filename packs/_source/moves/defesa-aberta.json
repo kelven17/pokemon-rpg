@@ -1,0 +1,31 @@
+{
+  "name": "Defesa Aberta",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se um inimigo usar um Golpe que atinge múltiplos alvos e o usuário da Defesa Aberta for um destes alvos, é possível usar a Defesa Aberta como uma Interceptação para que apenas o usuário da Defesa Aberta seja atingido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

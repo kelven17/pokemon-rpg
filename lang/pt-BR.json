@@ -13,7 +13,6 @@
     "Trainer": "Treinador",
     "Species": "Espécie",
     "DexNumber": "Nº Pokédex",
-    "Nature": "Natureza",
     "Gender": "Gênero",
     "Status": "Condição",
     "Biography": "Biografia",
@@ -121,6 +120,72 @@
       "Hint":     "Selvagem usa HP × 3, Capturado usa HP × 4. Alterna automaticamente ao entrar/sair de uma party."
     },
 
+    "Aptidao": {
+      "Label":       "Aptidão",
+      "Beleza":      "Beleza",
+      "Estilo":      "Estilo",
+      "Perspicacia": "Perspicácia",
+      "Ternura":     "Ternura",
+      "Vigor":       "Vigor"
+    },
+
+    "Alcance": {
+      "Label":  "Alcance",
+      "Si":     "Si",
+      "Melee":  "Corpo a Corpo",
+      "Ranged": "À Distância",
+      "Area":   "Área"
+    },
+
+    "Frequencia": {
+      "Label":        "Frequência",
+      "AtWill":       "À Vontade",
+      "EveryOther":   "Rodada Sim Rodada Não",
+      "PerEncounter": "Por Encontro",
+      "Daily":        "Diária"
+    },
+
+    "Concursos": {
+      "Label":           "Concursos",
+      "Abertura":        "Abertura",
+      "Abstracao":       "Abstração",
+      "Amizade":         "Amizade",
+      "Climax":          "Clímax",
+      "Cobica":          "Cobiça",
+      "Conquista":       "Conquista",
+      "Constrangimento": "Constrangimento",
+      "Continuacao":     "Continuação",
+      "Dedicatoria":     "Dedicatória",
+      "Desfecho":        "Desfecho",
+      "Despedida":       "Despedida",
+      "Encerramento":    "Encerramento",
+      "Entrada":         "Entrada",
+      "Especial":        "Especial",
+      "Excentricidade":  "Excentricidade",
+      "Extravagancia":   "Extravagância",
+      "Incentivo":       "Incentivo",
+      "Modelo":          "Modelo",
+      "Modestia":        "Modéstia",
+      "Pausa":           "Pausa",
+      "Perspectiva":     "Perspectiva",
+      "Proveito":        "Proveito",
+      "Reviravolta":     "Reviravolta",
+      "Seguranca":       "Segurança",
+      "Sorteio":         "Sorteio",
+      "Surpresa":        "Surpresa"
+    },
+
+    "Move": {
+      "Descritores":      "Descritores",
+      "DificuldadeAcc":   "Dificuldade de Acurácia",
+      "Automatica":       "Automática",
+      "DanoBasal":        "Dano Basal",
+      "ResetEncounter":   "Recuperar (Encontro)",
+      "ResetDaily":       "Recuperar (Dia)",
+      "Used":             "Usado",
+      "Cooldown":         "Em cooldown"
+    },
+
     "Effectiveness": {
       "Weaknesses":   "Fraquezas",
       "Resistances":  "Resistências",
@@ -132,6 +197,7 @@
     },
 
     "Nature": {
+      "Label":   "Natureza",
       "None":    "—",
       "Hardy":   "Hardy",
       "Lonely":  "Lonely",

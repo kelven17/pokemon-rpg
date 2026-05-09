@@ -1,0 +1,29 @@
+{
+  "name": "Dádiva da Natureza",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "Ver Efeito",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A Dádiva da Natureza tem Dano Basal e Tipo de dano de acordo com a fruta que é o item Mantido do usuário, que terá sua energia usada sendo destruída sem ser consumida: Tipo de Fruto Fruta Real Dano Basal Dano Aguav Goiaba 1d10+10 Especial Dragão Apicot Damasco 2d12+15 Especial Terra Aspear Pera 1d10+10 Especial Gelo Babiri Biribá 1d10+10 Especial Metal Belue Mirtilo 2d12+15 Especial Elétrico Bluk Amora 1d10+10 Especial Fogo Charti Alcachofra 1d10+10 Especial Pedra Cheri Cereja 1d10+10 Especial Fogo Chesto Castanha 1d10+10 Especial Água Chilan Sininho 1d10+10 Especial Normal Chople Chipotle 1d10+10 Especial Lutador Coba Babaco 1d10+10 Especial Voador Cornn Cardo 1d12+15 Especial Inseto Coulbur Milho 1d10+10 Especial Trevas Cutsap Pinha 2d12+15 Especial Fantasma Durin Durião 2d12+15 Especial Água Enigma Enigma 2d12+15 Especial Inseto Figy Figo 1d10+10 Especial Inseto Ganlon Longana 2d12+15 Especial Gelo Grepa Uva 1d12+15 Especial Voador Haban Araçá 1d10+10 Especial Dragão Hondew Cantalupo 1d12+15 Especial Terra Iapapa Mamão 1d10+10 Especial Trevas Jaboca Jabuticaba 2d12+15 Especial Dragão Kasib Mandioca 1d10+10 Especial Fantasma Kebia Akebia 1d10+10 Especial Venenoso Kee Guaraná 2d12+15 Especial Fada Kelpsy Alga 1d12+15 Especial Lutador Lansat Langsat 2d12+15 Especial Voador 212 Leppa Maçã 1d10+10 Especial Lutador Liechi Lichia 2d12+15 Especial Planta Lum Ameixa 1d10+10 Especial Voador Mago Manga 1d10+10 Especial Fantasma Magost Mangostão 1d12+15 Especial Pedra Magost Jaca 2d12+15 Especial Normal Fruta Micle 2d12+15 Especial Pedra Milagrosa Nanab Banana 1d12+15 Especial Água Nomel Limão 1d12+15 Especial Dragão Occa Cacau 1d10+10 Especial Fogo Oran Laranja 1d10+10 Especial Venenoso Pamtre Açaí 1d12+15 Especial Metal Passho Maracujá 1d10+10 Especial Água Payapa Papaia 1d10+10 Especial Psíquico Pecha Pêssego 1d10+10 Especial Elétrico Persim Caqui 1d10+10 Especial Terra Petaya Pitaia 2d12+15 Especial Venenoso Pinap Abacaxi 1d12+15 Especial Planta Pomeg Romã 1d12+15 Especial Gelo Qualot Nêspera 1d12+15 Especial Venenoso Rabuta Rambutão 1d12+15 Especial Fantasma Rawst Morango 1d10+10 Especial Planta Razz Framboesa 1d10+10 Especial Metal Rindo Tamarindo 1d10+10 Especial Planta Roseli Rosélia 1d10+10 Especial Fada Rowap Jambo 2d12+15 Especial Trevas Salac Salak 2d12+15 Especial Lutador Shuca Caju 1d10+10 Especial Terra Sitrus Toranja 1d10+10 Especial Psíquico Spelon Melão 1d12+15 Especial Trevas Starf Carambola 2d12+15 Especial Psíquico Tamato Tomate 1d12+15 Especial Psíquico Tanga Pitanga 1d10+10 Especial Inseto Wacan Guajilote 1d10+10 Especial Elétrico Watmel Melancia 2d12+15 Especial Fogo Wepear Abacate 1d12+15 Especial Elétrico Wiki Kiwi 1d10+10 Especial Pedra Yache Chirimoia 1d10+10 Especial Gelo",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

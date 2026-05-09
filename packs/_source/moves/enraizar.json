@@ -1,0 +1,31 @@
+{
+  "name": "Enraizar",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Enraizar concede uma Cobertura com as seguintes propriedades: o usuário não pode ser forçado a ser trocado por outro pokémon nem a fugir, mas ele ainda pode ser trocado e fugir se quiser. Além disso, no início de cada turno dele, ele recupera 1/16 de seus PV máximos a cada rodada. Caso o usuário possua imunidade a Terra, a Cobertura de Enraizar o faz perder esta imunidade.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

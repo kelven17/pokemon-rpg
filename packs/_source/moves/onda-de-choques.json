@@ -1,0 +1,31 @@
+{
+  "name": "Onda de Choques",
+  "type": "move",
+  "img": "icons/svg/lightning.svg",
+  "system": {
+    "description": "",
+    "type": "electric",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Coluna 2"
+    ],
+    "accuracy": null,
+    "damageBasal": "2d10+8",
+    "alcance": "ranged",
+    "alcanceRange": 2,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abertura",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

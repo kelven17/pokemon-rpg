@@ -1,0 +1,31 @@
+{
+  "name": "Espiral de Fogo",
+  "type": "move",
+  "img": "icons/svg/fire.svg",
+  "system": {
+    "description": "",
+    "type": "fire",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Prisão"
+    ],
+    "accuracy": 4,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "continuacao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "O alvo fica Aprisionado por 1d4+1 rodadas. Enquanto Preso, No início do turno dele, ele sofre 1d12 de dano.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

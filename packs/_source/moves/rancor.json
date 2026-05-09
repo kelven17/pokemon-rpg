@@ -1,0 +1,31 @@
+{
+  "name": "Rancor",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "status",
+    "aptidao": "ternura",
+    "descritores": [
+      "238 Interceptação"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 20,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "constrangimento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Quando o usuário fica inconsciente devido a um Golpe, ele pode usar o Rancor de sua alma como uma Interceptação para impedir o uso do Golpe que o deixou inconsciente por parte daquele que usou o Golpe contra ele por uma hora.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

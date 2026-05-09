@@ -1,0 +1,31 @@
+{
+  "name": "Estilhaços de Gelo",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Interrupção"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d12+6",
+    "alcance": "ranged",
+    "alcanceRange": 10,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "entrada",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o alvo declarar o uso de um Golpe, é possível usar os Estilhaços de Gelo no turno dele antes do Golpe dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

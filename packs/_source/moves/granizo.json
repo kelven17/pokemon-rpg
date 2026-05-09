@@ -1,0 +1,31 @@
+{
+  "name": "Granizo",
+  "type": "move",
+  "img": "icons/svg/frozen.svg",
+  "system": {
+    "description": "",
+    "type": "ice",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Clima"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "area",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Por 1d4+1 rodadas, a área está em Granizo, o que significa que no início de cada rodada todos os pokémons que não forem de Gelo perdem 1/16 de seus Pontos de Vida máximos. Enquanto em Granizo, pokémons de Gelo elevam duas Fases de Defesa.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Feixe Espectral",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "special",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Explosão 3"
+    ],
+    "accuracy": 2,
+    "damageBasal": "5d12+18",
+    "alcance": "ranged",
+    "alcanceRange": 15,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Não é possível usar nenhum Golpe nem nenhuma Habilidade para negar os efeitos do Feixe Espectral.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

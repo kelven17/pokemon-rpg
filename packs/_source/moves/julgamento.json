@@ -1,0 +1,31 @@
+{
+  "name": "Julgamento",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": [
+      "Explosão 5"
+    ],
+    "accuracy": 2,
+    "damageBasal": "4d12+16",
+    "alcance": "ranged",
+    "alcanceRange": 25,
+    "frequencia": "daily",
+    "usado": false,
+    "contestDescriptor": "sorteio",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Julgamento pode causar dano de qualquer Tipo que o usuário queira causar.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Investida de Cabeça",
+  "type": "move",
+  "img": "icons/svg/stone.svg",
+  "system": {
+    "description": "",
+    "type": "rock",
+    "category": "physical",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Empurrão 5 (1d12)",
+      "Impacto",
+      "Rebote (metade)"
+    ],
+    "accuracy": 5,
+    "damageBasal": "7d10+28",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "perspectiva",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

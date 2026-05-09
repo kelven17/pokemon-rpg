@@ -1,0 +1,31 @@
+{
+  "name": "Raiva",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "normal",
+    "category": "physical",
+    "aptidao": "vigor",
+    "descritores": [
+      "Moral"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d6+3",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "at-will",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva uma Fase do usuário se quaisquer das seguintes condições for satisfeita: o usuário sofreu dano por um ataque desde o turno passado dele ou o usuário usou a Raiva no turno passado dele.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

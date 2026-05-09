@@ -1,0 +1,29 @@
+{
+  "name": "Automação",
+  "type": "move",
+  "img": "icons/svg/anchor.svg",
+  "system": {
+    "description": "",
+    "type": "steel",
+    "category": "status",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "climax",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Eleva duas Fases de Velocidade do usuário. Até o fim do encontro, a Categoria de Peso do usuário é reduzida: se era Leve ele se torna Muito Leve; se era Médio ele se torna Leve; se era Pesado ele se torna Médio; se era Muito Pesado ele se torna Pesado; Se era Extremamente Pesado ele se torna Muito Pesado.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Psicochoque",
+  "type": "move",
+  "img": "icons/svg/eye.svg",
+  "system": {
+    "description": "",
+    "type": "psychic",
+    "category": "special",
+    "aptidao": "vigor",
+    "descritores": [],
+    "accuracy": 2,
+    "damageBasal": "2d10+12",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "incentivo",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "A despeito de Psicochoque ser um Golpe Especial, use a Defesa do alvo – e não a Defesa Especial dele – para reduzir o dano sofrido.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Espancamento",
+  "type": "move",
+  "img": "icons/svg/skull.svg",
+  "system": {
+    "description": "",
+    "type": "dark",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "Saraivada 6"
+    ],
+    "accuracy": 2,
+    "damageBasal": "1d8",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Até seis Espancamentos podem ser feitos (mas não mais do que o número de aliados), mas após o primeiro erro, esta Saraivada acaba. Adicione o número de aliados do pokémon (até o máximo de 6) às rolagens de dano de cada Espancamento.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

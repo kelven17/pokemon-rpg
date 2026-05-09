@@ -1,0 +1,31 @@
+{
+  "name": "Ataque de Areia",
+  "type": "move",
+  "img": "icons/svg/mountain.svg",
+  "system": {
+    "description": "",
+    "type": "ground",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [
+      "Coluna 1"
+    ],
+    "accuracy": 2,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 2,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "conquista",
+    "contestOverride": "1d4",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Os alvos têm suas Dificuldades de Acurácia aumentadas em 1 até o fim do encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

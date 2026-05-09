@@ -1,0 +1,31 @@
+{
+  "name": "Tornado de Folhas",
+  "type": "move",
+  "img": "icons/svg/oak.svg",
+  "system": {
+    "description": "",
+    "type": "grass",
+    "category": "special",
+    "aptidao": "ternura",
+    "descritores": [
+      "Explosão 6"
+    ],
+    "accuracy": 4,
+    "damageBasal": "3d8+10",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "proveito",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Se o resultado do Teste de Acurácia for 15 ou mais, os alvos têm suas Dificuldades de Acurácia aumentadas em 1 até o fim do encontro.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

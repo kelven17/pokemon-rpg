@@ -1,0 +1,31 @@
+{
+  "name": "Pancada Dupla",
+  "type": "move",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "type": "dragon",
+    "category": "physical",
+    "aptidao": "beleza",
+    "descritores": [
+      "232 Saraivada 2"
+    ],
+    "accuracy": 3,
+    "damageBasal": "2d8+6",
+    "alcance": "melee",
+    "alcanceRange": null,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "modestia",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "-",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

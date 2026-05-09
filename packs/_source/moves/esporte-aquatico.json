@@ -1,0 +1,31 @@
+{
+  "name": "Esporte Aquático",
+  "type": "move",
+  "img": "icons/svg/water.svg",
+  "system": {
+    "description": "",
+    "type": "water",
+    "category": "status",
+    "aptidao": "perspicacia",
+    "descritores": [
+      "Cobertura"
+    ],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "ranged",
+    "alcanceRange": 4,
+    "frequencia": "every-other",
+    "usado": false,
+    "contestDescriptor": "abstracao",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Esporte Aquático cria uma Cobertura que concede resistên- cia a dano de Fogo. É possível usar o Esporte Aquático em si mesmo, mesmo sendo um Golpe À Distância.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

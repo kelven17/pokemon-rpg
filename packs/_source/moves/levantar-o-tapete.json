@@ -1,0 +1,29 @@
+{
+  "name": "Levantar o Tapete",
+  "type": "move",
+  "img": "icons/svg/combat.svg",
+  "system": {
+    "description": "",
+    "type": "fighting",
+    "category": "status",
+    "aptidao": "estilo",
+    "descritores": [],
+    "accuracy": null,
+    "damageBasal": "",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "excentricidade",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Levantar o Tapete só pode ser feito na primeira rodada de um encontro ou na primeira rodada que um pokémon acabou de sair da pokébola. Até o próximo turno do pokémon, os aliados adjacentes a ele atingidos por um Golpe causador de dano simplesmente não são atingidos: o Golpe que acertaria erra.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}
