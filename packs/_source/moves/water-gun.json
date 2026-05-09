@@ -1,18 +1,5 @@
 {
-  "name": "Jato d'Água",
-  "type": "move",
-  "img": "icons/svg/water.svg",
-  "system": {
-    "description": "<p>O usuário ataca disparando um jorro de água com força.</p>",
-    "type": "water",
-    "category": "special",
-    "power": 40,
-    "accuracy": 2,
-    "pp": { "value": 25, "max": 25 },
-    "damageFormula": "",
-    "effect": "",
-    "learnLevel": 1,
-    "priority": 0,
-    "target": "single"
-  }
+  "name": "_DEPRECATED_",
+  "type": "_deprecated",
+  "_obsolete": "slug em pt-BR substituiu este arquivo. Apague-o manualmente."
 }

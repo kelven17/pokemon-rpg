@@ -1,18 +1,5 @@
 {
-  "name": "Ataque Rápido",
-  "type": "move",
-  "img": "icons/svg/wing.svg",
-  "system": {
-    "description": "<p>O usuário ataca em uma velocidade tão alta que torna-se quase invisível. Sempre age primeiro.</p>",
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 2,
-    "pp": { "value": 30, "max": 30 },
-    "damageFormula": "",
-    "effect": "Tem prioridade +1 na ordem de ação.",
-    "learnLevel": 1,
-    "priority": 1,
-    "target": "single"
-  }
+  "name": "_DEPRECATED_",
+  "type": "_deprecated",
+  "_obsolete": "slug em pt-BR substituiu este arquivo. Apague-o manualmente."
 }

@@ -1,18 +1,5 @@
 {
-  "name": "Investida",
-  "type": "move",
-  "img": "icons/svg/aura.svg",
-  "system": {
-    "description": "<p>Um ataque corpo-a-corpo simples — o usuário se arremessa contra o alvo.</p>",
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 2,
-    "pp": { "value": 35, "max": 35 },
-    "damageFormula": "",
-    "effect": "",
-    "learnLevel": 1,
-    "priority": 0,
-    "target": "single"
-  }
+  "name": "_DEPRECATED_",
+  "type": "_deprecated",
+  "_obsolete": "slug em pt-BR substituiu este arquivo. Apague-o manualmente."
 }

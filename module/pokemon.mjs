@@ -10,6 +10,11 @@ import { PokemonItem } from "./documents/item.mjs";
 import { TrainerSheet } from "./sheets/trainer-sheet.mjs";
 import { PokemonSheet } from "./sheets/pokemon-sheet.mjs";
 import { PokemonItemSheet } from "./sheets/item-sheet.mjs";
+import {
+  registerMoveImporterSettings,
+  importMovesIfNeeded,
+  forceReimportMoves
+} from "./setup/moves-importer.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -22,8 +27,12 @@ Hooks.once("init", function() {
   game.pokemonRpg = {
     config: POKEMON_RPG,
     PokemonActor,
-    PokemonItem
+    PokemonItem,
+    reimportMoves: forceReimportMoves
   };
+
+  // Registra setting do importer de golpes.
+  registerMoveImporterSettings();
   CONFIG.POKEMON_RPG = POKEMON_RPG;
 
   // Document classes.
@@ -109,8 +118,14 @@ Hooks.once("init", function() {
 /*  Ready                                        */
 /* -------------------------------------------- */
 
-Hooks.once("ready", function() {
+Hooks.once("ready", async function() {
   console.log("pokemon-rpg | Sistema pronto");
+  // Auto-import dos golpes (apenas GM, idempotente via setting).
+  try {
+    await importMovesIfNeeded();
+  } catch (err) {
+    console.error("pokemon-rpg | erro no import de golpes:", err);
+  }
 });
 
 /* -------------------------------------------- */

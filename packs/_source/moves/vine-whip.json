@@ -1,18 +1,5 @@
 {
-  "name": "Chicote de Cipó",
-  "type": "move",
-  "img": "icons/svg/oak.svg",
-  "system": {
-    "description": "<p>O alvo é golpeado com cipós flexíveis e finos.</p>",
-    "type": "grass",
-    "category": "physical",
-    "power": 45,
-    "accuracy": 2,
-    "pp": { "value": 25, "max": 25 },
-    "damageFormula": "",
-    "effect": "",
-    "learnLevel": 1,
-    "priority": 0,
-    "target": "single"
-  }
+  "name": "_DEPRECATED_",
+  "type": "_deprecated",
+  "_obsolete": "slug em pt-BR substituiu este arquivo. Apague-o manualmente."
 }

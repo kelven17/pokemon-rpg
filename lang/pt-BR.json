@@ -186,6 +186,13 @@
       "Cooldown":         "Em cooldown"
     },
 
+    "Setting": {
+      "MovesBundleVersion": {
+        "Name": "Versão do Bundle de Golpes Importado",
+        "Hint": "Controla qual versão do bundle de golpes já foi importada para o compendium World-side."
+      }
+    },
+
     "Effectiveness": {
       "Weaknesses":   "Fraquezas",
       "Resistances":  "Resistências",
