@@ -103,15 +103,15 @@ export async function rollMove(actor, moveItem, options = {}) {
   let crit = false;
   let critFail = false;
 
+  // Coleta o alvo uma vez — usado tanto pra evasão quanto pra defesa do dano.
+  const targets = Array.from(game.user?.targets ?? []);
+  const targetActor = targets[0]?.actor ?? null;
+
   const automatic = (sys.accuracy === null || sys.accuracy === undefined);
   if ( !automatic ) {
     const accRoll = new Roll("1d20");
     await accRoll.evaluate();
     const d20 = accRoll.total;
-
-    // Alvo
-    const targets = Array.from(game.user?.targets ?? []);
-    const targetActor = targets[0]?.actor ?? null;
 
     // Evasão
     let evasion = 0;
@@ -160,6 +160,14 @@ export async function rollMove(actor, moveItem, options = {}) {
   }
 
   // 2. Dano Basal (do livro)
+  //
+  // Cálculo final do dano:
+  //   1. Rola a fórmula de Dano Basal + atributo de ataque do usuário.
+  //   2. Aplica multiplicador de Crítico (×2) se houver.
+  //   3. SUBTRAI a Defesa (físico) ou Defesa Especial (especial) do alvo.
+  //   4. Aplica o multiplicador de efetividade de tipo (×0.5, ×1, ×2 etc.)
+  //      no DANO RESTANTE (a defesa reduz primeiro, depois resistência/fraqueza).
+  //
   const damageFormula = sys.damageBasal?.trim() || sys.damageFormula?.trim() || "";
   const hasDamage = hit && damageFormula && damageFormula !== "-" && damageFormula !== "Ver Efeito"
                     && cat !== "status";
@@ -174,11 +182,60 @@ export async function rollMove(actor, moveItem, options = {}) {
 
     const dmgRoll = new Roll(formula);
     await dmgRoll.evaluate();
+    const rolled = dmgRoll.total;
+
+    // 2.1. Coleta Defesa do alvo conforme categoria do golpe.
+    const defKey   = (cat === "special") ? "spd" : "def";
+    const defLabel = (cat === "special")
+      ? game.i18n.localize("POKEMON_RPG.Attribute.SpD")
+      : game.i18n.localize("POKEMON_RPG.Attribute.Def");
+    const targetDef = targetActor?.system?.attributes?.[defKey]?.value ?? 0;
+
+    // 2.2. Aplica defesa: max(0, rolado - defesa).
+    const afterDef = Math.max(0, rolled - targetDef);
+
+    // 2.3. Efetividade de tipo (fraqueza/resistência/imunidade).
+    let effMult = 1;
+    let effLabel = "×1";
+    if ( targetActor && typeof targetActor.system?.getTypeEffectiveness === "function" ) {
+      effMult = targetActor.system.getTypeEffectiveness(moveType);
+      if ( effMult === 0 )         effLabel = "imune";
+      else if ( effMult === 0.25 ) effLabel = "×¼";
+      else if ( effMult === 0.5 )  effLabel = "×½";
+      else if ( effMult === 2 )    effLabel = "×2";
+      else if ( effMult === 4 )    effLabel = "×4";
+      else                         effLabel = `×${effMult}`;
+    }
+
+    // 2.4. Dano final aplicado ao alvo.
+    const finalDmg = Math.floor(afterDef * effMult);
+
+    // Renderização do bloco de dano com cada etapa visível.
     content += `<div class="damage-roll">`;
-    content += `Dano${crit ? " (Crítico ×2)" : ""}: <strong>${dmgRoll.total}</strong> `;
-    content += `<em>(${formula})</em>`;
+    content += `<div class="dmg-line dmg-rolled">`;
+    content +=   `Dano rolado${crit ? " (Crítico ×2)" : ""}: <strong>${rolled}</strong> `;
+    content +=   `<em>(${formula})</em>`;
     content += `</div>`;
-    content += `<details><summary>Detalhes do dano</summary>${await dmgRoll.render()}</details>`;
+    if ( targetActor ) {
+      content += `<div class="dmg-line dmg-defense">`;
+      content +=   `− ${defLabel} (${targetDef}) = <strong>${afterDef}</strong>`;
+      content += `</div>`;
+      if ( effMult !== 1 ) {
+        const effClass = effMult > 1 ? "dmg-weak"
+                       : effMult === 0 ? "dmg-immune"
+                       : "dmg-resist";
+        content += `<div class="dmg-line dmg-effective ${effClass}">`;
+        content +=   `× Efetividade (${effLabel}) = <strong>${finalDmg}</strong>`;
+        content += `</div>`;
+      }
+      content += `<div class="dmg-line dmg-total">`;
+      content +=   `<strong>Dano final ao ${targetActor.name}: ${finalDmg}</strong>`;
+      content += `</div>`;
+    } else {
+      content += `<div class="dmg-line"><em>Sem alvo selecionado — defesa e efetividade não aplicadas.</em></div>`;
+    }
+    content += `</div>`;
+    content += `<details><summary>Detalhes da rolagem</summary>${await dmgRoll.render()}</details>`;
   } else if ( damageFormula === "Ver Efeito" ) {
     content += `<div class="damage-roll">Dano descrito no Efeito.</div>`;
   } else if ( cat === "status" || !damageFormula || damageFormula === "-" ) {
