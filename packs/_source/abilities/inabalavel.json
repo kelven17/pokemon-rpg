@@ -1,0 +1,14 @@
+{
+  "name": "Inabalável",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser Atordoado.",
+    "effect": "eleva uma Fase de Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

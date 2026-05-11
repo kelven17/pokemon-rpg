@@ -1,0 +1,14 @@
+{
+  "name": "Travessura",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "pelo resto do encontro, qualquer Golpe não causador de dano que o pokémon conheça recebe o Descritor Interrupção. Travessura não afeta Golpes que reduzem inimigos diretamente a zero Pontos de Vida.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

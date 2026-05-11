@@ -1,0 +1,14 @@
+{
+  "name": "Friorento",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "enquanto o clima estiver de Granizo, este pokémon recupera 1/16 de seus PV máximos no início de cada rodada.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

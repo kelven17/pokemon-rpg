@@ -1,0 +1,14 @@
+{
+  "name": "Bochechudo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-horaria",
+    "condicao": "o pokémon come uma fruta.",
+    "effect": "além dos efeitos normais da fruta, o pokémon recupera 15 Pontos de Vida.",
+    "usado": false,
+    "trigger": "Gatilho Horário"
+  }
+}

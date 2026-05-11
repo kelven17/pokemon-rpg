@@ -1,0 +1,14 @@
+{
+  "name": "Ligação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "usar um Golpe com o Descritor",
+    "effect": "o Golpe pode ser usado pelo maior número de vezes possível, mesmo que haja falhas em acertar.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

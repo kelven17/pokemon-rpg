@@ -1,0 +1,14 @@
+{
+  "name": "Sincronizar",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-horaria",
+    "condicao": "um oponente impõe uma das",
+    "effect": "o oponente recebe a mesma Condição que ele causou.",
+    "usado": false,
+    "trigger": "Gatilho Horário"
+  }
+}

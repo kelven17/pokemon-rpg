@@ -1,0 +1,14 @@
+{
+  "name": "Arrogância",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "este pokémon deixa outro",
+    "effect": "eleve uma Fase de Ataque.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

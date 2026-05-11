@@ -1,0 +1,14 @@
+{
+  "name": "Disfarce",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "o pokémon sofre dano por um",
+    "effect": "o pokémon não sofre o dano e nenhum outro efeito associado ao Golpe.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

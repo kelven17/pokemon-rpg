@@ -1,0 +1,14 @@
+{
+  "name": "Elasticidade",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Paralisia.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

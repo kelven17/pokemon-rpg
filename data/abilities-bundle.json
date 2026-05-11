@@ -1,0 +1,3138 @@
+[
+{
+"name": "Absorção de Água",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "dano de Água cura este pokémon. Calcule o dano que seria sofrido como se a Defesa e a Defesa Especial do pokémon fosse zero, e cure metade do resultado do dano que seria sofrido.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Absorção de Chamas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon é imune a dano de Fogo e à Congelamento. Se sofreria dano de Fogo por alguma razão, ele, em vez disso, adiciona metade de seu Bônus Elemental ao próximo Golpe de Fogo que usar.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Absorção de Seiva",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon é imune a dano de Planta. Uma vez por rodada, se sofreria dano de Planta por alguma razão, ele, em vez disso, ele eleva uma Fase de Ataque.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Absorção de Voltagem",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "dano Elétrico cura este pokémon. Calcule o dano que seria sofrido como se a Defesa e a Defesa Especial do pokémon fosse zero, e cure metade do resultado do dano que seria sofrido.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Aclimatação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o clima se torna ameno se o pokémon com Aclimatação tiver Nível maior que o pokémon que causar a mudança climática.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Adaptabilidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "dobre o Bônus Elemental do pokémon.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Adiamento",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon é sempre o último a agir em todas as rodadas, independente se qualquer Talento, Habilidade ou Golpe disser o contrário. A iniciativa deste pokémon só é relevante quando há mais de um pokémon com Adiamento.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Aeração",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os Golpes Normais do pokémon são agora do Tipo Voador e recebem o Bônus Elemental dobrado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Agonista",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "se o pokémon perder uma ou mais Fases por qualquer razão que não por seus próprios Golpes ou por suas próprias Habilidades, ele eleva duas Fases em Ataque para cada Fase que perder. Agrupamento Gatilho: estar em perigo. Efeito: ao assumir sua forma Completa, recupera todos os seus Pontos de Vida.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Alcance Remoto",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon nunca precisa fazer contato com alvos para usar Golpes: quaisquer Golpes que antes eram Corpo a Corpo agora são À Distância de 10 metros.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Alquimia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "um aliado fica inconsciente.",
+"effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro. 183 Alucinógeno",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Amarelar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "estar abaixo de metade dos PV",
+"effect": "o pokémon imediatamente começa a fugir, recebendo +20 a todos os seus Deslocamentos. Se o dono não convocar o pokémon de volta à pokébola em seu próximo turno, a Lealdade do pokémon será reduzida.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Amor de Mãe",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "usar um Golpe causador de",
+"effect": "o pokémon usa imediatamente o Golpe de novo contra o mesmo alvo, ou, se era uma Explosão, na mesma área. O segundo Golpe é representado pela filhota, por isso não aplica o Dano Basal, apenas o resto do dano.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Análise",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "pelas próximas cinco rodadas, se o turno do pokémon vier imediatamente depois de um inimigo que for alvo dele, ele adiciona às rolagens de dano uma quantidade igual a seu Bônus Elemental.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Anátema",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "ser acertado por um Golpe",
+"effect": "o Golpe é afetado pelos efeitos de Desabilitar automaticamente. Esta Habilidade só entra em vigor depois dos efeitos do Golpe que ativou o Gatilho, mas ela funciona mesmo que o pokémon Anátema fique inconsciente pelo Golpe sofrido.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Antecipação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "durante um encontro, você pode usar esta Habilidade em um oponente, que revelará se possui algum Golpe superefetivo contra você. Além disso, role 1d20. Se o resultado for 11 ou mais, o alvo revelará até 3 Golpes dele que são superefetivos contra você. Se o resultado for 16 ou mais, ele revelará até 5 Golpes dele que são superefetivos contra você e a Dificuldade de Acurácia destes cinco Golpes é aumentada em 1 quando são usados contra você.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Arena de Areia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "uma grande parede de areia de 10 metros de altura cerca o encontro. O diâmetro da Arena de Areia pode ser escolhido, a um mínimo de 10 metros e um máxi- mo de 40 metros. Deve haver solo suficiente a ser manipu- lado para que esta Habilidade seja usada. As paredes se u- nem em cima para formar o teto, de modo que é impossível deixar a área por cima. Caso destruídas, as paredes são restauradas instantaneamente. Se o pokémon ativador de Arena de Areia fica inconsciente ou é convocado de volta para a pokébola, a Arena de Areia se desmancha.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Arenoso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "enquanto o clima for uma Tempestade de Areia, o pokémon pode ativar esta Habilidade, cujo efeito permanece até o fim do encontro. Arenoso torna o poké- mon imune aos efeitos de Tempestades de Areia e o faz adicionar uma quantidade igual a seu Bônus Elemental às rolagens de dano de Golpes Metálicos, de Pedra e de Terra.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Armadura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Críticos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Arrogância",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "este pokémon deixa outro",
+"effect": "eleve uma Fase de Ataque.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Asas de Vendavais",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o pokémon pode usar um Golpe Voador como uma Ação de Interrupção.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Aspereza",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Aura de Trevas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "pelo resto do encontro, Golpes de Trevas adicionam às rolagens de dano uma quantidade igual ao dobro do Bônus Elemental do usuário do Golpe. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes de Trevas e se acumula com o próprio Bônus Elemental se houver.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Aura Feérica",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "pelo resto do encontro, Golpes do Tipo Fada adicionam às rolagens de dano uma quantidade igual ao dobro do Bônus Elemental do usuário do Golpe. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes do Tipo Fada e se acumula com o próprio Bônus Elemental se houver.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Barbárie",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "os Pontos de Vida do pokémon",
+"effect": "eleve duas Fases de Ataque Especial dele.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Bateria",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Bazuca",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon adiciona uma quantidade igual ao dobro do Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Esfera da Aura, Pulso d’Água, Pulso de Cura, Pulso do Dragão, Pulso Primitivo, Pulso Sombrio. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Bicudo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a perda de Fases de Defesa.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Bisbilhoteiro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o alvo adjacente revela seu Item Mantido.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Blindagem",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade aos seguintes Golpes: Barragem, Bomba Ácida, Bico Explosivo, Bomba de Lama, Bomba de Lodo, Bomba de Sementes, Bomba Magnética, Canhão Elétrico, Demolição, Esfera Climática, Esfera da Aura, Esfera de Energia, Esfera de Gelo, Esfera de Névoa, Esfera de Sombras, Esfera Elétrica, Expansão da Aura, Girobola, Ovo Bomba, Pólen Fofo, Polvo Canhão, Semente Bala, Tiro Escaldante.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Bloqueio Celeste",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o clima se torna ameno. Isso é sustentado indefinidamente enquanto for a vontade do pokémon.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Bochechudo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "o pokémon come uma fruta.",
+"effect": "além dos efeitos normais da fruta, o pokémon recupera 15 Pontos de Vida.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Bolha d’Água",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano de Fogo.",
+"effect": "independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo. Além disso, como um benefício Constante, o pokémon é imune a Queimaduras.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Cabeça Dura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon não perde nenhum Ponto de Vida por usar qualquer um dos seguintes Golpes: Afrochoque, Carga Selvagem, Derrubada, Faca de Dois Gumes, Fúria dos Pássaros, Investida de Cabeça, Investida Trovão, Martelo de Madeira, Submissão.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Cacofonia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Golpes com o Descritor Som.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Carapaça",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a dano por efeitos climáticos e também aos seguintes Golpes: Esporos, Esporos de Algodão, Esporos Paralisantes, Pólvora, Pó Irritante, Pó Sonífero, Pó Venenoso.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Cardume",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "desde que o pokémon possua pelo menos Nível 20, esteja próximo a um grande corpo de água e possua pelo menos metade de seus Pontos de Vida máximo, ele assume sua forma para a forma de Cardume.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Catagem",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "um encontro acaba.",
+"effect": "role 1d20 e consulte a Tabela a seguir para determinar o que você encontra: Resultado Item Encontrado 1 a 5 Nenhum Um dos seguintes itens determinado aleatoriamente: X-Ataque, X-Defesa, X-Ataque 6 a 8 Especial, X-Defesa Especial, X-Velocidade, X- Acurácia, Golpe Atroz, Guarda Especial. 9 ou 10 Uma fruta determinada aleatoriamente. 11 ou 12 Uma pokébola determinada aleatoriamente. Um item que restaura Pontos de Vida ou 13 a 16 Condições determinado aleatoriamente. Uma Pedra Elemental determinada aleatoriamente. 18 Uma Vitamina determinada aleatoriamente. Um Item Mantido determinado aleatoriamente. 20 Um Registro determinado aleatoriamente.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Climatologia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "o clima mudar.",
+"effect": "o Tipo e a aparência do pokémon mudam de acordo com o Clima: Clima Tipo Ameno Normal Chuvoso Água Ensolarado Fogo Granizo Gelo",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Clorofila",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "desde que o Clima esteja Ensolarado, ativar Clorofila dobra o Atributo Velocidade do pokémon.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Colheita",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ao se alimentar de uma fruta.",
+"effect": "jogue um dado. Se o resultado for par, o pokémon produz outra fruta exatamente da mesma variedade do item Mantido, que ele poderá usar a partir da próxima rodada. Se for ímpar nada acontece. Se o clima for Ensolarado, não haverá necessidade de jogar o dado, pois a fruta sempre será produzida com sucesso.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Coloração",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano.",
+"effect": "o Tipo do pokémon muda para o Tipo do dano sofrido.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Coma",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon está sempre na Condição Sono, e pode agir como se não estivesse com esta Condição.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Companheirismo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "pelo resto do encontro, quando um aliado adjacente ao pokémon sofreria dano por Golpes, o inimigo não adiciona nenhum Bônus Elemental à rolagem de dano.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Competição",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "se o pokémon perder uma ou mais Fases por qualquer razão que não por seus próprios Golpes ou por suas próprias Habilidades, ele eleva duas Fases em Ataque Especial para cada Fase que perder.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Concha",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Críticos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Contrário",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon inverte elevações de Fases e perdas de Fases, de modo que todas as vezes que fosse perder uma Fase, ele eleva aquela Fase e todas as vezes que fosse elevar uma Fase ele a perda.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Convocar Areia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Tempestade de Areia.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Convocar Neve",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Granizo.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Cor da Alma",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "",
+"effect": "quando alguém fica inconsciente a até 50 metros, o pokémon eleva uma Fase de Ataque Especial.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Corrente Aérea",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "como uma Ação Livre, o clima é automatica- mente convertido a ameno. Enquanto o pokémon com Cor- rente Aérea estiver presente, qualquer tentativa de alterar o Clima automaticamente falha. Durante este mesmo tempo, qualquer rolagem de dano que seria superefetiva contra pokémons Voadores causará dano neutro.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Corrosão",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "Pokémons com Corrosão podem causar a Condição Veneno em pokémons Metálicos e Venenosos, que normalmente são imunes a serem envenenados.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Covardia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano de um dos",
+"effect": "eleva uma Fase de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Cura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "restaura um alvo adjacente de todas as Condições que o afligirem.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Dança",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "o pokémon está a até 10 metros",
+"effect": "o pokémon com Dança pode usar imediatamente o mesmo Golpe, escolhendo um novo alvo se for necessário escolher alvos para aquele Golpe.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Derrotável",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "estar abaixo da metade dos PV",
+"effect": "este pokémon tem suas Fases de Ataque e de Ataque Especial diretamente reduzidas a três Fases negativas. As Fases não podem ser elevadas acima disso a menos que ele recupere seus Pontos de Vida acima da metade dos PV máximos.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Desastrado",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon Desastrado pode soltar itens Mantidos À Vontade como uma Ação Livre, mesmo que sob efeito de Condições, incluindo Sono. Ele pode também carregar um item Mantido ignorando os efeitos do item.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Desatenção",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon ataca ou é atacado, ignore todas as Fases positivas e negativas em vigor sobre todos os pokémons envolvidos, incluindo as próprias Fases do próprio pokémon Desatento.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Desgrenhado",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "Golpes que o pokémon use contra criaturas do Tipo Fantasma acertam automaticamente e ignoram resistências, imunidades e vulnerabilidades.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Deslumbrante",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "ninguém pode usar Golpes com o Descritor Interrupção a até 20 metros do pokémon Deslumbrante.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Desmanchar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "ser acertado por um Golpe de",
+"effect": "eleve três Fases de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Desolação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Dia de Sol.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Desprotegido",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser reduzido à metade dos PV",
+"effect": "assume a forma Nuclear.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Disfarce",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "o pokémon sofre dano por um",
+"effect": "o pokémon não sofre o dano e nenhum outro efeito associado ao Golpe.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Download",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando o pokémon com Download é alvo de um Golpe causador de dano, o atacante deve revelar qual Atributo é o menor Atributo dele entre a Defesa e a Defesa Especial. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque se a Defesa do alvo é menor que a Defesa Especial dele. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque Especial se a Defesa Especial do alvo é menor que a Defesa dele.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Drenagem",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon é imune a dano de Água. Se sofreria dano de Água por alguma razão, ele, em vez disso, eleva uma Fase de Ataque Especial. Além disso, se qualquer criatura a até 25 metros usar um Golpe À Distância de Água, este Golpe é redirecionado ao pokémon com Drenagem e o acertará automaticamente, ignorando os efeitos dos Golpes Leitura Mental e Mira.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Elasticidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Paralisia.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Eletricidade Estática",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "ser acertado por um Golpe Corpo a",
+"effect": "o atacante está Paralisado.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Eletrogênese",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Elétrico.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Encantação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os Golpes Normais do pokémon são agora do Tipo Fada e recebem o Bônus Elemental dobrado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Conquista",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon vive com uma Fase elevada de Ataque o tempo todo, contudo todos os Golpes Físicos dele têm suas Dificuldades de Acurácia aumentadas em 2.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Escama Maravilhosa",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon recebe Congelamento, Paralisia, Queimadura, Sono ou Veneno, eleve duas Fases da Defesa Especial dele. Se ele for curado da Condição, ele perde as duas Fases da Defesa Especial. Escrita Ativação Semanal Efeito: 1d2 Unown aparecem. Eles não são hostis.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Escudo Espectral",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano quando antes",
+"effect": "reduza o dano à metade depois da aplicação de vulnerabilidades e resistências e da aplicação de Defesa ou Defesa Especial.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Espículas Metálicas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Espículas Venenosas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "ser acertado por um Golpe Corpo a",
+"effect": "o atacante é Envenenado.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Espírito Vigoroso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Sono.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Esporulação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "role 1d20. Se o resultado for 15 ou 16, o atacante está Envenenado. Se o resultado for 17 ou 18, ele está Paralisado. Se o resultado for 19 ou 20, ele sofre Sono.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Estrela da Vitória",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "as Dificuldades de Acurácia de todos os aliados são reduzidas em 2.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Explosão de Velocidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "até o fim do encontro, eleve uma Fase de Velocidade a cada rodada.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Fedor",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "usar um Golpe causador de",
+"effect": "os alvos do Golpe ficam Atordoados se o resultado do Teste de Acurácia for 19 ou 20. Se o Golpe já possuía uma chance de Atordoar condicionada à obtenção de determinado número mínimo no Teste de Acurácia, reduza em 2 o resultado mínimo no Teste de Acurácia para ter sucesso em Atordoar.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Ferro Puro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon adiciona uma quantidade igual ao dobro do Bônus Elemental dele às rolagens de dano de Golpes Metálicos. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Filtro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "reduza a quantidade de Pontos de Vida perdidos a três quartos da quantidade que seria perdida.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Firmeza",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "eleve uma Fase de Defesa do pokémon após o dano ser sofrido.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Foco Interior",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Atordoamento.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Força Bruta",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "até o final do encontro, quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, não há nenhuma chance de o efeito se ativar. Em troca, se o Golpe acertar, ele causa dano adicional em uma quantidade igual ao dobro do Bônus Elemental do pokémon (independente se o Bônus Elemental do pokémon abrange ou não Golpes do Tipo usado).",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Força Neural",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "acertar um Golpe causador de",
+"effect": "+3d20 à rolagem de dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Flamejante",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "ser acertado por um Golpe Corpo a",
+"effect": "o atacante está com Queimadura.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Fragmentado",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon ignora as imunidades do Tipo Fantasma contra dano Normal e Lutador.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Franco-Atirador",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "causar um Crítico.",
+"effect": "adicione um dado rolado de dano idêntico ao dado de dano usado para causar dano conforme descrito na rolagem do Golpe.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Fraqueza",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "ser acertado por um Golpe",
+"effect": "o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho Efeito: quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Friorento",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver de Granizo, este pokémon recupera 1/16 de seus PV máximos no início de cada rodada.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Frondoso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto estiver em um terreno Gramado, o pokémon eleva duas Fases da Defesa.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Fuga",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade aos efeitos de Prisões. Além disso, o pokémon recebe +2 a todos os seus Deslocamentos e não pode perder Fases de Velocidade de modo a ficar com uma Fase de Velocidade negativa.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Fumaça",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "as Fases deste pokémon não podem ser reduzidas.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Galvanização",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os Golpes Normais do pokémon são agora do Tipo Elétrico e recebem o Bônus Elemental dobrado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Garoa",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Dança da Chuva.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Garras Duras",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "acertar um Golpe Corpo a",
+"effect": "+15 à rolagem de dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Gatuno",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "acertar um oponente que possui",
+"effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Gordura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano de Fogo ou de",
+"effect": "independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo e de Gelo.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Graça Serena",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, reduza o número necessário em 3 para ter sucesso em ativar aquele efeito. Isso não afeta se o Golpe foi um Crítico ou não.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Guarda Baixa",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "até o fim do encontro, todos os Golpes que o pokémon usar e todos os Golpe que ele receber acertarão automaticamente.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Gula",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando o pokémon possui um item consumível como um item Mantido, ele imediatamente o come, e todos os efeitos do item são dobrados.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Herbogênese",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon uso o Golpe Campo Gramado.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Hidratação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver Chuvoso, o usuário é imune a Congelamento, Paralisia, Queimadura, Sono e Veneno. Se o clima for mudado para Chuvoso, o alvo é instantaneamente curado destas Condições.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Hipercorte",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon não perde Fases de Ataque.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Humor Variável",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "um encontro começa.",
+"effect": "após 1d4+1 rodadas do início do encontro, role 1d10 e depois outro 1d10 separadamente, e então consulte as tabelas adiante: Resultado do Efeito Primeiro 1d10 1 ou 2 Eleve duas Fases de Ataque. 3 ou 4 Eleve duas Fases de Defesa. 5 ou 6 Eleve duas Fases de Ataque Especial. 7 ou 8 Eleve duas Fases de Defesa Especial. 9 ou 10 Eleve duas Fases de Velocidade. Resultado do Efeito Segundo 1d10 1 ou 2 Perca uma Fase de Ataque. 3 ou 4 Perca uma Fase de Defesa. 5 ou 6 Perca uma Fase de Ataque Especial. 7 ou 8 Perca uma Fase de Defesa Especial. 9 ou 10 Perca uma Fase de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Identificação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "o alvo adjacente está Preso. Ele ainda pode se deslocar, mas não para mais longe do que 20 metros do pokémon que usou Identificação.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Iluminação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "Golpes que tenham este pokémon como alvo têm a Dificuldade de Acurácia aumentada em 2.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Impiedoso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "acertar um alvo Envenenado.",
+"effect": "o Golpe é um Crítico.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Imprudência",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon adiciona uma quantidade igual ao dobro do Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Afrochoque, Carga Selvagem, Derrubada, Faca de Dois Gumes, Fúria dos Pássaros, Investida de Cabeça, Investida Trovão, Martelo de Madeira, Submissão, Supervoadora, Voadora. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Ilusão",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "o pokémon pode desejar aparentar com qualquer coisa que ele queira: uma pedra, uma parede, uma pessoa específica (com todos os seus equipamentos) ou um pokémon específico. Isso não é real, é apenas ilusório, e a ilusão pode ser dissipada quando o pokémon quiser. A critério deste pokémon, ele pode já sair da pokébola com a Ilusão em vigor, aparentando ser outro pokémon desde o início.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Ímã",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "um pokémon alvo do Tipo Metálico não 189 poderá se deslocar para mais longe do que 20 metros do pokémon com Ímã. A critério do pokémon, ele pode impor que o pokémon Metálico alvo não possa se aproximar para mais perto do que 20 metros dele.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Impostor",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "quando Ditto é enviado para fora da pokébola, ele pode usar Transformação como uma Ação Livre. Se o alvo desta Transformação possui quaisquer Fases modificadas para mais ou para menos, aplique as mesmas Fases ao Ditto. Uma das Habilidades do alvo será aleatoriamente determinada e copiada pelo Ditto. Isso perdura até que o Ditto use Transformação de novo.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Inabalável",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser Atordoado.",
+"effect": "eleva uma Fase de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Infiltração",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon ignora Ameaças, Barreiras e Coberturas.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Inflamável",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon recebe Queimadura, eleve duas Fases do Ataque Especial dele. Se ele for curado da Queimadura, ele perde as duas Fases do Ataque Especial.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Insônia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Sono.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Intimidar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "um alvo perde uma Fase de Ataque.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Isolamento Térmico",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon sofre apenas metade do dano que sofreria por dano de Fogo.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Justiceiro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano de Trevas.",
+"effect": "eleva uma Fase de Ataque.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Lentidão",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "um encontro começa.",
+"effect": "pelas três primeiras rodadas, o Ataque e a Velocidade do pokémon são reduzidos à metade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Leveza",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "consumir um item Mantido.",
+"effect": "eleve duas Fases de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Levitação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Golpes de Terra.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Ligação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "usar um Golpe com o Descritor",
+"effect": "o Golpe pode ser usado pelo maior número de vezes possível, mesmo que haja falhas em acertar.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Ligeiro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon recebe Congelamen- to, Queimadura, Sono ou Veneno, eleve duas Fases da Velocidade dele. Se ele for curado da Condição, ele perde as duas Fases de Velocidade. Quando este pokémon recebe Paralisia, eleve quatro Fases da Velocidade dele. Se for cu- rado da Paralisia, ele perde as quatro Fases da Velocidade.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Lodo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano por um destes Gol-",
+"effect": "após calcular a quantidade de Pontos de Vida que o atacante recuperaria usando o Golpe, ele sofre esta quantidade de dano, em vez de recuperar PV. Não aplique resistências e vulnerabilidades nem Atributos.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Maciez",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano Físico.",
+"effect": "o pokémon sofre apenas metade do dano, salvo o Tipo do dano for Fogo, caso em que o pokémon sofre o dobro do dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Madrugar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando o pokémon faz Testes de Sono, o contador para acordar começa em 11, e não em 16. Ele é reduzido normalmente e atinge o mínimo no mesmo valor.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Mágica",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "acertar um oponente que",
+"effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Mais",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto houver pelo menos um aliado com a Habilidade Menos a até 10 metros, todos os poké- mons aliados com Mais e Menos até 10 metros elevam duas Fases de Ataque Especial. Mesmo que haja múltiplos poké- mons com Mais e Menos, apenas duas Fases são elevadas.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Majestade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "ninguém pode usar Golpes com o Descritor 190 Interrupção a até 20 metros da Majestade.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Mandíbula",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon adiciona uma quantidade igual ao Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Hiperpresa, Mastigada, Mordida, Picada e qualquer Golpe que comece com a palavra “presa”. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Manto de Areia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "desde que o clima seja uma Tempestade de Areia, o pokémon pode criar um bolsão de clima ameno ao seu redor e também ao redor de qualquer alvo que esteja a menos de 15 metros de distância (e dentro da Tempestade de Areia). Qualquer Golpe contra um alvo dentro de um destes bolsões tem a Dificuldade de Acurácia aumentada em 2. Os bolsões permanecem enquanto o pokémon quiser e estiver consciente.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Manto de Neve",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "desde que o clima seja de Granizo, o poké- mon pode criar um bolsão de clima ameno ao seu redor e também ao redor de qualquer alvo que ele deseje a menos de 15 metros de distância (e dentro do Granizo). Qualquer Golpe contra um alvo dentro de um destes bolsões tem a Dificuldade de Acurácia aumentada em 2. Os bolsões per- manecem enquanto o pokémon quiser e estiver consciente.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Mediocridade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "elevar uma ou mais Fases ou",
+"effect": "dobre o número de Fases elevadas ou perdidas.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Mel",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "o pokémon acha Mel se ele não estiver com nenhum item Mantido. Se esta Habilidade for ativada du- rante um encontro, o pokémon não errará os próximos três Golpes, desde que tenha como alvo um pokémon selvagem.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Menos",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto houver pelo menos um aliado com a Habilidade Mais a até 10 metros, todos os pokémons aliados com Mais e Menos até 10 metros elevam duas Fases de Ataque Especial. Mesmo que haja múltiplos pokémons com Mais e Menos, apenas duas Fases são elevadas.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Metabolização",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Venenos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Metal Leve",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon é considerado mais leve em duas Categorias de Peso. Aumente os Deslocamentos dele em 3 e a Capacidade Salto em 1.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Metal Pesado",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon é considerado mais pesado em duas Categorias de Peso. Ele não pode ser Empurrado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Metal Precioso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "as Fases deste pokémon não podem ser reduzidas, salvo por Condições.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Metamorfose",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "pelo resto do encontro, quando o pokémon usar um Golpe, ele imediatamente muda seu Tipo para o Tipo do Golpe usado antes de rolar o dano pelo Golpe.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Motorização",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon é imune a dano Elétrico. Se sofreria dano Elétrico por alguma razão, ele, em vez disso, ele eleva uma Fase de Velocidade.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Múltiplas Escamas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "sofrer dano quando antes",
+"effect": "reduza o dano à metade antes da aplicação de vulnerabilidades e resistências e antes da aplicação de Defesa ou Defesa Especial.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Multitipo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais. Especial: a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Múmia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "o atacante substitui uma das Habilidades dele por Múmia por 1d6+2 rodadas.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Nebulogênese",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Enevoado.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Normalização",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "até o fim do encontro, todos os Golpes do pokémon são considerados Normais.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Obtusidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade à Paixão e ao Golpe Provocação.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Oceano Primitivo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Dança da Chuva.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Olhos Cromados",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "este pokémon causa dano a um",
+"effect": "dobre o dano causado.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Olhos Compostos",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon reduz todas as suas Dificuldades de Acurácia em 3.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Pararraios",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon é imune a dano Elétrico. Se sofreria dano Elétrico por alguma razão, ele, em vez disso, eleva uma Fase de Ataque Especial. Além disso, se qualquer outra criatura a até 25 metros usar um Golpe Elétrico À Distância, o Golpe é redirecionado ao pokémon com Pararraios e o acertará automaticamente, ignorando os efeitos dos Golpes Leitura Mental e Mira.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Pegajoso",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "o atacante perde uma Fase de Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Pele Perfeita",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe À",
+"effect": "jogue um dado. Se o resultado for par, o pokémon ignora aquilo que seria infligido a ele.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Peludo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon sofre apenas metade do dano por todos os Golpes Físicos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Pesadelos",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "qualquer criaturas que esteja dormindo a até 30 metros do pokémon perde um oitavo de seus Pontos de Vida máximos no início de cada rodada.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Pés Laçados",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe À",
+"effect": "eleve uma Fase da Velocidade.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Poder Gigantesco",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o Atributo Basal de Ataque do pokémon é dobrado. Caso a Natureza do pokémon afete seu Ataque, Poder Gigantesco será calculado após definir o Atributo Basal conforme a Natureza. Se o Ataque do pokémon for modificado por Vitaminas, recalcule o benefício de Poder Gigantesco. Não recalcule em outras modificações.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Poder Puro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o Atributo Basal de Ataque do pokémon é dobrado. Caso a Natureza do pokémon afete seu Ataque, Poder Puro será calculado após definir o Atributo Basal conforme a Natureza. Se o Ataque do pokémon for modificado por Vitaminas, recalcule o benefício de Poder Puro. Não recalcule em outras modificações.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Poder Solar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver Ensolarado, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada e eleva duas Fases de Ataque Especial.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Polvilhar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado por um Golpe",
+"effect": "este pokémon sofre apenas o dano do Golpe, sem nenhum outro efeito associado.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Posturas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "todas as vezes que Aegislash usar um Golpe causador de dano, troque seus valores de Ataque e Defesa um pelo outro e também seus valores de Ataque Especial e Defesa Especial um pelo outro. Os valores assim permanecem até que Aegislash use um Golpe com o Descritor Interceptação.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Prato de Chuva",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver Chuvoso, este pokémon recupera 1/16 de seus PV máximos no início de cada rodada.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Prazer",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "adicione o Descritor Interrupção a todos os Golpes conhecidos que curam Pontos de Vida ou Condições.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Preguiça",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "tentar usar um Golpe ou tentar",
+"effect": "role 1d20. Se o resultado for menor que 9, o pokémon não fará absolutamente nada durante toda a rodada. Se o resultado for maior que 8, o pokémon agirá normalmente durante aquela rodada.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Premonição",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o Golpe com maior Dano Basal conhecido pelo alvo é revelado. Se há um empate entre mais de um Golpe nestas condições, todos são revelados. Todos os Golpes revelados por este Talento têm sua Dificuldade de Acurácia aumentada em 2.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Presente das Flores",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "desde que o clima esteja Ensolarado, o pokémon pode criar uma Explosão com 4 metros de raio. Ele e todos os aliados nesta área elevam duas Fases de Defesa Especial e de Ataque.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Pressão",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "se algum efeito havia permitido usar um Golpe mais frequentemente que a Frequência original dele, o efeito é anulado assim que Pressão for ativada. Além disso, qualquer Golpe que poderia ser usado À Vontade, agora só pode ser usado Rodada Sim Rodada Não.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Prisma",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ser acertado um Golpe",
+"effect": "Necrozma sofre dano neutro pelo Golpe, como se não fosse superefetivo.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Proteção Mágica",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon perderia Pontos de Vida por qualquer razão que não seja o resultado de uma rolagem de dano, ele não perde os PV. Isso inclui (mas não se limita a) efeitos climáticos, Condições, armadilhas, dano causado a si próprio em virtude de Golpes, Semente Sanguessuga, e outros.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Proteção Vegetal",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver Ensolarado, o usuário é imune a Congelamento, Paralisia, Queimadura, Sono e Veneno. Se o clima for mudado para Ensolarado, o alvo é instantaneamente curado destas Condições.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Psicogênese",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Psíquico.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Punho de Ferro",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon adiciona uma quantidade igual ao dobro do Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Braço Martelo, Gancho, Megassoco, Meteoro e qualquer Golpe que comece com a palavra “soco”. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Quebra Moldes",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "as Habilidades do alvo é desativada até o fim do encontro.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Receptor",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "um aliado fica inconsciente.",
+"effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Recuperação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o pokémon é curado das seguintes Condições: Congelamento, Paralisia, Queimadura, Sono e Veneno.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Reflexo Mágico",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "ser atingido por um Golpe não",
+"effect": "o Golpe é refletido de volta ao atacante. É possível refletir a imposição de Ameaças que estejam sendo posicionadas a até 10 metros do pokémon.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Refrigeração",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os Golpes Normais do pokémon são agora do Tipo Gelo e recebem o Bônus Elemental dobrado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Regeneração",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o pokémon recupera um quarto de seus PV máximos.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Resquício",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "quando o pokémon for",
+"effect": "ocorre uma Explosão de cinco metros. Tudo dentro da área perde um quarto dos Pontos de Vida máximos, sem aplicar resistências ou vulnerabilidades nem aplicar Atributos.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Ressecado",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto o clima estiver Ensolarado, este pokémon perde um oitavo de seus PV máximos no início de cada rodada. Enquanto o clima estiver Chuvoso, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada. O pokémon Ressecado sofre Golpes de Fogo como se o Ataque e o Ataque Especial do pokémon que está usando o Golpe estivessem com uma Fase a mais. Golpes de Água curam pokémons Ressecados. Calcule o dano como se o pokémon Ressecado possuísse uma resistência ao Golpe e então cure o resultado do dano que seria sofrido. Revestimento Magmático 193 Constante Efeito: imunidade a Congelamento.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Ritmo Próprio",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. Efeito: eleva duas Fases de Ataque.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Robustez",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade aos seguintes Golpes: Chifre Broca, Fissura, Guilhotina, Zero Absoluto. Se este pokémon estiver com todos os seus Pontos de Vida e um Golpe reduzir seus Pontos de Vida a zero ou menos, ele, em vez disso, é deixado com 1 Ponto de Vida.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Rompimento de Aura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "se as Habilidades Aura de Trevas ou Aura Feérica estiverem ativas, os efeitos delas são invertidos, penalizando as rolagens de dano em vez de beneficiá-los.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Saída de Emergência",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "estar abaixo de metade dos PV",
+"effect": "o pokémon imediatamente começa a fugir, recebendo +20 a todos os seus Deslocamentos. Se o dono não convocar o pokémon de volta à pokébola em seu próximo turno, a Lealdade do pokémon será reduzida.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Seca",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "como uma Ação Livre, o pokémon usa o Golpe Dia de Sol.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Sem Alma",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a todos os Golpes que não sejam superefetivos causadores de dano. É impossível aumentar a Saúde deste pokémon. Os Pontos de Vida máximos dele serão sempre 1, e ele não pode receber Pontos de Vida temporários. Shedinja nunca precisa fazer Testes de Morte. Shedinja jamais poderá se beneficiar de qualquer uma das Características de Classe do Inquebrável. Shedinja nunca pode receber a Habilidade Solidez. Especial: a Habilidade Sem Alma não pode ser copiada ou trocada de nenhuma forma, a menos que Arceus a esteja copiando para si.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Simbiose",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "o pokémon dá seu item Mantido a um alvo adjacente, desde que este não possua um item Mantido.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Sincronizar",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-horaria",
+"condicao": "um oponente impõe uma das",
+"effect": "o oponente recebe a mesma Condição que ele causou.",
+"usado": false,
+"trigger": "Gatilho Horário"
+}
+},
+{
+"name": "Sistema",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-at-will",
+"condicao": "",
+"effect": "como uma Ação Livre e desde que possua um Disco de Memória como item Mantido, o pokémon pode mudar seu Tipo para o Tipo associado ao Disco de Memória que possui como item Mantido.",
+"usado": false,
+"trigger": "Ativação À Vontade"
+}
+},
+{
+"name": "Solidez",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon sofre metade do dano dos Golpes superefetivos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Sorte",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon reduz em dois pontos o valor mínimo necessário obtido no Teste de Acurácia para que o Golpe seja um Crítico (normalmente isso significa que o Golpe será um Crítico em um resultado no mínimo 18, a menos que o Golpe possua uma margem maior).",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Surfista",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "desde que esteja em um Campo Elétrico, eleve quatro Fases de Velocidade. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Técnica",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "usar um Golpe causador de",
+"effect": "+2d10 à rolagem de dano. Se o Golpe possui o Descritor Saraivada, só aplique o dano extra uma vez.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Telepatia",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-at-will",
+"condicao": "ser um dos possíveis atingidos",
+"effect": "o atacante avisa o pokémon telepaticamen- te sobre o Golpe, de modo que o pokémon telepata não sofre nenhum dos efeitos do Golpe se não quiser.",
+"usado": false,
+"trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Tenacidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon recebe Congelamento, Paralisia, Queimadura, Sono ou Veneno, eleve duas Fases do Ataque dele. Se ele for curado da Condição, ele perde as duas Fases do Ataque.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Tensão",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "enquanto você tiver linha de visão a um 194 inimigo em combate, este inimigo não poderá comer ou beber nada.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Tentação",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "um pokémon do sexo oposto ataca",
+"effect": "o atacante é afetado por Paixão.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Teravoltagem",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "as Habilidades do alvo é desativada até o fim do encontro.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Toque Tóxico",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os Golpes Físicos causadores de dano deste pokémon Envenenam os alvos se o resultado do Teste de Acurácia for 15 ou mais. Se algum destes Golpes já Envenenaria o alvo, mas com uma probabilidade menor, ajuste conforme Toque Tóxico.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Transparência",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "as Fases deste pokémon não podem ser reduzidas, salvo por Condições.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Travessura",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "pelo resto do encontro, qualquer Golpe não causador de dano que o pokémon conheça recebe o Descritor Interrupção. Travessura não afeta Golpes que reduzem inimigos diretamente a zero Pontos de Vida.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Troca de Pele",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o pokémon se cura de Congelamento, Paralisia, Queimadura, Sono e Veneno.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Turbochama",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "as Habilidades do alvo é desativada até o fim do encontro.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Última Chance",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "os Pontos de Vida do pokémon",
+"effect": "dobre o Bônus Elemental do pokémon para o Tipo determinado quando Última Chance foi escolhida. Última Chance continua associada ao mesmo Tipo de quando for escolhida, mesmo que o Tipo do pokémon mude temporária ou permanentemente. Especial: esta Habilidade pode ser escolhida até duas vezes. Seus efeitos não se acumulam. Cada vez que ela é escolhida, ele é aplicada a um Tipo diferente.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Ultrabesta",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "este pokémon deixa outro",
+"effect": "eleve uma Fase do maior Atributo do pokémon, descontando Saúde da lista de Atributos.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Umidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "a Habilidade Resquício e os Golpes Autodestruição e Explosão não podem ser usados ou ativados a até 20 metros do pokémon com Umidade.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Veneno Curador",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando está Envenenado, o pokémon recupera um oitavo de seus PV máximos a cada rodada, e não perde nenhum PV pelos efeitos do Veneno. Ele também não tem suas Fases reduzidas por estar Envenenado.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Ventosas",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Empurrões e também aos Golpes Rajada de Vento e Rugido.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Vestígio",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "o pokémon copia a Habilidade de um alvo a até 10 metros de si. Ele a mantém para si por tempo indefinido, mas as seguintes situações o fazem perder a Habilidade copiada: ficar inconsciente ou ser convocado de volta à pokébola.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Véu Aromático",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon e seus aliados adjacentes são imunes aos seguintes Golpes: Atração, Bis, Bloquear Cura, Desabilitar, Provocação, Tormento.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Véu Doce",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon e seus aliados adjacentes são imunes a Sono.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Véu Florido",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "o pokémon e seus aliados do Tipo Planta são imunes a Confusão e Paixão e não podem ter seus Atributos diminuídos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Vigília",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-diaria",
+"condicao": "o pokémon usa um Golpe causador",
+"effect": "o Golpe causa dano dobrado após serem aplicadas vulnerabilidades e resistências.",
+"usado": false,
+"trigger": "Gatilho Diário"
+}
+},
+{
+"name": "Vínculo Profundo",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "o pokémon pode ignorar a necessidade da Megapedra para megaevoluir.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Visão Aguçada",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "este pokémon não pode ter as Dificuldades de Acurácia afetadas negativamente (mas a Evasão do oponente se aplica normalmente).",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Vísceras Extensíveis",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "gatilho-constante",
+"condicao": "ficar inconsciente em virtude",
+"effect": "causa ao atacante uma quantidade de dano idêntica à quantidade de Pontos de Vida que possuía. Não aplique vulnerabilidades ou resistências a este dano.",
+"usado": false,
+"trigger": "Gatilho Constante"
+}
+},
+{
+"name": "Viscosidade",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "os itens Mantidos do pokémon não podem ser roubados, trocados, destruídos ou soltos.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Velocidade na Água",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-horaria",
+"condicao": "",
+"effect": "desde que o Clima esteja Chuvoso, ativar esta Habilidade eleva quatro Fases de Velocidade.",
+"usado": false,
+"trigger": "Ativação Horária"
+}
+},
+{
+"name": "Velocidade na Neve",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "desde que o Clima esteja de Granizo, ativar esta Habilidade eleva quatro Fases de Velocidade e torna o pokémon imune ao dano pelo Granizo até o fim do encontro. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Velocidade na Terra",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "ativacao-diaria",
+"condicao": "",
+"effect": "desde que o Clima esteja de Tempestade de Areia, ativar esta Habilidade eleva quatro Fases de Velocidade e torna o pokémon imune ao dano pela Tempestade de Areia até o fim do encontro. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.",
+"usado": false,
+"trigger": "Ativação Diária"
+}
+},
+{
+"name": "Voz Líquida",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando usar um Golpe com o Descritor Som, o Tipo do Golpe é mudado para Água.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Zen",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "Darmanitan possui dois conjuntos de Atributos Basais diferentes para seus Atributos, gerando duas Relações Basais distintas: uma para sua Forma Padrão e uma para sua Forma Zen. Ele deve manter o valor de seu Atributo Saúde igual em ambas as Formas. Desde que esteja com menos da metade de seus Pontos de Vida máximos, Darmanitan pode, uma vez por encontro, usar uma Ação Livre para mudar para a Forma Zen, alterando todo o conjunto de Atributos para o da Forma Zen. Uma vez tendo assumido a Forma Zen, ele poderá voltar à Forma Padrão usando uma Ação Livre, o que torna seus Atributos como normalmente são. A Forma Zen do Darmanitan recebe o Tipo Psíquico em adição ao Tipo Fogo que é o padrão do Darmanitan. Se algum efeito aumentar ou reduzir Atributos ou Atributos Basais, os Atributos ou Atributos Basais de ambas as formas são alterados. Isso inclui Fases.",
+"usado": false,
+"trigger": "Constante"
+}
+}
+]

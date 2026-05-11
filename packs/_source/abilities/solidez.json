@@ -1,0 +1,14 @@
+{
+  "name": "Solidez",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon sofre metade do dano dos Golpes superefetivos.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Metal Leve",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon é considerado mais leve em duas Categorias de Peso. Aumente os Deslocamentos dele em 3 e a Capacidade Salto em 1.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Pressão",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "se algum efeito havia permitido usar um Golpe mais frequentemente que a Frequência original dele, o efeito é anulado assim que Pressão for ativada. Além disso, qualquer Golpe que poderia ser usado À Vontade, agora só pode ser usado Rodada Sim Rodada Não.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

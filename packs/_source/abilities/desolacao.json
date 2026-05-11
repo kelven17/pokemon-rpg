@@ -1,0 +1,14 @@
+{
+  "name": "Desolação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon usa o Golpe Dia de Sol.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

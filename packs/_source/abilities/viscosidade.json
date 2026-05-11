@@ -1,0 +1,14 @@
+{
+  "name": "Viscosidade",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "os itens Mantidos do pokémon não podem ser roubados, trocados, destruídos ou soltos.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

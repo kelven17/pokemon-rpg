@@ -1,0 +1,14 @@
+{
+  "name": "Convocar Areia",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon usa o Golpe Tempestade de Areia.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

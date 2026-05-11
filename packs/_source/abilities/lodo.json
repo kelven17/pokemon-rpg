@@ -1,0 +1,14 @@
+{
+  "name": "Lodo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano por um destes Gol-",
+    "effect": "após calcular a quantidade de Pontos de Vida que o atacante recuperaria usando o Golpe, ele sofre esta quantidade de dano, em vez de recuperar PV. Não aplique resistências e vulnerabilidades nem Atributos.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

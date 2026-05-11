@@ -1,0 +1,14 @@
+{
+  "name": "Normalização",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "até o fim do encontro, todos os Golpes do pokémon são considerados Normais.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

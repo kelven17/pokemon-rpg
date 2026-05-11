@@ -1,0 +1,14 @@
+{
+  "name": "Encantação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "os Golpes Normais do pokémon são agora do Tipo Fada e recebem o Bônus Elemental dobrado.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

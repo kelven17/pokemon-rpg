@@ -1,0 +1,14 @@
+{
+  "name": "Bisbilhoteiro",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o alvo adjacente revela seu Item Mantido.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

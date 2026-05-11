@@ -1,0 +1,14 @@
+{
+  "name": "Poder Solar",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "enquanto o clima estiver Ensolarado, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada e eleva duas Fases de Ataque Especial.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Carapaça",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a dano por efeitos climáticos e também aos seguintes Golpes: Esporos, Esporos de Algodão, Esporos Paralisantes, Pólvora, Pó Irritante, Pó Sonífero, Pó Venenoso.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

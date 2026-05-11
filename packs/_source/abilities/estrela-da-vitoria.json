@@ -1,0 +1,14 @@
+{
+  "name": "Estrela da Vitória",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "as Dificuldades de Acurácia de todos os aliados são reduzidas em 2.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

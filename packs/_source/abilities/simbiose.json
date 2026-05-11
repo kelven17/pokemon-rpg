@@ -1,0 +1,14 @@
+{
+  "name": "Simbiose",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "o pokémon dá seu item Mantido a um alvo adjacente, desde que este não possua um item Mantido.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

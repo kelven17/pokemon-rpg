@@ -1,0 +1,14 @@
+{
+  "name": "Presente das Flores",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "desde que o clima esteja Ensolarado, o pokémon pode criar uma Explosão com 4 metros de raio. Ele e todos os aliados nesta área elevam duas Fases de Defesa Especial e de Ataque.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

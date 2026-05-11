@@ -1,0 +1,14 @@
+{
+  "name": "Metal Precioso",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "as Fases deste pokémon não podem ser reduzidas, salvo por Condições.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

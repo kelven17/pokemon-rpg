@@ -1,0 +1,14 @@
+{
+  "name": "Frondoso",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "enquanto estiver em um terreno Gramado, o pokémon eleva duas Fases da Defesa.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

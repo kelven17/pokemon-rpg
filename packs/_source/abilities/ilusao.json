@@ -1,0 +1,14 @@
+{
+  "name": "Ilusão",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "o pokémon pode desejar aparentar com qualquer coisa que ele queira: uma pedra, uma parede, uma pessoa específica (com todos os seus equipamentos) ou um pokémon específico. Isso não é real, é apenas ilusório, e a ilusão pode ser dissipada quando o pokémon quiser. A critério deste pokémon, ele pode já sair da pokébola com a Ilusão em vigor, aparentando ser outro pokémon desde o início.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

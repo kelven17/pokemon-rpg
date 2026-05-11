@@ -1,0 +1,14 @@
+{
+  "name": "Prisma",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado um Golpe",
+    "effect": "Necrozma sofre dano neutro pelo Golpe, como se não fosse superefetivo.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

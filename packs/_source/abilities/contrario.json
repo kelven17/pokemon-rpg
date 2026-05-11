@@ -1,0 +1,14 @@
+{
+  "name": "Contrário",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon inverte elevações de Fases e perdas de Fases, de modo que todas as vezes que fosse perder uma Fase, ele eleva aquela Fase e todas as vezes que fosse elevar uma Fase ele a perda.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

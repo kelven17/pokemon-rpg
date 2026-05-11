@@ -1,0 +1,14 @@
+{
+  "name": "Teravoltagem",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "as Habilidades do alvo é desativada até o fim do encontro.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

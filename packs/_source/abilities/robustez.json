@@ -1,0 +1,14 @@
+{
+  "name": "Robustez",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade aos seguintes Golpes: Chifre Broca, Fissura, Guilhotina, Zero Absoluto. Se este pokémon estiver com todos os seus Pontos de Vida e um Golpe reduzir seus Pontos de Vida a zero ou menos, ele, em vez disso, é deixado com 1 Ponto de Vida.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

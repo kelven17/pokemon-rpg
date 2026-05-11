@@ -13,8 +13,11 @@
                 <div class="item-name">
                     {{this.name}}
                     {{#if this.system.hidden}}<span class="badge hidden-badge">{{localize "POKEMON_RPG.HiddenAbility"}}</span>{{/if}}
+                    <span class="trigger-badge">{{localize (lookup @root.config.abilityTriggers this.system.triggerKey)}}</span>
                 </div>
-                <div class="item-meta">{{this.system.trigger}}</div>
+                <div class="item-meta">
+                    {{#if this.system.condicao}}<em>{{this.system.condicao}}</em>{{/if}}
+                </div>
                 <div class="item-controls">
                     <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
                     <a data-action="itemDelete"><i class="fas fa-trash"></i></a>

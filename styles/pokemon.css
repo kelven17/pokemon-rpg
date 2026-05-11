@@ -1103,7 +1103,8 @@
 .pokemon-rpg .cat-special  { background: #2980B9; color: #fff; }
 .pokemon-rpg .cat-status   { background: #7F8C8D; color: #fff; }
 
-.pokemon-rpg .freq-badge {
+.pokemon-rpg .freq-badge,
+.pokemon-rpg .trigger-badge {
     display: inline-block;
     padding: 2px 8px;
     border-radius: 999px;
@@ -1113,6 +1114,10 @@
     color: var(--pk-text);
     text-transform: uppercase;
     letter-spacing: 0.04em;
+}
+.pokemon-rpg .trigger-badge {
+    background: rgba(59,76,202,0.14);
+    color: var(--pk-blue-dark);
 }
 .pokemon-rpg .cooldown-badge {
     display: inline-block;

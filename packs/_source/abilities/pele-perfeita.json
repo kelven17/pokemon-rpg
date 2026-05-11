@@ -1,0 +1,14 @@
+{
+  "name": "Pele Perfeita",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado por um Golpe À",
+    "effect": "jogue um dado. Se o resultado for par, o pokémon ignora aquilo que seria infligido a ele.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

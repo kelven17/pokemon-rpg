@@ -168,6 +168,21 @@ POKEMON_RPG.frequencies = {
 };
 
 /* -------------------------------------------- */
+/*  Tipos de Gatilho de Habilidades              */
+/* -------------------------------------------- */
+
+POKEMON_RPG.abilityTriggers = {
+  "constante":         "POKEMON_RPG.AbilityTrigger.Constante",
+  "ativacao-at-will":  "POKEMON_RPG.AbilityTrigger.AtivacaoAtWill",
+  "ativacao-horaria":  "POKEMON_RPG.AbilityTrigger.AtivacaoHoraria",
+  "ativacao-diaria":   "POKEMON_RPG.AbilityTrigger.AtivacaoDiaria",
+  "gatilho-constante": "POKEMON_RPG.AbilityTrigger.GatilhoConstante",
+  "gatilho-at-will":   "POKEMON_RPG.AbilityTrigger.GatilhoAtWill",
+  "gatilho-horaria":   "POKEMON_RPG.AbilityTrigger.GatilhoHoraria",
+  "gatilho-diaria":    "POKEMON_RPG.AbilityTrigger.GatilhoDiaria"
+};
+
+/* -------------------------------------------- */
 /*  Descritores de Concursos                     */
 /* -------------------------------------------- */
 

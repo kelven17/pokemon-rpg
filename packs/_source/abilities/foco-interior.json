@@ -1,0 +1,14 @@
+{
+  "name": "Foco Interior",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Atordoamento.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

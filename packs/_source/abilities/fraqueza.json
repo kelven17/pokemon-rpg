@@ -1,0 +1,14 @@
+{
+  "name": "Fraqueza",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-at-will",
+    "condicao": "ser acertado por um Golpe",
+    "effect": "o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho Efeito: quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.",
+    "usado": false,
+    "trigger": "Gatilho À Vontade"
+  }
+}

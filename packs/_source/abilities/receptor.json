@@ -1,0 +1,14 @@
+{
+  "name": "Receptor",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-at-will",
+    "condicao": "um aliado fica inconsciente.",
+    "effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro.",
+    "usado": false,
+    "trigger": "Gatilho À Vontade"
+  }
+}

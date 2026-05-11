@@ -1,0 +1,14 @@
+{
+  "name": "Amor de Mãe",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-at-will",
+    "condicao": "usar um Golpe causador de",
+    "effect": "o pokémon usa imediatamente o Golpe de novo contra o mesmo alvo, ou, se era uma Explosão, na mesma área. O segundo Golpe é representado pela filhota, por isso não aplica o Dano Basal, apenas o resto do dano.",
+    "usado": false,
+    "trigger": "Gatilho À Vontade"
+  }
+}

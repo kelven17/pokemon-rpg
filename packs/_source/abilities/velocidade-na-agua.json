@@ -1,0 +1,14 @@
+{
+  "name": "Velocidade na Água",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "desde que o Clima esteja Chuvoso, ativar esta Habilidade eleva quatro Fases de Velocidade.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

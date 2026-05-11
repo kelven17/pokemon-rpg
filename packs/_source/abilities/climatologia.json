@@ -1,0 +1,14 @@
+{
+  "name": "Climatologia",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "o clima mudar.",
+    "effect": "o Tipo e a aparência do pokémon mudam de acordo com o Clima: Clima Tipo Ameno Normal Chuvoso Água Ensolarado Fogo Granizo Gelo",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

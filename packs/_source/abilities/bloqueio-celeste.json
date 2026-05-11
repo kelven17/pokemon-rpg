@@ -1,0 +1,14 @@
+{
+  "name": "Bloqueio Celeste",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o clima se torna ameno. Isso é sustentado indefinidamente enquanto for a vontade do pokémon.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

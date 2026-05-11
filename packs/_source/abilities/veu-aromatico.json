@@ -1,0 +1,14 @@
+{
+  "name": "Véu Aromático",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon e seus aliados adjacentes são imunes aos seguintes Golpes: Atração, Bis, Bloquear Cura, Desabilitar, Provocação, Tormento.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

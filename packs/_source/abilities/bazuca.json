@@ -1,0 +1,14 @@
+{
+  "name": "Bazuca",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon adiciona uma quantidade igual ao dobro do Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Esfera da Aura, Pulso d’Água, Pulso de Cura, Pulso do Dragão, Pulso Primitivo, Pulso Sombrio. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

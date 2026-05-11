@@ -1,0 +1,14 @@
+{
+  "name": "Metal Pesado",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon é considerado mais pesado em duas Categorias de Peso. Ele não pode ser Empurrado.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

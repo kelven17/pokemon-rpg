@@ -1,0 +1,14 @@
+{
+  "name": "Cacofonia",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Golpes com o Descritor Som.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

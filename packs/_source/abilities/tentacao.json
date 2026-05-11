@@ -1,0 +1,14 @@
+{
+  "name": "Tentação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-diaria",
+    "condicao": "um pokémon do sexo oposto ataca",
+    "effect": "o atacante é afetado por Paixão.",
+    "usado": false,
+    "trigger": "Gatilho Diário"
+  }
+}

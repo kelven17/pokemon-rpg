@@ -1,0 +1,14 @@
+{
+  "name": "Espículas Venenosas",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-diaria",
+    "condicao": "ser acertado por um Golpe Corpo a",
+    "effect": "o atacante é Envenenado.",
+    "usado": false,
+    "trigger": "Gatilho Diário"
+  }
+}

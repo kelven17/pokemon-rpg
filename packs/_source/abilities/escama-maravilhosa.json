@@ -1,0 +1,14 @@
+{
+  "name": "Escama Maravilhosa",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando este pokémon recebe Congelamento, Paralisia, Queimadura, Sono ou Veneno, eleve duas Fases da Defesa Especial dele. Se ele for curado da Condição, ele perde as duas Fases da Defesa Especial. Escrita Ativação Semanal Efeito: 1d2 Unown aparecem. Eles não são hostis.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

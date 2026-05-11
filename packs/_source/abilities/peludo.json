@@ -1,0 +1,14 @@
+{
+  "name": "Peludo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon sofre apenas metade do dano por todos os Golpes Físicos.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

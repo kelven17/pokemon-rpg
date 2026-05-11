@@ -1,0 +1,14 @@
+{
+  "name": "Pegajoso",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado por um Golpe",
+    "effect": "o atacante perde uma Fase de Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

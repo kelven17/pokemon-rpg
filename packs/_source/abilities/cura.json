@@ -1,0 +1,14 @@
+{
+  "name": "Cura",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "restaura um alvo adjacente de todas as Condições que o afligirem.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

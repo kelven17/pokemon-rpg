@@ -1,0 +1,14 @@
+{
+  "name": "Escudo Espectral",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano quando antes",
+    "effect": "reduza o dano à metade depois da aplicação de vulnerabilidades e resistências e da aplicação de Defesa ou Defesa Especial.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

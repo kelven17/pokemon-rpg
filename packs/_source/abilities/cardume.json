@@ -1,0 +1,14 @@
+{
+  "name": "Cardume",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "desde que o pokémon possua pelo menos Nível 20, esteja próximo a um grande corpo de água e possua pelo menos metade de seus Pontos de Vida máximo, ele assume sua forma para a forma de Cardume.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

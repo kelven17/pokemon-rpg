@@ -1,0 +1,14 @@
+{
+  "name": "Regeneração",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o pokémon recupera um quarto de seus PV máximos.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

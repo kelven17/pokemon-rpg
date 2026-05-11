@@ -1,0 +1,14 @@
+{
+  "name": "Olhos Cromados",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "este pokémon causa dano a um",
+    "effect": "dobre o dano causado.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

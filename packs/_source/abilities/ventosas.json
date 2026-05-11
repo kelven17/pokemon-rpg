@@ -1,0 +1,14 @@
+{
+  "name": "Ventosas",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Empurrões e também aos Golpes Rajada de Vento e Rugido.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

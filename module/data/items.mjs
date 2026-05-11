@@ -165,10 +165,31 @@ export class ClassData extends foundry.abstract.TypeDataModel {
 export class AbilityData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
+      // Descrição livre (mantida por compat. com fichas antigas).
       description: new HTMLField({ required: true, initial: "" }),
       // Hidden ability ou normal.
       hidden: new BooleanField({ initial: false }),
-      // Trigger - quando essa habilidade ativa.
+      // Categoria do gatilho — molde do livro:
+      //   constante         → "Constante"
+      //   ativacao-at-will  → "Ativação À Vontade"
+      //   ativacao-horaria  → "Ativação Horária"
+      //   ativacao-diaria   → "Ativação Diária"
+      //   gatilho-constante → "Gatilho Constante: <condição>"
+      //   gatilho-at-will   → "Gatilho À Vontade: <condição>"
+      //   gatilho-horaria   → "Gatilho Horário: <condição>"
+      //   gatilho-diaria    → "Gatilho Diário: <condição>"
+      triggerKey: new StringField({
+        required: true,
+        initial: "constante",
+        choices: () => Object.keys(POKEMON_RPG.abilityTriggers ?? {})
+      }),
+      // Para habilidades do tipo "Gatilho X: ...", o texto da condição.
+      condicao: new StringField({ required: true, initial: "" }),
+      // Texto principal do Efeito (sem o prefixo "Efeito:").
+      effect: new HTMLField({ required: true, initial: "" }),
+      // Flag de estado: ativada/usada (para Ativação Diária / Horária).
+      usado: new BooleanField({ required: true, initial: false }),
+      // Mantido por compat. legacy.
       trigger: new StringField({ required: true, initial: "passive" })
     };
   }

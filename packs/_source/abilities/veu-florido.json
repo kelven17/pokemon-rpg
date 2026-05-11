@@ -1,0 +1,14 @@
+{
+  "name": "Véu Florido",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon e seus aliados do Tipo Planta são imunes a Confusão e Paixão e não podem ter seus Atributos diminuídos.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

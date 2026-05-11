@@ -1,0 +1,14 @@
+{
+  "name": "Vínculo Profundo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "o pokémon pode ignorar a necessidade da Megapedra para megaevoluir.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Blindagem",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade aos seguintes Golpes: Barragem, Bomba Ácida, Bico Explosivo, Bomba de Lama, Bomba de Lodo, Bomba de Sementes, Bomba Magnética, Canhão Elétrico, Demolição, Esfera Climática, Esfera da Aura, Esfera de Energia, Esfera de Gelo, Esfera de Névoa, Esfera de Sombras, Esfera Elétrica, Expansão da Aura, Girobola, Ovo Bomba, Pólen Fofo, Polvo Canhão, Semente Bala, Tiro Escaldante.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

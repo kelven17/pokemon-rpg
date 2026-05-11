@@ -1,0 +1,14 @@
+{
+  "name": "Pararraios",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon é imune a dano Elétrico. Se sofreria dano Elétrico por alguma razão, ele, em vez disso, eleva uma Fase de Ataque Especial. Além disso, se qualquer outra criatura a até 25 metros usar um Golpe Elétrico À Distância, o Golpe é redirecionado ao pokémon com Pararraios e o acertará automaticamente, ignorando os efeitos dos Golpes Leitura Mental e Mira.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

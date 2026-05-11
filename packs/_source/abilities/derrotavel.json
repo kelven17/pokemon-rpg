@@ -1,0 +1,14 @@
+{
+  "name": "Derrotável",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "estar abaixo da metade dos PV",
+    "effect": "este pokémon tem suas Fases de Ataque e de Ataque Especial diretamente reduzidas a três Fases negativas. As Fases não podem ser elevadas acima disso a menos que ele recupere seus Pontos de Vida acima da metade dos PV máximos.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Desastrado",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon Desastrado pode soltar itens Mantidos À Vontade como uma Ação Livre, mesmo que sob efeito de Condições, incluindo Sono. Ele pode também carregar um item Mantido ignorando os efeitos do item.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

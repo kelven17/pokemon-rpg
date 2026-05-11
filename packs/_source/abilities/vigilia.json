@@ -1,0 +1,14 @@
+{
+  "name": "Vigília",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-diaria",
+    "condicao": "o pokémon usa um Golpe causador",
+    "effect": "o Golpe causa dano dobrado após serem aplicadas vulnerabilidades e resistências.",
+    "usado": false,
+    "trigger": "Gatilho Diário"
+  }
+}

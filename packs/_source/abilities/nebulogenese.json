@@ -1,0 +1,14 @@
+{
+  "name": "Nebulogênese",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Enevoado.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

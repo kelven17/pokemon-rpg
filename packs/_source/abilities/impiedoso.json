@@ -1,0 +1,14 @@
+{
+  "name": "Impiedoso",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "acertar um alvo Envenenado.",
+    "effect": "o Golpe é um Crítico.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

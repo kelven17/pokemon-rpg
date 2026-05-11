@@ -1,0 +1,14 @@
+{
+  "name": "Dança",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-horaria",
+    "condicao": "o pokémon está a até 10 metros",
+    "effect": "o pokémon com Dança pode usar imediatamente o mesmo Golpe, escolhendo um novo alvo se for necessário escolher alvos para aquele Golpe.",
+    "usado": false,
+    "trigger": "Gatilho Horário"
+  }
+}

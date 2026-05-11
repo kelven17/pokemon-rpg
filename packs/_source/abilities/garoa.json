@@ -1,0 +1,14 @@
+{
+  "name": "Garoa",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon usa o Golpe Dança da Chuva.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

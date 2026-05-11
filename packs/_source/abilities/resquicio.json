@@ -1,0 +1,14 @@
+{
+  "name": "Resquício",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "quando o pokémon for",
+    "effect": "ocorre uma Explosão de cinco metros. Tudo dentro da área perde um quarto dos Pontos de Vida máximos, sem aplicar resistências ou vulnerabilidades nem aplicar Atributos.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

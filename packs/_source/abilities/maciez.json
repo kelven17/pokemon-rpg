@@ -1,0 +1,14 @@
+{
+  "name": "Maciez",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano Físico.",
+    "effect": "o pokémon sofre apenas metade do dano, salvo o Tipo do dano for Fogo, caso em que o pokémon sofre o dobro do dano.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

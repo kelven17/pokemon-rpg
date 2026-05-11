@@ -1,0 +1,14 @@
+{
+  "name": "Mediocridade",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "elevar uma ou mais Fases ou",
+    "effect": "dobre o número de Fases elevadas ou perdidas.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

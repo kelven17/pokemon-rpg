@@ -1,0 +1,14 @@
+{
+  "name": "Cor da Alma",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "",
+    "effect": "quando alguém fica inconsciente a até 50 metros, o pokémon eleva uma Fase de Ataque Especial.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

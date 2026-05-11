@@ -1,0 +1,14 @@
+{
+  "name": "Metamorfose",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "pelo resto do encontro, quando o pokémon usar um Golpe, ele imediatamente muda seu Tipo para o Tipo do Golpe usado antes de rolar o dano pelo Golpe.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

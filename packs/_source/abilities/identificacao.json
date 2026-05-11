@@ -1,0 +1,14 @@
+{
+  "name": "Identificação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "o alvo adjacente está Preso. Ele ainda pode se deslocar, mas não para mais longe do que 20 metros do pokémon que usou Identificação.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

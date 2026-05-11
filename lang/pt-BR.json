@@ -190,7 +190,31 @@
       "MovesBundleVersion": {
         "Name": "Versão do Bundle de Golpes Importado",
         "Hint": "Controla qual versão do bundle de golpes já foi importada para o compendium World-side."
+      },
+      "AbilitiesBundleVersion": {
+        "Name": "Versão do Bundle de Habilidades Importado",
+        "Hint": "Controla qual versão do bundle de habilidades já foi importada para o compendium World-side."
       }
+    },
+
+    "AbilityTrigger": {
+      "Constante":         "Constante",
+      "AtivacaoAtWill":    "Ativação À Vontade",
+      "AtivacaoHoraria":   "Ativação Horária",
+      "AtivacaoDiaria":    "Ativação Diária",
+      "GatilhoConstante":  "Gatilho Constante",
+      "GatilhoAtWill":     "Gatilho À Vontade",
+      "GatilhoHoraria":    "Gatilho Horário",
+      "GatilhoDiaria":     "Gatilho Diário"
+    },
+
+    "Ability": {
+      "Trigger":      "Gatilho",
+      "Condicao":     "Condição",
+      "Effect":       "Efeito",
+      "Used":         "Já usada",
+      "ResetEncounter": "Recuperar (Encontro)",
+      "ResetDaily":     "Recuperar (Dia)"
     },
 
     "Effectiveness": {

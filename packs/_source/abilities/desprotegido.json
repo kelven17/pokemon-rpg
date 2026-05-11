@@ -1,0 +1,14 @@
+{
+  "name": "Desprotegido",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser reduzido à metade dos PV",
+    "effect": "assume a forma Nuclear.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

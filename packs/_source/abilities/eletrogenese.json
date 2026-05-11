@@ -1,0 +1,14 @@
+{
+  "name": "Eletrogênese",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Elétrico.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

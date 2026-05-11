@@ -1,0 +1,14 @@
+{
+  "name": "Ultrabesta",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "este pokémon deixa outro",
+    "effect": "eleve uma Fase do maior Atributo do pokémon, descontando Saúde da lista de Atributos.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Análise",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "pelas próximas cinco rodadas, se o turno do pokémon vier imediatamente depois de um inimigo que for alvo dele, ele adiciona às rolagens de dano uma quantidade igual a seu Bônus Elemental.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

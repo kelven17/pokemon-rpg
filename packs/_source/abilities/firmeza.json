@@ -1,0 +1,14 @@
+{
+  "name": "Firmeza",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado por um Golpe",
+    "effect": "eleve uma Fase de Defesa do pokémon após o dano ser sofrido.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

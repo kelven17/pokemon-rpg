@@ -1,0 +1,14 @@
+{
+  "name": "Vísceras Extensíveis",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ficar inconsciente em virtude",
+    "effect": "causa ao atacante uma quantidade de dano idêntica à quantidade de Pontos de Vida que possuía. Não aplique vulnerabilidades ou resistências a este dano.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

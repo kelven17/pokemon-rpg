@@ -1,0 +1,14 @@
+{
+  "name": "Coma",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon está sempre na Condição Sono, e pode agir como se não estivesse com esta Condição.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

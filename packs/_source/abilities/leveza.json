@@ -1,0 +1,14 @@
+{
+  "name": "Leveza",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "consumir um item Mantido.",
+    "effect": "eleve duas Fases de Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fragmentado",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon ignora as imunidades do Tipo Fantasma contra dano Normal e Lutador.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

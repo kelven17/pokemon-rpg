@@ -1,0 +1,14 @@
+{
+  "name": "Ímã",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "um pokémon alvo do Tipo Metálico não 189 poderá se deslocar para mais longe do que 20 metros do pokémon com Ímã. A critério do pokémon, ele pode impor que o pokémon Metálico alvo não possa se aproximar para mais perto do que 20 metros dele.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

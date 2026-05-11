@@ -1,0 +1,14 @@
+{
+  "name": "Guarda Baixa",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "até o fim do encontro, todos os Golpes que o pokémon usar e todos os Golpe que ele receber acertarão automaticamente.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

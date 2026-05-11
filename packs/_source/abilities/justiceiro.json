@@ -1,0 +1,14 @@
+{
+  "name": "Justiceiro",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano de Trevas.",
+    "effect": "eleva uma Fase de Ataque.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

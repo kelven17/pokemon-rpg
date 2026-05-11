@@ -1,0 +1,14 @@
+{
+  "name": "Troca de Pele",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o pokémon se cura de Congelamento, Paralisia, Queimadura, Sono e Veneno.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Companheirismo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "pelo resto do encontro, quando um aliado adjacente ao pokémon sofreria dano por Golpes, o inimigo não adiciona nenhum Bônus Elemental à rolagem de dano.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

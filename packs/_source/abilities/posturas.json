@@ -1,0 +1,14 @@
+{
+  "name": "Posturas",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "todas as vezes que Aegislash usar um Golpe causador de dano, troque seus valores de Ataque e Defesa um pelo outro e também seus valores de Ataque Especial e Defesa Especial um pelo outro. Os valores assim permanecem até que Aegislash use um Golpe com o Descritor Interceptação.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

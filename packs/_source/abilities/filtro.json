@@ -1,0 +1,14 @@
+{
+  "name": "Filtro",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado por um Golpe",
+    "effect": "reduza a quantidade de Pontos de Vida perdidos a três quartos da quantidade que seria perdida.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

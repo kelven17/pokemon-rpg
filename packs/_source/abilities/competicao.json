@@ -1,0 +1,14 @@
+{
+  "name": "Competição",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "se o pokémon perder uma ou mais Fases por qualquer razão que não por seus próprios Golpes ou por suas próprias Habilidades, ele eleva duas Fases em Ataque Especial para cada Fase que perder.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

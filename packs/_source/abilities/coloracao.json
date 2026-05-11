@@ -1,0 +1,14 @@
+{
+  "name": "Coloração",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano.",
+    "effect": "o Tipo do pokémon muda para o Tipo do dano sofrido.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Surfista",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-diaria",
+    "condicao": "",
+    "effect": "desde que esteja em um Campo Elétrico, eleve quatro Fases de Velocidade. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.",
+    "usado": false,
+    "trigger": "Ativação Diária"
+  }
+}

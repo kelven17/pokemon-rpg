@@ -1,0 +1,14 @@
+{
+  "name": "Visão Aguçada",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon não pode ter as Dificuldades de Acurácia afetadas negativamente (mas a Evasão do oponente se aplica normalmente).",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

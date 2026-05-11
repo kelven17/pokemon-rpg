@@ -1,0 +1,14 @@
+{
+  "name": "Fuga",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade aos efeitos de Prisões. Além disso, o pokémon recebe +2 a todos os seus Deslocamentos e não pode perder Fases de Velocidade de modo a ficar com uma Fase de Velocidade negativa.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

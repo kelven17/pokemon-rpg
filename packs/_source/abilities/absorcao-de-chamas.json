@@ -1,0 +1,14 @@
+{
+  "name": "Absorção de Chamas",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon é imune a dano de Fogo e à Congelamento. Se sofreria dano de Fogo por alguma razão, ele, em vez disso, adiciona metade de seu Bônus Elemental ao próximo Golpe de Fogo que usar.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Bicudo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a perda de Fases de Defesa.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

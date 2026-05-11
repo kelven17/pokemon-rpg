@@ -1,0 +1,14 @@
+{
+  "name": "Multitipo",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais. Especial: a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

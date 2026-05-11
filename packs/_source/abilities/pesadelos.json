@@ -1,0 +1,14 @@
+{
+  "name": "Pesadelos",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "qualquer criaturas que esteja dormindo a até 30 metros do pokémon perde um oitavo de seus Pontos de Vida máximos no início de cada rodada.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

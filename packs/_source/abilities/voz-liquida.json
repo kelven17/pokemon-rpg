@@ -1,0 +1,14 @@
+{
+  "name": "Voz Líquida",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando usar um Golpe com o Descritor Som, o Tipo do Golpe é mudado para Água.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

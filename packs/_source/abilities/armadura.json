@@ -1,0 +1,14 @@
+{
+  "name": "Armadura",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Críticos.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

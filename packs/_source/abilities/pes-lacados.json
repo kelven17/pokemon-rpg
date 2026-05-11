@@ -1,0 +1,14 @@
+{
+  "name": "Pés Laçados",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ser acertado por um Golpe À",
+    "effect": "eleve uma Fase da Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

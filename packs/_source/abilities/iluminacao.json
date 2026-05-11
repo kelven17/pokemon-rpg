@@ -1,0 +1,14 @@
+{
+  "name": "Iluminação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "Golpes que tenham este pokémon como alvo têm a Dificuldade de Acurácia aumentada em 2.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

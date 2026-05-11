@@ -1,0 +1,14 @@
+{
+  "name": "Zen",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "Darmanitan possui dois conjuntos de Atributos Basais diferentes para seus Atributos, gerando duas Relações Basais distintas: uma para sua Forma Padrão e uma para sua Forma Zen. Ele deve manter o valor de seu Atributo Saúde igual em ambas as Formas. Desde que esteja com menos da metade de seus Pontos de Vida máximos, Darmanitan pode, uma vez por encontro, usar uma Ação Livre para mudar para a Forma Zen, alterando todo o conjunto de Atributos para o da Forma Zen. Uma vez tendo assumido a Forma Zen, ele poderá voltar à Forma Padrão usando uma Ação Livre, o que torna seus Atributos como normalmente são. A Forma Zen do Darmanitan recebe o Tipo Psíquico em adição ao Tipo Fogo que é o padrão do Darmanitan. Se algum efeito aumentar ou reduzir Atributos ou Atributos Basais, os Atributos ou Atributos Basais de ambas as formas são alterados. Isso inclui Fases.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

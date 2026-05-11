@@ -1,0 +1,14 @@
+{
+  "name": "Corrente Aérea",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-at-will",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o clima é automatica- mente convertido a ameno. Enquanto o pokémon com Cor- rente Aérea estiver presente, qualquer tentativa de alterar o Clima automaticamente falha. Durante este mesmo tempo, qualquer rolagem de dano que seria superefetiva contra pokémons Voadores causará dano neutro.",
+    "usado": false,
+    "trigger": "Ativação À Vontade"
+  }
+}

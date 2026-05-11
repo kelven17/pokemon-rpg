@@ -1,0 +1,14 @@
+{
+  "name": "Manto de Areia",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "desde que o clima seja uma Tempestade de Areia, o pokémon pode criar um bolsão de clima ameno ao seu redor e também ao redor de qualquer alvo que esteja a menos de 15 metros de distância (e dentro da Tempestade de Areia). Qualquer Golpe contra um alvo dentro de um destes bolsões tem a Dificuldade de Acurácia aumentada em 2. Os bolsões permanecem enquanto o pokémon quiser e estiver consciente.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

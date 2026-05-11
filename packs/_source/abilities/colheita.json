@@ -1,0 +1,14 @@
+{
+  "name": "Colheita",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "ao se alimentar de uma fruta.",
+    "effect": "jogue um dado. Se o resultado for par, o pokémon produz outra fruta exatamente da mesma variedade do item Mantido, que ele poderá usar a partir da próxima rodada. Se for ímpar nada acontece. Se o clima for Ensolarado, não haverá necessidade de jogar o dado, pois a fruta sempre será produzida com sucesso.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

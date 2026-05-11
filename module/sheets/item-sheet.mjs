@@ -54,6 +54,9 @@ export class PokemonItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
     context.concursosChoices = Object.fromEntries(
       Object.entries(POKEMON_RPG.contestDescriptors ?? {}).map(([k, l]) => [k, game.i18n.localize(l)])
     );
+    context.abilityTriggerChoices = Object.fromEntries(
+      Object.entries(POKEMON_RPG.abilityTriggers ?? {}).map(([k, l]) => [k, game.i18n.localize(l)])
+    );
 
     // Slugs de classes/subclasses para selects.
     context.classSlugChoices = POKEMON_RPG.allClassSlugs

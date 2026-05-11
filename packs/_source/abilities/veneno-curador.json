@@ -1,0 +1,14 @@
+{
+  "name": "Veneno Curador",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando está Envenenado, o pokémon recupera um oitavo de seus PV máximos a cada rodada, e não perde nenhum PV pelos efeitos do Veneno. Ele também não tem suas Fases reduzidas por estar Envenenado.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

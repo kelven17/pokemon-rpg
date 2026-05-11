@@ -1,0 +1,14 @@
+{
+  "name": "Desatenção",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando este pokémon ataca ou é atacado, ignore todas as Fases positivas e negativas em vigor sobre todos os pokémons envolvidos, incluindo as próprias Fases do próprio pokémon Desatento.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

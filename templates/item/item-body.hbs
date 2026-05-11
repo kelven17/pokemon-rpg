@@ -186,14 +186,27 @@
     {{#if (eq item.type "ability")}}
     <div class="form-grid">
         <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Ability.Trigger"}}</label>
+            <select name="system.triggerKey">
+                {{#each abilityTriggerChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.triggerKey)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="form-group">
             <label>
                 <input type="checkbox" name="system.hidden" {{#if system.hidden}}checked{{/if}}/>
                 {{localize "POKEMON_RPG.HiddenAbility"}}
             </label>
         </div>
-        <div class="form-group">
-            <label>{{localize "POKEMON_RPG.Trigger"}}</label>
-            <input type="text" name="system.trigger" value="{{system.trigger}}"/>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Ability.Condicao"}}</label>
+            <input type="text" name="system.condicao" value="{{system.condicao}}" placeholder="(apenas para Gatilho X)"/>
+            <p class="hint">Texto que descreve a condição do gatilho (ex.: "este pokémon deixa outro pokémon inconsciente").</p>
+        </div>
+        <div class="form-group full">
+            <label>{{localize "POKEMON_RPG.Ability.Effect"}}</label>
+            <prose-mirror name="system.effect" value="{{system.effect}}" toggled></prose-mirror>
         </div>
     </div>
     {{/if}}

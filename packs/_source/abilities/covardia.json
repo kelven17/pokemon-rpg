@@ -1,0 +1,14 @@
+{
+  "name": "Covardia",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano de um dos",
+    "effect": "eleva uma Fase de Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

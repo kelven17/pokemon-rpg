@@ -1,0 +1,14 @@
+{
+  "name": "Explosão de Velocidade",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "até o fim do encontro, eleve uma Fase de Velocidade a cada rodada.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

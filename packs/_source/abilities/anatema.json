@@ -1,0 +1,14 @@
+{
+  "name": "Anátema",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-horaria",
+    "condicao": "ser acertado por um Golpe",
+    "effect": "o Golpe é afetado pelos efeitos de Desabilitar automaticamente. Esta Habilidade só entra em vigor depois dos efeitos do Golpe que ativou o Gatilho, mas ela funciona mesmo que o pokémon Anátema fique inconsciente pelo Golpe sofrido.",
+    "usado": false,
+    "trigger": "Gatilho Horário"
+  }
+}

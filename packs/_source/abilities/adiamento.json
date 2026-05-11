@@ -1,0 +1,14 @@
+{
+  "name": "Adiamento",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "este pokémon é sempre o último a agir em todas as rodadas, independente se qualquer Talento, Habilidade ou Golpe disser o contrário. A iniciativa deste pokémon só é relevante quando há mais de um pokémon com Adiamento.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

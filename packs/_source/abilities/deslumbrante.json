@@ -1,0 +1,14 @@
+{
+  "name": "Deslumbrante",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "ninguém pode usar Golpes com o Descritor Interrupção a até 20 metros do pokémon Deslumbrante.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

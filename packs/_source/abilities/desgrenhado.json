@@ -1,0 +1,14 @@
+{
+  "name": "Desgrenhado",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "Golpes que o pokémon use contra criaturas do Tipo Fantasma acertam automaticamente e ignoram resistências, imunidades e vulnerabilidades.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

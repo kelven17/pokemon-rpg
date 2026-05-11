@@ -1,0 +1,14 @@
+{
+  "name": "Bolha d’Água",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "sofrer dano de Fogo.",
+    "effect": "independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo. Além disso, como um benefício Constante, o pokémon é imune a Queimaduras.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

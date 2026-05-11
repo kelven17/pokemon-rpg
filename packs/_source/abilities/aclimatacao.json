@@ -1,0 +1,14 @@
+{
+  "name": "Aclimatação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o clima se torna ameno se o pokémon com Aclimatação tiver Nível maior que o pokémon que causar a mudança climática.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

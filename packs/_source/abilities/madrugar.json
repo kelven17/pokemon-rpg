@@ -1,0 +1,14 @@
+{
+  "name": "Madrugar",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando o pokémon faz Testes de Sono, o contador para acordar começa em 11, e não em 16. Ele é reduzido normalmente e atinge o mínimo no mesmo valor.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

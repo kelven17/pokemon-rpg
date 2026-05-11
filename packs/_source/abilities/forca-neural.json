@@ -1,0 +1,14 @@
+{
+  "name": "Força Neural",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "acertar um Golpe causador de",
+    "effect": "+3d20 à rolagem de dano.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

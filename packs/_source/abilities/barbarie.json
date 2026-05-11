@@ -1,0 +1,14 @@
+{
+  "name": "Barbárie",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "os Pontos de Vida do pokémon",
+    "effect": "eleve duas Fases de Ataque Especial dele.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

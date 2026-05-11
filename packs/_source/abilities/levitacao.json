@@ -1,0 +1,14 @@
+{
+  "name": "Levitação",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Golpes de Terra.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

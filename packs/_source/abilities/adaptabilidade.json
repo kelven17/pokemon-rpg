@@ -1,0 +1,14 @@
+{
+  "name": "Adaptabilidade",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "dobre o Bônus Elemental do pokémon.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

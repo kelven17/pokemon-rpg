@@ -1,0 +1,14 @@
+{
+  "name": "Infiltração",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon ignora Ameaças, Barreiras e Coberturas.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

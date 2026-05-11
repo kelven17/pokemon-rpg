@@ -1,0 +1,14 @@
+{
+  "name": "Herbogênese",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "como uma Ação Livre, o pokémon uso o Golpe Campo Gramado.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

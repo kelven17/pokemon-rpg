@@ -1,0 +1,14 @@
+{
+  "name": "Hipercorte",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon não perde Fases de Ataque.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

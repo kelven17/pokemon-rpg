@@ -1,0 +1,14 @@
+{
+  "name": "Asas de Vendavais",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "ativacao-horaria",
+    "condicao": "",
+    "effect": "o pokémon pode usar um Golpe Voador como uma Ação de Interrupção.",
+    "usado": false,
+    "trigger": "Ativação Horária"
+  }
+}

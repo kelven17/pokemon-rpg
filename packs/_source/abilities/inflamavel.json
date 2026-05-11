@@ -1,0 +1,14 @@
+{
+  "name": "Inflamável",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando este pokémon recebe Queimadura, eleve duas Fases do Ataque Especial dele. Se ele for curado da Queimadura, ele perde as duas Fases do Ataque Especial.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

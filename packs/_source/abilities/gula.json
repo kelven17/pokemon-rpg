@@ -1,0 +1,14 @@
+{
+  "name": "Gula",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "quando o pokémon possui um item consumível como um item Mantido, ele imediatamente o come, e todos os efeitos do item são dobrados.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

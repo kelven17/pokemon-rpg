@@ -1,0 +1,14 @@
+{
+  "name": "Técnica",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-at-will",
+    "condicao": "usar um Golpe causador de",
+    "effect": "+2d10 à rolagem de dano. Se o Golpe possui o Descritor Saraivada, só aplique o dano extra uma vez.",
+    "usado": false,
+    "trigger": "Gatilho À Vontade"
+  }
+}

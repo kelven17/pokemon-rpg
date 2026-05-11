@@ -1,0 +1,14 @@
+{
+  "name": "Ritmo Próprio",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. Efeito: eleva duas Fases de Ataque.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

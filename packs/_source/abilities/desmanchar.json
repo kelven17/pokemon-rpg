@@ -1,0 +1,14 @@
+{
+  "name": "Desmanchar",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-horaria",
+    "condicao": "ser acertado por um Golpe de",
+    "effect": "eleve três Fases de Velocidade.",
+    "usado": false,
+    "trigger": "Gatilho Horário"
+  }
+}

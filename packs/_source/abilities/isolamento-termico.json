@@ -1,0 +1,14 @@
+{
+  "name": "Isolamento Térmico",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon sofre apenas metade do dano que sofreria por dano de Fogo.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

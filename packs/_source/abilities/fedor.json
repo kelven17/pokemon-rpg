@@ -1,0 +1,14 @@
+{
+  "name": "Fedor",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "usar um Golpe causador de",
+    "effect": "os alvos do Golpe ficam Atordoados se o resultado do Teste de Acurácia for 19 ou 20. Se o Golpe já possuía uma chance de Atordoar condicionada à obtenção de determinado número mínimo no Teste de Acurácia, reduza em 2 o resultado mínimo no Teste de Acurácia para ter sucesso em Atordoar.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

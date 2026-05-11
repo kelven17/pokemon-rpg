@@ -1,0 +1,14 @@
+{
+  "name": "Gatuno",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-diaria",
+    "condicao": "acertar um oponente que possui",
+    "effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
+    "usado": false,
+    "trigger": "Gatilho Diário"
+  }
+}

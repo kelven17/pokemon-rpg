@@ -1,0 +1,14 @@
+{
+  "name": "Lentidão",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "um encontro começa.",
+    "effect": "pelas três primeiras rodadas, o Ataque e a Velocidade do pokémon são reduzidos à metade.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}

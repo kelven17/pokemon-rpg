@@ -190,7 +190,31 @@
       "MovesBundleVersion": {
         "Name": "Imported Moves Bundle Version",
         "Hint": "Tracks which version of the moves bundle has already been imported into the world-side compendium."
+      },
+      "AbilitiesBundleVersion": {
+        "Name": "Imported Abilities Bundle Version",
+        "Hint": "Tracks which version of the abilities bundle has already been imported into the world-side compendium."
       }
+    },
+
+    "AbilityTrigger": {
+      "Constante":         "Constant",
+      "AtivacaoAtWill":    "At-Will Activation",
+      "AtivacaoHoraria":   "Per-Encounter Activation",
+      "AtivacaoDiaria":    "Daily Activation",
+      "GatilhoConstante":  "Constant Trigger",
+      "GatilhoAtWill":     "At-Will Trigger",
+      "GatilhoHoraria":    "Per-Encounter Trigger",
+      "GatilhoDiaria":     "Daily Trigger"
+    },
+
+    "Ability": {
+      "Trigger":      "Trigger",
+      "Condicao":     "Condition",
+      "Effect":       "Effect",
+      "Used":         "Used",
+      "ResetEncounter": "Reset (Encounter)",
+      "ResetDaily":     "Reset (Day)"
     },
 
     "Effectiveness": {

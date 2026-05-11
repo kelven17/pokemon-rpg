@@ -1,0 +1,14 @@
+{
+  "name": "Olhos Compostos",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "",
+    "effect": "o pokémon reduz todas as suas Dificuldades de Acurácia em 3.",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

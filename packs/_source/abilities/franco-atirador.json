@@ -1,0 +1,14 @@
+{
+  "name": "Franco-Atirador",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "gatilho-constante",
+    "condicao": "causar um Crítico.",
+    "effect": "adicione um dado rolado de dano idêntico ao dado de dano usado para causar dano conforme descrito na rolagem do Golpe.",
+    "usado": false,
+    "trigger": "Gatilho Constante"
+  }
+}
