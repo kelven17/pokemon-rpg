@@ -6,21 +6,32 @@
                 + {{localize "POKEMON_RPG.NewAbility"}}
             </button>
         </header>
-        <ul class="items-list">
+        <ul class="items-list abilities-list">
             {{#each itemsByType.ability}}
-            <li class="item" data-item-id="{{this.id}}">
+            <li class="item ability-item" data-item-id="{{this.id}}">
                 <img src="{{this.img}}" class="item-img"/>
-                <div class="item-name">
-                    {{this.name}}
-                    {{#if this.system.hidden}}<span class="badge hidden-badge">{{localize "POKEMON_RPG.HiddenAbility"}}</span>{{/if}}
-                    <span class="trigger-badge">{{localize (lookup @root.config.abilityTriggers this.system.triggerKey)}}</span>
-                </div>
-                <div class="item-meta">
-                    {{#if this.system.condicao}}<em>{{this.system.condicao}}</em>{{/if}}
+                <div class="ability-body">
+                    <div class="ability-header">
+                        <strong class="item-name">{{this.name}}</strong>
+                        <span class="trigger-badge">{{localize (lookup @root.config.abilityTriggers this.system.triggerKey)}}</span>
+                        {{#if this.system.hidden}}<span class="badge hidden-badge">{{localize "POKEMON_RPG.HiddenAbility"}}</span>{{/if}}
+                    </div>
+                    {{#if this.system.condicao}}
+                    <div class="ability-condicao">
+                        <span class="ability-label">{{localize "POKEMON_RPG.Ability.Condicao"}}:</span>
+                        <em>{{this.system.condicao}}</em>
+                    </div>
+                    {{/if}}
+                    {{#if this.system.effect}}
+                    <div class="ability-effect">
+                        <span class="ability-label">{{localize "POKEMON_RPG.Ability.Effect"}}:</span>
+                        {{{this.system.effect}}}
+                    </div>
+                    {{/if}}
                 </div>
                 <div class="item-controls">
-                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
-                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                    <a data-action="itemEdit" title="{{localize 'POKEMON_RPG.Edit'}}"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete" title="{{localize 'POKEMON_RPG.Delete'}}"><i class="fas fa-trash"></i></a>
                 </div>
             </li>
             {{else}}

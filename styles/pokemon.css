@@ -1119,6 +1119,76 @@
     background: rgba(59,76,202,0.14);
     color: var(--pk-blue-dark);
 }
+
+/* ==========================================
+   ABILITIES list (ficha do Pokémon)
+   ========================================== */
+.pokemon-rpg .abilities-list .ability-item {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+}
+.pokemon-rpg .ability-item:hover {
+    transform: none;   /* anula o translateX dos outros items */
+}
+.pokemon-rpg .ability-item .item-img {
+    margin-top: 2px;
+}
+.pokemon-rpg .ability-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+.pokemon-rpg .ability-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+.pokemon-rpg .ability-header .item-name {
+    font-size: 1em;
+    font-weight: 700;
+}
+.pokemon-rpg .ability-label {
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 800;
+    color: var(--pk-muted);
+    margin-right: 4px;
+}
+.pokemon-rpg .ability-condicao {
+    font-size: 0.88em;
+    line-height: 1.4;
+    color: var(--pk-text);
+    padding: 4px 8px;
+    background: rgba(59,76,202,0.06);
+    border-left: 3px solid var(--pk-blue-soft);
+    border-radius: 4px;
+}
+.pokemon-rpg .ability-effect {
+    font-size: 0.92em;
+    line-height: 1.45;
+    color: var(--pk-text);
+    padding: 6px 10px;
+    background: var(--pk-bg);
+    border-radius: var(--pk-radius-sm);
+}
+.pokemon-rpg .ability-effect p {
+    margin: 0 0 6px;
+}
+.pokemon-rpg .ability-effect p:last-child {
+    margin-bottom: 0;
+}
+.pokemon-rpg .ability-item .item-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 2px;
+}
 .pokemon-rpg .cooldown-badge {
     display: inline-block;
     padding: 2px 8px;
