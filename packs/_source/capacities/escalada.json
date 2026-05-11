@@ -1,0 +1,12 @@
+{
+  "name": "Escalada",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um escalador trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, a menos que seja uma superfície lisa.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

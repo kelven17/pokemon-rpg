@@ -137,7 +137,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       const raw = (sys.effect && String(sys.effect).trim())
                   || (sys.description && String(sys.description).trim())
                   || "";
-      // Se o conteúdo não começa com tag HTML, envolve em <p>
       const html = raw && !raw.trim().startsWith("<") ? `<p>${raw}</p>` : raw;
       return {
         id: item.id,
@@ -145,6 +144,23 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         img: item.img,
         system: sys,
         effectHtml: html
+      };
+    });
+
+    // Pré-processa capacidades — mesmo padrão, faz fallback para description e
+    // envolve em <p> se for plain text.
+    context.capacities = context.itemsByType.capacity.map(item => {
+      const sys = item.system ?? {};
+      const raw = (sys.description && String(sys.description).trim())
+                  || (sys.effect && String(sys.effect).trim())
+                  || "";
+      const html = raw && !raw.trim().startsWith("<") ? `<p>${raw}</p>` : raw;
+      return {
+        id: item.id,
+        name: item.name,
+        img: item.img,
+        system: sys,
+        descriptionHtml: html
       };
     });
 

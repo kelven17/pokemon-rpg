@@ -1,0 +1,12 @@
+{
+  "name": "Obrigatoriedade",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>esta Capacidade denota uma Habilidade que deve ser obrigatoriamente atribuída ao pokémon. Cada pokémon com Obrigatoriedade possuirá a Habilidade associada a ele descrita junto a esta Capacidade. Se o pokémon já possui Obrigatoriedade desde a sua primeira forma evolutiva, ele não tem direito a escolher sua Habilidade no Nível 1, devendo ficar com a Habilidade descrita junto à Capacidade Obrigatoriedade. Caso contrário, ele deve escolher a Habilidade no lugar de sua segunda Habilidade, assim que possível (no Nível 40), não sendo permitido escolher outra Habilidade senão ela.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

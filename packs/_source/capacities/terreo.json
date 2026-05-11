@@ -1,0 +1,12 @@
+{
+  "name": "Térreo",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon térreo pode transformar o terreno ao seu redor para transformá-lo em Terreno Acidentado ou, se quiser, pode planificar Terreno Acidentado ao seu redor para transformá-lo em Terreno Regular. Ele o faz usando sua Ação de Movimento durante seu turno e pode fazê-lo Rodada Sim Rodada Não. Seu poder pode afetar até todos os quadrados adjacentes a ele.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

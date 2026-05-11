@@ -1,0 +1,12 @@
+{
+  "name": "Secreção",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando Shuckle estiver com uma fruta como item Mantido, depois de 24 horas sem a fruta ser consumida, ela será espremida e armazenada na casca do Shuckle. A partir daí, a fruta se tornará um Concentrado mantido pelo Shuckle, e pode ser removido. Este Concentrado possui todas as propriedades da fruta original, mas Pontos de Vida que seriam curados por aquela fruta agora são curados em quantidade dobrada. Se o Concentrado for deixado com o Shuckle por duas semanas, ele será convertido a um Doce Raro.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

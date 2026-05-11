@@ -1,0 +1,12 @@
+{
+  "name": "Repeteco",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Wobbufett é um pokémon muito limitado quando se trata de sua variedade de Golpes, contudo ele pode usar os Golpes Contra-Ataque e Escudo Espelho como Golpes com Frequência Rodada Sim Rodada Não, em vez de Golpes com Frequência Por Encontro. Após o primeiro uso de Escudo Espelho ou de Contra-Ataque durante um encontro, ou seja, durante a segunda vez que usar Escudo Espelho ou durante a segunda vez que usar Contra-Ataque, Wobbufett reduz sua Defesa e sua Defesa Especial em 10. Esta penalidade só é efetiva para fins de calcular o dano causado por Escudo Espelho e por ContraAtaque a partir do segundo uso de cada um destes Golpes. A penalidade permanece até o fim do encontro. Se um Elixir for usado em Wobbufett, esta penalidade é totalmente anulada, como se o encontro tivesse começado naquele momento; e se um Magnificador for usado, o Golpe afetado por ele entre Contra-Ataque ou Escudo Espelho tem esta penalidade anulada como se o encontro tivesse começado naquele momento.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

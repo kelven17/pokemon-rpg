@@ -1,0 +1,12 @@
+{
+  "name": "Adesão",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon com Adesão trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, mesmo que seja uma superfície lisa. O teto também é considerado um Terreno Regular para este pokémon da mesma forma.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

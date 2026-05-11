@@ -1,0 +1,12 @@
+{
+  "name": "Faro",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Os pokémons farejadores têm um forte olfato que eles podem usar para rastrear pokémons e humanos. Se este pokémon tiver farejado o pokémon ou o humano que ele deseja rastrear ou um pertence que esteve em contato com ele, é possível tentar perseguir esta presa. Para tanto, ele deve rolar 1d20. Se o resultado for 11 ou mais, ele encontra o odor e pode seguir a presa. É possível farejar um odor aleatório e segui-lo, mas o resultado da rolagem de 1d20 deve ser pelo menos 16. Para farejar um odor específico de alguém (um pokémon ou um humano) sem nenhum pertence ou sem tê-lo cheirado, o pokémon deve obter um resultado pelo menos 20. O pokémon farejador só pode usar seu Faro uma vez a cada hora.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fiação",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon fiador pode usar esta Capacidade consumindo sua Ação de Movimento. Um Deslocamento de Fio é usado quando um pokémon atira uma linha fina e forte (como de seda, de vinha ou de teia) até um ponto e se retrai através dela rapidamente, puxando-se até o objeto acertado inicialmente (ou puxando o objeto até si, caso o objeto seja mais leve que o pokémon). A linha de seda ou vinha pode alcançar até dez metros de comprimento. Se ela for atirada em uma criatura (um pokémon ou um humano), é necessário fazer um Teste de Acurácia com Dificuldade de Acurácia 6. Como o Deslocamento de Fio é feito consumindo sua Ação de Movimento, o pokémon ainda pode usar um Golpe em seu turno normalmente.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

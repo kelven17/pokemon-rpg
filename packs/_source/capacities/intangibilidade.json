@@ -1,0 +1,12 @@
+{
+  "name": "Intangibilidade",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon intangível pode se deslocar através de Terreno Acidentado e de Terreno Bloqueador sem que eles prejudiquem seus Deslocamentos. Eles podem se tornar intangíveis e se mover através de paredes sólidas ou mesmo através de outros pokémons e humanos, mas só podem permanecer intangíveis por até 30 segundos (ou cinco rodadas) consecutivos antes de terem que se tornar tangíveis de novo e repetir o processo. Enquanto o pokémon está intangível, ele não pode usar Golpes durante aquela rodada.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Escavação",
+  "type": "capacity",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "<p>Escavação é um Deslocamento que define a rapidez com a qual o pokémon pode se mover no subsolo. O número emparelhado com o Deslocamento de Escavação representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate no subsolo. Os buracos cavados são tão grandes quanto o pokémon que os cavar. O pokémon escavando tem conhecimento do seu entorno subterrâneo até um número de metros de distância igual ao seu valor de Deslocamento de Escavação.</p>",
+    "value": null,
+    "category": "movement",
+    "maxValue": null,
+    "effect": ""
+  }
+}

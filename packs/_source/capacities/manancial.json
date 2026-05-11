@@ -1,0 +1,12 @@
+{
+  "name": "Manancial",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um manancial pode produzir água potável. Ele pode controlar a intensidade do jorro da água e sua quantidade, borrifando água singelamente ou mesmo atirando com a força de uma mangueira de incêndio.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

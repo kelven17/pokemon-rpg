@@ -1,0 +1,12 @@
+{
+  "name": "Terrestre",
+  "type": "capacity",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "<p>Terrestre é um Deslocamento que define a rapidez com a qual o pokémon se move em uma superfície solida (em terra firme). O número emparelhado com o Deslocamento Terrestre representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate em terreno normal.</p>",
+    "value": null,
+    "category": "movement",
+    "maxValue": null,
+    "effect": ""
+  }
+}

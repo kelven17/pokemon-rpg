@@ -1,0 +1,12 @@
+{
+  "name": "Tumefação",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon que tumefaz pode expandir seu tamanho a até 125% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon inflado, as Dificuldades de Acurácia são reduzidas em 3, porém o pokémon se torna efetivamente um Terreno Bloqueador através do qual é impossível mirar.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Silêncio",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon silencioso é excelente em se aproximar do inimigo para um ataque próximo. Enquanto se desloca, a menos que ele propositadamente queira fazer algum som, ele não faz nenhum barulho. A menos que ele tenha usado um Golpe À Distância na rodada atual ou na anterior, Golpes À Distância não podem ter este pokémon como alvo se ele estiver em Terreno Acidentado ou se houver Terreno Acidentado entre ele e o atacante.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

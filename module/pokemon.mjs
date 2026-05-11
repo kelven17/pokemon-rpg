@@ -20,6 +20,11 @@ import {
   importAbilitiesIfNeeded,
   forceReimportAbilities
 } from "./setup/abilities-importer.mjs";
+import {
+  registerCapacityImporterSettings,
+  importCapacitiesIfNeeded,
+  forceReimportCapacities
+} from "./setup/capacities-importer.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -34,12 +39,14 @@ Hooks.once("init", function() {
     PokemonActor,
     PokemonItem,
     reimportMoves: forceReimportMoves,
-    reimportAbilities: forceReimportAbilities
+    reimportAbilities: forceReimportAbilities,
+    reimportCapacities: forceReimportCapacities
   };
 
-  // Registra settings dos importers (golpes + habilidades).
+  // Registra settings dos importers (golpes + habilidades + capacidades).
   registerMoveImporterSettings();
   registerAbilityImporterSettings();
+  registerCapacityImporterSettings();
   CONFIG.POKEMON_RPG = POKEMON_RPG;
 
   // Document classes.
@@ -138,6 +145,12 @@ Hooks.once("ready", async function() {
     await importAbilitiesIfNeeded();
   } catch (err) {
     console.error("pokemon-rpg | erro no import de habilidades:", err);
+  }
+  // Auto-import das capacidades.
+  try {
+    await importCapacitiesIfNeeded();
+  } catch (err) {
+    console.error("pokemon-rpg | erro no import de capacidades:", err);
   }
 });
 

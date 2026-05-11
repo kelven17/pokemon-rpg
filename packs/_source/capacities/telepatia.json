@@ -1,0 +1,12 @@
+{
+  "name": "Telepatia",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon telepata pode ler as mentes humanas e pokémons. Pokémons telepatas também podem projetar seus pensamentos para os seres humanos e pokémons. Estes só podem ler pensamentos superficiais, ou seja, aquilo que o indivíduo está pensando agora, e não memórias. O telepata não pode ler as mentes de pokémons cujas Inteligências sejam muito maiores ou muito menores que a Inteligência dele, de modo que uma diferença de mais que 1 de Inteligência já impossibilita a leitura mental. Lembrando que humanos são considerados com Inteligência 5.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

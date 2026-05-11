@@ -217,15 +217,18 @@
         <div class="form-group">
             <label>{{localize "POKEMON_RPG.Category"}}</label>
             <select name="system.category">
-                <option value="movement" {{#if (eq system.category "movement")}}selected{{/if}}>Movimento</option>
-                <option value="sense" {{#if (eq system.category "sense")}}selected{{/if}}>Sentido</option>
-                <option value="special" {{#if (eq system.category "special")}}selected{{/if}}>Especial</option>
-                <option value="naturewalk" {{#if (eq system.category "naturewalk")}}selected{{/if}}>Naturewalk</option>
+                {{#each capacityCategoryChoices as |label key|}}
+                <option value="{{key}}" {{#if (eq key ../system.category)}}selected{{/if}}>{{label}}</option>
+                {{/each}}
             </select>
         </div>
         <div class="form-group">
-            <label>{{localize "POKEMON_RPG.Value"}}</label>
+            <label>{{localize "POKEMON_RPG.Capacity.Value"}}</label>
             <input type="number" name="system.value" value="{{system.value}}" data-dtype="Number"/>
+        </div>
+        <div class="form-group">
+            <label>{{localize "POKEMON_RPG.Capacity.MaxValue"}}</label>
+            <input type="number" name="system.maxValue" value="{{system.maxValue}}" data-dtype="Number"/>
         </div>
     </div>
     {{/if}}

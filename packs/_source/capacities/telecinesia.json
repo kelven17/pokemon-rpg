@@ -1,0 +1,12 @@
+{
+  "name": "Telecinesia",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon telecinético pode mover objetos com sua mente. Eles podem usar a Telecinesia em objetos que não estejam mais distantes que um número de metros igual ao Nível do pokémon. O peso dos objetos não pode exceder 2,5 quilogramas multiplicado por seu Nível.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

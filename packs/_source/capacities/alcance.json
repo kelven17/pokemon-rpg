@@ -1,0 +1,12 @@
+{
+  "name": "Alcance",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon com Alcance pode fazer ataques Corpo a Corpo em alvos a até cinco metros de distância dele. Normalmente, o Alcance adicional se deve a um dos seguintes motivos: o pokémon é muito grande; o pokémon possui membros que se alongam suficientemente para atacar a grandes distâncias; o pokémon possui métodos inerentes de atirar ou arremessar armas.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

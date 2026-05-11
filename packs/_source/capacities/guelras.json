@@ -1,0 +1,12 @@
+{
+  "name": "Guelras",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>o pokémon respira embaixo d’água, podendo permanecer submerso quanto tempo quiser.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Eletricidade",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Pokémons com esta Capacidade podem produzir eletricidade controlada e enviar correntes elétricas através de vários materiais condutores. Se um dispositivo elétrico é capaz de ser recarregado, um pokémon com Eletricidade pode recarregá-lo totalmente fazendo uma rolagem de 1d20. Se o resultado for 13 ou mais, ele tem sucesso em recarregar o dispositivo.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Incubação",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um incubador pode manter um ovo em calor seguro com melhores condições que um humano. Os ovos mantidos com ele reduzem em duas horas diariamente o tempo necessário para eclodirem.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

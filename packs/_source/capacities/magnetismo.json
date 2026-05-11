@@ -1,0 +1,12 @@
+{
+  "name": "Magnetismo",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>pokémons magnéticos podem manipular o magnetismo de ambientes. Eles podem repelir ou atrair metais ou ligas metálicas puxando-os até si ou empurrando-os para longe. Através dessa manipulação do magnetismo, eles também podem sentir o magnetismo terrestre e discernir o norte magnético.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

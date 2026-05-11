@@ -1,0 +1,12 @@
+{
+  "name": "Afundamento",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon que afunda não pode nadar ou se mover em água. A cada rodada que esteja em água profunda o suficiente para estar submerso, ele começa a sufocar, ou seja, ele perde 25% de seus Pontos de Vida máximos. Se ele alcançar -100% dos Pontos de Vida devido a isso, ele começa a fazer Testes de Morte normalmente.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

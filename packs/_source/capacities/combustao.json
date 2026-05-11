@@ -1,0 +1,12 @@
+{
+  "name": "Combustão",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um combustível pode produzir chamas. Ele pode controlar a intensidade e a quantidade das chamas criadas e podem fazer lufadas de fogo cujo tamanho pode ser desde a chama de um isqueiro a uma explosão grande o suficiente para engolfar uma árvore.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

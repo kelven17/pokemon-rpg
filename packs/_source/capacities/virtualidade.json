@@ -1,0 +1,12 @@
+{
+  "name": "Virtualidade",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>pokémons virtuais têm uma relação especial com dispositivos eletrônicos. Eles podem entrar em máquinas e viajar instantaneamente através de eletrônicos conectados através de quaisquer cabos que os conectem. Enquanto dentro de um dispositivo ou de um sistema de dispositivos conectados, estes pokémons podem ler os dados daqueles aparelhos uma vez Diária. Eles podem também tentar assumir o controle do dispositivo eletrônico ou da máquina uma vez por hora fazendo uma rolagem de 1d20. Se o resultado for 16 ou mais, eles assumem o controle daquele aparelho. Deslocamentos Cada espécie pokémon se desloca de maneira diferente em condições diferentes. Alguns pokémons voam enquanto outros só nadam. Muitas espécies podem se tornar montarias, mas outras são pequenas demais para isso, mas podem ser infiltradoras ideais como resultado de seu tamanho. Todos os Deslocamentos possuem um valor numérico associado. Existem muitas situações que estes valores são modificados. Não há limites máximos para um Deslocamento. Existem muitas razões para manter anotados os Deslocamentos dos seus pokémons. Use a ficha do pokémon para fazer isso.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

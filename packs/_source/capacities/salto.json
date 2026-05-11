@@ -1,0 +1,12 @@
+{
+  "name": "Salto",
+  "type": "capacity",
+  "img": "icons/svg/strong.svg",
+  "system": {
+    "description": "<p>Esta Capacidade é quantificada de 1 a 10, indicando a altura máximo que o pokémon é capaz de saltar no ar. Se o seu Pokémon usar sua Capacidade Salto durante uma rodada de um encontro, ele será considerado como usando seu Deslocamento para aquela rodada (e se lembre de que não se pula apenas para cima). Salto Altura Salto Altura 1 1 m 6 7,6 m 2 2 m 7 10, 6 m 3 3 m 8 15,2 m 4 4,5 m 9 21 m 5 6 m 10 30 m</p>",
+    "value": null,
+    "category": "numeric",
+    "maxValue": 10,
+    "effect": ""
+  }
+}

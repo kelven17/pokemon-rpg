@@ -47,18 +47,27 @@
                 + {{localize "POKEMON_RPG.NewCapacity"}}
             </button>
         </header>
-        <ul class="items-list">
-            {{#each itemsByType.capacity}}
-            <li class="item" data-item-id="{{this.id}}">
+        <ul class="items-list abilities-list">
+            {{#each capacities}}
+            <li class="item ability-item" data-item-id="{{this.id}}">
                 <img src="{{this.img}}" class="item-img"/>
-                <div class="item-name">
-                    {{this.name}}
-                    {{#if this.system.value}}<span class="cap-value">{{this.system.value}}</span>{{/if}}
+                <div class="ability-body">
+                    <div class="ability-header">
+                        <strong class="item-name">{{this.name}}</strong>
+                        <span class="trigger-badge cap-cat-{{this.system.category}}">
+                            {{localize (lookup @root.config.capacityCategories this.system.category)}}
+                        </span>
+                        {{#if this.system.value}}<span class="cap-value">{{this.system.value}}{{#if this.system.maxValue}}/{{this.system.maxValue}}{{/if}}</span>{{/if}}
+                    </div>
+                    {{#if this.descriptionHtml}}
+                    <div class="ability-effect">
+                        <div class="ability-effect-body">{{{this.descriptionHtml}}}</div>
+                    </div>
+                    {{/if}}
                 </div>
-                <div class="item-meta">{{this.system.category}}</div>
                 <div class="item-controls">
-                    <a data-action="itemEdit"><i class="fas fa-edit"></i></a>
-                    <a data-action="itemDelete"><i class="fas fa-trash"></i></a>
+                    <a data-action="itemEdit" title="{{localize 'POKEMON_RPG.Edit'}}"><i class="fas fa-edit"></i></a>
+                    <a data-action="itemDelete" title="{{localize 'POKEMON_RPG.Delete'}}"><i class="fas fa-trash"></i></a>
                 </div>
             </li>
             {{else}}

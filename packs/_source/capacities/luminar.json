@@ -1,0 +1,12 @@
+{
+  "name": "Luminar",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um luminar pode emitir luz a partir de alguma porção de seu corpo. Dependendo das espécies selvagens locais, isso pode atrair pokémons ou os afastar.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

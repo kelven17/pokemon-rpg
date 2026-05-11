@@ -1,0 +1,12 @@
+{
+  "name": "Sedução",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Sedutores possuem ferormônios ou outros odores que são muito prazerosos. Eles podem atrair pokémons selvagens facilmente.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

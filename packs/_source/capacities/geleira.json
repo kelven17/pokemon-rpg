@@ -1,0 +1,12 @@
+{
+  "name": "Geleira",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>este pokémon trata Terreno Gelado como Terreno Regular se for vantajoso para ele.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

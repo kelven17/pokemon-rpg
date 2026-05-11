@@ -1,0 +1,12 @@
+{
+  "name": "Subaquático",
+  "type": "capacity",
+  "img": "icons/svg/wing.svg",
+  "system": {
+    "description": "<p>Subaquático é um Deslocamento que define a rapidez com a qual o pokémon se move através de água enquanto ele está totalmente submerso. O número emparelhado com o Deslocamento Subaquático representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate nestas condições. Sem a Capacidade Guelras, ele deve se mover pelo menos uma vez a cada quatro rodadas para o ar para não se sufocar, independente de seu Deslocamento Subaquático.</p>",
+    "value": null,
+    "category": "movement",
+    "maxValue": null,
+    "effect": ""
+  }
+}

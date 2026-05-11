@@ -194,7 +194,26 @@
       "AbilitiesBundleVersion": {
         "Name": "Imported Abilities Bundle Version",
         "Hint": "Tracks which version of the abilities bundle has already been imported into the world-side compendium."
+      },
+      "CapacitiesBundleVersion": {
+        "Name": "Imported Capacities Bundle Version",
+        "Hint": "Tracks which version of the capacities bundle has already been imported into the world-side compendium."
       }
+    },
+
+    "CapacityCategory": {
+      "Numeric":    "Numeric",
+      "Movement":   "Movement",
+      "Special":    "Special",
+      "Sense":      "Sense",
+      "Naturewalk": "Naturewalk"
+    },
+
+    "Capacity": {
+      "Label":    "Capacity",
+      "Value":    "Value",
+      "MaxValue": "Max Value",
+      "Effect":   "Effect"
     },
 
     "AbilityTrigger": {

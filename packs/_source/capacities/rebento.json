@@ -1,0 +1,12 @@
+{
+  "name": "Rebento",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon com Rebento pode rapidamente influenciar o crescimento de plantas e da flora ao seu redor. Em seis segundos, um rebento pode fazer uma planta crescer um metro mais alta ou mais larga do que era. Através do uso de Rebento, os pokémons podem fazer as plantas crescerem a até 125% do tamanho normal que se tornariam naturalmente, criando versões maiores de plantas. Para cada duas rodadas (ou doze segundos) usando Rebento um pokémon deve sacrificar 1 Pontos de Vida. O uso de Rebento consome a Ação de Movimento do pokémon.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -202,15 +202,27 @@ export class AbilityData extends foundry.abstract.TypeDataModel {
 export class CapacityData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
+      // Descrição completa (texto do Livro dos Pokémons).
       description: new HTMLField({ required: true, initial: "" }),
-      // Capacidades costumam ser numéricas (ex: Velocidade Terrestre 5, Velocidade de Voo 10).
+      // Valor numérico (ex.: Força 5, Terrestre 7). null para capacidades especiais
+      // que são apenas "tem ou não tem".
       value: new NumberField({ required: true, nullable: true, integer: true, initial: null }),
-      // Categoria: movement, sense, special.
+      // Categoria:
+      //   - numeric:   Força, Inteligência, Salto (valor 1-10)
+      //   - movement:  Deslocamentos (Terrestre, Voo, Natação, Escavação, Subaquático)
+      //   - special:   Capacidades especiais (Aura, Combustão, Faro, etc.)
+      //   - sense:     Sentidos (legado, mantido por compat)
+      //   - naturewalk: legado
       category: new StringField({
         required: true,
-        initial: "movement",
-        choices: ["movement", "sense", "special", "naturewalk"]
-      })
+        initial: "special",
+        choices: ["numeric", "movement", "special", "sense", "naturewalk"]
+      }),
+      // Limite máximo do valor (apenas para `numeric` ou `movement`).
+      // Ex.: Força vai de 1 a 10; Terrestre não tem limite formal.
+      maxValue: new NumberField({ required: true, nullable: true, integer: true, initial: null }),
+      // Efeito mecânico curto (para uso em rolagens, se aplicável).
+      effect: new HTMLField({ required: true, initial: "" })
     };
   }
 }

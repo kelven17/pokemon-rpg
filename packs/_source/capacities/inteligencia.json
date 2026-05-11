@@ -1,0 +1,12 @@
+{
+  "name": "Inteligência",
+  "type": "capacity",
+  "img": "icons/svg/strong.svg",
+  "system": {
+    "description": "<p>A Capacidade inteligência é quantificada de 1 a 7, representando o intelecto do pokémon. A Inteligência é uma expectativa média de todos os membros daquela espécie pokémon. Quanto mais esperto for o pokémon, mais fácil será que aja por conta própria se não for possível comandá-lo. Isso também significa que as espécies de pokémons mais inteligentes são uma ameaça muito maior, pois planejam e desenvolvem sociedades completamente próprias. Inteligência Intelecto Pensamentos Incapaz dos mais simples 1 Vegetal pensamentos 2 Animal Autoconsciente Não desenvolve tarefas por si Animal 3 próprio, mas é capaz de seguir Inteligente a liderança e as ordens alheias 4 Deficiente Pode criar e usar Ferramentas 5 Humano Como uma pessoa comum 6 Superior Pode agir como um líder</p>",
+    "value": null,
+    "category": "numeric",
+    "maxValue": 7,
+    "effect": ""
+  }
+}

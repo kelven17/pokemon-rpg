@@ -1,0 +1,12 @@
+{
+  "name": "Presciência",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um presciente pode prever o futuro, contudo as previsões não estão sob a vontade dele. O Narrador determina como é a previsão (uma visão, um sonho, uma intuição, etc.) e dita as informações recebidas, que podem ser desde completamente vagas a diretamente úteis, de caso para caso, conforme a vontade do Narrador.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Bruxaria",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um bruxo pode amaldiçoar pessoas e pokémons. Apenas merecedores da maldição podem recebê-la, e são considerados merecedores os traidores, os quebradores de promessas importantes, aqueles que cometeram grandes crimes e os causadores de catástrofes (mesmo acidentais). Uma criatura se torna um alvo válido de Bruxaria se ela estiver disposta a se sacrificar por um dos merecedores. A maldição pode assumir a forma de praticamente qualquer coisa. Se o alvo deixar de ser merecedor, ele se liberta da maldição. Isso normalmente requer redenção ou reparação por parte do alvo. Se uma criatura se voluntariou no lugar de um merecedor, apenas se o merecedor se redimir ela será libertada da maldição.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

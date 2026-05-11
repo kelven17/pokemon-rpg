@@ -1,0 +1,12 @@
+{
+  "name": "Hierarquia",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon com Hierarquia pertence instintivamente a uma estrutura social rígida e é naturalmente inclinado a tentar alcançar o topo desta estrutura. Os pokémons selvagens que são formas menos evoluídas deste Pokémon serão instantaneamente considerados Prestativos ao pokémon de forma mais evoluída, e o obedecerão dentro de suas limitações. Quando aplicada a pokémons que não evoluem, Hierarquia considera que os liderados são aqueles que possuem pelo menos 10 Níveis a menos que os líderes. Um pokémon Prestativo não pode ser ordenado a atacar sem motivo, e qualquer tentativa de capturá-lo falhará e fará o pokémon fugir. Contudo, mesmo um pokémon possuído por um humano que possua Hierarquia se submeterá à Hierarquia se encontrar uma forma mais evoluída de si – se possui mais de uma forma – ou se encontrar um pokémon com pelo menos dez Níveis a mais que ele – se for um pokémon que não evolui. Neste caso, o pokémon selvagem que possui poder sobre ele pode se tornar hostil e atacar tanto o próprio pokémon quanto o humano que questionar suas ordens, uma vez que ele espera que ser obedecido.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

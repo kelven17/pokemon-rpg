@@ -1,0 +1,12 @@
+{
+  "name": "Força",
+  "type": "capacity",
+  "img": "icons/svg/strong.svg",
+  "system": {
+    "description": "<p>A Força representa a potência muscular do pokémon. Esta Capacidade possui um valor que varia de 1 a 10, correspondente ao peso que este pokémon pode suspender fisicamente. O peso dado é uma média, e dependendo de quão bem treinados são os seus pokémons, eles podem ser capazes de erguer um pouco mais que a média. Com base em quanto eles podem levantar, é possível prever o quanto eles podem empurrar ou quanta força eles podem colocar em seus ataques. Se um pokémon for alimentado e treinado apropriadamente tendo em vista o aumento de sua massa muscular, o Narrador pode permitir o aumento da Força de um pokémon em 1. Força Peso Erguido Força Peso Erguido 1 5 kg 6 227 kg 2 23 kg 7 340 kg 3 45 kg 8 455 kg 4 90 kg 9 1135 kg 5 158 kg 10 1815 kg</p>",
+    "value": null,
+    "category": "numeric",
+    "maxValue": 10,
+    "effect": ""
+  }
+}

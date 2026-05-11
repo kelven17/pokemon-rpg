@@ -183,6 +183,18 @@ POKEMON_RPG.abilityTriggers = {
 };
 
 /* -------------------------------------------- */
+/*  Categorias de Capacidades                    */
+/* -------------------------------------------- */
+
+POKEMON_RPG.capacityCategories = {
+  "numeric":    "POKEMON_RPG.CapacityCategory.Numeric",
+  "movement":   "POKEMON_RPG.CapacityCategory.Movement",
+  "special":    "POKEMON_RPG.CapacityCategory.Special",
+  "sense":      "POKEMON_RPG.CapacityCategory.Sense",
+  "naturewalk": "POKEMON_RPG.CapacityCategory.Naturewalk"
+};
+
+/* -------------------------------------------- */
 /*  Descritores de Concursos                     */
 /* -------------------------------------------- */
 

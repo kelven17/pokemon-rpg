@@ -194,7 +194,26 @@
       "AbilitiesBundleVersion": {
         "Name": "Versão do Bundle de Habilidades Importado",
         "Hint": "Controla qual versão do bundle de habilidades já foi importada para o compendium World-side."
+      },
+      "CapacitiesBundleVersion": {
+        "Name": "Versão do Bundle de Capacidades Importado",
+        "Hint": "Controla qual versão do bundle de capacidades já foi importada para o compendium World-side."
       }
+    },
+
+    "CapacityCategory": {
+      "Numeric":    "Numérica",
+      "Movement":   "Deslocamento",
+      "Special":    "Especial",
+      "Sense":      "Sentido",
+      "Naturewalk": "Caminhada Natural"
+    },
+
+    "Capacity": {
+      "Label":    "Capacidade",
+      "Value":    "Valor",
+      "MaxValue": "Valor Máximo",
+      "Effect":   "Efeito"
     },
 
     "AbilityTrigger": {

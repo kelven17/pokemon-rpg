@@ -1,0 +1,12 @@
+{
+  "name": "Família",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon com esta Capacidade possui um dimorfismo sexual tão grande que os machos e fêmeas são classificados como espécies diferentes, mas são contados como de uma mesma espécie para fins de procriação, conforme a tabela abaixo, em que pokémons da mesma linha evolutiva e família estão incluídos na mesma linha. Fêmea Macho Ilumise Volbeat Latias Latios Lunatone/Solrock Solrock/Lunatone Miltank Tauros Minun/ Plusle Plusle/Minun Nidoran/Nidorina/Nidoqueen Nidoran/Nidorino/Nidoking Smoochum/Jynx Mime Jr./Mr. Mime Vullaby/Mandibuzz Rufflet/Braviary Como exceção se encontram Plusle e Minun, que podem ser machos e fêmeas igualmente e constituem uma só espécie, mas de polaridades elétricas opostas. Se um ovo dará origem a um Minun ou a um Plusle, pode nascer tanto macho quanto fêmea de qualquer uma das espécies. Outro par de exceções são Lunatone e Solrock, que são ambos são assexuados e da mesma família. Eles podem agir como machos ou fêmeas para fins de procriação quando gerando um pokémon com outro pokémon assexuado, como normalmente ocorre.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

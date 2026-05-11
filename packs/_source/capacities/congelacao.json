@@ -1,0 +1,12 @@
+{
+  "name": "Congelação",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon congelante pode mirar uma área no solo e transformá-la em Terreno Gelado usando sua Ação de Movimento durante seu turno. Ele pode fazer isso Rodada Sim Rodada Não e rola 1d20 para determinar a quantidade máxima de terreno transformado em Terreno Gelado: Resultado Quantidade de Metros Quadrados Congelados 1 1 6 5 9 7 12 10 15 15 18 20 20 30</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

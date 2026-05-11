@@ -1,0 +1,12 @@
+{
+  "name": "Amorfia",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Amorfos não possuem uma forma consistente. Eles podem desfazer seu padrão como líquido e se reformar posteriormente. Eles podem esticar seu corpo e se condensar também. Ao fazer isso, um pokémon pode acessar lugares que outros não poderiam, passando através de uma fechadura ou de uma fresta se quiserem.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

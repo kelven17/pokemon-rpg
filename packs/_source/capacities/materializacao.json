@@ -1,0 +1,12 @@
+{
+  "name": "Materialização",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>materializadores podem criar rochas a partir do nada. A rocha pode ser criada do tamanho de uma pedrinha ou até do tamanho de uma pessoas. Para cada 2,5 kg de rocha criada, o pokémon perde 2 Pontos de Vida. A rocha é formada adjacente ao pokémon e o pokémon não pode criar algo maior do que 25 kg por rodada. Ele cria a rocha usando sua Ação de Movimento da rodada.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

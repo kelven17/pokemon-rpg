@@ -1,0 +1,12 @@
+{
+  "name": "Calor",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>um pokémon com esta Capacidade é sempre quente ao toque.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

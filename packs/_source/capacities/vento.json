@@ -1,0 +1,12 @@
+{
+  "name": "Vento",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>o pokémon pode criar rajadas de vento. A força pode variar desde uma brisa leve a uma poderosa rajada de ar capaz de levantar objetos leves no ar ou de fornecer sustentação para uma calha.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

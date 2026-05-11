@@ -1,0 +1,12 @@
+{
+  "name": "Onirismo",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um onírico pode produzir o material onírico manipulado pela máquina do Hipnólogo.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

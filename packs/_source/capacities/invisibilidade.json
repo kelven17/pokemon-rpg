@@ -1,0 +1,12 @@
+{
+  "name": "Invisibilidade",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>pokémons que possuem a Capacidade Invisibilidade podem se tornar invisíveis. Eles não podem usar Golpes enquanto invisíveis, mas impõem um aumento de +4 às Dificuldades de Acurácia para ataques feitos contra ele. Quando um pokémon se torna invisível, ele só pode permanecer invisível por até 4 minutos. Depois de se tornar visível, ele deve esperar um número de minutos igual a 2 + o número de minutos que esteve invisível antes de se tornar invisível novamente.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

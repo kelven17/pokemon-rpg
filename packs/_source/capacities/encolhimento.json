@@ -1,0 +1,12 @@
+{
+  "name": "Encolhimento",
+  "type": "capacity",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um pokémon que encolhe pode reduzir seu tamanho a até 75% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon encolhido, as Dificuldades de Acurácia são aumentadas em 3. Usar Encolhimento não é o mesmo que usar Minimizar.</p>",
+    "value": null,
+    "category": "special",
+    "maxValue": null,
+    "effect": ""
+  }
+}

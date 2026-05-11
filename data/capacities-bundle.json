@@ -1,0 +1,602 @@
+[
+{
+"name": "Força",
+"type": "capacity",
+"img": "icons/svg/strong.svg",
+"system": {
+"description": "<p>A Força representa a potência muscular do pokémon. Esta Capacidade possui um valor que varia de 1 a 10, correspondente ao peso que este pokémon pode suspender fisicamente. O peso dado é uma média, e dependendo de quão bem treinados são os seus pokémons, eles podem ser capazes de erguer um pouco mais que a média. Com base em quanto eles podem levantar, é possível prever o quanto eles podem empurrar ou quanta força eles podem colocar em seus ataques. Se um pokémon for alimentado e treinado apropriadamente tendo em vista o aumento de sua massa muscular, o Narrador pode permitir o aumento da Força de um pokémon em 1. Força Peso Erguido Força Peso Erguido 1 5 kg 6 227 kg 2 23 kg 7 340 kg 3 45 kg 8 455 kg 4 90 kg 9 1135 kg 5 158 kg 10 1815 kg</p>",
+"value": null,
+"category": "numeric",
+"maxValue": 10,
+"effect": ""
+}
+},
+{
+"name": "Inteligência",
+"type": "capacity",
+"img": "icons/svg/strong.svg",
+"system": {
+"description": "<p>A Capacidade inteligência é quantificada de 1 a 7, representando o intelecto do pokémon. A Inteligência é uma expectativa média de todos os membros daquela espécie pokémon. Quanto mais esperto for o pokémon, mais fácil será que aja por conta própria se não for possível comandá-lo. Isso também significa que as espécies de pokémons mais inteligentes são uma ameaça muito maior, pois planejam e desenvolvem sociedades completamente próprias. Inteligência Intelecto Pensamentos Incapaz dos mais simples 1 Vegetal pensamentos 2 Animal Autoconsciente Não desenvolve tarefas por si Animal 3 próprio, mas é capaz de seguir Inteligente a liderança e as ordens alheias 4 Deficiente Pode criar e usar Ferramentas 5 Humano Como uma pessoa comum 6 Superior Pode agir como um líder</p>",
+"value": null,
+"category": "numeric",
+"maxValue": 7,
+"effect": ""
+}
+},
+{
+"name": "Salto",
+"type": "capacity",
+"img": "icons/svg/strong.svg",
+"system": {
+"description": "<p>Esta Capacidade é quantificada de 1 a 10, indicando a altura máximo que o pokémon é capaz de saltar no ar. Se o seu Pokémon usar sua Capacidade Salto durante uma rodada de um encontro, ele será considerado como usando seu Deslocamento para aquela rodada (e se lembre de que não se pula apenas para cima). Salto Altura Salto Altura 1 1 m 6 7,6 m 2 2 m 7 10, 6 m 3 3 m 8 15,2 m 4 4,5 m 9 21 m 5 6 m 10 30 m</p>",
+"value": null,
+"category": "numeric",
+"maxValue": 10,
+"effect": ""
+}
+},
+{
+"name": "Adesão",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon com Adesão trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, mesmo que seja uma superfície lisa. O teto também é considerado um Terreno Regular para este pokémon da mesma forma.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Afundamento",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon que afunda não pode nadar ou se mover em água. A cada rodada que esteja em água profunda o suficiente para estar submerso, ele começa a sufocar, ou seja, ele perde 25% de seus Pontos de Vida máximos. Se ele alcançar -100% dos Pontos de Vida devido a isso, ele começa a fazer Testes de Morte normalmente.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Alcance",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon com Alcance pode fazer ataques Corpo a Corpo em alvos a até cinco metros de distância dele. Normalmente, o Alcance adicional se deve a um dos seguintes motivos: o pokémon é muito grande; o pokémon possui membros que se alongam suficientemente para atacar a grandes distâncias; o pokémon possui métodos inerentes de atirar ou arremessar armas.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Amorfia",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Amorfos não possuem uma forma consistente. Eles podem desfazer seu padrão como líquido e se reformar posteriormente. Eles podem esticar seu corpo e se condensar também. Ao fazer isso, um pokémon pode acessar lugares que outros não poderiam, passando através de uma fechadura ou de uma fresta se quiserem.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Aura",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Pokémons que podem usar a Aura podem ler auras e também manipular sua própria aura. Todos os pokémons e humanos possuem auras, mas a maioria não pode acessá-las. Auras variam em coloração: quanto mais vívida é a cor (ou seja, menos clara e transparente), mais emoção domina aquela pessoa naquele momento; e quanto mais escura, mais intenções ruins aquela pessoa possui. A leitura de auras não permite ler mentes, mas auras são pessoais e visíveis mesmo na escuridão. O pokémon pode tornar sua própria aura aparente em coloração para outros, indicando sua intenção a pokémons e humanos, que instintivamente receberão as mesmas informações como se estivesse lendo a sua aura.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Bruxaria",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um bruxo pode amaldiçoar pessoas e pokémons. Apenas merecedores da maldição podem recebê-la, e são considerados merecedores os traidores, os quebradores de promessas importantes, aqueles que cometeram grandes crimes e os causadores de catástrofes (mesmo acidentais). Uma criatura se torna um alvo válido de Bruxaria se ela estiver disposta a se sacrificar por um dos merecedores. A maldição pode assumir a forma de praticamente qualquer coisa. Se o alvo deixar de ser merecedor, ele se liberta da maldição. Isso normalmente requer redenção ou reparação por parte do alvo. Se uma criatura se voluntariou no lugar de um merecedor, apenas se o merecedor se redimir ela será libertada da maldição.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Calor",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon com esta Capacidade é sempre quente ao toque.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Camuflagem",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon com Camuflagem é um usuário avançado do Silêncio. Enquanto se desloca, a menos que ele propositadamente queira fazer barulho, ele não faz nenhum som. A menos que ele tenha usado um Golpe À Distância na rodada atual ou na anterior, Golpes À Distância não podem ter este pokémon como alvo se ele estiver em Terreno Acidentado ou se houver Terreno Acidentado entre ele e o atacante. Além disso, sempre que o pokémon com Camuflagem for alvo de um Golpe, a Dificuldade de Acurácia do atacante é aumentada em 2.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Combustão",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um combustível pode produzir chamas. Ele pode controlar a intensidade e a quantidade das chamas criadas e podem fazer lufadas de fogo cujo tamanho pode ser desde a chama de um isqueiro a uma explosão grande o suficiente para engolfar uma árvore.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Congelação",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon congelante pode mirar uma área no solo e transformá-la em Terreno Gelado usando sua Ação de Movimento durante seu turno. Ele pode fazer isso Rodada Sim Rodada Não e rola 1d20 para determinar a quantidade máxima de terreno transformado em Terreno Gelado: Resultado Quantidade de Metros Quadrados Congelados 1 1 6 5 9 7 12 10 15 15 18 20 20 30</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Eletricidade",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Pokémons com esta Capacidade podem produzir eletricidade controlada e enviar correntes elétricas através de vários materiais condutores. Se um dispositivo elétrico é capaz de ser recarregado, um pokémon com Eletricidade pode recarregá-lo totalmente fazendo uma rolagem de 1d20. Se o resultado for 13 ou mais, ele tem sucesso em recarregar o dispositivo.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Encolhimento",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon que encolhe pode reduzir seu tamanho a até 75% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon encolhido, as Dificuldades de Acurácia são aumentadas em 3. Usar Encolhimento não é o mesmo que usar Minimizar.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Escalada",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um escalador trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, a menos que seja uma superfície lisa.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Família",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon com esta Capacidade possui um dimorfismo sexual tão grande que os machos e fêmeas são classificados como espécies diferentes, mas são contados como de uma mesma espécie para fins de procriação, conforme a tabela abaixo, em que pokémons da mesma linha evolutiva e família estão incluídos na mesma linha. Fêmea Macho Ilumise Volbeat Latias Latios Lunatone/Solrock Solrock/Lunatone Miltank Tauros Minun/ Plusle Plusle/Minun Nidoran/Nidorina/Nidoqueen Nidoran/Nidorino/Nidoking Smoochum/Jynx Mime Jr./Mr. Mime Vullaby/Mandibuzz Rufflet/Braviary Como exceção se encontram Plusle e Minun, que podem ser machos e fêmeas igualmente e constituem uma só espécie, mas de polaridades elétricas opostas. Se um ovo dará origem a um Minun ou a um Plusle, pode nascer tanto macho quanto fêmea de qualquer uma das espécies. Outro par de exceções são Lunatone e Solrock, que são ambos são assexuados e da mesma família. Eles podem agir como machos ou fêmeas para fins de procriação quando gerando um pokémon com outro pokémon assexuado, como normalmente ocorre.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Faro",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Os pokémons farejadores têm um forte olfato que eles podem usar para rastrear pokémons e humanos. Se este pokémon tiver farejado o pokémon ou o humano que ele deseja rastrear ou um pertence que esteve em contato com ele, é possível tentar perseguir esta presa. Para tanto, ele deve rolar 1d20. Se o resultado for 11 ou mais, ele encontra o odor e pode seguir a presa. É possível farejar um odor aleatório e segui-lo, mas o resultado da rolagem de 1d20 deve ser pelo menos 16. Para farejar um odor específico de alguém (um pokémon ou um humano) sem nenhum pertence ou sem tê-lo cheirado, o pokémon deve obter um resultado pelo menos 20. O pokémon farejador só pode usar seu Faro uma vez a cada hora.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Fiação",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon fiador pode usar esta Capacidade consumindo sua Ação de Movimento. Um Deslocamento de Fio é usado quando um pokémon atira uma linha fina e forte (como de seda, de vinha ou de teia) até um ponto e se retrai através dela rapidamente, puxando-se até o objeto acertado inicialmente (ou puxando o objeto até si, caso o objeto seja mais leve que o pokémon). A linha de seda ou vinha pode alcançar até dez metros de comprimento. Se ela for atirada em uma criatura (um pokémon ou um humano), é necessário fazer um Teste de Acurácia com Dificuldade de Acurácia 6. Como o Deslocamento de Fio é feito consumindo sua Ação de Movimento, o pokémon ainda pode usar um Golpe em seu turno normalmente.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Frio",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon com esta Capacidade é sempre frio ao toque.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Geleira",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>este pokémon trata Terreno Gelado como Terreno Regular se for vantajoso para ele.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Guelras",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>o pokémon respira embaixo d’água, podendo permanecer submerso quanto tempo quiser.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Hierarquia",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon com Hierarquia pertence instintivamente a uma estrutura social rígida e é naturalmente inclinado a tentar alcançar o topo desta estrutura. Os pokémons selvagens que são formas menos evoluídas deste Pokémon serão instantaneamente considerados Prestativos ao pokémon de forma mais evoluída, e o obedecerão dentro de suas limitações. Quando aplicada a pokémons que não evoluem, Hierarquia considera que os liderados são aqueles que possuem pelo menos 10 Níveis a menos que os líderes. Um pokémon Prestativo não pode ser ordenado a atacar sem motivo, e qualquer tentativa de capturá-lo falhará e fará o pokémon fugir. Contudo, mesmo um pokémon possuído por um humano que possua Hierarquia se submeterá à Hierarquia se encontrar uma forma mais evoluída de si – se possui mais de uma forma – ou se encontrar um pokémon com pelo menos dez Níveis a mais que ele – se for um pokémon que não evolui. Neste caso, o pokémon selvagem que possui poder sobre ele pode se tornar hostil e atacar tanto o próprio pokémon quanto o humano que questionar suas ordens, uma vez que ele espera que ser obedecido.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Incubação",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um incubador pode manter um ovo em calor seguro com melhores condições que um humano. Os ovos mantidos com ele reduzem em duas horas diariamente o tempo necessário para eclodirem.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Ininteligível",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>ininteligíveis são pokémons que não podem ter suas mentes lidas.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Intangibilidade",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon intangível pode se deslocar através de Terreno Acidentado e de Terreno Bloqueador sem que eles prejudiquem seus Deslocamentos. Eles podem se tornar intangíveis e se mover através de paredes sólidas ou mesmo através de outros pokémons e humanos, mas só podem permanecer intangíveis por até 30 segundos (ou cinco rodadas) consecutivos antes de terem que se tornar tangíveis de novo e repetir o processo. Enquanto o pokémon está intangível, ele não pode usar Golpes durante aquela rodada.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Invisibilidade",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>pokémons que possuem a Capacidade Invisibilidade podem se tornar invisíveis. Eles não podem usar Golpes enquanto invisíveis, mas impõem um aumento de +4 às Dificuldades de Acurácia para ataques feitos contra ele. Quando um pokémon se torna invisível, ele só pode permanecer invisível por até 4 minutos. Depois de se tornar visível, ele deve esperar um número de minutos igual a 2 + o número de minutos que esteve invisível antes de se tornar invisível novamente.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Luminar",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um luminar pode emitir luz a partir de alguma porção de seu corpo. Dependendo das espécies selvagens locais, isso pode atrair pokémons ou os afastar.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Magnetismo",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>pokémons magnéticos podem manipular o magnetismo de ambientes. Eles podem repelir ou atrair metais ou ligas metálicas puxando-os até si ou empurrando-os para longe. Através dessa manipulação do magnetismo, eles também podem sentir o magnetismo terrestre e discernir o norte magnético.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Manancial",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um manancial pode produzir água potável. Ele pode controlar a intensidade do jorro da água e sua quantidade, borrifando água singelamente ou mesmo atirando com a força de uma mangueira de incêndio.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Materialização",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>materializadores podem criar rochas a partir do nada. A rocha pode ser criada do tamanho de uma pedrinha ou até do tamanho de uma pessoas. Para cada 2,5 kg de rocha criada, o pokémon perde 2 Pontos de Vida. A rocha é formada adjacente ao pokémon e o pokémon não pode criar algo maior do que 25 kg por rodada. Ele cria a rocha usando sua Ação de Movimento da rodada.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Obrigatoriedade",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>esta Capacidade denota uma Habilidade que deve ser obrigatoriamente atribuída ao pokémon. Cada pokémon com Obrigatoriedade possuirá a Habilidade associada a ele descrita junto a esta Capacidade. Se o pokémon já possui Obrigatoriedade desde a sua primeira forma evolutiva, ele não tem direito a escolher sua Habilidade no Nível 1, devendo ficar com a Habilidade descrita junto à Capacidade Obrigatoriedade. Caso contrário, ele deve escolher a Habilidade no lugar de sua segunda Habilidade, assim que possível (no Nível 40), não sendo permitido escolher outra Habilidade senão ela.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Onirismo",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um onírico pode produzir o material onírico manipulado pela máquina do Hipnólogo.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Presciência",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um presciente pode prever o futuro, contudo as previsões não estão sob a vontade dele. O Narrador determina como é a previsão (uma visão, um sonho, uma intuição, etc.) e dita as informações recebidas, que podem ser desde completamente vagas a diretamente úteis, de caso para caso, conforme a vontade do Narrador.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Rebento",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon com Rebento pode rapidamente influenciar o crescimento de plantas e da flora ao seu redor. Em seis segundos, um rebento pode fazer uma planta crescer um metro mais alta ou mais larga do que era. Através do uso de Rebento, os pokémons podem fazer as plantas crescerem a até 125% do tamanho normal que se tornariam naturalmente, criando versões maiores de plantas. Para cada duas rodadas (ou doze segundos) usando Rebento um pokémon deve sacrificar 1 Pontos de Vida. O uso de Rebento consome a Ação de Movimento do pokémon.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Repeteco",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Wobbufett é um pokémon muito limitado quando se trata de sua variedade de Golpes, contudo ele pode usar os Golpes Contra-Ataque e Escudo Espelho como Golpes com Frequência Rodada Sim Rodada Não, em vez de Golpes com Frequência Por Encontro. Após o primeiro uso de Escudo Espelho ou de Contra-Ataque durante um encontro, ou seja, durante a segunda vez que usar Escudo Espelho ou durante a segunda vez que usar Contra-Ataque, Wobbufett reduz sua Defesa e sua Defesa Especial em 10. Esta penalidade só é efetiva para fins de calcular o dano causado por Escudo Espelho e por ContraAtaque a partir do segundo uso de cada um destes Golpes. A penalidade permanece até o fim do encontro. Se um Elixir for usado em Wobbufett, esta penalidade é totalmente anulada, como se o encontro tivesse começado naquele momento; e se um Magnificador for usado, o Golpe afetado por ele entre Contra-Ataque ou Escudo Espelho tem esta penalidade anulada como se o encontro tivesse começado naquele momento.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Secreção",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Quando Shuckle estiver com uma fruta como item Mantido, depois de 24 horas sem a fruta ser consumida, ela será espremida e armazenada na casca do Shuckle. A partir daí, a fruta se tornará um Concentrado mantido pelo Shuckle, e pode ser removido. Este Concentrado possui todas as propriedades da fruta original, mas Pontos de Vida que seriam curados por aquela fruta agora são curados em quantidade dobrada. Se o Concentrado for deixado com o Shuckle por duas semanas, ele será convertido a um Doce Raro.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Sedução",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Sedutores possuem ferormônios ou outros odores que são muito prazerosos. Eles podem atrair pokémons selvagens facilmente.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Silêncio",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon silencioso é excelente em se aproximar do inimigo para um ataque próximo. Enquanto se desloca, a menos que ele propositadamente queira fazer algum som, ele não faz nenhum barulho. A menos que ele tenha usado um Golpe À Distância na rodada atual ou na anterior, Golpes À Distância não podem ter este pokémon como alvo se ele estiver em Terreno Acidentado ou se houver Terreno Acidentado entre ele e o atacante.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Telecinesia",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon telecinético pode mover objetos com sua mente. Eles podem usar a Telecinesia em objetos que não estejam mais distantes que um número de metros igual ao Nível do pokémon. O peso dos objetos não pode exceder 2,5 quilogramas multiplicado por seu Nível.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Telepatia",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon telepata pode ler as mentes humanas e pokémons. Pokémons telepatas também podem projetar seus pensamentos para os seres humanos e pokémons. Estes só podem ler pensamentos superficiais, ou seja, aquilo que o indivíduo está pensando agora, e não memórias. O telepata não pode ler as mentes de pokémons cujas Inteligências sejam muito maiores ou muito menores que a Inteligência dele, de modo que uma diferença de mais que 1 de Inteligência já impossibilita a leitura mental. Lembrando que humanos são considerados com Inteligência 5.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Térreo",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>um pokémon térreo pode transformar o terreno ao seu redor para transformá-lo em Terreno Acidentado ou, se quiser, pode planificar Terreno Acidentado ao seu redor para transformá-lo em Terreno Regular. Ele o faz usando sua Ação de Movimento durante seu turno e pode fazê-lo Rodada Sim Rodada Não. Seu poder pode afetar até todos os quadrados adjacentes a ele.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Tumefação",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>Um pokémon que tumefaz pode expandir seu tamanho a até 125% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon inflado, as Dificuldades de Acurácia são reduzidas em 3, porém o pokémon se torna efetivamente um Terreno Bloqueador através do qual é impossível mirar.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Vento",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>o pokémon pode criar rajadas de vento. A força pode variar desde uma brisa leve a uma poderosa rajada de ar capaz de levantar objetos leves no ar ou de fornecer sustentação para uma calha.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Virtualidade",
+"type": "capacity",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "<p>pokémons virtuais têm uma relação especial com dispositivos eletrônicos. Eles podem entrar em máquinas e viajar instantaneamente através de eletrônicos conectados através de quaisquer cabos que os conectem. Enquanto dentro de um dispositivo ou de um sistema de dispositivos conectados, estes pokémons podem ler os dados daqueles aparelhos uma vez Diária. Eles podem também tentar assumir o controle do dispositivo eletrônico ou da máquina uma vez por hora fazendo uma rolagem de 1d20. Se o resultado for 16 ou mais, eles assumem o controle daquele aparelho. Deslocamentos Cada espécie pokémon se desloca de maneira diferente em condições diferentes. Alguns pokémons voam enquanto outros só nadam. Muitas espécies podem se tornar montarias, mas outras são pequenas demais para isso, mas podem ser infiltradoras ideais como resultado de seu tamanho. Todos os Deslocamentos possuem um valor numérico associado. Existem muitas situações que estes valores são modificados. Não há limites máximos para um Deslocamento. Existem muitas razões para manter anotados os Deslocamentos dos seus pokémons. Use a ficha do pokémon para fazer isso.</p>",
+"value": null,
+"category": "special",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Escavação",
+"type": "capacity",
+"img": "icons/svg/wing.svg",
+"system": {
+"description": "<p>Escavação é um Deslocamento que define a rapidez com a qual o pokémon pode se mover no subsolo. O número emparelhado com o Deslocamento de Escavação representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate no subsolo. Os buracos cavados são tão grandes quanto o pokémon que os cavar. O pokémon escavando tem conhecimento do seu entorno subterrâneo até um número de metros de distância igual ao seu valor de Deslocamento de Escavação.</p>",
+"value": null,
+"category": "movement",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Natação",
+"type": "capacity",
+"img": "icons/svg/wing.svg",
+"system": {
+"description": "<p>Natação é um Deslocamento que define a rapidez com a qual o pokémon se move através de uma superfície de água, desde que a profundidade da água permita pelo menos metade de seu corpo submerso. O número emparelhado com o Deslocamento de Natação representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate nestas condições.</p>",
+"value": null,
+"category": "movement",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Subaquático",
+"type": "capacity",
+"img": "icons/svg/wing.svg",
+"system": {
+"description": "<p>Subaquático é um Deslocamento que define a rapidez com a qual o pokémon se move através de água enquanto ele está totalmente submerso. O número emparelhado com o Deslocamento Subaquático representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate nestas condições. Sem a Capacidade Guelras, ele deve se mover pelo menos uma vez a cada quatro rodadas para o ar para não se sufocar, independente de seu Deslocamento Subaquático.</p>",
+"value": null,
+"category": "movement",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Terrestre",
+"type": "capacity",
+"img": "icons/svg/wing.svg",
+"system": {
+"description": "<p>Terrestre é um Deslocamento que define a rapidez com a qual o pokémon se move em uma superfície solida (em terra firme). O número emparelhado com o Deslocamento Terrestre representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate em terreno normal.</p>",
+"value": null,
+"category": "movement",
+"maxValue": null,
+"effect": ""
+}
+},
+{
+"name": "Voo",
+"type": "capacity",
+"img": "icons/svg/wing.svg",
+"system": {
+"description": "<p>Voo é um Deslocamento que define a rapidez com a qual o pokémon se move no ar enquanto voo, flutua ou levita. O número emparelhado com o Deslocamento de Voo representa quantos quadrados ou metros o pokémon pode se deslocar durante uma rodada de combate sem se apoiar em nenhuma superfície. Golpes Cada pokémon pode aprender Golpes, até o limite máximo de conhecer 8 Golpes. Golpes definem como um pokémon sobrevive e combate. Um Golpe pode ser usado para causar dano a um inimigo ou para alterar variáveis na batalha para ganhar vantagem. Há várias maneiras de um pokémon aprender um Golpe: um pokémon pode aprender um Golpe subindo de Nível, pode aprender evoluindo, pode já nascer conhecendo o Golpe ou pode ser ensinado por um Tutor ou por um Registro de um ensino. Golpes Naturais: Cada pokémon possui uma lista com os Golpes que são aprendidos conforme ele ganha mais experiência no mundo, conforme amadurece. Estes Golpes são aprendidos conforme o pokémon sobe de Nível ou assim que ele evolui para aquela forma evolutiva. Todos os Golpes que constam nesta lista – ainda que tenham sido aprendidos por um pokémon por outros métodos, como por terem sido ensinados por um Tutor ou por um Registro – sempre contam como Golpes Naturais, ou seja, não são contados para o número máximo de Golpes Ensináveis que um pokémon pode possuir. Golpes Herdados: Estes Golpes são obtidos quando um pokémon progenitor (pai ou mãe) conhece um Golpe e passa adiante ao filho a capacidade de usar aquele Golpe. Para tanto, o progenitor deve conhecer um Golpe que consta na lista de possíveis Golpes Herdados da espécie que nascerá. Cruzando espécies diferentes, é possível fazer filhotes nascerem já conhecendo Golpes poderosos ou até bizarros. Golpes Ensináveis: Além destes dois Tipos, há os Golpes Ensináveis. Existem vários mestres no mundo que assumem para si a função de ensinar Golpes, aprendendo a incutir o conhecimento. Se você puder encontrar um destes Tutores, consulte quais Golpes Ensináveis podem ser aprendidos pelo seu pokémon. Alguns Tutores chegam a ensinar Golpes que não constam nesta lista, conforme descrito na Classe Tutor, sendo muito valorizados. Um Golpe Ensinável pode ser aprendido mediante um Registro também. Registros são instruções que um Tutor deixa para que um Golpe seja aprendido sem precisar de sua presença. Os Golpes Universais (descritos na página 31 do Livro do Jogador) não são incluídos na lista de Golpes Ensináveis de cada pokémon. Se um pokémon não puder aprender um ou mais destes Golpes, isso estará descrito. Comportamento Aqui é explicado que tipo de comida o pokémon precisa para sobreviver e onde ele vive. Os carnívoros se alimentam principalmente de outros pokémons, os herbívoros geralmente precisam de folhas, vegetais, nozes e frutas para sobreviver, onívoros podem comer plantas ou outros pokémons, os fotossintetizantes realizam fotossíntese, produzindo seu próprio alimento e energia. A maioria dos pokémons se encaixa em uma destas três dietas. Alguns pokémons não se alimentam nem precisam de nenhum sustento, descritos como autônomos. Há também pokémons minerávoros, que se alimentam de rochas e minérios, e os pokémons eletrizantes, que subsistem a partir da eletricidade e dos campos magnéticos. Apesar de qualquer comportamento primário de alimentação, todos os pokémons podem se beneficiar de itens projetados para serem comestíveis a pokémons, como Sucos e Temperos. Ao acompanhar as necessidades nutricionais do seu pokémon, você pode influenciar suas condições de vida de uma maneira positiva e fazer sua parceria com você ser mais cooperativa. Existem alguns lugares em que uma espécie de pokémon não prosperará. Por razões óbvias, por exemplo, peixes só são encontradas na água, e não são vistos pulando no chão de concreto ou nas paredes das montanhas. Aqui são listados os biomas onde é encontrada aquela espécie pokémon. É necessário estar no bioma adequado para achar aquele pokémon, mas mesmo estando é possível que nenhum pokémon daquela espécie viva naquele local: talvez seja necessário se deslocar até outro lugar para achar determinada espécie, e algumas espécies têm uma colonização restrita a localidades muito específicas. Narrador A Chance de Captura e a Experiência são dois valores destinados ao uso do Narrador. A Chance de Captura é um número que não deve ser excedido em uma rolagem de 1d100 para se ter sucesso em capturar o pokémon. Ele é modificado pela quantidade de PV atuais do pokémon, por Condições e pela pokébola usada. A Experiência é a quantidade de Pontos de Experiência concedidos por aquele pokémon ao ser derrotado, multiplicada pelo Nível daquele pokémon. Esta quantidade é duplicada se for um pokémon de um humano, uma vez que tende a ser muito mais preparado, com mais Golpes diferentes e Habilidades programadas para ser mais difícil de derrotar. Como Jogador, ignore estes valores, pois eles são apenas sugestões e o Narrador pode mudá-los conforme sua impressão se um encontro foi fácil ou difícil.</p>",
+"value": null,
+"category": "movement",
+"maxValue": null,
+"effect": ""
+}
+}
+]
