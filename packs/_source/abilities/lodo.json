@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "sofrer dano por um destes Gol-",
+    "condicao": "sofrer dano por um destes Gol- pes: Absorção, Chifre Sanguessuga, Gigadreno, Megadreno, Sanguessuga, Semente Sanguessuga, Soco de Drenagem.",
     "effect": "após calcular a quantidade de Pontos de Vida que o atacante recuperaria usando o Golpe, ele sofre esta quantidade de dano, em vez de recuperar PV. Não aplique resistências e vulnerabilidades nem Atributos.",
     "usado": false,
     "trigger": "Gatilho Constante"

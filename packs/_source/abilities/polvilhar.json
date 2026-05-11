@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "ser acertado por um Golpe",
+    "condicao": "ser acertado por um Golpe causador de dano.",
     "effect": "este pokémon sofre apenas o dano do Golpe, sem nenhum outro efeito associado.",
     "usado": false,
     "trigger": "Gatilho Constante"

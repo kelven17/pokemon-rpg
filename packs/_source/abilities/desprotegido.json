@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "ser reduzido à metade dos PV",
+    "condicao": "ser reduzido à metade dos PV ou a menos que isso.",
     "effect": "assume a forma Nuclear.",
     "usado": false,
     "trigger": "Gatilho Constante"

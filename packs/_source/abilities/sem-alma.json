@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a todos os Golpes que não sejam superefetivos causadores de dano. É impossível aumentar a Saúde deste pokémon. Os Pontos de Vida máximos dele serão sempre 1, e ele não pode receber Pontos de Vida temporários. Shedinja nunca precisa fazer Testes de Morte. Shedinja jamais poderá se beneficiar de qualquer uma das Características de Classe do Inquebrável. Shedinja nunca pode receber a Habilidade Solidez. Especial: a Habilidade Sem Alma não pode ser copiada ou trocada de nenhuma forma, a menos que Arceus a esteja copiando para si.",
+    "effect": "imunidade a todos os Golpes que não sejam superefetivos causadores de dano. É impossível aumentar a Saúde deste pokémon. Os Pontos de Vida máximos dele serão sempre 1, e ele não pode receber Pontos de Vida temporários. Shedinja nunca precisa fazer Testes de Morte. Shedinja jamais poderá se beneficiar de qualquer uma das Características de Classe do Inquebrável. Shedinja nunca pode receber a Habilidade Solidez.<p><strong>Especial:</strong> a Habilidade Sem Alma não pode ser copiada ou trocada de nenhuma forma, a menos que Arceus a esteja copiando para si.</p>",
     "usado": false,
     "trigger": "Constante"
   }

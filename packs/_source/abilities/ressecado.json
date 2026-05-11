@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto o clima estiver Ensolarado, este pokémon perde um oitavo de seus PV máximos no início de cada rodada. Enquanto o clima estiver Chuvoso, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada. O pokémon Ressecado sofre Golpes de Fogo como se o Ataque e o Ataque Especial do pokémon que está usando o Golpe estivessem com uma Fase a mais. Golpes de Água curam pokémons Ressecados. Calcule o dano como se o pokémon Ressecado possuísse uma resistência ao Golpe e então cure o resultado do dano que seria sofrido. Revestimento Magmático 193 Constante Efeito: imunidade a Congelamento.",
+    "effect": "enquanto o clima estiver Ensolarado, este pokémon perde um oitavo de seus PV máximos no início de cada rodada. Enquanto o clima estiver Chuvoso, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada. O pokémon Ressecado sofre Golpes de Fogo como se o Ataque e o Ataque Especial do pokémon que está usando o Golpe estivessem com uma Fase a mais. Golpes de Água curam pokémons Ressecados. Calcule o dano como se o pokémon Ressecado possuísse uma resistência ao Golpe e então cure o resultado do dano que seria sofrido.",
     "usado": false,
     "trigger": "Constante"
   }

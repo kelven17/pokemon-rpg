@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "quando o pokémon for",
+    "condicao": "quando o pokémon for reduzido a zero Pontos de Vida ou menos.",
     "effect": "ocorre uma Explosão de cinco metros. Tudo dentro da área perde um quarto dos Pontos de Vida máximos, sem aplicar resistências ou vulnerabilidades nem aplicar Atributos.",
     "usado": false,
     "trigger": "Gatilho Constante"

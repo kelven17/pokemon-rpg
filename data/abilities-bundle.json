@@ -1,5 +1,19 @@
 [
 {
+"name": "maneira semelhante à Frequência de uso de Talentos.",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "Uma Habilidade Constante está sempre ativa. O portador não pode desabilitá-la, o que também significa que não há limites sobre seu uso. Ela simplesmente é contínua, seja para o bem ou para o mal. Gatilho: Se há um Gatilho, o pokémon só poderá usar sua Habilidade sob circunstâncias específicas. Algumas destas Habilidades possuem limites de uso, ou seja, mesmo que o Gatilho seja satisfeito novamente, a Habilidade não será novamente ativada se uma determinada quantidade de tempo ainda não tiver passado desde a última vez que foi u- sada. Se a Habilidade é acionada todas as vezes que o Gati- lho é satisfeito, ela é descrita como “Gatilho Constante”. Além das opções de Habilidades de cada pokémon, todos os pokémons podem escolher a Habilidade Última Chance direcionada um dos Tipos atuais do pokémon.",
+"effect": "",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
 "name": "Absorção de Água",
 "type": "ability",
 "img": "icons/svg/aura.svg",
@@ -120,7 +134,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "se o pokémon perder uma ou mais Fases por qualquer razão que não por seus próprios Golpes ou por suas próprias Habilidades, ele eleva duas Fases em Ataque para cada Fase que perder. Agrupamento Gatilho: estar em perigo. Efeito: ao assumir sua forma Completa, recupera todos os seus Pontos de Vida.",
+"effect": "se o pokémon perder uma ou mais Fases por qualquer razão que não por seus próprios Golpes ou por suas próprias Habilidades, ele eleva duas Fases em Ataque para cada Fase que perder. Agrupamento Gatilho: estar em perigo. ao assumir sua forma Completa, recupera todos os seus Pontos de Vida.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -148,9 +162,23 @@
 "hidden": false,
 "triggerKey": "gatilho-at-will",
 "condicao": "um aliado fica inconsciente.",
-"effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro. 183 Alucinógeno",
+"effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
+}
+},
+{
+"name": "Alucinógeno",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "quando este pokémon recebe Veneno, eleve duas Fases do Ataque dele. Se ele for curado da Condição, ele perde as duas Fases do Ataque.",
+"usado": false,
+"trigger": "Constante"
 }
 },
 {
@@ -161,7 +189,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "estar abaixo de metade dos PV",
+"condicao": "estar abaixo de metade dos PV máximos.",
 "effect": "o pokémon imediatamente começa a fugir, recebendo +20 a todos os seus Deslocamentos. Se o dono não convocar o pokémon de volta à pokébola em seu próximo turno, a Lealdade do pokémon será reduzida.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -175,7 +203,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-at-will",
-"condicao": "usar um Golpe causador de",
+"condicao": "usar um Golpe causador de dano (mas sem o Descritor Saraivada) e nenhum inimigo ter sido reduzido a zero Pontos de Vida ou menos por isso.",
 "effect": "o pokémon usa imediatamente o Golpe de novo contra o mesmo alvo, ou, se era uma Explosão, na mesma área. O segundo Golpe é representado pela filhota, por isso não aplica o Dano Basal, apenas o resto do dano.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
@@ -273,7 +301,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "este pokémon deixa outro",
+"condicao": "este pokémon deixa outro pokémon inconsciente usando um Golpe.",
 "effect": "eleve uma Fase de Ataque.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -301,7 +329,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -343,7 +371,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "os Pontos de Vida do pokémon",
+"condicao": "os Pontos de Vida do pokémon são reduzidos abaixo da metade de seus PV máximos.",
 "effect": "eleve duas Fases de Ataque Especial dele.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -358,7 +386,7 @@
 "hidden": false,
 "triggerKey": "ativacao-horaria",
 "condicao": "",
-"effect": "",
+"effect": "eleve uma Fase de Ataque Especial de todos os aliados adjacentes.",
 "usado": false,
 "trigger": "Ativação Horária"
 }
@@ -526,7 +554,7 @@
 "hidden": false,
 "triggerKey": "gatilho-horaria",
 "condicao": "um encontro acaba.",
-"effect": "role 1d20 e consulte a Tabela a seguir para determinar o que você encontra: Resultado Item Encontrado 1 a 5 Nenhum Um dos seguintes itens determinado aleatoriamente: X-Ataque, X-Defesa, X-Ataque 6 a 8 Especial, X-Defesa Especial, X-Velocidade, X- Acurácia, Golpe Atroz, Guarda Especial. 9 ou 10 Uma fruta determinada aleatoriamente. 11 ou 12 Uma pokébola determinada aleatoriamente. Um item que restaura Pontos de Vida ou 13 a 16 Condições determinado aleatoriamente. Uma Pedra Elemental determinada aleatoriamente. 18 Uma Vitamina determinada aleatoriamente. Um Item Mantido determinado aleatoriamente. 20 Um Registro determinado aleatoriamente.",
+"effect": "role 1d20 e consulte a Tabela a seguir para determinar o que você encontra: Resultado Item Encontrado 1 a 5 Nenhum Um dos seguintes itens determinado aleatoriamente: X-Ataque, X-Defesa, X-Ataque 6 a 8 Especial, X-Defesa Especial, X-Velocidade, X- Acurácia, Golpe Atroz, Guarda Especial. 9 ou 10 Uma fruta determinada aleatoriamente. ou 12 Uma pokébola determinada aleatoriamente. Um item que restaura Pontos de Vida ou a 16 Condições determinado aleatoriamente. Uma Pedra Elemental determinada aleatoriamente. Uma Vitamina determinada aleatoriamente. Um Item Mantido determinado aleatoriamente. Um Registro determinado aleatoriamente.",
 "usado": false,
 "trigger": "Gatilho Horário"
 }
@@ -735,7 +763,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "sofrer dano de um dos",
+"condicao": "sofrer dano de um dos seguintes Tipos: Fantasma, Inseto ou Noturno.",
 "effect": "eleva uma Fase de Velocidade.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -763,7 +791,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-horaria",
-"condicao": "o pokémon está a até 10 metros",
+"condicao": "o pokémon está a até 10 metros de um pokémon que usa um Golpe com o Descritor Dança.",
 "effect": "o pokémon com Dança pode usar imediatamente o mesmo Golpe, escolhendo um novo alvo se for necessário escolher alvos para aquele Golpe.",
 "usado": false,
 "trigger": "Gatilho Horário"
@@ -777,7 +805,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "estar abaixo da metade dos PV",
+"condicao": "estar abaixo da metade dos PV máximos.",
 "effect": "este pokémon tem suas Fases de Ataque e de Ataque Especial diretamente reduzidas a três Fases negativas. As Fases não podem ser elevadas acima disso a menos que ele recupere seus Pontos de Vida acima da metade dos PV máximos.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -847,7 +875,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-horaria",
-"condicao": "ser acertado por um Golpe de",
+"condicao": "ser acertado por um Golpe de Água.",
 "effect": "eleve três Fases de Velocidade.",
 "usado": false,
 "trigger": "Gatilho Horário"
@@ -875,7 +903,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser reduzido à metade dos PV",
+"condicao": "ser reduzido à metade dos PV ou a menos que isso.",
 "effect": "assume a forma Nuclear.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -889,7 +917,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "o pokémon sofre dano por um",
+"condicao": "o pokémon sofre dano por um Golpe pela primeira vez em um encontro.",
 "effect": "o pokémon não sofre o dano e nenhum outro efeito associado ao Golpe.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -945,7 +973,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "ser acertado por um Golpe Corpo a",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante está Paralisado.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -1002,7 +1030,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "quando este pokémon recebe Congelamento, Paralisia, Queimadura, Sono ou Veneno, eleve duas Fases da Defesa Especial dele. Se ele for curado da Condição, ele perde as duas Fases da Defesa Especial. Escrita Ativação Semanal Efeito: 1d2 Unown aparecem. Eles não são hostis.",
+"effect": "quando este pokémon recebe Congelamento, Paralisia, Queimadura, Sono ou Veneno, eleve duas Fases da Defesa Especial dele. Se ele for curado da Condição, ele perde as duas Fases da Defesa Especial. Escrita Ativação Semanal 1d2 Unown aparecem. Eles não são hostis.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -1015,7 +1043,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "sofrer dano quando antes",
+"condicao": "sofrer dano quando antes estava com seus Pontos de Vida completos.",
 "effect": "reduza o dano à metade depois da aplicação de vulnerabilidades e resistências e da aplicação de Defesa ou Defesa Especial.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1029,7 +1057,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1043,7 +1071,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "ser acertado por um Golpe Corpo a",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante é Envenenado.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -1071,7 +1099,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "role 1d20. Se o resultado for 15 ou 16, o atacante está Envenenado. Se o resultado for 17 ou 18, ele está Paralisado. Se o resultado for 19 ou 20, ele sofre Sono.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1113,7 +1141,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "usar um Golpe causador de",
+"condicao": "usar um Golpe causador de dano.",
 "effect": "os alvos do Golpe ficam Atordoados se o resultado do Teste de Acurácia for 19 ou 20. Se o Golpe já possuía uma chance de Atordoar condicionada à obtenção de determinado número mínimo no Teste de Acurácia, reduza em 2 o resultado mínimo no Teste de Acurácia para ter sucesso em Atordoar.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1141,7 +1169,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe superefetivo.",
 "effect": "reduza a quantidade de Pontos de Vida perdidos a três quartos da quantidade que seria perdida.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1155,7 +1183,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe causador de dano.",
 "effect": "eleve uma Fase de Defesa do pokémon após o dano ser sofrido.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1197,7 +1225,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "acertar um Golpe causador de",
+"condicao": "acertar um Golpe causador de dano superefetivo.",
 "effect": "+3d20 à rolagem de dano.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1211,7 +1239,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "ser acertado por um Golpe Corpo a",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante está com Queimadura.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -1253,8 +1281,8 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-at-will",
-"condicao": "ser acertado por um Golpe",
-"effect": "o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho Efeito: quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.",
+"condicao": "ser acertado por um Golpe Físico.",
+"effect": "o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
 }
@@ -1351,7 +1379,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "acertar um Golpe Corpo a",
+"condicao": "acertar um Golpe Corpo a Corpo causador de dano.",
 "effect": "+15 à rolagem de dano.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1365,7 +1393,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "acertar um oponente que possui",
+"condicao": "acertar um oponente que possui um item Mantido com um Golpe Corpo a Corpo.",
 "effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -1379,7 +1407,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "sofrer dano de Fogo ou de",
+"condicao": "sofrer dano de Fogo ou de Gelo.",
 "effect": "independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo e de Gelo.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1562,7 +1590,7 @@
 "hidden": false,
 "triggerKey": "ativacao-horaria",
 "condicao": "",
-"effect": "um pokémon alvo do Tipo Metálico não 189 poderá se deslocar para mais longe do que 20 metros do pokémon com Ímã. A critério do pokémon, ele pode impor que o pokémon Metálico alvo não possa se aproximar para mais perto do que 20 metros dele.",
+"effect": "um pokémon alvo do Tipo Metálico não poderá se deslocar para mais longe do que 20 metros do pokémon com Ímã. A critério do pokémon, ele pode impor que o pokémon Metálico alvo não possa se aproximar para mais perto do que 20 metros dele.",
 "usado": false,
 "trigger": "Ativação Horária"
 }
@@ -1729,7 +1757,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "usar um Golpe com o Descritor",
+"condicao": "usar um Golpe com o Descritor Saraivada.",
 "effect": "o Golpe pode ser usado pelo maior número de vezes possível, mesmo que haja falhas em acertar.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1757,7 +1785,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "sofrer dano por um destes Gol-",
+"condicao": "sofrer dano por um destes Gol- pes: Absorção, Chifre Sanguessuga, Gigadreno, Megadreno, Sanguessuga, Semente Sanguessuga, Soco de Drenagem.",
 "effect": "após calcular a quantidade de Pontos de Vida que o atacante recuperaria usando o Golpe, ele sofre esta quantidade de dano, em vez de recuperar PV. Não aplique resistências e vulnerabilidades nem Atributos.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -1799,7 +1827,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-at-will",
-"condicao": "acertar um oponente que",
+"condicao": "acertar um oponente que possui um item Mantido com um Golpe À Distância.",
 "effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
@@ -1828,7 +1856,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "ninguém pode usar Golpes com o Descritor 190 Interrupção a até 20 metros da Majestade.",
+"effect": "ninguém pode usar Golpes com o Descritor Interrupção a até 20 metros da Majestade.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -1883,7 +1911,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "elevar uma ou mais Fases ou",
+"condicao": "elevar uma ou mais Fases ou perder uma ou mais Fases.",
 "effect": "dobre o número de Fases elevadas ou perdidas.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2009,7 +2037,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "sofrer dano quando antes",
+"condicao": "sofrer dano quando antes estava com seus Pontos de Vida completos.",
 "effect": "reduza o dano à metade antes da aplicação de vulnerabilidades e resistências e antes da aplicação de Defesa ou Defesa Especial.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2024,7 +2052,7 @@
 "hidden": false,
 "triggerKey": "ativacao-at-will",
 "condicao": "",
-"effect": "Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais. Especial: a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.",
+"effect": "Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais.<p><strong>Especial:</strong> a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.</p>",
 "usado": false,
 "trigger": "Ativação À Vontade"
 }
@@ -2037,7 +2065,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante substitui uma das Habilidades dele por Múmia por 1d6+2 rodadas.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2107,7 +2135,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "este pokémon causa dano a um",
+"condicao": "este pokémon causa dano a um alvo que resiste àquele Tipo de dano.",
 "effect": "dobre o dano causado.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2149,7 +2177,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe Corpo a Corpo.",
 "effect": "o atacante perde uma Fase de Velocidade.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2163,7 +2191,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe À",
+"condicao": "ser acertado por um Golpe À Distância que inflige uma Condição ou algo semelhante (incluindo Desabilitar).",
 "effect": "jogue um dado. Se o resultado for par, o pokémon ignora aquilo que seria infligido a ele.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2205,7 +2233,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe À",
+"condicao": "ser acertado por um Golpe À Distância.",
 "effect": "eleve uma Fase da Velocidade.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2261,7 +2289,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado por um Golpe",
+"condicao": "ser acertado por um Golpe causador de dano.",
 "effect": "este pokémon sofre apenas o dano do Golpe, sem nenhum outro efeito associado.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2317,7 +2345,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "tentar usar um Golpe ou tentar",
+"condicao": "tentar usar um Golpe ou tentar se deslocar.",
 "effect": "role 1d20. Se o resultado for menor que 9, o pokémon não fará absolutamente nada durante toda a rodada. Se o resultado for maior que 8, o pokémon agirá normalmente durante aquela rodada.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2373,7 +2401,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ser acertado um Golpe",
+"condicao": "ser acertado um Golpe superefetivo.",
 "effect": "Necrozma sofre dano neutro pelo Golpe, como se não fosse superefetivo.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2485,7 +2513,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-horaria",
-"condicao": "ser atingido por um Golpe não",
+"condicao": "ser atingido por um Golpe não causador de dano.",
 "effect": "o Golpe é refletido de volta ao atacante. É possível refletir a imposição de Ameaças que estejam sendo posicionadas a até 10 metros do pokémon.",
 "usado": false,
 "trigger": "Gatilho Horário"
@@ -2527,7 +2555,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "quando o pokémon for",
+"condicao": "quando o pokémon for reduzido a zero Pontos de Vida ou menos.",
 "effect": "ocorre uma Explosão de cinco metros. Tudo dentro da área perde um quarto dos Pontos de Vida máximos, sem aplicar resistências ou vulnerabilidades nem aplicar Atributos.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2542,7 +2570,21 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "enquanto o clima estiver Ensolarado, este pokémon perde um oitavo de seus PV máximos no início de cada rodada. Enquanto o clima estiver Chuvoso, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada. O pokémon Ressecado sofre Golpes de Fogo como se o Ataque e o Ataque Especial do pokémon que está usando o Golpe estivessem com uma Fase a mais. Golpes de Água curam pokémons Ressecados. Calcule o dano como se o pokémon Ressecado possuísse uma resistência ao Golpe e então cure o resultado do dano que seria sofrido. Revestimento Magmático 193 Constante Efeito: imunidade a Congelamento.",
+"effect": "enquanto o clima estiver Ensolarado, este pokémon perde um oitavo de seus PV máximos no início de cada rodada. Enquanto o clima estiver Chuvoso, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada. O pokémon Ressecado sofre Golpes de Fogo como se o Ataque e o Ataque Especial do pokémon que está usando o Golpe estivessem com uma Fase a mais. Golpes de Água curam pokémons Ressecados. Calcule o dano como se o pokémon Ressecado possuísse uma resistência ao Golpe e então cure o resultado do dano que seria sofrido.",
+"usado": false,
+"trigger": "Constante"
+}
+},
+{
+"name": "Revestimento Magmático",
+"type": "ability",
+"img": "icons/svg/aura.svg",
+"system": {
+"description": "",
+"hidden": false,
+"triggerKey": "constante",
+"condicao": "",
+"effect": "imunidade a Congelamento.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -2556,7 +2598,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. Efeito: eleva duas Fases de Ataque.",
+"effect": "imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. eleva duas Fases de Ataque.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -2597,7 +2639,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "estar abaixo de metade dos PV",
+"condicao": "estar abaixo de metade dos PV máximos.",
 "effect": "o pokémon imediatamente começa a fugir, recebendo +20 a todos os seus Deslocamentos. Se o dono não convocar o pokémon de volta à pokébola em seu próximo turno, a Lealdade do pokémon será reduzida.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -2626,7 +2668,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "imunidade a todos os Golpes que não sejam superefetivos causadores de dano. É impossível aumentar a Saúde deste pokémon. Os Pontos de Vida máximos dele serão sempre 1, e ele não pode receber Pontos de Vida temporários. Shedinja nunca precisa fazer Testes de Morte. Shedinja jamais poderá se beneficiar de qualquer uma das Características de Classe do Inquebrável. Shedinja nunca pode receber a Habilidade Solidez. Especial: a Habilidade Sem Alma não pode ser copiada ou trocada de nenhuma forma, a menos que Arceus a esteja copiando para si.",
+"effect": "imunidade a todos os Golpes que não sejam superefetivos causadores de dano. É impossível aumentar a Saúde deste pokémon. Os Pontos de Vida máximos dele serão sempre 1, e ele não pode receber Pontos de Vida temporários. Shedinja nunca precisa fazer Testes de Morte. Shedinja jamais poderá se beneficiar de qualquer uma das Características de Classe do Inquebrável. Shedinja nunca pode receber a Habilidade Solidez.<p><strong>Especial:</strong> a Habilidade Sem Alma não pode ser copiada ou trocada de nenhuma forma, a menos que Arceus a esteja copiando para si.</p>",
 "usado": false,
 "trigger": "Constante"
 }
@@ -2653,7 +2695,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-horaria",
-"condicao": "um oponente impõe uma das",
+"condicao": "um oponente impõe uma das seguintes Condições ao pokémon com Sincronizar: Congelamento, Paralisia, Queimadura, Sono ou Veneno.",
 "effect": "o oponente recebe a mesma Condição que ele causou.",
 "usado": false,
 "trigger": "Gatilho Horário"
@@ -2723,7 +2765,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-at-will",
-"condicao": "usar um Golpe causador de",
+"condicao": "usar um Golpe causador de dano cujo Dano Basal não pode alcançar pelo menos 30, mesmo que todos os dados tenham os melhores resultados.",
 "effect": "+2d10 à rolagem de dano. Se o Golpe possui o Descritor Saraivada, só aplique o dano extra uma vez.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
@@ -2737,7 +2779,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-at-will",
-"condicao": "ser um dos possíveis atingidos",
+"condicao": "ser um dos possíveis atingidos por um Golpe cujo atacante é um aliado.",
 "effect": "o atacante avisa o pokémon telepaticamen- te sobre o Golpe, de modo que o pokémon telepata não sofre nenhum dos efeitos do Golpe se não quiser.",
 "usado": false,
 "trigger": "Gatilho À Vontade"
@@ -2766,7 +2808,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "enquanto você tiver linha de visão a um 194 inimigo em combate, este inimigo não poderá comer ou beber nada.",
+"effect": "enquanto você tiver linha de visão a um inimigo em combate, este inimigo não poderá comer ou beber nada.",
 "usado": false,
 "trigger": "Constante"
 }
@@ -2779,7 +2821,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "um pokémon do sexo oposto ataca",
+"condicao": "um pokémon do sexo oposto ataca o pokémon Adorável.",
 "effect": "o atacante é afetado por Paixão.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -2877,8 +2919,8 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "os Pontos de Vida do pokémon",
-"effect": "dobre o Bônus Elemental do pokémon para o Tipo determinado quando Última Chance foi escolhida. Última Chance continua associada ao mesmo Tipo de quando for escolhida, mesmo que o Tipo do pokémon mude temporária ou permanentemente. Especial: esta Habilidade pode ser escolhida até duas vezes. Seus efeitos não se acumulam. Cada vez que ela é escolhida, ele é aplicada a um Tipo diferente.",
+"condicao": "os Pontos de Vida do pokémon são reduzidos a um terço dos PV máximos ou menos.",
+"effect": "dobre o Bônus Elemental do pokémon para o Tipo determinado quando Última Chance foi escolhida. Última Chance continua associada ao mesmo Tipo de quando for escolhida, mesmo que o Tipo do pokémon mude temporária ou permanentemente.<p><strong>Especial:</strong> esta Habilidade pode ser escolhida até duas vezes. Seus efeitos não se acumulam. Cada vez que ela é escolhida, ele é aplicada a um Tipo diferente.</p>",
 "usado": false,
 "trigger": "Gatilho Constante"
 }
@@ -2891,7 +2933,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "este pokémon deixa outro",
+"condicao": "este pokémon deixa outro pokémon inconsciente.",
 "effect": "eleve uma Fase do maior Atributo do pokémon, descontando Saúde da lista de Atributos.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -3003,7 +3045,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-diaria",
-"condicao": "o pokémon usa um Golpe causador",
+"condicao": "o pokémon usa um Golpe causador de dano contra um alvo que acabou de sair da pokébola.",
 "effect": "o Golpe causa dano dobrado após serem aplicadas vulnerabilidades e resistências.",
 "usado": false,
 "trigger": "Gatilho Diário"
@@ -3045,7 +3087,7 @@
 "description": "",
 "hidden": false,
 "triggerKey": "gatilho-constante",
-"condicao": "ficar inconsciente em virtude",
+"condicao": "ficar inconsciente em virtude de um Golpe Corpo a Corpo causador de dano.",
 "effect": "causa ao atacante uma quantidade de dano idêntica à quantidade de Pontos de Vida que possuía. Não aplique vulnerabilidades ou resistências a este dano.",
 "usado": false,
 "trigger": "Gatilho Constante"
@@ -3130,7 +3172,7 @@
 "hidden": false,
 "triggerKey": "constante",
 "condicao": "",
-"effect": "Darmanitan possui dois conjuntos de Atributos Basais diferentes para seus Atributos, gerando duas Relações Basais distintas: uma para sua Forma Padrão e uma para sua Forma Zen. Ele deve manter o valor de seu Atributo Saúde igual em ambas as Formas. Desde que esteja com menos da metade de seus Pontos de Vida máximos, Darmanitan pode, uma vez por encontro, usar uma Ação Livre para mudar para a Forma Zen, alterando todo o conjunto de Atributos para o da Forma Zen. Uma vez tendo assumido a Forma Zen, ele poderá voltar à Forma Padrão usando uma Ação Livre, o que torna seus Atributos como normalmente são. A Forma Zen do Darmanitan recebe o Tipo Psíquico em adição ao Tipo Fogo que é o padrão do Darmanitan. Se algum efeito aumentar ou reduzir Atributos ou Atributos Basais, os Atributos ou Atributos Basais de ambas as formas são alterados. Isso inclui Fases.",
+"effect": "Darmanitan possui dois conjuntos de Atributos Basais diferentes para seus Atributos, gerando duas Relações Basais distintas: uma para sua Forma Padrão e uma para sua Forma Zen. Ele deve manter o valor de seu Atributo Saúde igual em ambas as Formas. Desde que esteja com menos da metade de seus Pontos de Vida máximos, Darmanitan pode, uma vez por encontro, usar uma Ação Livre para mudar para a Forma Zen, alterando todo o conjunto de Atributos para o da Forma Zen. Uma vez tendo assumido a Forma Zen, ele poderá voltar à Forma Padrão usando uma Ação Livre, o que torna seus Atributos como normalmente são. A Forma Zen do Darmanitan recebe o Tipo Psíquico em adição ao Tipo Fogo que é o padrão do Darmanitan. Se algum efeito aumentar ou reduzir Atributos ou Atributos Basais, os Atributos ou Atributos Basais de ambas as formas são alterados. Isso inclui Fases. Golpes Um Golpe é qualquer coisa que um pokémon pode fazer. Em batalha, Golpes são usados depois do desloca- mento. Uma vez que um pokémon use um Golpe, o turno dele acaba. Um Golpe tem um nome, um Tipo, uma Apti- dão, Descritores, uma Dificuldade de Acurácia, um Dano Ba- sal, um Alcance, uma Frequência, um Efeito e seu Descritor de Concursos, além de possíveis Capacidades concedidas. Um pokémon pode conhecer até oito Golpes. Destes oito, no máximo quatro podem ser Golpes Ensináveis, ou seja, aprendidos mediante Tutores ou Registros. Os demais Golpes serão Golpes aprendidos por herança paterna (chamados de Golpes Herdados), por subir de nível ou por evoluir (chamados de Golpes Naturais). Humanos podem usar Golpes ou possuir Habilidades em virtude de vários Talentos, contudo a frequência com a qual usam estes Golpes é diferente para os pokémons. Atente às diferenças entre humanos e pokémons quando se trata de Golpes. Abaixo se encontra como é o modelo da apresentação textual de cada Golpe: Nome Tipo Aptidão Descritores Dificuldade de Acurácia Dano Basal Alcance Frequência Concursos Efeito Tipo: é o Tipo do Golpe entre um dos dezoito Tipos: Água, Dragão, Elétrico, Fada, Fantasma, Fogo, Gelo, Inseto, Lutador, Metal, Normal, Pedra, Planta, Psíquico, Terra, Trevas, Venenoso ou Voador. Aptidão: é a Aptidão do Golpe entre uma das cinco Aptidões: Beleza, Estilo, Perspicácia, Ternura, Vigor. Descritores: Golpes possuem um ou mais Descrito- res listados a seguir. Se um Golpe possui um Descritor que permite uma área e o usuário estiver dentro da área, ele",
 "usado": false,
 "trigger": "Constante"
 }

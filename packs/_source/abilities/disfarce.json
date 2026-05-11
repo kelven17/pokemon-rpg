@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "o pokémon sofre dano por um",
+    "condicao": "o pokémon sofre dano por um Golpe pela primeira vez em um encontro.",
     "effect": "o pokémon não sofre o dano e nenhum outro efeito associado ao Golpe.",
     "usado": false,
     "trigger": "Gatilho Constante"

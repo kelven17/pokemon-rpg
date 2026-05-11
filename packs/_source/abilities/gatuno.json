@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-diaria",
-    "condicao": "acertar um oponente que possui",
+    "condicao": "acertar um oponente que possui um item Mantido com um Golpe Corpo a Corpo.",
     "effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
     "usado": false,
     "trigger": "Gatilho Diário"

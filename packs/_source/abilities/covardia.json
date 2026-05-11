@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "sofrer dano de um dos",
+    "condicao": "sofrer dano de um dos seguintes Tipos: Fantasma, Inseto ou Noturno.",
     "effect": "eleva uma Fase de Velocidade.",
     "usado": false,
     "trigger": "Gatilho Constante"

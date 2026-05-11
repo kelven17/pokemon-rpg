@@ -1,0 +1,14 @@
+{
+  "name": "maneira semelhante à Frequência de uso de Talentos.",
+  "type": "ability",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "hidden": false,
+    "triggerKey": "constante",
+    "condicao": "Uma Habilidade Constante está sempre ativa. O portador não pode desabilitá-la, o que também significa que não há limites sobre seu uso. Ela simplesmente é contínua, seja para o bem ou para o mal. Gatilho: Se há um Gatilho, o pokémon só poderá usar sua Habilidade sob circunstâncias específicas. Algumas destas Habilidades possuem limites de uso, ou seja, mesmo que o Gatilho seja satisfeito novamente, a Habilidade não será novamente ativada se uma determinada quantidade de tempo ainda não tiver passado desde a última vez que foi u- sada. Se a Habilidade é acionada todas as vezes que o Gati- lho é satisfeito, ela é descrita como “Gatilho Constante”. Além das opções de Habilidades de cada pokémon, todos os pokémons podem escolher a Habilidade Última Chance direcionada um dos Tipos atuais do pokémon.",
+    "effect": "",
+    "usado": false,
+    "trigger": "Constante"
+  }
+}

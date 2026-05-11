@@ -6,8 +6,8 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "os Pontos de Vida do pokémon",
-    "effect": "dobre o Bônus Elemental do pokémon para o Tipo determinado quando Última Chance foi escolhida. Última Chance continua associada ao mesmo Tipo de quando for escolhida, mesmo que o Tipo do pokémon mude temporária ou permanentemente. Especial: esta Habilidade pode ser escolhida até duas vezes. Seus efeitos não se acumulam. Cada vez que ela é escolhida, ele é aplicada a um Tipo diferente.",
+    "condicao": "os Pontos de Vida do pokémon são reduzidos a um terço dos PV máximos ou menos.",
+    "effect": "dobre o Bônus Elemental do pokémon para o Tipo determinado quando Última Chance foi escolhida. Última Chance continua associada ao mesmo Tipo de quando for escolhida, mesmo que o Tipo do pokémon mude temporária ou permanentemente.<p><strong>Especial:</strong> esta Habilidade pode ser escolhida até duas vezes. Seus efeitos não se acumulam. Cada vez que ela é escolhida, ele é aplicada a um Tipo diferente.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

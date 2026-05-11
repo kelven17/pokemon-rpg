@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "ser acertado por um Golpe À",
+    "condicao": "ser acertado por um Golpe À Distância.",
     "effect": "eleve uma Fase da Velocidade.",
     "usado": false,
     "trigger": "Gatilho Constante"

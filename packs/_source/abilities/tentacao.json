@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-diaria",
-    "condicao": "um pokémon do sexo oposto ataca",
+    "condicao": "um pokémon do sexo oposto ataca o pokémon Adorável.",
     "effect": "o atacante é afetado por Paixão.",
     "usado": false,
     "trigger": "Gatilho Diário"

@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "ser acertado por um Golpe",
+    "condicao": "ser acertado por um Golpe causador de dano.",
     "effect": "eleve uma Fase de Defesa do pokémon após o dano ser sofrido.",
     "usado": false,
     "trigger": "Gatilho Constante"

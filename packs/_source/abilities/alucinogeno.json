@@ -1,5 +1,5 @@
 {
-  "name": "Tensão",
+  "name": "Alucinógeno",
   "type": "ability",
   "img": "icons/svg/aura.svg",
   "system": {
@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto você tiver linha de visão a um inimigo em combate, este inimigo não poderá comer ou beber nada.",
+    "effect": "quando este pokémon recebe Veneno, eleve duas Fases do Ataque dele. Se ele for curado da Condição, ele perde as duas Fases do Ataque.",
     "usado": false,
     "trigger": "Constante"
   }

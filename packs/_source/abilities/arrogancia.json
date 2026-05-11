@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "este pokémon deixa outro",
+    "condicao": "este pokémon deixa outro pokémon inconsciente usando um Golpe.",
     "effect": "eleve uma Fase de Ataque.",
     "usado": false,
     "trigger": "Gatilho Constante"

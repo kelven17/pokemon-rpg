@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-constante",
-    "condicao": "acertar um Golpe Corpo a",
+    "condicao": "acertar um Golpe Corpo a Corpo causador de dano.",
     "effect": "+15 à rolagem de dano.",
     "usado": false,
     "trigger": "Gatilho Constante"

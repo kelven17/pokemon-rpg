@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-diaria",
-    "condicao": "o pokémon usa um Golpe causador",
+    "condicao": "o pokémon usa um Golpe causador de dano contra um alvo que acabou de sair da pokébola.",
     "effect": "o Golpe causa dano dobrado após serem aplicadas vulnerabilidades e resistências.",
     "usado": false,
     "trigger": "Gatilho Diário"

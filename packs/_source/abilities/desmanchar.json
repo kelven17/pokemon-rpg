@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-horaria",
-    "condicao": "ser acertado por um Golpe de",
+    "condicao": "ser acertado por um Golpe de Água.",
     "effect": "eleve três Fases de Velocidade.",
     "usado": false,
     "trigger": "Gatilho Horário"

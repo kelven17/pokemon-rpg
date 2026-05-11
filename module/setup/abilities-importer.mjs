@@ -13,7 +13,7 @@ const BUNDLE_PATH = "systems/pokemon-rpg/data/abilities-bundle.json";
 const PACK_NAME   = "pokemon-rpg-abilities";
 const PACK_LABEL  = "Pokémon RPG · Habilidades";
 const SETTING_KEY = "abilitiesBundleVersion";
-const CURRENT_BUNDLE_VERSION = "0.2.0";
+const CURRENT_BUNDLE_VERSION = "0.2.1";
 
 export function registerAbilityImporterSettings() {
   game.settings.register("pokemon-rpg", SETTING_KEY, {

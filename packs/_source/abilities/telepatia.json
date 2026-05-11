@@ -6,7 +6,7 @@
     "description": "",
     "hidden": false,
     "triggerKey": "gatilho-at-will",
-    "condicao": "ser um dos possíveis atingidos",
+    "condicao": "ser um dos possíveis atingidos por um Golpe cujo atacante é um aliado.",
     "effect": "o atacante avisa o pokémon telepaticamen- te sobre o Golpe, de modo que o pokémon telepata não sofre nenhum dos efeitos do Golpe se não quiser.",
     "usado": false,
     "trigger": "Gatilho À Vontade"
