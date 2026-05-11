@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon e seus aliados do Tipo Planta são imunes a Confusão e Paixão e não podem ter seus Atributos diminuídos.",
+    "effect": "<p>o pokémon e seus aliados do Tipo Planta são imunes a Confusão e Paixão e não podem ter seus Atributos diminuídos.</p>",
     "usado": false,
     "trigger": "Constante"
   }

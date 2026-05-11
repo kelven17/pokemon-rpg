@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon usa o Golpe Granizo.",
+    "effect": "<p>como uma Ação Livre, o pokémon usa o Golpe Granizo.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

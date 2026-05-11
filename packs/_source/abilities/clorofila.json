@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "desde que o Clima esteja Ensolarado, ativar Clorofila dobra o Atributo Velocidade do pokémon.",
+    "effect": "<p>desde que o Clima esteja Ensolarado, ativar Clorofila dobra o Atributo Velocidade do pokémon.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

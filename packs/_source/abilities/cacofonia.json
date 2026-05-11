@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Golpes com o Descritor Som.",
+    "effect": "<p>imunidade a Golpes com o Descritor Som.</p>",
     "usado": false,
     "trigger": "Constante"
   }

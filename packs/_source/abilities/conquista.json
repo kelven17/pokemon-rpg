@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon vive com uma Fase elevada de Ataque o tempo todo, contudo todos os Golpes Físicos dele têm suas Dificuldades de Acurácia aumentadas em 2.",
+    "effect": "<p>o pokémon vive com uma Fase elevada de Ataque o tempo todo, contudo todos os Golpes Físicos dele têm suas Dificuldades de Acurácia aumentadas em 2.</p>",
     "usado": false,
     "trigger": "Constante"
   }

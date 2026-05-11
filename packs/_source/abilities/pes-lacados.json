@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe À Distância.",
-    "effect": "eleve uma Fase da Velocidade.",
+    "effect": "<p>eleve uma Fase da Velocidade.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

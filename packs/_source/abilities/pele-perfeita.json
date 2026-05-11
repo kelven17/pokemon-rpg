@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe À Distância que inflige uma Condição ou algo semelhante (incluindo Desabilitar).",
-    "effect": "jogue um dado. Se o resultado for par, o pokémon ignora aquilo que seria infligido a ele.",
+    "effect": "<p>jogue um dado. Se o resultado for par, o pokémon ignora aquilo que seria infligido a ele.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

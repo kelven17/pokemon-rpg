@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "sofrer dano de Fogo ou de Gelo.",
-    "effect": "independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo e de Gelo.",
+    "effect": "<p>independente de vulnerabilidades e resistências, o pokémon é tratado como se possuísse uma resistência a dano de Fogo e de Gelo.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

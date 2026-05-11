@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "este pokémon deixa outro pokémon inconsciente usando um Golpe.",
-    "effect": "eleve uma Fase de Ataque.",
+    "effect": "<p>eleve uma Fase de Ataque.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

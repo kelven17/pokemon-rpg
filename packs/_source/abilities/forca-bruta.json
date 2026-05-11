@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "até o final do encontro, quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, não há nenhuma chance de o efeito se ativar. Em troca, se o Golpe acertar, ele causa dano adicional em uma quantidade igual ao dobro do Bônus Elemental do pokémon (independente se o Bônus Elemental do pokémon abrange ou não Golpes do Tipo usado).",
+    "effect": "<p>até o final do encontro, quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, não há nenhuma chance de o efeito se ativar. Em troca, se o Golpe acertar, ele causa dano adicional em uma quantidade igual ao dobro do Bônus Elemental do pokémon (independente se o Bônus Elemental do pokémon abrange ou não Golpes do Tipo usado).</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade aos efeitos de Prisões. Além disso, o pokémon recebe +2 a todos os seus Deslocamentos e não pode perder Fases de Velocidade de modo a ficar com uma Fase de Velocidade negativa.",
+    "effect": "<p>imunidade aos efeitos de Prisões. Além disso, o pokémon recebe +2 a todos os seus Deslocamentos e não pode perder Fases de Velocidade de modo a ficar com uma Fase de Velocidade negativa.</p>",
     "usado": false,
     "trigger": "Constante"
   }

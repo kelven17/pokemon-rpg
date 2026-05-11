@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon e seus aliados adjacentes são imunes aos seguintes Golpes: Atração, Bis, Bloquear Cura, Desabilitar, Provocação, Tormento.",
+    "effect": "<p>o pokémon e seus aliados adjacentes são imunes aos seguintes Golpes: Atração, Bis, Bloquear Cura, Desabilitar, Provocação, Tormento.</p>",
     "usado": false,
     "trigger": "Constante"
   }

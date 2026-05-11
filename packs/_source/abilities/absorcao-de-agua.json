@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "dano de Água cura este pokémon. Calcule o dano que seria sofrido como se a Defesa e a Defesa Especial do pokémon fosse zero, e cure metade do resultado do dano que seria sofrido.",
+    "effect": "<p>dano de Água cura este pokémon. Calcule o dano que seria sofrido como se a Defesa e a Defesa Especial do pokémon fosse zero, e cure metade do resultado do dano que seria sofrido.</p>",
     "usado": false,
     "trigger": "Constante"
   }

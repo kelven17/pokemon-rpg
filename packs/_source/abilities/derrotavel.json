@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "estar abaixo da metade dos PV máximos.",
-    "effect": "este pokémon tem suas Fases de Ataque e de Ataque Especial diretamente reduzidas a três Fases negativas. As Fases não podem ser elevadas acima disso a menos que ele recupere seus Pontos de Vida acima da metade dos PV máximos.",
+    "effect": "<p>este pokémon tem suas Fases de Ataque e de Ataque Especial diretamente reduzidas a três Fases negativas. As Fases não podem ser elevadas acima disso a menos que ele recupere seus Pontos de Vida acima da metade dos PV máximos.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

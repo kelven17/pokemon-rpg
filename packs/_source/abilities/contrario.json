@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon inverte elevações de Fases e perdas de Fases, de modo que todas as vezes que fosse perder uma Fase, ele eleva aquela Fase e todas as vezes que fosse elevar uma Fase ele a perda.",
+    "effect": "<p>o pokémon inverte elevações de Fases e perdas de Fases, de modo que todas as vezes que fosse perder uma Fase, ele eleva aquela Fase e todas as vezes que fosse elevar uma Fase ele a perda.</p>",
     "usado": false,
     "trigger": "Constante"
   }

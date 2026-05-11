@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon não pode ter as Dificuldades de Acurácia afetadas negativamente (mas a Evasão do oponente se aplica normalmente).",
+    "effect": "<p>este pokémon não pode ter as Dificuldades de Acurácia afetadas negativamente (mas a Evasão do oponente se aplica normalmente).</p>",
     "usado": false,
     "trigger": "Constante"
   }

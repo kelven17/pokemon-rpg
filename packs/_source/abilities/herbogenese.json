@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon uso o Golpe Campo Gramado.",
+    "effect": "<p>como uma Ação Livre, o pokémon uso o Golpe Campo Gramado.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "os Golpes Físicos causadores de dano deste pokémon Envenenam os alvos se o resultado do Teste de Acurácia for 15 ou mais. Se algum destes Golpes já Envenenaria o alvo, mas com uma probabilidade menor, ajuste conforme Toque Tóxico.",
+    "effect": "<p>os Golpes Físicos causadores de dano deste pokémon Envenenam os alvos se o resultado do Teste de Acurácia for 15 ou mais. Se algum destes Golpes já Envenenaria o alvo, mas com uma probabilidade menor, ajuste conforme Toque Tóxico.</p>",
     "usado": false,
     "trigger": "Constante"
   }

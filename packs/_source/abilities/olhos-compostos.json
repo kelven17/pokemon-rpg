@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon reduz todas as suas Dificuldades de Acurácia em 3.",
+    "effect": "<p>o pokémon reduz todas as suas Dificuldades de Acurácia em 3.</p>",
     "usado": false,
     "trigger": "Constante"
   }

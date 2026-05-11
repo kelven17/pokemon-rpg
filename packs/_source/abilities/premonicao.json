@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o Golpe com maior Dano Basal conhecido pelo alvo é revelado. Se há um empate entre mais de um Golpe nestas condições, todos são revelados. Todos os Golpes revelados por este Talento têm sua Dificuldade de Acurácia aumentada em 2.",
+    "effect": "<p>o Golpe com maior Dano Basal conhecido pelo alvo é revelado. Se há um empate entre mais de um Golpe nestas condições, todos são revelados. Todos os Golpes revelados por este Talento têm sua Dificuldade de Acurácia aumentada em 2.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

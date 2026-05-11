@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o alvo adjacente revela seu Item Mantido.",
+    "effect": "<p>o alvo adjacente revela seu Item Mantido.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

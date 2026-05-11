@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "se as Habilidades Aura de Trevas ou Aura Feérica estiverem ativas, os efeitos delas são invertidos, penalizando as rolagens de dano em vez de beneficiá-los.",
+    "effect": "<p>se as Habilidades Aura de Trevas ou Aura Feérica estiverem ativas, os efeitos delas são invertidos, penalizando as rolagens de dano em vez de beneficiá-los.</p>",
     "usado": false,
     "trigger": "Constante"
   }

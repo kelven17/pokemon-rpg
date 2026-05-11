@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto o clima estiver Chuvoso, este pokémon recupera 1/16 de seus PV máximos no início de cada rodada.",
+    "effect": "<p>enquanto o clima estiver Chuvoso, este pokémon recupera 1/16 de seus PV máximos no início de cada rodada.</p>",
     "usado": false,
     "trigger": "Constante"
   }

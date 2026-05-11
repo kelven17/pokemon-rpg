@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "pelo resto do encontro, Golpes de Trevas adicionam às rolagens de dano uma quantidade igual ao dobro do Bônus Elemental do usuário do Golpe. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes de Trevas e se acumula com o próprio Bônus Elemental se houver.",
+    "effect": "<p>pelo resto do encontro, Golpes de Trevas adicionam às rolagens de dano uma quantidade igual ao dobro do Bônus Elemental do usuário do Golpe. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não Golpes de Trevas e se acumula com o próprio Bônus Elemental se houver.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

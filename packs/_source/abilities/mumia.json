@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "o atacante substitui uma das Habilidades dele por Múmia por 1d6+2 rodadas.",
+    "effect": "<p>o atacante substitui uma das Habilidades dele por Múmia por 1d6+2 rodadas.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon é imune a dano Elétrico. Se sofreria dano Elétrico por alguma razão, ele, em vez disso, ele eleva uma Fase de Velocidade.",
+    "effect": "<p>o pokémon é imune a dano Elétrico. Se sofreria dano Elétrico por alguma razão, ele, em vez disso, ele eleva uma Fase de Velocidade.</p>",
     "usado": false,
     "trigger": "Constante"
   }

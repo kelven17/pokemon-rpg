@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "os itens Mantidos do pokémon não podem ser roubados, trocados, destruídos ou soltos.",
+    "effect": "<p>os itens Mantidos do pokémon não podem ser roubados, trocados, destruídos ou soltos.</p>",
     "usado": false,
     "trigger": "Constante"
   }

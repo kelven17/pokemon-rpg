@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Congelamento.",
+    "effect": "<p>imunidade a Congelamento.</p>",
     "usado": false,
     "trigger": "Constante"
   }

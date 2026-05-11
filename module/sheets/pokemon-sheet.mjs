@@ -129,6 +129,25 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       capacity:  actor.items.filter(i => i.type === "capacity")
     };
 
+    // Pré-processa habilidades pra incluir um campo `effectText` pronto pra exibição,
+    // pois HTMLField em itens pode armazenar sem tags HTML e o template precisa de algo
+    // pra renderizar. Também faz fallback para `description` (campo legado).
+    context.abilities = context.itemsByType.ability.map(item => {
+      const sys = item.system ?? {};
+      const raw = (sys.effect && String(sys.effect).trim())
+                  || (sys.description && String(sys.description).trim())
+                  || "";
+      // Se o conteúdo não começa com tag HTML, envolve em <p>
+      const html = raw && !raw.trim().startsWith("<") ? `<p>${raw}</p>` : raw;
+      return {
+        id: item.id,
+        name: item.name,
+        img: item.img,
+        system: sys,
+        effectHtml: html
+      };
+    });
+
     // Choices para selects.
     context.typeChoices = Object.fromEntries(
       Object.entries(POKEMON_RPG.types).map(([k, l]) => [k, game.i18n.localize(l)])

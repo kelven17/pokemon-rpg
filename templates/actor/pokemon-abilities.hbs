@@ -7,7 +7,7 @@
             </button>
         </header>
         <ul class="items-list abilities-list">
-            {{#each itemsByType.ability}}
+            {{#each abilities}}
             <li class="item ability-item" data-item-id="{{this.id}}">
                 <img src="{{this.img}}" class="item-img"/>
                 <div class="ability-body">
@@ -22,10 +22,10 @@
                         <em>{{this.system.condicao}}</em>
                     </div>
                     {{/if}}
-                    {{#if this.system.effect}}
+                    {{#if this.effectHtml}}
                     <div class="ability-effect">
                         <span class="ability-label">{{localize "POKEMON_RPG.Ability.Effect"}}:</span>
-                        {{{this.system.effect}}}
+                        <div class="ability-effect-body">{{{this.effectHtml}}}</div>
                     </div>
                     {{/if}}
                 </div>

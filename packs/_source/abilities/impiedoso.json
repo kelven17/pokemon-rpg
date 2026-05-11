@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "acertar um alvo Envenenado.",
-    "effect": "o Golpe é um Crítico.",
+    "effect": "<p>o Golpe é um Crítico.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

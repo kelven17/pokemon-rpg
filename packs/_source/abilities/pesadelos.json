@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "qualquer criaturas que esteja dormindo a até 30 metros do pokémon perde um oitavo de seus Pontos de Vida máximos no início de cada rodada.",
+    "effect": "<p>qualquer criaturas que esteja dormindo a até 30 metros do pokémon perde um oitavo de seus Pontos de Vida máximos no início de cada rodada.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "desde que o Clima esteja Chuvoso, ativar esta Habilidade eleva quatro Fases de Velocidade.",
+    "effect": "<p>desde que o Clima esteja Chuvoso, ativar esta Habilidade eleva quatro Fases de Velocidade.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe superefetivo.",
-    "effect": "reduza a quantidade de Pontos de Vida perdidos a três quartos da quantidade que seria perdida.",
+    "effect": "<p>reduza a quantidade de Pontos de Vida perdidos a três quartos da quantidade que seria perdida.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

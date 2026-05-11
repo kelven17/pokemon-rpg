@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-horaria",
     "condicao": "ser atingido por um Golpe não causador de dano.",
-    "effect": "o Golpe é refletido de volta ao atacante. É possível refletir a imposição de Ameaças que estejam sendo posicionadas a até 10 metros do pokémon.",
+    "effect": "<p>o Golpe é refletido de volta ao atacante. É possível refletir a imposição de Ameaças que estejam sendo posicionadas a até 10 metros do pokémon.</p>",
     "usado": false,
     "trigger": "Gatilho Horário"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon adiciona uma quantidade igual ao Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Hiperpresa, Mastigada, Mordida, Picada e qualquer Golpe que comece com a palavra “presa”. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.",
+    "effect": "<p>este pokémon adiciona uma quantidade igual ao Bônus Elemental dele às rolagens de dano dos seguintes Golpes: Hiperpresa, Mastigada, Mordida, Picada e qualquer Golpe que comece com a palavra “presa”. Isso ocorre de maneira independente do Bônus Elemental do pokémon abranger ou não aqueles Golpes.</p>",
     "usado": false,
     "trigger": "Constante"
   }

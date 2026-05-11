@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon usa o Golpe Campo Enevoado.",
+    "effect": "<p>como uma Ação Livre, o pokémon usa o Golpe Campo Enevoado.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

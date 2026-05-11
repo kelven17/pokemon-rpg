@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon sofre metade do dano dos Golpes superefetivos.",
+    "effect": "<p>este pokémon sofre metade do dano dos Golpes superefetivos.</p>",
     "usado": false,
     "trigger": "Constante"
   }

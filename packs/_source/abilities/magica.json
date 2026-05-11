@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-at-will",
     "condicao": "acertar um oponente que possui um item Mantido com um Golpe À Distância.",
-    "effect": "o pokémon obtém o item para si, desde que não possua nenhum item Mantido.",
+    "effect": "<p>o pokémon obtém o item para si, desde que não possua nenhum item Mantido.</p>",
     "usado": false,
     "trigger": "Gatilho À Vontade"
   }

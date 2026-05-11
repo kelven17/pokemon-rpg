@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "o alvo adjacente está Preso. Ele ainda pode se deslocar, mas não para mais longe do que 20 metros do pokémon que usou Identificação.",
+    "effect": "<p>o alvo adjacente está Preso. Ele ainda pode se deslocar, mas não para mais longe do que 20 metros do pokémon que usou Identificação.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

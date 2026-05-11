@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "se algum efeito havia permitido usar um Golpe mais frequentemente que a Frequência original dele, o efeito é anulado assim que Pressão for ativada. Além disso, qualquer Golpe que poderia ser usado À Vontade, agora só pode ser usado Rodada Sim Rodada Não.",
+    "effect": "<p>se algum efeito havia permitido usar um Golpe mais frequentemente que a Frequência original dele, o efeito é anulado assim que Pressão for ativada. Além disso, qualquer Golpe que poderia ser usado À Vontade, agora só pode ser usado Rodada Sim Rodada Não.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

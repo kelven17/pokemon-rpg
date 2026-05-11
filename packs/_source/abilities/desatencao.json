@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando este pokémon ataca ou é atacado, ignore todas as Fases positivas e negativas em vigor sobre todos os pokémons envolvidos, incluindo as próprias Fases do próprio pokémon Desatento.",
+    "effect": "<p>quando este pokémon ataca ou é atacado, ignore todas as Fases positivas e negativas em vigor sobre todos os pokémons envolvidos, incluindo as próprias Fases do próprio pokémon Desatento.</p>",
     "usado": false,
     "trigger": "Constante"
   }

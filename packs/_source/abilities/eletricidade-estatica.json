@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-diaria",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "o atacante está Paralisado.",
+    "effect": "<p>o atacante está Paralisado.</p>",
     "usado": false,
     "trigger": "Gatilho Diário"
   }

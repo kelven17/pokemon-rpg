@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "Pokémons com Corrosão podem causar a Condição Veneno em pokémons Metálicos e Venenosos, que normalmente são imunes a serem envenenados.",
+    "effect": "<p>Pokémons com Corrosão podem causar a Condição Veneno em pokémons Metálicos e Venenosos, que normalmente são imunes a serem envenenados.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando este pokémon recebe Congelamen- to, Queimadura, Sono ou Veneno, eleve duas Fases da Velocidade dele. Se ele for curado da Condição, ele perde as duas Fases de Velocidade. Quando este pokémon recebe Paralisia, eleve quatro Fases da Velocidade dele. Se for cu- rado da Paralisia, ele perde as quatro Fases da Velocidade.",
+    "effect": "<p>quando este pokémon recebe Congelamen- to, Queimadura, Sono ou Veneno, eleve duas Fases da Velocidade dele. Se ele for curado da Condição, ele perde as duas Fases de Velocidade. Quando este pokémon recebe Paralisia, eleve quatro Fases da Velocidade dele. Se for cu- rado da Paralisia, ele perde as quatro Fases da Velocidade.</p>",
     "usado": false,
     "trigger": "Constante"
   }

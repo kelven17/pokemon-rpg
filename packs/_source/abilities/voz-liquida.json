@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando usar um Golpe com o Descritor Som, o Tipo do Golpe é mudado para Água.",
+    "effect": "<p>quando usar um Golpe com o Descritor Som, o Tipo do Golpe é mudado para Água.</p>",
     "usado": false,
     "trigger": "Constante"
   }

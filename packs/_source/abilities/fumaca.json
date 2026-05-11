@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "as Fases deste pokémon não podem ser reduzidas.",
+    "effect": "<p>as Fases deste pokémon não podem ser reduzidas.</p>",
     "usado": false,
     "trigger": "Constante"
   }

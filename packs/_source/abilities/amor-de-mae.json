@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-at-will",
     "condicao": "usar um Golpe causador de dano (mas sem o Descritor Saraivada) e nenhum inimigo ter sido reduzido a zero Pontos de Vida ou menos por isso.",
-    "effect": "o pokémon usa imediatamente o Golpe de novo contra o mesmo alvo, ou, se era uma Explosão, na mesma área. O segundo Golpe é representado pela filhota, por isso não aplica o Dano Basal, apenas o resto do dano.",
+    "effect": "<p>o pokémon usa imediatamente o Golpe de novo contra o mesmo alvo, ou, se era uma Explosão, na mesma área. O segundo Golpe é representado pela filhota, por isso não aplica o Dano Basal, apenas o resto do dano.</p>",
     "usado": false,
     "trigger": "Gatilho À Vontade"
   }

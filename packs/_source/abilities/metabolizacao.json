@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Venenos.",
+    "effect": "<p>imunidade a Venenos.</p>",
     "usado": false,
     "trigger": "Constante"
   }

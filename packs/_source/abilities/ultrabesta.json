@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "este pokémon deixa outro pokémon inconsciente.",
-    "effect": "eleve uma Fase do maior Atributo do pokémon, descontando Saúde da lista de Atributos.",
+    "effect": "<p>eleve uma Fase do maior Atributo do pokémon, descontando Saúde da lista de Atributos.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

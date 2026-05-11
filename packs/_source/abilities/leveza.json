@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "consumir um item Mantido.",
-    "effect": "eleve duas Fases de Velocidade.",
+    "effect": "<p>eleve duas Fases de Velocidade.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

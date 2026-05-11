@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto o clima estiver Ensolarado, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada e eleva duas Fases de Ataque Especial.",
+    "effect": "<p>enquanto o clima estiver Ensolarado, este pokémon recupera um oitavo de seus PV máximos no início de cada rodada e eleva duas Fases de Ataque Especial.</p>",
     "usado": false,
     "trigger": "Constante"
   }

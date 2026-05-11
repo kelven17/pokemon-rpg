@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "role 1d20. Se o resultado for 15 ou 16, o atacante está Envenenado. Se o resultado for 17 ou 18, ele está Paralisado. Se o resultado for 19 ou 20, ele sofre Sono.",
+    "effect": "<p>role 1d20. Se o resultado for 15 ou 16, o atacante está Envenenado. Se o resultado for 17 ou 18, ele está Paralisado. Se o resultado for 19 ou 20, ele sofre Sono.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "tentar usar um Golpe ou tentar se deslocar.",
-    "effect": "role 1d20. Se o resultado for menor que 9, o pokémon não fará absolutamente nada durante toda a rodada. Se o resultado for maior que 8, o pokémon agirá normalmente durante aquela rodada.",
+    "effect": "<p>role 1d20. Se o resultado for menor que 9, o pokémon não fará absolutamente nada durante toda a rodada. Se o resultado for maior que 8, o pokémon agirá normalmente durante aquela rodada.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

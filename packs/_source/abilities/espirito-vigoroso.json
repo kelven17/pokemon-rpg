@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Sono.",
+    "effect": "<p>imunidade a Sono.</p>",
     "usado": false,
     "trigger": "Constante"
   }

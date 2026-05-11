@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon usa o Golpe Tempestade de Areia.",
+    "effect": "<p>como uma Ação Livre, o pokémon usa o Golpe Tempestade de Areia.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

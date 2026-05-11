@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser Atordoado.",
-    "effect": "eleva uma Fase de Velocidade.",
+    "effect": "<p>eleva uma Fase de Velocidade.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

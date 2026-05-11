@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon usa o Golpe Dia de Sol.",
+    "effect": "<p>como uma Ação Livre, o pokémon usa o Golpe Dia de Sol.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

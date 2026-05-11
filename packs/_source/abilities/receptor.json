@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-at-will",
     "condicao": "um aliado fica inconsciente.",
-    "effect": "o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro.",
+    "effect": "<p>o pokémon pode substituir esta Habilidade pela Habilidade do aliado até o fim do encontro.</p>",
     "usado": false,
     "trigger": "Gatilho À Vontade"
   }

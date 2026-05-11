@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o clima se torna ameno se o pokémon com Aclimatação tiver Nível maior que o pokémon que causar a mudança climática.",
+    "effect": "<p>o clima se torna ameno se o pokémon com Aclimatação tiver Nível maior que o pokémon que causar a mudança climática.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

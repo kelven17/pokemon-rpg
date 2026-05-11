@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "o pokémon acha Mel se ele não estiver com nenhum item Mantido. Se esta Habilidade for ativada du- rante um encontro, o pokémon não errará os próximos três Golpes, desde que tenha como alvo um pokémon selvagem.",
+    "effect": "<p>o pokémon acha Mel se ele não estiver com nenhum item Mantido. Se esta Habilidade for ativada du- rante um encontro, o pokémon não errará os próximos três Golpes, desde que tenha como alvo um pokémon selvagem.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

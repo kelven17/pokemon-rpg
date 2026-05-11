@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon é imune a dano de Planta. Uma vez por rodada, se sofreria dano de Planta por alguma razão, ele, em vez disso, ele eleva uma Fase de Ataque.",
+    "effect": "<p>o pokémon é imune a dano de Planta. Uma vez por rodada, se sofreria dano de Planta por alguma razão, ele, em vez disso, ele eleva uma Fase de Ataque.</p>",
     "usado": false,
     "trigger": "Constante"
   }

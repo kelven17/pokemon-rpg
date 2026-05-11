@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Paralisia.",
+    "effect": "<p>imunidade a Paralisia.</p>",
     "usado": false,
     "trigger": "Constante"
   }

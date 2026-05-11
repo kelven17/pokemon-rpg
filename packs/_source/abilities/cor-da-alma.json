@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "",
-    "effect": "quando alguém fica inconsciente a até 50 metros, o pokémon eleva uma Fase de Ataque Especial.",
+    "effect": "<p>quando alguém fica inconsciente a até 50 metros, o pokémon eleva uma Fase de Ataque Especial.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

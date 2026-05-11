@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon nunca precisa fazer contato com alvos para usar Golpes: quaisquer Golpes que antes eram Corpo a Corpo agora são À Distância de 10 metros.",
+    "effect": "<p>este pokémon nunca precisa fazer contato com alvos para usar Golpes: quaisquer Golpes que antes eram Corpo a Corpo agora são À Distância de 10 metros.</p>",
     "usado": false,
     "trigger": "Constante"
   }

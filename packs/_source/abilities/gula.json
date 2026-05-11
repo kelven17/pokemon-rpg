@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando o pokémon possui um item consumível como um item Mantido, ele imediatamente o come, e todos os efeitos do item são dobrados.",
+    "effect": "<p>quando o pokémon possui um item consumível como um item Mantido, ele imediatamente o come, e todos os efeitos do item são dobrados.</p>",
     "usado": false,
     "trigger": "Constante"
   }

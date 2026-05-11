@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "até o fim do encontro, todos os Golpes do pokémon são considerados Normais.",
+    "effect": "<p>até o fim do encontro, todos os Golpes do pokémon são considerados Normais.</p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

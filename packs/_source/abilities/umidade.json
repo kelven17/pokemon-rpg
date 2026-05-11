@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "a Habilidade Resquício e os Golpes Autodestruição e Explosão não podem ser usados ou ativados a até 20 metros do pokémon com Umidade.",
+    "effect": "<p>a Habilidade Resquício e os Golpes Autodestruição e Explosão não podem ser usados ou ativados a até 20 metros do pokémon com Umidade.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon é considerado mais leve em duas Categorias de Peso. Aumente os Deslocamentos dele em 3 e a Capacidade Salto em 1.",
+    "effect": "<p>este pokémon é considerado mais leve em duas Categorias de Peso. Aumente os Deslocamentos dele em 3 e a Capacidade Salto em 1.</p>",
     "usado": false,
     "trigger": "Constante"
   }

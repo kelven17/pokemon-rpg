@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "este pokémon causa dano a um alvo que resiste àquele Tipo de dano.",
-    "effect": "dobre o dano causado.",
+    "effect": "<p>dobre o dano causado.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

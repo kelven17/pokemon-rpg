@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon é considerado mais pesado em duas Categorias de Peso. Ele não pode ser Empurrado.",
+    "effect": "<p>este pokémon é considerado mais pesado em duas Categorias de Peso. Ele não pode ser Empurrado.</p>",
     "usado": false,
     "trigger": "Constante"
   }

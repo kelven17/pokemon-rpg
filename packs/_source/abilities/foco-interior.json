@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Atordoamento.",
+    "effect": "<p>imunidade a Atordoamento.</p>",
     "usado": false,
     "trigger": "Constante"
   }

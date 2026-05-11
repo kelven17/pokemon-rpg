@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "uma grande parede de areia de 10 metros de altura cerca o encontro. O diâmetro da Arena de Areia pode ser escolhido, a um mínimo de 10 metros e um máxi- mo de 40 metros. Deve haver solo suficiente a ser manipu- lado para que esta Habilidade seja usada. As paredes se u- nem em cima para formar o teto, de modo que é impossível deixar a área por cima. Caso destruídas, as paredes são restauradas instantaneamente. Se o pokémon ativador de Arena de Areia fica inconsciente ou é convocado de volta para a pokébola, a Arena de Areia se desmancha.",
+    "effect": "<p>uma grande parede de areia de 10 metros de altura cerca o encontro. O diâmetro da Arena de Areia pode ser escolhido, a um mínimo de 10 metros e um máxi- mo de 40 metros. Deve haver solo suficiente a ser manipu- lado para que esta Habilidade seja usada. As paredes se u- nem em cima para formar o teto, de modo que é impossível deixar a área por cima. Caso destruídas, as paredes são restauradas instantaneamente. Se o pokémon ativador de Arena de Areia fica inconsciente ou é convocado de volta para a pokébola, a Arena de Areia se desmancha.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

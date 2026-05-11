@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "um encontro começa.",
-    "effect": "pelas três primeiras rodadas, o Ataque e a Velocidade do pokémon são reduzidos à metade.",
+    "effect": "<p>pelas três primeiras rodadas, o Ataque e a Velocidade do pokémon são reduzidos à metade.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

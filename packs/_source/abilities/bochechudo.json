@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-horaria",
     "condicao": "o pokémon come uma fruta.",
-    "effect": "além dos efeitos normais da fruta, o pokémon recupera 15 Pontos de Vida.",
+    "effect": "<p>além dos efeitos normais da fruta, o pokémon recupera 15 Pontos de Vida.</p>",
     "usado": false,
     "trigger": "Gatilho Horário"
   }

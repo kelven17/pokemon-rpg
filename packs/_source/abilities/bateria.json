@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "eleve uma Fase de Ataque Especial de todos os aliados adjacentes.",
+    "effect": "<p>eleve uma Fase de Ataque Especial de todos os aliados adjacentes.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

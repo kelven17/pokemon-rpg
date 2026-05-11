@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon está sempre na Condição Sono, e pode agir como se não estivesse com esta Condição.",
+    "effect": "<p>o pokémon está sempre na Condição Sono, e pode agir como se não estivesse com esta Condição.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-horaria",
     "condicao": "um encontro acaba.",
-    "effect": "role 1d20 e consulte a Tabela a seguir para determinar o que você encontra: Resultado Item Encontrado 1 a 5 Nenhum Um dos seguintes itens determinado aleatoriamente: X-Ataque, X-Defesa, X-Ataque 6 a 8 Especial, X-Defesa Especial, X-Velocidade, X- Acurácia, Golpe Atroz, Guarda Especial. 9 ou 10 Uma fruta determinada aleatoriamente. ou 12 Uma pokébola determinada aleatoriamente. Um item que restaura Pontos de Vida ou a 16 Condições determinado aleatoriamente. Uma Pedra Elemental determinada aleatoriamente. Uma Vitamina determinada aleatoriamente. Um Item Mantido determinado aleatoriamente. Um Registro determinado aleatoriamente.",
+    "effect": "<p>role 1d20 e consulte a Tabela a seguir para determinar o que você encontra: Resultado Item Encontrado 1 a 5 Nenhum Um dos seguintes itens determinado aleatoriamente: X-Ataque, X-Defesa, X-Ataque 6 a 8 Especial, X-Defesa Especial, X-Velocidade, X- Acurácia, Golpe Atroz, Guarda Especial. 9 ou 10 Uma fruta determinada aleatoriamente. ou 12 Uma pokébola determinada aleatoriamente. Um item que restaura Pontos de Vida ou a 16 Condições determinado aleatoriamente. Uma Pedra Elemental determinada aleatoriamente. Uma Vitamina determinada aleatoriamente. Um Item Mantido determinado aleatoriamente. Um Registro determinado aleatoriamente.</p>",
     "usado": false,
     "trigger": "Gatilho Horário"
   }

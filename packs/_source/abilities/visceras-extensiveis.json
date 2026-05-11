@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ficar inconsciente em virtude de um Golpe Corpo a Corpo causador de dano.",
-    "effect": "causa ao atacante uma quantidade de dano idêntica à quantidade de Pontos de Vida que possuía. Não aplique vulnerabilidades ou resistências a este dano.",
+    "effect": "<p>causa ao atacante uma quantidade de dano idêntica à quantidade de Pontos de Vida que possuía. Não aplique vulnerabilidades ou resistências a este dano.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

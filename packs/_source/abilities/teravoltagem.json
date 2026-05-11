@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "as Habilidades do alvo é desativada até o fim do encontro.",
+    "effect": "<p>as Habilidades do alvo é desativada até o fim do encontro.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

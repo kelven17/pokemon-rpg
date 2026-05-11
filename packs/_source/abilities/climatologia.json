@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "o clima mudar.",
-    "effect": "o Tipo e a aparência do pokémon mudam de acordo com o Clima: Clima Tipo Ameno Normal Chuvoso Água Ensolarado Fogo Granizo Gelo",
+    "effect": "<p>o Tipo e a aparência do pokémon mudam de acordo com o Clima: Clima Tipo Ameno Normal Chuvoso Água Ensolarado Fogo Granizo Gelo</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

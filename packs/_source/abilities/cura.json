@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "restaura um alvo adjacente de todas as Condições que o afligirem.",
+    "effect": "<p>restaura um alvo adjacente de todas as Condições que o afligirem.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

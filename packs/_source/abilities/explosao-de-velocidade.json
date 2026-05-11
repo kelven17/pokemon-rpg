@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "até o fim do encontro, eleve uma Fase de Velocidade a cada rodada.",
+    "effect": "<p>até o fim do encontro, eleve uma Fase de Velocidade a cada rodada.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

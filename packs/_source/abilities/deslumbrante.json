@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "ninguém pode usar Golpes com o Descritor Interrupção a até 20 metros do pokémon Deslumbrante.",
+    "effect": "<p>ninguém pode usar Golpes com o Descritor Interrupção a até 20 metros do pokémon Deslumbrante.</p>",
     "usado": false,
     "trigger": "Constante"
   }

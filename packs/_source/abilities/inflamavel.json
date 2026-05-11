@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando este pokémon recebe Queimadura, eleve duas Fases do Ataque Especial dele. Se ele for curado da Queimadura, ele perde as duas Fases do Ataque Especial.",
+    "effect": "<p>quando este pokémon recebe Queimadura, eleve duas Fases do Ataque Especial dele. Se ele for curado da Queimadura, ele perde as duas Fases do Ataque Especial.</p>",
     "usado": false,
     "trigger": "Constante"
   }

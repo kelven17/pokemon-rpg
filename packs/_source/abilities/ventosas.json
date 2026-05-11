@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Empurrões e também aos Golpes Rajada de Vento e Rugido.",
+    "effect": "<p>imunidade a Empurrões e também aos Golpes Rajada de Vento e Rugido.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando este pokémon perderia Pontos de Vida por qualquer razão que não seja o resultado de uma rolagem de dano, ele não perde os PV. Isso inclui (mas não se limita a) efeitos climáticos, Condições, armadilhas, dano causado a si próprio em virtude de Golpes, Semente Sanguessuga, e outros.",
+    "effect": "<p>quando este pokémon perderia Pontos de Vida por qualquer razão que não seja o resultado de uma rolagem de dano, ele não perde os PV. Isso inclui (mas não se limita a) efeitos climáticos, Condições, armadilhas, dano causado a si próprio em virtude de Golpes, Semente Sanguessuga, e outros.</p>",
     "usado": false,
     "trigger": "Constante"
   }

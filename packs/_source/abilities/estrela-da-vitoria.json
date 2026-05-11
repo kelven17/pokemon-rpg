@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "as Dificuldades de Acurácia de todos os aliados são reduzidas em 2.",
+    "effect": "<p>as Dificuldades de Acurácia de todos os aliados são reduzidas em 2.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "um alvo perde uma Fase de Ataque.",
+    "effect": "<p>um alvo perde uma Fase de Ataque.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

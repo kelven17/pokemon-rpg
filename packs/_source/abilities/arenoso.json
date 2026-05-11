@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "enquanto o clima for uma Tempestade de Areia, o pokémon pode ativar esta Habilidade, cujo efeito permanece até o fim do encontro. Arenoso torna o poké- mon imune aos efeitos de Tempestades de Areia e o faz adicionar uma quantidade igual a seu Bônus Elemental às rolagens de dano de Golpes Metálicos, de Pedra e de Terra.",
+    "effect": "<p>enquanto o clima for uma Tempestade de Areia, o pokémon pode ativar esta Habilidade, cujo efeito permanece até o fim do encontro. Arenoso torna o poké- mon imune aos efeitos de Tempestades de Areia e o faz adicionar uma quantidade igual a seu Bônus Elemental às rolagens de dano de Golpes Metálicos, de Pedra e de Terra.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

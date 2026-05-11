@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "até o fim do encontro, todos os Golpes que o pokémon usar e todos os Golpe que ele receber acertarão automaticamente.",
+    "effect": "<p>até o fim do encontro, todos os Golpes que o pokémon usar e todos os Golpe que ele receber acertarão automaticamente.</p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o pokémon se cura de Congelamento, Paralisia, Queimadura, Sono e Veneno.",
+    "effect": "<p>o pokémon se cura de Congelamento, Paralisia, Queimadura, Sono e Veneno.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

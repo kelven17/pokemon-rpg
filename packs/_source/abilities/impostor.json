@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "quando Ditto é enviado para fora da pokébola, ele pode usar Transformação como uma Ação Livre. Se o alvo desta Transformação possui quaisquer Fases modificadas para mais ou para menos, aplique as mesmas Fases ao Ditto. Uma das Habilidades do alvo será aleatoriamente determinada e copiada pelo Ditto. Isso perdura até que o Ditto use Transformação de novo.",
+    "effect": "<p>quando Ditto é enviado para fora da pokébola, ele pode usar Transformação como uma Ação Livre. Se o alvo desta Transformação possui quaisquer Fases modificadas para mais ou para menos, aplique as mesmas Fases ao Ditto. Uma das Habilidades do alvo será aleatoriamente determinada e copiada pelo Ditto. Isso perdura até que o Ditto use Transformação de novo.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

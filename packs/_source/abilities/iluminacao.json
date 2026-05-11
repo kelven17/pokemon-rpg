@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "Golpes que tenham este pokémon como alvo têm a Dificuldade de Acurácia aumentada em 2.",
+    "effect": "<p>Golpes que tenham este pokémon como alvo têm a Dificuldade de Acurácia aumentada em 2.</p>",
     "usado": false,
     "trigger": "Constante"
   }

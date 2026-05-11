@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-at-will",
     "condicao": "ser acertado por um Golpe Físico.",
-    "effect": "o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.",
+    "effect": "<p>o pokémon pode voluntariamente perder uma Fase de Defesa para elevar uma Fase de Velocidade. Frenesi Gatilho quando o pokémon sofre um Crítico, eleve seis Fases de Ataque.</p>",
     "usado": false,
     "trigger": "Gatilho À Vontade"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "os Pontos de Vida do pokémon são reduzidos abaixo da metade de seus PV máximos.",
-    "effect": "eleve duas Fases de Ataque Especial dele.",
+    "effect": "<p>eleve duas Fases de Ataque Especial dele.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "Golpes que o pokémon use contra criaturas do Tipo Fantasma acertam automaticamente e ignoram resistências, imunidades e vulnerabilidades.",
+    "effect": "<p>Golpes que o pokémon use contra criaturas do Tipo Fantasma acertam automaticamente e ignoram resistências, imunidades e vulnerabilidades.</p>",
     "usado": false,
     "trigger": "Constante"
   }

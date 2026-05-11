@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o clima se torna ameno. Isso é sustentado indefinidamente enquanto for a vontade do pokémon.",
+    "effect": "<p>o clima se torna ameno. Isso é sustentado indefinidamente enquanto for a vontade do pokémon.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

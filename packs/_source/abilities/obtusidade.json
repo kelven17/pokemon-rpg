@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade à Paixão e ao Golpe Provocação.",
+    "effect": "<p>imunidade à Paixão e ao Golpe Provocação.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "como uma Ação Livre, o pokémon usa o Golpe Dança da Chuva.",
+    "effect": "<p>como uma Ação Livre, o pokémon usa o Golpe Dança da Chuva.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

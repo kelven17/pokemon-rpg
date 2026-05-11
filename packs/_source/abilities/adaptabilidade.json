@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "dobre o Bônus Elemental do pokémon.",
+    "effect": "<p>dobre o Bônus Elemental do pokémon.</p>",
     "usado": false,
     "trigger": "Constante"
   }

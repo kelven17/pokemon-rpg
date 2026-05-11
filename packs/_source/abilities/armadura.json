@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Críticos.",
+    "effect": "<p>imunidade a Críticos.</p>",
     "usado": false,
     "trigger": "Constante"
   }

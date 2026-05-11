@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "este pokémon reduz em dois pontos o valor mínimo necessário obtido no Teste de Acurácia para que o Golpe seja um Crítico (normalmente isso significa que o Golpe será um Crítico em um resultado no mínimo 18, a menos que o Golpe possua uma margem maior).",
+    "effect": "<p>este pokémon reduz em dois pontos o valor mínimo necessário obtido no Teste de Acurácia para que o Golpe seja um Crítico (normalmente isso significa que o Golpe será um Crítico em um resultado no mínimo 18, a menos que o Golpe possua uma margem maior).</p>",
     "usado": false,
     "trigger": "Constante"
   }

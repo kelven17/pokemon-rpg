@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto o clima estiver Ensolarado, o usuário é imune a Congelamento, Paralisia, Queimadura, Sono e Veneno. Se o clima for mudado para Ensolarado, o alvo é instantaneamente curado destas Condições.",
+    "effect": "<p>enquanto o clima estiver Ensolarado, o usuário é imune a Congelamento, Paralisia, Queimadura, Sono e Veneno. Se o clima for mudado para Ensolarado, o alvo é instantaneamente curado destas Condições.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "elevar uma ou mais Fases ou perder uma ou mais Fases.",
-    "effect": "dobre o número de Fases elevadas ou perdidas.",
+    "effect": "<p>dobre o número de Fases elevadas ou perdidas.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

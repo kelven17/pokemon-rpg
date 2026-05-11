@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "sofrer dano.",
-    "effect": "o Tipo do pokémon muda para o Tipo do dano sofrido.",
+    "effect": "<p>o Tipo do pokémon muda para o Tipo do dano sofrido.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

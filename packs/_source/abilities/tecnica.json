@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-at-will",
     "condicao": "usar um Golpe causador de dano cujo Dano Basal não pode alcançar pelo menos 30, mesmo que todos os dados tenham os melhores resultados.",
-    "effect": "+2d10 à rolagem de dano. Se o Golpe possui o Descritor Saraivada, só aplique o dano extra uma vez.",
+    "effect": "<p>+2d10 à rolagem de dano. Se o Golpe possui o Descritor Saraivada, só aplique o dano extra uma vez.</p>",
     "usado": false,
     "trigger": "Gatilho À Vontade"
   }

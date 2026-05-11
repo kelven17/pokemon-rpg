@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, reduza o número necessário em 3 para ter sucesso em ativar aquele efeito. Isso não afeta se o Golpe foi um Crítico ou não.",
+    "effect": "<p>quando um Golpe tem algum efeito que só se ativa se o pokémon tiver um resultado a partir de um determinado número no Teste de Acurácia, reduza o número necessário em 3 para ter sucesso em ativar aquele efeito. Isso não afeta se o Golpe foi um Crítico ou não.</p>",
     "usado": false,
     "trigger": "Constante"
   }

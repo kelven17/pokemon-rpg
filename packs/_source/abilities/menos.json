@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto houver pelo menos um aliado com a Habilidade Mais a até 10 metros, todos os pokémons aliados com Mais e Menos até 10 metros elevam duas Fases de Ataque Especial. Mesmo que haja múltiplos pokémons com Mais e Menos, apenas duas Fases são elevadas.",
+    "effect": "<p>enquanto houver pelo menos um aliado com a Habilidade Mais a até 10 metros, todos os pokémons aliados com Mais e Menos até 10 metros elevam duas Fases de Ataque Especial. Mesmo que haja múltiplos pokémons com Mais e Menos, apenas duas Fases são elevadas.</p>",
     "usado": false,
     "trigger": "Constante"
   }

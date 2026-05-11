@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "acertar um Golpe causador de dano superefetivo.",
-    "effect": "+3d20 à rolagem de dano.",
+    "effect": "<p>+3d20 à rolagem de dano.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

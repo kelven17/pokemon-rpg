@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "enquanto estiver em um terreno Gramado, o pokémon eleva duas Fases da Defesa.",
+    "effect": "<p>enquanto estiver em um terreno Gramado, o pokémon eleva duas Fases da Defesa.</p>",
     "usado": false,
     "trigger": "Constante"
   }

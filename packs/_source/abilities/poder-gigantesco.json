@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o Atributo Basal de Ataque do pokémon é dobrado. Caso a Natureza do pokémon afete seu Ataque, Poder Gigantesco será calculado após definir o Atributo Basal conforme a Natureza. Se o Ataque do pokémon for modificado por Vitaminas, recalcule o benefício de Poder Gigantesco. Não recalcule em outras modificações.",
+    "effect": "<p>o Atributo Basal de Ataque do pokémon é dobrado. Caso a Natureza do pokémon afete seu Ataque, Poder Gigantesco será calculado após definir o Atributo Basal conforme a Natureza. Se o Ataque do pokémon for modificado por Vitaminas, recalcule o benefício de Poder Gigantesco. Não recalcule em outras modificações.</p>",
     "usado": false,
     "trigger": "Constante"
   }

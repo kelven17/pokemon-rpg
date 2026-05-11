@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon sofre apenas metade do dano que sofreria por dano de Fogo.",
+    "effect": "<p>o pokémon sofre apenas metade do dano que sofreria por dano de Fogo.</p>",
     "usado": false,
     "trigger": "Constante"
   }

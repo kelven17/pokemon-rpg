@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. eleva duas Fases de Ataque.",
+    "effect": "<p>imunidade a Confusão. Rivalidade Gatilho Por Encontro: estar batalhando contra um pokémon do mesmo sexo que o pokémon com Rivalidade. eleva duas Fases de Ataque.</p>",
     "usado": false,
     "trigger": "Constante"
   }

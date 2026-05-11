@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado um Golpe superefetivo.",
-    "effect": "Necrozma sofre dano neutro pelo Golpe, como se não fosse superefetivo.",
+    "effect": "<p>Necrozma sofre dano neutro pelo Golpe, como se não fosse superefetivo.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

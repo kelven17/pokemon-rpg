@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o pokémon recupera um quarto de seus PV máximos.",
+    "effect": "<p>o pokémon recupera um quarto de seus PV máximos.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

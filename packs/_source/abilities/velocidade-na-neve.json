@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "desde que o Clima esteja de Granizo, ativar esta Habilidade eleva quatro Fases de Velocidade e torna o pokémon imune ao dano pelo Granizo até o fim do encontro. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.",
+    "effect": "<p>desde que o Clima esteja de Granizo, ativar esta Habilidade eleva quatro Fases de Velocidade e torna o pokémon imune ao dano pelo Granizo até o fim do encontro. Este aumento de Fases de Velocidade não aumenta a Evasão do pokémon.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-diaria",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "o atacante é Envenenado.",
+    "effect": "<p>o atacante é Envenenado.</p>",
     "usado": false,
     "trigger": "Gatilho Diário"
   }

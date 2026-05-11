@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "sofrer dano quando antes estava com seus Pontos de Vida completos.",
-    "effect": "reduza o dano à metade depois da aplicação de vulnerabilidades e resistências e da aplicação de Defesa ou Defesa Especial.",
+    "effect": "<p>reduza o dano à metade depois da aplicação de vulnerabilidades e resistências e da aplicação de Defesa ou Defesa Especial.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

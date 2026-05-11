@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais.<p><strong>Especial:</strong> a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.</p>",
+    "effect": "<p>Arceus pode mudar seu Tipo a qualquer um dos Tipos elementais.<p><strong>Especial:</strong> a Habilidade Multitipo não pode ser copiada, trocada ou desativada de nenhuma forma.</p></p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

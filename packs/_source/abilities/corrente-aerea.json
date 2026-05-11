@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "como uma Ação Livre, o clima é automatica- mente convertido a ameno. Enquanto o pokémon com Cor- rente Aérea estiver presente, qualquer tentativa de alterar o Clima automaticamente falha. Durante este mesmo tempo, qualquer rolagem de dano que seria superefetiva contra pokémons Voadores causará dano neutro.",
+    "effect": "<p>como uma Ação Livre, o clima é automatica- mente convertido a ameno. Enquanto o pokémon com Cor- rente Aérea estiver presente, qualquer tentativa de alterar o Clima automaticamente falha. Durante este mesmo tempo, qualquer rolagem de dano que seria superefetiva contra pokémons Voadores causará dano neutro.</p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

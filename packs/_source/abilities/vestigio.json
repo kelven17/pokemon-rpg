@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o pokémon copia a Habilidade de um alvo a até 10 metros de si. Ele a mantém para si por tempo indefinido, mas as seguintes situações o fazem perder a Habilidade copiada: ficar inconsciente ou ser convocado de volta à pokébola.",
+    "effect": "<p>o pokémon copia a Habilidade de um alvo a até 10 metros de si. Ele a mantém para si por tempo indefinido, mas as seguintes situações o fazem perder a Habilidade copiada: ficar inconsciente ou ser convocado de volta à pokébola.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

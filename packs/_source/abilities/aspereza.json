@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.",
+    "effect": "<p>o atacante perde um oitavo de seus PV máximos. Não aplique vulnerabilidades ou resistências nem Atributos a este dano.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "o pokémon não perde Fases de Ataque.",
+    "effect": "<p>o pokémon não perde Fases de Ataque.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "ser acertado por um Golpe Corpo a Corpo.",
-    "effect": "o atacante perde uma Fase de Velocidade.",
+    "effect": "<p>o atacante perde uma Fase de Velocidade.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

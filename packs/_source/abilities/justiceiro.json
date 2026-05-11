@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-constante",
     "condicao": "sofrer dano de Trevas.",
-    "effect": "eleva uma Fase de Ataque.",
+    "effect": "<p>eleva uma Fase de Ataque.</p>",
     "usado": false,
     "trigger": "Gatilho Constante"
   }

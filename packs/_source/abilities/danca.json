@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-horaria",
     "condicao": "o pokémon está a até 10 metros de um pokémon que usa um Golpe com o Descritor Dança.",
-    "effect": "o pokémon com Dança pode usar imediatamente o mesmo Golpe, escolhendo um novo alvo se for necessário escolher alvos para aquele Golpe.",
+    "effect": "<p>o pokémon com Dança pode usar imediatamente o mesmo Golpe, escolhendo um novo alvo se for necessário escolher alvos para aquele Golpe.</p>",
     "usado": false,
     "trigger": "Gatilho Horário"
   }

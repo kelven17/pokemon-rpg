@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "como uma Ação Livre e desde que possua um Disco de Memória como item Mantido, o pokémon pode mudar seu Tipo para o Tipo associado ao Disco de Memória que possui como item Mantido.",
+    "effect": "<p>como uma Ação Livre e desde que possua um Disco de Memória como item Mantido, o pokémon pode mudar seu Tipo para o Tipo associado ao Disco de Memória que possui como item Mantido.</p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

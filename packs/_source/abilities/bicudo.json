@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "imunidade a perda de Fases de Defesa.",
+    "effect": "<p>imunidade a perda de Fases de Defesa.</p>",
     "usado": false,
     "trigger": "Constante"
   }

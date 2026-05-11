@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "adicione o Descritor Interrupção a todos os Golpes conhecidos que curam Pontos de Vida ou Condições.",
+    "effect": "<p>adicione o Descritor Interrupção a todos os Golpes conhecidos que curam Pontos de Vida ou Condições.</p>",
     "usado": false,
     "trigger": "Constante"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "o pokémon pode ignorar a necessidade da Megapedra para megaevoluir.",
+    "effect": "<p>o pokémon pode ignorar a necessidade da Megapedra para megaevoluir.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

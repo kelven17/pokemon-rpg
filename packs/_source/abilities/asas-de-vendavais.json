@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-horaria",
     "condicao": "",
-    "effect": "o pokémon pode usar um Golpe Voador como uma Ação de Interrupção.",
+    "effect": "<p>o pokémon pode usar um Golpe Voador como uma Ação de Interrupção.</p>",
     "usado": false,
     "trigger": "Ativação Horária"
   }

@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-diaria",
     "condicao": "",
-    "effect": "pelo resto do encontro, quando um aliado adjacente ao pokémon sofreria dano por Golpes, o inimigo não adiciona nenhum Bônus Elemental à rolagem de dano.",
+    "effect": "<p>pelo resto do encontro, quando um aliado adjacente ao pokémon sofreria dano por Golpes, o inimigo não adiciona nenhum Bônus Elemental à rolagem de dano.</p>",
     "usado": false,
     "trigger": "Ativação Diária"
   }

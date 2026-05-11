@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "ativacao-at-will",
     "condicao": "",
-    "effect": "o pokémon dá seu item Mantido a um alvo adjacente, desde que este não possua um item Mantido.",
+    "effect": "<p>o pokémon dá seu item Mantido a um alvo adjacente, desde que este não possua um item Mantido.</p>",
     "usado": false,
     "trigger": "Ativação À Vontade"
   }

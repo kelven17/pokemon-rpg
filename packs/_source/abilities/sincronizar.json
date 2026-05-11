@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "gatilho-horaria",
     "condicao": "um oponente impõe uma das seguintes Condições ao pokémon com Sincronizar: Congelamento, Paralisia, Queimadura, Sono ou Veneno.",
-    "effect": "o oponente recebe a mesma Condição que ele causou.",
+    "effect": "<p>o oponente recebe a mesma Condição que ele causou.</p>",
     "usado": false,
     "trigger": "Gatilho Horário"
   }

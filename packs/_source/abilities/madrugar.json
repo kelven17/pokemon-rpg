@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando o pokémon faz Testes de Sono, o contador para acordar começa em 11, e não em 16. Ele é reduzido normalmente e atinge o mínimo no mesmo valor.",
+    "effect": "<p>quando o pokémon faz Testes de Sono, o contador para acordar começa em 11, e não em 16. Ele é reduzido normalmente e atinge o mínimo no mesmo valor.</p>",
     "usado": false,
     "trigger": "Constante"
   }

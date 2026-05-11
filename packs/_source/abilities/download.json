@@ -7,7 +7,7 @@
     "hidden": false,
     "triggerKey": "constante",
     "condicao": "",
-    "effect": "quando o pokémon com Download é alvo de um Golpe causador de dano, o atacante deve revelar qual Atributo é o menor Atributo dele entre a Defesa e a Defesa Especial. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque se a Defesa do alvo é menor que a Defesa Especial dele. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque Especial se a Defesa Especial do alvo é menor que a Defesa dele.",
+    "effect": "<p>quando o pokémon com Download é alvo de um Golpe causador de dano, o atacante deve revelar qual Atributo é o menor Atributo dele entre a Defesa e a Defesa Especial. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque se a Defesa do alvo é menor que a Defesa Especial dele. Quando o pokémon com Download ataca um inimigo, ele é considerado com uma Fase a mais em Ataque Especial se a Defesa Especial do alvo é menor que a Defesa dele.</p>",
     "usado": false,
     "trigger": "Constante"
   }
