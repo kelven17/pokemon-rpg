@@ -1,0 +1,168 @@
+{
+  "name": "Duosion",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 578,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 4,
+      "def": 5,
+      "spa": 13,
+      "spd": 6,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 5,
+      "salto": 2,
+      "outras": [
+        "Telecinesia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Carapaça",
+      "Proteção Mágica"
+    ],
+    "altasHabilidades": [
+      "Regeneração"
+    ],
+    "learnset": [
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Furto"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Poder Oculto"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Troca de Habilidades"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Sala das Maravilhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Armadura Ácida",
+      "Assustar",
+      "Escuridão",
+      "Mão Amiga",
+      "Poder Secreto",
+      "Raio de Confusão",
+      "Selo",
+      "Truque"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Esforço",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Solosis",
+        "to": "Duosion",
+        "condition": "level",
+        "value": 25
+      },
+      {
+        "from": "Duosion",
+        "to": "Reuniclus",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

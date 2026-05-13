@@ -1,0 +1,142 @@
+{
+  "name": "Jolteon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 135,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 6,
+      "spa": 11,
+      "spd": 10,
+      "spe": 13
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Eletricidade",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 12,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Adaptabilidade",
+      "Fuga"
+    ],
+    "altasHabilidades": [
+      "Absorção de Voltagem",
+      "Ligeiro"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Chute Duplo"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Presa do Trovão"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Cativar",
+      "Charme",
+      "Choro",
+      "Cobiça",
+      "Cócegas",
+      "Desejo",
+      "Dádiva da Natureza",
+      "Detecção",
+      "Elementalismo",
+      "Maldição",
+      "Mangual",
+      "Reserva",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sinalizador",
+      "Sino da Cura",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

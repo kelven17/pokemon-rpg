@@ -1,0 +1,162 @@
+{
+  "name": "Scyther",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 123,
+    "types": {
+      "primary": "bug",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 11,
+      "def": 8,
+      "spa": 6,
+      "spd": 8,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Inabalável",
+      "Técnica"
+    ],
+    "altasHabilidades": [
+      "Hipercorte"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda de Vácuo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Finta"
+      }
+    ],
+    "golpesHerdados": [
+      "Arremesso Sísmico",
+      "Asa de Aço",
+      "Contra-Ataque",
+      "Desanuviar",
+      "Emboscada",
+      "Lâmina de Vento",
+      "Passar o Bastão",
+      "Resistência",
+      "Reversão",
+      "Vento Prateado",
+      "Zumbido"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Nocaute",
+      "Picada",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

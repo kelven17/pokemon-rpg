@@ -1,0 +1,168 @@
+{
+  "name": "Grumpig",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 326,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 5,
+      "def": 7,
+      "spa": 9,
+      "spd": 11,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 6,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Gordura",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Manto Mágico"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Ronco"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Pular"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Cabeçada Zen",
+      "Cântico da Sorte",
+      "Escudo Espelho",
+      "Extrassensorial",
+      "Previsão",
+      "Rajada de Vento",
+      "Resistência",
+      "Simplificador",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "golpesEnsinaveis": [
+      "Arroto",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Pular",
+      "Reciclagem",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

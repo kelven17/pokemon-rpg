@@ -1,0 +1,90 @@
+{
+  "name": "Weedle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 13,
+    "types": {
+      "primary": "bug",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 3,
+      "spa": 2,
+      "spd": 2,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Adesão",
+        "Afundamento",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 1,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Polvilhar"
+    ],
+    "altasHabilidades": [
+      "Fuga"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lançar Teia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Picada"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Lançar Teia",
+      "Picada",
+      "Teia Elétrica. Weedle não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Weedle",
+        "to": "Kakuna",
+        "condition": "level",
+        "value": 5
+      },
+      {
+        "from": "Kakuna",
+        "to": "Beedrill",
+        "condition": "level",
+        "value": 10
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 45,
+    "experiencia": 5
+  }
+}

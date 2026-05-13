@@ -1,0 +1,166 @@
+{
+  "name": "Poochyena",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 261,
+    "types": {
+      "primary": "dark",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 4,
+      "spa": 3,
+      "spd": 3,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Faro",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Fuga",
+      "Ligeiro"
+    ],
+    "altasHabilidades": [
+      "Covardia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Brincadeira"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Bocejo",
+      "Brincadeira",
+      "Cobiça",
+      "Encarar",
+      "Furto",
+      "Pelas Costas",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Presa Venenosa",
+      "Primeiro Eu",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Ódio",
+      "Superpresa",
+      "Trapaça",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Poochyena",
+        "to": "Mightyena",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

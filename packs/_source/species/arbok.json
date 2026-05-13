@@ -1,0 +1,163 @@
+{
+  "name": "Arbok",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 24,
+    "types": {
+      "primary": "poison",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 7,
+      "spa": 7,
+      "spd": 8,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 7,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Intimidar",
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Tensão"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Mastigada"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Ofuscar"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Bomba Ácida"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Enrolar"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Sujeira"
+      }
+    ],
+    "golpesHerdados": [
+      "Careta",
+      "Cauda de Ferro",
+      "Cauda Venenosa",
+      "Desabilitar",
+      "Espancamento",
+      "Furto",
+      "Ódio",
+      "Pelas Costas",
+      "Perseguição",
+      "Porrada",
+      "Presa Venenosa",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Furto",
+      "Gigadreno",
+      "Ódio",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Sufocamento",
+      "Sujeira",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Ekans",
+        "to": "Arbok",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 3.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

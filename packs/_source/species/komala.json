@@ -1,0 +1,131 @@
+{
+  "name": "Komala",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 775,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 12,
+      "def": 7,
+      "spa": 8,
+      "spd": 10,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Ininteligível"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Coma"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Martelo de Madeira"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Brincadeira",
+      "Canção",
+      "Charme",
+      "Desejo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cólera",
+      "Esforço",
+      "Nocaute",
+      "Superpoder",
+      "Último Recurso. Komala não aprende o Golpe Universal Descansar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

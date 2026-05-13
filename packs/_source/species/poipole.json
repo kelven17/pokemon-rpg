@@ -1,0 +1,131 @@
+{
+  "name": "Poipole",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 803,
+    "types": {
+      "primary": "poison",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 7,
+      "spa": 7,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "- Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Aguilhão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Mão Amiga",
+      "Pulso do Dragão",
+      "Sinalizador",
+      "Sujeira",
+      "Vômito. Poipole não aprende o Golpe Universal Confidência"
+    ],
+    "evolucoes": [
+      {
+        "from": "Poipole",
+        "to": "Naganadel",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 5,
+    "experiencia": 80
+  }
+}

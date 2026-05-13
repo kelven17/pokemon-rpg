@@ -1,0 +1,159 @@
+{
+  "name": "Spinda",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 327,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 6,
+      "spa": 6,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Pés Laçados",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Contrário"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Soco Estonteante"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Auxílio",
+      "Bis",
+      "Choro",
+      "Compartilhar Defesas",
+      "Corte Psíquico",
+      "Desabilitar",
+      "Desejo",
+      "Estímulo",
+      "Fingimento",
+      "Giro Rápido",
+      "Interpretação",
+      "Passar o Bastão",
+      "Pulso d’Água",
+      "Sonambulismo",
+      "Transmissibilidade",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Rasteira",
+      "Reciclagem",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Troca de Habilidades",
+      "Truque",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão. Spinda não aprende o Golpe Universal Sonambulismo"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Cacturne",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 332,
+    "types": {
+      "primary": "grass",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 12,
+      "def": 6,
+      "spa": 12,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Manto de Areia"
+    ],
+    "altasHabilidades": [
+      "Absorção de Água"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Escudo de Espinhos"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Braço de Agulhas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Espinhos"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Esporos de Algodão"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Vínculo do Destino"
+      }
+    ],
+    "golpesHerdados": [
+      "Ácido",
+      "Aguilhão",
+      "Apito de Folha",
+      "Arroto",
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Conspiração",
+      "Contra-Ataque",
+      "Dança Caótica",
+      "Desabilitar",
+      "Estímulo",
+      "Fertilizante",
+      "Folhas Mágicas",
+      "Rasteira",
+      "Semente Irritante",
+      "Soco Dinâmico",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Interpretação",
+      "Ódio",
+      "Pelas Costas",
+      "Rasteira",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Soco do Trovão",
+      "Superpoder",
+      "Trapaça",
+      "Vingança"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

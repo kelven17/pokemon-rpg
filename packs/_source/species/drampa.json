@@ -1,0 +1,153 @@
+{
+  "name": "Drampa",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 780,
+    "types": {
+      "primary": "normal",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 9,
+      "spa": 14,
+      "spd": 9,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 3,
+      "salto": 4,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 6,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Seiva",
+      "Barbárie"
+    ],
+    "altasHabilidades": [
+      "Aclimatação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ciclone"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ofuscar"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Sopro do Dragão"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Voar"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Ultraje"
+      }
+    ],
+    "golpesHerdados": [
+      "Brincadeira",
+      "Furacão",
+      "Investida do Dragão",
+      "Lâmina de Vento"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cauda de Vento",
+      "Clamor",
+      "Cólera",
+      "Desanuviar",
+      "Esforço",
+      "Mão Amiga",
+      "Meteoro do Dragão",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Sinalizador",
+      "Superpoder",
+      "Ultraje",
+      "Vento Gelado",
+      "Vozeirão. Drampa não aprende o Golpe Universal Confidência"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 3.0
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Trevenant",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 709,
+    "types": {
+      "primary": "ghost",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 11,
+      "def": 8,
+      "spa": 7,
+      "spd": 8,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": 2,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bisbilhoteiro",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Colheita"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Garra Sombria"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Fogo-Fátuo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Maldição da Floresta"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Vínculo do Destino"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Travessia Fantasmagórica"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Martelo de Madeira"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Chifre Sanguessuga"
+      }
+    ],
+    "golpesHerdados": [
+      "Intensificar Veneno",
+      "Oferenda",
+      "Rancor",
+      "Selo"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Chifre Sanguessuga",
+      "Gigadreno",
+      "Interpretação",
+      "Manto Mágico",
+      "Ódio",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Sofrimento Mútuo",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Phantump",
+        "to": "Trevenant",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

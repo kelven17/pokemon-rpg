@@ -1,0 +1,153 @@
+{
+  "name": "Milotic",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 350,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 6,
+      "def": 8,
+      "spa": 10,
+      "spd": 13,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 12
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Maravilhosa",
+      "Tentação"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Ciclone"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Cauda do Dragão"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Enrolar"
+      },
+      {
+        "level": 474,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      }
+    ],
+    "golpesHerdados": [
+      "Cativar",
+      "Cauda de Ferro",
+      "Cócegas",
+      "Escudo Espelho",
+      "Esporte Terrestre",
+      "Hipnose",
+      "Neblina",
+      "Nevoeiro",
+      "Pulso do Dragão",
+      "Raio de Confusão",
+      "Salmoura",
+      "Sopro do Dragão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Manto Mágico",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Sufocamento",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 6.2
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

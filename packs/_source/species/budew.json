@@ -1,0 +1,102 @@
+{
+  "name": "Budew",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 406,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 3,
+      "def": 4,
+      "spa": 5,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Espículas Venenosas",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Proteção Vegetal"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Megadreno"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas",
+      "Apito de Folha",
+      "Bomba de Sementes",
+      "Dádiva da Natureza",
+      "Espinhos",
+      "Esporos de Algodão",
+      "Extrassensorial",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Gigadreno",
+      "Leitura Mental",
+      "Pó Sonífero",
+      "Semente Bala",
+      "Tempestade de Folhas"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Clamor",
+      "Cobiça",
+      "Gigadreno",
+      "Fotossíntese",
+      "Semente Irritante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

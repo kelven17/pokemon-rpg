@@ -1,0 +1,101 @@
+{
+  "name": "Eelektross",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 604,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 12,
+      "def": 8,
+      "spa": 11,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Eletricidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 8,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Mastigada"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ácido",
+      "Açoite",
+      "Bomba Ácida",
+      "Cabeçada",
+      "Canhão Elétrico",
+      "Carga Selvagem",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Descarga",
+      "Dilúvio Iônico",
+      "Enrolar",
+      "Faísca",
+      "Garra Esmagadora",
+      "Gigadreno",
+      "Magnetização",
+      "Mastigada",
+      "Nocaute",
+      "Onda de Choques",
+      "Onda Trovão",
+      "Pular",
+      "Pulso do Dragão",
+      "Raio Carregado",
+      "Relâmpago",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Superpoder",
+      "Superpresa",
+      "Ultraje",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Tynamo",
+        "to": "Eelektrik",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.1
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

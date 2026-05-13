@@ -1,0 +1,138 @@
+{
+  "name": "Metang",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 375,
+    "types": {
+      "primary": "steel",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 10,
+      "spa": 6,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 6,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Magnetismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": null,
+      "voo": 7,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Metal Precioso"
+    ],
+    "altasHabilidades": [
+      "Metal Leve"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Confusão"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Milagre"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Soco Bala"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Meteoro"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Defesa de Ferro"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Defesa de Ferro",
+      "Gravidade",
+      "Magnetização",
+      "Pedras Soltas",
+      "Sinalizador",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Beldum",
+        "to": "Metang",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 30
+  }
+}

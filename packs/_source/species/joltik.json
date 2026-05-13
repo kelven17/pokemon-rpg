@@ -1,0 +1,162 @@
+{
+  "name": "Joltik",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 595,
+    "types": {
+      "primary": "electric",
+      "secondary": "bug"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 6,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Adesão",
+        "Eletricidade",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Olhos Compostos",
+      "Tensão"
+    ],
+    "altasHabilidades": [
+      "Eletricidade Estática"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lançar Teia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Teia de Aranha"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Teia Elétrica"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Zumbido"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas",
+      "Ataque Furtivo",
+      "Camuflagem",
+      "Cruzado Envenenado",
+      "Desabilitar",
+      "Escalada",
+      "Perseguição",
+      "Picada Venenosa"
+    ],
+    "golpesEnsinaveis": [
+      "Gigadreno",
+      "Magnetização",
+      "Onda de Choques",
+      "Picada",
+      "Pular",
+      "Sinalizador",
+      "Teia Elétrica",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Joltik",
+        "to": "Galvantula",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.1
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

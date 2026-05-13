@@ -1,0 +1,153 @@
+{
+  "name": "Drapion",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 452,
+    "types": {
+      "primary": "poison",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 9,
+      "spa": 3,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Armadura",
+      "Franco-Atirador"
+    ],
+    "altasHabilidades": [
+      "Visão Aguçada"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Acupuntura"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Presa Venenosa"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Aguilhão"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Cruzado Envenenado"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Agulhas Gêmeas",
+      "Ataque de Areia",
+      "Ataque Furtivo",
+      "Cauda de Ferro",
+      "Cauda Venenosa",
+      "Emboscada",
+      "Guincho",
+      "Perseguição",
+      "Raio de Confusão",
+      "Retalhar",
+      "Rajada de Vento"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Nocaute",
+      "Picada",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Skorupi",
+        "to": "Drapion",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

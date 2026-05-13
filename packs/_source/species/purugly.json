@@ -1,0 +1,146 @@
+{
+  "name": "Purugly",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 432,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 6,
+      "spa": 6,
+      "spd": 6,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Elasticidade",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Agonista",
+      "Gordura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Bravata"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Auxílio"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Afiar"
+      }
+    ],
+    "golpesHerdados": [
+      "Abanar Rabo",
+      "Ataque de Areia",
+      "Ataque Rápido",
+      "Choro",
+      "Despertador",
+      "Furto",
+      "Garantia",
+      "Mangual",
+      "Mordida",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Brincadeira",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Furto",
+      "Nocaute",
+      "Onda de Choques",
+      "Pelas Costas",
+      "Pulso d’Água",
+      "Superpresa",
+      "Trapaça",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

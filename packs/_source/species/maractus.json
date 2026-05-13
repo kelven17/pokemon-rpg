@@ -1,0 +1,170 @@
+{
+  "name": "Maractus",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 556,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 9,
+      "def": 7,
+      "spa": 11,
+      "spd": 8,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Água",
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Drenagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Esporos de Algodão"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Braço de Agulhas"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Acupuntura"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Maciez"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Depois de Você"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Bomba de Sementes",
+      "Campo Gramado",
+      "Espinhos",
+      "Martelo de Madeira",
+      "Pular",
+      "Semente Bala",
+      "Semente Irritante",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Clamor",
+      "Depois de Você",
+      "Escudo de Espinhos",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Maciez",
+      "Mão Amiga",
+      "Nocaute",
+      "Pular",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "name": "Chesnaught",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 652,
+    "types": {
+      "primary": "grass",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 11,
+      "def": 12,
+      "spa": 7,
+      "spd": 8,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": 2,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Blindagem"
+    ],
+    "altasHabilidades": [
+      "Armadura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Escudo de Espinhos"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Chicote de Vinha"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Bomba de Sementes"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Martelo de Madeira"
+      },
+      {
+        "level": 72,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 78,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Fechada",
+      "Espinhos",
+      "Fotossíntese",
+      "Maldição",
+      "Prevenção",
+      "Rolagem",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Braço de Agulhas",
+      "Braço Martelo",
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Esforço",
+      "Finta",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mão Amiga",
+      "Pancada Dupla",
+      "Pilar de Folhas",
+      "Planta Mortal",
+      "Rasteira",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Superpoder",
+      "Superpresa",
+      "Tambor de Pança"
+    ],
+    "evolucoes": [
+      {
+        "from": "Chespin",
+        "to": "Quilladin",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Quilladin",
+        "to": "Chesnaught",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

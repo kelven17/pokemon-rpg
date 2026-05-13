@@ -1,0 +1,134 @@
+{
+  "name": "Bastiodon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 411,
+    "types": {
+      "primary": "rock",
+      "secondary": "steel"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 17,
+      "spa": 5,
+      "spd": 14,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Robustez"
+    ],
+    "altasHabilidades": [
+      "Cacofonia"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Bloqueio"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Jorro Metálico"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeçada",
+      "Careta",
+      "Compartilhar Defesas",
+      "Contra-Ataque",
+      "Defesa Aberta",
+      "Detonação",
+      "Faca de Dois Gumes",
+      "Fissura",
+      "Focar Energia",
+      "Guincho",
+      "Maldição",
+      "Pancada",
+      "Pedras Soltas"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

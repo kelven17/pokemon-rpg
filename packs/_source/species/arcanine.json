@@ -1,0 +1,95 @@
+{
+  "name": "Arcanine",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 59,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 11,
+      "def": 8,
+      "spa": 10,
+      "spd": 8,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Combustão",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas",
+      "Intimidar"
+    ],
+    "altasHabilidades": [
+      "Justiceiro"
+    ],
+    "learnset": [
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Extrema Velocidade"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Alvorada",
+      "Bombardeio de Chamas",
+      "Cauda de Ferro",
+      "Chute Duplo",
+      "Cobiça",
+      "Corpo a Corpo",
+      "Espiral de Fogo",
+      "Faca de Dois Gumes",
+      "Mastigada",
+      "Onda de Calor",
+      "Pancada",
+      "Uivo",
+      "Última Chama"
+    ],
+    "golpesEnsinaveis": [
+      "Agilidade",
+      "Anel de Fogo",
+      "Bombardeio de Chamas",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Derrubada",
+      "Lança-Chamas",
+      "Mão Amiga",
+      "Mastigada",
+      "Onda de Calor",
+      "Presa de Fogo",
+      "Presa do Trovão",
+      "Pulso do Dragão",
+      "Rajada de Chamas",
+      "Retaliação",
+      "Reversão",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.9
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

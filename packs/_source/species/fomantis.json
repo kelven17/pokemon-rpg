@@ -1,0 +1,131 @@
+{
+  "name": "Fomantis",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 753,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 4,
+      "spa": 5,
+      "spd": 4,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Proteção Vegetal"
+    ],
+    "altasHabilidades": [
+      "Contrário"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Folhagem"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      }
+    ],
+    "golpesHerdados": [
+      "Aromaterapia",
+      "Desanuviar",
+      "Esfera Climática",
+      "Gigadreno",
+      "Tempestade de Folhas"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Desanuviar",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pancada Dupla",
+      "Picada",
+      "Semente Irritante",
+      "Sinalizador"
+    ],
+    "evolucoes": [
+      {
+        "from": "Fomantis",
+        "to": "Lurantis",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

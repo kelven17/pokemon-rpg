@@ -1,0 +1,157 @@
+{
+  "name": "Nosepass",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 299,
+    "types": {
+      "primary": "rock",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 3,
+      "atk": 5,
+      "def": 14,
+      "spa": 5,
+      "spd": 9,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Magnetismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ímã",
+      "Robustez"
+    ],
+    "altasHabilidades": [
+      "Arenoso"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bloqueio"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Arremesso de Pedras"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Detonação"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Obelisco"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Mira"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      }
+    ],
+    "golpesHerdados": [
+      "Bloqueio",
+      "Defesa Aberta",
+      "Faca de Dois Gumes",
+      "Magnitude",
+      "Pedras Soltas",
+      "Resistência",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Defesa de Ferro",
+      "Gravidade",
+      "Magnetização",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Sofrimento Mútuo"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

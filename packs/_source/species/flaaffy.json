@@ -1,0 +1,151 @@
+{
+  "name": "Flaaffy",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 180,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 6,
+      "spa": 8,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Eletricidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática"
+    ],
+    "altasHabilidades": [
+      "Mais"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Esporos de Algodão"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Maciez"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Agilidade",
+      "Ataque de Areia",
+      "Campo Elétrico",
+      "Carga",
+      "Cauda de Ferro",
+      "Depois de Você",
+      "Derrubada",
+      "Farejar",
+      "Guincho",
+      "Onda Anômala",
+      "Pancada"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Depois de Você",
+      "Magnetização",
+      "Onda de Choques",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [
+      {
+        "from": "Flaaffy",
+        "to": "Ampharos",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

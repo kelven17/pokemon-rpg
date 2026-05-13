@@ -1,0 +1,154 @@
+{
+  "name": "Chinchou",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 170,
+    "types": {
+      "primary": "water",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 4,
+      "def": 4,
+      "spa": 6,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Guelras",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Absorção de Voltagem",
+      "Iluminação"
+    ],
+    "altasHabilidades": [
+      "Absorção de Água"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Dilúvio Iônico"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Carga"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Amnésia",
+      "Ensopar Feixe Psíquico",
+      "Guincho",
+      "Mangual",
+      "Neblina",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Redemoinho",
+      "Salmoura"
+    ],
+    "golpesEnsinaveis": [
+      "Onda de Choques",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sino da Cura",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "name": "Qwilfish",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 211,
+    "types": {
+      "primary": "water",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 10,
+      "def": 8,
+      "spa": 6,
+      "spd": 6,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Minimizar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Vínculo do Destino"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Aguilhão"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Bomba Ácida",
+      "Mangual",
+      "Míssil Aquático",
+      "Nevoeiro",
+      "Pulso d’Água",
+      "Rajada de Bolhas",
+      "Salmoura",
+      "Sinalizador",
+      "Supersônico"
+    ],
+    "golpesEnsinaveis": [
+      "Aguilhão",
+      "Cauda de Água",
+      "Espinhos",
+      "Hidrobomba",
+      "Onda de Choques",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Vento Gelado",
+      "Vínculo do Destino"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

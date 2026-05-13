@@ -1,0 +1,106 @@
+{
+  "name": "Lilligant",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 549,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 8,
+      "spa": 11,
+      "spd": 8,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Proteção Vegetal"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Dança das Asas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Aromatizar",
+      "Charme",
+      "Dádiva da Natureza",
+      "Desejo de Cura",
+      "Enraizar",
+      "Paciência",
+      "Resistência",
+      "Semente Irritante"
+    ],
+    "golpesEnsinaveis": [
+      "Absorção",
+      "Amizade",
+      "Aromaterapia",
+      "Bomba de Sementes",
+      "Cobiça",
+      "Depois de Você",
+      "Dia de Sol",
+      "Esfera de Energia",
+      "Esporos Paralisantes",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Gigadreno",
+      "Interpretação",
+      "Mão Amiga",
+      "Megadreno",
+      "Pó Sonífero",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Sino da Cura",
+      "Tempestade de Folhas"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

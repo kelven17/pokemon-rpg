@@ -1,0 +1,89 @@
+{
+  "name": "Lycanroc",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 745,
+    "types": {
+      "primary": "rock",
+      "secondary": "rock"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 2,
+      "outras": [
+        "Faro",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "cular"
+    ],
+    "altasHabilidades": [],
+    "learnset": [],
+    "golpesHerdados": [
+      "Açoite",
+      "Garra Esmagadora",
+      "Pelas Costas",
+      "Presa de Fogo",
+      "Soco do Trovão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Cólera",
+      "Defesa de Ferro",
+      "Esforço",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Último Recurso",
+      "Vozeirão. Os Lycanroc Diurnos adicionam os seguintes Golpes à lista: Perfuração",
+      "Prevenção. Os Lycanroc Crepusculares adicionam os seguintes Golpes à lista: Aceleração",
+      "Perfuração",
+      "Ultraje. Os Lycanroc Noturnos adicionam os seguintes Golpes à lista: Clamor",
+      "Concentração",
+      "Gravata",
+      "Pancada Dupla",
+      "Provocação",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Trapaça",
+      "Ultraje"
+    ],
+    "evolucoes": [
+      {
+        "from": "Rockruff",
+        "to": "Lycanroc",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

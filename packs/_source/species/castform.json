@@ -1,0 +1,133 @@
+{
+  "name": "Castform",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 351,
+    "types": {
+      "primary": "normal",
+      "secondary": "water"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 7,
+      "spa": 7,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Obrigatoriedade (Climatologia)",
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 6,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Geada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Esfera Climática"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Explosão de Fogo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Furacão"
+      }
+    ],
+    "golpesHerdados": [
+      "Adaptação",
+      "Amnésia",
+      "Cântico da Sorte",
+      "Desabilitar",
+      "Feitiço",
+      "Fumaça",
+      "Poder Cósmico",
+      "Previsão",
+      "Troca de Defesas",
+      "Vento Nefasto"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Último Recurso",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

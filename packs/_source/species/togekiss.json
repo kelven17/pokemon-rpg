@@ -1,0 +1,103 @@
+{
+  "name": "Togekiss",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 468,
+    "types": {
+      "primary": "fairy",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 5,
+      "def": 10,
+      "spa": 12,
+      "spd": 12,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Aura",
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 6,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Entusiasmo",
+      "Graça Serena"
+    ],
+    "altasHabilidades": [
+      "Sorte"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Alvorada",
+      "Bicada",
+      "Cântico da Sorte",
+      "Conspiração",
+      "Espelho",
+      "Extrassensorial",
+      "Poder Secreto",
+      "Presente",
+      "Previsão",
+      "Reserva",
+      "Revelação",
+      "Transmissibilidade"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Beijo Doce",
+      "Bis",
+      "Bocejo",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Clamor",
+      "Cobiça",
+      "Corte Aéreo",
+      "Depois de Você",
+      "Desejo",
+      "Esfera da Aura",
+      "Esforço",
+      "Extrema Velocidade",
+      "Faca de Dois Gumes",
+      "Folhas Mágicas",
+      "Isca",
+      "Manto Mágico",
+      "Metrônomo",
+      "Oferenda",
+      "Onda de Choques",
+      "Passar o Bastão",
+      "Poder Antigo",
+      "Pulso d’Água",
+      "Salvaguarda",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Truque",
+      "Último Recurso",
+      "Vento Cortante",
+      "Vento Encantado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

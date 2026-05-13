@@ -1,0 +1,157 @@
+{
+  "name": "Magcargo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 219,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 4,
+      "spa": 7,
+      "spd": 4,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Combustão",
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Flamejante",
+      "Revestimento Magmático"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Arremesso de Pedras"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Incinerar"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Fumaça"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      }
+    ],
+    "golpesHerdados": [
+      "Armadura Ácida",
+      "Cortina de Fumaça",
+      "Engolir",
+      "Estocagem",
+      "Inferno",
+      "Lembrança",
+      "Liberação",
+      "Maldição",
+      "Onda de Calor",
+      "Poder Terreno",
+      "Rolagem",
+      "Troca de Defesas"
+    ],
+    "golpesEnsinaveis": [
+      "Abandono da Concha",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Onda de Calor",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Sofrimento Mútuo"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

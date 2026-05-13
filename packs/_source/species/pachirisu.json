@@ -1,0 +1,153 @@
+{
+  "name": "Pachirisu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 417,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 7,
+      "spa": 5,
+      "spd": 9,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Eletricidade",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem",
+      "Fuga"
+    ],
+    "altasHabilidades": [
+      "Absorção de Voltagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Hiperpresa"
+      }
+    ],
+    "golpesHerdados": [
+      "Abanar Rabo",
+      "Adulação",
+      "Carga",
+      "Cauda de Ferro",
+      "Choro",
+      "Cobiça",
+      "Defesa Fechada",
+      "Dilúvio Iônico",
+      "Isca",
+      "Mangual",
+      "Mordida",
+      "Oferenda",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Soco do Trovão",
+      "Sujeira",
+      "Superpresa",
+      "Teia Elétrica",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

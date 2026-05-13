@@ -1,0 +1,141 @@
+{
+  "name": "Rayquaza",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 384,
+    "types": {
+      "primary": "dragon",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 7,
+      "salto": 10,
+      "outras": [
+        "Aura",
+        "Luminar",
+        "Telepatia",
+        "Vento Lendárias Domínio sobre a Terra",
+        "o Mar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 10,
+      "voo": 20,
+      "escavacao": 10,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "- Aérea"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ciclone"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Ultraje"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Dança dos Dragões"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Voar"
+      },
+      {
+        "level": 75,
+        "trigger": "level",
+        "move": "Extrema Velocidade"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      },
+      {
+        "level": 90,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ascenção",
+      "Cauda de Água",
+      "Cauda de Vento",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Meteoro do Dragão",
+      "Onda de Choques",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Sufocamento",
+      "Ultraje",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 7.0
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

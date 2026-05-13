@@ -1,0 +1,172 @@
+{
+  "name": "Infernape",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 392,
+    "types": {
+      "primary": "fire",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 10,
+      "def": 7,
+      "spa": 10,
+      "spd": 7,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Punho de Ferro"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Soco Rápido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Castigo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 68,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      }
+    ],
+    "golpesHerdados": [
+      "Auxílio",
+      "Bis",
+      "Chute Duplo",
+      "Chute Flamejante",
+      "Contra-Ataque",
+      "Fingimento",
+      "Focar Energia",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Prevenção",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Submissão"
+    ],
+    "golpesEnsinaveis": [
+      "Bombardeio de Chamas",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Conspiração",
+      "Esforço",
+      "Incêndio",
+      "Interpretação",
+      "Lança-Chamas",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Pancada Dupla",
+      "Pedras Soltas",
+      "Pilar de Chamas",
+      "Rasteira",
+      "Relaxar",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Tormento"
+    ],
+    "evolucoes": [
+      {
+        "from": "Chimchar",
+        "to": "Monferno",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Monferno",
+        "to": "Infernape",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

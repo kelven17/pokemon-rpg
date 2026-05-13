@@ -1,0 +1,146 @@
+{
+  "name": "Donphan",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 232,
+    "types": {
+      "primary": "ground",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 12,
+      "def": 12,
+      "spa": 6,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia",
+      "Robustez"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Fúria"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Magnitude"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque de Lama",
+      "Brincadeira",
+      "Contra-Ataque",
+      "Esforço",
+      "Estilhaços de Gelo",
+      "Fissura",
+      "Focar Energia",
+      "Investida de Cabeça",
+      "Pancada",
+      "Peso Pesado",
+      "Poder Antigo",
+      "Ronco"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Charme",
+      "Chifrada",
+      "Dádiva da Natureza",
+      "Defesa de Ferro",
+      "Derrubada",
+      "Esforço",
+      "Mangual",
+      "Nocaute",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pular",
+      "Resistência",
+      "Presa de Fogo",
+      "Presa do Trovão",
+      "Sujeira",
+      "Superpoder",
+      "Tremor",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

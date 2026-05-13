@@ -1,0 +1,162 @@
+{
+  "name": "Noibat",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 714,
+    "types": {
+      "primary": "flying",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 3,
+      "def": 4,
+      "spa": 5,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bisbilhoteiro",
+      "Infiltrador"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Vento Cortante"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Furacão"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Vento",
+      "Furto",
+      "Troca",
+      "Ultraje"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Clamor",
+      "Furto",
+      "Luar",
+      "Meteoro do Dragão",
+      "Onda de Calor",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Superpresa",
+      "Ultraje",
+      "Vento Cortante",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Noibat",
+        "to": "Noivern",
+        "condition": "level",
+        "value": 45
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

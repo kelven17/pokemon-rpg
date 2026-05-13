@@ -1,0 +1,153 @@
+{
+  "name": "Furret",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 162,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 8,
+      "def": 6,
+      "spa": 5,
+      "spd": 6,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 7,
+      "voo": null,
+      "escavacao": 5,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Fuga",
+      "Visão Aguçada"
+    ],
+    "altasHabilidades": [
+      "Bisbilhoteiro"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Agilidade"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Isca"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Vozeirão"
+      }
+    ],
+    "golpesHerdados": [
+      "Auxílio",
+      "Cativar",
+      "Cauda de Ferro",
+      "Charme",
+      "Cobiça",
+      "Dádiva da Natureza",
+      "Faca de Dois Gumes",
+      "Focar Energia",
+      "Perseguição",
+      "Reversão",
+      "Retalhar",
+      "Truque",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Agilidade",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Enrolar",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpresa",
+      "Truque",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

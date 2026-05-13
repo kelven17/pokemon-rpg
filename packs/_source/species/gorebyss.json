@@ -1,0 +1,144 @@
+{
+  "name": "Gorebyss",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 368,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 11,
+      "spa": 11,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Concha"
+    ],
+    "altasHabilidades": [
+      "Hidratação",
+      "Velocidade na Água"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Mergulho"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Enrolar"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Anel de Água",
+      "Barreira",
+      "Esporte Terrestre",
+      "Pancada",
+      "Pulso d’Água",
+      "Raio de Confusão",
+      "Refresco",
+      "Resistência",
+      "Salmoura",
+      "Supersônico"
+    ],
+    "golpesEnsinaveis": [
+      "Abandono da Concha",
+      "Cauda de Água",
+      "Clampeamento",
+      "Confusão",
+      "Defesa de Ferro",
+      "Jato d’Água",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sufocamento",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

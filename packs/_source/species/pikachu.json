@@ -1,29 +1,164 @@
 {
   "name": "Pikachu",
   "type": "species",
-  "img": "icons/svg/lightning.svg",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
-    "description": "<p>Um Pokémon do tipo Elétrico de orelhas pontudas, capaz de armazenar eletricidade nas bochechas.</p>",
+    "description": "",
     "dexNumber": 25,
     "types": {
       "primary": "electric",
       "secondary": null
     },
     "baseStats": {
-      "hp": 35,
-      "atk": 55,
-      "def": 40,
-      "spa": 50,
-      "spd": 50,
-      "spe": 90
+      "hp": 4,
+      "atk": 6,
+      "def": 4,
+      "spa": 5,
+      "spd": 5,
+      "spe": 9
     },
-    "learnset": [
-      { "level": 1, "moveSlug": "thunder-shock" },
-      { "level": 1, "moveSlug": "growl" },
-      { "level": 4, "moveSlug": "quick-attack" }
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Eletricidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática"
     ],
-    "possibleAbilities": [],
-    "naturalCapacities": ["overland", "keen-senses"],
-    "evolutions": []
+    "altasHabilidades": [
+      "Pararraios"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Chamego"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Relâmpago"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Carga Selvagem"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Campo Elétrico",
+      "Cântico da Sorte",
+      "Carga",
+      "Cócegas",
+      "Desejo",
+      "Fingimento",
+      "Investida Trovão",
+      "Mangual",
+      "Oferenda",
+      "Paciência",
+      "Presente",
+      "Resistência",
+      "Reversão",
+      "Soco do Trovão",
+      "Tapa Duplo",
+      "Voz Encantadora"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 15
   }
 }

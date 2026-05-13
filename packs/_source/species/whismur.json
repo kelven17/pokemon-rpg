@@ -1,0 +1,154 @@
+{
+  "name": "Whismur",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 293,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 2,
+      "spa": 5,
+      "spd": 2,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cacofonia"
+    ],
+    "altasHabilidades": [
+      "Covardia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Sonambulismo"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Elementalismo"
+      }
+    ],
+    "golpesHerdados": [
+      "Arremesso Circular",
+      "Braço Martelo",
+      "Choro",
+      "Cortina de Fumaça",
+      "Derrubada",
+      "Esforço",
+      "Estímulo",
+      "Extrassensorial",
+      "Ronco",
+      "Voz Encantadora"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Esforço",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Whismur",
+        "to": "Loudred",
+        "condition": "level",
+        "value": 20
+      },
+      {
+        "from": "Loudred",
+        "to": "Exploud",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 45,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Zweilous",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 634,
+    "types": {
+      "primary": "dark",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 7,
+      "spa": 7,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Ininteligível"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": 4,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Entusiasmo"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Sopro do Dragão"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Elaborar"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Investida do Dragão"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 71,
+        "trigger": "level",
+        "move": "Ultraje"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Batida Dupla",
+      "Garantia",
+      "Guincho",
+      "Investida de Cabeça",
+      "Poder Terreno",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Pulso Sombrio"
+    ],
+    "golpesEnsinaveis": [
+      "Batida Dupla",
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Clamor",
+      "Fúria do Dragão",
+      "Meteoro do Dragão",
+      "Ódio",
+      "Onda de Choques",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Superpoder",
+      "Ultraje",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Zweilous",
+        "to": "Hydreigon",
+        "condition": "level",
+        "value": 50
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 30
+  }
+}

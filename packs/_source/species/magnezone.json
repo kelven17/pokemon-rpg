@@ -1,0 +1,163 @@
+{
+  "name": "Magnezone",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 462,
+    "types": {
+      "primary": "electric",
+      "secondary": "steel"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 12,
+      "spa": 13,
+      "spd": 9,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": null,
+      "outras": [
+        "Afundamento",
+        "Magnetismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ímã",
+      "Robustez"
+    ],
+    "altasHabilidades": [
+      "Análise"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Ataque Triplo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bomba Magnética"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Explosão Sônica"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Tiro Espelhado"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Canhão de Luz"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Mira"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Magnetização"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Girobola"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Dança das Penas",
+      "Maldição",
+      "Mangual",
+      "Resistência",
+      "Revelação"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque Triplo",
+      "Barreira",
+      "Campo Elétrico",
+      "Campo Magnético",
+      "Canhão Elétrico",
+      "Defesa de Ferro",
+      "Escudo Espelho",
+      "Gravidade",
+      "Magnetização",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sinalizador",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

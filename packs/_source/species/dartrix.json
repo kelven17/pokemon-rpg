@@ -1,0 +1,145 @@
+{
+  "name": "Dartrix",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 723,
+    "types": {
+      "primary": "grass",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 8,
+      "spa": 7,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Alcance",
+        "Rebento",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Alcance Remoto"
+    ],
+    "altasHabilidades": [
+      "Madrugar"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Dança das Penas"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Fúria dos Pássaros"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Conspiração"
+      }
+    ],
+    "golpesHerdados": [
+      "Desanuviar",
+      "Maldição",
+      "Nevoeiro",
+      "Passar o Bastão",
+      "Raio de Confusão",
+      "Vento Nefasto"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Bomba de Sementes",
+      "Cobiça",
+      "Desanuviar",
+      "Fotossíntese",
+      "Gigadreno",
+      "Planta Mortal",
+      "Pilar de Folhas",
+      "Semente Irritante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Rowlet",
+        "to": "Dartrix",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "name": "Lanturn",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 171,
+    "types": {
+      "primary": "water",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 13,
+      "atk": 6,
+      "def": 6,
+      "spa": 8,
+      "spd": 8,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Guelras",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Absorção de Voltagem",
+      "Iluminação"
+    ],
+    "altasHabilidades": [
+      "Absorção de Água"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Engolir"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Estocagem"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Liberação"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Dilúvio Iônico"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Carga"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Amnésia",
+      "Ensopar Feixe Psíquico",
+      "Guincho",
+      "Mangual",
+      "Neblina",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Redemoinho",
+      "Salmoura"
+    ],
+    "golpesEnsinaveis": [
+      "Esfera Elétrica",
+      "Onda Anômala",
+      "Onda de Choques",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sino da Cura",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

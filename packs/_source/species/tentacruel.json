@@ -1,0 +1,157 @@
+{
+  "name": "Tentacruel",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 73,
+    "types": {
+      "primary": "water",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 7,
+      "def": 7,
+      "spa": 8,
+      "spd": 12,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Alcance",
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 12
+    },
+    "habilidades": [
+      "Lodo",
+      "Transparência"
+    ],
+    "altasHabilidades": [
+      "Prato de Chuva"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Enlaçar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Bomba Ácida"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Barreira"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Feitiço"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Onda de Lama"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Acupuntura",
+      "Anel de Água",
+      "Bolha",
+      "Cócegas",
+      "Escudo Espelho",
+      "Giro Rápido",
+      "Nevoeiro",
+      "Nocaute",
+      "Raio Aurora",
+      "Raio de Confusão"
+    ],
+    "golpesEnsinaveis": [
+      "Adaptação",
+      "Gigadreno",
+      "Manto Mágico",
+      "Nocaute",
+      "Pulso d’Água",
+      "Sufocamento",
+      "Torção",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

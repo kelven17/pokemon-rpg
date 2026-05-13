@@ -1,0 +1,91 @@
+{
+  "name": "Starmie",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 121,
+    "types": {
+      "primary": "water",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 9,
+      "spa": 10,
+      "spd": 9,
+      "spe": 12
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 10,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Iluminação",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Análise"
+    ],
+    "learnset": [
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Adaptação",
+      "Camuflagem",
+      "Estrela Cadente",
+      "Giro Rápido",
+      "Girobola",
+      "Gravidade",
+      "Hidrobomba",
+      "Holofotes",
+      "Jato d’Água",
+      "Joia do Poder",
+      "Manto Mágico",
+      "Minimizar",
+      "Onda Psíquica",
+      "Paranormal",
+      "Poder Cósmico",
+      "Pulso d’Água",
+      "Rajada de Bolhas",
+      "Reciclagem",
+      "Recuperação",
+      "Sala das Maravilhas",
+      "Salmoura",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Tela de Luz",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

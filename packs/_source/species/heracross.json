@@ -1,0 +1,151 @@
+{
+  "name": "Heracross",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 214,
+    "types": {
+      "primary": "bug",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 5,
+      "def": 5,
+      "spa": 4,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Escalada",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Chifrada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Golpe Aéreo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Quebra Telha"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Megachifre"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Reversão"
+      }
+    ],
+    "golpesHerdados": [
+      "Arremesso Sísmico",
+      "Detonação",
+      "Endurecer",
+      "Faca de Dois Gumes",
+      "Mangual",
+      "Megachifre",
+      "Paciência",
+      "Perseguição",
+      "Soco Focalizado",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Emboscada",
+      "Golpes de Braço",
+      "Mão Amiga",
+      "Nocaute",
+      "Picada",
+      "Rasteira",
+      "Semente Bala",
+      "Soco Focalizado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

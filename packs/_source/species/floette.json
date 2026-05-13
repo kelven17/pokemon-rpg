@@ -1,0 +1,136 @@
+{
+  "name": "Floette",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 670,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 8,
+      "spd": 10,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 2,
+      "voo": 7,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Véu Florido"
+    ],
+    "altasHabilidades": [
+      "Simbiose"
+    ],
+    "learnset": [
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Vento Encantado"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Campo Gramado"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Campo Enevoado"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Força Lunar"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Raio Solar"
+      }
+    ],
+    "golpesHerdados": [
+      "Camuflagem",
+      "Cativar",
+      "Imitação"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cobiça",
+      "Depois de Você",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Semente Irritante",
+      "Sino da Cura"
+    ],
+    "evolucoes": [
+      {
+        "from": "Flabébé",
+        "to": "Floette",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 25
+  }
+}

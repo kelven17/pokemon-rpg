@@ -1,0 +1,89 @@
+{
+  "name": "Persian",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 53,
+    "types": {
+      "primary": "normal",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Escalada",
+        "Faro",
+        "Hierarquia",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Doméstico Selvagem"
+    ],
+    "altasHabilidades": [
+      "Covardia",
+      "Peludo"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Amnésia",
+      "Auxílio",
+      "Castigo",
+      "Charme",
+      "Furto",
+      "Hipnose",
+      "Mangual",
+      "Ódio",
+      "Trapaça. Os Persian Domésticos adicionam os seguintes Golpes à lista: Abanar Rabo",
+      "Cauda de Ferro",
+      "Farejar",
+      "Último Recurso. Os Persian Selvagens adicionam os seguintes Golpes à lista: Adeus",
+      "Adulação",
+      "Cobiça"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Dia do Pagamento",
+      "Furto",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Sujeira",
+      "Trapaça",
+      "Troca",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão. Os Persian Domésticos adicionam Brincadeira à lista. Os Persian Selvagens adicionam Revogação à lista. Persian Persian"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Fletchling",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 661,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 4,
+      "spa": 4,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bicudo"
+    ],
+    "altasHabilidades": [
+      "Asas de Vendavais"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Asa de Aço"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Vento",
+      "Furto",
+      "Prevenção"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Furto",
+      "Onda de Calor",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Fletchling",
+        "to": "Fletchinder",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Fletchinder",
+        "to": "Talonflame",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Groudon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 383,
+    "types": {
+      "primary": "ground",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 9,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 7,
+      "salto": 5,
+      "outras": [
+        "Materialização",
+        "Telepatia",
+        "Térreo Lendárias Vulcanismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": 10,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Seca"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Lâminas do Precipício"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Fissura"
+      },
+      {
+        "level": 75,
+        "trigger": "level",
+        "move": "Explosão de Fogo"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 90,
+        "trigger": "level",
+        "move": "Erupção"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Soco de Fogo",
+      "Soco do Trovão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 3.5
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

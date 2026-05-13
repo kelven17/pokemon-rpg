@@ -1,0 +1,163 @@
+{
+  "name": "Xatu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 178,
+    "types": {
+      "primary": "psychic",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 7,
+      "spa": 10,
+      "spd": 7,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 1,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Madrugar",
+      "Sincronizar"
+    ],
+    "altasHabilidades": [
+      "Espelho Mágico"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Teletransporte"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Reserva"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Vento Nefasto"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Milagre"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Transmissibilidade"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Troca de Forças"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Troca de Defesas"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Ataque Furtivo",
+      "Ataque Rápido",
+      "Bico Broca",
+      "Cabeçada Zen",
+      "Dança das Penas",
+      "Elementalismo",
+      "Empoleirar",
+      "Nevoeiro",
+      "Pelas Costas",
+      "Refresco",
+      "Simplificador",
+      "Troca de Habilidades",
+      "Trocar de Lugar"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Gigadreno",
+      "Manto Mágico",
+      "Onda de Calor",
+      "Sala Mágica",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

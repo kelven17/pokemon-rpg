@@ -1,0 +1,162 @@
+{
+  "name": "Fennekin",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 653,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 6,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Calor",
+        "Combustão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mágica"
+    ],
+    "altasHabilidades": [
+      "Travessura"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Fogo-Fátuo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Sala Mágica"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Explosão de Fogo"
+      }
+    ],
+    "golpesHerdados": [
+      "Desejo",
+      "Hipnose",
+      "Manto Mágico",
+      "Onda de Calor"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cobiça",
+      "Incêndio",
+      "Manto Mágico",
+      "Onda de Calor",
+      "Pilar de Chamas",
+      "Sala Mágica",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Fennekin",
+        "to": "Braixen",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Braixen",
+        "to": "Delphox",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

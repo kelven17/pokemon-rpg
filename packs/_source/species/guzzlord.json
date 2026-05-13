@@ -1,0 +1,157 @@
+{
+  "name": "Guzzlord",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 799,
+    "types": {
+      "primary": "dark",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 22,
+      "atk": 10,
+      "def": 5,
+      "spa": 10,
+      "spd": 5,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 2,
+      "salto": 1,
+      "outras": [
+        "Afundamento Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Brutalidade"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Rolo Compressor"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Cauda do Dragão"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Cauda de Ferro"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Cólera"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Torção"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Investida do Dragão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Arroto",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Cólera",
+      "Defesa Aberta",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Meteoro do Dragão",
+      "Nocaute",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Pancada Dupla",
+      "Pulso do Dragão",
+      "Soco de Drenagem",
+      "Último Recurso",
+      "Ultraje",
+      "Vômito. Guzzlord não aprende os Golpes Universais Bravata e Confidência"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 5.5
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

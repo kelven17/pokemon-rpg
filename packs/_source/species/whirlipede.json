@@ -1,0 +1,149 @@
+{
+  "name": "Whirlipede",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 544,
+    "types": {
+      "primary": "bug",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 10,
+      "spa": 4,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Explosão de Velocidade"
+    ],
+    "altasHabilidades": [
+      "Armadura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Cauda Venenosa"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Rolo Compressor"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Escalada"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas",
+      "Agulhas Gêmeas",
+      "Derrubada",
+      "Escalada",
+      "Espinhos",
+      "Espinhos Tóxicos"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Esforço",
+      "Picada",
+      "Sinalizador"
+    ],
+    "evolucoes": [
+      {
+        "from": "Venipede",
+        "to": "Whirlipede",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Whirlipede",
+        "to": "Scolipede",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

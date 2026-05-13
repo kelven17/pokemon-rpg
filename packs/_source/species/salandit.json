@@ -1,0 +1,141 @@
+{
+  "name": "Salandit",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 757,
+    "types": {
+      "primary": "poison",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 4,
+      "def": 4,
+      "spa": 7,
+      "spd": 4,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Adesão",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Corrosão"
+    ],
+    "altasHabilidades": [
+      "Obtusidade"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Gás Venenoso"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Ataque de Areia",
+      "Fingimento",
+      "Furto",
+      "Nocaute"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cobiça",
+      "Furto",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Calor",
+      "Pulso do Dragão",
+      "Sujeira",
+      "Trapaça"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

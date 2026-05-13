@@ -1,0 +1,157 @@
+{
+  "name": "Togepi",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 175,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 2,
+      "def": 7,
+      "spa": 4,
+      "spd": 7,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 1,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Entusiasmo",
+      "Graça Serena"
+    ],
+    "altasHabilidades": [
+      "Sorte"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Metrônomo"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Isca"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Oferenda"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Depois de Você"
+      }
+    ],
+    "golpesHerdados": [
+      "Alvorada",
+      "Bicada",
+      "Cântico da Sorte",
+      "Conspiração",
+      "Espelho",
+      "Extrassensorial",
+      "Poder Secreto",
+      "Presente",
+      "Previsão",
+      "Reserva",
+      "Revelação",
+      "Transmissibilidade"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Depois de Você",
+      "Esforço",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sino da Cura",
+      "Truque",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 35,
+    "experiencia": 5
+  }
+}

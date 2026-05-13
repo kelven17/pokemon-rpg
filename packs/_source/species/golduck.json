@@ -1,0 +1,157 @@
+{
+  "name": "Golduck",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 55,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 8,
+      "spa": 10,
+      "spd": 8,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 5,
+      "salto": 3,
+      "outras": [
+        "Ininteligível",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Aclimatação",
+      "Umidade"
+    ],
+    "altasHabilidades": [
+      "Velocidade na Água"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Ensopar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Sala das Maravilhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Bocejo",
+      "Bomba de Lama",
+      "Cruzado",
+      "Elementalismo",
+      "Feixe Psíquico",
+      "Fumaça",
+      "Hipnose",
+      "Poder Secreto",
+      "Previsão",
+      "Raio de Confusão",
+      "Refresco",
+      "Revelação",
+      "Simplificador",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Interpretação",
+      "Míssil Aquático",
+      "Primeiro Eu",
+      "Pulso d’Água",
+      "Rasteira",
+      "Sala das Maravilhas",
+      "Semente Irritante",
+      "Sinalizador",
+      "Soco de Gelo",
+      "Soco Focalizado",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

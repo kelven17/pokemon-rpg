@@ -1,0 +1,154 @@
+{
+  "name": "Swirlix",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 684,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 7,
+      "spa": 6,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 2,
+      "voo": 5,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Véu Doce"
+    ],
+    "altasHabilidades": [
+      "Leveza"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Vento Encantado"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Choro"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Harmonia"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Esporos de Algodão"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Maciez"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Brincadeira"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Depois de Você",
+      "Imitação",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Depois de Você",
+      "Esforço",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Sino da Cura",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Swirlix",
+        "to": "Slurpuff",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Ninjask",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 291,
+    "types": {
+      "primary": "bug",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 16
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": null,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Olhos Compostos"
+    ],
+    "altasHabilidades": [
+      "Explosão de Velocidade",
+      "Infiltrador"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Guincho"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Sanguessuga"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Leitura Mental"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Corte em X"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Emboscada",
+      "Picada",
+      "Resistência",
+      "Sacrifício",
+      "Ventania",
+      "Vento Prateado",
+      "Zumbido"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque de Lama",
+      "Cavar",
+      "Clamor",
+      "Corte Falso",
+      "Gigadreno",
+      "Metalizar Garra",
+      "Ódio",
+      "Paciência",
+      "Picada",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Nincada",
+        "to": "Ninjask",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 30
+  }
+}

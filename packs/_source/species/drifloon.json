@@ -1,0 +1,154 @@
+{
+  "name": "Drifloon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 425,
+    "types": {
+      "primary": "flying",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 5,
+      "def": 3,
+      "spa": 6,
+      "spd": 4,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Encolhimento",
+        "Tumefação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Leveza",
+      "Resquício"
+    ],
+    "altasHabilidades": [
+      "Inflamável"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Enlaçar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Minimizar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Vento Nefasto"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Feitiço"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Explosão"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Vento",
+      "Desabilitar",
+      "Desanuviar",
+      "Esfera Climática",
+      "Fumaça",
+      "Hipnose",
+      "Lembrança",
+      "Nevoeiro",
+      "Pancada",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "name": "Lugia",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 249,
+    "types": {
+      "primary": "psychic",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 9,
+      "def": 13,
+      "spa": 9,
+      "spd": 15,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 7,
+      "salto": 5,
+      "outras": [
+        "Telecinesia",
+        "Telepatia",
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 10,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Pressão"
+    ],
+    "altasHabilidades": [
+      "Múltiplas Escamas"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Esfera Climática"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Investida do Dragão"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Explosão Aérea"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Castigo"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 71,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 79,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 85,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 93,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 99,
+        "trigger": "level",
+        "move": "Ataque do Céu"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Gigadreno",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Vento Cortante",
+      "Vento Gelado",
+      "Vozeirão",
+      "Onda de Choques",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 5.2
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "name": "Claydol",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 344,
+    "types": {
+      "primary": "ground",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 11,
+      "spa": 7,
+      "spd": 12,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Ininteligível"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Hiper-Raio"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tumba de Pedra"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Poder Cósmico"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Transferência"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Autodestruição"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Compartilhar Defesas"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Compartilhar Forças"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Explosão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Gravidade",
+      "Manto Mágico",
+      "Pedras Soltas",
+      "Perfuração",
+      "Poder Terreno",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Teletransporte",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

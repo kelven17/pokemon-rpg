@@ -1,0 +1,132 @@
+{
+  "name": "Furfrou",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 676,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 6,
+      "spa": 7,
+      "spd": 9,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Peludo"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Retaliação"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Maciez"
+      }
+    ],
+    "golpesHerdados": [
+      "Cativar",
+      "Elaborar",
+      "Interpretação",
+      "Mímica",
+      "Refresco"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Esforço",
+      "Interpretação",
+      "Mão Amiga",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

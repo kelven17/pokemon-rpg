@@ -1,0 +1,147 @@
+{
+  "name": "Mudbray",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 749,
+    "types": {
+      "primary": "ground",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 10,
+      "def": 7,
+      "spa": 5,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Firmeza",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Foco Interior"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Fertilizante"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Chute Duplo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Coice"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Megachute"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Superpoder"
+      }
+    ],
+    "golpesHerdados": [
+      "Bomba de Lama",
+      "Corpo a Corpo",
+      "Faca de Dois Gumes",
+      "Magnitude",
+      "Pancada"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cólera",
+      "Defesa de Ferro",
+      "Esforço",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Rasteira",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Mudbray",
+        "to": "Mudsdale",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

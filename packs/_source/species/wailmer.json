@@ -1,0 +1,155 @@
+{
+  "name": "Wailmer",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 320,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 13,
+      "atk": 7,
+      "def": 4,
+      "spa": 7,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Revestimento Aquoso"
+    ],
+    "altasHabilidades": [
+      "Pressão"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Saltitar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Esguicho"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Mergulho"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Anel de Água",
+      "Cabeçada Zen",
+      "Cócegas",
+      "Defesa Fechada",
+      "Ensopar",
+      "Faca de Dois Gumes",
+      "Fissura",
+      "Fumaça",
+      "Maldição",
+      "Pancada",
+      "Ronco",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Pular",
+      "Pulso d’Água",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

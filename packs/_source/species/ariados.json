@@ -1,0 +1,151 @@
+{
+  "name": "Ariados",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 168,
+    "types": {
+      "primary": "bug",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 7,
+      "spa": 6,
+      "spd": 6,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 6,
+      "outras": [
+        "Adesão",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Franco-Atirador",
+      "Insônia"
+    ],
+    "altasHabilidades": [
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Infestação"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Teia de Aranha"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Cruzado Envenenado"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Teia Tóxica"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas Gêmeas",
+      "Desabilitar",
+      "Emboscada",
+      "Espinhos Tóxicos",
+      "Explosão Sônica",
+      "Feixe Psíquico",
+      "Megachifre",
+      "Passar o Bastão",
+      "Perseguição",
+      "Pó Irritante",
+      "Sinalizador",
+      "Teia Elétrica"
+    ],
+    "golpesEnsinaveis": [
+      "Gigadreno",
+      "Picada",
+      "Pular",
+      "Sinalizador",
+      "Teia Elétrica",
+      "Trapaça"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

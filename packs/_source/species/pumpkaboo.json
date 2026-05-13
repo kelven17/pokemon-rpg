@@ -1,0 +1,153 @@
+{
+  "name": "Pumpkaboo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 710,
+    "types": {
+      "primary": "ghost",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 7,
+      "spa": 4,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 2,
+      "voo": 5,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bisbilhoteiro",
+      "Catagem"
+    ],
+    "altasHabilidades": [
+      "Insônia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Truque"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Gostosuras ou Travessuras"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Gostosuras ou Travessuras"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Semente Bala"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Gostosuras ou Travessuras"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Bomba de Sementes"
+      }
+    ],
+    "golpesHerdados": [
+      "Desabilitar",
+      "Oferenda",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Interpretação",
+      "Manto Mágico",
+      "Ódio",
+      "Semente Irritante",
+      "Sofrimento Mútuo",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Pumpkaboo",
+        "to": "Gourgeist",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

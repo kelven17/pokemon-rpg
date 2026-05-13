@@ -1,0 +1,154 @@
+{
+  "name": "Meganium",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 154,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 10,
+      "spa": 8,
+      "spd": 10,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Proteção Vegetal"
+    ],
+    "altasHabilidades": [
+      "Absorção de Seiva"
+    ],
+    "learnset": [
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Raio Solar"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Aromaterapia",
+      "Campo Gramado",
+      "Chicote de Vinha",
+      "Contra-Ataque",
+      "Enraizar",
+      "Mangual",
+      "Pancada",
+      "Poder Antigo",
+      "Poder da Natureza",
+      "Pulso de Cura",
+      "Refresco",
+      "Semente Sanguessuga",
+      "Tempestade de Folhas",
+      "Torção"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Dança das Pétalas",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Pilar de Folhas",
+      "Planta Mortal",
+      "Semente Irritante",
+      "Tempestade de Pétalas",
+      "Ultraje"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bayleef",
+        "to": "Meganium",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

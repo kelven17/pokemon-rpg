@@ -1,0 +1,134 @@
+{
+  "name": "Charjabug",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 737,
+    "types": {
+      "primary": "bug",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 7,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Adesão",
+        "Eletricidade",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Obtusidade"
+    ],
+    "altasHabilidades": [
+      "Bateria"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Carga"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Lançar Teia"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      }
+    ],
+    "golpesHerdados": [
+      "Cavar",
+      "Endurecer",
+      "Resistência",
+      "Teia Elétrica"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Magnetização",
+      "Onda de Choques",
+      "Picada",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [
+      {
+        "from": "Grubbin",
+        "to": "Charjabug",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

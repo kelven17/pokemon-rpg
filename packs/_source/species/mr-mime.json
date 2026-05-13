@@ -1,0 +1,182 @@
+{
+  "name": "Mr. Mime",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 122,
+    "types": {
+      "primary": "psychic",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 7,
+      "spa": 10,
+      "spd": 12,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 3,
+      "outras": [
+        "Família",
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cacofonia",
+      "Filtro"
+    ],
+    "altasHabilidades": [
+      "Técnica"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Meditação"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Mímica"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Substituição"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Reciclagem"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Truque"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Interpretação"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      }
+    ],
+    "golpesHerdados": [
+      "Charme",
+      "Compartilhar Forças",
+      "Conspiração",
+      "Dança Caótica",
+      "Desejo de Cura",
+      "Despertador",
+      "Fingimento",
+      "Hipnose",
+      "Mímica",
+      "Previsão",
+      "Raio de Confusão",
+      "Sala Mágica",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Campo Enevoado",
+      "Clamor",
+      "Cobiça",
+      "Cócegas",
+      "Defesa Aberta",
+      "Defesa de Ferro",
+      "Folhas Mágicas",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Prevenção",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Trapaça",
+      "Troca de Defesas",
+      "Troca de Forças",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

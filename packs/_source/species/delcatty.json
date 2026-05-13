@@ -1,0 +1,94 @@
+{
+  "name": "Delcatty",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 301,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 7,
+      "spa": 6,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Normalização",
+      "Tentação"
+    ],
+    "altasHabilidades": [
+      "Pele Perfeita"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Bomba de Lama",
+      "Cabeçada Zen",
+      "Cativar",
+      "Choro",
+      "Clamor",
+      "Cócegas",
+      "Desejo",
+      "Fingimento",
+      "Mão Amiga",
+      "Passar o Bastão",
+      "Pelas Costas",
+      "Poder Cósmico",
+      "Simplificador",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque Furtivo",
+      "Atração",
+      "Auxílio",
+      "Brincadeira",
+      "Cabeçada Zen",
+      "Canção",
+      "Cativar",
+      "Cauda de Ferro",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Despertador",
+      "Imitação",
+      "Faca de Dois Gumes",
+      "Fingimento",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Sino da Cura",
+      "Último Recurso",
+      "Vento Gelado",
+      "Voz Encantadora",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

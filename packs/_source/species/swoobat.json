@@ -1,0 +1,159 @@
+{
+  "name": "Swoobat",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 528,
+    "types": {
+      "primary": "psychic",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 6,
+      "spa": 8,
+      "spd": 6,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 2,
+      "outras": [
+        "Faro",
+        "Telecinesia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 1,
+      "voo": 9,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Desastrado",
+      "Desatenção"
+    ],
+    "altasHabilidades": [
+      "Mediocridade"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Partir o Coração"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Vento Cortante"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Cativar",
+      "Charme",
+      "Choro",
+      "Elementalismo",
+      "Empoleirar",
+      "Intensificar Veneno",
+      "Mão Amiga",
+      "Nocaute",
+      "Reserva",
+      "Supersônico",
+      "Transmissibilidade"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Clamor",
+      "Depois de Você",
+      "Esforço",
+      "Gigadreno",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Nocaute",
+      "Sinalizador",
+      "Superpresa",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Woobat",
+        "to": "Swoobat",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

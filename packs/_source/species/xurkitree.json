@@ -1,0 +1,150 @@
+{
+  "name": "Xurkitree",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 796,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 9,
+      "def": 7,
+      "spa": 17,
+      "spd": 7,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Eletricidade",
+        "Virtualidade Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Soco do Trovão"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Onda Anômala"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Relâmpago"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Campo Elétrico"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Chicote"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Dilúvio Iônico"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Brilho",
+      "Gravidade",
+      "Magnetização",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Sufocamento",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 3.8
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

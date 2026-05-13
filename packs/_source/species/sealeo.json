@@ -1,0 +1,154 @@
+{
+  "name": "Sealeo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 364,
+    "types": {
+      "primary": "ice",
+      "secondary": "water"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 6,
+      "def": 7,
+      "spa": 8,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 9,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 7
+    },
+    "habilidades": [
+      "Friorento",
+      "Gordura"
+    ],
+    "altasHabilidades": [
+      "Obtusidade"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Bravata"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Anel de Gelo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Ronco"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Zero Absoluto"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Água",
+      "Bocejo",
+      "Engolir",
+      "Esporte Aquático",
+      "Estocagem",
+      "Fissura",
+      "Liberação",
+      "Maldição",
+      "Pulso d’Água",
+      "Rolagem",
+      "Sinalizador",
+      "Sonambulismo",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Superpresa",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Spheal",
+        "to": "Sealeo",
+        "condition": "level",
+        "value": 30
+      },
+      {
+        "from": "Sealeo",
+        "to": "Walrein",
+        "condition": "level",
+        "value": 45
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 35
+  }
+}

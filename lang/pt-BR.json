@@ -198,6 +198,10 @@
       "CapacitiesBundleVersion": {
         "Name": "Versão do Bundle de Capacidades Importado",
         "Hint": "Controla qual versão do bundle de capacidades já foi importada para o compendium World-side."
+      },
+      "SpeciesBundleVersion": {
+        "Name": "Versão do Bundle de Espécies Importado",
+        "Hint": "Controla qual versão do bundle de espécies já foi importada para o compendium World-side."
       }
     },
 

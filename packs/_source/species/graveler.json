@@ -1,0 +1,78 @@
+{
+  "name": "Graveler",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 75,
+    "types": {
+      "primary": "rock",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 10,
+      "def": 12,
+      "spa": 5,
+      "spd": 5,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Magnético Magnético"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia Galvanização"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Automação",
+      "Bloqueio",
+      "Defesa Aberta",
+      "Escalada",
+      "Maldição",
+      "Mangual",
+      "Resistência. Os Graveler não Magnéticos adicionam os seguintes Golpes à lista: Braço Martelo",
+      "Megassoco",
+      "Soco Focalizado. Os Graveler Magnéticos adicionam os seguintes Golpes à lista: Contra-Ataque",
+      "Guincho",
+      "Magnetização"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Trocar de Lugar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

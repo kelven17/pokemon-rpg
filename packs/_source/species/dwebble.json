@@ -1,0 +1,147 @@
+{
+  "name": "Dwebble",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 557,
+    "types": {
+      "primary": "bug",
+      "secondary": "rock"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 9,
+      "spa": 4,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 3
+    },
+    "habilidades": [
+      "Concha",
+      "Robustez"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Detonação"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Destruição"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Polimento"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Pedras Soltas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Demolição"
+      }
+    ],
+    "golpesHerdados": [
+      "Bloqueio",
+      "Contra-Ataque",
+      "Defesa Aberta",
+      "Defesa de Ferro",
+      "Emboscada",
+      "Espinhos",
+      "Fertilizante",
+      "Maldição",
+      "Resistência",
+      "Tumba de Areia"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Defesa de Ferro",
+      "Nocaute",
+      "Pedras Soltas",
+      "Picada"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Gabite",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 444,
+    "types": {
+      "primary": "dragon",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 7,
+      "spa": 5,
+      "spd": 6,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": 7,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Manto de Areia"
+    ],
+    "altasHabilidades": [
+      "Aspereza"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Pancada Dupla"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Tumba de Areia"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Garra do Dragão"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Investida do Dragão"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Cabeça de Ferro",
+      "Careta",
+      "Cauda de Ferro",
+      "Ciclone",
+      "Escalada",
+      "Faca de Dois Gumes",
+      "Metalizar Garra",
+      "Pancada",
+      "Sopro do Dragão",
+      "Tiro de Lama",
+      "Tumba de Areia",
+      "Ultraje"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Meteoro do Dragão",
+      "Pancada Dupla",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Ultraje"
+    ],
+    "evolucoes": [
+      {
+        "from": "Gible",
+        "to": "Gabite",
+        "condition": "level",
+        "value": 25
+      },
+      {
+        "from": "Gabite",
+        "to": "Garchomp",
+        "condition": "level",
+        "value": 50
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 30
+  }
+}

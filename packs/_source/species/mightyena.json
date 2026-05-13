@@ -1,0 +1,172 @@
+{
+  "name": "Mightyena",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 262,
+    "types": {
+      "primary": "dark",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 7,
+      "spa": 6,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Fuga",
+      "Ligeiro"
+    ],
+    "altasHabilidades": [
+      "Arrogância",
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Vociferação"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Brincadeira"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Bocejo",
+      "Brincadeira",
+      "Cobiça",
+      "Encarar",
+      "Furto",
+      "Pelas Costas",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Presa Venenosa",
+      "Primeiro Eu",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Mastigada",
+      "Ódio",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Roubo",
+      "Superpresa",
+      "Trapaça",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Poochyena",
+        "to": "Mightyena",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

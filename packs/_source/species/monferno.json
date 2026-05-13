@@ -1,0 +1,169 @@
+{
+  "name": "Monferno",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 391,
+    "types": {
+      "primary": "fire",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 5,
+      "spa": 8,
+      "spd": 5,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Punho de Ferro"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Soco Rápido"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Soco Rápido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Tormento"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Relaxar"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      }
+    ],
+    "golpesHerdados": [
+      "Auxílio",
+      "Bis",
+      "Chute Duplo",
+      "Chute Flamejante",
+      "Contra-Ataque",
+      "Fingimento",
+      "Focar Energia",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Prevenção",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Submissão"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Conspiração",
+      "Esforço",
+      "Incêndio",
+      "Interpretação",
+      "Lança- Chamas",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Pancada Dupla",
+      "Pedras Soltas",
+      "Pilar de Chamas",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira"
+    ],
+    "evolucoes": [
+      {
+        "from": "Chimchar",
+        "to": "Monferno",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Monferno",
+        "to": "Infernape",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

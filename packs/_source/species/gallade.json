@@ -1,0 +1,177 @@
+{
+  "name": "Gallade",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 475,
+    "types": {
+      "primary": "psychic",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 5,
+      "spa": 7,
+      "spd": 12,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 6,
+      "salto": 4,
+      "outras": [
+        "Aura",
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Inabalável",
+      "Justiceiro Foco"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Teletransporte"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Pulso de Cura"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Defesa Aberta"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Corte Psíquico"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Reserva"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Campo Enevoado",
+      "Desabilitar",
+      "Elementalismo",
+      "Lembrança",
+      "Olhar Paralisante",
+      "Raio de Confusão",
+      "Rancor",
+      "Sombra Traiçoeira",
+      "Troca de Habilidades",
+      "Trocar de Lugar",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Corpo a Corpo",
+      "Emboscada",
+      "Furto",
+      "Lâmina Vegetal",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Pancada Dupla",
+      "Rasteira",
+      "Reciclagem",
+      "Reserva",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

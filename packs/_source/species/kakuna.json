@@ -1,0 +1,82 @@
+{
+  "name": "Kakuna",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 14,
+    "types": {
+      "primary": "bug",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 3,
+      "def": 5,
+      "spa": 3,
+      "spd": 3,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 2,
+      "salto": 4,
+      "outras": [
+        "Adesão",
+        "Afundamento",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Polvilhar"
+    ],
+    "altasHabilidades": [
+      "Troca de Pele"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Endurecer"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Lançar Teia",
+      "Picada",
+      "Picada Venenosa",
+      "Teia Elétrica. Kakuna não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Weedle",
+        "to": "Kakuna",
+        "condition": "level",
+        "value": 5
+      },
+      {
+        "from": "Kakuna",
+        "to": "Beedrill",
+        "condition": "level",
+        "value": 10
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

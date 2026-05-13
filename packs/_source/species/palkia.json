@@ -1,0 +1,135 @@
+{
+  "name": "Palkia",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 484,
+    "types": {
+      "primary": "water",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 12,
+      "def": 10,
+      "spa": 15,
+      "spd": 12,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 7,
+      "salto": 8,
+      "outras": [
+        "Aura",
+        "Telecinesia",
+        "Telepatia Lendárias Controle Espacial",
+        "Dimensão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 10,
+      "voo": 14,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Pressão"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Sopro do Dragão"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Cauda do Dragão"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Garra do Dragão"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Esfera da Aura"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Fenda Espacial"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Gravidade",
+      "Meteoro do Dragão",
+      "Onda de Choques",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Soco Focalizado",
+      "Ultraje",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 4.2
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

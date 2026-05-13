@@ -1,0 +1,132 @@
+{
+  "name": "Helioptile",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 694,
+    "types": {
+      "primary": "electric",
+      "secondary": "normal"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 3,
+      "spa": 6,
+      "spd": 4,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Eletricidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Manto de Areia",
+      "Ressecado"
+    ],
+    "altasHabilidades": [
+      "Poder Solar"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Antena"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Troca de Bateria"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Eletrificar"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Relâmpago"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Campo Elétrico",
+      "Camuflagem",
+      "Ofuscar"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Magnetização",
+      "Onda de Choques",
+      "Sinalizador",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

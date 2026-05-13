@@ -1,0 +1,146 @@
+{
+  "name": "Crabominable",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 740,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 13,
+      "def": 8,
+      "spa": 6,
+      "spd": 7,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Hipercorte",
+      "Punho de Ferro"
+    ],
+    "altasHabilidades": [
+      "Frenesi"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Soco de Gelo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Esmagamento"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Soco Energizado"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Soco Estonteante"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Avalanche"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Martelo de Gelo"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Soco Dinâmico"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Defesa Aberta",
+      "Esforço",
+      "Superpoder"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Defesa de Ferro",
+      "Esforço",
+      "Pancada Dupla",
+      "Patola",
+      "Retribuição",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Crabrawler",
+        "to": "Crabominable",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

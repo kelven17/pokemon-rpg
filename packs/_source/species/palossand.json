@@ -1,0 +1,142 @@
+{
+  "name": "Palossand",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 770,
+    "types": {
+      "primary": "ghost",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 8,
+      "def": 11,
+      "spa": 10,
+      "spd": 8,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Desmanchar"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Tumba de Areia"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Suporte"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Engolir",
+      "Estocagem",
+      "Liberação",
+      "Poder Antigo",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Gigadreno",
+      "Gravidade",
+      "Interpretação",
+      "Ódio",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Reciclagem",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Sandygast",
+        "to": "Palossand",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Karrablast",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 588,
+    "types": {
+      "primary": "bug",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 8,
+      "def": 5,
+      "spa": 4,
+      "spd": 5,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Guarda Baixa",
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Armadura"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Chifrada",
+      "Contra-Ataque",
+      "Guincho",
+      "Megachifre",
+      "Nocaute",
+      "Picada",
+      "Perfuração",
+      "Perseguição"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Gigadreno",
+      "Nocaute",
+      "Perfuração",
+      "Picada",
+      "Sinalizador"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

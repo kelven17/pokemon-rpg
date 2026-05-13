@@ -1,0 +1,169 @@
+{
+  "name": "Stunfisk",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 618,
+    "types": {
+      "primary": "ground",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 7,
+      "def": 8,
+      "spa": 8,
+      "spd": 10,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Eletricidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Elasticidade",
+      "Eletricidade Estática"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Camuflagem"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Relâmpago"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Fissura"
+      }
+    ],
+    "golpesHerdados": [
+      "Adaptação",
+      "Assustar",
+      "Bocejo",
+      "Faísca",
+      "Maldição",
+      "Ódio",
+      "Onda Anômala",
+      "Onda de Choques",
+      "Poder Terreno",
+      "Primeiro Eu",
+      "Sofrimento Mútuo",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Clamor",
+      "Esforço",
+      "Fissura",
+      "Magnetização",
+      "Mangual",
+      "Ódio",
+      "Onda Trovão",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pular",
+      "Pulso d’Água",
+      "Sofrimento Mútuo",
+      "Teia Elétrica",
+      "Trapaça"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 25
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "name": "Beheeyem",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 606,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 8,
+      "spa": 13,
+      "spd": 10,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 6,
+      "salto": 3,
+      "outras": [
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 7,
+      "voo": 7,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Sincronizar",
+      "Telepatia"
+    ],
+    "altasHabilidades": [
+      "Análise"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Milagre"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Poder Oculto"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Simplificador"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Compartilhar Defesas"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Compartilhar Forças"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Elementalismo"
+      },
+      {
+        "level": 68,
+        "trigger": "level",
+        "move": "Sala das Maravilhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Barreira",
+      "Conspiração",
+      "Desabilitar",
+      "Poder Cósmico",
+      "Teletransporte",
+      "Troca de Defesas",
+      "Troca de Forças",
+      "Troca de Habilidades",
+      "Trocar de Lugar"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Campo Psíquico",
+      "Clamor",
+      "Depois de Você",
+      "Elementalismo",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Elgyem",
+        "to": "Beheeyem",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

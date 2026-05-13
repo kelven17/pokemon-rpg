@@ -1,0 +1,156 @@
+{
+  "name": "Tsareena",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 763,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 12,
+      "def": 10,
+      "spa": 5,
+      "spd": 10,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Hierarquia",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Proteção Vegetal"
+    ],
+    "altasHabilidades": [
+      "Majestade",
+      "Véu Doce"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Chute Tropical"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Névoa Aromática"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Supervoadora"
+      }
+    ],
+    "golpesHerdados": [
+      "Acupuntura",
+      "Apito de Folha",
+      "Brincadeira",
+      "Charme",
+      "Finta",
+      "Fotossíntese"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Cobiça",
+      "Concentração",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mangual",
+      "Mão Amiga",
+      "Nocaute",
+      "Pular",
+      "Rasteira",
+      "Semente Irritante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bounsweet",
+        "to": "Steenee",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Steenee",
+        "to": "Tsareena",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

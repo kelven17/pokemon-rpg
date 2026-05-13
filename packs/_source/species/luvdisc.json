@@ -1,0 +1,154 @@
+{
+  "name": "Luvdisc",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 370,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 3,
+      "def": 6,
+      "spa": 4,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Partir o Coração"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Ensopar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      }
+    ],
+    "golpesHerdados": [
+      "Amizade",
+      "Anel de Água",
+      "Cativar",
+      "Esporte Aquático",
+      "Esporte Terrestre",
+      "Míssil Aquático",
+      "Salmoura",
+      "Pulso de Cura",
+      "Saltitar",
+      "Supersônico"
+    ],
+    "golpesEnsinaveis": [
+      "Pular",
+      "Pulso d’Água",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

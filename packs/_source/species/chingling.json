@@ -1,0 +1,127 @@
+{
+  "name": "Chingling",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 433,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 3,
+      "def": 5,
+      "spa": 7,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 1,
+      "voo": 4,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Amizade"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Clamor"
+      }
+    ],
+    "golpesHerdados": [
+      "Desabilitar",
+      "Desejo",
+      "Hipnose",
+      "Maldição",
+      "Poder Cósmico",
+      "Previsão",
+      "Recuperação",
+      "Reserva",
+      "Troca de Habilidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Estrela Cadente",
+      "Furto",
+      "Gravidade",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sinalizador",
+      "Sino da Cura",
+      "Sufocamento",
+      "Troca de Habilidades",
+      "Truque",
+      "Último Recurso",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Chingling",
+        "to": "Chimecho",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

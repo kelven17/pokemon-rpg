@@ -1,0 +1,160 @@
+{
+  "name": "Hitmonchan",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 107,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 11,
+      "def": 8,
+      "spa": 4,
+      "spd": 11,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Aura"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Inabalável",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Visão Aguçada"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Soco Cometa"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Soco Bala"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Soco Rápido"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Onda de Vácuo"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Prevenção"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Soco de Fogo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Soco de Gelo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Soco do Trovão"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Gancho"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Megassoco"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      }
+    ],
+    "golpesHerdados": [
+      "Contra-Ataque",
+      "Finta",
+      "Giro Rápido",
+      "Leitura Mental",
+      "Mão Amiga",
+      "Onda de Vácuo",
+      "Perseguição",
+      "Resistência",
+      "Soco Bala",
+      "Soco Rápido",
+      "Supervoadora"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Contra-Ataque",
+      "Corpo a Corpo",
+      "Interpretação",
+      "Mão Amiga",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Vingança"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

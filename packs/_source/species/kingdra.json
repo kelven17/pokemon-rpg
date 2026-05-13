@@ -1,0 +1,137 @@
+{
+  "name": "Kingdra",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 230,
+    "types": {
+      "primary": "water",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 10,
+      "spa": 10,
+      "spd": 5,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Aura",
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 7,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Franco-Atirador",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Umidade"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ciclone"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Dança dos Dragões"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Desabilitar",
+      "Fumaça",
+      "Fúria do Dragão",
+      "Lâmina de Vento",
+      "Mangual",
+      "Polvo Canhão",
+      "Pulso d’Água",
+      "Raio Aurora",
+      "Saltitar",
+      "Sinalizador",
+      "Sopro do Dragão",
+      "Ultraje"
+    ],
+    "golpesEnsinaveis": [
+      "Bocejo",
+      "Cabeça de Ferro",
+      "Hidrobomba",
+      "Meteoro do Dragão",
+      "Pular",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Sinalizador",
+      "Ultraje",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 55
+  }
+}

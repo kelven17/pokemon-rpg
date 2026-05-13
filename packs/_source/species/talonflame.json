@@ -1,0 +1,149 @@
+{
+  "name": "Talonflame",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 663,
+    "types": {
+      "primary": "fire",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 7,
+      "spa": 7,
+      "spd": 7,
+      "spe": 13
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 1,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bicudo"
+    ],
+    "altasHabilidades": [
+      "Asas de Vendavais",
+      "Flamejante"
+    ],
+    "learnset": [
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Asa de Aço"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Fúria dos Pássaros"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Vento",
+      "Furto",
+      "Prevenção"
+    ],
+    "golpesEnsinaveis": [
+      "Bombardeio de Chamas",
+      "Cauda de Vento",
+      "Fúria dos Pássaros",
+      "Furto",
+      "Onda de Calor",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Fletchling",
+        "to": "Fletchinder",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Fletchinder",
+        "to": "Talonflame",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

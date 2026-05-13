@@ -1,0 +1,141 @@
+{
+  "name": "Tapu Lele",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 786,
+    "types": {
+      "primary": "psychic",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 8,
+      "spa": 13,
+      "spd": 12,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 5,
+      "salto": 5,
+      "outras": [
+        "Aura",
+        "Telecinesia",
+        "Telepatia Lendárias Região Sagrada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Psicogênese"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Troca de Habilidades"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Ira da Natureza"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Adulação"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Força Lunar"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Aromaterapia",
+      "Campo Psíquico",
+      "Defesa de Ferro",
+      "Gravidade",
+      "Manto Mágico",
+      "Névoa Aromática",
+      "Olhar Paralisante",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Telecinesia",
+      "Troca de Habilidades",
+      "Trocar de Lugar. Tapu Lele não aprende o Golpe Universal Descansar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

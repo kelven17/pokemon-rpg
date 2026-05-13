@@ -1,0 +1,178 @@
+{
+  "name": "Absol",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 359,
+    "types": {
+      "primary": "dark",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 6,
+      "spa": 5,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Aura",
+        "Faro",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Justiceiro Mágico"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Corte Psíquico"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Réquiem"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Brincadeira",
+      "Cabeçada Zen",
+      "Castigo",
+      "Faca de Dois Gumes",
+      "Feitiço",
+      "Garantia",
+      "Maldição",
+      "Manto Mágico",
+      "Megachifre",
+      "Olhar Paralisante",
+      "Passar o Bastão",
+      "Pelas Costas",
+      "Primeiro Eu",
+      "Substituição"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Previsão",
+      "Pular",
+      "Pulso d’Água",
+      "Réquiem",
+      "Superpoder",
+      "Trapaça",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

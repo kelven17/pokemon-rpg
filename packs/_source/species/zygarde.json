@@ -1,0 +1,71 @@
+{
+  "name": "Zygarde",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 718,
+    "types": {
+      "primary": "dragon",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 8,
+      "inteligencia": 6,
+      "salto": 4,
+      "outras": [
+        "Aura",
+        "Telepatia Lendárias Multiforma",
+        "Planeta Vivo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": 12,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Agrupamento"
+    ],
+    "altasHabilidades": [
+      "Rompimento de Auras"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Meteoro do Dragão",
+      "Ódio",
+      "Onda de Choques",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Superpoder",
+      "Ultraje",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "",
+      "metros": null
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

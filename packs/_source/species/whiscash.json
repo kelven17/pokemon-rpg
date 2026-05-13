@@ -1,0 +1,150 @@
+{
+  "name": "Whiscash",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 340,
+    "types": {
+      "primary": "water",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 8,
+      "def": 7,
+      "spa": 8,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 9,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 9
+    },
+    "habilidades": [
+      "Antecipação",
+      "Obtusidade"
+    ],
+    "altasHabilidades": [
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Açoite"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Magnitude"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Ronco"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Fissura"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Água Barrenta",
+      "Dança dos Dragões",
+      "Derrubada",
+      "Faísca",
+      "Hidrobomba",
+      "Mangual",
+      "Poder Terreno",
+      "Redemoinho",
+      "Tiro de Lama"
+    ],
+    "golpesEnsinaveis": [
+      "Arroto",
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cócegas",
+      "Poder Terreno",
+      "Pular",
+      "Pulso d’Água",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

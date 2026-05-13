@@ -1,0 +1,105 @@
+{
+  "name": "Abra",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 63,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 3,
+      "atk": 2,
+      "def": 2,
+      "spa": 11,
+      "spd": 6,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": null,
+      "outras": [
+        "Afundamento",
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Foco Interior",
+      "Sincronizar"
+    ],
+    "altasHabilidades": [
+      "Proteção Mágica"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Teletransporte"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Bis",
+      "Compartilhar Defesas",
+      "Nocaute",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Transferência",
+      "Transmissibilidade",
+      "Troca de Defesas",
+      "Troca de Habilidades",
+      "Trocar de Lugar"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Cauda de Ferro",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Manto Mágico",
+      "Nocaute",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Kadabra",
+        "to": "Alakazam",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 15,
+    "experiencia": 15
+  }
+}

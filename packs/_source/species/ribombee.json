@@ -1,0 +1,138 @@
+{
+  "name": "Ribombee",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 743,
+    "types": {
+      "primary": "bug",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 6,
+      "spa": 10,
+      "spd": 7,
+      "spe": 12
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 1,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mel",
+      "Polvilhar"
+    ],
+    "altasHabilidades": [
+      "Véu Doce"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Pólen Fofo"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Vento Encantado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Estoicismo"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Vento Prateado"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Luz Mágica"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Dança das Asas"
+      }
+    ],
+    "golpesHerdados": [
+      "Força Lunar",
+      "Oferenda",
+      "Passar o Bastão",
+      "Troca de Habilidades",
+      "Troca de Velocidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Cobiça",
+      "Desanuviar",
+      "Mão Amiga",
+      "Picada",
+      "Depois de Você",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Telecinesia",
+      "Troca de Habilidades",
+      "Trocar de Lugar",
+      "Truque",
+      "Último Recurso"
+    ],
+    "evolucoes": [
+      {
+        "from": "Cutiefly",
+        "to": "Ribombee",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 35
+  }
+}

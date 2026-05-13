@@ -1,0 +1,144 @@
+{
+  "name": "Tapu Fini",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 788,
+    "types": {
+      "primary": "water",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 12,
+      "spa": 10,
+      "spd": 13,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 5,
+      "salto": 5,
+      "outras": [
+        "Aura",
+        "Manancial Lendárias Região Sagrada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 12,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": 12
+    },
+    "habilidades": [
+      "Nebulogênese"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Ensopar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Desanuviar"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Ira da Natureza"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Campo Enevoado",
+      "Defesa de Ferro",
+      "Desanuviar",
+      "Força Lunar",
+      "Gravidade",
+      "Manto Mágico",
+      "Nocaute",
+      "Olhar Paralisante",
+      "Pulso d’Água",
+      "Pulso de Cura",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Soco de Gelo",
+      "Telecinesia",
+      "Truque",
+      "Vento Gelado. Tapu Fini não aprende o Golpe Universal Descansar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Lumineon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 457,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 8,
+      "spa": 7,
+      "spd": 9,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Drenagem",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Revestimento Aquoso"
+    ],
+    "learnset": [
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Sua Vez"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Vento Prateado"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Ensopar"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Beijo Doce",
+      "Cauda de Água",
+      "Charme",
+      "Cócegas",
+      "Feixe Psíquico",
+      "Mangual",
+      "Raio Aurora",
+      "Salmoura",
+      "Saltitar",
+      "Sinalizador"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Vento",
+      "Ensopar",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

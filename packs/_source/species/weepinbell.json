@@ -1,0 +1,143 @@
+{
+  "name": "Weepinbell",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 70,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 5,
+      "spa": 9,
+      "spd": 5,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Pó Sonífero"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Bis",
+      "Bomba Ácida",
+      "Chicote",
+      "Cócegas",
+      "Dádiva da Natureza",
+      "Enraizar",
+      "Esfera Climática",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Fumaça",
+      "Gigadreno",
+      "Sanguessuga",
+      "Semente Bala",
+      "Semente Irritante"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Nocaute",
+      "Semente Irritante",
+      "Sufocamento",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

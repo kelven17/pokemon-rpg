@@ -1,0 +1,170 @@
+{
+  "name": "Amaura",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 698,
+    "types": {
+      "primary": "rock",
+      "secondary": "ice"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 6,
+      "def": 5,
+      "spa": 7,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Refrigeração"
+    ],
+    "altasHabilidades": [
+      "Convocar Neve"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Geada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Arremesso de Pedras"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Harmonia"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Avalanche"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Poder da Natureza"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Raio de Gelo"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Nevasca"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Descarga",
+      "Escudo Espelho",
+      "Magnetização",
+      "Nevoeiro"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Ultraje",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Amaura",
+        "to": "Aurorus",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 20
+  }
+}

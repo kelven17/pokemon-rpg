@@ -1,0 +1,144 @@
+{
+  "name": "Glalie",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 362,
+    "types": {
+      "primary": "ice",
+      "secondary": "ice"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 5,
+      "def": 8,
+      "spa": 5,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Congelação",
+        "Frio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Humor Variável"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Liofilização"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Presa de Gelo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Sopro de Gelo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Liofilização"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Zero Absoluto"
+      }
+    ],
+    "golpesHerdados": [
+      "Avalanche",
+      "Bloqueio",
+      "Choro",
+      "Desabilitar",
+      "Esfera Climática",
+      "Espinhos",
+      "Feitiço",
+      "Paciência",
+      "Rolagem",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Ódio",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Superpresa",
+      "Vento Gelado",
+      "Zero Absoluto"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

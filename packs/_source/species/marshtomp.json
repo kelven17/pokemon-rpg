@@ -1,0 +1,164 @@
+{
+  "name": "Marshtomp",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 259,
+    "types": {
+      "primary": "water",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 7,
+      "spa": 6,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Umidade"
+    ],
+    "altasHabilidades": [
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Gelo",
+      "Avalanche",
+      "Barreira",
+      "Bocejo",
+      "Bomba de Lama",
+      "Clamor",
+      "Contra-Ataque",
+      "Defesa Aberta",
+      "Escudo Espelho",
+      "Faca de Dois Gumes",
+      "Lama",
+      "Maldição",
+      "Mordida",
+      "Pisotear",
+      "Poder Antigo",
+      "Redemoinho",
+      "Refresco"
+    ],
+    "golpesEnsinaveis": [
+      "Arremesso de Pedras",
+      "Canhão de Água",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Clamor",
+      "Esforço",
+      "Esporte Terrestre",
+      "Hidrobomba",
+      "Pedras Soltas",
+      "Pilar de Água",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Rasteira",
+      "Redemoinho",
+      "Soco de Gelo",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Mudkip",
+        "to": "Marshtomp",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Marshtomp",
+        "to": "Swampert",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

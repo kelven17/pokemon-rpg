@@ -1,0 +1,165 @@
+{
+  "name": "Serperior",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 497,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 10,
+      "spa": 8,
+      "spd": 10,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 5,
+      "salto": 2,
+      "outras": [
+        "Rebento",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Contrário"
+    ],
+    "altasHabilidades": [
+      "Rivalidade"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Chicote de Vinha"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Tornado de Folhas"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Enrolar"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Torção"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Aromatizar",
+      "Campo Gramado",
+      "Cativar",
+      "Cauda de Ferro",
+      "Ciclone",
+      "Dádiva da Natureza",
+      "Escudo Espelho",
+      "Folhas Mágicas",
+      "Ofuscar",
+      "Olhar Paralisante",
+      "Perseguição"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Fotossíntese",
+      "Furto",
+      "Gigadreno",
+      "Nocaute",
+      "Pilar de Folhas",
+      "Planta Mortal",
+      "Pulso do Dragão",
+      "Semente Irritante",
+      "Sufocamento",
+      "Ultraje",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Snivy",
+        "to": "Servine",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Servine",
+        "to": "Serperior",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 3.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

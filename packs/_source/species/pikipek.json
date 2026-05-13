@@ -1,0 +1,142 @@
+{
+  "name": "Pikipek",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 731,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 8,
+      "def": 3,
+      "spa": 3,
+      "spd": 3,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ligação",
+      "Visão Aguçada"
+    ],
+    "altasHabilidades": [
+      "Catagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Esmagamento"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Bico Broca"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Semente Bala"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Dança das Penas"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Vozeirão"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Vento",
+      "Clamor",
+      "Espelho",
+      "Estrondo",
+      "Fúria dos Pássaros"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Vento",
+      "Clamor",
+      "Desanuviar",
+      "Nocaute",
+      "Onda de Calor",
+      "Sujeira",
+      "Vozeirão. Pikipek não aprende o Golpe Universal Fachada"
+    ],
+    "evolucoes": [
+      {
+        "from": "Pikipek",
+        "to": "Trumbeak",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

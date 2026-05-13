@@ -1,0 +1,153 @@
+{
+  "name": "Pinsir",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 127,
+    "types": {
+      "primary": "bug",
+      "secondary": "bug"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Arrogância"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Agarrar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Arremesso Sísmico"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Ringue"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Quebra Telha"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Submissão"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Crítico"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Guilhotina"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Ataque Rápido",
+      "Corpo a Corpo",
+      "Finta",
+      "Fúria",
+      "Mangual",
+      "Picada",
+      "Primeiro Eu",
+      "Superpoder"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Nocaute",
+      "Pedras Soltas",
+      "Picada",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

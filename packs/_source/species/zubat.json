@@ -1,0 +1,154 @@
+{
+  "name": "Zubat",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 41,
+    "types": {
+      "primary": "poison",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 3,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": null,
+      "outras": [
+        "Afundamento",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Foco Interior"
+    ],
+    "altasHabilidades": [
+      "Infiltrador"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Vento Cortante"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Presa Venenosa"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Olhar Paralisante"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Prevenção"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Ataque Rápido",
+      "Asa de Aço",
+      "Cabeçada Zen",
+      "Conspiração",
+      "Desanuviar",
+      "Fúria dos Pássaros",
+      "Gigadreno",
+      "Hipnose",
+      "Intensificar Veneno",
+      "Maldição",
+      "Perseguição",
+      "Rajada de Vento",
+      "Ventania"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Clamor",
+      "Furto",
+      "Gigadreno",
+      "Onda de Calor",
+      "Superpresa",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

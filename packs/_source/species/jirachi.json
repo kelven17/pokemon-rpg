@@ -1,0 +1,160 @@
+{
+  "name": "Jirachi",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 385,
+    "types": {
+      "primary": "steel",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 10,
+      "def": 10,
+      "spa": 10,
+      "spd": 10,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 7,
+      "salto": 6,
+      "outras": [
+        "Aura",
+        "Luminar",
+        "Telecinesia",
+        "Telepatia Lendárias Controle Temporal",
+        "Realizar Desejos"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Graça Serena"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Gravidade"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Desejo de Cura"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Poder Cósmico"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 70,
+        "trigger": "level",
+        "move": "Desejo de Destruição"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Clamor",
+      "Defesa de Ferro",
+      "Gravidade",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Troca de Habilidades",
+      "Último Recurso",
+      "Vento Gelado",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

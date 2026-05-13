@@ -1,0 +1,168 @@
+{
+  "name": "Treecko",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 252,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 7,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 4,
+      "outras": [
+        "Adesão",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Leveza"
+    ],
+    "altasHabilidades": [
+      "Escama Maravilhosa"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Prevenção"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Guincho"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Campo Gramado",
+      "Chute Duplo",
+      "Dádiva da Natureza",
+      "Esforço",
+      "Esporte Terrestre",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Garra Esmagadora",
+      "Lâmina de Vento",
+      "Mastigada",
+      "Semente Bala",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Sopro do Dragão",
+      "Tempestade de Folhas"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Planta Mortal",
+      "Pilar de Folhas",
+      "Rasteira",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Soco do Trovão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Treecko",
+        "to": "Grovyle",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Grovyle",
+        "to": "Sceptile",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Scrafty",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 560,
+    "types": {
+      "primary": "dark",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 12,
+      "spa": 5,
+      "spd": 12,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 5,
+      "salto": 4,
+      "outras": [
+        "Hierarquia",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Arrogância",
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Rasteira"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Quebra Telha"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Supervoadora"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Fachada"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Escalada"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Soco Focalizado"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Investida de Cabeça"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Ataque Furtivo",
+      "Cabeçada Zen",
+      "Contra-Ataque",
+      "Dança dos Dragões",
+      "Detecção",
+      "Fingimento",
+      "Prevenção",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Furto",
+      "Nocaute",
+      "Ódio",
+      "Pancada Dupla",
+      "Pulso do Dragão",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpresa",
+      "Ultraje",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Scraggy",
+        "to": "Scrafty",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

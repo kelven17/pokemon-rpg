@@ -1,0 +1,131 @@
+{
+  "name": "Rotom",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 479,
+    "types": {
+      "primary": "electric",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Invisibilidade",
+        "Luminar",
+        "Virtualidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Vento Nefasto"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Substituição"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Feitiço"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Descarga"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Carga",
+      "Clamor",
+      "Descarga",
+      "Furto",
+      "Ódio",
+      "Onda de Choques",
+      "Sinalizador",
+      "Sofrimento Mútuo",
+      "Teia Elétrica",
+      "Trapaça",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

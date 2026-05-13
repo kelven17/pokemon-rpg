@@ -1,0 +1,143 @@
+{
+  "name": "Cradily",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 346,
+    "types": {
+      "primary": "rock",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 8,
+      "def": 10,
+      "spa": 8,
+      "spd": 11,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Adesão",
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 7
+    },
+    "habilidades": [
+      "Ventosas"
+    ],
+    "altasHabilidades": [
+      "Drenagem"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Cócegas",
+      "Escudo Espelho",
+      "Maldição",
+      "Megadreno",
+      "Pedras Soltas",
+      "Recuperação",
+      "Resistência",
+      "Torção"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Semente Bala",
+      "Semente Irritante",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Torção",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

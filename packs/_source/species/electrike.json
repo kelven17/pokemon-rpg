@@ -1,0 +1,146 @@
+{
+  "name": "Electrike",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 309,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 7,
+      "spd": 4,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática",
+      "Pararraios"
+    ],
+    "altasHabilidades": [
+      "Menos"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Presa do Trovão"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Carga Selvagem"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeçada",
+      "Clamor",
+      "Descarga",
+      "Esfera Elétrica",
+      "Estrela Cadente",
+      "Maldição",
+      "Mastigada",
+      "Onda Anômala",
+      "Onda de Choques",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Rajada de Chamas",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Magnetização",
+      "Onda de Choques",
+      "Sinalizador"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "name": "Diggersby",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 660,
+    "types": {
+      "primary": "normal",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 6,
+      "def": 8,
+      "spa": 5,
+      "spd": 8,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bochechudo",
+      "Catagem"
+    ],
+    "altasHabilidades": [
+      "Força Gigantesca"
+    ],
+    "learnset": [
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Chute Duplo"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Fachada"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Fechada",
+      "Espinhos",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Braço Martelo",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Dança das Espadas",
+      "Esforço",
+      "Fertilizante",
+      "Furto",
+      "Nocaute",
+      "Poder Terreno",
+      "Pular",
+      "Rasteira",
+      "Reciclagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Superpoder",
+      "Superpresa",
+      "Trapaça",
+      "Tremor",
+      "Último Recurso",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bunnelby",
+        "to": "Diggersby",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

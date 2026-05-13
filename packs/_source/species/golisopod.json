@@ -1,0 +1,142 @@
+{
+  "name": "Golisopod",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 768,
+    "types": {
+      "primary": "bug",
+      "secondary": "water"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 13,
+      "def": 14,
+      "spa": 6,
+      "spd": 9,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Amarelar"
+    ],
+    "altasHabilidades": [
+      "Saída de Emergência"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Primeira Impressão"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Esmagamento"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ódio"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Concha Navalha"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Inundação"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Aberta",
+      "Endurecer",
+      "Espinhos",
+      "Metalizar Garra",
+      "Míssil Aquático"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Concentração",
+      "Defesa de Ferro",
+      "Esforço",
+      "Gravata",
+      "Inundação",
+      "Nocaute",
+      "Ódio",
+      "Pancada Dupla",
+      "Perfuração",
+      "Picada",
+      "Pulso d’Água",
+      "Sofrimento Mútuo",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Wimpod",
+        "to": "Golisopod",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

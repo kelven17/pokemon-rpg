@@ -1,0 +1,145 @@
+{
+  "name": "Blitzle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 522,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 3,
+      "spa": 5,
+      "spd": 3,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Eletricidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Motorização",
+      "Pararraios"
+    ],
+    "altasHabilidades": [
+      "Absorção de Seiva"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Carga Selvagem"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque de Areia",
+      "Chute Duplo",
+      "Derrubada",
+      "Faca de Dois Gumes",
+      "Furto",
+      "Guincho",
+      "Onda de Choques",
+      "Primeiro Eu",
+      "Raiva",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Furto",
+      "Magnetização",
+      "Onda de Choques",
+      "Pular",
+      "Sinalizador"
+    ],
+    "evolucoes": [
+      {
+        "from": "Blitzle",
+        "to": "Zebstrika",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

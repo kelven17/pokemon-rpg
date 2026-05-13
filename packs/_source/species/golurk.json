@@ -1,0 +1,159 @@
+{
+  "name": "Golurk",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 623,
+    "types": {
+      "primary": "ground",
+      "secondary": "ghost"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 12,
+      "def": 8,
+      "spa": 6,
+      "spd": 8,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 6,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Desastrado",
+      "Punho de Ferro"
+    ],
+    "altasHabilidades": [
+      "Guarda Baixa"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Peso Pesado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Soco Sombrio"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Cólera"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Megassoco"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Magnitude"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Soco Dinâmico"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 69,
+        "trigger": "level",
+        "move": "Soco Focalizado"
+      },
+      {
+        "level": 76,
+        "trigger": "level",
+        "move": "Travessia Fantasmagórica"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Coice",
+      "Defesa de Ferro",
+      "Gravidade",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Rasteira",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco Focalizado",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Golett",
+        "to": "Golurk",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.8
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "name": "Scizor",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 212,
+    "types": {
+      "primary": "bug",
+      "secondary": "steel"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 3,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Hipercorte",
+      "Metal Leve"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Finta"
+      }
+    ],
+    "golpesHerdados": [
+      "Arremesso Sísmico",
+      "Asa de Aço",
+      "Contra-Ataque",
+      "Desanuviar",
+      "Emboscada",
+      "Lâmina de Vento",
+      "Passar o Bastão",
+      "Resistência",
+      "Reversão",
+      "Vento Prateado",
+      "Zumbido"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque de Asa",
+      "Cabeça de Ferro",
+      "Cauda de Vento",
+      "Corte Aéreo",
+      "Defesa de Ferro",
+      "Finta",
+      "Nocaute",
+      "Onda de Vácuo",
+      "Picada",
+      "Soco Bala",
+      "Superpoder",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

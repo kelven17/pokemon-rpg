@@ -1,0 +1,163 @@
+{
+  "name": "Minccino",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 572,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 4,
+      "spa": 4,
+      "spd": 4,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": 5,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Técnica",
+      "Tentação"
+    ],
+    "altasHabilidades": [
+      "Ligação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Canção"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Caudada"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Despertador"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Depois de Você"
+      }
+    ],
+    "golpesHerdados": [
+      "Abanar Rabo",
+      "Ataque de Lama",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Choro",
+      "Mangual",
+      "Nocaute",
+      "Resistência",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Depois de Você",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Sujeira",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

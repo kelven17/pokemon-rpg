@@ -1,0 +1,153 @@
+{
+  "name": "Dedenne",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 702,
+    "types": {
+      "primary": "electric",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 6,
+      "spa": 8,
+      "spd": 7,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Elasticidade",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bochechudo",
+      "Catagem"
+    ],
+    "altasHabilidades": [
+      "Mais"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Antena"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Chamego"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Troca de Bateria"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Ronco"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Raio Carregado"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Amizade"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Brincadeira"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Trovão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Descarga"
+      }
+    ],
+    "golpesHerdados": [
+      "Cobiça",
+      "Dádiva da Natureza",
+      "Mão Amiga",
+      "Onda Anômala"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Superpresa",
+      "Teia Elétrica",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

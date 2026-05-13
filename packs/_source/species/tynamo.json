@@ -1,0 +1,84 @@
+{
+  "name": "Tynamo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 602,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 4,
+      "spa": 5,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Eletricidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 6,
+      "voo": 4,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Raio Carregado"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Magnetização. Tynamo não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Tynamo",
+        "to": "Eelektrik",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

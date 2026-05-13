@@ -1,0 +1,154 @@
+{
+  "name": "Malamar",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 687,
+    "types": {
+      "primary": "dark",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 9,
+      "def": 9,
+      "spa": 7,
+      "spd": 8,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 5,
+      "salto": 2,
+      "outras": [
+        "Adesão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Contrário",
+      "Ventosas"
+    ],
+    "altasHabilidades": [
+      "Infiltrador"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Avessas"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Troca"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Corte Psíquico"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Superpoder"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Camuflagem",
+      "Compartilhar Forças",
+      "Simplificador",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Furto",
+      "Interpretação",
+      "Nocaute",
+      "Ódio",
+      "Reversão",
+      "Sinalizador",
+      "Sufocamento",
+      "Superpoder",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Inkay",
+        "to": "Malamar",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

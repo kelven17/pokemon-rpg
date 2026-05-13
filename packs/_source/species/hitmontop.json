@@ -1,0 +1,156 @@
+{
+  "name": "Hitmontop",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 237,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 10,
+      "def": 10,
+      "spa": 4,
+      "spd": 11,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Aura"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Inabalável",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Intimidar",
+      "Técnica"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Chute Triplo"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Chute Triplo"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Girobola"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Prevenção"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Defesa Aberta"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Contra-Ataque",
+      "Finta",
+      "Giro Rápido",
+      "Leitura Mental",
+      "Mão Amiga",
+      "Onda de Vácuo",
+      "Perseguição",
+      "Resistência",
+      "Soco Bala",
+      "Soco Rápido",
+      "Supervoadora"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque Rápido",
+      "Chute Giratório",
+      "Cobiça",
+      "Corpo a Corpo",
+      "Detecção",
+      "Esforço",
+      "Focar Energia",
+      "Interpretação",
+      "Mão Amiga",
+      "Perseguição",
+      "Rasteira",
+      "Vingança"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

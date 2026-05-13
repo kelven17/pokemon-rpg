@@ -1,0 +1,146 @@
+{
+  "name": "Mareanie",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 747,
+    "types": {
+      "primary": "poison",
+      "secondary": "water"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 6,
+      "spa": 4,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Elasticidade",
+      "Impiedoso"
+    ],
+    "altasHabilidades": [
+      "Regeneração"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Defesa Aberta"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Canhão de Espinhos"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Inundação"
+      }
+    ],
+    "golpesHerdados": [
+      "Engolir",
+      "Estocagem",
+      "Liberação",
+      "Nevoeiro"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Furto",
+      "Inundação",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Pulso d’Água",
+      "Sofrimento Mútuo",
+      "Sujeira",
+      "Vento Gelado",
+      "Vômito"
+    ],
+    "evolucoes": [
+      {
+        "from": "Mareanie",
+        "to": "Toxapex",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

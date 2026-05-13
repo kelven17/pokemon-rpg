@@ -1,0 +1,130 @@
+{
+  "name": "Larvesta",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 636,
+    "types": {
+      "primary": "bug",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 6,
+      "spa": 5,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Escalada",
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": null,
+      "voo": 2,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Flamejante"
+    ],
+    "altasHabilidades": [
+      "Carapaça"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lançar Teia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 70,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 90,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 100,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      }
+    ],
+    "golpesHerdados": [
+      "Alvorada",
+      "Cabeçada Zen",
+      "Endurecer",
+      "Lançar Teia",
+      "Magnetização",
+      "Resistência",
+      "Revelação"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Gigadreno",
+      "Onda de Calor",
+      "Magnetização",
+      "Picada",
+      "Sinalizador"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 15
+  }
+}

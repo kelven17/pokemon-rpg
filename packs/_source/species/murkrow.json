@@ -1,0 +1,157 @@
+{
+  "name": "Murkrow",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 198,
+    "types": {
+      "primary": "dark",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 4,
+      "spa": 9,
+      "spd": 4,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Hierarquia",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Insônia",
+      "Sorte"
+    ],
+    "altasHabilidades": [
+      "Travessura"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Olhar Paralisante"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Tormento"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Revogação"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Ataque de Asa",
+      "Ataque do Céu",
+      "Ataque Furtivo",
+      "Bico Broca",
+      "Dança das Penas",
+      "Empoleirar",
+      "Espelho",
+      "Fúria dos Pássaros",
+      "Garantia",
+      "Guincho",
+      "Raio de Confusão",
+      "Rajada de Vento",
+      "Réquiem",
+      "Transmissibilidade"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Vento",
+      "Clamor",
+      "Furto",
+      "Ódio",
+      "Onda de Calor",
+      "Trapaça",
+      "Vento Cortante",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 15
+  }
+}

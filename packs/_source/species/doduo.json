@@ -1,0 +1,151 @@
+{
+  "name": "Doduo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 84,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 9,
+      "def": 5,
+      "spa": 4,
+      "spd": 4,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 6,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Fuga",
+      "Madrugar"
+    ],
+    "altasHabilidades": [
+      "Pés Laçados"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Raiva"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Acupuntura"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Voadora"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Bico Broca"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Ataque Rápido",
+      "Dádiva da Natureza",
+      "Esforço",
+      "Espelho",
+      "Fúria dos Pássaros",
+      "Garantia",
+      "Mangual",
+      "Nevoeiro",
+      "Supersônico"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Esforço",
+      "Nocaute",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 35,
+    "experiencia": 10
+  }
+}

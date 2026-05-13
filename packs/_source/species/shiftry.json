@@ -1,0 +1,117 @@
+{
+  "name": "Shiftry",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 275,
+    "types": {
+      "primary": "grass",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 10,
+      "def": 6,
+      "spa": 9,
+      "spd": 6,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Escalada",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila",
+      "Madrugar"
+    ],
+    "altasHabilidades": [
+      "Gatuno"
+    ],
+    "learnset": [
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Tornado de Folhas"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Furacão"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Ataque Rápido",
+      "Campo Gramado",
+      "Conspiração",
+      "Derrubada",
+      "Desanuviar",
+      "Espancamento",
+      "Lâmina de Vento",
+      "Semente Bala",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Trapaça",
+      "Troca de Forças"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Vento",
+      "Conspiração",
+      "Dia de Sol",
+      "Endurecer",
+      "Explosão",
+      "Extrassensorial",
+      "Fingimento",
+      "Fotossíntese",
+      "Gigadreno",
+      "Lâmina de Vento",
+      "Lâmina Vegetal",
+      "Nocaute",
+      "Ódio",
+      "Paciência",
+      "Poder da Natureza",
+      "Provocação",
+      "Pular",
+      "Rajada de Vento",
+      "Rasteira",
+      "Semente Irritante",
+      "Tapa",
+      "Trapaça",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Seedot",
+        "to": "Nuzleaf",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

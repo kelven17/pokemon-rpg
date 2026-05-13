@@ -1,0 +1,144 @@
+{
+  "name": "Magby",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 240,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 8,
+      "def": 4,
+      "spa": 7,
+      "spd": 6,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 1,
+      "outras": [
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Flamejante"
+    ],
+    "altasHabilidades": [
+      "Espírito Vigoroso"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Fumaça"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Soco de Fogo"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Barreira",
+      "Bombardeio de Chamas",
+      "Cauda de Ferro",
+      "Cruzado",
+      "Focar Energia",
+      "Golpe de Caratê",
+      "Guincho",
+      "Megassoco",
+      "Soco Dinâmico",
+      "Soco do Trovão",
+      "Soco Rápido",
+      "Tambor de Pança",
+      "Troca de Forças"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Pancada Dupla",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

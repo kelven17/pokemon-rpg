@@ -1,0 +1,174 @@
+{
+  "name": "Archen",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 566,
+    "types": {
+      "primary": "rock",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 11,
+      "def": 5,
+      "spa": 7,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Obrigatoriedade (Derrotável)"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 1,
+      "voo": 3,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Derrotável"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Arremesso de Pedras"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Prevenção"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Sopro do Dragão"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Sua Vez"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Garra do Dragão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Desanuviar",
+      "Investida de Cabeça",
+      "Mordida",
+      "Nocaute",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Troca",
+      "Trocar de Lugar"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Clamor",
+      "Defesa de Ferro",
+      "Esforço",
+      "Nocaute",
+      "Onda de Calor",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pular",
+      "Pulso do Dragão",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Archen",
+        "to": "Archeops",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 20
+  }
+}

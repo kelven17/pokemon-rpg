@@ -1,0 +1,174 @@
+{
+  "name": "Minun",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 312,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 4,
+      "def": 5,
+      "spa": 8,
+      "spd": 9,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Eletricidade",
+        "Família"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Menos"
+    ],
+    "altasHabilidades": [
+      "Absorção de Voltagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Troca"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Choro"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Curinga"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Trovão"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Amizade"
+      }
+    ],
+    "golpesHerdados": [
+      "Beijo Doce",
+      "Canção",
+      "Cântico da Sorte",
+      "Charme",
+      "Choro",
+      "Descarga",
+      "Desejo"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Chamego",
+      "Clamor",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Teia Elétrica",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 20
+  }
+}

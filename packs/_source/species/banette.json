@@ -1,0 +1,164 @@
+{
+  "name": "Banette",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 354,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Intangibilidade",
+        "Invisibilidade",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Anátema"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ódio"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Fogo-Fátuo"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Feitiço"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Furto"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Rancor"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Truque"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Travessia Fantasmagórica"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Desabilitar",
+      "Perseguição",
+      "Raio de Confusão",
+      "Revelação",
+      "Selo",
+      "Sombra Traiçoeira",
+      "Sujeira",
+      "Travessia Fantasmagórica",
+      "Vento Nefasto",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Sala Mágica",
+      "Sofrimento Mútuo",
+      "Trapaça",
+      "Travessia Fantasmagórica",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Shuppet",
+        "to": "Banette",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

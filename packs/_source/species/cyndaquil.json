@@ -1,0 +1,163 @@
+{
+  "name": "Cyndaquil",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 155,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 6,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas"
+    ],
+    "altasHabilidades": [
+      "Flamejante"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Inferno"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Última Chama"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Erupção"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Ataque Rápido",
+      "Bombardeio de Chamas",
+      "Cobiça",
+      "Chute Duplo",
+      "Extrassensorial",
+      "Faca de Dois Gumes",
+      "Garra Esmagadora",
+      "Garras Furiosas",
+      "Poder da Natureza",
+      "Rajada de Chamas",
+      "Revelação",
+      "Reversão",
+      "Uivo"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Incêndio",
+      "Onda de Calor",
+      "Pilar de Chamas"
+    ],
+    "evolucoes": [
+      {
+        "from": "Quilava",
+        "to": "Typhlosion",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

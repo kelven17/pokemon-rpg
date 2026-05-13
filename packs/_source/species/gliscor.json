@@ -1,0 +1,156 @@
+{
+  "name": "Gliscor",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 472,
+    "types": {
+      "primary": "ground",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 10,
+      "def": 13,
+      "spa": 5,
+      "spd": 8,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Afundamento",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": null,
+      "voo": 10,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Hipercorte",
+      "Manto de Areia"
+    ],
+    "altasHabilidades": [
+      "Veneno Curador"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Sua Vez"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Gancho"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Guilhotina"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Ataque de Asa",
+      "Cauda Venenosa",
+      "Contra-Ataque",
+      "Cruzado Envenenado",
+      "Emboscada",
+      "Escalada",
+      "Faca de Dois Gumes",
+      "Finta",
+      "Lâmina de Vento",
+      "Metalizar Garra",
+      "Passar o Bastão",
+      "Transferência",
+      "Tumba de Areia"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Guilhotina",
+      "Injetar Veneno",
+      "Nocaute",
+      "Pedras Soltas",
+      "Picada",
+      "Poder Terreno",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Retalhar",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

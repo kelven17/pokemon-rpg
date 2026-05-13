@@ -1,0 +1,152 @@
+{
+  "name": "Houndoom",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 229,
+    "types": {
+      "primary": "dark",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 9,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 9,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Tensão"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Espancamento"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Presa de Fogo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Inferno"
+      }
+    ],
+    "golpesHerdados": [
+      "Castigo",
+      "Conspiração",
+      "Contra- Ataque",
+      "Espancamento",
+      "Espiral de Fogo",
+      "Finta",
+      "Fogo-Fátuo",
+      "Ódio",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa do Trovão",
+      "Raiva",
+      "Reversão",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Conspiração",
+      "Furto",
+      "Inferno",
+      "Interpretação",
+      "Ódio",
+      "Onda de Calor",
+      "Presa do Trovão",
+      "Superpresa",
+      "Trapaça",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Shroomish",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 285,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 4,
+      "def": 6,
+      "spa": 4,
+      "spd": 6,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Esporulação",
+      "Veneno Curador"
+    ],
+    "altasHabilidades": [
+      "Ligeiro"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Bomba de Sementes"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Esporos"
+      }
+    ],
+    "golpesHerdados": [
+      "Bomba de Sementes",
+      "Charme",
+      "Choro",
+      "Dádiva da Natureza",
+      "Despertador",
+      "Mão Amiga",
+      "Semente Bala",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Soco Focalizado"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Furto",
+      "Gigadreno",
+      "Mão Amiga",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Soco Focalizado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

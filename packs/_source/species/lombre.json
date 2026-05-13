@@ -1,0 +1,157 @@
+{
+  "name": "Lombre",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 271,
+    "types": {
+      "primary": "water",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 5,
+      "spa": 6,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 9,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Prato de Chuva",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Ritmo Próprio"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Fingimento"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Poder da Natureza"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Aromatizar",
+      "Cócegas",
+      "Contra- Ataque",
+      "Dança Caótica",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Gigadreno",
+      "Jato d’Água",
+      "Mangual",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Clamor",
+      "Dádiva da Natureza",
+      "Dança da Chuva",
+      "Esfera de Energia",
+      "Fotossíntese",
+      "Gigadreno",
+      "Megadreno",
+      "Neblina",
+      "Nocaute",
+      "Pulso d’Água",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Lotad",
+        "to": "Lombro",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Magearna",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 801,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 10,
+      "def": 12,
+      "spa": 13,
+      "spd": 12,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Aura",
+        "Magnetismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cor da Alma"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Explosão Sônica"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Tiro Espelhado"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Leitura Mental"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Canhão de Luz"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Canhão Feérico"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Elementalismo"
+      },
+      {
+        "level": 81,
+        "trigger": "level",
+        "move": "Esfera da Aura"
+      },
+      {
+        "level": 89,
+        "trigger": "level",
+        "move": "Troca de Corações"
+      },
+      {
+        "level": 97,
+        "trigger": "level",
+        "move": "Curinga"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sino da Cura",
+      "Sofrimento Mútuo",
+      "Sinalizador",
+      "Último Recurso. Magearna não aprende os Golpes Universais Descansar",
+      "Fachada",
+      "Sonambulismo e Toxicidade"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

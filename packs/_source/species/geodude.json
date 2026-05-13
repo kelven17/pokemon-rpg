@@ -1,0 +1,74 @@
+{
+  "name": "Geodude",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 74,
+    "types": {
+      "primary": "rock",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 8,
+      "def": 10,
+      "spa": 3,
+      "spd": 3,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Magnético Magnético"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia Galvanização"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Automação",
+      "Bloqueio",
+      "Defesa Aberta",
+      "Escalada",
+      "Maldição",
+      "Mangual",
+      "Resistência. Os Geodudes não Magnéticos adicionam os seguintes Golpes à lista: Braço Martelo",
+      "Megassoco",
+      "Soco Focalizado. Os Geodudes Magnéticos adicionam os seguintes Golpes à lista: Contra-Ataque",
+      "Guincho",
+      "Magnetização"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Defesa de Ferro",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 35,
+    "experiencia": 15
+  }
+}

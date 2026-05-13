@@ -1,0 +1,149 @@
+{
+  "name": "Morelull",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 755,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 6,
+      "spa": 7,
+      "spd": 8,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Esporulação",
+      "Iluminação"
+    ],
+    "altasHabilidades": [
+      "Prato de Chuva"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Clarão"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Luar"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Pó Sonífero"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Seiva"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Esporos"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Força Lunar"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Devorar Sonhos"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Holofotes"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Crescimento",
+      "Esporos Paralisantes",
+      "Pó Venenoso",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Depois de Você",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Reciclagem",
+      "Sala Mágica",
+      "Sala das Maravilhas",
+      "Semente Irritante",
+      "Sinalizador. Morellul não aprende o Golpe Universal Fachada"
+    ],
+    "evolucoes": [
+      {
+        "from": "Morellul",
+        "to": "Shiinotic",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Nincada",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 290,
+    "types": {
+      "primary": "bug",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 3,
+      "atk": 5,
+      "def": 9,
+      "spa": 3,
+      "spd": 3,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Escalada",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Olhos Compostos"
+    ],
+    "altasHabilidades": [
+      "Fuga"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Sanguessuga"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Leitura Mental"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cavar"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Emboscada",
+      "Picada",
+      "Resistência",
+      "Sacrifício",
+      "Ventania",
+      "Vento Prateado",
+      "Zumbido"
+    ],
+    "golpesEnsinaveis": [
+      "Gigadreno",
+      "Ódio",
+      "Picada"
+    ],
+    "evolucoes": [
+      {
+        "from": "Nincada",
+        "to": "Ninjask",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 35,
+    "experiencia": 10
+  }
+}

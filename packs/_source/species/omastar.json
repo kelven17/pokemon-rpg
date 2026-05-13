@@ -1,0 +1,149 @@
+{
+  "name": "Omastar",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 139,
+    "types": {
+      "primary": "rock",
+      "secondary": "water"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 13,
+      "spa": 12,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Adesão",
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 9,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 9
+    },
+    "habilidades": [
+      "Concha",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Canhão de Espinhos"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Canhão de Espinhos"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Detonação"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 75,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Adaptação",
+      "Água Barrenta",
+      "Espinhos",
+      "Espinhos Tóxicos",
+      "Nevoeiro",
+      "Nocaute",
+      "Paciência",
+      "Porrada",
+      "Pulso d’Água",
+      "Raio Aurora",
+      "Rajada de Bolhas",
+      "Redemoinho",
+      "Supersônico",
+      "Torção"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Nocaute",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Sufocamento",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

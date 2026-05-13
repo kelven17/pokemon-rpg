@@ -1,0 +1,160 @@
+{
+  "name": "Swablu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 333,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 4,
+      "def": 6,
+      "spa": 4,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Aclimatação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Canção"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Harmonia"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Espelho"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Maciez"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Réquiem"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Força Lunar"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Asa de Aço",
+      "Dança das Penas",
+      "Empoleirar",
+      "Investida do Dragão",
+      "Nevoeiro",
+      "Perseguição",
+      "Raiva",
+      "Troca de Forças",
+      "Vozeirão"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Vento",
+      "Clamor",
+      "Onda de Calor",
+      "Pulso do Dragão",
+      "Sino da Cura",
+      "Ultraje",
+      "Vento Cortante",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

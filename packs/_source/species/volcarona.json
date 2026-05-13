@@ -1,0 +1,145 @@
+{
+  "name": "Volcarona",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 637,
+    "types": {
+      "primary": "bug",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 6,
+      "def": 7,
+      "spa": 14,
+      "spd": 11,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão",
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Flamejante"
+    ],
+    "altasHabilidades": [
+      "Olhos Cromados"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Dança das Asas"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Vento Prateado"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Dança das Asas"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Onda de Calor"
+      },
+      {
+        "level": 70,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Pó Irritante"
+      },
+      {
+        "level": 90,
+        "trigger": "level",
+        "move": "Furacão"
+      },
+      {
+        "level": 100,
+        "trigger": "level",
+        "move": "Dança Ardente"
+      }
+    ],
+    "golpesHerdados": [
+      "Alvorada",
+      "Cabeçada Zen",
+      "Endurecer",
+      "Lançar Teia",
+      "Magnetização",
+      "Resistência",
+      "Revelação"
+    ],
+    "golpesEnsinaveis": [
+      "Açoite",
+      "Amnésia",
+      "Anel de Fogo",
+      "Ataque de Chamas",
+      "Bombardeio de Chamas",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Dança Ardente",
+      "Derrubada",
+      "Faca de Dois Gumes",
+      "Furacão",
+      "Gigadreno",
+      "Magnetização",
+      "Onda de Calor",
+      "Picada",
+      "Pó Irritante",
+      "Sinalizador",
+      "Vento Cortante",
+      "Zumbido"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

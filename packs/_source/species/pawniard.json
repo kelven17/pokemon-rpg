@@ -1,0 +1,165 @@
+{
+  "name": "Pawniard",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 624,
+    "types": {
+      "primary": "dark",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 9,
+      "def": 7,
+      "spa": 4,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Faro",
+        "Hierarquia",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Agonista",
+      "Foco Interior"
+    ],
+    "altasHabilidades": [
+      "Pressão"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Tormento"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Guilhotina"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeçada",
+      "Corte Psíquico",
+      "Olhar Paralisante",
+      "Pedras Soltas",
+      "Pelas Costas",
+      "Perseguição",
+      "Prevenção",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Furto",
+      "Interpretação",
+      "Magnetização",
+      "Nocaute",
+      "Ódio",
+      "Pancada Dupla",
+      "Pedras Soltas",
+      "Rasteira",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Pawniard",
+        "to": "Bisharp",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

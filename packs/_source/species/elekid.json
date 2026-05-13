@@ -1,0 +1,150 @@
+{
+  "name": "Elekid",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 239,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 8,
+      "def": 4,
+      "spa": 7,
+      "spd": 6,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 1,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática"
+    ],
+    "altasHabilidades": [
+      "Espírito Vigoroso"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Rasteira"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Soco do Trovão"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Relâmpago"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Braço Martelo",
+      "Chute Giratório",
+      "Cruzado",
+      "Finta",
+      "Golpe de Caratê",
+      "Meditação",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco Dinâmico",
+      "Soco Focalizado"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Pancada Dupla",
+      "Rasteira",
+      "Sinalizador",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

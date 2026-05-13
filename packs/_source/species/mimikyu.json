@@ -1,0 +1,146 @@
+{
+  "name": "Mimikyu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 778,
+    "types": {
+      "primary": "ghost",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 8,
+      "spa": 5,
+      "spd": 11,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Alcance",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Disfarce"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Saltitar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Mímica"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Garra Sombria"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Brincadeira"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      }
+    ],
+    "golpesHerdados": [
+      "Maldição",
+      "Pesadelo",
+      "Rancor",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Depois de Você",
+      "Furto",
+      "Gigadreno",
+      "Ódio",
+      "Martelo de Madeira",
+      "Sala Mágica",
+      "Soco de Drenagem",
+      "Sofrimento Mútuo",
+      "Telecinesia",
+      "Truque",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

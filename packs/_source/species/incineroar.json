@@ -1,0 +1,164 @@
+{
+  "name": "Incineroar",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 727,
+    "types": {
+      "primary": "fire",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 12,
+      "def": 9,
+      "spa": 8,
+      "spd": 9,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 5,
+      "salto": 4,
+      "outras": [
+        "Combustão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Intimidar"
+    ],
+    "altasHabilidades": [
+      "Visão Aguçada"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Tática Suja"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Presa de Fogo"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Ultraje"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Cruzado"
+      }
+    ],
+    "golpesHerdados": [
+      "Conspiração",
+      "Fingimento",
+      "Mastigada",
+      "Onda de Calor",
+      "Pancada",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Aumento de Massa",
+      "Cabeça de Ferro",
+      "Cobiça",
+      "Cólera",
+      "Esforço",
+      "Furto",
+      "Gravata",
+      "Incêndio",
+      "Nocaute",
+      "Onda de Calor",
+      "Pancada Dupla",
+      "Pilar de Chamas",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Superpoder",
+      "Ultraje"
+    ],
+    "evolucoes": [
+      {
+        "from": "Litten",
+        "to": "Torracat",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Makuhita",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 296,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 3,
+      "spa": 2,
+      "spd": 3,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Gordura",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Força Bruta"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Golpes de Braço"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Fingimento"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Repuxo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Ringue"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Tambor de Pança"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Estímulo"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Arremesso Sísmico"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Despertador"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Contra-Ataque",
+      "Cruzado",
+      "Defesa Aberta",
+      "Despertador",
+      "Detecção",
+      "Finta",
+      "Lapidação",
+      "Mão Amiga",
+      "Revelação",
+      "Soco Bala",
+      "Soco Dinâmico",
+      "Soco Focalizado",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nocaute",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Makuhita",
+        "to": "Hariyama",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

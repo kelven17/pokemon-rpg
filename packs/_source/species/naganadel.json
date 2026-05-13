@@ -1,0 +1,134 @@
+{
+  "name": "Naganadel",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 804,
+    "types": {
+      "primary": "poison",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 7,
+      "def": 7,
+      "spa": 13,
+      "spd": 7,
+      "spe": 12
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 5,
+      "salto": 3,
+      "outras": [
+        "- Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Vento Cortante"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Aguilhão"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Clamor",
+      "Cobiça",
+      "Concentração",
+      "Furto",
+      "Gravata",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Pulso do Dragão",
+      "Sinalizador",
+      "Sujeira",
+      "Trocar de Lugar",
+      "Vômito",
+      "Ultraje. Naganadel não aprende o Golpe Universal Confidência"
+    ],
+    "evolucoes": [
+      {
+        "from": "Poipole",
+        "to": "Naganadel",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 3.6
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

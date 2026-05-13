@@ -1,0 +1,156 @@
+{
+  "name": "Lickitung",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 108,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 6,
+      "def": 8,
+      "spa": 6,
+      "spd": 8,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Alcance"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Aclimatação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Porrada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Chicote"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Amnésia",
+      "Arroto",
+      "Braço Martelo",
+      "Cabeçada Zen",
+      "Estímulo",
+      "Maldição",
+      "Magnitude",
+      "Pancada",
+      "Ronco",
+      "Sonambulismo",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Nocaute",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 30,
+    "experiencia": 25
+  }
+}

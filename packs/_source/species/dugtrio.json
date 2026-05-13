@@ -1,0 +1,82 @@
+{
+  "name": "Dugtrio",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 51,
+    "types": {
+      "primary": "ground",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 8,
+      "def": 5,
+      "spa": 5,
+      "spd": 7,
+      "spe": 12
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": null,
+      "outras": [
+        "Afundamento",
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mineral Mineral"
+    ],
+    "altasHabilidades": [
+      "Arenoso Arenoso"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Cativar",
+      "Cauda- da",
+      "Charme",
+      "Desabilitar",
+      "Extrassensorial",
+      "Feitiço",
+      "Hipnose",
+      "Mangual",
+      "Ódio",
+      "Poder Secreto",
+      "Troca de Forças",
+      "Uivo. Os Dugtrio Não Minerais adicionam os seguintes Golpes à lista: Assustar",
+      "Bomba de Lama",
+      "Guincho",
+      "Ruído. Os Dugtrio Minerais adicionam Açoite à lista"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque Triplo",
+      "Cabeça de Ferro",
+      "Cólera",
+      "Defesa de Ferro",
+      "Emboscada",
+      "Fertilizante",
+      "Pedras Soltas",
+      "Poder Terreno. Os Dugtrio Minerais adicionam Elaborar à lista. Compor- Dugtrio não Dugtrio tamento Mineral Mineral Dieta Herbívoro Herbívoro Cavernas",
+      "Cavernas",
+      "Habitat Desertos e Montanhas e Pradarias Pradarias"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

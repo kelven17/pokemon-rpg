@@ -1,0 +1,187 @@
+{
+  "name": "Jiggypuff",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 39,
+    "types": {
+      "primary": "normal",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 12,
+      "atk": 5,
+      "def": 2,
+      "spa": 5,
+      "spd": 3,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Tumefação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 4,
+      "voo": 5,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Competição",
+      "Tentação"
+    ],
+    "altasHabilidades": [
+      "Companheirismo"
+    ],
+    "learnset": [
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Harmonia"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Despertador"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Girobola"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Mímica"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Campo Enevoado",
+      "Castigo",
+      "Cativar",
+      "Cobiça",
+      "Choro",
+      "Desejo",
+      "Gravidade",
+      "Presente",
+      "Pulso de Cura",
+      "Réquiem",
+      "Sonambulismo",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Beijo Doce",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Esforço",
+      "Furto",
+      "Gravidade",
+      "Imitação",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pular",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

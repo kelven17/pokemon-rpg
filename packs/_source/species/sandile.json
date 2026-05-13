@@ -1,0 +1,175 @@
+{
+  "name": "Sandile",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 551,
+    "types": {
+      "primary": "ground",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 4,
+      "spa": 4,
+      "spd": 4,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Arrogância",
+      "Intimidar"
+    ],
+    "altasHabilidades": [
+      "Frenesi"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Raiva"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Tormento"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tumba de Areia"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "Aproveitamento",
+      "Clamor",
+      "Contra-Ataque",
+      "Escalada",
+      "Espancamento",
+      "Faca de Dois Gumes",
+      "Focar Energia",
+      "Olhar Paralisante",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa do Trovão",
+      "Primeiro Eu"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Clamor",
+      "Furto",
+      "Ódio",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Sandile",
+        "to": "Krokorok",
+        "condition": "level",
+        "value": 25
+      },
+      {
+        "from": "Krokorok",
+        "to": "Krookodile",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

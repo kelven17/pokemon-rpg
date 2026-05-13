@@ -1,0 +1,113 @@
+{
+  "name": "Happiny",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 440,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 1,
+      "def": 1,
+      "spa": 2,
+      "spd": 7,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Graça Serena",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Companheirismo"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      }
+    ],
+    "golpesHerdados": [
+      "Aromaterapia",
+      "Arremesso Sísmico",
+      "Bomba de Lama",
+      "Contra-Ataque",
+      "Dádiva da Natureza",
+      "Gravidade",
+      "Mão Amiga",
+      "Metrônomo",
+      "Presente",
+      "Resistência",
+      "Sino da Cura",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Esforço",
+      "Gravidade",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 45,
+    "experiencia": 15
+  }
+}

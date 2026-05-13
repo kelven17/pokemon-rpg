@@ -1,0 +1,183 @@
+{
+  "name": "Audino",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 531,
+    "types": {
+      "primary": "normal",
+      "secondary": "normal"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 6,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cura",
+      "Regeneração"
+    ],
+    "altasHabilidades": [
+      "Desastrado"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Poder Secreto"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Amizade"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Pulso de Cura"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Depois de Você"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Simplificador"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Último Recurso"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Beijo Doce",
+      "Beijo Drenante",
+      "Bis",
+      "Bocejo",
+      "Cântico da Sorte",
+      "Desejo",
+      "Desejo de Cura",
+      "Oferenda",
+      "Sino da Cura",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Campo Enevoado",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Depois de Você",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nocaute",
+      "Rasteira",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

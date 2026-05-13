@@ -248,42 +248,67 @@ export class SpeciesData extends foundry.abstract.TypeDataModel {
           initial: null
         })
       }),
-      // Stats base da espécie (estilo Pokédex).
+      // Atributos Basais (Saúde, Ataque, Defesa, etc.) — valores 1-15 do livro.
       baseStats: new SchemaField({
-        hp:  new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 }),
-        atk: new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 }),
-        def: new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 }),
-        spa: new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 }),
-        spd: new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 }),
-        spe: new NumberField({ required: true, nullable: false, integer: true, initial: 50, min: 1 })
+        hp:  new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+        atk: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+        def: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+        spa: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+        spd: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+        spe: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 })
       }),
-      // Lista de UUIDs (ou slugs) de moves aprendidos por nível.
+      // Capacidades numéricas da espécie + outras nomeadas.
+      capacidades: new SchemaField({
+        forca:         new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        inteligencia:  new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        salto:         new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        outras:        new ArrayField(new StringField({ blank: false }), { initial: [] })
+      }),
+      // Deslocamentos da espécie (Terrestre, Voo, etc.) com valor em metros/rodada.
+      deslocamentos: new SchemaField({
+        terrestre:    new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        natacao:      new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        voo:          new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        escavacao:    new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 }),
+        subaquatico:  new NumberField({ required: true, nullable: true, integer: true, initial: null, min: 0 })
+      }),
+      // Habilidades comuns possíveis (nomes de Habilidades existentes no compendium).
+      habilidades: new ArrayField(new StringField({ blank: false }), { initial: [] }),
+      // Altas Habilidades (hidden abilities — desbloqueáveis no nível 40).
+      altasHabilidades: new ArrayField(new StringField({ blank: false }), { initial: [] }),
+      // Golpes Naturais — ordem por nível em que são aprendidos.
       learnset: new ArrayField(
         new SchemaField({
-          level: new NumberField({ required: true, integer: true, initial: 1, min: 0 }),
-          moveSlug: new StringField({ required: true, blank: false })
+          level:   new NumberField({ required: true, integer: true, initial: 1, min: 0 }),
+          trigger: new StringField({ required: true, initial: "level" }), // "level" ou "evolution"
+          move:    new StringField({ required: true, blank: false })
         }),
         { initial: [] }
       ),
-      // Habilidades possíveis dessa espécie.
-      possibleAbilities: new ArrayField(
-        new StringField({ blank: false }),
-        { initial: [] }
-      ),
-      // Capacidades naturais dessa espécie.
-      naturalCapacities: new ArrayField(
-        new StringField({ blank: false }),
-        { initial: [] }
-      ),
-      // Evolução
-      evolutions: new ArrayField(
+      // Golpes Herdados (procriação): nomes de golpes que podem ser aprendidos via herança.
+      golpesHerdados: new ArrayField(new StringField({ blank: false }), { initial: [] }),
+      // Golpes Ensináveis (TM/Tutor): nomes de golpes ensináveis por Tutor.
+      golpesEnsinaveis: new ArrayField(new StringField({ blank: false }), { initial: [] }),
+      // Evoluções — rules estruturadas.
+      evolucoes: new ArrayField(
         new SchemaField({
-          targetSlug: new StringField({ blank: false }),
-          condition: new StringField({ initial: "level" }),
-          value: new StringField({ initial: "" })
+          from:      new StringField({ blank: false }),    // nome da espécie de origem
+          to:        new StringField({ blank: false }),    // nome da espécie destino
+          condition: new StringField({ initial: "level" }),// level | item | trade | friendship | etc.
+          value:     new NumberField({ required: true, nullable: true, integer: true, initial: null })
         }),
         { initial: [] }
-      )
+      ),
+      // Tamanho da espécie.
+      tamanho: new SchemaField({
+        categoria: new StringField({ required: true, initial: "" }),
+        metros:    new NumberField({ required: true, nullable: true, initial: null })
+      }),
+      // Categoria de peso (Muito Leve, Leve, Médio, Pesado, Muito Pesado, Extremamente Pesado).
+      categoriaPeso:  new StringField({ required: true, initial: "" }),
+      // Chance de Captura (1-255) e Experiência por derrota — uso do Narrador.
+      chanceCaptura:  new NumberField({ required: true, nullable: true, integer: true, initial: null }),
+      experiencia:    new NumberField({ required: true, nullable: true, integer: true, initial: null })
     };
   }
 }

@@ -198,6 +198,10 @@
       "CapacitiesBundleVersion": {
         "Name": "Imported Capacities Bundle Version",
         "Hint": "Tracks which version of the capacities bundle has already been imported into the world-side compendium."
+      },
+      "SpeciesBundleVersion": {
+        "Name": "Imported Species Bundle Version",
+        "Hint": "Tracks which version of the species bundle has already been imported into the world-side compendium."
       }
     },
 

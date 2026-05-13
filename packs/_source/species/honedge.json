@@ -1,0 +1,146 @@
+{
+  "name": "Honedge",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 679,
+    "types": {
+      "primary": "ghost",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 8,
+      "def": 10,
+      "spa": 4,
+      "spd": 4,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 5,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Guarda Baixa"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Automação"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Golpe Aéreo"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Retaliação"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Transferência"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Espada Sagrada"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Aberta",
+      "Ruído",
+      "Sombra Traiçoeira",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Magnetização",
+      "Ódio",
+      "Onda de Choques"
+    ],
+    "evolucoes": [
+      {
+        "from": "Honedge",
+        "to": "Doublade",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

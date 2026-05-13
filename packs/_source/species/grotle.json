@@ -1,0 +1,151 @@
+{
+  "name": "Grotle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 388,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 9,
+      "def": 9,
+      "spa": 6,
+      "spd": 7,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Concha"
+    ],
+    "altasHabilidades": [
+      "Foco Interior"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Amnésia",
+      "Bomba de Sementes",
+      "Campo Gramado",
+      "Cócegas",
+      "Crescimento",
+      "Defesa Aberta",
+      "Engolir",
+      "Estocagem",
+      "Faca de Dois Gumes",
+      "Liberação",
+      "Pancada",
+      "Poder Terreno",
+      "Semente Irritante",
+      "Superpoder",
+      "Tumba de Areia"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pedras Soltas",
+      "Pilar de Folhas",
+      "Planta Mortal",
+      "Poder Terreno",
+      "Semente Irritante",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Turtwig",
+        "to": "Grotle",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Grotle",
+        "to": "Torterra",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

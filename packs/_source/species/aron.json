@@ -1,0 +1,178 @@
+{
+  "name": "Aron",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 304,
+    "types": {
+      "primary": "steel",
+      "secondary": "rock"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 10,
+      "spa": 4,
+      "spd": 4,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cabeça Dura",
+      "Robustez"
+    ],
+    "altasHabilidades": [
+      "Metal Pesado"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Tumba de Pedra"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Cauda de Ferro"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Automação"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Jorro Metálico"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeça de Ferro",
+      "Esforço",
+      "Estímulo",
+      "Guincho",
+      "Investida de Cabeça",
+      "Investida do Dragão",
+      "Maldição",
+      "Pancada",
+      "Pedras Soltas",
+      "Pisotear",
+      "Reversão",
+      "Superpoder"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Defesa de Ferro",
+      "Esforço",
+      "Magnetização",
+      "Ódio",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Lairon",
+        "to": "Aggron",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

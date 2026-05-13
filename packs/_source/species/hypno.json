@@ -1,0 +1,165 @@
+{
+  "name": "Hypno",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 97,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 7,
+      "def": 7,
+      "spa": 7,
+      "spd": 12,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 5,
+      "salto": 3,
+      "outras": [
+        "Ininteligível",
+        "Onirismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Insônia",
+      "Premonição"
+    ],
+    "altasHabilidades": [
+      "Foco Interior"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Gás Venenoso"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Meditação"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Elementalismo"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Previsão"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Auxílio",
+      "Barreira",
+      "Conspiração",
+      "Corte Psíquico",
+      "Interpretação",
+      "Poder Secreto",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Troca de Defesas",
+      "Troca de Habilidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Conspiração",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Pesadelo",
+      "Previsão",
+      "Rasteira",
+      "Reciclagem",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Trapaça",
+      "Troca",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

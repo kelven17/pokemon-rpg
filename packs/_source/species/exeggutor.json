@@ -1,0 +1,98 @@
+{
+  "name": "Exeggutor",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 103,
+    "types": {
+      "primary": "grass",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 5,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Temperado Tropical"
+    ],
+    "altasHabilidades": [
+      "Colheita"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Bloqueio",
+      "Campo Gramado",
+      "Cântico da Sorte",
+      "Dádiva da Natureza",
+      "Enraizar",
+      "Fotossíntese",
+      "Gigadreno",
+      "Luar",
+      "Maldição",
+      "Poder Antigo",
+      "Poder da Natureza",
+      "Tempestade de Folhas",
+      "Troca de Forças",
+      "Troca de Habilidades"
+    ],
+    "golpesEnsinaveis": [
+      "Barragem",
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Confusão",
+      "Cólera",
+      "Dádiva da Natureza",
+      "Esporos Paralisantes",
+      "Extrassensorial",
+      "Fotossíntese",
+      "Gigadreno",
+      "Gravidade",
+      "Hipnose",
+      "Nocaute",
+      "Oferenda",
+      "Pó Sonífero",
+      "Pó Venenoso",
+      "Pulso do Dragão",
+      "Raio Solar",
+      "Raiva",
+      "Rasteira",
+      "Refletor",
+      "Semente Bala",
+      "Semente Irritante",
+      "Superpoder",
+      "Troca de Habilidades",
+      "Ultraje. Os Exeggutor Tropicais adicionam Meteoro do Dragão à lista. Compor- Exeggutor Exeggutor tamento Temperado Tropical Dieta Fotossintetizante Fotossintetizante Habitat Florestas e Pradarias Praias e Selvas"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 2.0
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

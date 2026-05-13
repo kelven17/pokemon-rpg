@@ -1,0 +1,118 @@
+{
+  "name": "Seedot",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 273,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 5,
+      "spa": 3,
+      "spd": 3,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 4,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila",
+      "Madrugar"
+    ],
+    "altasHabilidades": [
+      "Gatuno"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Poder da Natureza"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Explosão"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Ataque Rápido",
+      "Campo Gramado",
+      "Conspiração",
+      "Derrubada",
+      "Desanuviar",
+      "Espancamento",
+      "Lâmina de Vento",
+      "Semente Bala",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Trapaça",
+      "Troca de Forças"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Ódio",
+      "Semente Irritante",
+      "Trapaça"
+    ],
+    "evolucoes": [
+      {
+        "from": "Seedot",
+        "to": "Nuzleaf",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

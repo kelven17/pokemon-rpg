@@ -1,0 +1,129 @@
+{
+  "name": "Phione",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 489,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 8,
+      "spa": 8,
+      "spd": 8,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Amorfia",
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Hidratação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Armadura Ácida"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Mergulho"
+      },
+      {
+        "level": 69,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Cobiça",
+      "Mão Amiga",
+      "Nocaute",
+      "Pular",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sino da Cura",
+      "Último Recurso",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Phione",
+        "to": "Manaphy",
+        "condition": "level",
+        "value": 50
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

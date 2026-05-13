@@ -1,0 +1,173 @@
+{
+  "name": "Rhyperior",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 464,
+    "types": {
+      "primary": "ground",
+      "secondary": "rock"
+    },
+    "baseStats": {
+      "hp": 12,
+      "atk": 14,
+      "def": 13,
+      "spa": 6,
+      "spd": 6,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cabeça Dura",
+      "Pararraios"
+    ],
+    "altasHabilidades": [
+      "Imprudência",
+      "Solidez"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Destruição"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Detonação"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Perfuração"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Obelisco"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Megachifre"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Chifre Broca"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Demolição"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Ferro",
+      "Compartilhar Defesas",
+      "Contra-Ataque",
+      "Escalada",
+      "Fertilizante",
+      "Garra Esmagadora",
+      "Investida do Dragão",
+      "Jorro Metálico",
+      "Magnitude",
+      "Maldição",
+      "Mastigada",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Quebra Crânio",
+      "Reversão"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Braço Martelo",
+      "Cabeça de Ferro",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Chifre Broca",
+      "Clamor",
+      "Demolição",
+      "Esforço",
+      "Injetar Veneno",
+      "Ódio",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Perfuração",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Ultraje",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.4
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

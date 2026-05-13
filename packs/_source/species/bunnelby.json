@@ -1,0 +1,154 @@
+{
+  "name": "Bunnelby",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 659,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 4,
+      "def": 4,
+      "spa": 3,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": 5,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bochechudo",
+      "Catagem"
+    ],
+    "altasHabilidades": [
+      "Força Gigantesca"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Chute Duplo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Fachada"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Terremoto"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Fechada",
+      "Espinhos",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Esforço",
+      "Pular",
+      "Reciclagem",
+      "Superpresa",
+      "Último Recurso"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bunnelby",
+        "to": "Diggersby",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

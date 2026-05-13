@@ -1,0 +1,145 @@
+{
+  "name": "Gloom",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 44,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 7,
+      "spa": 9,
+      "spd": 8,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Rebento",
+        "Sedução"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Fedor"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Pó Sonífero"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Luar"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Campo Gramado"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      }
+    ],
+    "golpesHerdados": [
+      "Charme",
+      "Cócegas",
+      "Dança Caótica",
+      "Depois de Você",
+      "Enraizar",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Mangual",
+      "Poder da Natureza",
+      "Poder Secreto"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Depois de Você",
+      "Fotossíntese",
+      "Gigadreno",
+      "Luar",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

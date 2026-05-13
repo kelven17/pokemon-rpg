@@ -1,0 +1,163 @@
+{
+  "name": "Vanillite",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 582,
+    "types": {
+      "primary": "ice",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 5,
+      "spa": 7,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Congelação",
+        "Frio",
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Friorento",
+      "Manto de Neve"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lanças de Gelo"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Avalanche"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Tiro Espelhado"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Armadura Ácida"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Raio de Gelo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Escudo Espelho"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Zero Absoluto"
+      }
+    ],
+    "golpesHerdados": [
+      "Automação",
+      "Dádiva da Natureza",
+      "Defesa de Ferro",
+      "Estilhaços de Gelo",
+      "Geada",
+      "Magnetização",
+      "Pulso d’Água",
+      "Selo"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Manto Mágico",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Vanillite",
+        "to": "Vanillish",
+        "condition": "level",
+        "value": 35
+      },
+      {
+        "from": "Vanillish",
+        "to": "Vanilluxe",
+        "condition": "level",
+        "value": 45
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Excadrill",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 530,
+    "types": {
+      "primary": "ground",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 14,
+      "def": 6,
+      "spa": 5,
+      "spd": 7,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": 12,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Arenoso",
+      "Velocidade na Areia"
+    ],
+    "altasHabilidades": [
+      "Quebra Moldes"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Chifre Broca"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Chifre Broca"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Perfuração"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Fissura"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa de Ferro",
+      "Escalada",
+      "Garra Esmagadora",
+      "Giro Rápido",
+      "Poder Terreno",
+      "Quebra Crânio",
+      "Ruído",
+      "Submissão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Fertilizante",
+      "Magnetização",
+      "Pedras Soltas",
+      "Perfuração",
+      "Poder Terreno"
+    ],
+    "evolucoes": [
+      {
+        "from": "Drilbur",
+        "to": "Excadrill",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "name": "Nihilego",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 793,
+    "types": {
+      "primary": "rock",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 5,
+      "def": 5,
+      "spa": 13,
+      "spd": 13,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "- Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Enlaçar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Fumaça"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Escudo Espelho"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Bomba Ácida"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Pedras Soltas"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Sala das Maravilhas"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Investida de Cabeça"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Compartilhar Defesas",
+      "Compartilhar Forças",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Pedras Soltas",
+      "Sala das Maravilhas",
+      "Semente Irritante",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Sujeira",
+      "Telecinesia",
+      "Trapaça",
+      "Trocar de Lugar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

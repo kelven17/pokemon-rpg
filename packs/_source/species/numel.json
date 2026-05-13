@@ -1,0 +1,153 @@
+{
+  "name": "Numel",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 322,
+    "types": {
+      "primary": "fire",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 4,
+      "spa": 7,
+      "spd": 5,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mediocridade",
+      "Obtusidade"
+    ],
+    "altasHabilidades": [
+      "Ritmo Próprio"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Magnitude"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Bomba de Lama",
+      "Cabeça de Ferro",
+      "Careta",
+      "Crescimento",
+      "Defesa Fechada",
+      "Engolir",
+      "Estocagem",
+      "Liberação",
+      "Onda de Calor",
+      "Pancada",
+      "Pisotear",
+      "Poder Antigo",
+      "Resistência",
+      "Rolagem",
+      "Uivo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Depois de Você",
+      "Onda de Calor",
+      "Pedras Soltas",
+      "Poder Terreno"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

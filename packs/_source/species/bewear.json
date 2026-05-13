@@ -1,0 +1,144 @@
+{
+  "name": "Bewear",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 760,
+    "types": {
+      "primary": "normal",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 12,
+      "atk": 13,
+      "def": 8,
+      "spa": 6,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Desastrado",
+      "Maciez"
+    ],
+    "altasHabilidades": [
+      "Tensão"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Brutalidade"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Superpoder"
+      }
+    ],
+    "golpesHerdados": [
+      "Cólera",
+      "Defesa Aberta",
+      "Megachute",
+      "Repuxo",
+      "Resistência",
+      "Soco de Gelo",
+      "Soco do Trovão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cólera",
+      "Interpretação",
+      "Pancada Dupla",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Stufful",
+        "to": "Bewear",
+        "condition": "level",
+        "value": 25
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.1
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

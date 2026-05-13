@@ -1,0 +1,143 @@
+{
+  "name": "Venonat",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 48,
+    "types": {
+      "primary": "bug",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 5,
+      "spa": 4,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Olhos Compostos",
+      "Olhos Cromados"
+    ],
+    "altasHabilidades": [
+      "Fuga"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Sanguessuga"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pó Sonífero"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Sinalizador"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Presa Venenosa"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Paranormal"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Alvorada",
+      "Espinhos Tóxicos",
+      "Gigadreno",
+      "Guincho",
+      "Passar o Bastão",
+      "Picada",
+      "Pó Irritante",
+      "Poder Secreto",
+      "Sinalizador",
+      "Troca de Habilidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Gigadreno",
+      "Picada",
+      "Sinalizador",
+      "Troca de Habilidades"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

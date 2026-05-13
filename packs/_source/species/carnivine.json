@@ -1,0 +1,143 @@
+{
+  "name": "Carnivine",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 455,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 10,
+      "def": 7,
+      "spa": 9,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Chicote de Vinha"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Tornado de Folhas"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Torção"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Chicote"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Esporos Paralisantes",
+      "Folha Navalha",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pó Irritante",
+      "Pó Sonífero",
+      "Porrada",
+      "Semente Irritante",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Nocaute",
+      "Picada",
+      "Semente Irritante",
+      "Sufocamento",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

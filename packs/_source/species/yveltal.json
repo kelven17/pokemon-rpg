@@ -1,0 +1,155 @@
+{
+  "name": "Yveltal",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 717,
+    "types": {
+      "primary": "dark",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 13,
+      "atk": 13,
+      "def": 10,
+      "spa": 13,
+      "spd": 10,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 6,
+      "salto": 3,
+      "outras": [
+        "Aura",
+        "Telepatia Lendárias Controle Vital"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 8,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Aura de Trevas"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Furacão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lâmina de Vento"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Vociferação"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Esquecimento"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Pulso Sombrio"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Travessia Fantasmagórica"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Investida do Dragão"
+      },
+      {
+        "level": 72,
+        "trigger": "level",
+        "move": "Carga Focada"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 88,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      },
+      {
+        "level": 93,
+        "trigger": "level",
+        "move": "Ataque do Céu"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Nocaute",
+      "Onda de Calor",
+      "Trapaça",
+      "Vento Cortante",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 5.8
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

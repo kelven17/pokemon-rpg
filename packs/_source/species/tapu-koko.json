@@ -1,0 +1,141 @@
+{
+  "name": "Tapu Koko",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 785,
+    "types": {
+      "primary": "electric",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 12,
+      "def": 9,
+      "spa": 10,
+      "spd": 8,
+      "spe": 13
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 5,
+      "salto": 5,
+      "outras": [
+        "Aura",
+        "Eletricidade Lendárias Região Sagrada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletrogênese"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Carga Selvagem"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Espelho"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Ira da Natureza"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cabeça de Ferro",
+      "Campo Elétrico",
+      "Defesa de Ferro",
+      "Desanuviar",
+      "Fúria dos Pássaros",
+      "Olhar Paralisante",
+      "Onda de Choques",
+      "Soco do Trovão",
+      "Teia Elétrica",
+      "Telecinesia",
+      "Troca de Forças",
+      "Vozeirão. Tapu Koko não aprende o Golpe Universal Descansar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

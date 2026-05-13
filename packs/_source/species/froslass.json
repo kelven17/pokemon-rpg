@@ -1,0 +1,152 @@
+{
+  "name": "Froslass",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 478,
+    "types": {
+      "primary": "ice",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 7,
+      "spa": 8,
+      "spd": 7,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Congelação",
+        "Frio",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Foco Interior",
+      "Friorento"
+    ],
+    "altasHabilidades": [
+      "Anátema",
+      "Manto de Neve"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Vento Nefasto"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Fogo-Fátuo"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Despertador"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Granizo"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Vínculo do Destino"
+      }
+    ],
+    "golpesHerdados": [
+      "Avalanche",
+      "Bloqueio",
+      "Choro",
+      "Desabilitar",
+      "Esfera Climática",
+      "Espinhos",
+      "Feitiço",
+      "Paciência",
+      "Rolagem",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada",
+      "Furto",
+      "Mastigada",
+      "Mordida",
+      "Ódio",
+      "Onda de Choques",
+      "Presa de Gelo",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Soco de Gelo",
+      "Sofrimento Mútuo",
+      "Sopro de Gelo",
+      "Truque",
+      "Vínculo do Destino",
+      "Vento Gelado",
+      "Zero Absoluto"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

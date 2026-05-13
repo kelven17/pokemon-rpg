@@ -1,0 +1,95 @@
+{
+  "name": "Aegislash",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 681,
+    "types": {
+      "primary": "ghost",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 15,
+      "spa": 5,
+      "spd": 15,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Obrigatoriedade (Posturas)"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Guarda Baixa"
+    ],
+    "altasHabilidades": [
+      "Posturas"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Escudo Real"
+      },
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Espada Sagrada"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Aberta",
+      "Ruído",
+      "Sombra Traiçoeira",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Automação",
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Corte Furioso",
+      "Dança das Espadas",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Emboscada",
+      "Golpe Aéreo",
+      "Investida de Cabeça",
+      "Magnetização",
+      "Ódio",
+      "Onda de Choques",
+      "Perseguição",
+      "Retalhar",
+      "Sombra Traiçoeira",
+      "Transferência"
+    ],
+    "evolucoes": [
+      {
+        "from": "Honedge",
+        "to": "Doublade",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

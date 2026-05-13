@@ -1,0 +1,154 @@
+{
+  "name": "Avalugg",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 713,
+    "types": {
+      "primary": "ice",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 12,
+      "def": 18,
+      "spa": 4,
+      "spd": 5,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 8,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Congelação",
+        "Frio",
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Friorento",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Robustez"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Pancada"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Geada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Quinas Pontudas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Presa de Gelo"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Anel de Gelo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Avalanche"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Quebra Crânio"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Mastigada"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Escudo Espelho",
+      "Neblina",
+      "Recuperação"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Mastigada",
+      "Pulso d’Água",
+      "Quebra Crânio",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bergmite",
+        "to": "Avalugg",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Cosmoem",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 790,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 3,
+      "def": 13,
+      "spa": 3,
+      "spd": 13,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Afundamento Lendárias Viagem Infinita"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": null,
+      "voo": 4,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Desatenção"
+    ],
+    "altasHabilidades": [
+      "Robustez"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Poder Cósmico"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Teletransporte"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cosmoem não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Cosmog",
+        "to": "Cosmoem",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.1
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

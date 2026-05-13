@@ -1,0 +1,86 @@
+{
+  "name": "Scatterbug",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 665,
+    "types": {
+      "primary": "bug",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 2,
+      "def": 6,
+      "spa": 3,
+      "spd": 3,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Adesão",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Olhos Compostos",
+      "Polvilhar"
+    ],
+    "altasHabilidades": [
+      "Companheirismo",
+      "Troca de Pele"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Proteção"
+      }
+    ],
+    "golpesHerdados": [
+      "Esporos Paralisantes",
+      "Pó Irritante",
+      "Pó Venenoso"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Investida",
+      "Lançar Teia",
+      "Picada",
+      "Teia Elétrica. Salvo por Proteção",
+      "Spewpa não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Scatterbug",
+        "to": "Spewpa",
+        "condition": "level",
+        "value": 5
+      },
+      {
+        "from": "Spewpa",
+        "to": "Vivillon",
+        "condition": "level",
+        "value": 10
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

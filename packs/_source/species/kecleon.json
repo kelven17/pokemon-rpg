@@ -1,0 +1,184 @@
+{
+  "name": "Kecleon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 352,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 7,
+      "spa": 6,
+      "spd": 12,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Camuflagem",
+        "Escalada",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Coloração"
+    ],
+    "altasHabilidades": [
+      "Metamorfose"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Camuflagem"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Garra Sombria"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Substituição"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Elementalismo"
+      }
+    ],
+    "golpesHerdados": [
+      "Camuflagem",
+      "Conspiração",
+      "Desabilitar",
+      "Fingimento",
+      "Furto",
+      "Manto Mágico",
+      "Recuperação",
+      "Soco Estonteante",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Depois de Você",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pulso d’Água",
+      "Rasteira",
+      "Reciclagem",
+      "Roubo",
+      "Sala das Maravilhas",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque",
+      "Último Recurso",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

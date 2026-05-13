@@ -1,0 +1,168 @@
+{
+  "name": "Pignite",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 499,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 9,
+      "def": 6,
+      "spa": 7,
+      "spd": 6,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Calor",
+        "Combustão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Gordura"
+    ],
+    "altasHabilidades": [
+      "Isolamento Térmico"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Golpes de Braço"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Golpes de Braço"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Colisão Quente"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Investida de Cabeça"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Bocejo",
+      "Cobiça",
+      "Esforço",
+      "Maldição",
+      "Pancada",
+      "Pelas Costas",
+      "Peso Pesado",
+      "Magnitude",
+      "Sonambulismo",
+      "Superpoder"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Esforço",
+      "Incêndio",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Pilar de Chamas",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Tepig",
+        "to": "Pignite",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

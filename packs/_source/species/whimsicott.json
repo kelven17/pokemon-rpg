@@ -1,0 +1,117 @@
+{
+  "name": "Whimsicott",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 547,
+    "types": {
+      "primary": "grass",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 9,
+      "spa": 8,
+      "spd": 8,
+      "spe": 12
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 6,
+      "outras": [
+        "Encolhimento",
+        "Rebento",
+        "Tumefação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Infiltrador",
+      "Travessura"
+    ],
+    "altasHabilidades": [
+      "Clorofila"
+    ],
+    "learnset": [
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Furacão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Força Lunar"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Bis",
+      "Cativar",
+      "Choro",
+      "Cócegas",
+      "Dádiva da Natureza",
+      "Espancamento",
+      "Lembrança",
+      "Semente Irritante",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Absorção",
+      "Bomba de Sementes",
+      "Cauda de Vento",
+      "Charme",
+      "Cobiça",
+      "Dia de Sol",
+      "Esfera de Energia",
+      "Esforço",
+      "Esporos de Algodão",
+      "Esporos Paralisantes",
+      "Folha Navalha",
+      "Gigadreno",
+      "Maciez",
+      "Mão Amiga",
+      "Megadreno",
+      "Nocaute",
+      "Pó Venenoso",
+      "Raio Solar",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Vento Encantado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Cottonee",
+        "to": "Whimsicott",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

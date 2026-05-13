@@ -1,0 +1,122 @@
+{
+  "name": "Mew",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 151,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 10,
+      "def": 10,
+      "spa": 10,
+      "spd": 10,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 7,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Telecinesia",
+        "Telepatia Lendárias Invulnerabilidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 10,
+      "voo": 14,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Sincronizar"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Adaptação"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Transformação"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Megassoco"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Metrônomo"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Barreira"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 70,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      },
+      {
+        "level": 80,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 90,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 100,
+        "trigger": "level",
+        "move": "Esfera da Aura"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Mew pode aprender todos os Golpes"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

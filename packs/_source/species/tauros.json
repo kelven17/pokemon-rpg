@@ -1,0 +1,141 @@
+{
+  "name": "Tauros",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 128,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 10,
+      "def": 10,
+      "spa": 4,
+      "spd": 7,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Família",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Frenesi",
+      "Intimidar"
+    ],
+    "altasHabilidades": [
+      "Força Bruta"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Raiva"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Chifrada"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Descansar"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Elaborar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Esforço",
+      "Interpretação",
+      "Mão Amiga",
+      "Ódio",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Ultraje",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 35
+  }
+}

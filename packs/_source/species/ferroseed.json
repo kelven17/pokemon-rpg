@@ -1,0 +1,156 @@
+{
+  "name": "Ferroseed",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 597,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 5,
+      "def": 9,
+      "spa": 2,
+      "spd": 9,
+      "spe": 1
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Espículas Metálicas"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Agulhas"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Girobola"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Tiro Espelhado"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Autodestruição"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Canhão de Luz"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Explosão"
+      }
+    ],
+    "golpesHerdados": [
+      "Bomba Ácida",
+      "Bomba de Sementes",
+      "Escalada",
+      "Espinhos",
+      "Gravidade",
+      "Pedras Soltas",
+      "Semente Bala",
+      "Semente Irritante",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Esforço",
+      "Gigadreno",
+      "Gravidade",
+      "Magnetização",
+      "Nocaute",
+      "Pedras Soltas",
+      "Semente Irritante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Ferrossed",
+        "to": "Ferrothorn",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

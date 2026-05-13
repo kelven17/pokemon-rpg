@@ -1,0 +1,95 @@
+{
+  "name": "Roserade",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 407,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 7,
+      "spa": 13,
+      "spd": 11,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento",
+        "Sedução"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Espículas Venenosas",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Proteção Vegetal",
+      "Técnica"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Agulhas",
+      "Apito de Folha",
+      "Bomba de Sementes",
+      "Dádiva da Natureza",
+      "Espinhos",
+      "Esporos de Algodão",
+      "Extrassensorial",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Gigadreno",
+      "Leitura Mental",
+      "Pó Sonífero",
+      "Semente Bala",
+      "Tempestade de Folhas"
+    ],
+    "golpesEnsinaveis": [
+      "Absorção",
+      "Apito de Folha",
+      "Aromaterapia",
+      "Aromatizar",
+      "Bomba de Sementes",
+      "Cobiça",
+      "Campo Gramado",
+      "Clamor",
+      "Dança das Pétalas",
+      "Enraizar",
+      "Esfera Climática",
+      "Espinhos Tóxicos",
+      "Esporos Paralisantes",
+      "Esporte Aquático",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Gigadreno",
+      "Intensificar Veneno",
+      "Megadreno",
+      "Picada Venenosa",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Tempestade de Pétalas"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

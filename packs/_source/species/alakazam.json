@@ -1,0 +1,169 @@
+{
+  "name": "Alakazam",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 65,
+    "types": {
+      "primary": "psychic",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 10,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 7,
+      "salto": 2,
+      "outras": [
+        "Aura",
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Proteção Mágica"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Cinese"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Milagre"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Corte Psíquico"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Telecinesia"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Trocar de Lugar"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Interpretação"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Truque"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Bis",
+      "Compartilhar Defesas",
+      "Nocaute",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Transferência",
+      "Transmissibilidade",
+      "Troca de Defesas",
+      "Troca de Habilidades",
+      "Trocar de Lugar"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Cauda de Ferro",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Manto Mágico",
+      "Nocaute",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Kadabra",
+        "to": "Alakazam",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

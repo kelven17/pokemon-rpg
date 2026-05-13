@@ -1,0 +1,120 @@
+{
+  "name": "Clefable",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 36,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 7,
+      "def": 7,
+      "spa": 10,
+      "spd": 9,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Proteção Mágica",
+      "Tentação"
+    ],
+    "altasHabilidades": [
+      "Desatenção"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Amnésia",
+      "Aromaterapia",
+      "Campo Enevoado",
+      "Cobiça",
+      "Choro",
+      "Cócegas",
+      "Desejo",
+      "Metrônomo",
+      "Mímica",
+      "Presente",
+      "Pulso de Cura",
+      "Reserva",
+      "Saltitar",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Beijo Doce",
+      "Bis",
+      "Cabeçada Zen",
+      "Canção",
+      "Cântico da Sorte",
+      "Cauda de Ferro",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Depois de Você",
+      "Desejo de Cura",
+      "Despertador",
+      "Esforço",
+      "Força Lunar",
+      "Folhas Mágicas",
+      "Furto",
+      "Gravidade",
+      "Holofotes",
+      "Imitação",
+      "Interpretação",
+      "Isca",
+      "Luar",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Meteoro",
+      "Metrônomo",
+      "Minimizar",
+      "Nocaute",
+      "Oferenda",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Poder Cósmico",
+      "Pular",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Reserva",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Tapa",
+      "Truque",
+      "Último Recurso",
+      "Vento Gelado",
+      "Voz Encantadora",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

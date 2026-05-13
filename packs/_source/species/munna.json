@@ -1,0 +1,166 @@
+{
+  "name": "Munna",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 517,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 3,
+      "def": 5,
+      "spa": 7,
+      "spd": 6,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Onirismo",
+        "Telecinesia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Premonição",
+      "Sincronizar"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Luar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Elementalismo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pesadelo"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Devorar Sonhos"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Telecinesia"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Reserva"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Desejo de Cura",
+      "Estrela Cadente",
+      "Explosão Sônica",
+      "Maldição",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Passar o Bastão",
+      "Poder Secreto",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Depois de Você",
+      "Gravidade",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sala das Maravilhas",
+      "Semente Irritante",
+      "Sinalizador",
+      "Sino da Cura",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

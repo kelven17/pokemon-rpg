@@ -1,0 +1,177 @@
+{
+  "name": "Mime Jr.",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 439,
+    "types": {
+      "primary": "psychic",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 2,
+      "atk": 3,
+      "def": 5,
+      "spa": 7,
+      "spd": 9,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Família"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cacofonia",
+      "Filtro"
+    ],
+    "altasHabilidades": [
+      "Técnica"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Barreira"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Meditação"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Mímica"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Substituição"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Reciclagem"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Truque"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Interpretação"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      }
+    ],
+    "golpesHerdados": [
+      "Charme",
+      "Compartilhar Forças",
+      "Conspiração",
+      "Dança Caótica",
+      "Desejo de Cura",
+      "Despertador",
+      "Fingimento",
+      "Hipnose",
+      "Mímica",
+      "Previsão",
+      "Raio de Confusão",
+      "Sala Mágica",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 35,
+    "experiencia": 10
+  }
+}

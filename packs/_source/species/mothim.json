@@ -1,0 +1,135 @@
+{
+  "name": "Mothim",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 414,
+    "types": {
+      "primary": "bug",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 5,
+      "spa": 9,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Olhos Compostos",
+      "Olhos Cromados"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Dança das Asas"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Poder Oculto"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Camuflagem"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Vento Prateado"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Estocada"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Zumbido"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Gigadreno",
+      "Picada",
+      "Sinalizador",
+      "Teia Elétrica",
+      "Troca de Habilidades",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

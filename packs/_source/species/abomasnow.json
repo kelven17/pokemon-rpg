@@ -1,0 +1,138 @@
+{
+  "name": "Abomasnow",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 460,
+    "types": {
+      "primary": "grass",
+      "secondary": "ice"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Congelação",
+        "Frio",
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Cacofonia Neve"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Apito de Folha"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Martelo de Madeira"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Zero Absoluto"
+      }
+    ],
+    "golpesHerdados": [
+      "Avalanche",
+      "Bomba de Sementes",
+      "Crescimento",
+      "Dádiva da Natureza",
+      "Faca de Dois Gumes",
+      "Folhas Mágicas",
+      "Neblina",
+      "Pisotear",
+      "Quebra Crânio",
+      "Semente Bala",
+      "Semente Sanguessuga"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Fotossíntese",
+      "Gigadreno",
+      "Interpretação",
+      "Pulso d’Água",
+      "Semente Irritante",
+      "Soco de Gelo",
+      "Soco Focalizado",
+      "Ultraje",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Snover",
+        "to": "Abomasnow",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.2
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

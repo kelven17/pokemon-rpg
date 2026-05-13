@@ -1,0 +1,180 @@
+{
+  "name": "Heatmor",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 631,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 10,
+      "def": 7,
+      "spa": 11,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão",
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 4,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas",
+      "Gula"
+    ],
+    "altasHabilidades": [
+      "Fumaça"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Incinerar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Furto"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Açoite Flamejante"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Bombardeio de Chamas"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Inferno"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Ataque Furtivo",
+      "Cócegas",
+      "Constrição",
+      "Emboscada",
+      "Maldição",
+      "Onda de Calor",
+      "Pancada",
+      "Pelas Costas",
+      "Perseguição",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Afiar",
+      "Furto",
+      "Gigadreno",
+      "Nocaute",
+      "Onda de Calor",
+      "Picada",
+      "Rasteira",
+      "Reciclagem",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Superpoder",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

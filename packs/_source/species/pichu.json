@@ -1,0 +1,119 @@
+{
+  "name": "Pichu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 172,
+    "types": {
+      "primary": "electric",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 2,
+      "atk": 4,
+      "def": 2,
+      "spa": 4,
+      "spd": 4,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática"
+    ],
+    "altasHabilidades": [
+      "Pararraios"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Campo Elétrico",
+      "Cântico da Sorte",
+      "Carga",
+      "Cócegas",
+      "Desejo",
+      "Fingimento",
+      "Investida Trovão",
+      "Mangual",
+      "Oferenda",
+      "Paciência",
+      "Presente",
+      "Resistência",
+      "Reversão",
+      "Soco do Trovão",
+      "Tapa Duplo",
+      "Voz Encantadora"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Magnetização",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [
+      {
+        "from": "Pichu",
+        "to": "Pikachu",
+        "condition": "level",
+        "value": 10
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 50,
+    "experiencia": 5
+  }
+}

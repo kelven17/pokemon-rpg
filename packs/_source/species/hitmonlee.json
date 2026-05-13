@@ -1,0 +1,165 @@
+{
+  "name": "Hitmonlee",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 106,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 12,
+      "def": 5,
+      "spa": 4,
+      "spd": 11,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 6,
+      "outras": [
+        "Alcance",
+        "Aura"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Inabalável",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Leveza",
+      "Imprudência"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Chute Duplo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Meditação"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Chute Giratório"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Voadora"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Quebra Telha"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Supervoadora"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Leitura Mental"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Defesa Aberta"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Chute Flamejante"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Megachute"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Reversão"
+      }
+    ],
+    "golpesHerdados": [
+      "Contra-Ataque",
+      "Finta",
+      "Giro Rápido",
+      "Leitura Mental",
+      "Mão Amiga",
+      "Onda de Vácuo",
+      "Perseguição",
+      "Resistência",
+      "Soco Bala",
+      "Soco Rápido",
+      "Supervoadora"
+    ],
+    "golpesEnsinaveis": [
+      "Chute Giratório",
+      "Cobiça",
+      "Corpo a Corpo",
+      "Interpretação",
+      "Mão Amiga",
+      "Meditação",
+      "Megachute",
+      "Nocaute",
+      "Pular",
+      "Rasteira",
+      "Reversão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Vingança",
+      "Voadora"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

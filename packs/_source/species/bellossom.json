@@ -1,0 +1,114 @@
+{
+  "name": "Bellossom",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 182,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 10,
+      "spa": 9,
+      "spd": 10,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Cura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Dança das Asas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 69,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Charme",
+      "Cócegas",
+      "Dança Caótica",
+      "Depois de Você",
+      "Enraizar",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Mangual",
+      "Poder da Natureza",
+      "Poder Secreto"
+    ],
+    "golpesEnsinaveis": [
+      "Absorção",
+      "Ácido",
+      "Aromaterapia",
+      "Aromatizar",
+      "Bomba de Sementes",
+      "Campo Gramado",
+      "Cântico da Sorte",
+      "Clamor",
+      "Crescimento",
+      "Dádiva da Natureza",
+      "Depois de Você",
+      "Dia de Sol",
+      "Esporos Paralisantes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Lâmina Vegetal",
+      "Luar",
+      "Pó Sonífero",
+      "Pó Venenoso",
+      "Semente Irritante",
+      "Soco de Drenagem",
+      "Tempestade de Folhas",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

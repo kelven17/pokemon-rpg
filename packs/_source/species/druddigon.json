@@ -1,0 +1,162 @@
+{
+  "name": "Druddigon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 621,
+    "types": {
+      "primary": "dragon",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 12,
+      "def": 9,
+      "spa": 6,
+      "spd": 9,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Aspereza",
+      "Força Bruta"
+    ],
+    "altasHabilidades": [
+      "Quebra Moldes"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Garra do Dragão"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Cauda do Dragão"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Escalada"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Ultraje"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Cauda de Ferro",
+      "Cauda Venenosa",
+      "Furto",
+      "Garra Esmagadora",
+      "Metalizar Garra",
+      "Ofuscar",
+      "Pelas Costas",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa do Trovão"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Furto",
+      "Meteoro do Dragão",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pulso do Dragão",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Sujeira",
+      "Superpoder",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 40
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Aipom",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 190,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 7,
+      "def": 6,
+      "spa": 4,
+      "spd": 6,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem",
+      "Fuga"
+    ],
+    "altasHabilidades": [
+      "Ligação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Lançamento"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Último Recurso"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Cobiça",
+      "Contra- Ataque",
+      "Espancamento",
+      "Fingimento",
+      "Guincho",
+      "Ódio",
+      "Perseguição",
+      "Prevenção",
+      "Porrada",
+      "Pular",
+      "Tapa Duplo",
+      "Troca",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Interpretação",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Pular",
+      "Pulso d’Água Rasteira",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Trapaça",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 20
+  }
+}

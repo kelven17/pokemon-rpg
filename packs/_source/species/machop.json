@@ -1,0 +1,174 @@
+{
+  "name": "Machop",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 66,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 5,
+      "spa": 4,
+      "spd": 4,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Guarda Baixa",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Inabalável"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rasteira"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Golpe de Caratê"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Pontapé"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Arremesso Sísmico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Ringue"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Despertador"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Pancada Dupla"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Submissão"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Cruzado"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Soco Dinâmico"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Chute Giratório",
+      "Cócegas",
+      "Contra-Ataque",
+      "Corpo a Corpo",
+      "Estímulo",
+      "Meditação",
+      "Nocaute",
+      "Peso Pesado",
+      "Prevenção",
+      "Soco Bala",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Transferência"
+    ],
+    "golpesEnsinaveis": [
+      "Interpretação",
+      "Mão Amiga",
+      "Nocaute",
+      "Pancada Dupla",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder"
+    ],
+    "evolucoes": [
+      {
+        "from": "Machoke",
+        "to": "Machamp",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 35,
+    "experiencia": 15
+  }
+}

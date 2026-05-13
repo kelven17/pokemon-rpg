@@ -1,0 +1,146 @@
+{
+  "name": "Bronzong",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 437,
+    "types": {
+      "primary": "steel",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 12,
+      "spa": 8,
+      "spd": 12,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Isolamento Térmico",
+      "Levitação"
+    ],
+    "altasHabilidades": [
+      "Metal Pesado"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Bloqueio"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Girobola"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Peso Pesado"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Dança da Chuva",
+      "Defesa de Ferro",
+      "Dia de Sol",
+      "Gravidade",
+      "Pedras Soltas",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

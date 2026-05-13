@@ -1,0 +1,146 @@
+{
+  "name": "Durant",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 632,
+    "types": {
+      "primary": "bug",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 11,
+      "def": 11,
+      "spa": 5,
+      "spd": 5,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Entusiasmo",
+      "Preguiça"
+    ],
+    "altasHabilidades": [
+      "Catagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Agarrar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Cavar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Amizade"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Guilhotina"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Ruído"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Furtivo",
+      "Escalada",
+      "Guincho",
+      "Passar o Bastão",
+      "Presa do Trovão",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Esforço",
+      "Guilhotina",
+      "Picada",
+      "Ruído",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

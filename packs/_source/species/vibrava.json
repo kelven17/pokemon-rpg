@@ -1,0 +1,162 @@
+{
+  "name": "Vibrava",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 329,
+    "types": {
+      "primary": "ground",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Arena de Areia",
+      "Hipercorte"
+    ],
+    "altasHabilidades": [
+      "Levitação"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Sopro do Dragão"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Tumba de Areia"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Deslizamento de Rochas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Tempestade de Areia"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Estrondo"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque Rápido",
+      "Corte Furioso",
+      "Focar Energia",
+      "Mangual",
+      "Picada",
+      "Poder Terreno",
+      "Resistência",
+      "Sinalizador",
+      "Tiro de Lama",
+      "Ventania"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Cavar",
+      "Clamor",
+      "Explosão Sônica",
+      "Finta",
+      "Fissura",
+      "Gigadreno",
+      "Mastigada",
+      "Meteoro do Dragão",
+      "Mordida",
+      "Onda de Calor",
+      "Picada",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Sinalizador",
+      "Superpoder",
+      "Ultraje",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Vibrava",
+        "to": "Flygon",
+        "condition": "level",
+        "value": 45
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 35
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Passimian",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 766,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 12,
+      "def": 9,
+      "spa": 4,
+      "spd": 6,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Receptor"
+    ],
+    "altasHabilidades": [
+      "Agonista"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Esmagamento"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Espancamento"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Oferenda"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Lançamento"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      }
+    ],
+    "golpesHerdados": [
+      "Arremesso Sísmico",
+      "Ataque Rápido",
+      "Cabeça de Ferro",
+      "Finta",
+      "Prevenção",
+      "Ringue"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Bomba de Sementes",
+      "Concentração",
+      "Esforço",
+      "Furto",
+      "Nocaute",
+      "Onda de Choques",
+      "Soco de Drenagem",
+      "Soco Focalizado",
+      "Sujeira",
+      "Superpoder",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 25
+  }
+}

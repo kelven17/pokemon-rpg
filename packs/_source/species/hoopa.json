@@ -1,0 +1,182 @@
+{
+  "name": "Hoopa",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 720,
+    "types": {
+      "primary": "psychic",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": null,
+      "inteligencia": null,
+      "salto": null,
+      "outras": [
+        "e Telepatia Telepatia Controle Espacial Controle Espacial",
+        "Lendárias",
+        "Multiforma Multiforma"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mágica"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Trocar de Lugar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Truque"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Vínculo do Destino"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Manto Mágico"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Troca de Habilidades"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Compartilhar Forças"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Compartilhar Defesas"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Travessia Fantasmagórica"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Sala das Maravilhas"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Sala de Truques"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Pulso Sombrio"
+      },
+      {
+        "level": 68,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 75,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 85,
+        "trigger": "level",
+        "move": "Fúria Dimensional"
+      },
+      {
+        "level": 85,
+        "trigger": "level",
+        "move": "Vácuo Dimensional"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Onda de Choques",
+      "Pancada Dupla",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Último Recurso",
+      "Truque"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Gigantesco",
+      "metros": 6.5
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

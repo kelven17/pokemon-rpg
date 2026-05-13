@@ -1,0 +1,144 @@
+{
+  "name": "Herdier",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 507,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 7,
+      "spa": 4,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem",
+      "Espírito Vigoroso"
+    ],
+    "altasHabilidades": [
+      "Velocidade na Areia"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Elaborar"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Retaliação"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Brincadeira"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque de Areia",
+      "Ataque de Lama",
+      "Bocejo",
+      "Charme",
+      "Depois de Você",
+      "Lambida",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Presa Psíquica",
+      "Resistência",
+      "Uivo"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Depois de Você",
+      "Doçura",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Lillipup",
+        "to": "Herdier",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Totodile",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 158,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 6,
+      "spa": 4,
+      "spd": 5,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 3,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Força Bruta"
+    ],
+    "altasHabilidades": [
+      "Hipercorte"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Raiva"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Presa de Gelo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Adulação",
+      "Bloqueio",
+      "Choro",
+      "Dança dos Dragões",
+      "Esporte Aquático",
+      "Esporte Terrestre",
+      "Hidrobomba",
+      "Mastigada",
+      "Metalizar Garra",
+      "Míssil Aquático",
+      "Poder Antigo",
+      "Pulso d’Água",
+      "Soco de Gelo"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Canhão de Água",
+      "Cauda de Água",
+      "Clamor",
+      "Ódio",
+      "Pilar de Água",
+      "Pulso d’Água",
+      "Rasteira",
+      "Soco de Gelo",
+      "Soco Focalizado",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Croconaw",
+        "to": "Feraligatr",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

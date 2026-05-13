@@ -1,0 +1,164 @@
+{
+  "name": "Primeape",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 57,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 11,
+      "def": 6,
+      "spa": 6,
+      "spd": 7,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Escalada",
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 7,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Espírito Vigoroso",
+      "Frenesi"
+    ],
+    "altasHabilidades": [
+      "Agonista"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Raiva"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Golpe de Caratê"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Arremesso Sísmico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Cruzado"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Castigo"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Cólera"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Ultraje"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Sacrifício"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Contra-Ataque",
+      "Corpo a Corpo",
+      "Deslizamento de Rochas",
+      "Emboscada",
+      "Espancamento",
+      "Estímulo",
+      "Meditação",
+      "Revelação",
+      "Reversão",
+      "Soco Focalizado",
+      "Sonambulismo",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Esforço",
+      "Interpretação",
+      "Lançamento",
+      "Mão Amiga",
+      "Ódio",
+      "Pancada Dupla",
+      "Sacrifício",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Rasteira",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

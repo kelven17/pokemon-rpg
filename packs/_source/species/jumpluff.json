@@ -1,0 +1,166 @@
+{
+  "name": "Jumpluff",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 189,
+    "types": {
+      "primary": "grass",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 6,
+      "def": 7,
+      "spa": 6,
+      "spd": 10,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 7,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 3,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila",
+      "Proteção Vegetal"
+    ],
+    "altasHabilidades": [
+      "Infiltrador"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Pó Venenoso"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Pó Sonífero"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Semente Bala"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Pó Irritante"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Esporos de Algodão"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Sua Vez"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Pular"
+      },
+      {
+        "level": 69,
+        "trigger": "level",
+        "move": "Lembrança"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Aromaterapia",
+      "Bis",
+      "Bomba de Sementes",
+      "Campo Gramado",
+      "Confusão",
+      "Faca de Dois Gumes",
+      "Maciez",
+      "Mão Amiga",
+      "Resistência",
+      "Semente Irritante"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mão Amiga",
+      "Pular",
+      "Semente Irritante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Skiploom",
+        "to": "Jumpluff",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 5,
+    "experiencia": 35
+  }
+}

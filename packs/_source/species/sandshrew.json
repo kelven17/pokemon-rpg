@@ -1,0 +1,83 @@
+{
+  "name": "Sandshrew",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 27,
+    "types": {
+      "primary": "ground",
+      "secondary": "ice"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Afundamento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Arenoso Ártico"
+    ],
+    "altasHabilidades": [
+      "Areia Neve"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Emboscada",
+      "Garra Esmagadora",
+      "Lapidação",
+      "Resistência",
+      "Mangual",
+      "Metalizar Garra. Os Sandshrew Arenosos adicionam os seguintes Golpes à lista: Contra-Ataque",
+      "Escalada",
+      "Fertilizante",
+      "Giro Rápido",
+      "Tiro de Lama. Os Sandshrew Árticos adicionam os seguintes Golpes à lista: Amnésia",
+      "Contra-Ataque",
+      "Estaca de Gelo",
+      "Lanças de Gelo",
+      "Maldição"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cobiça",
+      "Nocaute",
+      "Pedras Soltas",
+      "Soco Focalizado",
+      "Superpresa. Os Sandshrew Arenosos adicionam Poder Terreno à lista. Os Sandshrew Árticos adicionam os seguintes Golpes à lista: Cabeça de Ferro",
+      "Cauda de Água",
+      "Defesa de Ferro",
+      "Gravata",
+      "Soco de Gelo",
+      "Vento Gelado. Compor- Sandshrew Sandshrew tamento Arenoso Ártico Dieta Herbívoro Herbívoro Cavernas",
+      "Desertos Árticos",
+      "Montanhas",
+      "Habitat e Pradarias Taigas e Tundras"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

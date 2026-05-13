@@ -1,0 +1,144 @@
+{
+  "name": "Rattata",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 19,
+    "types": {
+      "primary": "normal",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 3,
+      "atk": 6,
+      "def": 4,
+      "spa": 3,
+      "spd": 4,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Escalada",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Limpo Sujo"
+    ],
+    "altasHabilidades": [
+      "Entusiasmo Gordura"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Hiperpresa"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Fogo",
+      "Clamor",
+      "Contra- Ataque",
+      "Garras Furiosas",
+      "Guincho",
+      "Mordida",
+      "Primeiro Eu",
+      "Reversão",
+      "Sacrifício",
+      "Último Recurso",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Esforço",
+      "Furto",
+      "Nocaute",
+      "Onda de Choques",
+      "Superpresa",
+      "Último Recurso",
+      "Vento Gelado. Os Rattata Limpos adicionam Elaborar à lista"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

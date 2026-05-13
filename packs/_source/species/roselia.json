@@ -1,0 +1,159 @@
+{
+  "name": "Roselia",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 315,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 5,
+      "spa": 10,
+      "spd": 8,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento",
+        "Sedução"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Espículas Venenosas",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Proteção Vegetal"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Esporos Paralisantes"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Apito de Folha"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Espinhos Tóxicos"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas",
+      "Apito de Folha",
+      "Bomba de Sementes",
+      "Dádiva da Natureza",
+      "Espinhos",
+      "Esporos de Algodão",
+      "Extrassensorial",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Gigadreno",
+      "Leitura Mental",
+      "Pó Sonífero",
+      "Semente Bala",
+      "Tempestade de Folhas"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Clamor",
+      "Cobiça",
+      "Esporte Aquático",
+      "Gigadreno",
+      "Fotossíntese",
+      "Semente Irritante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 25
+  }
+}

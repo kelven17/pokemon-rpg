@@ -1,0 +1,115 @@
+{
+  "name": "Deoxys",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 386,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": null,
+      "inteligencia": 7,
+      "salto": 10,
+      "outras": [
+        "Aura",
+        "Invisibilidade",
+        "Telecinesia",
+        "Telepatia Lendárias Multiforma * Mude para 10 na Forma de Ataque"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Pressão"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Transmissibilidade"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Impulso Psíquico"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pulso d’Água",
+      "Rasteira",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sufocamento",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

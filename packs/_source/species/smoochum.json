@@ -1,0 +1,155 @@
+{
+  "name": "Smoochum",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 238,
+    "types": {
+      "primary": "ice",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 3,
+      "def": 2,
+      "spa": 9,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Família"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Premonição"
+    ],
+    "altasHabilidades": [
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tapa"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Geada"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Canção"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Partir o Coração"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Olhar Paralisante"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Choro"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Avalanche"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Réquiem"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Nevasca"
+      }
+    ],
+    "golpesHerdados": [
+      "Cativar",
+      "Conspiração",
+      "Desejo",
+      "Despertador",
+      "Fingimento",
+      "Meditação",
+      "Milagre",
+      "Soco de Gelo"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sala Mágica",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Gelo",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 35,
+    "experiencia": 10
+  }
+}

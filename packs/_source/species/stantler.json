@@ -1,0 +1,156 @@
+{
+  "name": "Stantler",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 234,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 10,
+      "def": 6,
+      "spa": 9,
+      "spd": 7,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bisbilhoteiro",
+      "Intimidar"
+    ],
+    "altasHabilidades": [
+      "Absorção de Seiva"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Interpretação"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Voadora"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Primeiro Eu"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Cabeçada Zen",
+      "Chute Duplo",
+      "Desabilitar",
+      "Esporte Terrestre",
+      "Extrassensorial",
+      "Megachifre",
+      "Mordida",
+      "Ódio",
+      "Primeiro Eu",
+      "Raiva"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Ódio",
+      "Onda de Choques",
+      "Pular",
+      "Sala Mágica",
+      "Sinalizador",
+      "Troca de Habilidades",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

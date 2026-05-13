@@ -1,0 +1,157 @@
+{
+  "name": "Tyrunt",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 696,
+    "types": {
+      "primary": "rock",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 9,
+      "def": 8,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 1,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mandíbula"
+    ],
+    "altasHabilidades": [
+      "Robustez"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Pedras Soltas"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Cauda do Dragão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Garra do Dragão"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Chifre Broca"
+      }
+    ],
+    "golpesHerdados": [
+      "Dança dos Dragões",
+      "Maldição",
+      "Polimento",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa Venenosa",
+      "Presa do Trovão"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Meteoro do Dragão",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso do Dragão",
+      "Superpoder",
+      "Ultraje",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Tyrunt",
+        "to": "Tyrantrum",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 20
+  }
+}

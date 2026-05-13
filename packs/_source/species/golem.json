@@ -1,0 +1,81 @@
+{
+  "name": "Golem",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 76,
+    "types": {
+      "primary": "rock",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 12,
+      "def": 13,
+      "spa": 6,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Magnético Magnético"
+    ],
+    "altasHabilidades": [
+      "Manto de Areia Galvanização"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Automação",
+      "Bloqueio",
+      "Defesa Aberta",
+      "Escalada",
+      "Maldição",
+      "Mangual",
+      "Resistência. Os Golem não Magnéticos adicionam os seguintes Golpes à lista: Braço Martelo",
+      "Megassoco",
+      "Soco Focalizado. Os Golem Magnéticos adicionam os seguintes Golpes à lista: Contra-Ataque",
+      "Guincho",
+      "Magnetização"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Magnetização",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Peso Pesado",
+      "Poder Terreno",
+      "Rolagem",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Trocar de Lugar"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.4
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

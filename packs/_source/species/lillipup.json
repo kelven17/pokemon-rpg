@@ -1,0 +1,158 @@
+{
+  "name": "Lillipup",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 506,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 5,
+      "spa": 3,
+      "spd": 5,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem",
+      "Espírito Vigoroso"
+    ],
+    "altasHabilidades": [
+      "Fuga"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Elaborar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Retaliação"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Gigaimpacto"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Brincadeira"
+      }
+    ],
+    "golpesHerdados": [
+      "Ataque de Areia",
+      "Ataque de Lama",
+      "Bocejo",
+      "Charme",
+      "Depois de Você",
+      "Lambida",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Presa Psíquica",
+      "Resistência",
+      "Uivo"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Depois de Você",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Último Recurso",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Lillipup",
+        "to": "Herdier",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

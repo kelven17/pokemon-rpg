@@ -1,0 +1,79 @@
+{
+  "name": "Muk",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 89,
+    "types": {
+      "primary": "poison",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 11,
+      "def": 8,
+      "spa": 7,
+      "spd": 10,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Adesão",
+        "Amorfia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Poluição Lixo"
+    ],
+    "altasHabilidades": [
+      "Toque Tóxico Alquimia"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Careta",
+      "Engolir",
+      "Estocagem",
+      "Liberação",
+      "Maldição",
+      "Olhar Paralisante",
+      "Selo",
+      "Sombra Traiçoeira. Os Muk da Poluição adicionam os seguintes Golpes à lista: Bomba Ácida",
+      "Lambida",
+      "Nevoeiro",
+      "Soco Sombrio. Os Muk do Lixo adicionam os seguintes Golpes à lista: Fumaça",
+      "Garantia",
+      "Ódio",
+      "Perseguição"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Gigadreno",
+      "Onda de Choques",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Sujeira"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

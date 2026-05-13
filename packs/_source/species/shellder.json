@@ -1,0 +1,157 @@
+{
+  "name": "Shellder",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 90,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 3,
+      "atk": 7,
+      "def": 10,
+      "spa": 5,
+      "spd": 3,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 4
+    },
+    "habilidades": [
+      "Concha",
+      "Ligação"
+    ],
+    "altasHabilidades": [
+      "Carapaça"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Lanças de Gelo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Clampeamento"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Concha Navalha"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Raio de Gelo"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Agulhas Gêmeas",
+      "Anel de Água",
+      "Avalanche",
+      "Barreira",
+      "Derrubada",
+      "Detonação",
+      "Giro Rápido",
+      "Guincho",
+      "Lanças de Gelo",
+      "Pulso d’Água",
+      "Rajada de Bolhas",
+      "Tiro de Lama"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Pulso d’Água",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

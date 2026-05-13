@@ -1,0 +1,132 @@
+{
+  "name": "Staravia",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 397,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 5,
+      "spa": 4,
+      "spd": 4,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 1,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Visão Aguçada"
+    ],
+    "altasHabilidades": [
+      "Imprudência",
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Golpe Aéreo"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Fúria dos Pássaros"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Sacrifício"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Assustar",
+      "Ataque de Areia",
+      "Clamor",
+      "Dança das Penas",
+      "Detecção",
+      "Empoleirar",
+      "Espelho",
+      "Faca de Dois Gumes",
+      "Fúria",
+      "Perseguição",
+      "Revelação",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Clamor",
+      "Esforço",
+      "Onda de Calor",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Starly",
+        "to": "Staravia",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

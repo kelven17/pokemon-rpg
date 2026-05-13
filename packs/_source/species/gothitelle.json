@@ -1,0 +1,169 @@
+{
+  "name": "Gothitelle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 576,
+    "types": {
+      "primary": "psychic",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 10,
+      "spa": 10,
+      "spd": 11,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bisbilhoteiro",
+      "Competição"
+    ],
+    "altasHabilidades": [
+      "Identificação"
+    ],
+    "learnset": [
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Cócegas"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Choro"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Psicochoque"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Adulação"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Telecinesia"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Sala Mágica"
+      }
+    ],
+    "golpesHerdados": [
+      "Cativar",
+      "Clamor",
+      "Escudo Espelho",
+      "Milagre",
+      "Olhar Paralisante",
+      "Pulso de Cura",
+      "Pulso Sombrio"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sala Mágica",
+      "Sinalizador",
+      "Sino da Cura",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Gothita",
+        "to": "Gothorita",
+        "condition": "level",
+        "value": 25
+      },
+      {
+        "from": "Gothorita",
+        "to": "Gothitelle",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

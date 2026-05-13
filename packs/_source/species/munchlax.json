@@ -1,0 +1,170 @@
+{
+  "name": "Munchlax",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 446,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 14,
+      "atk": 9,
+      "def": 4,
+      "spa": 4,
+      "spd": 9,
+      "spe": 1
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Catagem",
+      "Gordura"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Reciclagem"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Lapidação"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Lançamento"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Furto"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Último Recurso"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Autodestruição",
+      "Cabeçada Zen",
+      "Charme",
+      "Contra-Ataque",
+      "Dádiva da Natureza",
+      "Depois de Você",
+      "Faca de Dois Gumes",
+      "Fissura",
+      "Lambida",
+      "Maldição",
+      "Perseguição",
+      "Rajada de Vento"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Clamor",
+      "Cobiça",
+      "Depois de Você",
+      "Escalada",
+      "Furto",
+      "Metrônomo",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sujeira",
+      "Superpoder",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

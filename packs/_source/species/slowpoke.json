@@ -1,0 +1,168 @@
+{
+  "name": "Slowpoke",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 79,
+    "types": {
+      "primary": "water",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 7,
+      "def": 7,
+      "spa": 4,
+      "spd": 4,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 2
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Ritmo Próprio"
+    ],
+    "altasHabilidades": [
+      "Regeneração"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Desabilitar"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Relaxar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Pulso de Cura"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Esporte Terrestre",
+      "Pisotear",
+      "Previsão",
+      "Primeiro Eu",
+      "Ronco",
+      "Sala das Maravilhas",
+      "Sonambulismo",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Depois de Você",
+      "Manto Mágico",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Slowpoke",
+        "to": "Slowbro",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.2
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

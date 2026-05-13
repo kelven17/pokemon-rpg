@@ -1,0 +1,148 @@
+{
+  "name": "Steenee",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 762,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 4,
+      "def": 5,
+      "spa": 4,
+      "spd": 5,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Hierarquia",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Obtusidade",
+      "Proteção Vegetal"
+    ],
+    "altasHabilidades": [
+      "Véu Doce"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Simpatia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Dança Caótica"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Névoa Aromática"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      }
+    ],
+    "golpesHerdados": [
+      "Acupuntura",
+      "Apito de Folha",
+      "Brincadeira",
+      "Charme",
+      "Finta",
+      "Fotossíntese"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Cobiça",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mangual",
+      "Mão Amiga",
+      "Nocaute",
+      "Pular",
+      "Semente Irritante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Bounsweet",
+        "to": "Steenee",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Steenee",
+        "to": "Tsareena",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 25
+  }
+}

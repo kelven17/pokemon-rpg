@@ -1,0 +1,152 @@
+{
+  "name": "Misdreavus",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 200,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 6,
+      "spa": 9,
+      "spd": 9,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": null,
+      "outras": [
+        "Intangibilidade",
+        "Invisibilidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 1,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Onda Psíquica"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ódio"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Olhar Paralisante"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Feitiço"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Retribuição"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Réquiem"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Rancor"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      }
+    ],
+    "golpesHerdados": [
+      "Conspiração",
+      "Guincho",
+      "Lembrança",
+      "Maldição",
+      "Ódio",
+      "Pelas Costas",
+      "Primeiro Eu",
+      "Sala das Maravilhas",
+      "Selo",
+      "Sombra Traiçoeira",
+      "Troca de Habilidades",
+      "Vento Nefasto",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Furto",
+      "Manto Mágico",
+      "Ódio",
+      "Onda de Choques",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sino da Cura",
+      "Sofrimento Mútuo",
+      "Trapaça",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 15,
+    "experiencia": 20
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Yungoos",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 734,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 3,
+      "spa": 3,
+      "spd": 3,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mandíbula",
+      "Vigília"
+    ],
+    "altasHabilidades": [
+      "Adaptabilidade"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Hiperpresa"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Bocejo"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Descansar"
+      }
+    ],
+    "golpesHerdados": [
+      "Descansar",
+      "Último Recurso",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Cólera",
+      "Esforço",
+      "Onda de Choques",
+      "Superpresa",
+      "Último Recurso"
+    ],
+    "evolucoes": [
+      {
+        "from": "Yungoo",
+        "to": "Gumshoos",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 40,
+    "experiencia": 10
+  }
+}

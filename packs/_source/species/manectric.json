@@ -1,0 +1,142 @@
+{
+  "name": "Manectric",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 310,
+    "types": {
+      "primary": "electric",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Menos"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Presa do Trovão"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Carga Selvagem"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Trovão"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Campo Elétrico"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeçada",
+      "Clamor",
+      "Descarga",
+      "Esfera Elétrica",
+      "Estrela Cadente",
+      "Maldição",
+      "Mastigada",
+      "Onda Anômala",
+      "Onda de Choques",
+      "Presa de Fogo",
+      "Presa de Gelo",
+      "Presa do Trovão",
+      "Rajada de Chamas",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Campo Elétrico",
+      "Cauda de Ferro",
+      "Clamor",
+      "Magnetização",
+      "Onda de Choques",
+      "Presa de Fogo",
+      "Sinalizador"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

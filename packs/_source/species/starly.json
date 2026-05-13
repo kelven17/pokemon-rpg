@@ -1,0 +1,141 @@
+{
+  "name": "Starly",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 396,
+    "types": {
+      "primary": "normal",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 3,
+      "spa": 3,
+      "spd": 3,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Visão Aguçada"
+    ],
+    "altasHabilidades": [
+      "Imprudência"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Asa"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Golpe Aéreo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Fúria dos Pássaros"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Sacrifício"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Assustar",
+      "Ataque de Areia",
+      "Clamor",
+      "Dança das Penas",
+      "Detecção",
+      "Empoleirar",
+      "Espelho",
+      "Faca de Dois Gumes",
+      "Fúria",
+      "Perseguição",
+      "Revelação",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Vento",
+      "Clamor",
+      "Esforço",
+      "Onda de Calor",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Starly",
+        "to": "Staravia",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 15
+  }
+}

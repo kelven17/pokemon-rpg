@@ -1,0 +1,155 @@
+{
+  "name": "Thundurus",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 642,
+    "types": {
+      "primary": "electric",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 5,
+      "salto": 6,
+      "outras": [
+        "Aura",
+        "Eletricidade",
+        "Vento Lendárias Multiforma"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 8,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Agonista Voltagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Bloquear Cura"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Trovão"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Pulso Sombrio"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 79,
+        "trigger": "level",
+        "move": "Açoite"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Açoite",
+      "Cauda de Ferro",
+      "Clamor",
+      "Conspiração",
+      "Interpretação",
+      "Nocaute",
+      "Onda de Choques",
+      "Soco do Trovão",
+      "Teia Elétrica",
+      "Trapaça",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

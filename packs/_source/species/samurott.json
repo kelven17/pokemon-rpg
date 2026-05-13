@@ -1,0 +1,158 @@
+{
+  "name": "Samurott",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 503,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 10,
+      "def": 9,
+      "spa": 8,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 9,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Concha"
+    ],
+    "altasHabilidades": [
+      "Foco Interior"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Retalhar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Concha Navalha"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Míssil Aquático"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Retaliação"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 63,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Corte Aéreo",
+      "Curinga",
+      "Detecção",
+      "Emboscada",
+      "Garantia",
+      "Guincho",
+      "Imitação",
+      "Salmoura"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Canhão de Água",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Mão Amiga",
+      "Megachifre",
+      "Nocaute",
+      "Pilar de Água",
+      "Pulso d’Água",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Oshawott",
+        "to": "Dewott",
+        "condition": "level",
+        "value": 15
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

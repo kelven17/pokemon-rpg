@@ -1,0 +1,151 @@
+{
+  "name": "Lileep",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 345,
+    "types": {
+      "primary": "rock",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 4,
+      "def": 8,
+      "spa": 6,
+      "spd": 9,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Adesão",
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 3
+    },
+    "habilidades": [
+      "Ventosas"
+    ],
+    "altasHabilidades": [
+      "Drenagem"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Enlaçar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ácido"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Estocagem"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Liberação"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Engolir"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Barreira",
+      "Cócegas",
+      "Escudo Espelho",
+      "Maldição",
+      "Megadreno",
+      "Pedras Soltas",
+      "Recuperação",
+      "Resistência",
+      "Torção"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Semente Bala",
+      "Semente Irritante",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 15,
+    "experiencia": 20
+  }
+}

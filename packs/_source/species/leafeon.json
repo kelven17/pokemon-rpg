@@ -1,0 +1,144 @@
+{
+  "name": "Leafeon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 470,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 11,
+      "def": 13,
+      "spa": 6,
+      "spd": 7,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Faro",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Adaptabilidade",
+      "Fuga"
+    ],
+    "altasHabilidades": [
+      "Clorofila",
+      "Proteção Vegetal"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Apito de Folha"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Cativar",
+      "Charme",
+      "Choro",
+      "Cobiça",
+      "Cócegas",
+      "Desejo",
+      "Dádiva da Natureza",
+      "Detecção",
+      "Elementalismo",
+      "Maldição",
+      "Mangual",
+      "Reserva",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mão Amiga",
+      "Nocaute",
+      "Sino da Cura",
+      "Último Recurso",
+      "Semente Irritante",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

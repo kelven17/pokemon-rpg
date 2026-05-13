@@ -1,32 +1,153 @@
 {
   "name": "Charmander",
   "type": "species",
-  "img": "icons/svg/fire.svg",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
-    "description": "<p>Um Pokémon do tipo Fogo, com uma chama na ponta da cauda que indica seu vigor.</p>",
+    "description": "",
     "dexNumber": 4,
     "types": {
       "primary": "fire",
       "secondary": null
     },
     "baseStats": {
-      "hp": 39,
-      "atk": 52,
-      "def": 43,
-      "spa": 60,
-      "spd": 50,
-      "spe": 65
+      "hp": 4,
+      "atk": 5,
+      "def": 4,
+      "spa": 6,
+      "spd": 5,
+      "spe": 7
     },
-    "learnset": [
-      { "level": 1, "moveSlug": "tackle" },
-      { "level": 1, "moveSlug": "growl" },
-      { "level": 3, "moveSlug": "ember" },
-      { "level": 6, "moveSlug": "quick-attack" }
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Combustão",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Poder Solar"
     ],
-    "possibleAbilities": ["blaze"],
-    "naturalCapacities": ["overland", "keen-senses"],
-    "evolutions": [
-      { "targetSlug": "charmeleon", "condition": "level", "value": "16" }
-    ]
+    "altasHabilidades": [
+      "Intimidar"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Fúria do Dragão"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Careta"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Presa de Fogo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Rajada de Chamas"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Inferno"
+      }
+    ],
+    "golpesHerdados": [
+      "Bombardeio de Chamas",
+      "Contra- Ataque",
+      "Dança dos Dragões",
+      "Espancamento",
+      "Investida do Dragão",
+      "Mastigada",
+      "Metalizar Garra",
+      "Mordida",
+      "Poder Antigo",
+      "Pulso do Dragão",
+      "Soco Focalizado",
+      "Tambor de Pança",
+      "Ultraje",
+      "Vento Cortante"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Incêndio",
+      "Onda de Calor",
+      "Pilar de Chamas",
+      "Pulso do Dragão",
+      "Soco de Fogo",
+      "Soco do Trovão",
+      "Soco Focalizado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
   }
 }

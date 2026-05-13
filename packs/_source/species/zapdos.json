@@ -1,0 +1,144 @@
+{
+  "name": "Zapdos",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 145,
+    "types": {
+      "primary": "electric",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 9,
+      "def": 9,
+      "spa": 13,
+      "spd": 9,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 7,
+      "salto": 5,
+      "outras": [
+        "Eletricidade",
+        "Luminar",
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": 12,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Pressão"
+    ],
+    "altasHabilidades": [
+      "Eletricidade Elétrica"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bicada"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Onda Trovão"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 71,
+        "trigger": "level",
+        "move": "Bico Broca"
+      },
+      {
+        "level": 78,
+        "trigger": "level",
+        "move": "Trovão"
+      },
+      {
+        "level": 85,
+        "trigger": "level",
+        "move": "Empoleirar"
+      },
+      {
+        "level": 92,
+        "trigger": "level",
+        "move": "Campo Magnético"
+      },
+      {
+        "level": 99,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Cauda de Vento",
+      "Onda de Calor",
+      "Sinalizador",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

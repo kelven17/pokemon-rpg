@@ -1,0 +1,103 @@
+{
+  "name": "Raichu",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 26,
+    "types": {
+      "primary": "electric",
+      "secondary": "electric"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": null,
+      "inteligencia": null,
+      "salto": null,
+      "outras": [
+        "Eletricidade Telecinesia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Continental Surfista"
+    ],
+    "altasHabilidades": [
+      "Pararraios Surfista"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Bis",
+      "Campo Elétrico",
+      "Cântico da Sorte",
+      "Carga",
+      "Cócegas",
+      "Desejo",
+      "Fingimento",
+      "Investida Trovão",
+      "Mangual",
+      "Oferenda",
+      "Paciência",
+      "Presente",
+      "Resistência",
+      "Reversão",
+      "Soco do Trovão",
+      "Tapa Duplo",
+      "Voz Encantadora"
+    ],
+    "golpesEnsinaveis": [
+      "Agilidade",
+      "Beijo Doce",
+      "Carga Selvagem",
+      "Cauda de Ferro",
+      "Chamego",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Conspiração",
+      "Descarga",
+      "Esfera Elétrica",
+      "Faísca",
+      "Finta",
+      "Magnetização",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Onda Trovão",
+      "Porrada",
+      "Relâmpago",
+      "Sinalizador",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Teia Elétrica",
+      "Tela de Luz",
+      "Trovão. Os Raichu Surfistas adicionam os seguintes Golpes à lista: Manto Mágico",
+      "Reciclagem",
+      "Sala Mágica",
+      "Telecinesia",
+      "Troca de Velocidades",
+      "Trocar de Lugar. Raichu Raichu"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 5,
+    "experiencia": 40
+  }
+}

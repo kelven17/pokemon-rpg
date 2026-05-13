@@ -1,0 +1,159 @@
+{
+  "name": "Vullaby",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 629,
+    "types": {
+      "primary": "dark",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 8,
+      "spa": 5,
+      "spd": 7,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Família",
+        "Vento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": 1,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Bicudo",
+      "Carapaça"
+    ],
+    "altasHabilidades": [
+      "Fraqueza"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Ventania"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Picotar"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Adulação"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Castigo"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Desanuviar"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Cauda de Vento"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Pulso Sombrio"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Rajada de Vento"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Fúria dos Pássaros"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Espelho"
+      }
+    ],
+    "golpesHerdados": [
+      "Asa de Aço",
+      "Careta",
+      "Choro",
+      "Empoleirar",
+      "Nocaute",
+      "Olhar Paralisante",
+      "Trapaça"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Empoleirar",
+      "Furto",
+      "Nocaute",
+      "Onda de Calor",
+      "Trapaça",
+      "Vento Cortante"
+    ],
+    "evolucoes": [
+      {
+        "from": "Vullaby",
+        "to": "Mandibuzz",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

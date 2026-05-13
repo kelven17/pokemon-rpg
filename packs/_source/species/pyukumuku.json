@@ -1,0 +1,148 @@
+{
+  "name": "Pyukumuku",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 771,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 13,
+      "spa": 3,
+      "spd": 13,
+      "spe": 1
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Adesão",
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 2,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Vísceras Extensíveis"
+    ],
+    "altasHabilidades": [
+      "Desatenção"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Salvaguarda"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Purificação"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Sofrimento Mútuo"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Ensopar"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Lembrança"
+      }
+    ],
+    "golpesHerdados": [
+      "Cócegas",
+      "Intensificar Veneno",
+      "Oferenda",
+      "Passar o Bastão",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Mão Amiga",
+      "Ódio",
+      "Reciclagem",
+      "Sofrimento Mútuo",
+      "Vômito. Pyukumuku não aprende o Golpe Universal Fachada"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

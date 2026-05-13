@@ -1,0 +1,163 @@
+{
+  "name": "Mudkip",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 258,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 7,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 1,
+      "outras": [
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 5,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 5
+    },
+    "habilidades": [
+      "Umidade"
+    ],
+    "altasHabilidades": [
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Arremesso de Pedras"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Gelo",
+      "Avalanche",
+      "Barreira",
+      "Bocejo",
+      "Bomba de Lama",
+      "Clamor",
+      "Contra-Ataque",
+      "Defesa Aberta",
+      "Escudo Espelho",
+      "Faca de Dois Gumes",
+      "Lama",
+      "Maldição",
+      "Mordida",
+      "Pisotear",
+      "Poder Antigo",
+      "Redemoinho",
+      "Refresco"
+    ],
+    "golpesEnsinaveis": [
+      "Canhão de Água",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Clamor",
+      "Esforço",
+      "Pilar de Água",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Rasteira",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Mudkip",
+        "to": "Marshtomp",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Marshtomp",
+        "to": "Swampert",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
+  }
+}

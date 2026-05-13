@@ -1,0 +1,161 @@
+{
+  "name": "Houndour",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 228,
+    "types": {
+      "primary": "dark",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 3,
+      "spa": 8,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas",
+      "Madrugar"
+    ],
+    "altasHabilidades": [
+      "Tensão"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Uivo"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Rugido"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Espancamento"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Presa de Fogo"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Inferno"
+      }
+    ],
+    "golpesHerdados": [
+      "Castigo",
+      "Conspiração",
+      "Contra- Ataque",
+      "Espancamento",
+      "Espiral de Fogo",
+      "Finta",
+      "Fogo-Fátuo",
+      "Ódio",
+      "Perseguição",
+      "Presa de Fogo",
+      "Presa do Trovão",
+      "Raiva",
+      "Reversão",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Clamor",
+      "Furto",
+      "Interpretação",
+      "Manto Mágico",
+      "Ódio",
+      "Onda de Calor",
+      "Superpresa",
+      "Trapaça",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

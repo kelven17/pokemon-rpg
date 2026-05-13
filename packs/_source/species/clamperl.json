@@ -1,0 +1,95 @@
+{
+  "name": "Clamperl",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 366,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 7,
+      "def": 9,
+      "spa": 7,
+      "spd": 6,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Concha"
+    ],
+    "altasHabilidades": [
+      "Covardia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Clampeamento"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Redemoinho"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Anel de Água",
+      "Barreira",
+      "Esporte Terrestre",
+      "Pancada",
+      "Pulso d’Água",
+      "Raio de Confusão",
+      "Refresco",
+      "Resistência",
+      "Salmoura",
+      "Supersônico"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Pulso d’Água",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

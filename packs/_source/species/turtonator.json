@@ -1,0 +1,149 @@
+{
+  "name": "Turtonator",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 776,
+    "types": {
+      "primary": "fire",
+      "secondary": "dragon"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 14,
+      "spa": 9,
+      "spd": 9,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão",
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Concha"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Incinerar"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Pulso do Dragão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Armadilha de Concha"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Superaquecimento"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Explosão"
+      }
+    ],
+    "golpesHerdados": [
+      "Defesa Aberta",
+      "Espiral de Fogo",
+      "Investida de Cabeça",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cólera",
+      "Defesa de Ferro",
+      "Esforço",
+      "Meteoro do Dragão",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Pulso do Dragão",
+      "Ultraje",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.0
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

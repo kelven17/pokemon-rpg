@@ -1,0 +1,145 @@
+{
+  "name": "Vaporeon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 134,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 13,
+      "atk": 7,
+      "def": 6,
+      "spa": 11,
+      "spd": 10,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Amorfia",
+        "Faro",
+        "Guelras",
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 10
+    },
+    "habilidades": [
+      "Adaptabilidade",
+      "Fuga"
+    ],
+    "altasHabilidades": [
+      "Absorção de Água",
+      "Hidratação"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque de Areia"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Doçura"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Armadura Ácida"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Último Recurso"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Cativar",
+      "Charme",
+      "Choro",
+      "Cobiça",
+      "Cócegas",
+      "Desejo",
+      "Dádiva da Natureza",
+      "Detecção",
+      "Elementalismo",
+      "Maldição",
+      "Mangual",
+      "Reserva",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Cobiça",
+      "Mão Amiga",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sino da Cura",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

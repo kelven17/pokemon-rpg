@@ -319,36 +319,37 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   /**
-   * Aplica os dados de uma Espécie a este Pokémon:
-   *  - número da Pokédex
-   *  - tipos primário/secundário
-   *  - atributos base (do dex, divididos por 10, mín. 1) JÁ COM o delta da
-   *    natureza aplicado: +1 no atributo "up" e -1 no "down".
-   *  - natureza aleatória sorteada
-   *  - referência para o item de espécie
-   * Também renomeia o ator se ele ainda tiver um nome genérico.
+   * Aplica os dados completos de uma Espécie ao Pokémon:
    *
-   * Usa a flag `pkrpgSkipNatureHook` no update para evitar que o hook de
-   * natureza tente reaplicar o delta em cima do que já foi computado aqui.
+   *  - Atributos basais (Saúde, Ataque, Defesa, etc.) — copia direto do livro
+   *  - Tipos primário/secundário
+   *  - Número da Pokédex
+   *  - Natureza aleatória, com delta aplicado nos atributos
+   *  - **Cria items embeddados:**
+   *      • Golpes Naturais cujo nível ≤ nível do pokémon (e os de "Evolução"
+   *        se o pokémon estiver evoluído de uma espécie anterior)
+   *      • Primeira Habilidade da lista (se não tiver outra)
+   *      • Capacidades naturais (Outras + numéricas + deslocamentos como special)
+   *  - Renomeia o ator se o nome ainda for genérico
+   *
+   * Usa flag `pkrpgSkipNatureHook` no update do actor pra não duplicar delta.
    */
   async _applySpecies(speciesItem) {
     if ( !speciesItem || speciesItem.type !== "species" ) return;
     const sys = speciesItem.system ?? {};
-    const stats = sys.baseStats ?? {};
-    const div10 = (n) => Math.max(1, Math.round((Number(n) || 0) / 10));
 
-    // 1. Stats base do dex / 10 (sem nada de natureza ainda).
+    // ─── 1. Atributos basais (copiados direto do livro) ─────────
+    const stats = sys.baseStats ?? {};
     const values = {
-      hp:  div10(stats.hp),
-      atk: div10(stats.atk),
-      def: div10(stats.def),
-      spa: div10(stats.spa),
-      spd: div10(stats.spd),
-      spe: div10(stats.spe)
+      hp:  Math.max(0, Number(stats.hp)  || 0),
+      atk: Math.max(0, Number(stats.atk) || 0),
+      def: Math.max(0, Number(stats.def) || 0),
+      spa: Math.max(0, Number(stats.spa) || 0),
+      spd: Math.max(0, Number(stats.spd) || 0),
+      spe: Math.max(0, Number(stats.spe) || 0)
     };
 
-    // 2. Sorteia natureza nova SEMPRE que aplica espécie e
-    //    incorpora o delta dela nos values acima.
+    // ─── 2. Natureza sorteada + delta nos atributos ─────────────
     const natureKey = POKEMON_RPG.randomNature();
     const nature    = POKEMON_RPG.natures?.[natureKey];
     if ( nature?.up && values[nature.up] !== undefined ) {
@@ -373,19 +374,138 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       "system.attributes.spe.value": values.spe
     };
 
-    // Renomeia o ator se o nome atual for genérico/igual ao tipo.
+    // Renomeia ator se nome genérico
     const currentName = this.actor.name ?? "";
     const genericNames = ["Pokémon", "Pokemon", "New Actor", "Novo Actor"];
     if ( !currentName || genericNames.includes(currentName) ) {
       updates["name"] = speciesItem.name;
     }
 
-    // pkrpgSkipNatureHook garante que o hook de mudança de natureza não
-    // reaplique o delta em cima dos values que já foram computados aqui.
     await this.actor.update(updates, { pkrpgSkipNatureHook: true });
+
+    // ─── 3. Cria items embedded (moves/abilities/capacities) ────
+    // Limpa items existentes do tipo "move", "ability" e "capacity" pra
+    // evitar duplicação no re-apply.
+    const oldEmbedded = this.actor.items
+      .filter(i => ["move","ability","capacity"].includes(i.type))
+      .map(i => i.id);
+    if ( oldEmbedded.length ) {
+      await this.actor.deleteEmbeddedDocuments("Item", oldEmbedded);
+    }
+
+    const pokeLevel = this.actor.system.details?.level ?? 1;
+
+    // Coleta itens a criar
+    const itemsToCreate = [];
+
+    // 3.1. Moves naturais (level ≤ pokeLevel + os de "evolution" se evoluído)
+    //      Olhamos a cadeia: se essa espécie é uma evolução de outra, inclui
+    //      todos os moves de "evolution" das anteriores.
+    const learnset = sys.learnset ?? [];
+    const moveNames = new Set();
+    for ( const entry of learnset ) {
+      const level   = Number(entry.level) || 0;
+      const trigger = entry.trigger ?? "level";
+      // Aprendido ao subir de nível: precisa que pokeLevel >= entry.level
+      // Aprendido por evolução: precisa que esta espécie venha de outra
+      //   (campo `evolucoes` com from!==this.name implica evoluiu)
+      const isEvolved = (sys.evolucoes ?? []).some(
+        e => e.to === speciesItem.name && e.from !== speciesItem.name
+      );
+      const learn = (trigger === "evolution") ? isEvolved : (pokeLevel >= level);
+      if ( learn && entry.move ) moveNames.add(entry.move);
+    }
+    const moveItems = await PokemonSheet._findCompendiumItems("move", [...moveNames]);
+    itemsToCreate.push(...moveItems);
+
+    // 3.2. Habilidade — pega a primeira da lista de habilidades comuns
+    const habilidades = sys.habilidades ?? [];
+    if ( habilidades.length > 0 ) {
+      const abilityItems = await PokemonSheet._findCompendiumItems("ability", [habilidades[0]]);
+      itemsToCreate.push(...abilityItems);
+    }
+
+    // 3.3. Capacidades — outras + cria entries pras numéricas com valor
+    const capData = sys.capacidades ?? {};
+    const capNames = new Set();
+    for ( const o of capData.outras ?? [] ) capNames.add(o);
+    const capItems = await PokemonSheet._findCompendiumItems("capacity", [...capNames]);
+    // Aplica o valor numérico (se vier de Outras com formato "Nome N")
+    itemsToCreate.push(...capItems);
+
+    // Capacidades numéricas (Força, Inteligência, Salto) — cria items com valor
+    for ( const [key, slug] of [["forca","Força"],["inteligencia","Inteligência"],["salto","Salto"]] ) {
+      const value = capData[key];
+      if ( value == null ) continue;
+      const items = await PokemonSheet._findCompendiumItems("capacity", [slug]);
+      for ( const it of items ) {
+        if ( !it.system ) it.system = {};
+        it.system.value = value;
+      }
+      itemsToCreate.push(...items);
+    }
+
+    // Deslocamentos como capacidades especiais com valor
+    const deslocamentos = sys.deslocamentos ?? {};
+    for ( const [key, slug] of [
+      ["terrestre","Terrestre"],["natacao","Natação"],["voo","Voo"],
+      ["escavacao","Escavação"],["subaquatico","Subaquático"]
+    ] ) {
+      const val = deslocamentos[key];
+      if ( val == null ) continue;
+      const items = await PokemonSheet._findCompendiumItems("capacity", [slug]);
+      for ( const it of items ) {
+        if ( !it.system ) it.system = {};
+        it.system.value = val;
+      }
+      itemsToCreate.push(...items);
+    }
+
+    if ( itemsToCreate.length ) {
+      await this.actor.createEmbeddedDocuments("Item", itemsToCreate);
+    }
+
     ui.notifications?.info(
       game.i18n.format("POKEMON_RPG.Species_Applied", { name: speciesItem.name })
+      + ` (${itemsToCreate.length} item(s) adicionado(s))`
     );
+  }
+
+  /**
+   * Procura items no(s) compendium(s) por nome exato.
+   * Retorna array de objects (clones serializáveis) prontos para
+   * `createEmbeddedDocuments`.
+   */
+  static async _findCompendiumItems(type, names) {
+    if ( !names || !names.length ) return [];
+    const wanted = new Set(names.map(n => String(n).trim().toLowerCase()).filter(Boolean));
+    if ( !wanted.size ) return [];
+    const itemPacks = (game.packs ?? []).filter(p => p.metadata?.type === "Item");
+    const found = [];
+    const foundNames = new Set();
+    for ( const pack of itemPacks ) {
+      if ( foundNames.size === wanted.size ) break;
+      try {
+        const index = await pack.getIndex({ fields: ["type"] });
+        for ( const entry of index ) {
+          if ( entry.type !== type ) continue;
+          const norm = String(entry.name).trim().toLowerCase();
+          if ( !wanted.has(norm) || foundNames.has(norm) ) continue;
+          const doc = await pack.getDocument(entry._id);
+          if ( doc ) {
+            found.push(doc.toObject());
+            foundNames.add(norm);
+          }
+        }
+      } catch (err) {
+        console.warn(`pokemon-rpg | falha ao buscar em ${pack.collection}:`, err);
+      }
+    }
+    if ( foundNames.size < wanted.size ) {
+      const missing = [...wanted].filter(n => !foundNames.has(n));
+      console.warn(`pokemon-rpg | não encontrados (${type}): ${missing.join(", ")}`);
+    }
+    return found;
   }
 
   /**

@@ -1,0 +1,146 @@
+{
+  "name": "Foongus",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 590,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 5,
+      "spa": 6,
+      "spd": 6,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Encolhimento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Esporulação"
+    ],
+    "altasHabilidades": [
+      "Regeneração"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Megadreno"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Enraizar"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Gigadreno"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Toxicidade"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Fumaça"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Pó Irritante"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Esporos"
+      }
+    ],
+    "golpesHerdados": [
+      "Crescimento",
+      "Defesa Fechada",
+      "Esporos Paralisantes",
+      "Pancada",
+      "Pó Venenoso",
+      "Resistência",
+      "Rolagem",
+      "Vômito"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Depois de Você",
+      "Fotossíntese",
+      "Gigadreno",
+      "Semente Irritante",
+      "Trapaça",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

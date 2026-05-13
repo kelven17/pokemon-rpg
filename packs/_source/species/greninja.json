@@ -1,0 +1,167 @@
+{
+  "name": "Greninja",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 658,
+    "types": {
+      "primary": "water",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 7,
+      "spa": 5,
+      "spd": 7,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 5,
+      "salto": 5,
+      "outras": [
+        "Manancial",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Profundo"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Shuriken Aquática"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Espinhos"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Substituição"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Extrassensorial"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 68,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 70,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 77,
+        "trigger": "level",
+        "move": "Emboscada"
+      }
+    ],
+    "golpesHerdados": [
+      "Camuflagem",
+      "Espinhos Tóxicos",
+      "Esporte Aquático",
+      "Esporte Terrestre",
+      "Leitura Mental",
+      "Oferenda"
+    ],
+    "golpesEnsinaveis": [
+      "Canhão de Água",
+      "Destruição",
+      "Emboscada",
+      "Furto",
+      "Interpretação",
+      "Lançamento",
+      "Levantar o Tapete",
+      "Nevoeiro",
+      "Ódio",
+      "Pilar de Água",
+      "Pular",
+      "Pulso d’Água",
+      "Rasteira",
+      "Soco de Gelo",
+      "Sujeira",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Froakie",
+        "to": "Frogadier",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Frogadier",
+        "to": "Greninja",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

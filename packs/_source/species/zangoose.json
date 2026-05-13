@@ -1,0 +1,163 @@
+{
+  "name": "Zangoose",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 335,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 12,
+      "def": 6,
+      "spa": 6,
+      "spd": 6,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Metabolização"
+    ],
+    "altasHabilidades": [
+      "Alucinógeno"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Garra Esmagadora"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Corte Falso"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Confisco"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      }
+    ],
+    "golpesHerdados": [
+      "Cauda de Ferro",
+      "Contra-Ataque",
+      "Batida Dupla",
+      "Chute Duplo",
+      "Desabilitar",
+      "Emboscada",
+      "Finta",
+      "Garras Furiosas",
+      "Lâmina de Vento",
+      "Maldição",
+      "Mangual",
+      "Metalizar Garra",
+      "Prevenção",
+      "Sacrifício"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Esforço",
+      "Gigadreno",
+      "Nocaute",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Último Recurso",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

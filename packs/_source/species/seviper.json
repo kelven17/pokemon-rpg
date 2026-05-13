@@ -1,0 +1,175 @@
+{
+  "name": "Seviper",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 336,
+    "types": {
+      "primary": "poison",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 10,
+      "def": 6,
+      "spa": 10,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": 8,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Infiltrador"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Constrição"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Lambida"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Cauda Venenosa"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ofuscar"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Presa Venenosa"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Intensificar Veneno"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Vômito"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Dança das Espadas"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Arroto"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Enrolar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Torção"
+      }
+    ],
+    "golpesHerdados": [
+      "Careta",
+      "Castigo",
+      "Cauda de Ferro",
+      "Emboscada",
+      "Engolir",
+      "Estocagem",
+      "Garantia",
+      "Liberação",
+      "Pancada",
+      "Sacrifício",
+      "Torção",
+      "Troca"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Furto",
+      "Gigadreno",
+      "Nocaute",
+      "Sufocamento",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.7
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

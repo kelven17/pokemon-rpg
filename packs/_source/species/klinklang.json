@@ -1,0 +1,157 @@
+{
+  "name": "Klinklang",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 601,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 10,
+      "def": 12,
+      "spa": 7,
+      "spd": 9,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Eletricidade"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 9,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Mais",
+      "Menos"
+    ],
+    "altasHabilidades": [
+      "Metal Precioso"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Campo Magnético"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Moedor"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Raio Carregado"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Automação"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Tiro Espelhado"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Descarga"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Ruído"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Troca de Marcha"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Mira"
+      },
+      {
+        "level": 66,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      },
+      {
+        "level": 72,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Defesa de Ferro",
+      "Engrenagens",
+      "Gravidade",
+      "Sufocamento",
+      "Magnetização",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sinalizador"
+    ],
+    "evolucoes": [
+      {
+        "from": "Klink",
+        "to": "Klang",
+        "condition": "level",
+        "value": 35
+      },
+      {
+        "from": "Klang",
+        "to": "Klinklang",
+        "condition": "level",
+        "value": 45
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

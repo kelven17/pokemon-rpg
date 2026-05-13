@@ -1,0 +1,164 @@
+{
+  "name": "Torkoal",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 324,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 9,
+      "def": 14,
+      "spa": 9,
+      "spd": 7,
+      "spe": 2
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Afundamento",
+        "Calor"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 3,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Fumaça",
+      "Seca"
+    ],
+    "altasHabilidades": [
+      "Concha"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Poluição"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Espiral de Fogo"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Onda de Calor"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Abandono da Concha"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Inferno"
+      }
+    ],
+    "golpesHerdados": [
+      "Bocejo",
+      "Erupção",
+      "Fissura",
+      "Fumaça",
+      "Quebra Crânio",
+      "Rajada de Chamas",
+      "Resistência",
+      "Sonambulismo",
+      "Superpoder"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Depois de Você",
+      "Onda de Calor",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

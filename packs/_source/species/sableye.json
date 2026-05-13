@@ -1,0 +1,189 @@
+{
+  "name": "Sableye",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 302,
+    "types": {
+      "primary": "dark",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Amorfia",
+        "Invisibilidade",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Travessura"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Revelação"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Escuridão"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Garras Furiosas"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Detecção"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Fingimento"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Castigo"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Garra Sombria"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Trapaça"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Revogação"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Olhar Paralisante"
+      }
+    ],
+    "golpesHerdados": [
+      "Adulação",
+      "Cativar",
+      "Conspiração",
+      "Finta",
+      "Jorro Metálico",
+      "Luar",
+      "Olhar Paralisante",
+      "Pelas Costas",
+      "Recuperação",
+      "Selo",
+      "Truque"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Furto",
+      "Gravidade",
+      "Interpretação",
+      "Manto Mágico",
+      "Nocaute",
+      "Ódio",
+      "Onda de Choques",
+      "Pulso d’Água",
+      "Rasteira",
+      "Sala das Maravilhas",
+      "Sinalizador",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Trapaça",
+      "Truque",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 25
+  }
+}

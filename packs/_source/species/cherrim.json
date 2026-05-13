@@ -1,0 +1,135 @@
+{
+  "name": "Cherrim",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 421,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 6,
+      "def": 7,
+      "spa": 9,
+      "spd": 8,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Sedução"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Presente das Flores"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Dia de Sol"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Dança das Pétalas"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Tempestade de Pétalas"
+      }
+    ],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Aromaterapia",
+      "Aromatizar",
+      "Bomba de Sementes",
+      "Cócegas",
+      "Dádiva da Natureza",
+      "Defesa Fechada",
+      "Desejo de Cura",
+      "Escudo Florido",
+      "Esfera Climática",
+      "Folha Navalha",
+      "Poder da Natureza",
+      "Pulso de Cura",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Fotossíntese",
+      "Gigadreno",
+      "Mão Amiga",
+      "Semente Irritante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

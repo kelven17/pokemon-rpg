@@ -1,0 +1,159 @@
+{
+  "name": "Girafarig",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 203,
+    "types": {
+      "primary": "normal",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 8,
+      "def": 7,
+      "spa": 9,
+      "spd": 7,
+      "spe": 9
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Ininteligível"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Foco Interior",
+      "Madrugar"
+    ],
+    "altasHabilidades": [
+      "Absorção de Seiva"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Rosnado"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Feixe Psíquico"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Batida Dupla"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Cabeçada Zen"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Passar o Bastão"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Paranormal"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Chute Duplo",
+      "Derrubada",
+      "Desejo",
+      "Escudo Espelho",
+      "Espancamento",
+      "Lâmina de Vento",
+      "Manto Mágico",
+      "Olhar Paralisante",
+      "Poder Secreto",
+      "Previsão",
+      "Revelação",
+      "Troca de Habilidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Gravidade",
+      "Manto Mágico",
+      "Onda de Choques",
+      "Reciclagem",
+      "Sinalizador",
+      "Trapaça",
+      "Troca de Defesas",
+      "Troca de Forças",
+      "Troca de Habilidades",
+      "Truque",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 15,
+    "experiencia": 25
+  }
+}

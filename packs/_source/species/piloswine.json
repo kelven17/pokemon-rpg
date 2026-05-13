@@ -1,0 +1,155 @@
+{
+  "name": "Piloswine",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 221,
+    "types": {
+      "primary": "ice",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 10,
+      "def": 8,
+      "spa": 6,
+      "spd": 6,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Manto de Neve",
+      "Obtusidade"
+    ],
+    "altasHabilidades": [
+      "Gordura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Fúria"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Esporte Terrestre"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Geada"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Fúria"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Açoite"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 52,
+        "trigger": "level",
+        "move": "Nevasca"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Amnésia"
+      }
+    ],
+    "golpesHerdados": [
+      "Avalanche",
+      "Derrubada",
+      "Deslizamento de Rochas",
+      "Estaca de Gelo",
+      "Faca de Dois Gumes",
+      "Fissura",
+      "Lanças de Gelo",
+      "Liofilização",
+      "Maldição",
+      "Mordida",
+      "Pancada",
+      "Pedras Soltas",
+      "Poder Antigo",
+      "Tiro de Lama"
+    ],
+    "golpesEnsinaveis": [
+      "Bicada",
+      "Esforço",
+      "Estilhaços de Gelo",
+      "Mangual",
+      "Pedras Soltas",
+      "Poder Antigo",
+      "Poder Terreno",
+      "Superpoder",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

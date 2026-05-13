@@ -1,0 +1,146 @@
+{
+  "name": "Throh",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 538,
+    "types": {
+      "primary": "fighting",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 12,
+      "atk": 10,
+      "def": 9,
+      "spa": 3,
+      "spd": 9,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Hierarquia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Foco Interior",
+      "Tenacidade"
+    ],
+    "altasHabilidades": [
+      "Quebra Moldes"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Paciência"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Arremesso Sísmico"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Ringue"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Crítico"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Pancada"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Arremesso Circular"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Defesa Aberta"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Reversão"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Levantar o Tapete",
+      "Mão Amiga",
+      "Nocaute",
+      "Rasteira",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Sofrimento Mútuo",
+      "Sufocamento",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.3
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 30
+  }
+}

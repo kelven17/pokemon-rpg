@@ -1,0 +1,109 @@
+{
+  "name": "Victreebel",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 71,
+    "types": {
+      "primary": "grass",
+      "secondary": "poison"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 11,
+      "def": 7,
+      "spa": 10,
+      "spd": 7,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Rebento",
+        "Sedução"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Gula"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Tornado de Folhas"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      }
+    ],
+    "golpesHerdados": [
+      "Arroto",
+      "Bis",
+      "Bomba Ácida",
+      "Chicote",
+      "Cócegas",
+      "Dádiva da Natureza",
+      "Enraizar",
+      "Esfera Climática",
+      "Folhas Mágicas",
+      "Fotossíntese",
+      "Fumaça",
+      "Gigadreno",
+      "Sanguessuga",
+      "Semente Bala",
+      "Semente Irritante"
+    ],
+    "golpesEnsinaveis": [
+      "Ácido",
+      "Aromatizar",
+      "Bomba de Sementes",
+      "Chicote de Vinha",
+      "Constrição",
+      "Crescimento",
+      "Engolir",
+      "Esporos Paralisantes",
+      "Estocagem",
+      "Fotossíntese",
+      "Folha Navalha",
+      "Gigadreno",
+      "Injetar Veneno",
+      "Liberação",
+      "Nocaute",
+      "Pó Sonífero",
+      "Pó Venenoso",
+      "Porrada",
+      "Semente Irritante",
+      "Sufocamento",
+      "Torção",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "name": "Kricketune",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 402,
+    "types": {
+      "primary": "bug",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 9,
+      "def": 5,
+      "spa": 6,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 3,
+      "voo": 5,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Troca de Pele"
+    ],
+    "altasHabilidades": [
+      "Cacofonia",
+      "Técnica"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Corte Furioso"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Absorção"
+      },
+      {
+        "level": 18,
+        "trigger": "level",
+        "move": "Canção"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Corte em X"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Guincho"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Aguilhão"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Réquiem"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Esforço",
+      "Estoicismo",
+      "Nocaute",
+      "Picada",
+      "Sino da Cura",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Kriketot",
+        "to": "Kricketune",
+        "condition": "level",
+        "value": 10
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 30,
+    "experiencia": 20
+  }
+}

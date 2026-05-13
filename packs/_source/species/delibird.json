@@ -1,0 +1,93 @@
+{
+  "name": "Delibird",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 225,
+    "types": {
+      "primary": "ice",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 5,
+      "spa": 7,
+      "spd": 5,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Frio",
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 4
+    },
+    "habilidades": [
+      "Entusiasmo",
+      "Espírito Vigoroso"
+    ],
+    "altasHabilidades": [
+      "Insônia"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Presente"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Bico Broca"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Gelo",
+      "Ataque Rápido",
+      "Espinhos",
+      "Estilhaços de Gelo",
+      "Fingimento",
+      "Giro Rápido",
+      "Liofilização",
+      "Oferenda",
+      "Previsão",
+      "Raio Aurora",
+      "Saltitar",
+      "Soco de Gelo",
+      "Vento Gelado",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Ataque do Céu",
+      "Bomba de Sementes",
+      "Estrela Cadente",
+      "Pular",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sinalizador",
+      "Soco de Gelo",
+      "Soco Focalizado",
+      "Sujeira",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 20,
+    "experiencia": 20
+  }
+}

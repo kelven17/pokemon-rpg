@@ -1,0 +1,94 @@
+{
+  "name": "Chandelure",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 609,
+    "types": {
+      "primary": "ghost",
+      "secondary": "fire"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 9,
+      "spa": 15,
+      "spd": 9,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Encolhimento",
+        "Intangibilidade",
+        "Invisibilidade",
+        "Luminar"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas",
+      "Flamejante"
+    ],
+    "altasHabilidades": [
+      "Infiltrador"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Ácido",
+      "Armadura Ácida",
+      "Cativar",
+      "Compartilhar Forças",
+      "Fumaça",
+      "Nevoeiro",
+      "Onda de Calor",
+      "Resistência"
+    ],
+    "golpesEnsinaveis": [
+      "Escuridão",
+      "Esfera de Sombras",
+      "Espiral de Fogo",
+      "Feitiço",
+      "Fogo-Fátuo",
+      "Inferno",
+      "Lembrança",
+      "Maldição",
+      "Minimizar",
+      "Ódio",
+      "Onda de Calor",
+      "Onda de Choques",
+      "Poluição",
+      "Pulso Sombrio",
+      "Raio de Confusão",
+      "Rajada de Chamas",
+      "Selo",
+      "Sofrimento Mútuo",
+      "Superaquecimento",
+      "Truque"
+    ],
+    "evolucoes": [
+      {
+        "from": "Litwick",
+        "to": "Lampent",
+        "condition": "level",
+        "value": 40
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

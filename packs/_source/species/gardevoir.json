@@ -1,0 +1,186 @@
+{
+  "name": "Gardevoir",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 282,
+    "types": {
+      "primary": "psychic",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 7,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 7,
+      "salto": 2,
+      "outras": [
+        "Aura",
+        "Telecinesia",
+        "Telepatia"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Tipo"
+    ],
+    "altasHabilidades": [
+      "Telepatia"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Confusão"
+      },
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Teletransporte"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 14,
+        "trigger": "level",
+        "move": "Desejo"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Pulso de Cura"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Selo"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Previsão"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Cativar"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Hipnose"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Devorar Sonhos"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Reserva"
+      },
+      {
+        "level": 62,
+        "trigger": "level",
+        "move": "Força Lunar"
+      }
+    ],
+    "golpesHerdados": [
+      "Bis",
+      "Campo Enevoado",
+      "Desabilitar",
+      "Elementalismo",
+      "Lembrança",
+      "Olhar Paralisante",
+      "Raio de Confusão",
+      "Rancor",
+      "Sombra Traiçoeira",
+      "Troca de Habilidades",
+      "Trocar de Lugar",
+      "Vínculo do Destino"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Campo Enevoado",
+      "Cântico da Sorte",
+      "Charme",
+      "Desejo de Cura",
+      "Força Lunar",
+      "Furto",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Reciclagem",
+      "Reserva",
+      "Sala das Maravilhas",
+      "Sala Mágica",
+      "Sinalizador",
+      "Sino da Cura",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Sofrimento Mútuo",
+      "Troca de Habilidades",
+      "Truque",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Kirlia",
+        "to": "Gardevoir",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.6
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

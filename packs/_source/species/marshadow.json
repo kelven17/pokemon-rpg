@@ -1,0 +1,156 @@
+{
+  "name": "Marshadow",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 802,
+    "types": {
+      "primary": "fighting",
+      "secondary": "ghost"
+    },
+    "baseStats": {
+      "hp": 9,
+      "atk": 13,
+      "def": 8,
+      "spa": 9,
+      "spd": 9,
+      "spe": 13
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Alcance",
+        "Aura"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 7,
+      "voo": 10,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Técnica"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Soco de Drenagem"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Repuxo"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Finta"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Chute Giratório"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Imitação"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Soco Sombrio"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Interpretação"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Voadora"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Profundezas da Escuridão"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Corpo a Corpo"
+      },
+      {
+        "level": 56,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Concentração",
+      "Esforço",
+      "Furto",
+      "Garantia",
+      "Gravata",
+      "Interpretação",
+      "Nocaute",
+      "Pular",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Trapaça",
+      "Último Recurso",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "Litleo",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 667,
+    "types": {
+      "primary": "fire",
+      "secondary": "normal"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 5,
+      "def": 6,
+      "spa": 7,
+      "spd": 5,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "-"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Rivalidade",
+      "Tensão"
+    ],
+    "altasHabilidades": [
+      "Arrogância"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Elaborar"
+      },
+      {
+        "level": 11,
+        "trigger": "level",
+        "move": "Cabeçada"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Rugido do Rei"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Presa de Fogo"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Esforço"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Vozeirão"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Incinerar"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Superaquecimento"
+      }
+    ],
+    "golpesHerdados": [
+      "Amizade",
+      "Bocejo",
+      "Bombardeio de Chamas",
+      "Espiral de Fogo",
+      "Furto"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Esforço",
+      "Furto",
+      "Mão Amiga",
+      "Onda de Calor",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Litleo",
+        "to": "Pyroar",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 25,
+    "experiencia": 10
+  }
+}

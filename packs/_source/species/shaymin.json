@@ -1,0 +1,147 @@
+{
+  "name": "Shaymin",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 492,
+    "types": {
+      "primary": "grass",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": null,
+      "inteligencia": null,
+      "salto": null,
+      "outras": [
+        "Rebento",
+        "Telepatia Rebento",
+        "Telepatia Lendárias Multiforma Multiforma"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": null,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Recuperação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Crescimento"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Folhas Mágicas"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Aromatizar"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Dádiva da Natureza"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Corte Aéreo"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Esfera de Energia"
+      },
+      {
+        "level": 82,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 91,
+        "trigger": "level",
+        "move": "Desejo de Cura"
+      },
+      {
+        "level": 91,
+        "trigger": "level",
+        "move": "Tempestade de Folhas"
+      },
+      {
+        "level": 100,
+        "trigger": "level",
+        "move": "Semente Ofuscante"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Cauda de Vento",
+      "Cobiça",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Poder Terreno",
+      "Semente Irritante",
+      "Último Recurso"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.2
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Swadloon",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 541,
+    "types": {
+      "primary": "bug",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 9,
+      "spa": 5,
+      "spd": 8,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Adesão",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Carapaça",
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Proteção Vegetal"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Agilidade",
+      "Corte Aéreo",
+      "Passar o Bastão",
+      "Camuflagem",
+      "Primeiro Eu",
+      "Leitura Mental",
+      "Lâmina de Vento",
+      "Guincho",
+      "Vento Prateado"
+    ],
+    "golpesEnsinaveis": [
+      "Apito de Folha",
+      "Bomba de Sementes",
+      "Defesa de Ferro",
+      "Folha Navalha",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Picada",
+      "Semente Irritante",
+      "Sinalizador",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [
+      {
+        "from": "Sewaddle",
+        "to": "Swadloon",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Swadloon",
+        "to": "Leavanny",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 10
+  }
+}

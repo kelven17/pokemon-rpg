@@ -1,0 +1,166 @@
+{
+  "name": "Cryogonal",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 615,
+    "types": {
+      "primary": "ice",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 7,
+      "atk": 5,
+      "def": 3,
+      "spa": 10,
+      "spd": 14,
+      "spe": 11
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 1,
+      "outras": [
+        "Congelação",
+        "Frio",
+        "Geleira"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": 3,
+      "voo": 7,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Levitação"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Estilhaços de Gelo"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Quinas Pontudas"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Sufocamento"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Vento Gelado"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Neblina"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Nevoeiro"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Raio Aurora"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Armadura Ácida"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Raio de Gelo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Retalhar"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Raio de Confusão"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Liofilização"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Raio Solar"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Emboscada"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Zero Absoluto"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Emboscada",
+      "Manto Mágico",
+      "Nocaute",
+      "Pulso d’Água",
+      "Sinalizador",
+      "Sufocamento",
+      "Vento Gelado",
+      "Zero Absoluto"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Muito Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 25
+  }
+}

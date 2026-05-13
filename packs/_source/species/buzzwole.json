@@ -1,0 +1,153 @@
+{
+  "name": "Buzzwole",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 794,
+    "types": {
+      "primary": "bug",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 11,
+      "atk": 14,
+      "def": 14,
+      "spa": 5,
+      "spd": 5,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 10,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "- Lendárias Ultrabesta"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 4,
+      "voo": 14,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Ultrabesta"
+    ],
+    "altasHabilidades": [],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Reversão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Soco Energizado"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Soco Cometa"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Ringue"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Sanguessuga"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Megassoco"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Contra-Ataque"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Estocada"
+      },
+      {
+        "level": 59,
+        "trigger": "level",
+        "move": "Soco Dinâmico"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 73,
+        "trigger": "level",
+        "move": "Soco Focalizado"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Aguilhão",
+      "Cabeça de Ferro",
+      "Cólera",
+      "Esforço",
+      "Pancada Dupla",
+      "Picada",
+      "Pular",
+      "Soco de Drenagem",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder",
+      "Ultraje"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 2.4
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

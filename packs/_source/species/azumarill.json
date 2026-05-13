@@ -1,0 +1,169 @@
+{
+  "name": "Azumarill",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 184,
+    "types": {
+      "primary": "water",
+      "secondary": "fairy"
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 5,
+      "def": 8,
+      "spa": 6,
+      "spd": 8,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 4,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "natacao": 10,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Gordura",
+      "Poder Gigantesco"
+    ],
+    "altasHabilidades": [
+      "Absorção de Seiva"
+    ],
+    "learnset": [
+      {
+        "level": 2,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Esporte Aquático"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mão Amiga"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Brincadeira"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Amnésia",
+      "Bis",
+      "Camuflagem",
+      "Canção",
+      "Choro",
+      "Cócegas",
+      "Ensopar",
+      "Esporte Aquático",
+      "Imitação",
+      "Míssil Aquático",
+      "Pancada",
+      "Porrada",
+      "Presente",
+      "Previsão",
+      "Refresco",
+      "Réquiem",
+      "Superpoder",
+      "Supersônico",
+      "Tambor de Pança"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Mão Amiga",
+      "Nocaute",
+      "Pular",
+      "Porrada",
+      "Pulso d’Água",
+      "Soco de Gelo",
+      "Soco Focalizado",
+      "Superpoder",
+      "Vozeirão",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Marill",
+        "to": "Azumarill",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 25,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Raticate",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 20,
+    "types": {
+      "primary": "normal",
+      "secondary": "dark"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 5,
+      "spa": 5,
+      "spd": 5,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Escalada",
+        "Faro",
+        "Silêncio"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Selvagem Urbano"
+    ],
+    "altasHabilidades": [
+      "Entusiasmo Gordura"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Careta"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Focar Energia"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Hiperpresa"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Garantia"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Mastigada"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Superpresa"
+      },
+      {
+        "level": 39,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Esforço"
+      }
+    ],
+    "golpesHerdados": [
+      "Anel de Fogo",
+      "Clamor",
+      "Contra- Ataque",
+      "Garras Furiosas",
+      "Guincho",
+      "Mordida",
+      "Primeiro Eu",
+      "Reversão",
+      "Sacrifício",
+      "Último Recurso",
+      "Vingança"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Clamor",
+      "Cobiça",
+      "Dança das Espadas",
+      "Esforço",
+      "Furto",
+      "Nocaute",
+      "Onda de Choques",
+      "Superpresa",
+      "Último Recurso",
+      "Vento Gelado. Os Raticate Selvagens adicionam Elaborar à lista. Os Raticate Urbanos adicionam Venochoque à lista. Raticate Raticate"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}

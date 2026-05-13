@@ -1,0 +1,168 @@
+{
+  "name": "Croagunk",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 453,
+    "types": {
+      "primary": "poison",
+      "secondary": "fighting"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 6,
+      "def": 4,
+      "spa": 6,
+      "spd": 4,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Adesão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Antecipação",
+      "Ressecado"
+    ],
+    "altasHabilidades": [
+      "Toque Tóxico"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Assustar"
+      },
+      {
+        "level": 3,
+        "trigger": "level",
+        "move": "Ataque de Lama"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Picada Venenosa"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Ataque Furtivo"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Vingança"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Bravata"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Bomba de Lama"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Pelas Costas"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Venochoque"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Injetar Veneno"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Bomba de Lodo"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Arroto"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Adulação"
+      }
+    ],
+    "golpesHerdados": [
+      "Acupuntura",
+      "Cabeçada",
+      "Contra- Ataque",
+      "Cruzado",
+      "Despertador",
+      "Estímulo",
+      "Fingimento",
+      "Finta",
+      "Meditação",
+      "Onda de Vácuo",
+      "Prevenção",
+      "Primeiro Eu",
+      "Soco Bala",
+      "Soco de Drenagem",
+      "Soco Dinâmico"
+    ],
+    "golpesEnsinaveis": [
+      "Furto",
+      "Interpretação",
+      "Mão Amiga",
+      "Nocaute",
+      "Ódio",
+      "Onda de Vácuo",
+      "Pancada Dupla",
+      "Pular",
+      "Rasteira",
+      "Soco de Drenagem",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Sujeira",
+      "Superpresa",
+      "Trapaça",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.7
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

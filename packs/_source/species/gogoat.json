@@ -1,0 +1,160 @@
+{
+  "name": "Gogoat",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 673,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 12,
+      "atk": 10,
+      "def": 6,
+      "spa": 10,
+      "spd": 8,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 5,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": 4,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Seiva"
+    ],
+    "altasHabilidades": [
+      "Frondoso"
+    ],
+    "learnset": [
+      {
+        "level": 0,
+        "trigger": "evolution",
+        "move": "Golpe Aéreo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Chicote de Vinha"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Semente Sanguessuga"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Semente Irritante"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Fotossíntese"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Bomba de Sementes"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Aumento de Massa"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Chifre Sanguessuga"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Lâmina Vegetal"
+      },
+      {
+        "level": 58,
+        "trigger": "level",
+        "move": "Bebida Láctea"
+      },
+      {
+        "level": 60,
+        "trigger": "level",
+        "move": "Terremoto"
+      },
+      {
+        "level": 65,
+        "trigger": "level",
+        "move": "Golpe Aéreo"
+      }
+    ],
+    "golpesHerdados": [
+      "Bebida Láctea",
+      "Defesa Fechada",
+      "Rolagem"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Fotossíntese",
+      "Gigadreno",
+      "Pular",
+      "Semente Irritante",
+      "Superpoder",
+      "Terremoto"
+    ],
+    "evolucoes": [
+      {
+        "from": "Skiddo",
+        "to": "Gogoat",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Grande",
+      "metros": 1.7
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 10,
+    "experiencia": 40
+  }
+}

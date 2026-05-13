@@ -1,0 +1,87 @@
+{
+  "name": "Florges",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 671,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 7,
+      "def": 7,
+      "spa": 11,
+      "spd": 15,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 4,
+      "voo": 8,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Véu Florido"
+    ],
+    "altasHabilidades": [
+      "Simbiose"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Camuflagem",
+      "Cativar",
+      "Imitação"
+    ],
+    "golpesEnsinaveis": [
+      "Aromaterapia",
+      "Bomba de Sementes",
+      "Campo Enevoado",
+      "Campo Gramado",
+      "Cântico da Sorte",
+      "Cobiça",
+      "Dança das Pétalas",
+      "Depois de Você",
+      "Desejo",
+      "Escudo Florido",
+      "Esforço",
+      "Folhas Mágicas",
+      "Força Lunar",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Nó de Grama",
+      "Semente Irritante",
+      "Sino da Cura",
+      "Tempestade de Pétalas",
+      "Voz Encantadora"
+    ],
+    "evolucoes": [
+      {
+        "from": "Flabébé",
+        "to": "Floette",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

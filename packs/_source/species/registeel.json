@@ -1,0 +1,145 @@
+{
+  "name": "Registeel",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 379,
+    "types": {
+      "primary": "steel",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 8,
+      "def": 15,
+      "spa": 8,
+      "spd": 15,
+      "spe": 5
+    },
+    "capacidades": {
+      "forca": 9,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Magnetismo",
+        "Térreo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 10,
+      "natacao": null,
+      "voo": null,
+      "escavacao": 6,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Metal Precioso"
+    ],
+    "altasHabilidades": [
+      "Metal Leve"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Metalizar Garra"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Pisotear"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Raio Carregado"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Tremor"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Amnésia"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Cabeça de Ferro"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Canhão de Luz"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Braço Martelo"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Mira"
+      },
+      {
+        "level": 55,
+        "trigger": "level",
+        "move": "Canhão Elétrico"
+      },
+      {
+        "level": 61,
+        "trigger": "level",
+        "move": "Superpoder"
+      },
+      {
+        "level": 67,
+        "trigger": "level",
+        "move": "Hiper-Raio"
+      }
+    ],
+    "golpesHerdados": [
+      "-"
+    ],
+    "golpesEnsinaveis": [
+      "Bloqueio",
+      "Cabeça de Ferro",
+      "Defesa de Ferro",
+      "Explosão",
+      "Gravidade",
+      "Magnetização",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Superpoder"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Enorme",
+      "metros": 1.9
+    },
+    "categoriaPeso": "Extremamente Pesado",
+    "chanceCaptura": 0,
+    "experiencia": 100
+  }
+}

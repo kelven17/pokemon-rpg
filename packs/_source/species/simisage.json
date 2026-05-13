@@ -1,0 +1,95 @@
+{
+  "name": "Simisage",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 512,
+    "types": {
+      "primary": "grass",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 10,
+      "def": 6,
+      "spa": 10,
+      "spd": 6,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Escalada",
+        "Rebento"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 7,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Gula"
+    ],
+    "altasHabilidades": [
+      "Travessura"
+    ],
+    "learnset": [],
+    "golpesHerdados": [
+      "Apito de Folha",
+      "Assustar",
+      "Cobiça",
+      "Cócegas",
+      "Conspiração",
+      "Folhas Mágicas",
+      "Interpretação",
+      "Rasteira",
+      "Semente Bala",
+      "Tempestade de Folhas",
+      "Voz Encantadora"
+    ],
+    "golpesEnsinaveis": [
+      "Acrobacias",
+      "Bomba de Sementes",
+      "Cauda de Ferro",
+      "Chicote de Vinha",
+      "Clamor",
+      "Cobiça",
+      "Dádiva da Natureza",
+      "Esforço",
+      "Fotossíntese",
+      "Gigadreno",
+      "Interpretação",
+      "Lançamento",
+      "Mão Amiga",
+      "Mastigada",
+      "Mordida",
+      "Nó de Grama",
+      "Nocaute",
+      "Planta Mortal",
+      "Rasteira",
+      "Reciclagem",
+      "Semente Irritante",
+      "Semente Sanguessuga",
+      "Simpatia",
+      "Soco Focalizado",
+      "Sujeira",
+      "Superpoder",
+      "Tormento",
+      "Vômito"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.1
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

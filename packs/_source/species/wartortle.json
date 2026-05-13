@@ -1,0 +1,161 @@
+{
+  "name": "Wartortle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 8,
+    "types": {
+      "primary": "water",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 8,
+      "spa": 7,
+      "spd": 8,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 6,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Prato de Chuva"
+    ],
+    "altasHabilidades": [
+      "Franco-Atirador"
+    ],
+    "learnset": [
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Quebra Crânio"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 49,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Anel de Água",
+      "Bocejo",
+      "Escudo Espelho",
+      "Esfera da Aura",
+      "Esguicho",
+      "Esporte Terrestre",
+      "Fingimento",
+      "Mangual",
+      "Míssil Aquático",
+      "Neblina",
+      "Nevoeiro",
+      "Pulso do Dragão",
+      "Refresco",
+      "Revelação",
+      "Salmoura"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Canhão de Água",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Pilar de Água",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Soco Focalizado",
+      "Soco de Gelo",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Squirtle",
+        "to": "Wartortle",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Wartortle",
+        "to": "Blastoise",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.0
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "Blissey",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 242,
+    "types": {
+      "primary": "normal",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 26,
+      "atk": 1,
+      "def": 1,
+      "spa": 8,
+      "spd": 14,
+      "spe": 6
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 3,
+      "outras": [
+        "Incubação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 8,
+      "natacao": 3,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Graça Serena",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Cura"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Tapa Duplo"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Postura de Ovos"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Oferenda"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Minimizar"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Derrubada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Canção"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Lançamento"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Pulso de Cura"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Ovo Bomba"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Desejo de Cura"
+      },
+      {
+        "level": 54,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      }
+    ],
+    "golpesHerdados": [
+      "Aromaterapia",
+      "Arremesso Sísmico",
+      "Bomba de Lama",
+      "Contra-Ataque",
+      "Dádiva da Natureza",
+      "Gravidade",
+      "Mão Amiga",
+      "Metrônomo",
+      "Presente",
+      "Resistência",
+      "Sino da Cura",
+      "Último Recurso"
+    ],
+    "golpesEnsinaveis": [
+      "Beijo Doce",
+      "Bloqueio",
+      "Cabeçada Zen",
+      "Cauda de Ferro",
+      "Charme",
+      "Clamor",
+      "Cobiça",
+      "Esforço",
+      "Faca de Dois Gumes",
+      "Furto",
+      "Gravidade",
+      "Imitação",
+      "Mão Amiga",
+      "Onda de Choques",
+      "Pedras Soltas",
+      "Pulso d’Água",
+      "Reciclagem",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Soco de Fogo",
+      "Soco de Gelo",
+      "Soco do Trovão",
+      "Soco Focalizado",
+      "Troca de Habilidades",
+      "Último Recurso",
+      "Vento Gelado",
+      "Vozeirão"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 1.5
+    },
+    "categoriaPeso": "Médio",
+    "chanceCaptura": 5,
+    "experiencia": 50
+  }
+}

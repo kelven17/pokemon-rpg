@@ -1,0 +1,157 @@
+{
+  "name": "Aromatisse",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 683,
+    "types": {
+      "primary": "fairy",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 10,
+      "atk": 7,
+      "def": 7,
+      "spa": 10,
+      "spd": 9,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 2,
+      "outras": [
+        "Faro"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 4,
+      "voo": 2,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Cura"
+    ],
+    "altasHabilidades": [
+      "Véu Aromático"
+    ],
+    "learnset": [
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Beijo Doce"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Farejar"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Mente Calma"
+      },
+      {
+        "level": 21,
+        "trigger": "level",
+        "move": "Beijo Drenante"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Aromaterapia"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Atração"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Força Lunar"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Charme"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Campo Enevoado"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Troca de Habilidades"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Paranormal"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Voz Encantadora"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Refletor"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Elevação da Mente"
+      }
+    ],
+    "golpesHerdados": [
+      "Cativar",
+      "Desabilitar",
+      "Desejo",
+      "Refresco"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Depois de Você",
+      "Esforço",
+      "Manto Mágico",
+      "Mão Amiga",
+      "Névoa Aromática",
+      "Pulso de Cura",
+      "Sino da Cura",
+      "Soco de Drenagem",
+      "Troca de Habilidades"
+    ],
+    "evolucoes": [
+      {
+        "from": "Spritzee",
+        "to": "Aromatisse",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "name": "Sewaddle",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 540,
+    "types": {
+      "primary": "bug",
+      "secondary": "grass"
+    },
+    "baseStats": {
+      "hp": 5,
+      "atk": 5,
+      "def": 7,
+      "spa": 4,
+      "spd": 6,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 2,
+      "salto": 2,
+      "outras": [
+        "Adesão",
+        "Fiação"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 2,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Carapaça",
+      "Clorofila"
+    ],
+    "altasHabilidades": [
+      "Polvilhar"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Lançar Teia"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Picada"
+      },
+      {
+        "level": 15,
+        "trigger": "level",
+        "move": "Folha Navalha"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Estoicismo"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Zumbido"
+      },
+      {
+        "level": 43,
+        "trigger": "level",
+        "move": "Mangual"
+      }
+    ],
+    "golpesHerdados": [
+      "Agilidade",
+      "Corte Aéreo",
+      "Passar o Bastão",
+      "Camuflagem",
+      "Primeiro Eu",
+      "Leitura Mental",
+      "Lâmina de Vento",
+      "Guincho",
+      "Vento Prateado"
+    ],
+    "golpesEnsinaveis": [
+      "Bomba de Sementes",
+      "Defesa de Ferro",
+      "Fotossíntese",
+      "Gigadreno",
+      "Manto Mágico",
+      "Picada",
+      "Semente Irritante",
+      "Sinalizador",
+      "Teia Elétrica"
+    ],
+    "evolucoes": [
+      {
+        "from": "Sewaddle",
+        "to": "Swadloon",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Swadloon",
+        "to": "Leavanny",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.3
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 45,
+    "experiencia": 5
+  }
+}

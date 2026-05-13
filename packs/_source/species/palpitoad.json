@@ -1,0 +1,150 @@
+{
+  "name": "Palpitoad",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 536,
+    "types": {
+      "primary": "water",
+      "secondary": "ground"
+    },
+    "baseStats": {
+      "hp": 8,
+      "atk": 7,
+      "def": 6,
+      "spa": 7,
+      "spd": 6,
+      "spe": 7
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 4,
+      "salto": 4,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 6
+    },
+    "habilidades": [
+      "Hidratação",
+      "Velocidade na Água"
+    ],
+    "altasHabilidades": [
+      "Absorção de Água"
+    ],
+    "learnset": [
+      {
+        "level": 5,
+        "trigger": "level",
+        "move": "Supersônico"
+      },
+      {
+        "level": 9,
+        "trigger": "level",
+        "move": "Harmonia"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Tiro de Lama"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Clamor"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Água Barrenta"
+      },
+      {
+        "level": 33,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Mangual"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Eco"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      },
+      {
+        "level": 51,
+        "trigger": "level",
+        "move": "Vozeirão"
+      }
+    ],
+    "golpesHerdados": [
+      "Bomba de Lama",
+      "Depois de Você",
+      "Esporte Terrestre",
+      "Neblina",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Refresco",
+      "Ronco",
+      "Sonambulismo"
+    ],
+    "golpesEnsinaveis": [
+      "Clamor",
+      "Depois de Você",
+      "Esforço",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pular",
+      "Pulso d’Água",
+      "Soco Focalizado",
+      "Vento Gelado",
+      "Vômito",
+      "Vozeirão"
+    ],
+    "evolucoes": [
+      {
+        "from": "Tympole",
+        "to": "Palpitoad",
+        "condition": "level",
+        "value": 20
+      },
+      {
+        "from": "Palpitoad",
+        "to": "Seismitoad",
+        "condition": "level",
+        "value": 35
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.8
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

@@ -1,31 +1,166 @@
 {
   "name": "Squirtle",
   "type": "species",
-  "img": "icons/svg/water.svg",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
-    "description": "<p>Um Pokémon do tipo Água, com uma carapaça resistente que protege seu corpo.</p>",
+    "description": "",
     "dexNumber": 7,
     "types": {
       "primary": "water",
       "secondary": null
     },
     "baseStats": {
-      "hp": 44,
-      "atk": 48,
-      "def": 65,
-      "spa": 50,
-      "spd": 64,
-      "spe": 43
+      "hp": 4,
+      "atk": 5,
+      "def": 7,
+      "spa": 5,
+      "spd": 6,
+      "spe": 4
     },
-    "learnset": [
-      { "level": 1, "moveSlug": "tackle" },
-      { "level": 1, "moveSlug": "growl" },
-      { "level": 3, "moveSlug": "water-gun" }
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Manancial"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 5
+    },
+    "habilidades": [
+      "Prato de Chuva"
     ],
-    "possibleAbilities": ["torrent"],
-    "naturalCapacities": ["overland", "swimmer", "keen-senses"],
-    "evolutions": [
-      { "targetSlug": "wartortle", "condition": "level", "value": "16" }
-    ]
+    "altasHabilidades": [
+      "Franco-Atirador"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Retirada"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Jato d’Água"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Mordida"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Giro Rápido"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Proteção"
+      },
+      {
+        "level": 25,
+        "trigger": "level",
+        "move": "Pulso d’Água"
+      },
+      {
+        "level": 28,
+        "trigger": "level",
+        "move": "Cauda de Água"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Quebra Crânio"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 37,
+        "trigger": "level",
+        "move": "Dança da Chuva"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Hidrobomba"
+      }
+    ],
+    "golpesHerdados": [
+      "Água Barrenta",
+      "Anel de Água",
+      "Bocejo",
+      "Escudo Espelho",
+      "Esfera da Aura",
+      "Esguicho",
+      "Esporte Terrestre",
+      "Fingimento",
+      "Mangual",
+      "Míssil Aquático",
+      "Neblina",
+      "Nevoeiro",
+      "Pulso do Dragão",
+      "Refresco",
+      "Revelação",
+      "Salmoura"
+    ],
+    "golpesEnsinaveis": [
+      "Cabeçada Zen",
+      "Canhão de Água",
+      "Cauda de Água",
+      "Cauda de Ferro",
+      "Defesa de Ferro",
+      "Pilar de Água",
+      "Pulso d’Água",
+      "Pulso do Dragão",
+      "Soco Focalizado",
+      "Soco de Gelo",
+      "Vento Gelado"
+    ],
+    "evolucoes": [
+      {
+        "from": "Squirtle",
+        "to": "Wartortle",
+        "condition": "level",
+        "value": 15
+      },
+      {
+        "from": "Wartortle",
+        "to": "Blastoise",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.5
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 15
   }
 }

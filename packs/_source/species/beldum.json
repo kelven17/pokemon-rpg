@@ -1,0 +1,73 @@
+{
+  "name": "Beldum",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 374,
+    "types": {
+      "primary": "steel",
+      "secondary": "psychic"
+    },
+    "baseStats": {
+      "hp": 4,
+      "atk": 6,
+      "def": 8,
+      "spa": 4,
+      "spd": 6,
+      "spe": 3
+    },
+    "capacidades": {
+      "forca": 3,
+      "inteligencia": 5,
+      "salto": 1,
+      "outras": [
+        "Afundamento",
+        "Magnetismo"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 1,
+      "natacao": null,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Metal Precioso"
+    ],
+    "altasHabilidades": [
+      "Metal Leve"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Derrubada"
+      }
+    ],
+    "golpesHerdados": [
+      "Cabeça de Ferro",
+      "Cabeçada Zen",
+      "Defesa de Ferro"
+    ],
+    "golpesEnsinaveis": [
+      "- Beldum não aprende os Golpes Universais"
+    ],
+    "evolucoes": [
+      {
+        "from": "Beldum",
+        "to": "Metang",
+        "condition": "level",
+        "value": 20
+      }
+    ],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Pesado",
+    "chanceCaptura": 15,
+    "experiencia": 15
+  }
+}

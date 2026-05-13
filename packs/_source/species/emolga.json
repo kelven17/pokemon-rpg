@@ -1,0 +1,153 @@
+{
+  "name": "Emolga",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 587,
+    "types": {
+      "primary": "electric",
+      "secondary": "flying"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 8,
+      "def": 6,
+      "spa": 8,
+      "spd": 6,
+      "spe": 10
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 4,
+      "salto": 5,
+      "outras": [
+        "Eletricidade",
+        "Escalada"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 6,
+      "natacao": 2,
+      "voo": 6,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Eletricidade Estática"
+    ],
+    "altasHabilidades": [
+      "Motorização"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Choque do Trovão"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 7,
+        "trigger": "level",
+        "move": "Abanar Rabo"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Carga"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Faísca"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Perseguição"
+      },
+      {
+        "level": 19,
+        "trigger": "level",
+        "move": "Multiplicar"
+      },
+      {
+        "level": 22,
+        "trigger": "level",
+        "move": "Onda de Choques"
+      },
+      {
+        "level": 26,
+        "trigger": "level",
+        "move": "Esfera Elétrica"
+      },
+      {
+        "level": 30,
+        "trigger": "level",
+        "move": "Acrobacias"
+      },
+      {
+        "level": 34,
+        "trigger": "level",
+        "move": "Tela de Luz"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Bis"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Troca de Bateria"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Descarga"
+      }
+    ],
+    "golpesHerdados": [
+      "Assustar",
+      "Cauda de Ferro",
+      "Charme",
+      "Cobiça",
+      "Cócegas",
+      "Corte Aéreo",
+      "Dilúvio Iônico",
+      "Empoleirar",
+      "Onda de Choques",
+      "Passar o Bastão",
+      "Troca de Velocidades"
+    ],
+    "golpesEnsinaveis": [
+      "Cauda de Ferro",
+      "Cauda de Vento",
+      "Cobiça",
+      "Mão Amiga",
+      "Nocaute",
+      "Onda de Choques",
+      "Sinalizador",
+      "Teia Elétrica",
+      "Último Recurso",
+      "Vento Cortante"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.4
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 30,
+    "experiencia": 15
+  }
+}

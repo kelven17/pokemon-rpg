@@ -1,0 +1,153 @@
+{
+  "name": "Quilava",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 156,
+    "types": {
+      "primary": "fire",
+      "secondary": null
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 6,
+      "spa": 8,
+      "spd": 7,
+      "spe": 8
+    },
+    "capacidades": {
+      "forca": 2,
+      "inteligencia": 3,
+      "salto": 3,
+      "outras": [
+        "Afundamento",
+        "Calor",
+        "Combustão"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 7,
+      "natacao": null,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": null
+    },
+    "habilidades": [
+      "Absorção de Chamas"
+    ],
+    "altasHabilidades": [
+      "Flamejante"
+    ],
+    "learnset": [
+      {
+        "level": 6,
+        "trigger": "level",
+        "move": "Cortina de Fumaça"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Brasa"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Ataque Rápido"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Anel de Fogo"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Defesa Fechada"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Estrela Cadente"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Ataque de Chamas"
+      },
+      {
+        "level": 42,
+        "trigger": "level",
+        "move": "Bruma de Lava"
+      },
+      {
+        "level": 46,
+        "trigger": "level",
+        "move": "Lança-Chamas"
+      },
+      {
+        "level": 53,
+        "trigger": "level",
+        "move": "Inferno"
+      },
+      {
+        "level": 57,
+        "trigger": "level",
+        "move": "Rolagem"
+      },
+      {
+        "level": 64,
+        "trigger": "level",
+        "move": "Faca de Dois Gumes"
+      },
+      {
+        "level": 68,
+        "trigger": "level",
+        "move": "Última Chama"
+      },
+      {
+        "level": 75,
+        "trigger": "level",
+        "move": "Erupção"
+      }
+    ],
+    "golpesHerdados": [
+      "Açoite",
+      "Ataque Rápido",
+      "Bombardeio de Chamas",
+      "Cobiça",
+      "Chute Duplo",
+      "Extrassensorial",
+      "Faca de Dois Gumes",
+      "Garra Esmagadora",
+      "Garras Furiosas",
+      "Poder da Natureza",
+      "Rajada de Chamas",
+      "Revelação",
+      "Reversão",
+      "Uivo"
+    ],
+    "golpesEnsinaveis": [
+      "Cobiça",
+      "Incêndio",
+      "Onda de Calor",
+      "Pilar de Chamas"
+    ],
+    "evolucoes": [
+      {
+        "from": "Quilava",
+        "to": "Typhlosion",
+        "condition": "level",
+        "value": 30
+      }
+    ],
+    "tamanho": {
+      "categoria": "Médio",
+      "metros": 0.9
+    },
+    "categoriaPeso": "Leve",
+    "chanceCaptura": 10,
+    "experiencia": 30
+  }
+}

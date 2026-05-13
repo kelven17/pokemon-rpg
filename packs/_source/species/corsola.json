@@ -1,0 +1,169 @@
+{
+  "name": "Corsola",
+  "type": "species",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "description": "",
+    "dexNumber": 222,
+    "types": {
+      "primary": "water",
+      "secondary": "rock"
+    },
+    "baseStats": {
+      "hp": 6,
+      "atk": 6,
+      "def": 9,
+      "spa": 7,
+      "spd": 9,
+      "spe": 4
+    },
+    "capacidades": {
+      "forca": 1,
+      "inteligencia": 3,
+      "salto": 2,
+      "outras": [
+        "Guelras"
+      ]
+    },
+    "deslocamentos": {
+      "terrestre": 4,
+      "natacao": 8,
+      "voo": null,
+      "escavacao": null,
+      "subaquatico": 8
+    },
+    "habilidades": [
+      "Entusiasmo",
+      "Recuperação"
+    ],
+    "altasHabilidades": [
+      "Regeneração"
+    ],
+    "learnset": [
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Endurecer"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Investida"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Bolha"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Recuperação"
+      },
+      {
+        "level": 10,
+        "trigger": "level",
+        "move": "Rajada de Bolhas"
+      },
+      {
+        "level": 13,
+        "trigger": "level",
+        "move": "Refresco"
+      },
+      {
+        "level": 17,
+        "trigger": "level",
+        "move": "Poder Antigo"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Canhão de Espinhos"
+      },
+      {
+        "level": 23,
+        "trigger": "level",
+        "move": "Cântico da Sorte"
+      },
+      {
+        "level": 27,
+        "trigger": "level",
+        "move": "Salmoura"
+      },
+      {
+        "level": 29,
+        "trigger": "level",
+        "move": "Defesa de Ferro"
+      },
+      {
+        "level": 31,
+        "trigger": "level",
+        "move": "Detonação"
+      },
+      {
+        "level": 35,
+        "trigger": "level",
+        "move": "Resistência"
+      },
+      {
+        "level": 38,
+        "trigger": "level",
+        "move": "Anel de Água"
+      },
+      {
+        "level": 41,
+        "trigger": "level",
+        "move": "Joia do Poder"
+      },
+      {
+        "level": 45,
+        "trigger": "level",
+        "move": "Escudo Espelho"
+      },
+      {
+        "level": 47,
+        "trigger": "level",
+        "move": "Poder Terreno"
+      },
+      {
+        "level": 50,
+        "trigger": "level",
+        "move": "Mangual"
+      }
+    ],
+    "golpesHerdados": [
+      "Amnésia",
+      "Anel de Água",
+      "Barreira",
+      "Camuflagem",
+      "Enraizar",
+      "Guincho",
+      "Inundação",
+      "Investida de Cabeça",
+      "Lanças de Gelo",
+      "Maldição",
+      "Neblina",
+      "Paciência",
+      "Poder da Natureza",
+      "Pulso d’Água",
+      "Raio de Confusão"
+    ],
+    "golpesEnsinaveis": [
+      "Defesa de Ferro",
+      "Esforço",
+      "Manto Mágico",
+      "Pedras Soltas",
+      "Poder Terreno",
+      "Pulso d’Água",
+      "Vento Gelado"
+    ],
+    "evolucoes": [],
+    "tamanho": {
+      "categoria": "Pequeno",
+      "metros": 0.6
+    },
+    "categoriaPeso": "Muito Leve",
+    "chanceCaptura": 20,
+    "experiencia": 30
+  }
+}
