@@ -120,6 +120,21 @@
       "Hint":     "Selvagem usa HP × 3, Capturado usa HP × 4. Alterna automaticamente ao entrar/sair de uma party."
     },
 
+    "Attributes": "Atributos",
+
+    "Phase": {
+      "Label":         "Fase",
+      "Up":            "Subir Fase",
+      "Down":          "Reduzir Fase",
+      "Reset":         "Zerar Fase",
+      "ResetHint":     "Clique para zerar a Fase deste atributo",
+      "ResetAll":      "Zerar Fases",
+      "ResetAllHint":  "Zera todas as Fases dos atributos (fim de encontro).",
+      "EffectiveHint": "Valor efetivo após aplicação do multiplicador da Fase",
+      "DeslocamentoBonus": "Bônus de Deslocamento",
+      "FromSpeedPhase":    "via Fase de Velocidade"
+    },
+
     "Aptidao": {
       "Label":       "Aptidão",
       "Beleza":      "Beleza",

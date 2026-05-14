@@ -120,6 +120,21 @@
       "Hint":     "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
     },
 
+    "Attributes": "Attributes",
+
+    "Phase": {
+      "Label":         "Phase",
+      "Up":            "Raise Phase",
+      "Down":          "Lower Phase",
+      "Reset":         "Reset Phase",
+      "ResetHint":     "Click to reset this attribute's Phase",
+      "ResetAll":      "Reset Phases",
+      "ResetAllHint":  "Resets all attribute Phases (end of encounter).",
+      "EffectiveHint": "Effective value after applying the Phase multiplier",
+      "DeslocamentoBonus": "Movement Bonus",
+      "FromSpeedPhase":    "from Speed Phase"
+    },
+
     "Aptidao": {
       "Label":       "Aptitude",
       "Beleza":      "Beauty",

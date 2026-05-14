@@ -70,22 +70,32 @@ export class PokemonData extends foundry.abstract.TypeDataModel {
   /* -------------------------------------------- */
 
   prepareDerivedData() {
-    // Para Pokémon, "mod" é o próprio valor (stats diretos).
-    // O valor já vem com o modificador da natureza aplicado pelo hook
-    // preUpdateActor (pokemon.mjs), então mod é só um espelho de value.
+    // Para Pokémon, "mod" é o próprio valor (stats diretos), com Fase aplicada.
+    // O valor original (já com delta de natureza embutido pelo hook
+    // preUpdateActor) é multiplicado pelo multiplicador da fase atual.
     for ( const [key, attr] of Object.entries(this.attributes) ) {
-      attr.mod = attr.value;
+      const mult = POKEMON_RPG.phaseMultiplier(attr.phase || 0);
+      attr.effective = Math.max(0, Math.round((attr.value ?? 0) * mult));
+      attr.mod = attr.effective;
     }
 
+    // Delta de Deslocamentos pela fase de Velocidade (apenas algumas
+    // fases concedem delta — veja POKEMON_RPG.phaseSpeedToDeslocamento).
+    this.deslocamentoBonus = POKEMON_RPG.phaseSpeedToDeslocamento(
+      this.attributes.spe?.phase || 0
+    );
+
     // HP máx do Pokémon:
-    //  - Capturado:  Saúde * 4
-    //  - Selvagem:   Saúde * 3
+    //  - Capturado:  (Saúde + Nível) × 4
+    //  - Selvagem:   (Saúde + Nível) × 3
     // Considera capturado se a flag `details.captured` estiver marcada
     // OU se houver um treinador associado (compat. com pokémons antigos).
     const isCaptured = !!this.details.captured
       || !!(this.details.trainer && this.details.trainer.length > 0);
-    const multiplier = isCaptured ? 4 : 3;
-    const computedMax = (this.attributes.hp.value ?? 0) * multiplier;
+    const multiplier  = isCaptured ? 4 : 3;
+    const hpVal       = this.attributes.hp.value ?? 0;
+    const level       = this.details?.level ?? 1;
+    const computedMax = (hpVal + level) * multiplier;
     this.hp.max = Math.max(1, computedMax);
 
     // Evasões derivadas — cada 10 pontos no atributo correspondente = +1 evasão.

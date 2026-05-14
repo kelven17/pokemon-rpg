@@ -76,17 +76,25 @@ export class TrainerData extends foundry.abstract.TypeDataModel {
    * Calcula modificadores, HP máximo, bônus de proficiência e mod das perícias.
    */
   prepareDerivedData() {
-    // 1. Modificador de cada atributo (estilo D&D).
+    // 1. Modificador de cada atributo (estilo D&D), com Fase aplicada.
+    //    O valor original (`value`) nunca muda; calculamos um valor efetivo
+    //    com o multiplicador da fase e derivamos o modificador a partir dele.
     for ( const [key, attr] of Object.entries(this.attributes) ) {
-      attr.mod = POKEMON_RPG.getModifier(attr.value);
+      const mult = POKEMON_RPG.phaseMultiplier(attr.phase || 0);
+      const effective = Math.max(0, Math.round((attr.value ?? 0) * mult));
+      attr.effective = effective;
+      attr.mod = POKEMON_RPG.getModifier(effective);
     }
 
     // 2. Bônus de proficiência por nível.
     this.proficiency = POKEMON_RPG.proficiencyByLevel(this.details.level);
 
-    // 3. HP máximo do treinador: Saúde (valor cheio, não modificador) * 4.
-    const baseHp = (this.attributes.hp.value ?? 0) * 4;
-    this.hp.max = Math.max(1, baseHp);
+    // 3. HP máximo do treinador: (Saúde + Nível) × 4.
+    //    Saúde é o valor cheio (não modificador). Nível é o nível atual.
+    const hpVal  = this.attributes.hp.value ?? 0;
+    const level  = this.details?.level ?? 1;
+    const baseHp = (hpVal + level) * 4;
+    this.hp.max  = Math.max(1, baseHp);
 
     // 3.5 Evasões derivadas — cada 10 pontos no atributo correspondente = +1 evasão.
     //  - Evasão Física    → Defesa

@@ -134,6 +134,54 @@ POKEMON_RPG.moveCategories = {
 };
 
 /* -------------------------------------------- */
+/*  Fases de Atributo                            */
+/* -------------------------------------------- */
+
+/**
+ * Multiplicadores de Fases (-6 a +6).
+ * O valor original do atributo nunca muda — esses multiplicadores são aplicados
+ * no `mod` derivado durante prepareDerivedData.
+ */
+POKEMON_RPG.phaseMultipliers = {
+  "-6": 0.40,
+  "-5": 0.50,
+  "-4": 0.60,
+  "-3": 0.70,
+  "-2": 0.80,
+  "-1": 0.90,
+   "0": 1.00,
+   "1": 1.25,
+   "2": 1.50,
+   "3": 1.75,
+   "4": 2.00,
+   "5": 2.25,
+   "6": 2.50
+};
+
+/**
+ * Delta nos Deslocamentos quando a fase é aplicada na Velocidade.
+ * Apenas alguns níveis de fase concedem delta:
+ *  -6 → -2  /  -3 → -1  /  +2 → +1  /  +4 → +2  /  +6 → +3
+ */
+POKEMON_RPG.phaseSpeedToDeslocamento = (phase) => {
+  const p = Number(phase) || 0;
+  if ( p <= -6 ) return -2;
+  if ( p <= -3 ) return -1;
+  if ( p >= 6 )  return 3;
+  if ( p >= 4 )  return 2;
+  if ( p >= 2 )  return 1;
+  return 0;
+};
+
+/**
+ * Retorna o multiplicador da fase (1.00 se inválido).
+ */
+POKEMON_RPG.phaseMultiplier = (phase) => {
+  const key = String(Math.max(-6, Math.min(6, Number(phase) || 0)));
+  return POKEMON_RPG.phaseMultipliers[key] ?? 1;
+};
+
+/* -------------------------------------------- */
 /*  Aptidões (Concursos)                         */
 /* -------------------------------------------- */
 

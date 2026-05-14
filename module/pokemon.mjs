@@ -30,6 +30,7 @@ import {
   importSpeciesIfNeeded,
   forceReimportSpecies
 } from "./setup/species-importer.mjs";
+import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -127,6 +128,10 @@ Hooks.once("init", function() {
     args.pop(); // options
     return args.some(Boolean);
   });
+  Handlebars.registerHelper("gt", (a, b) => Number(a) > Number(b));
+  Handlebars.registerHelper("lt", (a, b) => Number(a) < Number(b));
+  Handlebars.registerHelper("gte", (a, b) => Number(a) >= Number(b));
+  Handlebars.registerHelper("lte", (a, b) => Number(a) <= Number(b));
 
   // Carregar partials uma vez.
   loadTemplates([
@@ -229,5 +234,46 @@ Hooks.on("preUpdateActor", (actor, changes, options, userId) => {
                   ?? 0;
     const newVal = Math.max(0, baseVal + delta);
     foundry.utils.setProperty(changes, path, newVal);
+  }
+});
+
+/* -------------------------------------------- */
+/*  Aprendizado automático de Golpes por Nível    */
+/* -------------------------------------------- */
+
+/**
+ * Quando o nível de um Pokémon sobe, busca os golpes da learnset da espécie
+ * que estão entre (nível_antigo, nível_novo] e os adiciona como items
+ * embeddados, sem duplicar os que ele já conhece.
+ *
+ * Usa updateActor (pós-commit) pra que o nível já esteja persistido.
+ *
+ * Pode ser pulado passando `options.pkrpgSkipLearnMoves = true` no update.
+ */
+Hooks.on("updateActor", async (actor, changes, options, userId) => {
+  if ( actor.type !== "pokemon" ) return;
+  if ( options?.pkrpgSkipLearnMoves ) return;
+  // Só roda para quem fez o update (evita executar 5x num cliente compartilhado).
+  if ( game.user?.id !== userId ) return;
+  if ( !foundry.utils.hasProperty(changes, "system.details.level") ) return;
+
+  const newLevel = Number(foundry.utils.getProperty(changes, "system.details.level")) || 1;
+  // O nível antigo: como já passou pelo update, actor.system.details.level já é o novo.
+  // Calculamos o antigo a partir do diff (changes contém o NOVO valor).
+  // Aqui usamos getFlag pra rastrear o último visto.
+  const lastSeen = await actor.getFlag("pokemon-rpg", "lastLevelLearned") ?? 1;
+  if ( newLevel <= lastSeen ) {
+    // Salva o nível atual de qualquer forma pra evitar repetição
+    if ( newLevel !== lastSeen ) await actor.setFlag("pokemon-rpg", "lastLevelLearned", newLevel);
+    return;
+  }
+  try {
+    const count = await learnMovesForLevelRange(actor, newLevel, lastSeen);
+    await actor.setFlag("pokemon-rpg", "lastLevelLearned", newLevel);
+    if ( count === 0 ) {
+      console.log(`pokemon-rpg | ${actor.name} subiu pra nv ${newLevel} (nenhum golpe novo).`);
+    }
+  } catch (err) {
+    console.error("pokemon-rpg | erro ao auto-aprender golpes:", err);
   }
 });

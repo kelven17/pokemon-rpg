@@ -1,16 +1,45 @@
 <section class="tab {{#if (eq activeTab 'main')}}active{{/if}}" data-tab="main" data-group="primary">
+    <div class="attributes-header">
+        <h3 class="section-title">{{localize "POKEMON_RPG.Attributes"}}</h3>
+        <button type="button" class="reset-phases-btn" data-action="phaseResetAll"
+                title="{{localize 'POKEMON_RPG.Phase.ResetAllHint'}}">
+            <i class="fas fa-undo"></i> {{localize "POKEMON_RPG.Phase.ResetAll"}}
+        </button>
+    </div>
     <div class="attributes-grid pokemon-attrs">
         {{#each attributes as |attr key|}}
-        <div class="attribute-card pokemon-attr-card" data-attribute="{{attr.key}}">
+        <div class="attribute-card pokemon-attr-card phase-{{attr.phase}}" data-attribute="{{attr.key}}">
             <h3 class="attr-name" data-action="rollAttribute" data-attribute="{{attr.key}}">
                 {{attr.label}}
             </h3>
             <div class="attr-value">
                 <input type="number" name="system.attributes.{{attr.key}}.value" value="{{attr.value}}" data-dtype="Number" min="0"/>
             </div>
+            {{#if (neq attr.phase 0)}}
+            <div class="attr-effective" title="{{localize 'POKEMON_RPG.Phase.EffectiveHint'}}">
+                = {{attr.effective}}
+            </div>
+            {{/if}}
+            <div class="attr-phase-row">
+                <button type="button" class="phase-btn phase-down" data-action="phaseDown"
+                        data-attribute="{{attr.key}}" title="{{localize 'POKEMON_RPG.Phase.Down'}}">−</button>
+                <span class="phase-badge" data-action="phaseReset" data-attribute="{{attr.key}}"
+                      title="{{localize 'POKEMON_RPG.Phase.ResetHint'}}">{{#if (gt attr.phase 0)}}+{{/if}}{{attr.phase}}</span>
+                <button type="button" class="phase-btn phase-up" data-action="phaseUp"
+                        data-attribute="{{attr.key}}" title="{{localize 'POKEMON_RPG.Phase.Up'}}">+</button>
+            </div>
         </div>
         {{/each}}
     </div>
+
+    {{#if (neq system.deslocamentoBonus 0)}}
+    <div class="deslocamento-bonus-note">
+        <i class="fas fa-wind"></i>
+        {{localize "POKEMON_RPG.Phase.DeslocamentoBonus"}}:
+        <strong>{{#if (gt system.deslocamentoBonus 0)}}+{{/if}}{{system.deslocamentoBonus}}</strong>
+        ({{localize "POKEMON_RPG.Phase.FromSpeedPhase"}})
+    </div>
+    {{/if}}
 
     <div class="effectiveness-row">
         <fieldset class="effectiveness-block weaknesses">

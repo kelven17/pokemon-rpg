@@ -1,4 +1,6 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
+import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
+import { findItemsByName } from "../helpers/compendium-lookup.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -23,6 +25,10 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       resetMovesDaily: PokemonSheet._onResetMovesDaily,
       openTrainer: PokemonSheet._onOpenTrainer,
       applySpecies: PokemonSheet._onApplySpecies,
+      phaseUp: PokemonSheet._onPhaseUp,
+      phaseDown: PokemonSheet._onPhaseDown,
+      phaseReset: PokemonSheet._onPhaseReset,
+      phaseResetAll: PokemonSheet._onPhaseResetAll,
       tab: PokemonSheet._onChangeTab
     },
     form: {
@@ -415,13 +421,13 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       const learn = (trigger === "evolution") ? isEvolved : (pokeLevel >= level);
       if ( learn && entry.move ) moveNames.add(entry.move);
     }
-    const moveItems = await PokemonSheet._findCompendiumItems("move", [...moveNames]);
+    const moveItems = await findItemsByName("move", [...moveNames]);
     itemsToCreate.push(...moveItems);
 
     // 3.2. Habilidade — pega a primeira da lista de habilidades comuns
     const habilidades = sys.habilidades ?? [];
     if ( habilidades.length > 0 ) {
-      const abilityItems = await PokemonSheet._findCompendiumItems("ability", [habilidades[0]]);
+      const abilityItems = await findItemsByName("ability", [habilidades[0]]);
       itemsToCreate.push(...abilityItems);
     }
 
@@ -429,7 +435,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const capData = sys.capacidades ?? {};
     const capNames = new Set();
     for ( const o of capData.outras ?? [] ) capNames.add(o);
-    const capItems = await PokemonSheet._findCompendiumItems("capacity", [...capNames]);
+    const capItems = await findItemsByName("capacity", [...capNames]);
     // Aplica o valor numérico (se vier de Outras com formato "Nome N")
     itemsToCreate.push(...capItems);
 
@@ -437,7 +443,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     for ( const [key, slug] of [["forca","Força"],["inteligencia","Inteligência"],["salto","Salto"]] ) {
       const value = capData[key];
       if ( value == null ) continue;
-      const items = await PokemonSheet._findCompendiumItems("capacity", [slug]);
+      const items = await findItemsByName("capacity", [slug]);
       for ( const it of items ) {
         if ( !it.system ) it.system = {};
         it.system.value = value;
@@ -453,7 +459,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     ] ) {
       const val = deslocamentos[key];
       if ( val == null ) continue;
-      const items = await PokemonSheet._findCompendiumItems("capacity", [slug]);
+      const items = await findItemsByName("capacity", [slug]);
       for ( const it of items ) {
         if ( !it.system ) it.system = {};
         it.system.value = val;
@@ -465,47 +471,14 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       await this.actor.createEmbeddedDocuments("Item", itemsToCreate);
     }
 
+    // Marca o nível atual como "já aprendido" — o hook updateActor só vai
+    // aprender NOVOS golpes em level-ups subsequentes.
+    await this.actor.setFlag("pokemon-rpg", "lastLevelLearned", pokeLevel);
+
     ui.notifications?.info(
       game.i18n.format("POKEMON_RPG.Species_Applied", { name: speciesItem.name })
       + ` (${itemsToCreate.length} item(s) adicionado(s))`
     );
-  }
-
-  /**
-   * Procura items no(s) compendium(s) por nome exato.
-   * Retorna array de objects (clones serializáveis) prontos para
-   * `createEmbeddedDocuments`.
-   */
-  static async _findCompendiumItems(type, names) {
-    if ( !names || !names.length ) return [];
-    const wanted = new Set(names.map(n => String(n).trim().toLowerCase()).filter(Boolean));
-    if ( !wanted.size ) return [];
-    const itemPacks = (game.packs ?? []).filter(p => p.metadata?.type === "Item");
-    const found = [];
-    const foundNames = new Set();
-    for ( const pack of itemPacks ) {
-      if ( foundNames.size === wanted.size ) break;
-      try {
-        const index = await pack.getIndex({ fields: ["type"] });
-        for ( const entry of index ) {
-          if ( entry.type !== type ) continue;
-          const norm = String(entry.name).trim().toLowerCase();
-          if ( !wanted.has(norm) || foundNames.has(norm) ) continue;
-          const doc = await pack.getDocument(entry._id);
-          if ( doc ) {
-            found.push(doc.toObject());
-            foundNames.add(norm);
-          }
-        }
-      } catch (err) {
-        console.warn(`pokemon-rpg | falha ao buscar em ${pack.collection}:`, err);
-      }
-    }
-    if ( foundNames.size < wanted.size ) {
-      const missing = [...wanted].filter(n => !foundNames.has(n));
-      console.warn(`pokemon-rpg | não encontrados (${type}): ${missing.join(", ")}`);
-    }
-    return found;
   }
 
   /**
@@ -590,5 +563,19 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static async _onOpenTrainer(event, target) {
     const trainer = await this.actor.system.getTrainer();
     trainer?.sheet.render(true);
+  }
+
+  /* ---------- Fases ---------- */
+  static async _onPhaseUp(event, target) {
+    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, +1);
+  }
+  static async _onPhaseDown(event, target) {
+    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, -1);
+  }
+  static async _onPhaseReset(event, target) {
+    return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
+  }
+  static async _onPhaseResetAll(event, target) {
+    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
   }
 }

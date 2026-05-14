@@ -1,4 +1,5 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
+import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -23,6 +24,10 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       itemEdit: TrainerSheet._onItemEdit,
       itemDelete: TrainerSheet._onItemDelete,
       itemUse: TrainerSheet._onItemUse,
+      phaseUp: TrainerSheet._onPhaseUp,
+      phaseDown: TrainerSheet._onPhaseDown,
+      phaseReset: TrainerSheet._onPhaseReset,
+      phaseResetAll: TrainerSheet._onPhaseResetAll,
       tab: TrainerSheet._onChangeTab
     },
     form: {
@@ -278,6 +283,20 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const skillKey = target.dataset.skill;
     const current = this.actor.system.skills[skillKey].proficient;
     await this.actor.update({ [`system.skills.${skillKey}.proficient`]: !current });
+  }
+
+  /* ---------- Fases ---------- */
+  static async _onPhaseUp(event, target) {
+    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, +1);
+  }
+  static async _onPhaseDown(event, target) {
+    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, -1);
+  }
+  static async _onPhaseReset(event, target) {
+    return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
+  }
+  static async _onPhaseResetAll(event, target) {
+    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
   }
 
   static async _onOpenPokemon(event, target) {

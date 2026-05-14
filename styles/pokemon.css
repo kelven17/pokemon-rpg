@@ -548,6 +548,147 @@
 }
 
 /* ==========================================
+   FASES (Phase mechanic)
+   ========================================== */
+.pokemon-rpg .attributes-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.pokemon-rpg .attributes-header .section-title {
+    margin: 0;
+    font-size: 0.9em;
+    color: var(--pk-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 800;
+}
+.pokemon-rpg .reset-phases-btn {
+    background: rgba(0,0,0,0.06);
+    color: var(--pk-text);
+    border: 1px solid var(--pk-border);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.78em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.pokemon-rpg .reset-phases-btn:hover {
+    background: var(--pk-accent-tint);
+    color: var(--pk-accent-dark);
+    border-color: var(--pk-accent);
+}
+
+.pokemon-rpg .attr-phase-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 4px;
+}
+.pokemon-rpg .phase-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--pk-border);
+    background: var(--pk-bg-alt);
+    color: var(--pk-muted);
+    font-size: 0.95em;
+    font-weight: 800;
+    line-height: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.12s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon-rpg .phase-btn:hover {
+    background: var(--pk-accent);
+    color: #fff;
+    border-color: var(--pk-accent-dark);
+    transform: scale(1.1);
+}
+.pokemon-rpg .phase-badge {
+    min-width: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.82em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--pk-bg-deep);
+    color: var(--pk-text);
+    cursor: pointer;
+    transition: background 0.12s;
+}
+.pokemon-rpg .phase-badge:hover {
+    background: var(--pk-accent-tint);
+}
+
+/* Color tint on the attribute card based on the current phase */
+.pokemon-rpg .attribute-card.phase--1,
+.pokemon-rpg .attribute-card.phase--2 {
+    background: linear-gradient(180deg, #FFF, #FEF2F2);
+}
+.pokemon-rpg .attribute-card.phase--3,
+.pokemon-rpg .attribute-card.phase--4,
+.pokemon-rpg .attribute-card.phase--5,
+.pokemon-rpg .attribute-card.phase--6 {
+    background: linear-gradient(180deg, #FFE4E6, #FECACA);
+    border-color: #F87171;
+}
+.pokemon-rpg .attribute-card.phase--3 .phase-badge,
+.pokemon-rpg .attribute-card.phase--4 .phase-badge,
+.pokemon-rpg .attribute-card.phase--5 .phase-badge,
+.pokemon-rpg .attribute-card.phase--6 .phase-badge {
+    background: #DC2626; color: #FFF;
+}
+.pokemon-rpg .attribute-card.phase-1,
+.pokemon-rpg .attribute-card.phase-2 {
+    background: linear-gradient(180deg, #FFF, #ECFDF5);
+}
+.pokemon-rpg .attribute-card.phase-3,
+.pokemon-rpg .attribute-card.phase-4,
+.pokemon-rpg .attribute-card.phase-5,
+.pokemon-rpg .attribute-card.phase-6 {
+    background: linear-gradient(180deg, #D1FAE5, #A7F3D0);
+    border-color: #34D399;
+}
+.pokemon-rpg .attribute-card.phase-3 .phase-badge,
+.pokemon-rpg .attribute-card.phase-4 .phase-badge,
+.pokemon-rpg .attribute-card.phase-5 .phase-badge,
+.pokemon-rpg .attribute-card.phase-6 .phase-badge {
+    background: #059669; color: #FFF;
+}
+
+.pokemon-rpg .attr-effective {
+    font-size: 0.85em;
+    color: var(--pk-accent-dark);
+    text-align: center;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.pokemon-rpg .deslocamento-bonus-note {
+    margin: 8px 0 12px;
+    padding: 8px 14px;
+    background: linear-gradient(90deg, var(--pk-accent-tint), transparent);
+    border-left: 3px solid var(--pk-accent);
+    border-radius: var(--pk-radius-sm);
+    font-size: 0.88em;
+    color: var(--pk-text);
+}
+.pokemon-rpg .deslocamento-bonus-note strong {
+    color: var(--pk-accent-dark);
+    font-size: 1.05em;
+}
+
+/* ==========================================
    EFETIVIDADE DE TIPOS (fraquezas / resistências)
    ========================================== */
 .pokemon-rpg .effectiveness-row {

@@ -19,6 +19,12 @@ export function makeAttributesField() {
     }),
     mod: new NumberField({
       required: true, nullable: false, integer: true, initial: 0
+    }),
+    // Fase do atributo: varia de -6 a +6.
+    // Aplica multiplicador (40% a 250%) no `mod` durante prepareDerivedData,
+    // sem alterar o `value` original.
+    phase: new NumberField({
+      required: true, nullable: false, integer: true, initial: 0, min: -6, max: 6
     })
   });
 
