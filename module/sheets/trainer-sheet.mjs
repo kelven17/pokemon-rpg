@@ -110,16 +110,33 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       talent: allTalents
     };
 
-    // Helper para enriquecer um talento com effect HTML / fallbacks
+    // Helper para enriquecer um talento — devolve apenas dados primitivos
+    // (não expõe o DataModel inteiro, evita serialização recursiva).
     const enrichTalent = (t) => {
       const s = t.system ?? {};
-      const raw = (s.efeito && String(s.efeito).trim())
-                || (s.description && String(s.description).trim())
-                || "";
+      const rawEfeito = (s.efeito && String(s.efeito).trim()) || "";
+      const rawDescr  = (s.description && String(s.description).trim()) || "";
+      const raw = rawEfeito || rawDescr;
       const html = raw && !raw.trim().startsWith("<") ? `<p>${raw}</p>` : raw;
       return {
-        id: t.id, name: t.name, img: t.img,
-        system: s, effectHtml: html
+        id: t.id,
+        name: t.name,
+        img: t.img,
+        system: {
+          category:       s.category       ?? "",
+          sourceClass:    s.sourceClass    ?? "",
+          requisitos:     s.requisitos     ?? "",
+          frequencia:     s.frequencia     ?? "",
+          alvo:           s.alvo           ?? "",
+          gatilho:        s.gatilho        ?? "",
+          contragatilho:  s.contragatilho  ?? "",
+          efeito:         s.efeito         ?? "",
+          description:    s.description    ?? "",
+          requiredLevel:  s.requiredLevel  ?? null,
+          activation:     s.activation     ?? "",
+          prerequisites:  s.prerequisites  ?? ""
+        },
+        effectHtml: html
       };
     };
 

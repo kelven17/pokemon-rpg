@@ -89,35 +89,26 @@ export class MoveData extends foundry.abstract.TypeDataModel {
 export class TalentData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
-      description: new HTMLField({ required: true, initial: "" }),
+      description: new HTMLField({ required: false, blank: true, initial: "" }),
       // Categoria do talento (estrutura do Excel):
       //  - "general":         Talento Geral (qualquer um pode pegar)
       //  - "class":           Talento de Classe específica (opcional, gasta ponto)
-      //  - "characteristic":  Característica de Classe (auto-concedida ao adquirir a classe)
-      category: new StringField({
-        required: true,
-        initial: "general",
-        choices: () => Object.keys(POKEMON_RPG.talentCategories)
-      }),
-      // Slug da classe que concede este talento.
-      // "geral" para talentos gerais; "treinador", "captor", etc para classes.
-      sourceClass: new StringField({ required: true, initial: "" }),
+      //  - "characteristic":  Característica de Classe (auto-concedida pela classe)
+      // Não usamos `choices` pra evitar validation hard-fail em dados legados.
+      category:      new StringField({ required: false, blank: true, initial: "general" }),
+      sourceClass:   new StringField({ required: false, blank: true, initial: "" }),
       // Campos estruturados do Excel:
-      requisitos:    new StringField({ required: true, initial: "" }),
-      frequencia:    new StringField({ required: true, initial: "" }),
-      alvo:          new StringField({ required: true, initial: "" }),
-      gatilho:       new StringField({ required: true, initial: "" }),
-      contragatilho: new StringField({ required: true, initial: "" }),
-      efeito:        new HTMLField({ required: true, initial: "" }),
+      requisitos:    new StringField({ required: false, blank: true, initial: "" }),
+      frequencia:    new StringField({ required: false, blank: true, initial: "" }),
+      alvo:          new StringField({ required: false, blank: true, initial: "" }),
+      gatilho:       new StringField({ required: false, blank: true, initial: "" }),
+      contragatilho: new StringField({ required: false, blank: true, initial: "" }),
+      efeito:        new HTMLField({ required: false, blank: true, initial: "" }),
       // Legacy fields — mantidos por compat.
-      classRestriction: new StringField({ required: true, initial: "" }),
-      requiredLevel: new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 1 }),
-      activation: new StringField({
-        required: true,
-        initial: "passive",
-        choices: ["passive", "action", "bonus", "reaction", "free"]
-      }),
-      prerequisites: new StringField({ required: true, initial: "" })
+      classRestriction: new StringField({ required: false, blank: true, initial: "" }),
+      requiredLevel: new NumberField({ required: false, nullable: true, integer: true, initial: 1, min: 0 }),
+      activation:    new StringField({ required: false, blank: true, initial: "passive" }),
+      prerequisites: new StringField({ required: false, blank: true, initial: "" })
     };
   }
 }
