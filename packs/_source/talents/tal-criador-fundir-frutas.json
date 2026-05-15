@@ -1,0 +1,20 @@
+{
+  "name": "FUNDIR FRUTAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa as cinco frutas para produzir um Item que, ao ser Mantido, possui os mesmos efeitos das Frutas usadas para produzi-lo, mas que não é consumido ao ser usado enquanto Mantido. Se o item for usado mais de uma vez diária, ele se quebra, tornando-se lixo. Você pode chamar o item pelo nome que quiser e pode usar sua criatividade para dizer como ele é. Ele não é mais uma Fruta.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 18.",
+    "frequencia": "Semanal. A cada 10 Níveis, receba um uso semanal adicional.",
+    "alvo": "Cinco frutas iguais.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa as cinco frutas para produzir um Item que, ao ser Mantido, possui os mesmos efeitos das Frutas usadas para produzi-lo, mas que não é consumido ao ser usado enquanto Mantido. Se o item for usado mais de uma vez diária, ele se quebra, tornando-se lixo. Você pode chamar o item pelo nome que quiser e pode usar sua criatividade para dizer como ele é. Ele não é mais uma Fruta.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 18."
+  }
+}

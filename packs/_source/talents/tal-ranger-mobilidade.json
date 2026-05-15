@@ -1,0 +1,20 @@
+{
+  "name": "MOBILIDADE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode usar a Velocidade da sua montaria no lugar da sua para determinar sua Iniciativa.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "02 pokémons que serviram como montarias pelo menos um dia cada.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode usar a Velocidade da sua montaria no lugar da sua para determinar sua Iniciativa.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 pokémons que serviram como montarias pelo menos um dia cada."
+  }
+}

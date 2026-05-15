@@ -1,0 +1,20 @@
+{
+  "name": "IMPULSO SINCRONIZADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O pokémon inimigo é Empurrado um número de metros em uma direção à sua escolha igual à soma das Forças de seus pokémons ativos.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Assulto Duplo.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um pokémons seu causa dano a um oponente que também sofreu dano de outro pokémon ativo seu nesta mesma rodada.",
+    "contragatilho": "",
+    "efeito": "<p>O pokémon inimigo é Empurrado um número de metros em uma direção à sua escolha igual à soma das Forças de seus pokémons ativos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Assulto Duplo."
+  }
+}

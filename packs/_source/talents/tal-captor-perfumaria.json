@@ -1,0 +1,20 @@
+{
+  "name": "PERFUMARIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 06 horas de trabalho cansativo (consumindo 20 PV), você cria um Incenso Relaxante, um Incenso Intenso ou um Incenso Místico.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Semanal.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 06 horas de trabalho cansativo (consumindo 20 PV), você cria um Incenso Relaxante, um Incenso Intenso ou um Incenso Místico.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

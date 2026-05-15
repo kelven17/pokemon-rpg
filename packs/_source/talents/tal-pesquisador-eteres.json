@@ -1,0 +1,20 @@
+{
+  "name": "ÉTERES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 01 hora de trabalho químico, você cria um Éter.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Química.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 01 hora de trabalho químico, você cria um Éter.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Química."
+  }
+}

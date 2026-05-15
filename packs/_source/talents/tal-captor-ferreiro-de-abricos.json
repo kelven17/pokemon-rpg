@@ -1,0 +1,20 @@
+{
+  "name": "FERREIRO DE ABRICÓS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Combine os dois Abricós alvos em outro Abricó de sua escolha.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ferreiro de Pokébolas.",
+    "frequencia": "Diária.",
+    "alvo": "2 Abricós.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Combine os dois Abricós alvos em outro Abricó de sua escolha.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ferreiro de Pokébolas."
+  }
+}

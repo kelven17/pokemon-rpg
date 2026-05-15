@@ -1,0 +1,20 @@
+{
+  "name": "COM OS ELEMENTOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE. Se o resultado for 15 ou mais e a área possuir pelo menos um Pokémon de seu Tipo de Escolha, você o encontrará (Se houver mais de um, será decidido aleatoriamente).</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você decide batalhar com Pokémons selvagens.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE. Se o resultado for 15 ou mais e a área possuir pelo menos um Pokémon de seu Tipo de Escolha, você o encontrará (Se houver mais de um, será decidido aleatoriamente).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

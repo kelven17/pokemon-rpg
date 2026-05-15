@@ -1,0 +1,20 @@
+{
+  "name": "PROFETA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você tem o conhecimento relacionado a qualquer Lendário local.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter visto pelo menos uma vez um pokémon Lendário.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você tem o conhecimento relacionado a qualquer Lendário local.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter visto pelo menos uma vez um pokémon Lendário."
+  }
+}

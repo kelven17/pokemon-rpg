@@ -1,0 +1,20 @@
+{
+  "name": "REESCREVER",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 06 minutos em um ritual ou em pesquisa literária, escolha uma das formas de Poder Oculto do alvo. Você pode refazer a rolagem que definiu o Tipo do Poder Oculto escolhido ou a rolagem que definiu o dano do Poder Oculto escolhido.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Semanal. A cada 15 Níveis, receba um uso semanal adicional.",
+    "alvo": "Um pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 06 minutos em um ritual ou em pesquisa literária, escolha uma das formas de Poder Oculto do alvo. Você pode refazer a rolagem que definiu o Tipo do Poder Oculto escolhido ou a rolagem que definiu o dano do Poder Oculto escolhido.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

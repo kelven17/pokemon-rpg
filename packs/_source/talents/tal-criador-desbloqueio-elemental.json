@@ -1,0 +1,20 @@
+{
+  "name": "DESBLOQUEIO ELEMENTAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 15 minutos treinando e instruindo o alvo, escolha um Tipo. O alvo poderá aprender todos os Golpes daquele Tipo a partir de Registros. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele pokémon. Este Talento consome 03 Pontos de Tutoria. Especial: Este Talento pode ser escolhido até 03 vezes.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 20.",
+    "frequencia": "Uso Único.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 15 minutos treinando e instruindo o alvo, escolha um Tipo. O alvo poderá aprender todos os Golpes daquele Tipo a partir de Registros. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele pokémon. Este Talento consome 03 Pontos de Tutoria. Especial: Este Talento pode ser escolhido até 03 vezes.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 20."
+  }
+}

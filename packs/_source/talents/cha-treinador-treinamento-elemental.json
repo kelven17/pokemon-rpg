@@ -1,0 +1,20 @@
+{
+  "name": "TREINAMENTO ELEMENTAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Seus Pokémons do Tipo de Escolha recebem 30% de pontos de experiência adicionais a cada vez que receberem pontos de experiência.</p>",
+    "category": "characteristic",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus Pokémons do Tipo de Escolha recebem 30% de pontos de experiência adicionais a cada vez que receberem pontos de experiência.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

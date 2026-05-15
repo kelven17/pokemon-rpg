@@ -1,0 +1,20 @@
+{
+  "name": "POSSESSIVO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Pokémon possuído por você tem seus Deslocamentos aumentados pela metade de seu MD.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O Pokémon possuído por você tem seus Deslocamentos aumentados pela metade de seu MD.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

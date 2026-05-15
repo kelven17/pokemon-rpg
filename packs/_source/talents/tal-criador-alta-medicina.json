@@ -1,0 +1,20 @@
+{
+  "name": "ALTA MEDICINA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Pokémon recupera todos os usos de Golpes cujas Frequências são Diárias.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 18.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O Pokémon recupera todos os usos de Golpes cujas Frequências são Diárias.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 18."
+  }
+}

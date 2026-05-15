@@ -1,0 +1,20 @@
+{
+  "name": "CONTROLE DE AR",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode mover a massa de ar usando a força da mente para produzir um fluxo de vento que pode alcançar uma velocidade máxima em km/h igual ao quíntuplo de seu MAE em qualquer direção. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "uma massa de ar que não esteja mais distante que um número de metros igual ao triplo de seu MAE.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode mover a massa de ar usando a força da mente para produzir um fluxo de vento que pode alcançar uma velocidade máxima em km/h igual ao quíntuplo de seu MAE em qualquer direção. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

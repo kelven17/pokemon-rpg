@@ -1,0 +1,20 @@
+{
+  "name": "INCRIVELMENTE CAPAZ",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recebe uma Capacidade de uma de suas formas evoluídas, com o valor numérico possuído como se fosse daquela forma (caso haja um valor associado).</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Altamente Capaz.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon seu que possui pelo menos um estágio evolutivo não alcançado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recebe uma Capacidade de uma de suas formas evoluídas, com o valor numérico possuído como se fosse daquela forma (caso haja um valor associado).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Altamente Capaz."
+  }
+}

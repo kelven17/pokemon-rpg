@@ -1,0 +1,20 @@
+{
+  "name": "INDISCERNÍVEL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Escolha um Talento do alvo. Pelas próximas 24 horas, enquanto você não abandonar a forma do alvo, você pode usar o Talento na frequência padrão para aquele Talento (usando o seu Nível, não o do alvo, caso seja relevante). Não é possível escolher um Talento de Uso Único.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "O humano cuja forma você está imitando no momento.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um Talento do alvo. Pelas próximas 24 horas, enquanto você não abandonar a forma do alvo, você pode usar o Talento na frequência padrão para aquele Talento (usando o seu Nível, não o do alvo, caso seja relevante). Não é possível escolher um Talento de Uso Único.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

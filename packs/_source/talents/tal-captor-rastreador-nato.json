@@ -1,0 +1,20 @@
+{
+  "name": "RASTREADOR NATO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MV. Se o resultado for 21 ou mais, você inicia um encontro com um Pokémon selvagem que você sabe existir naquela área. Se o resultado for 25 ou mais, você pode designar uma espécie de Pokémon que ainda não capturou.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ter capturado 10 Pokémons, Rastreador Informado +.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MV. Se o resultado for 21 ou mais, você inicia um encontro com um Pokémon selvagem que você sabe existir naquela área. Se o resultado for 25 ou mais, você pode designar uma espécie de Pokémon que ainda não capturou.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter capturado 10 Pokémons, Rastreador Informado +."
+  }
+}

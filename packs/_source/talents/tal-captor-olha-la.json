@@ -1,0 +1,20 @@
+{
+  "name": "OLHA LÁ!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo rola 1d20 + MAE se for um humano ou 1d20 + Inteligência se for um Pokémon. Se a rolagem for menor que 13, o alvo perde a Ação Padrão da rodada atual se for humano ou a Ação de Golpe da rodada atual se for Pokémon. Este Talento não pode ser usado mais de uma vez contra o mesmo alvo no mesmo combate.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ataque 15.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo rola 1d20 + MAE se for um humano ou 1d20 + Inteligência se for um Pokémon. Se a rolagem for menor que 13, o alvo perde a Ação Padrão da rodada atual se for humano ou a Ação de Golpe da rodada atual se for Pokémon. Este Talento não pode ser usado mais de uma vez contra o mesmo alvo no mesmo combate.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 15."
+  }
+}

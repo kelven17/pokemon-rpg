@@ -1,0 +1,20 @@
+{
+  "name": "PROCRIAÇÃO MINUCIOSA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Os alvos recebem 50% de pontos de experiência adicionais a cada vez que receberem pontos de experiência.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Chocadeira ter chocado 02 ovos.",
+    "frequencia": "Constante.",
+    "alvo": "Seus Pokémons que você chocou e que são filhos de pelo menos um Pokémon seu que você também chocou.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Os alvos recebem 50% de pontos de experiência adicionais a cada vez que receberem pontos de experiência.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Chocadeira ter chocado 02 ovos."
+  }
+}

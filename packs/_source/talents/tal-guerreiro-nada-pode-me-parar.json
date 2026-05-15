@@ -1,0 +1,20 @@
+{
+  "name": "NADA PODE ME PARAR!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha uma Condição que está afligindo você (como Paralisia, Sono ou Veneno, por exemplo). Você se cura desta Condição.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Velocidade 18.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha uma Condição que está afligindo você (como Paralisia, Sono ou Veneno, por exemplo). Você se cura desta Condição.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 18."
+  }
+}

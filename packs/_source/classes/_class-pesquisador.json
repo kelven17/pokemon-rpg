@@ -1,0 +1,17 @@
+{
+  "name": "Pesquisador",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Tendo estudado durante anos as enciclopédias antes de sair em sua jornada, o Pesquisador usa sua sagacidade e seu intelecto para analisar e combater os problemas que encontrar. Ele é útil para qualquer um, e é referência para todos. Os Pesquisadores pretendem saber mais. Eles retêm uma vasta quantidade de conhecimento relacionado à maioria dos pokémons, e muito mais. Alguns Pesquisadores, tornam-se Professor pois, já dominou o conhecimento em torno de todos os tópicos. Eles podem identificar tudo sobre um pokémon: seu nível de poder, seu conjunto completo de técnicas, seus habitats ou qualquer outra coisa sobre qualquer espécie descrita. Os Professores são os de inteligência inigualável e usam sua vasta quantidade de conhecimento em campo como gênios. Um Pesquisador que estuda a biologia, a física e a química é um Cientista. Os Cientistas misturam vários materiais para interação com tecidos vivos, produzindo repelentes, tônicos e outros itens usados para qualquer coisa que possam imaginar. Um Cientista nem sempre tem os materiais certos para o produto desejado, mas talvez alguns experimentos originem a fórmula para um remédio nunca antes visto. Assim, Cientistas passam horas com diferentes materiais e encontram novas maneiras de criar as mesmas coisas que possa ser comprada em uma estante da Pokéloja.</p>",
+    "slug": "pesquisador",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [],
+    "requirementsSameTree": "",
+    "requirementsOther": ""
+  }
+}

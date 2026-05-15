@@ -1,0 +1,20 @@
+{
+  "name": "RESPIRADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você ativa o Respirador, que permite respirar embaixo d’água por 1 Hora depois de ativado. Após esta 1 Hora, o Respirador deve ser secado e não poderá ser ativado de novo dentro de duas horas.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você ativa o Respirador, que permite respirar embaixo d’água por 1 Hora depois de ativado. Após esta 1 Hora, o Respirador deve ser secado e não poderá ser ativado de novo dentro de duas horas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

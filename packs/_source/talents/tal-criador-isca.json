@@ -1,0 +1,20 @@
+{
+  "name": "ISCA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 01 hora (com ingredientes e equipamentos adequados), você cria uma comida e a coloca em algum ambiente selvagem. Então, se você se escondeu apropriadamente, após uma quantidade de tempo entre 12 minutos e uma hora, o Narrador deve fazer um Pokémon selvagem aparecer em busca da Isca. Role 1d20 + MD. Se o resultado for 15 ou mais, um Pokémon de Nível pelo menos igual ao seu Pokémon leal de Nível mais alto aparecerá. Se a rolagem exceder 19, o Pokémon terá 5 Níveis a mais que seu Pokémon leal de Nível mais alto (Um Pokémon capturado mediante este Talento não é considerado válido para determinar os Níveis dos futuros Pokémons atraídos pela Isca).</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 01 hora (com ingredientes e equipamentos adequados), você cria uma comida e a coloca em algum ambiente selvagem. Então, se você se escondeu apropriadamente, após uma quantidade de tempo entre 12 minutos e uma hora, o Narrador deve fazer um Pokémon selvagem aparecer em busca da Isca. Role 1d20 + MD. Se o resultado for 15 ou mais, um Pokémon de Nível pelo menos igual ao seu Pokémon leal de Nível mais alto aparecerá. Se a rolagem exceder 19, o Pokémon terá 5 Níveis a mais que seu Pokémon leal de Nível mais alto (Um Pokémon capturado mediante este Talento não é considerado válido para determinar os Níveis dos futuros Pokémons atraídos pela Isca).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16."
+  }
+}

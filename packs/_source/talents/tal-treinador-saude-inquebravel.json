@@ -1,0 +1,20 @@
+{
+  "name": "SAÚDE INQUEBRÁVEL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando um pokémon seu sobe de nível, você pode adicionar pontos de Atributos à Saúde, ignorando a Relação Basal.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ter sido nocauteado por um inimigo ou possuir 03 pokémons com Resistência.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando um pokémon seu sobe de nível, você pode adicionar pontos de Atributos à Saúde, ignorando a Relação Basal.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter sido nocauteado por um inimigo ou possuir 03 pokémons com Resistência."
+  }
+}

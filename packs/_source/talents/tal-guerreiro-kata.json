@@ -1,0 +1,20 @@
+{
+  "name": "KATA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Dança das Espadas e seu próximo ataque de Armas possuirá o Descritor Saraivada.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "03 Talentos de Soldado (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Dança das Espadas e seu próximo ataque de Armas possuirá o Descritor Saraivada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "03 Talentos de Soldado (desconte as Características de Classe para este cálculo)."
+  }
+}

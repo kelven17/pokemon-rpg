@@ -1,0 +1,20 @@
+{
+  "name": "MISTICISMO +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione dez vezes seu MD a seus Pontos de Vida máximos. Isso só se aplica ao seu corpo humano. Este Talento substitui Misticismo.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Misticismo, Saúde 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione dez vezes seu MD a seus Pontos de Vida máximos. Isso só se aplica ao seu corpo humano. Este Talento substitui Misticismo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Misticismo, Saúde 16."
+  }
+}

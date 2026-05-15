@@ -1,0 +1,20 @@
+{
+  "name": "CANALIZAR AMIGO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando usar Canalizar em um Pokémon seu com Lealdade 2 ou mais, você obtém sucesso automático.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Um Pokémon com Lealdade 4.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando usar Canalizar em um Pokémon seu com Lealdade 2 ou mais, você obtém sucesso automático.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon com Lealdade 4."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CLÉRIGO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode canalizar até 3 Pokémons simultaneamente.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Nível 10.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode canalizar até 3 Pokémons simultaneamente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 10."
+  }
+}

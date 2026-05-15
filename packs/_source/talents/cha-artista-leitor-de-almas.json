@@ -1,0 +1,20 @@
+{
+  "name": "LEITOR DE ALMAS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após conversar por alguns minutos com um Pokémon ou humano, você consegue identificar o estado emocional predominante dele (calmo, inseguro, hostil, confiante, confuso, etc.). O Mestre deve informar se o alvo está escondendo algo emocionalmente, mas não o quê.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Humano ou Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após conversar por alguns minutos com um Pokémon ou humano, você consegue identificar o estado emocional predominante dele (calmo, inseguro, hostil, confiante, confuso, etc.). O Mestre deve informar se o alvo está escondendo algo emocionalmente, mas não o quê.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CAPTURA CHOCANTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Caso o Pokémon não seja capturado, role 1d20 + MV. Se o resultado for 15 ou mais, o Pokémon está Atordoado ao sair da Pokébola.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Velocidade 18.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Você usa No Ponto Fraco!",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Caso o Pokémon não seja capturado, role 1d20 + MV. Se o resultado for 15 ou mais, o Pokémon está Atordoado ao sair da Pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 18."
+  }
+}

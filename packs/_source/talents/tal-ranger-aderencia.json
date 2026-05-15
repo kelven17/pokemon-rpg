@@ -1,0 +1,20 @@
+{
+  "name": "ADERÊNCIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você obtém sucesso automático em testes feitos para permanecer montado. Você pode continuar montado mesmo que esteja agarrado na lateral da sua montaria, de cabeça para baixo, fazendo pirueta ou de qualquer outra forma estranha de se ficar em cima da montaria. Em todos estes casos, você é considerado cavalgando normalmente.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "02 pokémons que serviram como montarias pelo menos um dia cada.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você obtém sucesso automático em testes feitos para permanecer montado. Você pode continuar montado mesmo que esteja agarrado na lateral da sua montaria, de cabeça para baixo, fazendo pirueta ou de qualquer outra forma estranha de se ficar em cima da montaria. Em todos estes casos, você é considerado cavalgando normalmente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 pokémons que serviram como montarias pelo menos um dia cada."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "RÁPIDO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Por uma rodada, eleva uma Fase de Velocidade do alvo. É possível gastar mais de um uso deste Talento de uma só vez. O máximo que é possível conceder ao pokémon alvo são duas Fases em Velocidade.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um pokémon seu sob efeito de Mais Longe!",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Por uma rodada, eleva uma Fase de Velocidade do alvo. É possível gastar mais de um uso deste Talento de uma só vez. O máximo que é possível conceder ao pokémon alvo são duas Fases em Velocidade.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

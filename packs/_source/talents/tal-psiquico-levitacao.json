@@ -1,0 +1,20 @@
+{
+  "name": "LEVITAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto você está usando Voo, você pode reduzir a quantidade de seu Deslocamento de Voo pela metade para levitar alvos voluntários.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "Voo.",
+    "frequencia": "Constante.",
+    "alvo": "Um número de voluntários (Pokémons e/ou humanos) igual a seu MAE. Nenhum alvo pode ser mais pesado que você.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto você está usando Voo, você pode reduzir a quantidade de seu Deslocamento de Voo pela metade para levitar alvos voluntários.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Voo."
+  }
+}

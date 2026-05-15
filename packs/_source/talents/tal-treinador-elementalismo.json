@@ -1,0 +1,20 @@
+{
+  "name": "ELEMENTALISMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Golpe é considerado de seu Tipo de Escolha.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Mudança de Tipo.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu usa um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>O Golpe é considerado de seu Tipo de Escolha.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Mudança de Tipo."
+  }
+}

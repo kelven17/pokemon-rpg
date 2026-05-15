@@ -1,0 +1,20 @@
+{
+  "name": "MENTALISMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode identificar se a mente do alvo foi afetada ou invadida por algum humano ou algum Pokémon, e pode encontrar resíduos dentro dela. Além disso, quando usar um Talento que deixa resíduo psíquico, você pode rolar 1d20 + MAE. Se o resultado for 16 ou mais, você não deixa resíduo.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Humano ou um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode identificar se a mente do alvo foi afetada ou invadida por algum humano ou algum Pokémon, e pode encontrar resíduos dentro dela. Além disso, quando usar um Talento que deixa resíduo psíquico, você pode rolar 1d20 + MAE. Se o resultado for 16 ou mais, você não deixa resíduo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

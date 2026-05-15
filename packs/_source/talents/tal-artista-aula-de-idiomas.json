@@ -1,0 +1,20 @@
+{
+  "name": "AULA DE IDIOMAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 20 horas de ensino, o alvo agora pode falar idiomas humanos. Logo após o uso de Aula de Idiomas, o alvo poderá ter conversas incipientes com seres humanos, mas dentro de uma semana ele já poderá ter conversas tão complexas quanto um falante daquela linguagem. Aula de Idiomas pode ter como alvo um mesmo Pokémon mais de uma vez, para ensinar outro idioma humano àquele Pokémon.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Mensal.",
+    "alvo": "Um Pokémon seu com Lealdade elevada e Inteligência 6.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 20 horas de ensino, o alvo agora pode falar idiomas humanos. Logo após o uso de Aula de Idiomas, o alvo poderá ter conversas incipientes com seres humanos, mas dentro de uma semana ele já poderá ter conversas tão complexas quanto um falante daquela linguagem. Aula de Idiomas pode ter como alvo um mesmo Pokémon mais de uma vez, para ensinar outro idioma humano àquele Pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

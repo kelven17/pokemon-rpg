@@ -1,0 +1,20 @@
+{
+  "name": "CARTÃO COM DESCONTOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você recebe 20% de desconto em produtos Regulares de Pokélojas. Quando você gasta 2000 créditos ou mais em uma só compra, você recebe uma Pokébola Premiada de brinde.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você recebe 20% de desconto em produtos Regulares de Pokélojas. Quando você gasta 2000 créditos ou mais em uma só compra, você recebe uma Pokébola Premiada de brinde.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

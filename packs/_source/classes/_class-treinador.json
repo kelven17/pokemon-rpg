@@ -1,0 +1,26 @@
+{
+  "name": "Treinador",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Treinadores desejam ser os melhores, como ninguém nunca foi. Um Treinador percebe o potencial combativo de cada pokémon. Eles podem maximizar os ataques de seus Pokémon e encontrar pontos fracos no pokémon de um oponente normalmente imunes ou resistentes aos ataques. Esses treinadores são lutadores dedicados que estudaram como maximizar a experiência de batalha de seus pokémons, e desenvolvem seus pokémons em cada batalha, preenchendo-a com paixão.</p>",
+    "slug": "treinador",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [
+      "Corrida",
+      "Intimidação",
+      "Concentração",
+      "Incansável",
+      "História",
+      "Investigação",
+      "Manha",
+      "Manipulação"
+    ],
+    "requirementsSameTree": "",
+    "requirementsOther": "-"
+  }
+}

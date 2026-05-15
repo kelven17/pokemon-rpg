@@ -1,0 +1,20 @@
+{
+  "name": "GRUNHIDOS E PIADOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você ativa este Talento exaurindo 10 Pontos de Vida. Pelas próximas quatro horas, você poderá falar com os pokémons da espécie do pokémon adjacente.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Canalizar Amigo.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um pokémon adjacente.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você ativa este Talento exaurindo 10 Pontos de Vida. Pelas próximas quatro horas, você poderá falar com os pokémons da espécie do pokémon adjacente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Canalizar Amigo."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "RELAXANTES MUSCULARES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Restaura a Paralisia.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano Paralisado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Restaura a Paralisia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

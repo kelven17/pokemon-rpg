@@ -1,0 +1,20 @@
+{
+  "name": "SUPERIORIDADE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Se o Atributo de Escolha do seu Pokémon ativo é maior do que o Atributo de Escolha do Pokémon oponente, este perde uma Fase do Atributo de Escolha.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "05 insígnias ou equivalentes.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon inimigo.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Se o Atributo de Escolha do seu Pokémon ativo é maior do que o Atributo de Escolha do Pokémon oponente, este perde uma Fase do Atributo de Escolha.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "05 insígnias ou equivalentes."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MUSCULAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 10 horas de treinamento, o alvo ganha permanentemente +1 à Capacidade Força (Isso não pode elevar a Força do Pokémon além de 7).</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Semanal.",
+    "alvo": "Um Pokémon seu com pelo menos um prêmio em Concurso de Fisiculturismo ou um Pokémon aliado com pelo menos um prêmio em Concurso de Fisiculturismo.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 10 horas de treinamento, o alvo ganha permanentemente +1 à Capacidade Força (Isso não pode elevar a Força do Pokémon além de 7).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

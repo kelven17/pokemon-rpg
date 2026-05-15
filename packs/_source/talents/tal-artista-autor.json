@@ -1,0 +1,20 @@
+{
+  "name": "AUTOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Esta Característica de Classe envolve escrever e planejar performances artísticas. Escolha um Golpe conhecido pelo Pokémon alvo e adicione o Descritor Som ou o Descritor Dança aos Descritores daquele Golpe, mas apenas para o Pokémon alvo (Um Pokémon não pode, ao longo de sua lista de Golpes, possuir mais do que três Golpes com Descritores adicionados por esta Característica de Classe). Quando o alvo aprender um novo Golpe, você pode escolher remover o Descritor Som ou o Descritor Dança de um Golpe que ele já possuía para adicionar o Descritor Som ou o Descritor Dança ao novo Golpe aprendido. Isso só pode ser feito se o Descritor Som ou o Descritor Dança foram introduzidos no Golpe mediante esta Característica de Classe, de modo que o Pokémon continue com no máximo três Golpes com Descritores adicionados por esta Característica de Classe. Finalmente, um mesmo Golpe pode receber tanto o Descritor Som quanto o Descritor Dança, contudo ele contará duas vezes para o máximo de três adições de Descritores permitido por esta Característica de Classe.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Velocidade 15.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon seu ou aliado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Esta Característica de Classe envolve escrever e planejar performances artísticas. Escolha um Golpe conhecido pelo Pokémon alvo e adicione o Descritor Som ou o Descritor Dança aos Descritores daquele Golpe, mas apenas para o Pokémon alvo (Um Pokémon não pode, ao longo de sua lista de Golpes, possuir mais do que três Golpes com Descritores adicionados por esta Característica de Classe). Quando o alvo aprender um novo Golpe, você pode escolher remover o Descritor Som ou o Descritor Dança de um Golpe que ele já possuía para adicionar o Descritor Som ou o Descritor Dança ao novo Golpe aprendido. Isso só pode ser feito se o Descritor Som ou o Descritor Dança foram introduzidos no Golpe mediante esta Característica de Classe, de modo que o Pokémon continue com no máximo três Golpes com Descritores adicionados por esta Característica de Classe. Finalmente, um mesmo Golpe pode receber tanto o Descritor Som quanto o Descritor Dança, contudo ele contará duas vezes para o máximo de três adições de Descritores permitido por esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 15."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TREINAMENTO EMPÁTICO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 6 horas de interação orientada, o alvo ganha +1 Lealdade permanente. Este Talento não pode elevar a Lealdade acima do máximo permitido pelo sistema e também não pode selecionar o mesmo Pokémon mais de uma vez.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Ouvinte Atento, Defesa Especial 20.",
+    "frequencia": "Uso Único. A cada 15 Níveis, receba um uso adicional.",
+    "alvo": "Um Pokémon seu ou aliado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 6 horas de interação orientada, o alvo ganha +1 Lealdade permanente. Este Talento não pode elevar a Lealdade acima do máximo permitido pelo sistema e também não pode selecionar o mesmo Pokémon mais de uma vez.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ouvinte Atento, Defesa Especial 20."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PORTAL +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha um local que você já visitou não mais que um ano atrás ou abra um portal aleatório (Será decidido pelo Mestre). Um portal aparece na área alvo e, quando ele é atravessado, ele conduz diretamente ao local designado, não importa o quão longe seja. Este portal só permite a travessia neste sentido, não é possível vir do outro lado para o original. Este teletransporte garante que você chegue a um local desocupado ou à área desocupada mais próxima do que você desejava. Qualquer um pode atravessar o portal. Ele permanece por até 12 minutos (02 Rodadas), mas você pode fechá-lo antes disso se desejar (tenha ou não atravessado). Esse Talento Substitui Portal.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Portal, 05 Talentos de Rúnico (desconte as Características de Classe).",
+    "frequencia": "Semanal. A cada 20 Níveis, receba um uso semanal adicional.",
+    "alvo": "Uma área adjacente desocupada.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um local que você já visitou não mais que um ano atrás ou abra um portal aleatório (Será decidido pelo Mestre). Um portal aparece na área alvo e, quando ele é atravessado, ele conduz diretamente ao local designado, não importa o quão longe seja. Este portal só permite a travessia neste sentido, não é possível vir do outro lado para o original. Este teletransporte garante que você chegue a um local desocupado ou à área desocupada mais próxima do que você desejava. Qualquer um pode atravessar o portal. Ele permanece por até 12 minutos (02 Rodadas), mas você pode fechá-lo antes disso se desejar (tenha ou não atravessado). Esse Talento Substitui Portal.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Portal, 05 Talentos de Rúnico (desconte as Características de Classe)."
+  }
+}

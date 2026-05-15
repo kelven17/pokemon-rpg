@@ -1,0 +1,20 @@
+{
+  "name": "APRIMORAR GOLPES ELEMENTAIS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Adicione metade de seu MA ao dano causado.</p>",
+    "category": "characteristic",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu acerta um Golpe do Tipo de Escolha.",
+    "contragatilho": "",
+    "efeito": "<p>Adicione metade de seu MA ao dano causado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

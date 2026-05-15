@@ -1,0 +1,20 @@
+{
+  "name": "TRANSPASSAR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O ataque causa o dano neutro, ignorando imunidades, resistências e vulnerabilidades.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Seu Pokémon acerta um ataque causador de dano em um oponente.",
+    "contragatilho": "",
+    "efeito": "<p>O ataque causa o dano neutro, ignorando imunidades, resistências e vulnerabilidades.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

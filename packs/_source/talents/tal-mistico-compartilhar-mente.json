@@ -1,0 +1,20 @@
+{
+  "name": "COMPARTILHAR MENTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Todos os pokémons que você está canalizando são tratados como se suas Inteligências fossem a Inteligência do pokémon com mais alta Inteligência que você está canalizando no momento. Alternativamente, todos os pokémons que você está canalizando são tratados como se suas Inteligências fossem iguais a seu MA ou seu MAE. Em nenhum caso a Inteligência de um pokémon pode exceder 6 por este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Todos os pokémons que você está canalizando são tratados como se suas Inteligências fossem a Inteligência do pokémon com mais alta Inteligência que você está canalizando no momento. Alternativamente, todos os pokémons que você está canalizando são tratados como se suas Inteligências fossem iguais a seu MA ou seu MAE. Em nenhum caso a Inteligência de um pokémon pode exceder 6 por este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

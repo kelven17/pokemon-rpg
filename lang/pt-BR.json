@@ -217,7 +217,28 @@
       "SpeciesBundleVersion": {
         "Name": "Versão do Bundle de Espécies Importado",
         "Hint": "Controla qual versão do bundle de espécies já foi importada para o compendium World-side."
+      },
+      "TalentsBundleVersion": {
+        "Name": "Versão do Bundle de Talentos Importado",
+        "Hint": "Controla qual versão do bundle de talentos já foi importada para o compendium World-side."
       }
+    },
+
+    "TalentCategory": {
+      "Label":          "Categoria",
+      "General":        "Geral",
+      "Class":          "De Classe",
+      "Characteristic": "Característica de Classe"
+    },
+
+    "Talent": {
+      "Requisitos":    "Requisitos",
+      "Frequencia":    "Frequência",
+      "Alvo":          "Alvo",
+      "Gatilho":       "Gatilho",
+      "Contragatilho": "Contragatilho",
+      "Efeito":        "Efeito",
+      "Characteristics": "Características de Classe"
     },
 
     "CapacityCategory": {

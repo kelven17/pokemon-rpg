@@ -30,6 +30,11 @@ import {
   importSpeciesIfNeeded,
   forceReimportSpecies
 } from "./setup/species-importer.mjs";
+import {
+  registerTalentImporterSettings,
+  importTalentsIfNeeded,
+  forceReimportTalents
+} from "./setup/talents-importer.mjs";
 import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
 
 /* -------------------------------------------- */
@@ -47,7 +52,8 @@ Hooks.once("init", function() {
     reimportMoves: forceReimportMoves,
     reimportAbilities: forceReimportAbilities,
     reimportCapacities: forceReimportCapacities,
-    reimportSpecies: forceReimportSpecies
+    reimportSpecies: forceReimportSpecies,
+    reimportTalents: forceReimportTalents
   };
 
   // Registra settings dos importers.
@@ -55,6 +61,7 @@ Hooks.once("init", function() {
   registerAbilityImporterSettings();
   registerCapacityImporterSettings();
   registerSpeciesImporterSettings();
+  registerTalentImporterSettings();
   CONFIG.POKEMON_RPG = POKEMON_RPG;
 
   // Document classes.
@@ -136,7 +143,8 @@ Hooks.once("init", function() {
   // Carregar partials uma vez.
   loadTemplates([
     "systems/pokemon-rpg/templates/partials/tabs.hbs",
-    "systems/pokemon-rpg/templates/partials/attribute-block.hbs"
+    "systems/pokemon-rpg/templates/partials/attribute-block.hbs",
+    "systems/pokemon-rpg/templates/partials/talent-card.hbs"
   ]);
 });
 
@@ -164,11 +172,17 @@ Hooks.once("ready", async function() {
   } catch (err) {
     console.error("pokemon-rpg | erro no import de capacidades:", err);
   }
-  // Auto-import das espécies (último — depende dos outros).
+  // Auto-import das espécies (depende dos outros).
   try {
     await importSpeciesIfNeeded();
   } catch (err) {
     console.error("pokemon-rpg | erro no import de espécies:", err);
+  }
+  // Auto-import dos talentos (geral + classes + características).
+  try {
+    await importTalentsIfNeeded();
+  } catch (err) {
+    console.error("pokemon-rpg | erro no import de talentos:", err);
   }
 });
 

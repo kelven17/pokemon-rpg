@@ -1,0 +1,20 @@
+{
+  "name": "FERREIRO DE POKÉBOLAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), role 1d20 + MV. Se o resultado for 13 ou mais, você converte um Abricó em uma Pokébola de um tipo específico, conforme o Abricó:</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Trabalho Manual.",
+    "frequencia": "À Vontade.",
+    "alvo": "1 Abricó.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), role 1d20 + MV. Se o resultado for 13 ou mais, você converte um Abricó em uma Pokébola de um tipo específico, conforme o Abricó:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Trabalho Manual."
+  }
+}

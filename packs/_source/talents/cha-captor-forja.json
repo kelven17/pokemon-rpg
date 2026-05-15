@@ -1,0 +1,20 @@
+{
+  "name": "FORJA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 10 horas de trabalho com os materiais adequados, você cria uma arma. Faça o seguinte cálculo para descobrir o Nível da Arma (cujo máximo é 100): seu Nível + um número de d6 igual a seu MV. A arma concede um bônus às rolagens de dano feitas com ela idêntico ao Bônus Elemental que um pokémon receberia no Nível igual ao Nível da Arma. Você pode usar até duas matérias-primas durante a forja da arma. A pokémons, uma arma é um item Mantido.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Semanal.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 10 horas de trabalho com os materiais adequados, você cria uma arma. Faça o seguinte cálculo para descobrir o Nível da Arma (cujo máximo é 100): seu Nível + um número de d6 igual a seu MV. A arma concede um bônus às rolagens de dano feitas com ela idêntico ao Bônus Elemental que um pokémon receberia no Nível igual ao Nível da Arma. Você pode usar até duas matérias-primas durante a forja da arma. A pokémons, uma arma é um item Mantido.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

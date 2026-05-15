@@ -1,0 +1,20 @@
+{
+  "name": "ABRIR CAMINHOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Se sua arma é Corpo a Corpo, seu ataque ganha o Descritor Investida. Se sua arma é de Alcance, o ataque atinge uma área em linha com um metro de largura e 15 metros de comprimento. Um Golpe beneficiado por Abrir Caminhos não pode receber o benefício dos seguintes Talentos: Ferimento Profundo, Manobra Infalível, Matador, Sangramento, Tiro Múltiplo.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você declara um ataque de Armas.",
+    "contragatilho": "",
+    "efeito": "<p>Se sua arma é Corpo a Corpo, seu ataque ganha o Descritor Investida. Se sua arma é de Alcance, o ataque atinge uma área em linha com um metro de largura e 15 metros de comprimento. Um Golpe beneficiado por Abrir Caminhos não pode receber o benefício dos seguintes Talentos: Ferimento Profundo, Manobra Infalível, Matador, Sangramento, Tiro Múltiplo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

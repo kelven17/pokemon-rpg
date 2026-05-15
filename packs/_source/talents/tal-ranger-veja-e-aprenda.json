@@ -1,0 +1,20 @@
+{
+  "name": "VEJA E APRENDA!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto se mantiver a até 3 metros de você, o alvo pode se beneficiar de até dois Talentos de Cavaleiro cujas Frequências são Constantes. Você só pode possuir um aliado se beneficiando por este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "05 Talentos de Cavaleiro.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um humano aliado que está montado, mas que não é Cavaleiro.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto se mantiver a até 3 metros de você, o alvo pode se beneficiar de até dois Talentos de Cavaleiro cujas Frequências são Constantes. Você só pode possuir um aliado se beneficiando por este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "05 Talentos de Cavaleiro."
+  }
+}

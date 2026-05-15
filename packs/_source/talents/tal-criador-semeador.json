@@ -1,0 +1,20 @@
+{
+  "name": "SEMEADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você carrega consigo um vaso portátil usado como uma pequena horta para plantar e produzir plantas, que podem gerar Frutas ou Abricós. Ao plantar uma Fruta ou um Abricó em sua Horta, role 1d4+1. A planta germinará e frutificará em um número de dias igual ao resultado. Quando pronta para colher, role 1d4 para determinar quantas Frutas ou Abricós são produzidos por aquela planta. Você pode ter crescendo em sua Horta portátil até duas plantas simultaneamente. Você não pode trocar a planta que está crescendo antes de colher suas Frutas ou seus Abricós. A Horta portátil pode ser feita dos materiais que você preferir, mas pesa 7 kg e possui as seguintes dimensões: 45 centímetros por 30 centímetros por 15 centímetros, tornando impossível carregar mais de uma consigo.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você carrega consigo um vaso portátil usado como uma pequena horta para plantar e produzir plantas, que podem gerar Frutas ou Abricós. Ao plantar uma Fruta ou um Abricó em sua Horta, role 1d4+1. A planta germinará e frutificará em um número de dias igual ao resultado. Quando pronta para colher, role 1d4 para determinar quantas Frutas ou Abricós são produzidos por aquela planta. Você pode ter crescendo em sua Horta portátil até duas plantas simultaneamente. Você não pode trocar a planta que está crescendo antes de colher suas Frutas ou seus Abricós. A Horta portátil pode ser feita dos materiais que você preferir, mas pesa 7 kg e possui as seguintes dimensões: 45 centímetros por 30 centímetros por 15 centímetros, tornando impossível carregar mais de uma consigo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PELUGEM BRILHOSA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos preparando a aparência do alvo, role 1d20 + MDE. Se o resultado for 15 ou mais, o próximo ataque que o pokémon sofrer nas próximas 24 horas terá Dificuldade de Acurácia +5. Um mesmo pokémon não pode receber Pelugem Brilhosa mais de uma vez no mesmo dia.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "02 prêmios em Concursos.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon adjacente.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos preparando a aparência do alvo, role 1d20 + MDE. Se o resultado for 15 ou mais, o próximo ataque que o pokémon sofrer nas próximas 24 horas terá Dificuldade de Acurácia +5. Um mesmo pokémon não pode receber Pelugem Brilhosa mais de uma vez no mesmo dia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 prêmios em Concursos."
+  }
+}

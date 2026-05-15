@@ -1,0 +1,20 @@
+{
+  "name": "PROGRESSÃO NATURAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>o Pokémon recebe +1 a dois Atributos Basais diferentes. Todas as vezes que este bônus for aplicado subsequentemente, os mesmos dois Atributos devem ser beneficiados e se o Pokémon recebeu os benefícios de Cuidado Parental ou Cuidado Parental +, os mesmos Atributos beneficiados por estes talentos devem ser aqueles beneficiados por Progressão Natural. Finalmente, o bônus concedido por Cuidado Parental, Cuidado Parental + e Progressão Natural a cada Atributo Basal não pode exceder 6. Este Talento não beneficia seus Pokémons retroativamente.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 18.",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu sobe de Nível para um Nível múltiplo de 5.",
+    "contragatilho": "",
+    "efeito": "<p>o Pokémon recebe +1 a dois Atributos Basais diferentes. Todas as vezes que este bônus for aplicado subsequentemente, os mesmos dois Atributos devem ser beneficiados e se o Pokémon recebeu os benefícios de Cuidado Parental ou Cuidado Parental +, os mesmos Atributos beneficiados por estes talentos devem ser aqueles beneficiados por Progressão Natural. Finalmente, o bônus concedido por Cuidado Parental, Cuidado Parental + e Progressão Natural a cada Atributo Basal não pode exceder 6. Este Talento não beneficia seus Pokémons retroativamente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 18."
+  }
+}

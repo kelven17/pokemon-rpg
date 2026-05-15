@@ -1,0 +1,20 @@
+{
+  "name": "APARAR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MA à sua Defesa e à sua Defesa Especial para fins de diminuir o dano que você sofreria quando é atacado.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque 15.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MA à sua Defesa e à sua Defesa Especial para fins de diminuir o dano que você sofreria quando é atacado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 15."
+  }
+}

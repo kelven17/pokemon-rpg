@@ -1,0 +1,20 @@
+{
+  "name": "ENSINAR CAPACIDADES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 15 minutos treinando e instruindo o alvo, escolha um Golpe de qualquer lista do alvo, desde que o Golpe garanta ao alvo uma Capacidade (salvo Aura) ou modifique alguma Capacidade (novamente salvo Aura). O pokémon ganha aquela Capacidade. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele pokémon. Este Talento consome 01 Ponto de Tutoria.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 15 minutos treinando e instruindo o alvo, escolha um Golpe de qualquer lista do alvo, desde que o Golpe garanta ao alvo uma Capacidade (salvo Aura) ou modifique alguma Capacidade (novamente salvo Aura). O pokémon ganha aquela Capacidade. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele pokémon. Este Talento consome 01 Ponto de Tutoria.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

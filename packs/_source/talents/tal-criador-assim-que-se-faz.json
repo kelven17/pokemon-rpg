@@ -1,0 +1,20 @@
+{
+  "name": "ASSIM QUE SE FAZ!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando o progenitor ganha Pontos de Experiência, ele pode transferir metade dos pontos de experiência que receberia para o alvo. Se ambos os progenitores receberem pontos de experiência simultaneamente, apenas um pode transferir para o alvo.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Chocadeira ter chocado 02 ovos.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon que você chocou, a até 20 metros de um de seus progenitores.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando o progenitor ganha Pontos de Experiência, ele pode transferir metade dos pontos de experiência que receberia para o alvo. Se ambos os progenitores receberem pontos de experiência simultaneamente, apenas um pode transferir para o alvo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Chocadeira ter chocado 02 ovos."
+  }
+}

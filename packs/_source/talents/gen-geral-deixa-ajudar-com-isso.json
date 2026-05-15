@@ -1,0 +1,20 @@
+{
+  "name": "DEIXA AJUDAR COM ISSO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O aliado recebe +2 ao teste.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um humano aliado está fazendo um teste.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O aliado recebe +2 ao teste.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

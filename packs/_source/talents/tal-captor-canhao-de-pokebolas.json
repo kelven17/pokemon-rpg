@@ -1,0 +1,20 @@
+{
+  "name": "CANHÃO DE POKÉBOLAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seu Braço Mecânico pode agora atirar Pokébolas tanto para enviar seus Pokémons à batalha quanto para capturar Pokémons selvagens. Quando atirar um Pokébola em um Pokémon selvagem, subtraia 12 do resultado do Teste de Captura. Além disso, a Pokébola causa 1d8 de dano ao Pokémon selvagem, cujo mesmo não pode ser reduzido pela Defesa ou Defesa Especial.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Braço Mecânico.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seu Braço Mecânico pode agora atirar Pokébolas tanto para enviar seus Pokémons à batalha quanto para capturar Pokémons selvagens. Quando atirar um Pokébola em um Pokémon selvagem, subtraia 12 do resultado do Teste de Captura. Além disso, a Pokébola causa 1d8 de dano ao Pokémon selvagem, cujo mesmo não pode ser reduzido pela Defesa ou Defesa Especial.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Braço Mecânico."
+  }
+}

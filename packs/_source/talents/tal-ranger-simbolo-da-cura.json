@@ -1,0 +1,20 @@
+{
+  "name": "SÍMBOLO DA CURA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 2d20 + MA. O alvo recupera um número de Pontos de Vida igual ao resultado da rolagem. O uso deste Talento consome 01 Carga da bateria de seu Estilizador.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon ou um humano.",
+    "contragatilho": "",
+    "efeito": "<p>Role 2d20 + MA. O alvo recupera um número de Pontos de Vida igual ao resultado da rolagem. O uso deste Talento consome 01 Carga da bateria de seu Estilizador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

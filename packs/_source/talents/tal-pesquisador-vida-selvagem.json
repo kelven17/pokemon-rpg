@@ -1,0 +1,20 @@
+{
+  "name": "VIDA SELVAGEM",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando usar Arte Fotográfica em um Pokémon selvagem, em vez de multiplicar a rolagem por 20 para definir o valor da fotografia, multiplique por 45.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando usar Arte Fotográfica em um Pokémon selvagem, em vez de multiplicar a rolagem por 20 para definir o valor da fotografia, multiplique por 45.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

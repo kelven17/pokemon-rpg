@@ -1,0 +1,20 @@
+{
+  "name": "CAMPEÃO EM TREINAMENTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha um Atributo. Pelo resto do encontro, o alvo tem seu Atributo aumentado por uma quantidade idêntica ao Atributo Basal de sua última forma evoluída.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ter evitado a evolução de 01 Pokémon cuja forma final evolui no Nível 40 ou maior.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon seu que possui pelo menos um estágio evolutivo não alcançado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um Atributo. Pelo resto do encontro, o alvo tem seu Atributo aumentado por uma quantidade idêntica ao Atributo Basal de sua última forma evoluída.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter evitado a evolução de 01 Pokémon cuja forma final evolui no Nível 40 ou maior."
+  }
+}

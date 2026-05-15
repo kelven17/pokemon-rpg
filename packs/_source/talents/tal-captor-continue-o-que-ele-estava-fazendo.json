@@ -1,0 +1,20 @@
+{
+  "name": "CONTINUE O QUE ELE ESTAVA FAZENDO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O pokémon que está voltando para a pokébola não é meramente trocado, ele usa Passar o Bastão imediatamente.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Velocidade 18.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você chama um pokémon de volta para a pokébola.",
+    "contragatilho": "",
+    "efeito": "<p>O pokémon que está voltando para a pokébola não é meramente trocado, ele usa Passar o Bastão imediatamente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 18."
+  }
+}

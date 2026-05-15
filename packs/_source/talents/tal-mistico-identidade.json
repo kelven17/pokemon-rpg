@@ -1,0 +1,20 @@
+{
+  "name": "IDENTIDADE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando você usa Imitação, você pode duplicar também o equipamento e o vestuário do alvo. Diferente de sua aparência, estes objetos não são ilusões, mas são réplicas físicas reais. Contudo nenhum destes objetos oferece qualquer bônus ou efeito especial que ele pudesse possuir. Se um destes itens é consumível e for usado, ele simplesmente não funciona. Assim, haverá de fato um frasco contendo um líquido colorido e diversos adereços, mas nenhum deles tem função estatística. Quando você usa Imitação em alguém, você copia também a aura dele, mascarando a sua própria aura.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter usar Imitação em cinco pessoas que não eram suas aliadas.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando você usa Imitação, você pode duplicar também o equipamento e o vestuário do alvo. Diferente de sua aparência, estes objetos não são ilusões, mas são réplicas físicas reais. Contudo nenhum destes objetos oferece qualquer bônus ou efeito especial que ele pudesse possuir. Se um destes itens é consumível e for usado, ele simplesmente não funciona. Assim, haverá de fato um frasco contendo um líquido colorido e diversos adereços, mas nenhum deles tem função estatística. Quando você usa Imitação em alguém, você copia também a aura dele, mascarando a sua própria aura.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usar Imitação em cinco pessoas que não eram suas aliadas."
+  }
+}

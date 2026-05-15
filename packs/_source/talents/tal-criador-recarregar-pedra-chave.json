@@ -1,0 +1,20 @@
+{
+  "name": "RECARREGAR PEDRA-CHAVE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode ativar uma mesma Pedra-Chave duas vezes diárias. Você não pode ter como alvo o mesmo Pokémon duas vezes no mesmo dia. Sua Pedra-Chave só pode megaevoluir um Pokémon de cada vez.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode ativar uma mesma Pedra-Chave duas vezes diárias. Você não pode ter como alvo o mesmo Pokémon duas vezes no mesmo dia. Sua Pedra-Chave só pode megaevoluir um Pokémon de cada vez.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

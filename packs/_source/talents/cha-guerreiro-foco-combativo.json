@@ -1,0 +1,20 @@
+{
+  "name": "FOCO COMBATIVO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Adicione seus MA e MD às rolagens de dano causado por você.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seus MA e MD às rolagens de dano causado por você.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

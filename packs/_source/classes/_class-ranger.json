@@ -1,0 +1,17 @@
+{
+  "name": "Ranger",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Rangers são figuras de autoridade responsáveis pela manutenção da paz e do equilíbrio. Os laços que os Rangers criam com seus parceiros são tão poderosos que aquele que um dia foi um pokémon selvagem acabará por se juntar à cruzada do Ranger por justiça e bem-estar. Devido aos serviços excepcionais prestados, um Ranger pode ganhar poder político e governamental. Dentre estes, aqueles com a competência social aguçada para a manipulação são os que têm o dom para a liderança. Estes se destacam e podem esperar serem promovidos a Oficiais, que ocupam cargos chave na administração militar local. Oficiais compartilham os mesmos atributos: lealdade e liderança. Seus parceiros confiam em sua determinação; seus inimigos temem sua perseverança em situações perigosas. A presença do Oficial é tão poderosa que uma ordem dele simplesmente capacita seus aliados a coisas que antes se acreditava serem incapazes de alcançar. Rangers podem ser vistos como cadetes, pois os Policiais são Rangers promovidos. Eles recebem missões mais perigosas para derrotar o crime em todos os níveis. Para lidar com isto, o Policial usará tecnologia extra fornecida pela União Ranger, garantindo vantagens exclusivas. Apesar de poderem lidar com muitas situações perigosas, os Policiais não são instruídos a deixarem as situações se agravarem: eles devem manter a situação sob controle, devem prever e lidar com ameaças antes que incidentes ocorram. Como uma das duas formas de promoção dos Rangers (sendo a outra o Oficial), os Policiais se cercam de um tipo especial de respeito relacionado à aplicação da lei.</p>",
+    "slug": "ranger",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [],
+    "requirementsSameTree": "",
+    "requirementsOther": ""
+  }
+}

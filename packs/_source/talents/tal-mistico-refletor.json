@@ -1,0 +1,20 @@
+{
+  "name": "REFLETOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Refletor e pode, se quiser, tornar a Barreira do Refletor um Terreno Bloqueador.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter usado o Talento Permissão para usar Refletor.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Refletor e pode, se quiser, tornar a Barreira do Refletor um Terreno Bloqueador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usado o Talento Permissão para usar Refletor."
+  }
+}

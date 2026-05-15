@@ -1,0 +1,20 @@
+{
+  "name": "TRABALHE ESTE CORPO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 10 horas de treinamento, o alvo ganha permanentemente +1 à Capacidade Força ou a um de seus Deslocamentos (Isso não pode elevar a Força do Pokémon além de 7 e um Deslocamento não pode ser beneficiado mais de 03 vezes por este Talento). Se o valor numérico da Força ou do Deslocamento escolhido for menor que 4, ele não pode ser melhorado por este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16.",
+    "frequencia": "Semanal.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 10 horas de treinamento, o alvo ganha permanentemente +1 à Capacidade Força ou a um de seus Deslocamentos (Isso não pode elevar a Força do Pokémon além de 7 e um Deslocamento não pode ser beneficiado mais de 03 vezes por este Talento). Se o valor numérico da Força ou do Deslocamento escolhido for menor que 4, ele não pode ser melhorado por este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ZELO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Subtraia sua Contagem do resultado do Teste de Captura (em adição aos efeitos de Maníaco por Captura, se aplicar os dois Talentos).</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Velocidade 18, Contagem.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você faz um Teste de Captura em um Pokémon cuja espécie não possui.",
+    "contragatilho": "",
+    "efeito": "<p>Subtraia sua Contagem do resultado do Teste de Captura (em adição aos efeitos de Maníaco por Captura, se aplicar os dois Talentos).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 18, Contagem."
+  }
+}

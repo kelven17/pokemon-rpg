@@ -1,0 +1,20 @@
+{
+  "name": "CONTORCIONISMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você é imune a Paralisia.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Defesa 14.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você é imune a Paralisia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 14."
+  }
+}

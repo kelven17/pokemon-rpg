@@ -1,0 +1,20 @@
+{
+  "name": "PARECIDÍSSIMO COM VOCÊ!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha um Atributo. Se o Modificador do Atributo da pessoas que você está imitando é maior que o seu Modificador daquele Atributo, o seu Modificador aumenta para ser igual ao da pessoa imitada -1 enquanto você não abandonar a forma dela. Isso não muda o seu Atributo, apenas o Modificador.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você tem sucesso em usar Imitação.",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um Atributo. Se o Modificador do Atributo da pessoas que você está imitando é maior que o seu Modificador daquele Atributo, o seu Modificador aumenta para ser igual ao da pessoa imitada -1 enquanto você não abandonar a forma dela. Isso não muda o seu Atributo, apenas o Modificador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

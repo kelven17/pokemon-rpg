@@ -1,0 +1,20 @@
+{
+  "name": "SABEDORIA DIDÁTICA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 15 minutos treinando e instruindo o alvo, role 1d20 + MDE. Se o resultado for 16 ou mais, escolha um Golpe que ele pode aprender a partir de um Registro. O alvo aprende este Golpe. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele Golpe. Este Talento consome 04 Pontos de Tutoria.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16 e um dos seguintes: Instrução de Efeito, Instrução Especial ou Instrução Física.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 15 minutos treinando e instruindo o alvo, role 1d20 + MDE. Se o resultado for 16 ou mais, escolha um Golpe que ele pode aprender a partir de um Registro. O alvo aprende este Golpe. Uma vez que tenha usado este Talento em um pokémon, ele jamais poderá ser usado novamente para aquele Golpe. Este Talento consome 04 Pontos de Tutoria.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16 e um dos seguintes: Instrução de Efeito, Instrução Especial ou Instrução Física."
+  }
+}

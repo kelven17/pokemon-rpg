@@ -1,0 +1,20 @@
+{
+  "name": "PROCURAR FRUTOS CURATIVOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 15 ou mais, você encontra uma Fruta. Para determinar qual fruta, role 1d10 e consulte a tabela abaixo:</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 20.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 15 ou mais, você encontra uma Fruta. Para determinar qual fruta, role 1d10 e consulte a tabela abaixo:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 20."
+  }
+}

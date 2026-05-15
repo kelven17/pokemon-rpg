@@ -1,0 +1,20 @@
+{
+  "name": "INCANSÁVEL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seus pokémons só atingem a inconsciência quando atingem -20% de seus Pontos de Vida, em vez de ficarem inconscientes aos 0 Pontos de Vida, como normalmente acontece. Contudo, um pokémon consciente em virtude desta Característica de Classe não pode usar nenhum dos seguintes Golpes: Autodestruição, Esforço, Explosão, Mangual, Reversão, Sofrimento Mútuo. Esta Característica de Classe não interfere em quando seu pokémon deve fazer um teste de morte. Pokémons Sem Alma não podem se beneficiar de Incansável.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque 20, Possuir 03 pokémons com Resistência.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus pokémons só atingem a inconsciência quando atingem -20% de seus Pontos de Vida, em vez de ficarem inconscientes aos 0 Pontos de Vida, como normalmente acontece. Contudo, um pokémon consciente em virtude desta Característica de Classe não pode usar nenhum dos seguintes Golpes: Autodestruição, Esforço, Explosão, Mangual, Reversão, Sofrimento Mútuo. Esta Característica de Classe não interfere em quando seu pokémon deve fazer um teste de morte. Pokémons Sem Alma não podem se beneficiar de Incansável.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 20, Possuir 03 pokémons com Resistência."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PRESAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Recupere um número de PV igual à metade do dano causado.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você mesmo acerta um Golpe Corpo a Corpo ou com um pokémon canalisado.",
+    "contragatilho": "",
+    "efeito": "<p>Recupere um número de PV igual à metade do dano causado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

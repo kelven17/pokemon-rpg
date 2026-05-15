@@ -1,0 +1,17 @@
+{
+  "name": "Psíquico",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Nem todo ser humano do mundo Pokémon nasce com habilidades naturais iguais. Os Psíquicos exploram um potencial misterioso que muitos humanos parecem ter escondido dentro de si. Capazes de impactar a matéria com apenas sua mente, o Psíquico é uma força a ser tão reconhecida quantos os pokémons psíquicos. Psíquicos acabam por desenvolver uma afinidade natural com os pokémons Psíquicos, pois também podem mover objetos por telecinesia e telepaticamente entrar nas mentes dos outros. Eles podem descobrir exatamente o que seus pokémons precisam, negociar dentro das mentes de outros e comungar com pokémons selvagens sem se mexer.</p>",
+    "slug": "psiquico",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [],
+    "requirementsSameTree": "",
+    "requirementsOther": ""
+  }
+}

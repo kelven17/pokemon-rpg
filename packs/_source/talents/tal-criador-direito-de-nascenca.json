@@ -1,0 +1,20 @@
+{
+  "name": "DIREITO DE NASCENÇA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, escolha qual a Habilidade do Pokémon que nascer dentre as possibilidades normais para ele.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, escolha qual a Habilidade do Pokémon que nascer dentre as possibilidades normais para ele.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

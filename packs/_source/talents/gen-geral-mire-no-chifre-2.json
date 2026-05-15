@@ -1,0 +1,20 @@
+{
+  "name": "MIRE NO CHIFRE! +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Se o resultado do Teste de Acurácia for 16 ou mais, o ataque do seu Pokémon causará dano neutro, ignorando todas as resistências e imunidades. Este Talento substitui Mire no Chifre.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Ataque Especial 16, Mire no Chifre.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Seu Pokémon está executando um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>Se o resultado do Teste de Acurácia for 16 ou mais, o ataque do seu Pokémon causará dano neutro, ignorando todas as resistências e imunidades. Este Talento substitui Mire no Chifre.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16, Mire no Chifre."
+  }
+}

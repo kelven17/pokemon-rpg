@@ -1,0 +1,20 @@
+{
+  "name": "POSTURA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Seus Pokémons podem possuir uma soma de Aptidões igual a 24. Além disso, eles podem receber os efeitos de quaisquer Temperos até atingirem este máximo. Se um Pokémon beneficiado por Postura alcança mais do que 20 pontos somando todas as suas Aptidões e é posteriormente trocado com alguém que não é um Artista, o Pokémon mantém suas Aptidões melhoradas, mas o novo dono não poderá acessar mais do que 20 pontos de Aptidões por Concurso, a menos que possua outra característica que permita elevar as Aptidões de seus Pokémons.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus Pokémons podem possuir uma soma de Aptidões igual a 24. Além disso, eles podem receber os efeitos de quaisquer Temperos até atingirem este máximo. Se um Pokémon beneficiado por Postura alcança mais do que 20 pontos somando todas as suas Aptidões e é posteriormente trocado com alguém que não é um Artista, o Pokémon mantém suas Aptidões melhoradas, mas o novo dono não poderá acessar mais do que 20 pontos de Aptidões por Concurso, a menos que possua outra característica que permita elevar as Aptidões de seus Pokémons.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

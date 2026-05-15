@@ -1,0 +1,20 @@
+{
+  "name": "TREINAMENTO DE ESPECIALISTA +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MA ou seu MAE ao Atributo Basal de todos os seus Pokémons. Se isso mudar a Relação Basal de um Pokémon, distribua seus Pontos de Atributos (quando ele subir de Nível) conforme a nova Relação Basal. Além disso, para cada 10 Níveis que você possua, seus Pokémons ganham +1 extra ao Atributo Basal de seu Atributo de Escolha. Este Talento substitui Treinamento de Especialista.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "03 insígnias ou equivalentes, Treinamento de Especialista.",
+    "frequencia": "Constante.",
+    "alvo": "O Atributo de Escolha de todos os seus Pokémons.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MA ou seu MAE ao Atributo Basal de todos os seus Pokémons. Se isso mudar a Relação Basal de um Pokémon, distribua seus Pontos de Atributos (quando ele subir de Nível) conforme a nova Relação Basal. Além disso, para cada 10 Níveis que você possua, seus Pokémons ganham +1 extra ao Atributo Basal de seu Atributo de Escolha. Este Talento substitui Treinamento de Especialista.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "03 insígnias ou equivalentes, Treinamento de Especialista."
+  }
+}

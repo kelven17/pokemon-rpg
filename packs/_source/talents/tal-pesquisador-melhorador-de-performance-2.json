@@ -1,0 +1,20 @@
+{
+  "name": "MELHORADOR DE PERFORMANCE +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 01 Hora de trabalho químico, você cria um dos seguintes itens à sua escolha: X-Ataque, X-Defesa, X-Ataque Especial, X-Defesa Especial, X-Velocidade, X-Acurácia, Golpe Atroz, Guarda Especial. Este Talento substitui Melhoradores de Performance.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ter usado o Talento Melhorador de Performance três vezes.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 01 Hora de trabalho químico, você cria um dos seguintes itens à sua escolha: X-Ataque, X-Defesa, X-Ataque Especial, X-Defesa Especial, X-Velocidade, X-Acurácia, Golpe Atroz, Guarda Especial. Este Talento substitui Melhoradores de Performance.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usado o Talento Melhorador de Performance três vezes."
+  }
+}

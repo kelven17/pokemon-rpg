@@ -1,0 +1,20 @@
+{
+  "name": "NO PONTO FRACO!",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você causa ao alvo da Pokébola uma quantidade de dano igual a seu MV que não pode ser reduzido pela Defesa ou Defesa Especial. Este Talento pode ser usado quando fizer uma rolagem para Captura ou quando arremessar uma Pokébola para causar dano ao alvo usando-a como uma arma de arremesso (conforme Armas).</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você arremessa uma Pokébola.",
+    "contragatilho": "",
+    "efeito": "<p>Você causa ao alvo da Pokébola uma quantidade de dano igual a seu MV que não pode ser reduzido pela Defesa ou Defesa Especial. Este Talento pode ser usado quando fizer uma rolagem para Captura ou quando arremessar uma Pokébola para causar dano ao alvo usando-a como uma arma de arremesso (conforme Armas).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

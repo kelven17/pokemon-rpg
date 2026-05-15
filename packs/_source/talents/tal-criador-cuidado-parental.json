@@ -1,0 +1,20 @@
+{
+  "name": "CUIDADO PARENTAL +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MD a um Atributo Basal do Pokémon que nascer seu MDE a outro Atributo Basal dele. O bônus concedido a cada Atributo Basal não pode exceder 6. Este Talento substitui Cuidado Parental.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16, Defesa Especial 18, Cuidado Parental.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MD a um Atributo Basal do Pokémon que nascer seu MDE a outro Atributo Basal dele. O bônus concedido a cada Atributo Basal não pode exceder 6. Este Talento substitui Cuidado Parental.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16, Defesa Especial 18, Cuidado Parental."
+  }
+}

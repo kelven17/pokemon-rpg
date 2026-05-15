@@ -1,0 +1,20 @@
+{
+  "name": "ENVENENAMENTO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Pó Venenoso. Você pode escolher usá-lo como um Golpe Corpo a Corpo sem o Descritor Explosão, se o fizer, a Dificuldade de Acurácia é diminuída em 2.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Pó Venenoso. Você pode escolher usá-lo como um Golpe Corpo a Corpo sem o Descritor Explosão, se o fizer, a Dificuldade de Acurácia é diminuída em 2.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

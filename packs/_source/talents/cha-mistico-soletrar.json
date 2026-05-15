@@ -1,0 +1,20 @@
+{
+  "name": "SOLETRAR",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode combinar até 06 Unown separados em um pokémon só, que deve formar uma palavra. Cada Poder Oculto conhecido pelos Unown letras que compõem o novo Unown palavra contam como um Golpe diferente para ele. Além disso, pode escolher se usará Poder Oculto com Ataque ou com Ataque Especial. Cada Poder Oculto deve ser definido como usando Ataque ou Ataque Especial no momento da formação da palavra, e esta escolha é permanente. Para definir os Atributos do Unown combinado, escolha um Unown como sendo o líder. Use os Atributos dele e, para cada Unown adicionado a ele, adicione +3 a um Atributo dele. O Unown palavra – como o Unown letra – é um pokémon só: ele é mantido em uma pokébola. Ao formar uma palavra, não é possível separar as unidades mais, mas é possível adicionar uma letra se for possível adicionar letras.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Até 06 Unown.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode combinar até 06 Unown separados em um pokémon só, que deve formar uma palavra. Cada Poder Oculto conhecido pelos Unown letras que compõem o novo Unown palavra contam como um Golpe diferente para ele. Além disso, pode escolher se usará Poder Oculto com Ataque ou com Ataque Especial. Cada Poder Oculto deve ser definido como usando Ataque ou Ataque Especial no momento da formação da palavra, e esta escolha é permanente. Para definir os Atributos do Unown combinado, escolha um Unown como sendo o líder. Use os Atributos dele e, para cada Unown adicionado a ele, adicione +3 a um Atributo dele. O Unown palavra – como o Unown letra – é um pokémon só: ele é mantido em uma pokébola. Ao formar uma palavra, não é possível separar as unidades mais, mas é possível adicionar uma letra se for possível adicionar letras.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

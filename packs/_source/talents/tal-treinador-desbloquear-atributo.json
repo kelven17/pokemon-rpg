@@ -1,0 +1,20 @@
+{
+  "name": "DESBLOQUEAR ATRIBUTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando um Pokémon seu sobe de nível, você pode adicionar pontos de Atributos ao Atributo de Escolha, ignorando a Relação Basal.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Um Pokémon com Atributo de Escolha 30.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando um Pokémon seu sobe de nível, você pode adicionar pontos de Atributos ao Atributo de Escolha, ignorando a Relação Basal.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon com Atributo de Escolha 30."
+  }
+}

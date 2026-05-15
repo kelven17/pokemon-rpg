@@ -1,0 +1,20 @@
+{
+  "name": "CLARIAUDIÊNCIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando você usa Passado Recente, Passado ou Passado +, você também ouve os sons ocorridos. Você sabe automaticamente se alguém está deliberadamente mentindo para você.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Ataque Especial 17.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando você usa Passado Recente, Passado ou Passado +, você também ouve os sons ocorridos. Você sabe automaticamente se alguém está deliberadamente mentindo para você.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 17."
+  }
+}

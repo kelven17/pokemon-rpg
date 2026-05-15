@@ -1,0 +1,20 @@
+{
+  "name": "GOSTO DESTE CORPO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você cria uma ligação entre o seu corpo e o do alvo. Você pode abdicar desta ligação quando quiser como uma Ação Livre durante seu turno. Enquanto a ligação for mantida, você pode usar Imitação no alvo independente da distância e da necessidade de ele estar dentro do seu campo visual. Você só pode possuir uma ligação. A cada 25 Níveis, receba uma ligação adicional.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Mais um Pouquinho!",
+    "frequencia": "À Vontade.",
+    "alvo": "O humano cuja forma você está imitando há pelo menos 72 horas.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você cria uma ligação entre o seu corpo e o do alvo. Você pode abdicar desta ligação quando quiser como uma Ação Livre durante seu turno. Enquanto a ligação for mantida, você pode usar Imitação no alvo independente da distância e da necessidade de ele estar dentro do seu campo visual. Você só pode possuir uma ligação. A cada 25 Níveis, receba uma ligação adicional.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Mais um Pouquinho!"
+  }
+}

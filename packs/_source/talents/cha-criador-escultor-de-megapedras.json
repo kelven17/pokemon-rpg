@@ -1,0 +1,20 @@
+{
+  "name": "ESCULTOR DE MEGAPEDRAS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 15 horas de foco e trabalho conjunto com o alvo, você cria uma Megapedra para uso exclusivo no alvo. Esta Megapedra exclusiva permite que o alvo acesse uma megaevolução única, não idêntica a uma megaevolução descrita (o Pokémon nem precisa ter uma megaevolução descrita). Quando o Pokémon megaevolui usando esta Megapedra, você adiciona 10 pontos aos Atributos Basais dele, mas nenhum Atributo Basal pode receber mais do que 4. A Saúde do Pokémon não pode receber nenhum bônus e nenhum Atributo Basal pode ser reduzido. Discuta com seu Narrador como a megaevolução particular afeta o Tipo e a Habilidade de seu Pokémon.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon seu totalmente evoluído com no mínimo Lealdade 2.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 15 horas de foco e trabalho conjunto com o alvo, você cria uma Megapedra para uso exclusivo no alvo. Esta Megapedra exclusiva permite que o alvo acesse uma megaevolução única, não idêntica a uma megaevolução descrita (o Pokémon nem precisa ter uma megaevolução descrita). Quando o Pokémon megaevolui usando esta Megapedra, você adiciona 10 pontos aos Atributos Basais dele, mas nenhum Atributo Basal pode receber mais do que 4. A Saúde do Pokémon não pode receber nenhum bônus e nenhum Atributo Basal pode ser reduzido. Discuta com seu Narrador como a megaevolução particular afeta o Tipo e a Habilidade de seu Pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

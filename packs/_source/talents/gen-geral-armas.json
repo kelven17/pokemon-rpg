@@ -1,0 +1,20 @@
+{
+  "name": "ARMAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Este Talento emprega uma arma para atacar um Pokémon ou um humano. Em posse da arma adequada, o dano será aplicado conforme a opção de escolha. Ataque desarmado é considerado mecanicamente um tipo de arma para fins deste Talento e de outra forma de dano de Armas. A menos que modificadas por Características de Classe ou Talentos, ataques de Armas são considerados Golpes causadores de dano Físico (não dano Especial) do Tipo Normal. O dano causado é determinado por este Talento e pelo Talento Arma de Escolha. As únicas mecânicas reais que as diferenciam é se são Corpo a Corpo, de Curto Alcance ou de Longo Alcance: - Armas Corpo a Corpo têm alcance de um metro. - Armas de Curto Alcance (que incluem aquelas de Arremesso) são consideradas com alcance de até 5 metros, mas, não podem ser usadas para atacar um alvo mais próximo que um metro. - Armas de Longo Alcance possuem alcance de 4 a 10 metros (elas não atacam a menos de 4 metros). A Dificuldade de Acurácia de Armas é 6. O dano causado segue o padrão da tabela abaixo conforme seu Nível. Quando for causado dano de Armas, adicione seu MA ou seu MV ao dano causado.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Este Talento emprega uma arma para atacar um Pokémon ou um humano. Em posse da arma adequada, o dano será aplicado conforme a opção de escolha. Ataque desarmado é considerado mecanicamente um tipo de arma para fins deste Talento e de outra forma de dano de Armas. A menos que modificadas por Características de Classe ou Talentos, ataques de Armas são considerados Golpes causadores de dano Físico (não dano Especial) do Tipo Normal. O dano causado é determinado por este Talento e pelo Talento Arma de Escolha. As únicas mecânicas reais que as diferenciam é se são Corpo a Corpo, de Curto Alcance ou de Longo Alcance: - Armas Corpo a Corpo têm alcance de um metro. - Armas de Curto Alcance (que incluem aquelas de Arremesso) são consideradas com alcance de até 5 metros, mas, não podem ser usadas para atacar um alvo mais próximo que um metro. - Armas de Longo Alcance possuem alcance de 4 a 10 metros (elas não atacam a menos de 4 metros). A Dificuldade de Acurácia de Armas é 6. O dano causado segue o padrão da tabela abaixo conforme seu Nível. Quando for causado dano de Armas, adicione seu MA ou seu MV ao dano causado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

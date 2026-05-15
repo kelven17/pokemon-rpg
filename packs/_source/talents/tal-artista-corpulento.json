@@ -1,0 +1,20 @@
+{
+  "name": "CORPULENTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recebe uma quantidade de Pontos de Vida temporários igual ao dobro de seu Vigor. Pontos de Vida temporários desaparecem após um encontro ou ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano).</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Um Pokémon com Vigor 5.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon com Vigor 5.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recebe uma quantidade de Pontos de Vida temporários igual ao dobro de seu Vigor. Pontos de Vida temporários desaparecem após um encontro ou ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon com Vigor 5."
+  }
+}

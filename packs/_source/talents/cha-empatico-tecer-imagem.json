@@ -1,0 +1,20 @@
+{
+  "name": "TECER IMAGEM",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, você pode seguir uma parte do passado do objeto na forma de uma imagem fantasmagórica retirada das visões originais e manifesta no mundo real, mas vista apenas por você. A imagem pode ser de qualquer coisa, como: uma pessoa, um pokémon ou outro objeto – que entrou em contato com o objeto cujo passado você estava lendo. Se a imagem fantasmagórica se deslocar para mais longe do que 1,6 Km do local onde ela apareceu, ela é dissipada.</p>",
+    "category": "characteristic",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Uma imagem vista enquanto você lia o passado de um objeto.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, você pode seguir uma parte do passado do objeto na forma de uma imagem fantasmagórica retirada das visões originais e manifesta no mundo real, mas vista apenas por você. A imagem pode ser de qualquer coisa, como: uma pessoa, um pokémon ou outro objeto – que entrou em contato com o objeto cujo passado você estava lendo. Se a imagem fantasmagórica se deslocar para mais longe do que 1,6 Km do local onde ela apareceu, ela é dissipada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

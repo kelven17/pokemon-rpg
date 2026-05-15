@@ -1,0 +1,20 @@
+{
+  "name": "FOTOGRAFIA RARA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você tira uma fotografia do Golpe, que pode ser vendida no valor de 30 vezes o resultado da rolagem.</p>",
+    "category": "characteristic",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você ou um aliado é atacado por um Pokémon usando um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você tira uma fotografia do Golpe, que pode ser vendida no valor de 30 vezes o resultado da rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

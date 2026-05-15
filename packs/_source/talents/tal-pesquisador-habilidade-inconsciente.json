@@ -1,0 +1,20 @@
+{
+  "name": "HABILIDADE INCONSCIENTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 17 ou mais, o pokémon recebe permanentemente uma Habilidade, escolhida entre as Altas Habilidades do pokémon. Um pokémon não pode receber uma terceira Habilidade mediante este Talento. Se o alvo já possui duas Habilidades, substitua uma das Habilidades dele. Habilidade Inconsciente jamais poderá ser usada novamente no mesmo pokémon.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Defesa Especial 17.",
+    "frequencia": "Diária.",
+    "alvo": "Um pokémon que está sonhando há pelo menos 08 horas.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 17 ou mais, o pokémon recebe permanentemente uma Habilidade, escolhida entre as Altas Habilidades do pokémon. Um pokémon não pode receber uma terceira Habilidade mediante este Talento. Se o alvo já possui duas Habilidades, substitua uma das Habilidades dele. Habilidade Inconsciente jamais poderá ser usada novamente no mesmo pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 17."
+  }
+}

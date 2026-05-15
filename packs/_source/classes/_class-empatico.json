@@ -1,0 +1,26 @@
+{
+  "name": "Empático",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Um Empático se relaciona ainda mais com os outros do que um telepata comum. Ele pode realmente sentir as coisas que os outros seres sentem, em vez de apenas saber sobre eles, assim sua compreensão pode ir além do tempo dentro das mentes, e pode vencer a barreira entre espécies para compreender todos os pokémons. Através destes mecanismos, os Empáticos tratam a alma e o corpo das pessoas, trazendo cura e aliviando o sofrimento em ambos pokémons e humanos. Em resumo, o Empático é um bom samaritano que cura e serve como uma ponte mística entre humanos e pokémons.</p>",
+    "slug": "empatico",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [
+      "Imunidade",
+      "Concentração",
+      "Regeneração",
+      "História",
+      "Empatia",
+      "Manipulação",
+      "Percepção",
+      "Performance"
+    ],
+    "requirementsSameTree": "",
+    "requirementsOther": "Um Pokémon seu que já subiu pelo menos 20 Níveis com você."
+  }
+}

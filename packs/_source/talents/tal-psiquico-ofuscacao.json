@@ -1,0 +1,20 @@
+{
+  "name": "OFUSCAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Ofuscação. O uso deste Talento consome 20 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Se o resultado do Teste de Acurácia for 13 ou mais, aumente em 1 as Dificuldades de Acurácia do alvo pelo resto do encontro.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "Nível 10, Esfera de Sombras.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Ofuscação. O uso deste Talento consome 20 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Se o resultado do Teste de Acurácia for 13 ou mais, aumente em 1 as Dificuldades de Acurácia do alvo pelo resto do encontro.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 10, Esfera de Sombras."
+  }
+}

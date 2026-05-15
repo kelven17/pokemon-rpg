@@ -1,0 +1,20 @@
+{
+  "name": "FÁBRICA DE OVOS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode fazer até 07 Testes de Procriação diários. As chances de sucesso em Testes de Procriação aumentam de 25 para 35 se os dois Pokémons não pertencem à mesma família e de 50 para 70 se ambos pertencem à mesma família. Subtraia seu MD ou seu MDE do resultado do Teste de Procriação. É necessário que os Pokémons passem apenas 04 horas juntos para tentarem procriar, em vez de 8 horas. Analisando um ovo, você pode identificar qual é o Pokémon que nascerá.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode fazer até 07 Testes de Procriação diários. As chances de sucesso em Testes de Procriação aumentam de 25 para 35 se os dois Pokémons não pertencem à mesma família e de 50 para 70 se ambos pertencem à mesma família. Subtraia seu MD ou seu MDE do resultado do Teste de Procriação. É necessário que os Pokémons passem apenas 04 horas juntos para tentarem procriar, em vez de 8 horas. Analisando um ovo, você pode identificar qual é o Pokémon que nascerá.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

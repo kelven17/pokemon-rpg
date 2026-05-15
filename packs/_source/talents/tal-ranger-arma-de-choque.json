@@ -1,0 +1,20 @@
+{
+  "name": "ARMA DE CHOQUE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MV. Se o resultado for 15 ou mais, o alvo está Confuso. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MV. Se o resultado for 15 ou mais, o alvo está Confuso. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

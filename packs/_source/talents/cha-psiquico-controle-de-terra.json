@@ -1,0 +1,20 @@
+{
+  "name": "CONTROLE DE TERRA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Uma porção de areia, de solo ou de rocha cujo peso máximo em quilos não exceda dez vezes seu MAE que não esteja mais distante que um número de metros igual ao triplo de seu MAE.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

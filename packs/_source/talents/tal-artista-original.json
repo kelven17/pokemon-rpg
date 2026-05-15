@@ -1,0 +1,20 @@
+{
+  "name": "ORIGINAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Eleve uma Fase de Ataque do Pokémon. Em Concursos, o efeito deste Talento é outro: O alvo rola 1d4 adicional.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Um Pokémon com Estilo 15.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu com Estilo 15 usa um Golpe com a Categoria Estilo.",
+    "contragatilho": "",
+    "efeito": "<p>Eleve uma Fase de Ataque do Pokémon. Em Concursos, o efeito deste Talento é outro: O alvo rola 1d4 adicional.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon com Estilo 15."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ESPONJA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando usar Permissão ou Empréstimo, você obtém três Golpes, em vez de apenas um (e não é possível selecionar o mesmo Golpe mais de uma vez).</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter usado Permissão para usar um Golpe de um Pokémon seu leal que já subiu pelo menos 20 Níveis com você.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando usar Permissão ou Empréstimo, você obtém três Golpes, em vez de apenas um (e não é possível selecionar o mesmo Golpe mais de uma vez).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usado Permissão para usar um Golpe de um Pokémon seu leal que já subiu pelo menos 20 Níveis com você."
+  }
+}

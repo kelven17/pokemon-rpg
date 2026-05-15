@@ -1,0 +1,20 @@
+{
+  "name": "BRAÇO MECÂNICO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você constrói uma prótese mecânica para seu braço direito ou para seu braço esquerdo. Ela adiciona +2 a seu Atributo Ataque. O Braço Mecânico pesa 20 kg, mas possui um sistema acoplador de modo que você não se cansa em carregá-lo.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você constrói uma prótese mecânica para seu braço direito ou para seu braço esquerdo. Ela adiciona +2 a seu Atributo Ataque. O Braço Mecânico pesa 20 kg, mas possui um sistema acoplador de modo que você não se cansa em carregá-lo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

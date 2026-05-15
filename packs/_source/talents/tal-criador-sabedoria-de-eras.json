@@ -1,0 +1,20 @@
+{
+  "name": "SABEDORIA DE ERAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode agora criar o mesmo Registro quantas vezes desejar usando Recordador e Inventor de Técnicas e também pode escolher o mesmo Golpe inúmeras vezes com Sabedoria Didática.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Recordador, Inventor de Técnicas.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode agora criar o mesmo Registro quantas vezes desejar usando Recordador e Inventor de Técnicas e também pode escolher o mesmo Golpe inúmeras vezes com Sabedoria Didática.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Recordador, Inventor de Técnicas."
+  }
+}

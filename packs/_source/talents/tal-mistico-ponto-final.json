@@ -1,0 +1,20 @@
+{
+  "name": "PONTO FINAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha três Condições entre Confusão, Paralisia, Queimadura, Sono ou Veneno. É possível escolher a mesma condição mais de uma vez. Para cada escolha, faça um Teste de Acurácia com Dificuldade 5 contra o alvo. Cada ataque inflige a Condição escolhida no alvo. Você só pode usar este Talento se estiver com pelo menos 08 Unown consigo, espalhados em diferentes Unown palavras.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter Formado pelo menos 02 Unown palavras.",
+    "frequencia": "Diária.",
+    "alvo": "Um pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha três Condições entre Confusão, Paralisia, Queimadura, Sono ou Veneno. É possível escolher a mesma condição mais de uma vez. Para cada escolha, faça um Teste de Acurácia com Dificuldade 5 contra o alvo. Cada ataque inflige a Condição escolhida no alvo. Você só pode usar este Talento se estiver com pelo menos 08 Unown consigo, espalhados em diferentes Unown palavras.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter Formado pelo menos 02 Unown palavras."
+  }
+}

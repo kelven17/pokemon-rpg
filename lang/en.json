@@ -217,7 +217,28 @@
       "SpeciesBundleVersion": {
         "Name": "Imported Species Bundle Version",
         "Hint": "Tracks which version of the species bundle has already been imported into the world-side compendium."
+      },
+      "TalentsBundleVersion": {
+        "Name": "Imported Talents Bundle Version",
+        "Hint": "Tracks which version of the talents bundle has already been imported into the world-side compendium."
       }
+    },
+
+    "TalentCategory": {
+      "Label":          "Category",
+      "General":        "General",
+      "Class":          "Class-Granted",
+      "Characteristic": "Class Characteristic"
+    },
+
+    "Talent": {
+      "Requisitos":    "Requirements",
+      "Frequencia":    "Frequency",
+      "Alvo":          "Target",
+      "Gatilho":       "Trigger",
+      "Contragatilho": "Counter-Trigger",
+      "Efeito":        "Effect",
+      "Characteristics": "Class Characteristics"
     },
 
     "CapacityCategory": {

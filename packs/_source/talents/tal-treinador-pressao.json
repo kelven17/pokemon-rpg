@@ -1,0 +1,20 @@
+{
+  "name": "PRESSÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Cause dano ao seu Pokémon igual a 1/5 dos Pontos de Vida máximos dele. Eleve uma Fase de um Atributo dele à sua escolha. Se você usar Pressão mais de uma vez diária no mesmo Pokémon, isso afetará a lealdade dele.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu adjacente.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Cause dano ao seu Pokémon igual a 1/5 dos Pontos de Vida máximos dele. Eleve uma Fase de um Atributo dele à sua escolha. Se você usar Pressão mais de uma vez diária no mesmo Pokémon, isso afetará a lealdade dele.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

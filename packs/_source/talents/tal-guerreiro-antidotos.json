@@ -1,0 +1,20 @@
+{
+  "name": "ANTÍDOTOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MD. Se o resultado for 13 ou mais, o alvo é curado do Veneno. Se o veneno foi infligido por você, o alvo é automaticamente curado sem necessidade de rolagem.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Uma criatura adjacente Envenenada.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MD. Se o resultado for 13 ou mais, o alvo é curado do Veneno. Se o veneno foi infligido por você, o alvo é automaticamente curado sem necessidade de rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

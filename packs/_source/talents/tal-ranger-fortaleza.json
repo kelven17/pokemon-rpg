@@ -1,0 +1,20 @@
+{
+  "name": "FORTALEZA!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O maior Atributo de seu pokémon é aumentado por metade de seu MA por uma rodada. Se o Atributo em questão for Saúde, os Pontos de Vida ganhos por isso são Pontos de Vida temporários. Estes Pontos de Vida temporários desaparecem ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano) ou quando a Saúde voltar ao valor padrão.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 18.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Um pokémon seu que deixou inconsciente algum humano ou pokémon nas últimas 03 rodadas.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O maior Atributo de seu pokémon é aumentado por metade de seu MA por uma rodada. Se o Atributo em questão for Saúde, os Pontos de Vida ganhos por isso são Pontos de Vida temporários. Estes Pontos de Vida temporários desaparecem ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano) ou quando a Saúde voltar ao valor padrão.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 18."
+  }
+}

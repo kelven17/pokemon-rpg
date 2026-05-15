@@ -1,0 +1,20 @@
+{
+  "name": "PONTO DE CAPTURA ++",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Subtraia o dobro de seu MV das rolagens de d100 feitas quando jogar uma Pokébola. Este Talento substitui Ponto de Captura +.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Velocidade 18, Ponto de Captura +.",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Você arremessa uma Pokébola.",
+    "contragatilho": "",
+    "efeito": "<p>Subtraia o dobro de seu MV das rolagens de d100 feitas quando jogar uma Pokébola. Este Talento substitui Ponto de Captura +.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 18, Ponto de Captura +."
+  }
+}

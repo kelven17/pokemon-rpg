@@ -1,0 +1,20 @@
+{
+  "name": "PRIORIDADES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O pokémon não usa em aliado(s) e agora pode se beneficiar dos efeitos. INQUEBRÁVEL</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um pokémon seu usa um Golpe que tem como alvo(s) apenas um ou mais aliados.",
+    "contragatilho": "",
+    "efeito": "<p>O pokémon não usa em aliado(s) e agora pode se beneficiar dos efeitos. INQUEBRÁVEL</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

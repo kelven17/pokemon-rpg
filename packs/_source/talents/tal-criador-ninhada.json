@@ -1,0 +1,20 @@
+{
+  "name": "NINHADA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d4. O resultado determinará o número de ovos que são produzidos se houver sucesso na procriação.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Um Pokémon que já produziu pelo menos 02 ovos.",
+    "frequencia": "Semanal.",
+    "alvo": "Pokémons que estão procriando.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d4. O resultado determinará o número de ovos que são produzidos se houver sucesso na procriação.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon que já produziu pelo menos 02 ovos."
+  }
+}

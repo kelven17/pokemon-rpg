@@ -1,0 +1,20 @@
+{
+  "name": "CAPAZ",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Aumente em 01 todas as Capacidades numéricas e Deslocamentos do alvo. Este Talento é aplicado a um Pokémon por vez. Trocar o Pokémon alvo deste Talento consome uma Ação Padrão.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 16, Ter evitado a evolução de 03 Pokémons.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon seu que possui pelo menos um estágio evolutivo não alcançado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Aumente em 01 todas as Capacidades numéricas e Deslocamentos do alvo. Este Talento é aplicado a um Pokémon por vez. Trocar o Pokémon alvo deste Talento consome uma Ação Padrão.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16, Ter evitado a evolução de 03 Pokémons."
+  }
+}

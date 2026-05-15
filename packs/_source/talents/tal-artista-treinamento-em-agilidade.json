@@ -1,0 +1,20 @@
+{
+  "name": "TREINAMENTO EM AGILIDADE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos preparando o alvo, este recebe +3 a todos os seus Deslocamentos pelas próximas 24 horas.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "02 prêmios em Concursos.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos preparando o alvo, este recebe +3 a todos os seus Deslocamentos pelas próximas 24 horas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 prêmios em Concursos."
+  }
+}

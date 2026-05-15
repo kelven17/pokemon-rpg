@@ -1,0 +1,20 @@
+{
+  "name": "MEGA!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Pokémon alvo megaevolui e assim permanece, até atingir 0 Pontos de Vida.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Todos os Atributos 10 e uma Pedra-Chave.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon com uma Megapedra.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O Pokémon alvo megaevolui e assim permanece, até atingir 0 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Todos os Atributos 10 e uma Pedra-Chave."
+  }
+}

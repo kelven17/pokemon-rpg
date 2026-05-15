@@ -1,0 +1,20 @@
+{
+  "name": "PASSADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde o dia anterior. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. O uso deste Talento consome 15 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Clariaudiência, Clarividência.",
+    "frequencia": "Diária.",
+    "alvo": "O local onde você se encontra ou um objeto.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde o dia anterior. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. O uso deste Talento consome 15 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Clariaudiência, Clarividência."
+  }
+}

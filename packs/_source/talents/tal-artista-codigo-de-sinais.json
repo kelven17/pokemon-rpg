@@ -1,0 +1,20 @@
+{
+  "name": "CÓDIGO DE SINAIS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Os alvos podem usar Golpes e se moverem recebendo seus comandos por comunicação não verbal ou codificada. Isso pode ocorrer de várias formas, por exemplo, por gestos manuais ou alguma outra forma que possa ser interpretada pelo pokémon.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Treinamento em Agilidade.",
+    "frequencia": "Constante.",
+    "alvo": "Seus pokémons sob efeito de Treinamento em Agilidade.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Os alvos podem usar Golpes e se moverem recebendo seus comandos por comunicação não verbal ou codificada. Isso pode ocorrer de várias formas, por exemplo, por gestos manuais ou alguma outra forma que possa ser interpretada pelo pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Treinamento em Agilidade."
+  }
+}

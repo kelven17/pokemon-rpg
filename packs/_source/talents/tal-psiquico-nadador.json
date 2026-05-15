@@ -1,0 +1,20 @@
+{
+  "name": "NADADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MAE aos seus Deslocamentos de Natação e Subaquático. Além disso, durante um número de minutos igual a seu Ataque Especial distribuídos a cada hora, você pode respirar embaixo d’água.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "Um Pokémon com Deslocamento de Natação e Subaquático.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MAE aos seus Deslocamentos de Natação e Subaquático. Além disso, durante um número de minutos igual a seu Ataque Especial distribuídos a cada hora, você pode respirar embaixo d’água.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um Pokémon com Deslocamento de Natação e Subaquático."
+  }
+}

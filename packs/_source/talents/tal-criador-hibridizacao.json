@@ -1,0 +1,20 @@
+{
+  "name": "HIBRIDIZAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando plantar um fruto em sua Horta, você pode plantar dois frutos de modo a gerar uma planta híbrida. Ela dará frutas mestiças que possuem os efeitos de ambas as frutas plantadas. Quando consumida, se ambos os efeitos da fruta híbrida não são aplicáveis, aplica-se somente o relevante. Frutas híbridas não podem ser usadas para Hibridização.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Já ter colhido 10 frutos em sua Horta.",
+    "frequencia": "À Vontade.",
+    "alvo": "Frutos.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando plantar um fruto em sua Horta, você pode plantar dois frutos de modo a gerar uma planta híbrida. Ela dará frutas mestiças que possuem os efeitos de ambas as frutas plantadas. Quando consumida, se ambos os efeitos da fruta híbrida não são aplicáveis, aplica-se somente o relevante. Frutas híbridas não podem ser usadas para Hibridização.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Já ter colhido 10 frutos em sua Horta."
+  }
+}

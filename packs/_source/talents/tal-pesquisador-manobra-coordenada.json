@@ -1,0 +1,20 @@
+{
+  "name": "MANOBRA COORDENADA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, um Pokémon de um aliado pode executar instantaneamente um Golpe cuja Frequência é À Vontade ou Rodada Sim Rodada Não (mesmo se ele já usou um Golpe nesta rodada e mesmo se você já tiver dado uma Ação de Comando). Além disso, este Pokémon poderá se deslocar, mesmo que já tenha se deslocado nesta rodada. Você deve ter linha de visão ao Pokémon que está se beneficiando deste Talento.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Técnica Coordenada.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu teve sucesso em usar um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, um Pokémon de um aliado pode executar instantaneamente um Golpe cuja Frequência é À Vontade ou Rodada Sim Rodada Não (mesmo se ele já usou um Golpe nesta rodada e mesmo se você já tiver dado uma Ação de Comando). Além disso, este Pokémon poderá se deslocar, mesmo que já tenha se deslocado nesta rodada. Você deve ter linha de visão ao Pokémon que está se beneficiando deste Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Técnica Coordenada."
+  }
+}

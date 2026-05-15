@@ -1,0 +1,20 @@
+{
+  "name": "CONTROLAR PROBABILIDADE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>A rolagem é refeita. A cada vez que usar este Talento, o Narrador recebe um Ponto de Paradoxo. O Narrador pode a qualquer momento no futuro gastar um Ponto de Paradoxo para obrigar você a refazer uma rolagem, desde que não seja uma rolagem que você influenciou usando Controlar Probabilidade. O uso deste Talento consome 15 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Uma rolagem própria ou de um aliado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>A rolagem é refeita. A cada vez que usar este Talento, o Narrador recebe um Ponto de Paradoxo. O Narrador pode a qualquer momento no futuro gastar um Ponto de Paradoxo para obrigar você a refazer uma rolagem, desde que não seja uma rolagem que você influenciou usando Controlar Probabilidade. O uso deste Talento consome 15 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IMITAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MD. Se o resultado for maior que a Defesa ou a Defesa Especial do alvo (use o menor entre a Defesa ou a Defesa Especial), você consegue imitar o alvo. Enquanto imitando o alvo, você é igual a ele na aparência e no comportamento, que vem a você instintivamente. A sua aura, contudo, permanece sua. Pelas próximas 24 horas ou até você dormir ou ficar inconsciente, você pode usar esta Imitação à vontade. Você pode trocar livremente entre sua forma verdadeira e a forma de qualquer um ao qual teve sucesso em usar Imitação nas últimas 24 horas e antes de dormir. A troca de forma requer apenas uma Ação Padrão. Se você falhar em usar Imitação em um alvo, ele é imune à sua Imitação por 24 horas. A Imitação é uma ilusão, portanto qualquer um que possa ver através de ilusões poderá ver sua verdadeira forma. Imitação consome 10 Pontos de Vida.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MD. Se o resultado for maior que a Defesa ou a Defesa Especial do alvo (use o menor entre a Defesa ou a Defesa Especial), você consegue imitar o alvo. Enquanto imitando o alvo, você é igual a ele na aparência e no comportamento, que vem a você instintivamente. A sua aura, contudo, permanece sua. Pelas próximas 24 horas ou até você dormir ou ficar inconsciente, você pode usar esta Imitação à vontade. Você pode trocar livremente entre sua forma verdadeira e a forma de qualquer um ao qual teve sucesso em usar Imitação nas últimas 24 horas e antes de dormir. A troca de forma requer apenas uma Ação Padrão. Se você falhar em usar Imitação em um alvo, ele é imune à sua Imitação por 24 horas. A Imitação é uma ilusão, portanto qualquer um que possa ver através de ilusões poderá ver sua verdadeira forma. Imitação consome 10 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ACHA ISSO IMPRESSIONANTE?",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo ganha um dos seguintes efeitos, conforme o Golpe que usará na rodada atual: • Se o Golpe possui o Descritor Explosão, aumente em 2 o tamanho da Explosão; • Se o Golpe é À Distância, aumente o alcance em 4; • Se o Golpe é Corpo a Corpo, aumente em 4 os Deslocamentos do alvo por esta rodada. Em Concursos, o efeito deste Talento é outro: Role 1d20 + MDE. Se o resultado for 13 ou mais, adicione o Descritor Perspectiva a um Golpe usado pelo alvo nesta rodada. Este Talento não afeta a Pontuação Basal do Golpe.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Defesa Especial 17.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo ganha um dos seguintes efeitos, conforme o Golpe que usará na rodada atual: • Se o Golpe possui o Descritor Explosão, aumente em 2 o tamanho da Explosão; • Se o Golpe é À Distância, aumente o alcance em 4; • Se o Golpe é Corpo a Corpo, aumente em 4 os Deslocamentos do alvo por esta rodada. Em Concursos, o efeito deste Talento é outro: Role 1d20 + MDE. Se o resultado for 13 ou mais, adicione o Descritor Perspectiva a um Golpe usado pelo alvo nesta rodada. Este Talento não afeta a Pontuação Basal do Golpe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 17."
+  }
+}

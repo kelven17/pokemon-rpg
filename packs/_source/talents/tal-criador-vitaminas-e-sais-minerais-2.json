@@ -1,0 +1,20 @@
+{
+  "name": "VITAMINAS E SAIS MINERAIS +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 03 horas (com ingredientes e equipamentos adequados), você cria uma das seguintes Vitaminas à sua escolha: Imunizante, Proteína, Ferro, Cálcio, Zinco, Carburante ou Magnificador. Este Talento substitui Vitaminas.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Vitaminas e Sais Minerais.",
+    "frequencia": "Semanal.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 03 horas (com ingredientes e equipamentos adequados), você cria uma das seguintes Vitaminas à sua escolha: Imunizante, Proteína, Ferro, Cálcio, Zinco, Carburante ou Magnificador. Este Talento substitui Vitaminas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Vitaminas e Sais Minerais."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TEMPESTADE DE AREIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Tempestade de Areia. O uso deste Talento consome 20 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Por 05 rodadas, uma TEMPESTADE DE AREIA toma conta da área, o que significa que aqueles que não possuírem os Tipos Metal, Pedra ou Terra perdem 1/10 de seus Pontos de Vida máximos a cada rodada. Além disso, pokémons de Pedra elevam duas Fases de Defesa Especial durante uma TEMPESTADE DE AREIA.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "05 Talentos de Terrulento.",
+    "frequencia": "À Vontade.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Tempestade de Areia. O uso deste Talento consome 20 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Por 05 rodadas, uma TEMPESTADE DE AREIA toma conta da área, o que significa que aqueles que não possuírem os Tipos Metal, Pedra ou Terra perdem 1/10 de seus Pontos de Vida máximos a cada rodada. Além disso, pokémons de Pedra elevam duas Fases de Defesa Especial durante uma TEMPESTADE DE AREIA.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "05 Talentos de Terrulento."
+  }
+}

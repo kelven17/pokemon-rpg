@@ -1,0 +1,20 @@
+{
+  "name": "ZOOTECNISTA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Concedendo 8 horas juntos aos dois Pokémons, você garante que um ovo será produzido.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 18.",
+    "frequencia": "Diária.",
+    "alvo": "Dois Pokémons compatíveis para reprodução conforme seus Grupos Reprodutivos.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Concedendo 8 horas juntos aos dois Pokémons, você garante que um ovo será produzido.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 18."
+  }
+}

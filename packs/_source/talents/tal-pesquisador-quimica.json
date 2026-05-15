@@ -1,0 +1,20 @@
+{
+  "name": "QUÍMICA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após uma 01 Hora de trabalho, você cria um Repelente.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após uma 01 Hora de trabalho, você cria um Repelente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

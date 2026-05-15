@@ -1,0 +1,26 @@
+{
+  "name": "Artista",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Algumas pessoas preferem competir contra outras em Concursos não violentos. Os Artistas conhecem as vantagens naturais da aparência, do carisma e da presença de palco para influenciar os jurados e também a plateia. Eles podem trazer a vitória para si mesmo antes de entrar em uma competição. Um concurso não difere de uma batalha: apenas um Pokémon bem treinado e preparado pode vencer concursos, que envolvem demonstrações de muitas qualidades, desde a valentia física assustadora até a fofice infantil. Enquanto dominam os concursos com poderosas demonstrações e performances, eles ainda podem executar alguns feitos poderosos em batalhas convencionais. Um Artista pode garantir um comportamento apropriado tanto aos Pokémons quanto aos humanos, graças à sua capacidade manipulativa.</p>",
+    "slug": "artista",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [
+      "Intimidação",
+      "Empatia",
+      "Manha",
+      "Manipulação",
+      "Percepção",
+      "Acrobacia",
+      "Performance",
+      "Prestidigitação"
+    ],
+    "requirementsSameTree": "",
+    "requirementsOther": "Defesa Especial 13, Velocidade 13."
+  }
+}

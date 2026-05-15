@@ -1,0 +1,20 @@
+{
+  "name": "PROCURA EFICIENTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 20 ou mais, você pode escolher um Pokémon seu. Você encontra uma Fruta que reduz o dano sofrido por um Golpe ao qual o Pokémon escolhido é vulnerável. Você pode alternativamente não escolher um Pokémon seu, caso em que encontrará um sininho (Chilan).</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 20 ou mais, você pode escolher um Pokémon seu. Você encontra uma Fruta que reduz o dano sofrido por um Golpe ao qual o Pokémon escolhido é vulnerável. Você pode alternativamente não escolher um Pokémon seu, caso em que encontrará um sininho (Chilan).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

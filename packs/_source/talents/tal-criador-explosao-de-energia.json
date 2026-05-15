@@ -1,0 +1,20 @@
+{
+  "name": "EXPLOSÃO DE ENERGIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 12 minutos (com ingredientes e equipamentos adequados), você cria uma Bebida Energética que provê Pontos de Vida temporários em quantidade igual ao quíntuplo de seu MD. Pontos de Vida temporários desaparecem após um encontro ou ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano).</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 12 minutos (com ingredientes e equipamentos adequados), você cria uma Bebida Energética que provê Pontos de Vida temporários em quantidade igual ao quíntuplo de seu MD. Pontos de Vida temporários desaparecem após um encontro ou ao serem consumidos (eles são consumidos antes dos Pontos de Vida normais quando se sofre dano).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

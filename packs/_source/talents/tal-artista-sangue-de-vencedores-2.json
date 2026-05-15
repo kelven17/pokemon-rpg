@@ -1,0 +1,20 @@
+{
+  "name": "SANGUE DE VENCEDORES +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha uma Aptidão de um dos progenitores do ovo e outra Aptidão do outro progenitor. O pokémon nasce com metade dos valores das Aptidões escolhidas. Este Talento substitui Sangue de Vencedores.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Defesa Especial 16, Sangue de Vencedores.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>Escolha uma Aptidão de um dos progenitores do ovo e outra Aptidão do outro progenitor. O pokémon nasce com metade dos valores das Aptidões escolhidas. Este Talento substitui Sangue de Vencedores.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16, Sangue de Vencedores."
+  }
+}

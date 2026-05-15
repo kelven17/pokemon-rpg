@@ -1,0 +1,20 @@
+{
+  "name": "VODU",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode fazer duas tentativas de Canalizar em uma mesma Ação Padrão.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Clérigo.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode fazer duas tentativas de Canalizar em uma mesma Ação Padrão.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Clérigo."
+  }
+}

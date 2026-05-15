@@ -1,0 +1,20 @@
+{
+  "name": "PONTO DE CAPTURA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Subtraia metade de seu MV das rolagens de d100 feitas quando jogar uma Pokébola.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Você arremessa uma Pokébola.",
+    "contragatilho": "",
+    "efeito": "<p>Subtraia metade de seu MV das rolagens de d100 feitas quando jogar uma Pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

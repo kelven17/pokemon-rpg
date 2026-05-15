@@ -1,0 +1,20 @@
+{
+  "name": "ARQUEOLOGIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 30 minutos de trabalho minucioso, role 1d20 + MAE. Se o resultado for 16 ou mais, você acha pistas de fósseis que existam nas proximidades ou encontra evidências da história do lugar (conforme definido pelo Narrador). Se o resultado for 21 ou mais, você determina se encontra um fóssil ou uma informação histórica, (em vez de o Narrador determinar), contudo após esta escolha todas as demais informações ficam a cargo do Narrador.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 16, Ter adquirido um kit de escavação no valor de 1200 créditos.",
+    "frequencia": "Diária.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 30 minutos de trabalho minucioso, role 1d20 + MAE. Se o resultado for 16 ou mais, você acha pistas de fósseis que existam nas proximidades ou encontra evidências da história do lugar (conforme definido pelo Narrador). Se o resultado for 21 ou mais, você determina se encontra um fóssil ou uma informação histórica, (em vez de o Narrador determinar), contudo após esta escolha todas as demais informações ficam a cargo do Narrador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16, Ter adquirido um kit de escavação no valor de 1200 créditos."
+  }
+}

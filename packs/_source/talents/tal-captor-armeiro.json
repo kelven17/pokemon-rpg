@@ -1,0 +1,20 @@
+{
+  "name": "ARMEIRO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode usar as pedras listadas abaixo como matérias-primas quando criar armas. Uma vez diária, quando você faz um Teste de Acurácia para atacar com uma arma criada com uma destas pedras e o resultado é maior que 15, você pode ativar o poder da pedra como uma Ação Livre para usar o efeito descrito adiante no alvo do seu ataque. Se, em virtude de algum Talento ou outra característica sua, seu ataque de Armas pode acertar mais de um alvo, apenas o primeiro alvo sofre o efeito da pedra.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ter forjado 03 armas.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode usar as pedras listadas abaixo como matérias-primas quando criar armas. Uma vez diária, quando você faz um Teste de Acurácia para atacar com uma arma criada com uma destas pedras e o resultado é maior que 15, você pode ativar o poder da pedra como uma Ação Livre para usar o efeito descrito adiante no alvo do seu ataque. Se, em virtude de algum Talento ou outra característica sua, seu ataque de Armas pode acertar mais de um alvo, apenas o primeiro alvo sofre o efeito da pedra.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter forjado 03 armas."
+  }
+}

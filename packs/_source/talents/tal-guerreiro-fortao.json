@@ -1,0 +1,20 @@
+{
+  "name": "FORTÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando você faz um teste que adiciona seu MA, adicione +3 à rolagem.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16, Defesa 15.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando você faz um teste que adiciona seu MA, adicione +3 à rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Defesa 15."
+  }
+}

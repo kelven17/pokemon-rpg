@@ -1,0 +1,20 @@
+{
+  "name": "CONTAGEM",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>De agora em diante, você recebe 01 Nível para cada 8 espécies diferentes de Pokémons possuídas (em vez de para cada 10 espécies diferentes). Você terá uma Estatística chamada Contagem, que será igual a seu MV somado ao número de Níveis que ganhou devido ao número de espécies diferentes de Pokémons possuídas.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ter capturado 15 Pokémons.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>De agora em diante, você recebe 01 Nível para cada 8 espécies diferentes de Pokémons possuídas (em vez de para cada 10 espécies diferentes). Você terá uma Estatística chamada Contagem, que será igual a seu MV somado ao número de Níveis que ganhou devido ao número de espécies diferentes de Pokémons possuídas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter capturado 15 Pokémons."
+  }
+}

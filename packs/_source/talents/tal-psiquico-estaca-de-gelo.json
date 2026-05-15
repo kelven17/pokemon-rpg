@@ -1,0 +1,20 @@
+{
+  "name": "ESTACA DE GELO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Estaca de Gelo. O uso desse Talento consome 10 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Se o resultado do Teste de Acurácia for 15 ou mais, o alvo está Atordoado.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "02 Pokémons de Gelo.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Estaca de Gelo. O uso desse Talento consome 10 Pontos de Vida. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Se o resultado do Teste de Acurácia for 15 ou mais, o alvo está Atordoado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 Pokémons de Gelo."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "APERFEIÇOAR PEDRA-CHAVE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Megaevolua dois Pokémons seus simultaneamente (Você não pode usar este Talento se já Megaevoluiu um Pokémon hoje). Após usar Aperfeiçoar Pedra-Chave, você não pode Megaevoluir nenhum Pokémon pelo resto do dia.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Recarregar Pedra-Chave.",
+    "frequencia": "Diária.",
+    "alvo": "Dois Pokémons seus com Megapedras.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Megaevolua dois Pokémons seus simultaneamente (Você não pode usar este Talento se já Megaevoluiu um Pokémon hoje). Após usar Aperfeiçoar Pedra-Chave, você não pode Megaevoluir nenhum Pokémon pelo resto do dia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Recarregar Pedra-Chave."
+  }
+}

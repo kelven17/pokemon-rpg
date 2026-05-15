@@ -1,0 +1,20 @@
+{
+  "name": "PSICOCINESE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você move o alvo sem tocá-lo um número máximo de metros igual ao dobro de seu MAE, mas não pode movê-lo para mais longe do que um número de metros igual ao triplo de seu MAE. Você sempre deve poder manter o alvo dentro de seu campo visual.</p>",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um objeto cujo peso máximo em quilos não exceda o quíntuplo do seu MAE que não esteja mais distante que um número de metros igual ao triplo de seu MAE.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você move o alvo sem tocá-lo um número máximo de metros igual ao dobro de seu MAE, mas não pode movê-lo para mais longe do que um número de metros igual ao triplo de seu MAE. Você sempre deve poder manter o alvo dentro de seu campo visual.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

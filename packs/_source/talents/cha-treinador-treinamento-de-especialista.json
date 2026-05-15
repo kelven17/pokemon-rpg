@@ -1,0 +1,20 @@
+{
+  "name": "TREINAMENTO DE ESPECIALISTA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Adicione metade de seu MA ou de seu MAE ao Atributo Basal de todos os seus Pokémons. Se isso mudar a Relação Basal de um Pokémon, distribua seus Pontos de Atributos (quando ele subir de Nível) conforme a nova Relação Basal.</p>",
+    "category": "characteristic",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "O Atributo de Escolha de todos os seus Pokémons.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione metade de seu MA ou de seu MAE ao Atributo Basal de todos os seus Pokémons. Se isso mudar a Relação Basal de um Pokémon, distribua seus Pontos de Atributos (quando ele subir de Nível) conforme a nova Relação Basal.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

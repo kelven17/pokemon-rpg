@@ -1,0 +1,20 @@
+{
+  "name": "VIBRAÇÃO CALMANTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você restaura Confusão. Esta Característica de Classe acalma em geral o alvo, o que cura fúria, uma mente distorcida e neutraliza paranoia e pânico. Isso deixa resíduo psíquico no alvo. O uso deste Talento consome 7 Pontos de Vida. Além disso, você precisa estar em um estado mental calmo para usá-lo.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você restaura Confusão. Esta Característica de Classe acalma em geral o alvo, o que cura fúria, uma mente distorcida e neutraliza paranoia e pânico. Isso deixa resíduo psíquico no alvo. O uso deste Talento consome 7 Pontos de Vida. Além disso, você precisa estar em um estado mental calmo para usá-lo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

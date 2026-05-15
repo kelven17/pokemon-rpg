@@ -1,0 +1,20 @@
+{
+  "name": "CONDENSAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>A pedra ganha um segundo uso antes de ser destruída. Não é possível que a pedra ganhe um terceiro uso mediante este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 18, Ter adquirido um kit de escavação no valor de 1200 créditos.",
+    "frequencia": "Semanal. A cada 10 Níveis, receba um uso semanal adicional.",
+    "alvo": "Uma Pedra Elemental.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>A pedra ganha um segundo uso antes de ser destruída. Não é possível que a pedra ganhe um terceiro uso mediante este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 18, Ter adquirido um kit de escavação no valor de 1200 créditos."
+  }
+}

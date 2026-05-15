@@ -1,0 +1,20 @@
+{
+  "name": "RESISTÊNCIA MARCIAL +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Some seus MA e MD e multiplique esta soma por 5. Adicione o resultado deste cálculo ao seus Pontos de Vida máximos. Este Talento substitui Resistência Marcial.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 14, Defesa 14, Resistência Marcial.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Some seus MA e MD e multiplique esta soma por 5. Adicione o resultado deste cálculo ao seus Pontos de Vida máximos. Este Talento substitui Resistência Marcial.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 14, Defesa 14, Resistência Marcial."
+  }
+}

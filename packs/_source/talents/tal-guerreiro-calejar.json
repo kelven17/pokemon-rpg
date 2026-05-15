@@ -1,0 +1,20 @@
+{
+  "name": "CALEJAR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando sofrer dano (inclusive por dano causado a si mesmo), reduza o dano sofrido por seu MA. Obviamente, isso não afeta danos irredutíveis.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando sofrer dano (inclusive por dano causado a si mesmo), reduza o dano sofrido por seu MA. Obviamente, isso não afeta danos irredutíveis.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

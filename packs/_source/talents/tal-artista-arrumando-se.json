@@ -1,0 +1,20 @@
+{
+  "name": "ARRUMANDO-SE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos preparando a aparência e o comportamento do alvo, no início do próximo encontro dele, ele começa elevando 01 Fase em um Atributo. O pokémon deve satisfazer um requisito para tanto e não pode ser alvo deste Talento mais de uma vez diária. Se ele satisfaz os requisitos para mais de um Atributo, escolha qual Atributo terá sua Fase elevada.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos preparando a aparência e o comportamento do alvo, no início do próximo encontro dele, ele começa elevando 01 Fase em um Atributo. O pokémon deve satisfazer um requisito para tanto e não pode ser alvo deste Talento mais de uma vez diária. Se ele satisfaz os requisitos para mais de um Atributo, escolha qual Atributo terá sua Fase elevada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

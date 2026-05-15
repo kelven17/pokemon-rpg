@@ -1,0 +1,28 @@
+{
+  "name": "Místico",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>O Místico se conecta com os Pokémons e natureza em um nível primitivo que a maioria não entende. Eles são capazes de entrar em um transe para canalizar Pokémons e ver através de seus olhos, forjando uma conexão tão fundamental que podem manifestar algumas habilidades de seus Pokémons. Juntos, o Místico e os Pokémons canalizados podem usar rituais surpreendentes. Por milênios, estes dons guiaram os Místicos em direção a funções religiosas e espirituais, colocando-os como elos aos Pokémons antigos e Lendários. Sua natureza espiritual exige dedicação sacerdotal, por isso, nos tempos atuais, a maioria dos Místicos não vive em meio ao caos urbano, e por isso não é tão facilmente acessada. Místicos se mantêm para si.</p>",
+    "slug": "mistico",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [
+      "Imunidade",
+      "Jejum",
+      "Resiliência",
+      "Concentração",
+      "Deflexão",
+      "Regeneração",
+      "História",
+      "Empatia",
+      "Percepção",
+      "Furtividade"
+    ],
+    "requirementsSameTree": "",
+    "requirementsOther": "Saúde 13, Defesa 13."
+  }
+}

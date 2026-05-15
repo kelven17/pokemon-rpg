@@ -1,0 +1,20 @@
+{
+  "name": "BUSCA PELO BRILHO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d100. Se o resultado for menor que o triplo de seu MDE, um pokémon shiny aparece no próximo encontro com pokémons selvagens.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Defesa Especial 20.",
+    "frequencia": "Diária. A cada 25 Níveis, receba um uso diário adicional.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d100. Se o resultado for menor que o triplo de seu MDE, um pokémon shiny aparece no próximo encontro com pokémons selvagens.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 20."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CURA MAIOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você cura o alvo em uma quantidade de Pontos de Vida igual a 3d12+18 + o dobro de seu MAE. Isso deixa resíduo psíquico no alvo.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Cura Média.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você cura o alvo em uma quantidade de Pontos de Vida igual a 3d12+18 + o dobro de seu MAE. Isso deixa resíduo psíquico no alvo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Cura Média."
+  }
+}

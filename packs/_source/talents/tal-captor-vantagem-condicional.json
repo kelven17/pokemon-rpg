@@ -1,0 +1,20 @@
+{
+  "name": "VANTAGEM CONDICIONAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Se você estiver usando uma Pokébola que condiciona a subtração de um número da rolagem de captura dentro de determinadas condições e estiver satisfazendo as condições adequadas (Exemplo: Usar uma Pokébola de Penumbra durante a noite), você subtrai também seu MV da rolagem de captura.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Criar Pokébola.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Se você estiver usando uma Pokébola que condiciona a subtração de um número da rolagem de captura dentro de determinadas condições e estiver satisfazendo as condições adequadas (Exemplo: Usar uma Pokébola de Penumbra durante a noite), você subtrai também seu MV da rolagem de captura.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Criar Pokébola."
+  }
+}

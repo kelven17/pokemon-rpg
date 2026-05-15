@@ -1,0 +1,20 @@
+{
+  "name": "RESULTADO DO ESFORÇO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MA. Se o resultado for 16 ou mais, o Pokémon aprende o Golpe Superforça.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16, Trabalhe este Corpo!.",
+    "frequencia": "À Vontade.",
+    "alvo": "",
+    "gatilho": "Um Pokémons com pelo menos Força 5 está subindo de Nível para um Múltiplo de 5.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MA. Se o resultado for 16 ou mais, o Pokémon aprende o Golpe Superforça.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Trabalhe este Corpo!."
+  }
+}

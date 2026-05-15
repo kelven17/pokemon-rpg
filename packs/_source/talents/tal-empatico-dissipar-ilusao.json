@@ -1,0 +1,20 @@
+{
+  "name": "DISSIPAR ILUSÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você elimina a ilusão automaticamente tocando a área onde ela está projetada. Como um benefício constante, você pode ver através de disfarces mundanos e através de ilusões (além de ver através de ilusórios, como concedido por Clarividência). Um exemplo de um disfarce mundano é uma mudança de forma real, que esconde a verdadeira identidade de alguém, incluindo a transformação de um Ditto.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Clariaudiência, Clarividência.",
+    "frequencia": "Diária.",
+    "alvo": "Uma ilusão.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você elimina a ilusão automaticamente tocando a área onde ela está projetada. Como um benefício constante, você pode ver através de disfarces mundanos e através de ilusões (além de ver através de ilusórios, como concedido por Clarividência). Um exemplo de um disfarce mundano é uma mudança de forma real, que esconde a verdadeira identidade de alguém, incluindo a transformação de um Ditto.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Clariaudiência, Clarividência."
+  }
+}

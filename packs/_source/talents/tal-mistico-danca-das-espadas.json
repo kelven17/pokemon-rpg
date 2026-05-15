@@ -1,0 +1,20 @@
+{
+  "name": "DANÇA DAS ESPADAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Dança das Espadas. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Eleva duas Fases de Ataque do usuário.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Ter usado Dança das Espadas mediante Permissão.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Dança das Espadas. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Eleva duas Fases de Ataque do usuário.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usado Dança das Espadas mediante Permissão."
+  }
+}

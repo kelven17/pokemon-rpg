@@ -1,0 +1,20 @@
+{
+  "name": "HIPERLEXIA PARENTAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você entende os alvos como se estivessem falando seu idioma e eles também entendem você através de linguagem corporal como se você estivesse falando com eles.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Chocadeira ter chocado 02 ovos.",
+    "frequencia": "Constante",
+    "alvo": "Seus Pokémons acima do Nível 15 chocados por você.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você entende os alvos como se estivessem falando seu idioma e eles também entendem você através de linguagem corporal como se você estivesse falando com eles.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Chocadeira ter chocado 02 ovos."
+  }
+}

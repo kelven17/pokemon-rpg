@@ -1,0 +1,20 @@
+{
+  "name": "EVOLUÇÃO PRECOCE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Subtraia seu MD do Nível Necessário que um Pokémon precisa atingir para evoluir. Outros requerimentos de evolução não são afetados por esta Característica de Classe.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Subtraia seu MD do Nível Necessário que um Pokémon precisa atingir para evoluir. Outros requerimentos de evolução não são afetados por esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

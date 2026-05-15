@@ -1,0 +1,20 @@
+{
+  "name": "JOGO DUPLO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O seu pokémon causa uma quantidade de dano extra igual à Força dele e empurra o alvo uma quantidade de metros igual à Força dele. Se o inimigo atingido for Empurrado a um Terreno Bloqueador, ele sofre 2d12 de dano extra. Caso ele seja Empurrado em direção a outra criatura, tanto esta quanto o inimigo original sofrem 1d12 de dano.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Um pokémon com Força 5.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um pokémon seu acerta um Golpe Corpo a Corpo causador de dano em um inimigo ao qual você já causou dano na rodada atual.",
+    "contragatilho": "",
+    "efeito": "<p>O seu pokémon causa uma quantidade de dano extra igual à Força dele e empurra o alvo uma quantidade de metros igual à Força dele. Se o inimigo atingido for Empurrado a um Terreno Bloqueador, ele sofre 2d12 de dano extra. Caso ele seja Empurrado em direção a outra criatura, tanto esta quanto o inimigo original sofrem 1d12 de dano.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um pokémon com Força 5."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "AVISO CRÍTICO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Durante a próxima rodada do encontro, todos os ataques (Golpes ou ataques de Armas) dos aliados obtêm Críticos em resultados de Acurácia de 16 a 20. Esta chance não pode ser melhorada além disso.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 20, Nível 10, Coordenação.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Aliados.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Durante a próxima rodada do encontro, todos os ataques (Golpes ou ataques de Armas) dos aliados obtêm Críticos em resultados de Acurácia de 16 a 20. Esta chance não pode ser melhorada além disso.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 20, Nível 10, Coordenação."
+  }
+}

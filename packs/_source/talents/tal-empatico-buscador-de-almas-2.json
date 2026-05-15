@@ -1,0 +1,20 @@
+{
+  "name": "BUSCADOR DE ALMAS +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, você sabe a direção dela e a distância aproximada até ela. Este Talento substitui Buscador de Almas.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Buscador de Almas.",
+    "frequencia": "Diária.",
+    "alvo": "Uma pessoa que você já conheceu",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE. Se o resultado for 16 ou mais, você sabe a direção dela e a distância aproximada até ela. Este Talento substitui Buscador de Almas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Buscador de Almas."
+  }
+}

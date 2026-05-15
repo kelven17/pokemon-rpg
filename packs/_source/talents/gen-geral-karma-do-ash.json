@@ -1,0 +1,20 @@
+{
+  "name": "KARMA DO ASH",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você rola novamente um dado da rolagem.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Ter libertado Três Pokémons leais totalmente evoluídos.",
+    "frequencia": "Diária.",
+    "alvo": "Uma rolagem.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você rola novamente um dado da rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter libertado Três Pokémons leais totalmente evoluídos."
+  }
+}

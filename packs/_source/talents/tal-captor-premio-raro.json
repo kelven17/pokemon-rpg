@@ -1,0 +1,20 @@
+{
+  "name": "PRÊMIO RARO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Qualquer Pokémon shiny ou Lendário conta como oito novas espécies para propósitos de sua Contagem e de subir de Nível.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Contagem",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Qualquer Pokémon shiny ou Lendário conta como oito novas espécies para propósitos de sua Contagem e de subir de Nível.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Contagem"
+  }
+}

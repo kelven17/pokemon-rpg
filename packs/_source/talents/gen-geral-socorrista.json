@@ -1,0 +1,20 @@
+{
+  "name": "SOCORRISTA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE ou MDE. Cure um número de Pontos de Vida do alvo igual ao resultado da rolagem.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Ataque Especial 13 ou Defesa Especial 13.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE ou MDE. Cure um número de Pontos de Vida do alvo igual ao resultado da rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 13 ou Defesa Especial 13."
+  }
+}

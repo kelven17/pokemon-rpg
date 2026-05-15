@@ -1,0 +1,20 @@
+{
+  "name": "CONVOCAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20. Se o resultado for 11 ou mais, um Unown aparece a até 5 metros de você. Se a rolagem for 20, você pode escolher a letra do Unown. O Unown não é hostil. Como um benefício constante, cada letra de Unown conta como um pokémon diferente para determinar seu Nível por captura de pokémons.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20. Se o resultado for 11 ou mais, um Unown aparece a até 5 metros de você. Se a rolagem for 20, você pode escolher a letra do Unown. O Unown não é hostil. Como um benefício constante, cada letra de Unown conta como um pokémon diferente para determinar seu Nível por captura de pokémons.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

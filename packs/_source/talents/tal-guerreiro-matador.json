@@ -1,0 +1,20 @@
+{
+  "name": "MATADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo do ataque fica Confuso. Um Golpe beneficiado por Matador não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Manobra Infalível, Sangramento, Tiro Múltiplo.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você obtém um resultado maior que 15 em um Teste de Acurácia para um ataque de Armas.",
+    "contragatilho": "",
+    "efeito": "<p>O alvo do ataque fica Confuso. Um Golpe beneficiado por Matador não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Manobra Infalível, Sangramento, Tiro Múltiplo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

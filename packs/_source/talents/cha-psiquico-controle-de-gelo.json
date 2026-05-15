@@ -1,0 +1,20 @@
+{
+  "name": "CONTROLE DE GELO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você move o alvo sem tocá-lo um número máximo de metros igual ao dobro de seu MAE, mas não pode movê-lo para mais longe do que um número de metros igual ao triplo de seu MAE. Você sempre deve poder manter o alvo dentro de seu campo visual. Você também pode usar este Talento para congelar água instantaneamente. Finalmente, como um benefício constante, enquanto você estiver consciente, nem você nem humanos aliados a até 10 metros de você sofrem dano por Granizo. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Uma porção de gelo cujo peso máximo em quilos não exceda dez vezes seu MAE que não esteja mais distante que um número de metros igual ao triplo de seu MAE.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você move o alvo sem tocá-lo um número máximo de metros igual ao dobro de seu MAE, mas não pode movê-lo para mais longe do que um número de metros igual ao triplo de seu MAE. Você sempre deve poder manter o alvo dentro de seu campo visual. Você também pode usar este Talento para congelar água instantaneamente. Finalmente, como um benefício constante, enquanto você estiver consciente, nem você nem humanos aliados a até 10 metros de você sofrem dano por Granizo. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

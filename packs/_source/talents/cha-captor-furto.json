@@ -1,0 +1,20 @@
+{
+  "name": "FURTO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você atira uma Pokébola usando seu Catador como se o alvo fosse um Pokémon selvagem. Você faz todo o processo da rolagem de Captura, e subtrai 5 do resultado do Teste de Captura. O Pokémon é completamente desconfiado em relação a você, começando com Lealdade 0, a menos que você o tenha salvado de um perigo iminente (Onde ele possuirá Lealdade 2).</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon não selvagem com Lealdade igual ou menor a 1.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você atira uma Pokébola usando seu Catador como se o alvo fosse um Pokémon selvagem. Você faz todo o processo da rolagem de Captura, e subtrai 5 do resultado do Teste de Captura. O Pokémon é completamente desconfiado em relação a você, começando com Lealdade 0, a menos que você o tenha salvado de um perigo iminente (Onde ele possuirá Lealdade 2).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "FOFO DEMAIS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, seu Pokémon convence o atacante a ter como alvo um Pokémon diferente. O atacante ainda executará o mesmo Golpe e fará o mesmo Teste de Acurácia, mas deve escolher outro alvo válido. Caso não haja outro alvo válido, este Talento tem seu uso desperdiçado.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "3 prêmios em Concursos de Fofura.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu com um prêmio em Concurso de Fofura é alvo de um ataque.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, seu Pokémon convence o atacante a ter como alvo um Pokémon diferente. O atacante ainda executará o mesmo Golpe e fará o mesmo Teste de Acurácia, mas deve escolher outro alvo válido. Caso não haja outro alvo válido, este Talento tem seu uso desperdiçado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "3 prêmios em Concursos de Fofura."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PASSADO RECENTE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde a última hora. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. O uso deste Talento consome 5 Pontos de Vida.</p>",
+    "category": "characteristic",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "O local onde você se encontra ou um objeto.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde a última hora. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. O uso deste Talento consome 5 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

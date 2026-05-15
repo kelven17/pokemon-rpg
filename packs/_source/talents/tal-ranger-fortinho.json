@@ -1,0 +1,20 @@
+{
+  "name": "FORTINHO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Por uma rodada, o alvo pode ignorar quaisquer reduções de Atributos ou Fases perdidas causados por Condições.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Um pokémon com Força 5.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Por uma rodada, o alvo pode ignorar quaisquer reduções de Atributos ou Fases perdidas causados por Condições.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um pokémon com Força 5."
+  }
+}

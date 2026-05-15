@@ -1,0 +1,20 @@
+{
+  "name": "ASSISTÊNCIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seu aliado pode subtrair sua Contagem do resultado do Teste de Captura e se beneficia de seu Talento Ponto de Captura ++.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Contagem, Ponto de Captura ++.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um aliado faz uma rolagem de Captura.",
+    "contragatilho": "",
+    "efeito": "<p>Seu aliado pode subtrair sua Contagem do resultado do Teste de Captura e se beneficia de seu Talento Ponto de Captura ++.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Contagem, Ponto de Captura ++."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ARMA DE ESCOLHA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha um tipo de arma específico (como ataque desarmado, espada longa, besta, etc.). Quando usar a Arma de Escolha, sua Dificuldade de Acurácia é de apenas 4 e sua tabela de dano de Armas é substituída pela seguinte:</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Armas",
+    "frequencia": "À Vontade.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um tipo de arma específico (como ataque desarmado, espada longa, besta, etc.). Quando usar a Arma de Escolha, sua Dificuldade de Acurácia é de apenas 4 e sua tabela de dano de Armas é substituída pela seguinte:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Armas"
+  }
+}

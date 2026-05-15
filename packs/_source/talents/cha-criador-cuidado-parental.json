@@ -1,0 +1,20 @@
+{
+  "name": "CUIDADO PARENTAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Adicione metade de seu MD a um Atributo Basal do Pokémon que nascer e metade de seu MDE a outro Atributo Basal dele. O bônus concedido a cada Atributo não pode exceder 6.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>Adicione metade de seu MD a um Atributo Basal do Pokémon que nascer e metade de seu MDE a outro Atributo Basal dele. O bônus concedido a cada Atributo não pode exceder 6.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TRATAR FERIMENTOS LEVES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recupera 40 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Tratar Ferimentos Mínimos.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recupera 40 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Tratar Ferimentos Mínimos."
+  }
+}

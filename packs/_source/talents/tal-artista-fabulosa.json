@@ -1,0 +1,20 @@
+{
+  "name": "FABULOSA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Golpe recebe o Descritor Explosão 2, que será centrada em si se ele for Corpo a Corpo ou será centrada dentro do alcance se ele for À Distância. Se o Golpe já possui este Descritor, aumente a área da Explosão em 2.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Defesa Especial 18.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu com Beleza 15 usa um Golpe com a Categoria Beleza.",
+    "contragatilho": "",
+    "efeito": "<p>O Golpe recebe o Descritor Explosão 2, que será centrada em si se ele for Corpo a Corpo ou será centrada dentro do alcance se ele for À Distância. Se o Golpe já possui este Descritor, aumente a área da Explosão em 2.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 18."
+  }
+}

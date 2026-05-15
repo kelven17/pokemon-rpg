@@ -1,0 +1,20 @@
+{
+  "name": "AGUENTO OUTRA!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando sofrer dano, reduza em 5 o dano sofrido. Isso não reduz o custo de ativar Talentos.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Saúde 13.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando sofrer dano, reduza em 5 o dano sofrido. Isso não reduz o custo de ativar Talentos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Saúde 13."
+  }
+}

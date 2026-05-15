@@ -1,0 +1,20 @@
+{
+  "name": "SOBREVIVEU GRAÇAS À MEDICINA!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode usar dois itens restaurativos ou dois Talentos de Médico em uma mesma Ação Padrão. Alternativamente, você pode usar um item restaurativo e um Talento de Médico em uma mesma Ação Padrão.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "04 Talentos de Médico (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode usar dois itens restaurativos ou dois Talentos de Médico em uma mesma Ação Padrão. Alternativamente, você pode usar um item restaurativo e um Talento de Médico em uma mesma Ação Padrão.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "04 Talentos de Médico (desconte as Características de Classe para este cálculo)."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Captor",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Grandes especialistas em capturar pokémons podem encontrar qualquer pokémon selvagem e obter uma nova marca em sua pokéagenda. Com mira incomparável e um grande entendimento sobre a tecnologia do mundo pokémon, os Captores aprimoram suas técnicas de arremesso de pokébolas e como estas funcionam. Eles conhecem intimamente as tecnologias implementadas nos vários tipos de pokébolas e podem melhorar suas taxas de captura com ajustes nelas. Mesmo depois de um pokémon selvagem romper a pokébola após uma tentativa fracassada de captura, o Captor com pouco esforço pode reparar a pokébola para evitar a despesa. Existem também os Colecionadores, que acreditam que cada pokémon é imprescindível para se ter. Eles precisam pegar todos eles. Esse Captor não sonha com a Liga Pokémon ou com qualquer holofote no palco, eles têm uma lista de pokémons e precisam capturar cada um deles. Eles treinam continuamente para melhorar sua taxa de captura, eles não podem parar até que tenham cada uma das espécies diferentes. Alguns Colecionadores são tão fãs de pokémons que se vestem como pokémons diariamente.</p>",
+    "slug": "captor",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [],
+    "requirementsSameTree": "",
+    "requirementsOther": "Saúde 13, Velocidade 13."
+  }
+}

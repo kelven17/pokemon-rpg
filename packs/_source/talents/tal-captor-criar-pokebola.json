@@ -1,0 +1,20 @@
+{
+  "name": "CRIAR POKÉBOLA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 01 Hora de trabalho mecânico cansativo (consumindo 20 PV), role 1d20 + MV. Você cria uma Pokébola de acordo com o resultado:</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Reparar Pokébola.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 01 Hora de trabalho mecânico cansativo (consumindo 20 PV), role 1d20 + MV. Você cria uma Pokébola de acordo com o resultado:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Reparar Pokébola."
+  }
+}

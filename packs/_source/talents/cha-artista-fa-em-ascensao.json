@@ -1,0 +1,20 @@
+{
+  "name": "FÃ EM ASCENSÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Seus pokémons podem ter até 15 em qualquer Aptidão. Quando participando em um Concurso, você pode Apelar a um Ponto de Aptidão extra quando poderia Apelar à sua Aptidão.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus pokémons podem ter até 15 em qualquer Aptidão. Quando participando em um Concurso, você pode Apelar a um Ponto de Aptidão extra quando poderia Apelar à sua Aptidão.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

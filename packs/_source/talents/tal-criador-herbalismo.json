@@ -1,0 +1,20 @@
+{
+  "name": "HERBALISMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 01 hora (com ingredientes e equipamentos adequados), você cria um Polvilho Curativo ou um Polvilho Energizante.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 01 hora (com ingredientes e equipamentos adequados), você cria um Polvilho Curativo ou um Polvilho Energizante.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16."
+  }
+}

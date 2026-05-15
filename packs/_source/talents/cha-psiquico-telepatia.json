@@ -1,0 +1,20 @@
+{
+  "name": "TELEPATIA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode projetar seus pensamentos superficiais ao alvo. Se o alvo é um humano, você também pode ler os pensamentos superficiais dele. O uso deste Talento deixa resíduo psíquico.</p>",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Humano ou um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode projetar seus pensamentos superficiais ao alvo. Se o alvo é um humano, você também pode ler os pensamentos superficiais dele. O uso deste Talento deixa resíduo psíquico.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

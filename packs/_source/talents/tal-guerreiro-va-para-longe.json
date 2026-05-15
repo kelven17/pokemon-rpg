@@ -1,0 +1,20 @@
+{
+  "name": "VÁ PARA LONGE!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você empurra o alvo em um número de metros igual a seu MA. Se o alvo for empurrado a um Terreno Bloqueador, ele sofre 2d10 de dano. Caso ele seja Empurrado em direção a outra criatura, tanto esta quanto o mesmo sofrem 1d10 de dano.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16, Defesa 15.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você empurra o alvo em um número de metros igual a seu MA. Se o alvo for empurrado a um Terreno Bloqueador, ele sofre 2d10 de dano. Caso ele seja Empurrado em direção a outra criatura, tanto esta quanto o mesmo sofrem 1d10 de dano.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Defesa 15."
+  }
+}

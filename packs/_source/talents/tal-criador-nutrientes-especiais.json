@@ -1,0 +1,20 @@
+{
+  "name": "NUTRIENTES ESPECIAIS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha uma fruta plantada. Ela crescerá e frutificará em 24 horas, subtraindo um número de horas igual a seu MDE.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "Semanal.",
+    "alvo": "Frutas plantadas.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha uma fruta plantada. Ela crescerá e frutificará em 24 horas, subtraindo um número de horas igual a seu MDE.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

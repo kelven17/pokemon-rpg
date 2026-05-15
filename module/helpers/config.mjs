@@ -453,8 +453,9 @@ POKEMON_RPG.talentPointsByLevel = (level) => {
  *  - class:   concedido por uma classe ou subclasse específica.
  */
 POKEMON_RPG.talentCategories = {
-  general: "POKEMON_RPG.TalentCategory.General",
-  class:   "POKEMON_RPG.TalentCategory.Class"
+  general:        "POKEMON_RPG.TalentCategory.General",
+  class:          "POKEMON_RPG.TalentCategory.Class",
+  characteristic: "POKEMON_RPG.TalentCategory.Characteristic"
 };
 
 /* -------------------------------------------- */

@@ -1,0 +1,20 @@
+{
+  "name": "PROTETOR DA PROLE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode se deslocar imediatamente para interceptar o Golpe. Você sofre o dano e os efeitos do Golpe e, se ele causar dano, você subtrai do dano que sofreria seu MD e seu MDE.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon que você chocou é acertado por um Golpe e está dentro do alcance do seu Deslocamento.",
+    "contragatilho": "",
+    "efeito": "<p>Você pode se deslocar imediatamente para interceptar o Golpe. Você sofre o dano e os efeitos do Golpe e, se ele causar dano, você subtrai do dano que sofreria seu MD e seu MDE.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

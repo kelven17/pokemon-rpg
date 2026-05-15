@@ -1,0 +1,20 @@
+{
+  "name": "SÍMBOLO DA VIDA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 3d20 + o triplo de seu MA. O alvo recupera um número de PV igual ao resultado da rolagem. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 16, Símbolo da Cura.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um Pokémon ou um humano.",
+    "contragatilho": "",
+    "efeito": "<p>Role 3d20 + o triplo de seu MA. O alvo recupera um número de PV igual ao resultado da rolagem. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Símbolo da Cura."
+  }
+}

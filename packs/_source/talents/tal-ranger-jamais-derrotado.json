@@ -1,0 +1,20 @@
+{
+  "name": "JAMAIS DERROTADO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Se os Pontos de Vida do alvo forem reduzidos a zero ou menos, ele ainda pode agir e se deslocar, mas não pode usar Golpes. Se os Pontos de Vida forem reduzidos abaixo de -50% dos Pontos de Vida, o alvo deve fazer um Teste de Morte e os efeitos deste Talento são cancelados.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Fortaleza!",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Se os Pontos de Vida do alvo forem reduzidos a zero ou menos, ele ainda pode agir e se deslocar, mas não pode usar Golpes. Se os Pontos de Vida forem reduzidos abaixo de -50% dos Pontos de Vida, o alvo deve fazer um Teste de Morte e os efeitos deste Talento são cancelados.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Fortaleza!"
+  }
+}

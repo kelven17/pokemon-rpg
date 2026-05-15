@@ -1,0 +1,20 @@
+{
+  "name": "VOZ",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você aprende a fazer ilusões sonoras, assim quando tiver sucesso em usar Imitação, você pode copiar a voz do alvo de Imitação. Uma vez que tenha copiado a voz, você pode falar usando a voz daquela pessoa quando quiser para sempre no futuro, desde que esteja na forma dela ou em sua forma verdadeira (não na forma de outra pessoa).Voz consome 50 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "",
+    "gatilho": "Você tem sucesso em usar Imitação.",
+    "contragatilho": "",
+    "efeito": "<p>Você aprende a fazer ilusões sonoras, assim quando tiver sucesso em usar Imitação, você pode copiar a voz do alvo de Imitação. Uma vez que tenha copiado a voz, você pode falar usando a voz daquela pessoa quando quiser para sempre no futuro, desde que esteja na forma dela ou em sua forma verdadeira (não na forma de outra pessoa).Voz consome 50 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

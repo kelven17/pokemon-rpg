@@ -1,0 +1,20 @@
+{
+  "name": "EMPODERAMENTO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você perde todas as Fases positivas que possuía, de modo a anulá-las. Elas são transferidas ao alvo nos mesmos Atributos como estavam afetando você. Empoderamento exaure 10 Pontos de Vida.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon canalizado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você perde todas as Fases positivas que possuía, de modo a anulá-las. Elas são transferidas ao alvo nos mesmos Atributos como estavam afetando você. Empoderamento exaure 10 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

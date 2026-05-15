@@ -1,0 +1,20 @@
+{
+  "name": "CONTROLE DE LUZ",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode gerar iluminação a partir do próprio ar ou pode remover a iluminação presente em uma área. Você controla quão clara ou escura está toda a área a até um número de metros ao seu redor igual ao quíntuplo de seu MAE. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "category": "characteristic",
+    "sourceClass": "psiquico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode gerar iluminação a partir do próprio ar ou pode remover a iluminação presente em uma área. Você controla quão clara ou escura está toda a área a até um número de metros ao seu redor igual ao quíntuplo de seu MAE. Seu MAE nunca pode ser reduzido abaixo de 1 para esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

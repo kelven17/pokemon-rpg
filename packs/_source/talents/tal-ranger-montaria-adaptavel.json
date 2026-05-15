@@ -1,0 +1,20 @@
+{
+  "name": "MONTARIA ADAPTÁVEL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto você está montado, sua montaria ignora os efeitos de Terreno Acidentado e é considerada possuindo a Capacidade Geleira.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Um pokémon com uma das Capacidades a seguir: Geleira, Intangibilidade, Silêncio, Térreo.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto você está montado, sua montaria ignora os efeitos de Terreno Acidentado e é considerada possuindo a Capacidade Geleira.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um pokémon com uma das Capacidades a seguir: Geleira, Intangibilidade, Silêncio, Térreo."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "SOU SUPERIOR NO MEU TIPO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O inimigo não adiciona Bônus Elemental, não pode obter Críticos e nem causar Testes de Morte contra seus Pokémons do Tipo de Escolha.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Alma Elemental",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Um inimigo usa um Golpe do Tipo de Escolha contra um ou mais Pokémons seus (também do Tipo de Escolha).",
+    "contragatilho": "",
+    "efeito": "<p>O inimigo não adiciona Bônus Elemental, não pode obter Críticos e nem causar Testes de Morte contra seus Pokémons do Tipo de Escolha.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Alma Elemental"
+  }
+}

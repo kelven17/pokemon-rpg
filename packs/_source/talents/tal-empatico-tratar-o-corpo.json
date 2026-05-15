@@ -1,0 +1,20 @@
+{
+  "name": "TRATAR O CORPO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você restaura Queimadura e Veneno. Isso deixa resíduo psíquico no alvo. VIDENTE</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Ataque Especial 16, Ter curado Queimadura e/ou Veneno no mínimo três vezes usando itens ou Talentos.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você restaura Queimadura e Veneno. Isso deixa resíduo psíquico no alvo. VIDENTE</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16, Ter curado Queimadura e/ou Veneno no mínimo três vezes usando itens ou Talentos."
+  }
+}

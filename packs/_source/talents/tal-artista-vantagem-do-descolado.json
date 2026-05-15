@@ -1,0 +1,20 @@
+{
+  "name": "VANTAGEM DO DESCOLADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MDE à Pontuação de aparência durante a Apresentação de um Espetáculo. Todos os seus Pokémons podem possuir até 20 pontos na Aptidão Estilo, e podem Apelar a até 5 pontos de Aptidão quando poderiam Apelar ao Estilo.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "1 prêmio em Espetáculo.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MDE à Pontuação de aparência durante a Apresentação de um Espetáculo. Todos os seus Pokémons podem possuir até 20 pontos na Aptidão Estilo, e podem Apelar a até 5 pontos de Aptidão quando poderiam Apelar ao Estilo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "1 prêmio em Espetáculo."
+  }
+}

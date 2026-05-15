@@ -1,0 +1,20 @@
+{
+  "name": "DESLIZAMENTO DE ROCHAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Deslizamento de Rochas. O uso deste Talento consome 10 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "psiquico",
+    "requisitos": "02 Pokémons de Pedra.",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Deslizamento de Rochas. O uso deste Talento consome 10 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 Pokémons de Pedra."
+  }
+}

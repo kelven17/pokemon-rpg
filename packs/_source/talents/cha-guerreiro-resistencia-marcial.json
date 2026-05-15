@@ -1,0 +1,20 @@
+{
+  "name": "RESISTÊNCIA MARCIAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Some as metades de seus MA e MD e multiplique esta soma por 5. Adicione o resultado deste cálculo aos seus Pontos de Vida máximos.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Some as metades de seus MA e MD e multiplique esta soma por 5. Adicione o resultado deste cálculo aos seus Pontos de Vida máximos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

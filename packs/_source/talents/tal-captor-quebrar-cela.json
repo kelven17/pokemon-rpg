@@ -1,0 +1,20 @@
+{
+  "name": "QUEBRAR CELA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), você faz amplas alterações em uma Pokébola concedendo 01 Melhoria à uma Pokébola comum. Após este Talento ser usado, uma Pokébola poderá receber uma Melhoria Adicional. Ainda é possível usá-lo novamente para possibilitar uma Terceira Melhoria na mesma Pokébola. Também é possível usar este Talento para desativar uma Melhoria anteriormente vigente em uma determinada Pokébola para abrir espaço para outra Melhoria em seu lugar. Três Modificações são o máximo que se pode ter por pokébola.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Melhoria de Combate, Melhoria de Aptidão e Melhoria de Capacidade.",
+    "frequencia": "Diária.",
+    "alvo": "Qualquer Pokébola.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), você faz amplas alterações em uma Pokébola concedendo 01 Melhoria à uma Pokébola comum. Após este Talento ser usado, uma Pokébola poderá receber uma Melhoria Adicional. Ainda é possível usá-lo novamente para possibilitar uma Terceira Melhoria na mesma Pokébola. Também é possível usar este Talento para desativar uma Melhoria anteriormente vigente em uma determinada Pokébola para abrir espaço para outra Melhoria em seu lugar. Três Modificações são o máximo que se pode ter por pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Melhoria de Combate, Melhoria de Aptidão e Melhoria de Capacidade."
+  }
+}

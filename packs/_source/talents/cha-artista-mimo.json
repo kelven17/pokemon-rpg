@@ -1,0 +1,20 @@
+{
+  "name": "MIMO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 12 minutos preparando a aparência e o maneirismo do alvo, ele estará com lealdade completa temporariamente e chamará mais atenção. Se ele subir de Nível sem nenhum incidente negativo dentro de 12 minutos após esta preparação e possuir todos os outros requisitos para evolução, o requisito de Lealdade será suprido e ele poderá evoluir, mesmo que a Lealdade dele retorne ao valor padrão depois (a Lealdade retorna ao padrão após 01 hora). O uso repetido deste Talento gradualmente eleva a Lealdade padrão do pokémon. Além disso, Mimo também restaura Confusão, Paralisia e Queimadura.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos preparando a aparência e o maneirismo do alvo, ele estará com lealdade completa temporariamente e chamará mais atenção. Se ele subir de Nível sem nenhum incidente negativo dentro de 12 minutos após esta preparação e possuir todos os outros requisitos para evolução, o requisito de Lealdade será suprido e ele poderá evoluir, mesmo que a Lealdade dele retorne ao valor padrão depois (a Lealdade retorna ao padrão após 01 hora). O uso repetido deste Talento gradualmente eleva a Lealdade padrão do pokémon. Além disso, Mimo também restaura Confusão, Paralisia e Queimadura.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

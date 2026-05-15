@@ -1,0 +1,20 @@
+{
+  "name": "ARMA ACOPLADA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 horas de trabalho, você pode acoplar ao seu Braço Mecânico uma arma criada por um Artífice com matérias-primas especiais ou não. Você sempre é considerado possuindo o Talento Arma de Escolha para a arma que estiver atualmente acoplada a seu Braço Mecânico e nunca poderá ser desarmado de sua Arma Acoplada. Se preferir, a Arma Acoplada pode ser retrátil se encolhendo para dentro de seu Braço Mecânico quando você determinar. Com sua Arma Acoplada, você pode adicionar sua Velocidade às rolagens de dano em substituição a seu Ataque.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Braço Mecânico.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 horas de trabalho, você pode acoplar ao seu Braço Mecânico uma arma criada por um Artífice com matérias-primas especiais ou não. Você sempre é considerado possuindo o Talento Arma de Escolha para a arma que estiver atualmente acoplada a seu Braço Mecânico e nunca poderá ser desarmado de sua Arma Acoplada. Se preferir, a Arma Acoplada pode ser retrátil se encolhendo para dentro de seu Braço Mecânico quando você determinar. Com sua Arma Acoplada, você pode adicionar sua Velocidade às rolagens de dano em substituição a seu Ataque.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Braço Mecânico."
+  }
+}

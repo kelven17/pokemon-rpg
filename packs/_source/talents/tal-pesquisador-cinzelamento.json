@@ -1,0 +1,20 @@
+{
+  "name": "CINZELAMENTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 10 horas de trabalho, você transforma uma pedra comum em uma Pedra Evolutiva. Escolha um Tipo. Quando o item criado por este Talento toca um Pokémon que possua o Tipo escolhido, o Pokémon evoluirá desde que tenha cumprido o requisito de Nível para evoluir, ignorando quaisquer outros requisitos e até mesmo a vontade do Pokémon.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Condensação.",
+    "frequencia": "Mensal.",
+    "alvo": "Uma pedra ordinária.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 10 horas de trabalho, você transforma uma pedra comum em uma Pedra Evolutiva. Escolha um Tipo. Quando o item criado por este Talento toca um Pokémon que possua o Tipo escolhido, o Pokémon evoluirá desde que tenha cumprido o requisito de Nível para evoluir, ignorando quaisquer outros requisitos e até mesmo a vontade do Pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Condensação."
+  }
+}

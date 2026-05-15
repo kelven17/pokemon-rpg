@@ -1,0 +1,20 @@
+{
+  "name": "ALIMENTO DA ALMA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 30 minutos (com ingredientes e equipamentos adequados), você cria um Prato que serve até dez criaturas (pessoas ou Pokémons). Pokémons que se alimentarem desta comida ficam muito felizes, portanto não perderão lealdade se consumirem Ervas antes ou depois, durante todo o dia.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16.",
+    "frequencia": "À Vontade.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 30 minutos (com ingredientes e equipamentos adequados), você cria um Prato que serve até dez criaturas (pessoas ou Pokémons). Pokémons que se alimentarem desta comida ficam muito felizes, portanto não perderão lealdade se consumirem Ervas antes ou depois, durante todo o dia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16."
+  }
+}

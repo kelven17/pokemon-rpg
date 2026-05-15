@@ -1,0 +1,20 @@
+{
+  "name": "LEITURA DE AURAS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você pode ler a aura do alvo. Todos os pokémons e humanos possuem auras, mas a maioria não pode acessá-las. Auras variam em coloração: quanto mais vívida é a cor (ou seja, menos clara e transparente), mais emoção domina aquela pessoa naquele momento; e quanto mais escura, mais intenções ruins aquela pessoa possui. A Leitura de Auras não permite ler mentes, mas auras são pessoais e visíveis mesmo na escuridão. Você pode tornar sua própria aura aparente em coloração para outros, indicando sua intenção a pokémons e humanos, que instintivamente receberão as mesmas informações como se estivesse lendo a sua aura.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Pokémons e humanos.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode ler a aura do alvo. Todos os pokémons e humanos possuem auras, mas a maioria não pode acessá-las. Auras variam em coloração: quanto mais vívida é a cor (ou seja, menos clara e transparente), mais emoção domina aquela pessoa naquele momento; e quanto mais escura, mais intenções ruins aquela pessoa possui. A Leitura de Auras não permite ler mentes, mas auras são pessoais e visíveis mesmo na escuridão. Você pode tornar sua própria aura aparente em coloração para outros, indicando sua intenção a pokémons e humanos, que instintivamente receberão as mesmas informações como se estivesse lendo a sua aura.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

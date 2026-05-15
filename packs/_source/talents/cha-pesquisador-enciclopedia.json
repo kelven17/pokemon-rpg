@@ -1,0 +1,20 @@
+{
+  "name": "ENCICLOPÉDIA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você sabe qualquer informação sobre Pokémons registrados em sua pokéagenda. Isso inclui Tipo, lista de Golpes, métodos de evolução, Habilidades, altura, peso e habitats.</p>",
+    "category": "characteristic",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você sabe qualquer informação sobre Pokémons registrados em sua pokéagenda. Isso inclui Tipo, lista de Golpes, métodos de evolução, Habilidades, altura, peso e habitats.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

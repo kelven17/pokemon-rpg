@@ -1,0 +1,20 @@
+{
+  "name": "PARCERIA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>O alvo perde a Condição Prestativo e passa a ser considerado Parceiro. O Parceiro começa com Lealdade 2 e será obediente e amistoso ao Ranger, independente de quaisquer condições que antecediam à Parceria. Ele ganha pontos de experiência e Níveis exatamente da mesma maneira que qualquer Pokémon capturado, e conta como um Pokémon possuído para quaisquer finalidades, mesmo que nunca tenha sido colocado dentro de uma Pokébola. Um Parceiro não pode participar de Concursos, pois seria fraude. Apesar de não ter sido exatamente capturado, o Parceiro agirá em combate conforme as ordens do Ranger, como se fosse dele. Você não pode possuir mais de um Parceiro.</p>",
+    "category": "characteristic",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon Prestativo que é selvagem.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo perde a Condição Prestativo e passa a ser considerado Parceiro. O Parceiro começa com Lealdade 2 e será obediente e amistoso ao Ranger, independente de quaisquer condições que antecediam à Parceria. Ele ganha pontos de experiência e Níveis exatamente da mesma maneira que qualquer Pokémon capturado, e conta como um Pokémon possuído para quaisquer finalidades, mesmo que nunca tenha sido colocado dentro de uma Pokébola. Um Parceiro não pode participar de Concursos, pois seria fraude. Apesar de não ter sido exatamente capturado, o Parceiro agirá em combate conforme as ordens do Ranger, como se fosse dele. Você não pode possuir mais de um Parceiro.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

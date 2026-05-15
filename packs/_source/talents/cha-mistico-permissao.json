@@ -1,0 +1,20 @@
+{
+  "name": "PERMISSÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Escolha um Golpe conhecido pelo Pokémon que você está canalizando. Você pode usar o Golpe selecionado uma vez dentro de 24 horas, mesmo que não esteja mais canalizando o Pokémon.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um Golpe conhecido pelo Pokémon que você está canalizando. Você pode usar o Golpe selecionado uma vez dentro de 24 horas, mesmo que não esteja mais canalizando o Pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

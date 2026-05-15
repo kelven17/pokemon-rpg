@@ -1,0 +1,20 @@
+{
+  "name": "REANIMADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 05 horas de trabalho, você constrói um Reanimador de uso único. Você poderá fazer um teste de Reanimação adicionando +3 à rolagem. Reanimadores produzidos por este Talento não precisam de um laboratório especializado, mas precisarão de um suprimento de energia elétrica. Se o Reanimador não for usado dentro de 24 horas, ele não poderá mais ser usado.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 17, Ter adquirido um kit de escavação no valor de 1200 créditos.",
+    "frequencia": "Diária.",
+    "alvo": "Um fóssil sendo reanimado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 05 horas de trabalho, você constrói um Reanimador de uso único. Você poderá fazer um teste de Reanimação adicionando +3 à rolagem. Reanimadores produzidos por este Talento não precisam de um laboratório especializado, mas precisarão de um suprimento de energia elétrica. Se o Reanimador não for usado dentro de 24 horas, ele não poderá mais ser usado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 17, Ter adquirido um kit de escavação no valor de 1200 créditos."
+  }
+}

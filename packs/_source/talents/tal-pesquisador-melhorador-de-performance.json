@@ -1,0 +1,20 @@
+{
+  "name": "MELHORADOR DE PERFORMANCE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 30 minutos de trabalho químico, você rola 1d8 e cria um item conforme o resultado:</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Química, Defesa Especial 14.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 30 minutos de trabalho químico, você rola 1d8 e cria um item conforme o resultado:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Química, Defesa Especial 14."
+  }
+}

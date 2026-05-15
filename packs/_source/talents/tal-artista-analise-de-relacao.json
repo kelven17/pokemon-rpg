@@ -1,0 +1,20 @@
+{
+  "name": "ANÁLISE DE RELAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após observar a dupla, você concede uma das seguintes vantagens: • O Pokémon recebe um bônus de Acurácia igual ao MDE do seu Treinador. • O Pokémon recebe um bônus de Dano igual ao dobro do MAE do seu Treinador.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Leitura de Comportamento.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Treinador e seu Pokémon com Lealdade 3 ou 4.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após observar a dupla, você concede uma das seguintes vantagens: • O Pokémon recebe um bônus de Acurácia igual ao MDE do seu Treinador. • O Pokémon recebe um bônus de Dano igual ao dobro do MAE do seu Treinador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Leitura de Comportamento."
+  }
+}

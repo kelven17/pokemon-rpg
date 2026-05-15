@@ -1,0 +1,20 @@
+{
+  "name": "MÁQUINA DOS SONHOS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você possui uma Máquina dos Sonhos, comparável em tamanho a um computador portátil. Quando ela é usada em um pokémon que está dormindo, ela permitirá que você assista os sonhos do pokémon mediante o visor por até 08 horas, depois das quais o pokémon acordará. Se ele for perturbado durante seu sono, ele deve fazer o teste comum para acordar (como pela Condição Sono). Sonhos mostrarão desejos subconscientes do pokémon, contudo o verdadeiro significado de um sonho pode ser confuso ou obscuro. Um pokémon específico só pode ter seus sonhos observados por uma Máquina dos Sonhos a cada 03 dias.</p>",
+    "category": "characteristic",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você possui uma Máquina dos Sonhos, comparável em tamanho a um computador portátil. Quando ela é usada em um pokémon que está dormindo, ela permitirá que você assista os sonhos do pokémon mediante o visor por até 08 horas, depois das quais o pokémon acordará. Se ele for perturbado durante seu sono, ele deve fazer o teste comum para acordar (como pela Condição Sono). Sonhos mostrarão desejos subconscientes do pokémon, contudo o verdadeiro significado de um sonho pode ser confuso ou obscuro. Um pokémon específico só pode ter seus sonhos observados por uma Máquina dos Sonhos a cada 03 dias.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

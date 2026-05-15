@@ -1,0 +1,20 @@
+{
+  "name": "TRATAR FERIMENTOS CRÍTICOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recupera 80 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 18, Tratar Ferimentos Graves.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recupera 80 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 18, Tratar Ferimentos Graves."
+  }
+}

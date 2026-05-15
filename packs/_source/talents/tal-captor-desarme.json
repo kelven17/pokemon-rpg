@@ -1,0 +1,20 @@
+{
+  "name": "DESARME",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MA. Se o resultado for 16 ou mais, uma Pokébola contendo um Pokémon que o alvo do ataque possui (determinada aleatoriamente se houver mais de uma) é danificada, e não pode ter seu Pokémon liberado. Pokébolas danificadas desta forma podem ser reparadas instantaneamente por um Captor, em um Centro Pokémon, numa Pokéloja ou em qualquer estabelecimento policial.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ataque 15.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você ataca um humano com um ataque de Armas ou Arma de Escolha e tem sucesso.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MA. Se o resultado for 16 ou mais, uma Pokébola contendo um Pokémon que o alvo do ataque possui (determinada aleatoriamente se houver mais de uma) é danificada, e não pode ter seu Pokémon liberado. Pokébolas danificadas desta forma podem ser reparadas instantaneamente por um Captor, em um Centro Pokémon, numa Pokéloja ou em qualquer estabelecimento policial.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 15."
+  }
+}

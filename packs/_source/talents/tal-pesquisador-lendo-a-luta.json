@@ -1,0 +1,20 @@
+{
+  "name": "LENDO A LUTA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, o Narrador deve dizer seis espécies de Pokémons, dentre as quais quatro são possuídas pelo alvo. Se o alvo possui menos que quatro Pokémons, o Narrador dirá a você dois Pokémons (ambos possuídos pelo alvo).</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 20.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, o Narrador deve dizer seis espécies de Pokémons, dentre as quais quatro são possuídas pelo alvo. Se o alvo possui menos que quatro Pokémons, o Narrador dirá a você dois Pokémons (ambos possuídos pelo alvo).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 20."
+  }
+}

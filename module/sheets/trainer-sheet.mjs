@@ -110,45 +110,59 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       talent: allTalents
     };
 
+    // Helper para enriquecer um talento com effect HTML / fallbacks
+    const enrichTalent = (t) => {
+      const s = t.system ?? {};
+      const raw = (s.efeito && String(s.efeito).trim())
+                || (s.description && String(s.description).trim())
+                || "";
+      const html = raw && !raw.trim().startsWith("<") ? `<p>${raw}</p>` : raw;
+      return {
+        id: t.id, name: t.name, img: t.img,
+        system: s, effectHtml: html
+      };
+    };
+
     // ---- Agrupamento de Talentos por Classe ----
-    // Para cada classe que o treinador tem, mostra os talentos que vieram dela
-    // (talents com category="class" e sourceClass = slug da classe).
-    // O resto vai para "general" ou "other" (sem classe associada conhecida).
     const classGroups = [];
     const usedTalentIds = new Set();
     for ( const cls of allClasses ) {
       const slug = cls.system.slug || "";
       const parentSlug = cls.system.parentClass || "";
-      // Resolve label da classe-mãe para subclasses.
       let parentLabel = "";
       if ( parentSlug ) {
         const parentDef = POKEMON_RPG.classHierarchy[parentSlug];
         if ( parentDef ) parentLabel = game.i18n.localize(parentDef.label);
         else parentLabel = parentSlug;
       }
-      const groupTalents = allTalents.filter(t =>
+      const characteristics = allTalents.filter(t =>
+        t.system.category === "characteristic" && slug && t.system.sourceClass === slug
+      );
+      const classTalents = allTalents.filter(t =>
         t.system.category === "class" && slug && t.system.sourceClass === slug
       );
-      groupTalents.forEach(t => usedTalentIds.add(t.id));
+      characteristics.forEach(t => usedTalentIds.add(t.id));
+      classTalents.forEach(t => usedTalentIds.add(t.id));
       classGroups.push({
         class: cls,
         slug,
         parentSlug,
         parentLabel,
         isSubclass: !!parentSlug,
-        talents: groupTalents
+        characteristics: characteristics.map(enrichTalent),
+        talents:         classTalents.map(enrichTalent)
       });
     }
     context.classGroups = classGroups;
 
     // Talentos gerais (qualquer um pode pegar).
-    context.generalTalents = allTalents.filter(t =>
-      t.system.category === "general" && !usedTalentIds.has(t.id)
-    );
-    // Talentos sem categoria reconhecida ou de classe que o treinador não possui.
-    context.orphanTalents = allTalents.filter(t =>
-      !usedTalentIds.has(t.id) && t.system.category !== "general"
-    );
+    context.generalTalents = allTalents
+      .filter(t => t.system.category === "general" && !usedTalentIds.has(t.id))
+      .map(enrichTalent);
+    // Talentos sem classe correspondente.
+    context.orphanTalents = allTalents
+      .filter(t => !usedTalentIds.has(t.id) && t.system.category !== "general")
+      .map(enrichTalent);
 
     // Lista de slugs disponíveis (para selects no item-sheet).
     context.classSlugChoices = POKEMON_RPG.allClassSlugs

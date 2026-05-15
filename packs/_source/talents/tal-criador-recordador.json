@@ -1,0 +1,20 @@
+{
+  "name": "RECORDADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 04 horas de trabalho diligente, role 1d20 + MDE. Se o resultado for 21 ou mais, escolha um Golpe que você já ensinou mediante Tutorial. Você cria um Registro contendo o Golpe. Não é possível criar o mesmo Registro mais de uma vez com este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 17, ter usado o Talento Tutorial 03 vezes com sucesso.",
+    "frequencia": "Semanal.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 04 horas de trabalho diligente, role 1d20 + MDE. Se o resultado for 21 ou mais, escolha um Golpe que você já ensinou mediante Tutorial. Você cria um Registro contendo o Golpe. Não é possível criar o mesmo Registro mais de uma vez com este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 17, ter usado o Talento Tutorial 03 vezes com sucesso."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CURA MENOR",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você cura o alvo em uma quantidade de Pontos de Vida igual a 1d12+6 + o dobro de seu MAE. Isso deixa resíduo psíquico no alvo.</p>",
+    "category": "characteristic",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você cura o alvo em uma quantidade de Pontos de Vida igual a 1d12+6 + o dobro de seu MAE. Isso deixa resíduo psíquico no alvo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

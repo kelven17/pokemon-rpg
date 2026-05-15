@@ -1,0 +1,20 @@
+{
+  "name": "MAIS FORÇA!",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>A Capacidade Força de seu pokémon é aumentada por seu MA por uma rodada se estiver em combate, ou por um minuto se estiver fora de combate.</p>",
+    "category": "characteristic",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 16.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>A Capacidade Força de seu pokémon é aumentada por seu MA por uma rodada se estiver em combate, ou por um minuto se estiver fora de combate.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 16."
+  }
+}

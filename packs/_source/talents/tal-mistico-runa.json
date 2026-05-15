@@ -1,0 +1,20 @@
+{
+  "name": "RUNA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você inscreve uma Runa na escrita Unown. A qualquer momento você pode fechar seus olhos se concentrando na Runa para ver e ouvir através dela, e também projetar sua voz através dela. A Runa pode ser tão pequena ou tão grande quanto você desejar, e a sua habilidade de perceber o mundo e de projetar sua voz será proporcional ao tamanho dela. Por exemplo, uma runa que preencha uma enorme parede terá uma voz estrondosa e magnânima enquanto uma runa pequena e discreta soará como um sussurro. Uma Runa miúda só permitirá que você enxergue como se através de uma fechadura enquanto que uma ruína antiga totalmente escrita permitirá observar o local inteiro de múltiplos ângulos. Você pode possuir um número máximo de Runas ativas igual a seu MD. Quando uma Runa é destruída, você se torna imediatamente consciente disso, não importa o quão distante esteja. Se múltiplas Runas são destruídas, você é avisado sobre cada uma delas individualmente.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Dicionário.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você inscreve uma Runa na escrita Unown. A qualquer momento você pode fechar seus olhos se concentrando na Runa para ver e ouvir através dela, e também projetar sua voz através dela. A Runa pode ser tão pequena ou tão grande quanto você desejar, e a sua habilidade de perceber o mundo e de projetar sua voz será proporcional ao tamanho dela. Por exemplo, uma runa que preencha uma enorme parede terá uma voz estrondosa e magnânima enquanto uma runa pequena e discreta soará como um sussurro. Uma Runa miúda só permitirá que você enxergue como se através de uma fechadura enquanto que uma ruína antiga totalmente escrita permitirá observar o local inteiro de múltiplos ângulos. Você pode possuir um número máximo de Runas ativas igual a seu MD. Quando uma Runa é destruída, você se torna imediatamente consciente disso, não importa o quão distante esteja. Se múltiplas Runas são destruídas, você é avisado sobre cada uma delas individualmente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Dicionário."
+  }
+}

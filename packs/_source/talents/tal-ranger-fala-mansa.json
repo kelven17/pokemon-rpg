@@ -1,0 +1,20 @@
+{
+  "name": "FALA MANSA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione +5 aos resultados de testes que envolvam seu MAE ou seu MDE. CAVALEIRO</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione +5 aos resultados de testes que envolvam seu MAE ou seu MDE. CAVALEIRO</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 16."
+  }
+}

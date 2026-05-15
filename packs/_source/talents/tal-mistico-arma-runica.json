@@ -1,0 +1,20 @@
+{
+  "name": "ARMA RÚNICA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo se transforma em uma arma à sua escolha, cheia de inscritos rúnicos. Quando esta arma é usada para atacar, ela causa dano adicional igual ao Bônus Elemental que o Unown palavra possui. O usuário de uma Arma Rúnica pode usá-la para automaticamente se defender de um ataque, caso em que o Unown palavra sofre o dano do ataque no lugar dele. A Arma Rúnica permanece por até 24 horas, e desaparece se o Unown palavra ficar inconsciente ou for convocado de volta à pokébola. Neste estado, o Unown palavra não pode usar Capacidades nem Golpes.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "05 Talentos de Rúnico (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Diária. A cada 20 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Unown palavra.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo se transforma em uma arma à sua escolha, cheia de inscritos rúnicos. Quando esta arma é usada para atacar, ela causa dano adicional igual ao Bônus Elemental que o Unown palavra possui. O usuário de uma Arma Rúnica pode usá-la para automaticamente se defender de um ataque, caso em que o Unown palavra sofre o dano do ataque no lugar dele. A Arma Rúnica permanece por até 24 horas, e desaparece se o Unown palavra ficar inconsciente ou for convocado de volta à pokébola. Neste estado, o Unown palavra não pode usar Capacidades nem Golpes.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "05 Talentos de Rúnico (desconte as Características de Classe para este cálculo)."
+  }
+}

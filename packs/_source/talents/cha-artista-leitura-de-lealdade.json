@@ -1,0 +1,20 @@
+{
+  "name": "LEITURA DE LEALDADE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você sempre sabe o valor exato da Lealdade do alvo. Além disso, uma vez por encontro, quando um Pokémon seu faria um teste relacionado à obediência, você pode considerá-lo como se tivesse Lealdade elevada.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você sempre sabe o valor exato da Lealdade do alvo. Além disso, uma vez por encontro, quando um Pokémon seu faria um teste relacionado à obediência, você pode considerá-lo como se tivesse Lealdade elevada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

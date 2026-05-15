@@ -1,0 +1,20 @@
+{
+  "name": "ARQUEARIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Os alvos dos seus ataques de Armas feitos com armas À Distância não se beneficiam de Evasão por Velocidade nem por terreno ou clima. Eles também não se beneficiam por Golpes que dificultam o seu Teste de Acurácia para atacá-los. Seus ataques de Armas feitos com armas À Distância possuem alcance adicional igual à metade da sua Velocidade e causam dano adicional igual à metade da sua Velocidade. Isso só é válido se você não pertence a nenhuma das seguintes Classes: Guerreiro, Monge ou Ninja.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Nível 10, Arma de Escolha para uma arma À Distância.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Os alvos dos seus ataques de Armas feitos com armas À Distância não se beneficiam de Evasão por Velocidade nem por terreno ou clima. Eles também não se beneficiam por Golpes que dificultam o seu Teste de Acurácia para atacá-los. Seus ataques de Armas feitos com armas À Distância possuem alcance adicional igual à metade da sua Velocidade e causam dano adicional igual à metade da sua Velocidade. Isso só é válido se você não pertence a nenhuma das seguintes Classes: Guerreiro, Monge ou Ninja.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 10, Arma de Escolha para uma arma À Distância."
+  }
+}

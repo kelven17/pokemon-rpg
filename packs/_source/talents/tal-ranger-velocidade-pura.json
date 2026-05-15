@@ -1,0 +1,20 @@
+{
+  "name": "VELOCIDADE PURA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto for montado por você, o pokémon eleva duas Fases de Velocidade.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Um pokémon com Velocidade 25.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto for montado por você, o pokémon eleva duas Fases de Velocidade.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um pokémon com Velocidade 25."
+  }
+}

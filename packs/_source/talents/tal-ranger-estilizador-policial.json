@@ -1,0 +1,20 @@
+{
+  "name": "ESTILIZADOR POLICIAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>A bateria de seu Estilizador é aprimorada para possuir agora um máximo de 30 Cargas.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 16, Velocidade 16, Autoridade.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>A bateria de seu Estilizador é aprimorada para possuir agora um máximo de 30 Cargas.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Velocidade 16, Autoridade."
+  }
+}

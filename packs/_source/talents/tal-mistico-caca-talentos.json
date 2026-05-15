@@ -1,0 +1,20 @@
+{
+  "name": "CAÇA TALENTOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode usar Indiscernível três vezes diárias, mas só uma vez por indivíduo.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "03 Talentos de Ilusionista (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode usar Indiscernível três vezes diárias, mas só uma vez por indivíduo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "03 Talentos de Ilusionista (desconte as Características de Classe para este cálculo)."
+  }
+}

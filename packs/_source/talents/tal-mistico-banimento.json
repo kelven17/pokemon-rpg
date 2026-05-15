@@ -1,0 +1,20 @@
+{
+  "name": "BANIMENTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MD. Se o resultado for 16 ou mais, o alvo é transportado para um espaço extradimensional conhecido como Espaço Unown até o fim do seu próximo turno. Quando o alvo voltar (exatamente no mesmo ponto onde estava), ele sequer sente a passagem temporal e simplesmente não nota que foi alvo de Banimento. Não é possível usar Banimento em uma mesma criatura mais de uma vez por encontro, mas é possível sacrificar usos de Banimento para aumentar o número de rodadas que o alvo fica no Espaço Unown. Cada uso sacrificado aumenta em uma rodada o tempo que ele fica fora.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "12 Unown.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MD. Se o resultado for 16 ou mais, o alvo é transportado para um espaço extradimensional conhecido como Espaço Unown até o fim do seu próximo turno. Quando o alvo voltar (exatamente no mesmo ponto onde estava), ele sequer sente a passagem temporal e simplesmente não nota que foi alvo de Banimento. Não é possível usar Banimento em uma mesma criatura mais de uma vez por encontro, mas é possível sacrificar usos de Banimento para aumentar o número de rodadas que o alvo fica no Espaço Unown. Cada uso sacrificado aumenta em uma rodada o tempo que ele fica fora.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "12 Unown."
+  }
+}

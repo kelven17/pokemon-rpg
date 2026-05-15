@@ -1,0 +1,20 @@
+{
+  "name": "PRÁTICA PERFEITA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Subtraia o triplo de seu MA ou o triplo de seu MV da rolagem de Contenção. Este Talento só pode ser usado uma vez por rolagem de Contenção. Se tiver sucesso em usar Contenção aplicando este Talento, você recebe uma lista parcial dos Golpes conhecidos pelo Pokémon e sabe todas as Capacidades dele.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 15.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "Uma rolagem de Contenção.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Subtraia o triplo de seu MA ou o triplo de seu MV da rolagem de Contenção. Este Talento só pode ser usado uma vez por rolagem de Contenção. Se tiver sucesso em usar Contenção aplicando este Talento, você recebe uma lista parcial dos Golpes conhecidos pelo Pokémon e sabe todas as Capacidades dele.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 15."
+  }
+}

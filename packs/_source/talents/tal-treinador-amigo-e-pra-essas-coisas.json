@@ -1,0 +1,20 @@
+{
+  "name": "AMIGO É PRA ESSAS COISAS!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após aplicar a Defesa ou a Defesa Especial do seu pokémon, você sofre metade do dano que ele sofreria no lugar dele.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Um de seus pokémons adjacente a você é acertado por um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>Após aplicar a Defesa ou a Defesa Especial do seu pokémon, você sofre metade do dano que ele sofreria no lugar dele.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

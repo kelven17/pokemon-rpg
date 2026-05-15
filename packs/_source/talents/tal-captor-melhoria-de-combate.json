@@ -1,0 +1,20 @@
+{
+  "name": "MELHORIA DE COMBATE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), você aplica uma Melhoria em uma Pokébola. Escolha um Atributo. Sempre que o Pokémon mantido dentro da Pokébola com Melhoria sai de sua Pokébola, ele eleva uma Fase do Atributo selecionado. Uma Pokébola só pode possuir uma Melhoria de Batalha, mesmo que você possua Quebrar Cela.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Criar Pokébola, Velocidade 17.",
+    "frequencia": "Semanal. A cada 10 Níveis, receba um uso semanal adicional.",
+    "alvo": "Qualquer Pokébola.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV), você aplica uma Melhoria em uma Pokébola. Escolha um Atributo. Sempre que o Pokémon mantido dentro da Pokébola com Melhoria sai de sua Pokébola, ele eleva uma Fase do Atributo selecionado. Uma Pokébola só pode possuir uma Melhoria de Batalha, mesmo que você possua Quebrar Cela.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Criar Pokébola, Velocidade 17."
+  }
+}

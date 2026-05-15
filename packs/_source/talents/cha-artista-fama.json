@@ -1,0 +1,20 @@
+{
+  "name": "FAMA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Seus Pokémons recebem 20% de pontos de experiência adicionais a cada vez que receberem pontos de experiência por Concursos. Se você ganhar um Concurso, receba 15% a mais do prêmio financeiro que receberia.</p>",
+    "category": "characteristic",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus Pokémons recebem 20% de pontos de experiência adicionais a cada vez que receberem pontos de experiência por Concursos. Se você ganhar um Concurso, receba 15% a mais do prêmio financeiro que receberia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

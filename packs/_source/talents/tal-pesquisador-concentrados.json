@@ -1,0 +1,20 @@
+{
+  "name": "CONCENTRADOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após uma 01 Hora de trabalho químico, escolha uma das seguintes frutas: romã (Pomeg), alga (Kelpsy), pera (Qualot), candalupo (Hondew), uva (Grepa). Você cria um item com os mesmos efeitos da fruta escolhida.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Química.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após uma 01 Hora de trabalho químico, escolha uma das seguintes frutas: romã (Pomeg), alga (Kelpsy), pera (Qualot), candalupo (Hondew), uva (Grepa). Você cria um item com os mesmos efeitos da fruta escolhida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Química."
+  }
+}

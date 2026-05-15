@@ -1,0 +1,20 @@
+{
+  "name": "PROPULSOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 horas de trabalho, seu Braço Mecânico agora é flutuante e possui um compartimento que revela um propulsor concedendo a você Deslocamentos de Natação 8, Subaquático 6 e Voo 5.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ataque Especial 13, Braço Mecânico.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 horas de trabalho, seu Braço Mecânico agora é flutuante e possui um compartimento que revela um propulsor concedendo a você Deslocamentos de Natação 8, Subaquático 6 e Voo 5.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 13, Braço Mecânico."
+  }
+}

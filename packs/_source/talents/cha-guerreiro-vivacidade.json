@@ -1,0 +1,20 @@
+{
+  "name": "VIVACIDADE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Para fins de fazer feitos acrobáticos, adicione metade de seu MA à sua Velocidade e aos seus Deslocamentos e trate Terreno Acidentado como Terreno Normal. Além disso, você pode correr em superfícies verticais por uma quantidade de metros igual a seu MA antes de ter que saltar. Finalmente, você pode se mover silenciosamente sem a necessidade de fazer testes.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Para fins de fazer feitos acrobáticos, adicione metade de seu MA à sua Velocidade e aos seus Deslocamentos e trate Terreno Acidentado como Terreno Normal. Além disso, você pode correr em superfícies verticais por uma quantidade de metros igual a seu MA antes de ter que saltar. Finalmente, você pode se mover silenciosamente sem a necessidade de fazer testes.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

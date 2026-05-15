@@ -1,0 +1,20 @@
+{
+  "name": "EMPRÉSTIMO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Escolha um Golpe conhecido pelo pokémon que você estava possuindo. Você pode usar o Golpe selecionado uma vez dentro de 24 horas, mesmo que não esteja mais possuindo o pokémon.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você deixa uma possessão para voltar para seu corpo.",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um Golpe conhecido pelo pokémon que você estava possuindo. Você pode usar o Golpe selecionado uma vez dentro de 24 horas, mesmo que não esteja mais possuindo o pokémon.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

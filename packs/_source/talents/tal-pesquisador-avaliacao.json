@@ -1,0 +1,20 @@
+{
+  "name": "AVALIAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode usar o Golpe Revelação no mesmo alvo de Arte Fotográfica como uma Ação Livre. Alternativamente, você pode usar Revelação como uma Ação Padrão se estiver avaliando uma fotografia já obtida do alvo.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você usa Arte Fotográfica em um Pokémon ou em um humano.",
+    "contragatilho": "",
+    "efeito": "<p>Você pode usar o Golpe Revelação no mesmo alvo de Arte Fotográfica como uma Ação Livre. Alternativamente, você pode usar Revelação como uma Ação Padrão se estiver avaliando uma fotografia já obtida do alvo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

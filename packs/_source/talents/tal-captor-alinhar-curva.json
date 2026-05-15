@@ -1,0 +1,20 @@
+{
+  "name": "ALINHAR CURVA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Aumente seu MAE ou seu MDE por um valor igual ao número de espécies diferentes de Pokémons possuídas dividido por dez.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Aumente seu MAE ou seu MDE por um valor igual ao número de espécies diferentes de Pokémons possuídas dividido por dez.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

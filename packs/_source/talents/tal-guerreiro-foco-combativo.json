@@ -1,0 +1,20 @@
+{
+  "name": "FOCO COMBATIVO +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione o dobro de seu MA e o dobro de seu MD às rolagens de dano causado por você. Este Talentos substitui Foco Combativo.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 15, Defesa 15, Foco Combativo.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione o dobro de seu MA e o dobro de seu MD às rolagens de dano causado por você. Este Talentos substitui Foco Combativo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 15, Defesa 15, Foco Combativo."
+  }
+}

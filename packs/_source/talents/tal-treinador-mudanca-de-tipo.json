@@ -1,0 +1,20 @@
+{
+  "name": "MUDANÇA DE TIPO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recebe seu Tipo de Escolha por um número de rodadas igual a seu MA. Se ele já possuía dois Tipos, substitua temporariamente um de seus Tipos. Ao fim do combate, como ele foi (mesmo que temporariamente) do Tipo de Escolha, seu Treinamento Elemental é aplicado.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 15.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recebe seu Tipo de Escolha por um número de rodadas igual a seu MA. Se ele já possuía dois Tipos, substitua temporariamente um de seus Tipos. Ao fim do combate, como ele foi (mesmo que temporariamente) do Tipo de Escolha, seu Treinamento Elemental é aplicado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 15."
+  }
+}

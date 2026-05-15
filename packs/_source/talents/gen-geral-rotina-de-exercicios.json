@@ -1,0 +1,20 @@
+{
+  "name": "ROTINA DE EXERCÍCIOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você deve se exercitar pelo menos uma vez por dia. Uma prática de exercícios deve consumir pelo menos 30 minutos e ela lhe faz perder 10 PV. Se você não se exercitar pelo menos uma vez ao dia, você perde os benefícios deste Talento até ser capaz de retomar sua rotina de exercícios. Este Talento aumenta em 01 sua Saúde, seu Ataque, sua Defesa ou sua Velocidade. ESPECIAL: Este Talento pode ser escolhido diversas vezes. Seus efeitos se acumulam. Você não precisa aumentar sua quantidade de exercícios para manter funcional este Talento mesmo que o possua várias vezes.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Ter se exercitado pelo menos uma vez.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você deve se exercitar pelo menos uma vez por dia. Uma prática de exercícios deve consumir pelo menos 30 minutos e ela lhe faz perder 10 PV. Se você não se exercitar pelo menos uma vez ao dia, você perde os benefícios deste Talento até ser capaz de retomar sua rotina de exercícios. Este Talento aumenta em 01 sua Saúde, seu Ataque, sua Defesa ou sua Velocidade. ESPECIAL: Este Talento pode ser escolhido diversas vezes. Seus efeitos se acumulam. Você não precisa aumentar sua quantidade de exercícios para manter funcional este Talento mesmo que o possua várias vezes.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter se exercitado pelo menos uma vez."
+  }
+}

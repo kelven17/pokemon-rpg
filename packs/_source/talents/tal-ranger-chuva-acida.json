@@ -1,0 +1,20 @@
+{
+  "name": "CHUVA ÁCIDA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Em vez de substituir o Clima que estava em vigência anteriormente, os efeitos do Clima designado pelo novo Golpe se somam ao Clima anterior, coexistindo simultaneamente. No máximo dois Climas podem coexistir.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 16, ter passado uma semana longe da civilização.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um Pokémon usa um Golpe com o Descritor Clima.",
+    "contragatilho": "",
+    "efeito": "<p>Em vez de substituir o Clima que estava em vigência anteriormente, os efeitos do Clima designado pelo novo Golpe se somam ao Clima anterior, coexistindo simultaneamente. No máximo dois Climas podem coexistir.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 16, ter passado uma semana longe da civilização."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ESCALADA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você não precisa fazer testes enquanto se deslocar através de Terreno Acidentado nem sofre penalidades aos seus Deslocamentos por Terreno Acidentado. Além disso, você nunca precisa fazer testes para escalar: você pode escalar usando seu Deslocamento Terrestre reduzido em 3.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você não precisa fazer testes enquanto se deslocar através de Terreno Acidentado nem sofre penalidades aos seus Deslocamentos por Terreno Acidentado. Além disso, você nunca precisa fazer testes para escalar: você pode escalar usando seu Deslocamento Terrestre reduzido em 3.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 16."
+  }
+}

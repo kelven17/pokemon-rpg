@@ -1,0 +1,20 @@
+{
+  "name": "INTENSÃO ARRISCADA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando um Pokémon seu está colocando Ameaças, ele pode aumentar a área das Ameaças em um número de metros igual a seu MA. Todos os metros extras devem ser adjacentes à área original. Se seus Pokémons colocarem Ameaças em uma área ocupada por um Oponente, o mesmo imediatamente sofre os efeitos da Ameaça ao se deslocar.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando um Pokémon seu está colocando Ameaças, ele pode aumentar a área das Ameaças em um número de metros igual a seu MA. Todos os metros extras devem ser adjacentes à área original. Se seus Pokémons colocarem Ameaças em uma área ocupada por um Oponente, o mesmo imediatamente sofre os efeitos da Ameaça ao se deslocar.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

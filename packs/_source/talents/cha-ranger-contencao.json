@@ -1,0 +1,20 @@
+{
+  "name": "CONTENÇÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Usando seu próprio Estilizador, um Ranger pode fazer um teste de Contenção, para o qual ele rola 1d100 - 20. Se o resultado for igual ou inferior à Chance de Captura do Pokémon alvo, este se torna Prestativo (como pelas regras descritas na Capacidade Hierarquia). Um Pokémon selvagem deixa de ser Prestativo se acontecer uma das seguintes coisas: • Se for retirado de seu ambiente padrão, se for acertado por um ataque, se for fortemente distraído, se ajudar o Ranger de alguma forma significativa (incluindo atacar). • Um Pokémon de alguém deixa de ser Prestativo se atacar com sucesso, se for convocado de volta para a Pokébola. Se ele possuir Lealdade 2 ou mais, ele também deixa de ser Prestativo se o Ranger tentar forçá-lo a atacar o dono ou qualquer aliado do dono. O Ranger não pode possuir mais de um Pokémon Prestativo mediante este Talento. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "category": "characteristic",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Usando seu próprio Estilizador, um Ranger pode fazer um teste de Contenção, para o qual ele rola 1d100 - 20. Se o resultado for igual ou inferior à Chance de Captura do Pokémon alvo, este se torna Prestativo (como pelas regras descritas na Capacidade Hierarquia). Um Pokémon selvagem deixa de ser Prestativo se acontecer uma das seguintes coisas: • Se for retirado de seu ambiente padrão, se for acertado por um ataque, se for fortemente distraído, se ajudar o Ranger de alguma forma significativa (incluindo atacar). • Um Pokémon de alguém deixa de ser Prestativo se atacar com sucesso, se for convocado de volta para a Pokébola. Se ele possuir Lealdade 2 ou mais, ele também deixa de ser Prestativo se o Ranger tentar forçá-lo a atacar o dono ou qualquer aliado do dono. O Ranger não pode possuir mais de um Pokémon Prestativo mediante este Talento. O uso deste Talento consome 02 Cargas da bateria de seu Estilizador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

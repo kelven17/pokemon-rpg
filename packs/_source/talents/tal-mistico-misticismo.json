@@ -1,0 +1,20 @@
+{
+  "name": "MISTICISMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione o triplo de seu MD a seus Pontos de Vida máximos. Isso só se aplica ao seu corpo humano.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Saúde 15.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione o triplo de seu MD a seus Pontos de Vida máximos. Isso só se aplica ao seu corpo humano.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Saúde 15."
+  }
+}

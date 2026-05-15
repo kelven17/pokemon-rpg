@@ -1,0 +1,20 @@
+{
+  "name": "EXPLOSÃO MUSCULAR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>A qualquer momento que você usaria seu MV, você pode usar seu MA no lugar.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>A qualquer momento que você usaria seu MV, você pode usar seu MA no lugar.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16."
+  }
+}

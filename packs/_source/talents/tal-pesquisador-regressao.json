@@ -1,0 +1,20 @@
+{
+  "name": "REGRESSÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você pode entender a razão pela qual um pokémon está angustiado, qual a fonte da infelicidade dele e o que é necessário no mundo real para consertar isso. Você pode fazer questões para o pokémon que está dormindo, e as respostas serão manifestas no sonho do pokémon que é visível para você através da Máquina dos Sonhos.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Introjeção.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um pokémon que está dormindo e sendo avaliado pela Máquina dos Sonhos.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você pode entender a razão pela qual um pokémon está angustiado, qual a fonte da infelicidade dele e o que é necessário no mundo real para consertar isso. Você pode fazer questões para o pokémon que está dormindo, e as respostas serão manifestas no sonho do pokémon que é visível para você através da Máquina dos Sonhos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Introjeção."
+  }
+}

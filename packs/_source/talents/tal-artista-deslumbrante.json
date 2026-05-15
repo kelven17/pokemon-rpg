@@ -1,0 +1,20 @@
+{
+  "name": "DESLUMBRANTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha outro Golpe não causador de dano com o Descritor Som ou com o Descritor Dança (O Golpe escolhido deve ser conhecido pelo Pokémon que ativou o Gatilho). Os efeitos do Golpe escolhido são adicionados aos efeitos do Golpe executado pelo Pokémon. Contudo, também adicione o Descritor Exaustão ao Golpe. Efeitos que reduziriam um alvo a uma quantidade específica de Pontos de Vida não podem ser usados com Deslumbrante. Também não podem ser usados efeitos que criam Ameaças ou Barreiras. Um Golpe modificado por Deslumbrante não pode ser combinado mediante os Talentos do Síncrono.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Nível 15.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu está executando um Golpe com o Descritor Dança ou com o Descritor Som.",
+    "contragatilho": "",
+    "efeito": "<p>Escolha outro Golpe não causador de dano com o Descritor Som ou com o Descritor Dança (O Golpe escolhido deve ser conhecido pelo Pokémon que ativou o Gatilho). Os efeitos do Golpe escolhido são adicionados aos efeitos do Golpe executado pelo Pokémon. Contudo, também adicione o Descritor Exaustão ao Golpe. Efeitos que reduziriam um alvo a uma quantidade específica de Pontos de Vida não podem ser usados com Deslumbrante. Também não podem ser usados efeitos que criam Ameaças ou Barreiras. Um Golpe modificado por Deslumbrante não pode ser combinado mediante os Talentos do Síncrono.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 15."
+  }
+}

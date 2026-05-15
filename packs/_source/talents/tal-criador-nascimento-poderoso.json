@@ -1,0 +1,20 @@
+{
+  "name": "NASCIMENTO PODEROSO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 13 ou mais, o Pokémon nasce com +1 a todos os seus Deslocamentos e também à Capacidade Força. Estes benefícios continuam válidos a seus próximos estágios evolutivos, mas isso não pode elevar a Força de um Pokémon além de 7.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 13 ou mais, o Pokémon nasce com +1 a todos os seus Deslocamentos e também à Capacidade Força. Estes benefícios continuam válidos a seus próximos estágios evolutivos, mas isso não pode elevar a Força de um Pokémon além de 7.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "VIBRATO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando um Pokémon seu perderia uma ou mais Fases devido a um Golpe causador de dano usado por um oponente, o oponente deve ter rolado 19 ou 20 no Teste de Acurácia dele para ter sucesso em fazer seu Pokémon perder Fases. Uma vez por encontro, quando seu Pokémon utilizar um Golpe com o Descritor Som, todos oponentes que o tiverem como alvo na mesma rodada do combate terão as Dificuldades de Acurácia elevadas em 1.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Velocidade 15.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando um Pokémon seu perderia uma ou mais Fases devido a um Golpe causador de dano usado por um oponente, o oponente deve ter rolado 19 ou 20 no Teste de Acurácia dele para ter sucesso em fazer seu Pokémon perder Fases. Uma vez por encontro, quando seu Pokémon utilizar um Golpe com o Descritor Som, todos oponentes que o tiverem como alvo na mesma rodada do combate terão as Dificuldades de Acurácia elevadas em 1.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 15."
+  }
+}

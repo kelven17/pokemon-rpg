@@ -1,0 +1,20 @@
+{
+  "name": "ROMPIMENTO DO VÍNCULO +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MV. Se o resultado for 18 ou mais, você pode ter o alvo como alvo de Furto ou de Furto + mesmo tendo Lealdade 2, desde que o Furto aconteça em um número de rodadas igual a seu MV+2 após o Rompimento do Vínculo. Este Talento subtitui Rompimento do Vínculo.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Rompimento do Vínculo.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon com Lealdade 2.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MV. Se o resultado for 18 ou mais, você pode ter o alvo como alvo de Furto ou de Furto + mesmo tendo Lealdade 2, desde que o Furto aconteça em um número de rodadas igual a seu MV+2 após o Rompimento do Vínculo. Este Talento subtitui Rompimento do Vínculo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Rompimento do Vínculo."
+  }
+}

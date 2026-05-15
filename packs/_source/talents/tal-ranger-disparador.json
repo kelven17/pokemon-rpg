@@ -1,0 +1,20 @@
+{
+  "name": "DISPARADOR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você usa um dos Golpes a seguir com um alcance de 5 metros: Esporos Paralisantes ou Teia de Aranha. O uso deste Talento consome três Cargas da bateria de seu Estilizador.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon ou um humano.",
+    "contragatilho": "",
+    "efeito": "<p>Você usa um dos Golpes a seguir com um alcance de 5 metros: Esporos Paralisantes ou Teia de Aranha. O uso deste Talento consome três Cargas da bateria de seu Estilizador.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

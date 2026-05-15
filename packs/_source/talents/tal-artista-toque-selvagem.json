@@ -1,0 +1,20 @@
+{
+  "name": "TOQUE SELVAGEM",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Uma vez por encontro, quando seu Pokémon perderia uma Fase como resultado de um Golpe de um oponente, ignore a perda de Fase. Em Concursos, o efeito deste Talento é outro: Quando seu Pokémon usar um Golpe com o Descritor Dança, você pode elevar a Expectativa de um jurado específico em 1. Isso só pode ser feito se o seu Pokémon receberia o Bônus Elemental por aquele Golpe se estivesse em combate comum.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Velocidade 15.",
+    "frequencia": "Por Encontro.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Uma vez por encontro, quando seu Pokémon perderia uma Fase como resultado de um Golpe de um oponente, ignore a perda de Fase. Em Concursos, o efeito deste Talento é outro: Quando seu Pokémon usar um Golpe com o Descritor Dança, você pode elevar a Expectativa de um jurado específico em 1. Isso só pode ser feito se o seu Pokémon receberia o Bônus Elemental por aquele Golpe se estivesse em combate comum.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 15."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "FORÇA OCULTA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando você ou qualquer Unown palavra seu usar Poder Oculto, você pode escolher que o Golpe tome a forma de uma Coluna com um 1m de largura e 15m de comprimento, em vez de uma Explosão. Quando um Unown palavra seu usa Poder Oculto, ele ganha +1 de Bônus Elemental, mesmo que o Poder Oculto não seja do Tipo do Unown.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando você ou qualquer Unown palavra seu usar Poder Oculto, você pode escolher que o Golpe tome a forma de uma Coluna com um 1m de largura e 15m de comprimento, em vez de uma Explosão. Quando um Unown palavra seu usa Poder Oculto, ele ganha +1 de Bônus Elemental, mesmo que o Poder Oculto não seja do Tipo do Unown.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

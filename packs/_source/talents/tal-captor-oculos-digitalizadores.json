@@ -1,0 +1,20 @@
+{
+  "name": "ÓCULOS DIGITALIZADORES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Uma vez por rodada, você pode ver uma porcentagem quando olha para um pokémon. Esta porcentagem representa quantos Pontos de Vida ele possui remanescentes.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Uma vez por rodada, você pode ver uma porcentagem quando olha para um pokémon. Esta porcentagem representa quantos Pontos de Vida ele possui remanescentes.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

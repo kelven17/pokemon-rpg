@@ -1,0 +1,20 @@
+{
+  "name": "SELO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Em vez de usar o Poder Oculto imediatamente, você escreve um Selo na escrita Unown e designa uma condição. Quando a condição é satisfeita, o Selo explode causando dano na quantidade e no Tipo conforme o Poder Oculto que seria usado. Você pode possuir um número máximo de Selos ativos igual a seu MD. Não é possível colocar muitos Selos circunvizinhos, eles devem ter pelo menos 5 metros de distância. Quando um Selo é detonado, você se torna imediatamente consciente disso, não importa o quão distante esteja. Se múltiplos Selos são detonados, você é avisado sobre cada um deles individualmente.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Poder Oculto.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Você usa o Talento Poder Oculto.",
+    "contragatilho": "",
+    "efeito": "<p>Em vez de usar o Poder Oculto imediatamente, você escreve um Selo na escrita Unown e designa uma condição. Quando a condição é satisfeita, o Selo explode causando dano na quantidade e no Tipo conforme o Poder Oculto que seria usado. Você pode possuir um número máximo de Selos ativos igual a seu MD. Não é possível colocar muitos Selos circunvizinhos, eles devem ter pelo menos 5 metros de distância. Quando um Selo é detonado, você se torna imediatamente consciente disso, não importa o quão distante esteja. Se múltiplos Selos são detonados, você é avisado sobre cada um deles individualmente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Poder Oculto."
+  }
+}

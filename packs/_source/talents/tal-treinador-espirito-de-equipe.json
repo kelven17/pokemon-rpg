@@ -1,0 +1,20 @@
+{
+  "name": "ESPÍRITO DE EQUIPE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seus dois pokémons ativos elevam suas Fases de um Atributo, que deve ser o maior Atributo Basal do outro pokémon, salvo Saúde. Sempre que mudar um pokémon ativo ou ambos, Espírito de Equipe não mais eleva as Fases conforme os pokémons anteriores (eles perdem as Fases ganhas) para fazê-lo conforme os novos pokémons ativos e seus Atributos respectivos. Se houver dois Atributos Basais empatados, você pode escolher qual será usado para esta Característica de Classe.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Você Isso e Você Aquilo!",
+    "frequencia": "Constante.",
+    "alvo": "Dois pokémons ativos seus.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Seus dois pokémons ativos elevam suas Fases de um Atributo, que deve ser o maior Atributo Basal do outro pokémon, salvo Saúde. Sempre que mudar um pokémon ativo ou ambos, Espírito de Equipe não mais eleva as Fases conforme os pokémons anteriores (eles perdem as Fases ganhas) para fazê-lo conforme os novos pokémons ativos e seus Atributos respectivos. Se houver dois Atributos Basais empatados, você pode escolher qual será usado para esta Característica de Classe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Você Isso e Você Aquilo!"
+  }
+}

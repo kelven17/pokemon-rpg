@@ -1,0 +1,20 @@
+{
+  "name": "DRUIDA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode falar com plantas que possuam pelo menos vinte anos. Elas podem responder de maneira limitada para informar algumas coisas: sobre qualquer coisa que as tocou nas últimas 24 horas, sobre frutos delas ou sobre Pokémons que vivem nas redondezas a visitando com frequência.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Canalisar uma árvore por 30 minutos em uma floresta.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode falar com plantas que possuam pelo menos vinte anos. Elas podem responder de maneira limitada para informar algumas coisas: sobre qualquer coisa que as tocou nas últimas 24 horas, sobre frutos delas ou sobre Pokémons que vivem nas redondezas a visitando com frequência.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Canalisar uma árvore por 30 minutos em uma floresta."
+  }
+}

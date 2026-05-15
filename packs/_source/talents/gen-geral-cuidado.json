@@ -1,0 +1,20 @@
+{
+  "name": "CUIDADO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Durante esta rodada, se seu Pokémon alvo for atacado, jogue uma moeda várias vezes, até sair cara, e não coroa. Quando o inimigo for fazer o Teste de Acurácia, ele deve obter um resultado maior que o número de vezes que a moeda foi jogada ou ele errará.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Velocidade 14.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Durante esta rodada, se seu Pokémon alvo for atacado, jogue uma moeda várias vezes, até sair cara, e não coroa. Quando o inimigo for fazer o Teste de Acurácia, ele deve obter um resultado maior que o número de vezes que a moeda foi jogada ou ele errará.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 14."
+  }
+}

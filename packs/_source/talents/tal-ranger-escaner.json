@@ -1,0 +1,20 @@
+{
+  "name": "ESCÂNER",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando olha para um Pokémon, você vê uma barra que representa a porcentagem de Pontos de Vida de um Pokémon em relação aos PV máximos.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 16, Velocidade 16, Autoridade.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando olha para um Pokémon, você vê uma barra que representa a porcentagem de Pontos de Vida de um Pokémon em relação aos PV máximos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Velocidade 16, Autoridade."
+  }
+}

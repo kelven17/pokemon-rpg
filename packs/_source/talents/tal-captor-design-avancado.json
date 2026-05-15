@@ -1,0 +1,20 @@
+{
+  "name": "DESIGN AVANÇADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos de trabalho cansativo (consumindo 20 PV), você cria uma Pokébola de um dos tipos a seguir: Curativa, Ligeira, Luxuosa, de Mergulho, de Ninho, de Penumbra, de Repetição, de Teia ou Temporizada.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Criar Pokébola.",
+    "frequencia": "Semanal. A cada 5 Níveis, receba um uso semanal adicional.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos de trabalho cansativo (consumindo 20 PV), você cria uma Pokébola de um dos tipos a seguir: Curativa, Ligeira, Luxuosa, de Mergulho, de Ninho, de Penumbra, de Repetição, de Teia ou Temporizada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Criar Pokébola."
+  }
+}

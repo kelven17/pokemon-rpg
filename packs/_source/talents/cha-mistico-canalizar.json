@@ -1,0 +1,20 @@
+{
+  "name": "CANALIZAR",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Faça um Teste de Captura para o Pokémon alvo subtraindo sua Defesa do resultado da rolagem. Se o resultado final for menor que a Chance de Captura do Pokémon alvo, você o canalizou. O Pokémon é considerado Prestativo (como pelas regras descritas na Capacidade Hierarquia). Até que ele seja atacado ou muito distraído, ele ouvirá as suas sugestões e seguirá você (um Pokémon selvagem só o fará dentro do território dele). Você tem conhecimento sobre as Habilidades, as Capacidades e o Golpes do Pokémon canalizado e acessa as memórias dele ocorridas a até 1 hora. Vocês dois podem se comunicar telepaticamente. Enquanto o Pokémon é canalizado, ele é imune a capturas, e se você tentar fazer isso, ele tem sucesso automático em fugir. O Pokémon canalizado segue as suas sugestões por amizade: considere que ele obedece você, mas não se houver um combate, caso em que age por conta própria (se você está canalizando um Pokémon que já é seu, ele o obedece durante o combate normalmente). Você só pode canalizar um Pokémon. A canalização é rompida se o Pokémon se afastar de você mais distante que um número de metros igual ao dobro de seu MD. Canalizar exaure 10 Pontos de Vida.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Faça um Teste de Captura para o Pokémon alvo subtraindo sua Defesa do resultado da rolagem. Se o resultado final for menor que a Chance de Captura do Pokémon alvo, você o canalizou. O Pokémon é considerado Prestativo (como pelas regras descritas na Capacidade Hierarquia). Até que ele seja atacado ou muito distraído, ele ouvirá as suas sugestões e seguirá você (um Pokémon selvagem só o fará dentro do território dele). Você tem conhecimento sobre as Habilidades, as Capacidades e o Golpes do Pokémon canalizado e acessa as memórias dele ocorridas a até 1 hora. Vocês dois podem se comunicar telepaticamente. Enquanto o Pokémon é canalizado, ele é imune a capturas, e se você tentar fazer isso, ele tem sucesso automático em fugir. O Pokémon canalizado segue as suas sugestões por amizade: considere que ele obedece você, mas não se houver um combate, caso em que age por conta própria (se você está canalizando um Pokémon que já é seu, ele o obedece durante o combate normalmente). Você só pode canalizar um Pokémon. A canalização é rompida se o Pokémon se afastar de você mais distante que um número de metros igual ao dobro de seu MD. Canalizar exaure 10 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ACUPUNTURISTA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você usa o Golpe Acupuntura. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Role 1d6 e então confira o efeito: Resultado 1 2 3 4 5 6</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você usa o Golpe Acupuntura. NOME DO GOLPE: DESCRITORES: DANO BASAL: EFEITO Role 1d6 e então confira o efeito: Resultado 1 2 3 4 5 6</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

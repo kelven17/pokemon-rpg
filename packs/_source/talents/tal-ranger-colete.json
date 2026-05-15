@@ -1,0 +1,20 @@
+{
+  "name": "COLETE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando sofrer dano por ataques, reduza o dano em 15.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 16, Velocidade 16, Autoridade.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando sofrer dano por ataques, reduza o dano em 15.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Velocidade 16, Autoridade."
+  }
+}

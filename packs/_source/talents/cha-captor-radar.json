@@ -1,0 +1,20 @@
+{
+  "name": "RADAR",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você legalmente altera sua própria Pokéagenda para que ela adquira a função de Radar, ou seja, para que ela não precise ser direcionada para um Pokémon para avaliá-lo, achando automaticamente qualquer Pokémon que esteja parado dentro do alcance do Radar (Dessa forma não será necessário aguardar o tempo de identificação de 01 Rodada). Você pode alterar o alcance do Radar a qualquer momento para qualquer valor de 5 a 15 metros.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "Ataque Especial 13",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você legalmente altera sua própria Pokéagenda para que ela adquira a função de Radar, ou seja, para que ela não precise ser direcionada para um Pokémon para avaliá-lo, achando automaticamente qualquer Pokémon que esteja parado dentro do alcance do Radar (Dessa forma não será necessário aguardar o tempo de identificação de 01 Rodada). Você pode alterar o alcance do Radar a qualquer momento para qualquer valor de 5 a 15 metros.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 13"
+  }
+}

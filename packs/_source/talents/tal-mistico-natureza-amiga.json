@@ -1,0 +1,20 @@
+{
+  "name": "NATUREZA AMIGA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando o alvo da sua Possessão é um pokémon seu leal, você automaticamente tem sucesso em possuí-lo.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "Um pokémon leal que já evoluiu pelo menos uma vez com você.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando o alvo da sua Possessão é um pokémon seu leal, você automaticamente tem sucesso em possuí-lo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Um pokémon leal que já evoluiu pelo menos uma vez com você."
+  }
+}

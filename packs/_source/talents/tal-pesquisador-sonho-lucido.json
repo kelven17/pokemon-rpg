@@ -1,0 +1,20 @@
+{
+  "name": "SONHO LÚCIDO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode dar ao pokémon alvo um Material Onírico que o mantém sendo avaliado continuamente pela Máquina dos Sonhos, mesmo sendo convocado de volta à pokébola (O item manterá o alvo em sonho consciente). Enquanto neste estado, ele ganha 500 pontos de experiência a cada 24 horas que permanecer com você dentro da pokébola. Estes pontos de experiência são concedidos quando o pokémon sai da pokébola próximo à sua Máquina dos Sonhos pronta. Se ele for enviado para fora da pokébola antes das 24 horas se completarem, ele perde os benefícios por aquelas 24 horas. Enquanto a Máquina dos Sonhos avalia o sonho deste pokémon, ela não pode ser usada para mais nada.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Habilidade Inconsciente, Reprogramação Mental.",
+    "frequencia": "Constante.",
+    "alvo": "O pokémon que está dormindo e sendo avaliado pela Máquina dos Sonhos.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode dar ao pokémon alvo um Material Onírico que o mantém sendo avaliado continuamente pela Máquina dos Sonhos, mesmo sendo convocado de volta à pokébola (O item manterá o alvo em sonho consciente). Enquanto neste estado, ele ganha 500 pontos de experiência a cada 24 horas que permanecer com você dentro da pokébola. Estes pontos de experiência são concedidos quando o pokémon sai da pokébola próximo à sua Máquina dos Sonhos pronta. Se ele for enviado para fora da pokébola antes das 24 horas se completarem, ele perde os benefícios por aquelas 24 horas. Enquanto a Máquina dos Sonhos avalia o sonho deste pokémon, ela não pode ser usada para mais nada.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Habilidade Inconsciente, Reprogramação Mental."
+  }
+}

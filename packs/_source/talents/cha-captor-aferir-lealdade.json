@@ -1,0 +1,20 @@
+{
+  "name": "AFERIR LEALDADE",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Apontando um Catador a um Pokémon, você pode determinar a Lealdade daquele Pokémon. A Lealdade é mensurada de 0 a 4, onde: Pokémons com Lealdade 0 odeiam seus donos e/ou são comumente usados para atacar Pokémons ou pessoas em situações degradantes ou indefesas. Pokémons com Lealdade 1 foram capturados recentemente, eles eram previamente selvagens e não confiam em seus humanos e/ou são usados para cometer crimes. Um Pokémon com Lealdade 2 gosta de seu dono ou foi trocado para um novo dono, mas já era domesticado (não selvagem). Pokémons com Lealdade 3 amam seus donos e/ou foram chocados por eles. Pokémons com Lealdade 4 possuem laços inquebráveis com seus donos.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon não selvagem.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Apontando um Catador a um Pokémon, você pode determinar a Lealdade daquele Pokémon. A Lealdade é mensurada de 0 a 4, onde: Pokémons com Lealdade 0 odeiam seus donos e/ou são comumente usados para atacar Pokémons ou pessoas em situações degradantes ou indefesas. Pokémons com Lealdade 1 foram capturados recentemente, eles eram previamente selvagens e não confiam em seus humanos e/ou são usados para cometer crimes. Um Pokémon com Lealdade 2 gosta de seu dono ou foi trocado para um novo dono, mas já era domesticado (não selvagem). Pokémons com Lealdade 3 amam seus donos e/ou foram chocados por eles. Pokémons com Lealdade 4 possuem laços inquebráveis com seus donos.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

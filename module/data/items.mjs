@@ -90,27 +90,33 @@ export class TalentData extends foundry.abstract.TypeDataModel {
   static defineSchema() {
     return {
       description: new HTMLField({ required: true, initial: "" }),
-      // Categoria do talento.
-      //  - "general": qualquer um pode pegar a qualquer momento
-      //  - "class":   ganho automaticamente por uma classe/subclasse
+      // Categoria do talento (estrutura do Excel):
+      //  - "general":         Talento Geral (qualquer um pode pegar)
+      //  - "class":           Talento de Classe específica (opcional, gasta ponto)
+      //  - "characteristic":  Característica de Classe (auto-concedida ao adquirir a classe)
       category: new StringField({
         required: true,
         initial: "general",
         choices: () => Object.keys(POKEMON_RPG.talentCategories)
       }),
-      // Slug da classe que concede este talento (quando category = "class").
-      // Vazio para talentos gerais. Usado para agrupar talentos na ficha.
+      // Slug da classe que concede este talento.
+      // "geral" para talentos gerais; "treinador", "captor", etc para classes.
       sourceClass: new StringField({ required: true, initial: "" }),
-      // Mantido por compatibilidade — restrição textual de classe (livre).
+      // Campos estruturados do Excel:
+      requisitos:    new StringField({ required: true, initial: "" }),
+      frequencia:    new StringField({ required: true, initial: "" }),
+      alvo:          new StringField({ required: true, initial: "" }),
+      gatilho:       new StringField({ required: true, initial: "" }),
+      contragatilho: new StringField({ required: true, initial: "" }),
+      efeito:        new HTMLField({ required: true, initial: "" }),
+      // Legacy fields — mantidos por compat.
       classRestriction: new StringField({ required: true, initial: "" }),
       requiredLevel: new NumberField({ required: true, nullable: false, integer: true, initial: 1, min: 1 }),
-      // Tipo do talento — passivo, ação, reação...
       activation: new StringField({
         required: true,
         initial: "passive",
         choices: ["passive", "action", "bonus", "reaction", "free"]
       }),
-      // Requisitos de pré-requisito (texto livre por enquanto).
       prerequisites: new StringField({ required: true, initial: "" })
     };
   }

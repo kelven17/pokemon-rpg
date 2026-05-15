@@ -1,0 +1,20 @@
+{
+  "name": "JOGAR REDE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você faz um Teste de Acurácia com Dificuldade 4 contra o alvo (que deve estar a até 4 metros). Se acertar, você arremessa uma rede de captura sobre ele para diminuir em 6 todos os Deslocamentos dele. O alvo pode gastar um turno para rolar 1d20 + Força (se for um Pokémon) ou 1d20 + metade de seu Ataque (se for humano). Se o resultado for 12 ou mais, ele se liberta da rede.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você faz um Teste de Acurácia com Dificuldade 4 contra o alvo (que deve estar a até 4 metros). Se acertar, você arremessa uma rede de captura sobre ele para diminuir em 6 todos os Deslocamentos dele. O alvo pode gastar um turno para rolar 1d20 + Força (se for um Pokémon) ou 1d20 + metade de seu Ataque (se for humano). Se o resultado for 12 ou mais, ele se liberta da rede.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

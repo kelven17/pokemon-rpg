@@ -1,0 +1,20 @@
+{
+  "name": "ATAQUES APRIMORADOS",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Quando calcular o dano causado ao inimigo, adicione metade de seu MA ou de seu MAE antes que o alvo subtraia o valor de Defesa dele.</p>",
+    "category": "characteristic",
+    "sourceClass": "treinador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "",
+    "gatilho": "Seu Pokémon acerta um ataque causador de dano em um oponente.",
+    "contragatilho": "",
+    "efeito": "<p>Quando calcular o dano causado ao inimigo, adicione metade de seu MA ou de seu MAE antes que o alvo subtraia o valor de Defesa dele.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

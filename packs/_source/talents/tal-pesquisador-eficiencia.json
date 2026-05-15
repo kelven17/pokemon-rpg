@@ -1,0 +1,20 @@
+{
+  "name": "EFICIÊNCIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Durante a próxima rodada do encontro, qualquer ação executada por um aliado que requer uma rolagem de 1d20 adiciona seu MAE à rolagem. As exceções a este benefício são os Golpes que reduzem alvos a quantidades fixas de Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 20, Nível 10, Coordenação.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Aliados.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Durante a próxima rodada do encontro, qualquer ação executada por um aliado que requer uma rolagem de 1d20 adiciona seu MAE à rolagem. As exceções a este benefício são os Golpes que reduzem alvos a quantidades fixas de Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 20, Nível 10, Coordenação."
+  }
+}

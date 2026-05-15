@@ -1,0 +1,20 @@
+{
+  "name": "INVENTOR DE TÉCNICAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 04 horas de trabalho diligente, role 1d20 + MDE. Se o resultado for 21 ou mais, escolha um Golpe que um dos seus pokémons conhece, mas para o qual não existe um Registro normalmente. Você cria um Registro não permanente contendo o Golpe. Não é possível criar o mesmo Registro mais de uma vez com este Talento.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Recordador.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 04 horas de trabalho diligente, role 1d20 + MDE. Se o resultado for 21 ou mais, escolha um Golpe que um dos seus pokémons conhece, mas para o qual não existe um Registro normalmente. Você cria um Registro não permanente contendo o Golpe. Não é possível criar o mesmo Registro mais de uma vez com este Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Recordador."
+  }
+}

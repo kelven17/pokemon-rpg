@@ -1,0 +1,20 @@
+{
+  "name": "REMÉDIOS +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 01 hora de trabalho químico, você cria um dos seguintes itens à sua escolha: Antídoto, Despertador, Pomada, Anticongelante, Antiparalisante. Este Talento substitui Remédios.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ter usado o Talento Remédios três vezes.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 01 hora de trabalho químico, você cria um dos seguintes itens à sua escolha: Antídoto, Despertador, Pomada, Anticongelante, Antiparalisante. Este Talento substitui Remédios.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter usado o Talento Remédios três vezes."
+  }
+}

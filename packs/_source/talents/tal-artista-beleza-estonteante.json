@@ -1,0 +1,20 @@
+{
+  "name": "BELEZA ESTONTEANTE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo ganha a Habilidade Identificação até ser convocado de volta à Pokébola.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "2 prêmios em Desfiles de Beleza.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu com pelo menos um prêmio em Desfile de Beleza ou um Pokémon aliado com pelo menos um prêmio em Desfile de Beleza.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo ganha a Habilidade Identificação até ser convocado de volta à Pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "2 prêmios em Desfiles de Beleza."
+  }
+}

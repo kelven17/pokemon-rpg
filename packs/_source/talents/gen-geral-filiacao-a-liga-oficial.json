@@ -1,0 +1,20 @@
+{
+  "name": "FILIAÇÃO À LIGA OFICIAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Receba +2 à sua Defesa Especial. Você assume as responsabilidades de um Líder de Ginásio ou equivalente (como Cérebro da Fronteira, por exemplo) e deve aceitar desafios (No mínimo semanais). Se você perder, você deve dar ao vencedor uma insígnia (ou equivalente, como uma Medalha de Fronteira dada pelos Cérebros de Fronteira). Você não precisa estar fisicamente presente em seu Ginásio para aceitar desafios o tempo todo, mas precisará deixar claro à população geral que está disponível para ser desafiado e dedicar um tempo para as batalhas oficiais dos desafiantes. Desde que você aceite pelo menos três desafios durante a semana, você receberá um pagamento de 2000 créditos semanais por seus serviços como membro da Liga. Você deve criar insígnias em seu próprio Ginásio (elas só podem ser criadas oficialmente lá) para dá-las aos possíveis treinadores que vencerem você (você não deve ficar sem insígnias) e para criá-las, cada uma custa 500 créditos. Você só pode ocupar um cargo oficial na Liga, mesmo que se qualifique para mais de um.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "12 insígnias, Nível 20, um Ginásio (Se não possuir um Ginásio deverá ter uma quantia de 380000 créditos para comprar um Terreno, Construir e gerar a Licença).",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Receba +2 à sua Defesa Especial. Você assume as responsabilidades de um Líder de Ginásio ou equivalente (como Cérebro da Fronteira, por exemplo) e deve aceitar desafios (No mínimo semanais). Se você perder, você deve dar ao vencedor uma insígnia (ou equivalente, como uma Medalha de Fronteira dada pelos Cérebros de Fronteira). Você não precisa estar fisicamente presente em seu Ginásio para aceitar desafios o tempo todo, mas precisará deixar claro à população geral que está disponível para ser desafiado e dedicar um tempo para as batalhas oficiais dos desafiantes. Desde que você aceite pelo menos três desafios durante a semana, você receberá um pagamento de 2000 créditos semanais por seus serviços como membro da Liga. Você deve criar insígnias em seu próprio Ginásio (elas só podem ser criadas oficialmente lá) para dá-las aos possíveis treinadores que vencerem você (você não deve ficar sem insígnias) e para criá-las, cada uma custa 500 créditos. Você só pode ocupar um cargo oficial na Liga, mesmo que se qualifique para mais de um.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "12 insígnias, Nível 20, um Ginásio (Se não possuir um Ginásio deverá ter uma quantia de 380000 créditos para comprar um Terreno, Construir e gerar a Licença)."
+  }
+}

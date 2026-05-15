@@ -1,0 +1,20 @@
+{
+  "name": "TRATAR FERIMENTOS GRAVES",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo recupera 60 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16, Tratar Ferimentos Leves.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon ou um humano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo recupera 60 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16, Tratar Ferimentos Leves."
+  }
+}

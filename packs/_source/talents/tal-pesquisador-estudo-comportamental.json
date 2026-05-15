@@ -1,0 +1,20 @@
+{
+  "name": "ESTUDO COMPORTAMENTAL +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, você descobre o Nível do alvo e pelo menos 06 Golpes que um espécime padrão daquele Pokémon saberia naquele Nível (se o Pokémon conhece menos que seis Golpes, você sabe todos os Golpes que ele conhece). Se o resultado for 21 ou mais, você identifica quantos Pontos de Vida ele possui no momento. Este Talento substitui Estudo Comportamental.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 16 ou Defesa Especial 16, Estudo Comportamental.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, você descobre o Nível do alvo e pelo menos 06 Golpes que um espécime padrão daquele Pokémon saberia naquele Nível (se o Pokémon conhece menos que seis Golpes, você sabe todos os Golpes que ele conhece). Se o resultado for 21 ou mais, você identifica quantos Pontos de Vida ele possui no momento. Este Talento substitui Estudo Comportamental.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16 ou Defesa Especial 16, Estudo Comportamental."
+  }
+}

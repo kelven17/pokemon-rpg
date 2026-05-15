@@ -1,0 +1,20 @@
+{
+  "name": "MAIS LONGE!",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Os Deslocamentos do alvo são aumentados por seu MV até o fim do encontro.</p>",
+    "category": "characteristic",
+    "sourceClass": "ranger",
+    "requisitos": "Velocidade 16.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Os Deslocamentos do alvo são aumentados por seu MV até o fim do encontro.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 16."
+  }
+}

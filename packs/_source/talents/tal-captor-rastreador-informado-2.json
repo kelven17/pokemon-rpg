@@ -1,0 +1,20 @@
+{
+  "name": "RASTREADOR INFORMADO +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você identifica os habitantes da área, sabendo quais Pokémons comumente habitam a região e quais Abricós crescem nela. Se você tiver capturado pelo menos três Pokémons na área, você sabe sobre qualquer Pokémon raro que se diz habitar o local e subtrai 10 de quaisquer rolagens de Captura feitas na área pelo resto do dia. Este Talento substitui Rastreador Informado.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Rastreador Informado.",
+    "frequencia": "Diária.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você identifica os habitantes da área, sabendo quais Pokémons comumente habitam a região e quais Abricós crescem nela. Se você tiver capturado pelo menos três Pokémons na área, você sabe sobre qualquer Pokémon raro que se diz habitar o local e subtrai 10 de quaisquer rolagens de Captura feitas na área pelo resto do dia. Este Talento substitui Rastreador Informado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Rastreador Informado."
+  }
+}

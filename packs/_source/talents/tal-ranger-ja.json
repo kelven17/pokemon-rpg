@@ -1,0 +1,20 @@
+{
+  "name": "JÁ!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto você está montado, todos os ataques causadores de dano físico feitos por você, causam dano adicional igual ao Deslocamento que sua montaria está usando no momento.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "02 pokémons que serviram como montarias pelo menos um dia cada.",
+    "frequencia": "Diária. A cada 25 Níveis, receba um uso diário adicional.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto você está montado, todos os ataques causadores de dano físico feitos por você, causam dano adicional igual ao Deslocamento que sua montaria está usando no momento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "02 pokémons que serviram como montarias pelo menos um dia cada."
+  }
+}

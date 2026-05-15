@@ -1,0 +1,20 @@
+{
+  "name": "FOTOGRAFIA RARA +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você tira uma fotografia do Golpe, que pode ser vendida no valor de 45 vezes o resultado da rolagem. Este Talento substitui Fotografia Rara.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Defesa Especial 17, Fotografia Rara.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você ou um aliado é atacado por um Pokémon usando um Golpe.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 16 ou mais, você tira uma fotografia do Golpe, que pode ser vendida no valor de 45 vezes o resultado da rolagem. Este Talento substitui Fotografia Rara.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 17, Fotografia Rara."
+  }
+}

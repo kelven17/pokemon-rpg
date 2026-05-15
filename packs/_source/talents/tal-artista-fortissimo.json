@@ -1,0 +1,20 @@
+{
+  "name": "FORTÍSSIMO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Pokémon usa o Golpe duas vezes em uma só Ação de Golpe. Contudo, o Pokémon ficará Exausto por duas rodadas. Ele não pode ser retornado à Pokébola enquanto estiver Exausto a menos que fique inconsciente (com 0 PV ou menos). Se o próprio Golpe beneficiado por este Talento já possuía o Descritor Exaustão, o Pokémon sofre os efeitos da Exaustão por duas rodadas extras.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Nível 15.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu está executando um Golpe com o Descritor Dança ou com o Descritor Som.",
+    "contragatilho": "",
+    "efeito": "<p>O Pokémon usa o Golpe duas vezes em uma só Ação de Golpe. Contudo, o Pokémon ficará Exausto por duas rodadas. Ele não pode ser retornado à Pokébola enquanto estiver Exausto a menos que fique inconsciente (com 0 PV ou menos). Se o próprio Golpe beneficiado por este Talento já possuía o Descritor Exaustão, o Pokémon sofre os efeitos da Exaustão por duas rodadas extras.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 15."
+  }
+}

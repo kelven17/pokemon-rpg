@@ -1,0 +1,20 @@
+{
+  "name": "ALTAMENTE CAPAZ",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Aumente em 02 todas as Capacidades numéricas e Deslocamentos do alvo. Este Talento é aplicado a um Pokémon por vez.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Capaz.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu que possui pelo menos um estágio evolutivo não alcançado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Aumente em 02 todas as Capacidades numéricas e Deslocamentos do alvo. Este Talento é aplicado a um Pokémon por vez.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Capaz."
+  }
+}

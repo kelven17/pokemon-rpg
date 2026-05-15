@@ -1,0 +1,20 @@
+{
+  "name": "EXERCÍCIO BRUTAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O pokémon perde metade de seus Pontos de Vida atuais, mas ganha o dobro do número de pontos de experiência que ganharia.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque 15.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu que acabou de derrotar um oponente.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O pokémon perde metade de seus Pontos de Vida atuais, mas ganha o dobro do número de pontos de experiência que ganharia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 15."
+  }
+}

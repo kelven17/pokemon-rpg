@@ -1,0 +1,20 @@
+{
+  "name": "COORDENAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode dar comandos ao alvo desde que ele ainda não tenha agido naquela rodada. Deve haver consentimento explícito por parte do dono dele, a menos que este esteja inconsciente. Você ainda só pode dar um comando por rodada, a menos que possua Você Isso e Você Aquilo! um Pokémon não pode agir mais de uma vez por rodada em virtude deste Talento.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 16 ou Defesa Especial 16.",
+    "frequencia": "Constante.",
+    "alvo": "Um Pokémon de um aliado.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode dar comandos ao alvo desde que ele ainda não tenha agido naquela rodada. Deve haver consentimento explícito por parte do dono dele, a menos que este esteja inconsciente. Você ainda só pode dar um comando por rodada, a menos que possua Você Isso e Você Aquilo! um Pokémon não pode agir mais de uma vez por rodada em virtude deste Talento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16 ou Defesa Especial 16."
+  }
+}

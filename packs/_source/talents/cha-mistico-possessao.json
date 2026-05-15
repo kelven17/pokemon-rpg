@@ -1,0 +1,20 @@
+{
+  "name": "POSSESSÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Faça um Teste de Captura para o pokémon alvo subtraindo metade de sua Defesa do resultado da rolagem. Se o resultado final for menor que a Chance de Captura do pokémon alvo, você o possuiu. Você está em total controle do pokémon possuído e designa cada ação dele. Você tem conhecimento sobre as Habilidades, as Capacidades e o Golpes do pokémon possuído. Enquanto você está possuindo um pokémon, seu corpo original está inconsciente: ele não pode fazer nenhum teste por conta própria, falhando se necessário. Você ainda pode executar uma Ação Padrão por rodada, pode – mediante seu corpo pokémon – comandar seus pokémons e se desloca, mas o deslocamento é feito com o corpo do pokémon possuído e usa os Deslocamentos dele. Neste estado de transferência mental para o pokémon, usar um Golpe do pokémon consome a sua Ação Padrão. A menos que um Talento diga o contrário, você não pode ativar Talentos humanos enquanto possuir um pokémon, salvo por Talentos que permitem o uso de Golpes, caso em que você usa as estatísticas do pokémon possuído em vez de as suas próprias. Se você usar algo que envolve sacrifício de Pontos de Vida, os PV perdidos são do pokémon possuído, não do seu corpo humano. Você pode deixar o pokémon possuído durante o seu turno como humano consumindo sua Ação Padrão. Se o pokémon que você está possuindo desmaiar, você imediatamente retorna ao seu corpo. Se o pokémon possuído morrer, você morre. Se o pokémon possuído for capturado ou retornado à pokébola enquanto você o possui, a sua mente está trancada dentro da pokébola junto com o corpo do pokémon possuído até que ele seja liberado da pokébola. Golpes adquiridos mediante Empréstimo e Permissão não podem ser usados durante a Possessão. Você só pode possuir um pokémon. Usar Possessão exaure 35 Pontos de Vida.</p>",
+    "category": "characteristic",
+    "sourceClass": "mistico",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Faça um Teste de Captura para o pokémon alvo subtraindo metade de sua Defesa do resultado da rolagem. Se o resultado final for menor que a Chance de Captura do pokémon alvo, você o possuiu. Você está em total controle do pokémon possuído e designa cada ação dele. Você tem conhecimento sobre as Habilidades, as Capacidades e o Golpes do pokémon possuído. Enquanto você está possuindo um pokémon, seu corpo original está inconsciente: ele não pode fazer nenhum teste por conta própria, falhando se necessário. Você ainda pode executar uma Ação Padrão por rodada, pode – mediante seu corpo pokémon – comandar seus pokémons e se desloca, mas o deslocamento é feito com o corpo do pokémon possuído e usa os Deslocamentos dele. Neste estado de transferência mental para o pokémon, usar um Golpe do pokémon consome a sua Ação Padrão. A menos que um Talento diga o contrário, você não pode ativar Talentos humanos enquanto possuir um pokémon, salvo por Talentos que permitem o uso de Golpes, caso em que você usa as estatísticas do pokémon possuído em vez de as suas próprias. Se você usar algo que envolve sacrifício de Pontos de Vida, os PV perdidos são do pokémon possuído, não do seu corpo humano. Você pode deixar o pokémon possuído durante o seu turno como humano consumindo sua Ação Padrão. Se o pokémon que você está possuindo desmaiar, você imediatamente retorna ao seu corpo. Se o pokémon possuído morrer, você morre. Se o pokémon possuído for capturado ou retornado à pokébola enquanto você o possui, a sua mente está trancada dentro da pokébola junto com o corpo do pokémon possuído até que ele seja liberado da pokébola. Golpes adquiridos mediante Empréstimo e Permissão não podem ser usados durante a Possessão. Você só pode possuir um pokémon. Usar Possessão exaure 35 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

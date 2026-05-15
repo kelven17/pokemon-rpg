@@ -1,0 +1,20 @@
+{
+  "name": "MÉDICO ESPECIALISTA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Quando você usa um item restaurativo (Exemplo: uma Poção ou um item que restaura Condições, como um Antídoto), ele cura uma quantidade de PV extras igual à sua Defesa.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando você usa um item restaurativo (Exemplo: uma Poção ou um item que restaura Condições, como um Antídoto), ele cura uma quantidade de PV extras igual à sua Defesa.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

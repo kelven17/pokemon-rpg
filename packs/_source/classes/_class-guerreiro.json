@@ -1,0 +1,26 @@
+{
+  "name": "Guerreiro",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Alguns humanos excedem fisicamente vários pokémons no físico. Eles combatem diretamente, e se tornam incomparáveis àqueles sem treinamento, que só podem fazer tentativas aleatórias de fazer qualquer coisa. Guerreiros podem nocautear humanos com pouco esforço, e seus pokémons também se beneficiam de suas façanhas. O Guerreiro tem uma afinidade natural com os Tipos Metal, Terra, Pedra e especialmente Lutador – que são todos pokémons muito físicos – de modo que pode treiná-los melhor para usar ataques com todo o seu potencial. Resistente e focado, o Guerreiro vence obstáculos ao lado de seus pokémons. Eles podem usar técnicas de pokémons, demonstrando feitos de força e disciplina. Embora não melhorem tanto as competências dos pokémons como um Treinador, por exemplo, eles obtêm profundo respeito de seus pokémons, uma vez que são capazes de lutar contra seus próprios pokémons.</p>",
+    "slug": "guerreiro",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [
+      "Apneia",
+      "Resiliência",
+      "Corrida",
+      "Força",
+      "Intimidação",
+      "Salto",
+      "Deflexão",
+      "Incansável"
+    ],
+    "requirementsSameTree": "",
+    "requirementsOther": "Ataque 13, Defesa 13."
+  }
+}

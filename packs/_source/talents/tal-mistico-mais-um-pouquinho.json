@@ -1,0 +1,20 @@
+{
+  "name": "MAIS UM POUQUINHO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você não perde mais acesso a uma Imitação por dormir ou por inconsciência. Você ainda perde o acesso depois de 24 horas, a menos que reduza seus Pontos de Vida máximos por 10 para escolher automaticamente manter a forma que você está por mais 24 horas. Manter uma forma não é a mesma coisa que usar uma Imitação de novo, de modo que não serve para gatilhos que envolvem usar ativamente a Imitação.</p>",
+    "category": "talent",
+    "sourceClass": "mistico",
+    "requisitos": "03 Talentos de Ilusionista (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você não perde mais acesso a uma Imitação por dormir ou por inconsciência. Você ainda perde o acesso depois de 24 horas, a menos que reduza seus Pontos de Vida máximos por 10 para escolher automaticamente manter a forma que você está por mais 24 horas. Manter uma forma não é a mesma coisa que usar uma Imitação de novo, de modo que não serve para gatilhos que envolvem usar ativamente a Imitação.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "03 Talentos de Ilusionista (desconte as Características de Classe para este cálculo)."
+  }
+}

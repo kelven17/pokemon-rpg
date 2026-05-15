@@ -1,0 +1,20 @@
+{
+  "name": "TIME DE RESGATE",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você passa 01 hora conversando e negociando com o alvo. Depois disso, ele concorda em ser capturado por você. Após capturá-lo, ele ainda será considerado seu Parceiro para fins de quaisquer Talentos, mas não conta para seu número máximo de Parceiros.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ter um Parceiro consigo há pelo menos um mês.",
+    "frequencia": "Uso Único. A cada 10 Níveis, receba um uso adicional.",
+    "alvo": "Um Parceiro que está com você há pelo menos um mês.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você passa 01 hora conversando e negociando com o alvo. Depois disso, ele concorda em ser capturado por você. Após capturá-lo, ele ainda será considerado seu Parceiro para fins de quaisquer Talentos, mas não conta para seu número máximo de Parceiros.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter um Parceiro consigo há pelo menos um mês."
+  }
+}

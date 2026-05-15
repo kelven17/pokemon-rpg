@@ -1,0 +1,20 @@
+{
+  "name": "VANTAGEM DA ASCENDÊNCIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O Pokémon que nascer saberá um número de Golpes Herdados igual a seu MDE. Os Golpes Herdados deverão constar na lista de Golpes de seus progenitores que podem ser aprendidos subindo de Nível naturalmente ou por Tutor (Você não escolhe quais os Golpes que serão passados adiante ao Pokémon, eles são determinados aleatoriamente). Se seu MDE é maior do que o número de Golpes aplicáveis, ele aprende todos os possíveis.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Chocadeira ter chocado 02 ovos.",
+    "frequencia": "Diária.",
+    "alvo": "",
+    "gatilho": "Um ovo seu está chocando.",
+    "contragatilho": "",
+    "efeito": "<p>O Pokémon que nascer saberá um número de Golpes Herdados igual a seu MDE. Os Golpes Herdados deverão constar na lista de Golpes de seus progenitores que podem ser aprendidos subindo de Nível naturalmente ou por Tutor (Você não escolhe quais os Golpes que serão passados adiante ao Pokémon, eles são determinados aleatoriamente). Se seu MDE é maior do que o número de Golpes aplicáveis, ele aprende todos os possíveis.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Chocadeira ter chocado 02 ovos."
+  }
+}

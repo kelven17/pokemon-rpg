@@ -1,0 +1,20 @@
+{
+  "name": "POKÉAGENDA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Apontando sua Pokéagenda a um Pokémon não identificado, ela poderá coletar informações do mesmo em um tempo de 6 minutos (Equivalente a uma rodada de combate). Após identificar o Pokémon, seus dados serão registrados na Pokéagenda de forma a poder consultá-los sempre que necessário (É revelado somente a Espécie e o Tipo do Pokémon). Além disso, Pokéagendas são aparelhos personalizados e constituem a identificação oficial de um Ser Humano, portanto são licenciadas para serem entregues a pessoas a partir de 10 anos. Elas são produzidas pela Liga Pokémon e pelas autoridades governamentais, informando a todos que aquele indivíduo possui autorização legal para seguir sua Jornada e Capturar Pokémons. Elas são atualizadas constantemente por pesquisadores profissionais e contribuintes dos Laboratórios. Todas as Regras de batalha oficiais e não oficiais infligidas pelo portador da pokéagenda, será identificada pelo Governo, resultando em uma multa com base na infração cometida (Valores à definir pelo mestre). Visando garantir a integridade das mesmas, as Pokéagendas são a prova d’água e extremamente resistentes a calor, ácido e muitas outras formas de dano.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon ainda não identificado por sua pokéagenda a até 10 metros.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Apontando sua Pokéagenda a um Pokémon não identificado, ela poderá coletar informações do mesmo em um tempo de 6 minutos (Equivalente a uma rodada de combate). Após identificar o Pokémon, seus dados serão registrados na Pokéagenda de forma a poder consultá-los sempre que necessário (É revelado somente a Espécie e o Tipo do Pokémon). Além disso, Pokéagendas são aparelhos personalizados e constituem a identificação oficial de um Ser Humano, portanto são licenciadas para serem entregues a pessoas a partir de 10 anos. Elas são produzidas pela Liga Pokémon e pelas autoridades governamentais, informando a todos que aquele indivíduo possui autorização legal para seguir sua Jornada e Capturar Pokémons. Elas são atualizadas constantemente por pesquisadores profissionais e contribuintes dos Laboratórios. Todas as Regras de batalha oficiais e não oficiais infligidas pelo portador da pokéagenda, será identificada pelo Governo, resultando em uma multa com base na infração cometida (Valores à definir pelo mestre). Visando garantir a integridade das mesmas, as Pokéagendas são a prova d’água e extremamente resistentes a calor, ácido e muitas outras formas de dano.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "MELHORIA DE APTIDÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV) e custoso (consumindo 500 créditos), você aplica uma Melhoria em uma Pokébola. Escolha uma Aptidão. Um Pokémon capturado em uma Pokébola com Melhoria de Aptidão recebe +1d2 de bônus à Aptidão escolhida. Uma Pokébola só pode possuir uma Melhoria, a menos que você possua o Talento Quebrar Cela, que permite fazer amplas alterações na mecânica de uma Pokébola até que ela possua três Modificações. Neste caso, é possível aplicar Melhoria de Aptidão mais de uma vez na mesma Pokébola, para a mesma Aptidão ou não.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Criar Pokébola, Velocidade 17.",
+    "frequencia": "À Vontade.",
+    "alvo": "Qualquer Pokébola.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 12 minutos de trabalho mecânico cansativo (consumindo 10 PV) e custoso (consumindo 500 créditos), você aplica uma Melhoria em uma Pokébola. Escolha uma Aptidão. Um Pokémon capturado em uma Pokébola com Melhoria de Aptidão recebe +1d2 de bônus à Aptidão escolhida. Uma Pokébola só pode possuir uma Melhoria, a menos que você possua o Talento Quebrar Cela, que permite fazer amplas alterações na mecânica de uma Pokébola até que ela possua três Modificações. Neste caso, é possível aplicar Melhoria de Aptidão mais de uma vez na mesma Pokébola, para a mesma Aptidão ou não.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Criar Pokébola, Velocidade 17."
+  }
+}

@@ -1,0 +1,47 @@
+{{!-- Partial: card detalhado de um talento (recebe o objeto enriquecido com effectHtml) --}}
+<li class="item ability-item" data-item-id="{{this.id}}">
+    <img src="{{this.img}}" class="item-img"/>
+    <div class="ability-body">
+        <div class="ability-header">
+            <strong class="item-name">{{this.name}}</strong>
+            {{#if this.system.frequencia}}
+            <span class="trigger-badge">{{this.system.frequencia}}</span>
+            {{/if}}
+        </div>
+        {{#if this.system.requisitos}}
+        <div class="ability-condicao">
+            <span class="ability-label">{{localize "POKEMON_RPG.Talent.Requisitos"}}:</span>
+            <em>{{this.system.requisitos}}</em>
+        </div>
+        {{/if}}
+        {{#if this.system.alvo}}
+        <div class="ability-condicao">
+            <span class="ability-label">{{localize "POKEMON_RPG.Talent.Alvo"}}:</span>
+            <em>{{this.system.alvo}}</em>
+        </div>
+        {{/if}}
+        {{#if this.system.gatilho}}
+        <div class="ability-condicao">
+            <span class="ability-label">{{localize "POKEMON_RPG.Talent.Gatilho"}}:</span>
+            <em>{{this.system.gatilho}}</em>
+        </div>
+        {{/if}}
+        {{#if this.system.contragatilho}}
+        <div class="ability-condicao">
+            <span class="ability-label">{{localize "POKEMON_RPG.Talent.Contragatilho"}}:</span>
+            <em>{{this.system.contragatilho}}</em>
+        </div>
+        {{/if}}
+        {{#if this.effectHtml}}
+        <div class="ability-effect">
+            <span class="ability-label">{{localize "POKEMON_RPG.Talent.Efeito"}}:</span>
+            <div class="ability-effect-body">{{{this.effectHtml}}}</div>
+        </div>
+        {{/if}}
+    </div>
+    <div class="item-controls">
+        <a data-action="itemUse" title="{{localize 'POKEMON_RPG.Post'}}"><i class="fas fa-comment"></i></a>
+        <a data-action="itemEdit" title="{{localize 'POKEMON_RPG.Edit'}}"><i class="fas fa-edit"></i></a>
+        <a data-action="itemDelete" title="{{localize 'POKEMON_RPG.Delete'}}"><i class="fas fa-trash"></i></a>
+    </div>
+</li>

@@ -1,0 +1,20 @@
+{
+  "name": "TIRO MÚLTIPLO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seu ataque ganha o Descritor Explosão com um número de metros igual à 1/2 de seu MA. Um Golpe beneficiado por Tiro Múltiplo não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Manobra Infalível, Matador, Sangramento.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 17, 04 Talentos de Soldado (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você declara um ataque de Armas feito com uma arma de Alcance (curto ou longo).",
+    "contragatilho": "",
+    "efeito": "<p>Seu ataque ganha o Descritor Explosão com um número de metros igual à 1/2 de seu MA. Um Golpe beneficiado por Tiro Múltiplo não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Manobra Infalível, Matador, Sangramento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 17, 04 Talentos de Soldado (desconte as Características de Classe para este cálculo)."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CONEXÃO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Você entende os pensamentos dos seus Pokémons.</p>",
+    "category": "characteristic",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "Seus Pokémons.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você entende os pensamentos dos seus Pokémons.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

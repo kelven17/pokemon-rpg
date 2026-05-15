@@ -1,0 +1,20 @@
+{
+  "name": "VANTAGEM DO PARRUDO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MD à Pontuação de aparência durante a Apresentação de um Concurso de Fisiculturismo. Todos os seus Pokémons podem possuir até 20 pontos na Aptidão Vigor, e podem Apelar a até 5 pontos de Aptidão quando poderiam Apelar ao Vigor.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "1 prêmio em Concurso de Fisiculturismo.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MD à Pontuação de aparência durante a Apresentação de um Concurso de Fisiculturismo. Todos os seus Pokémons podem possuir até 20 pontos na Aptidão Vigor, e podem Apelar a até 5 pontos de Aptidão quando poderiam Apelar ao Vigor.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "1 prêmio em Concurso de Fisiculturismo."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "APOIO!",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Enquanto seus dois pokémons ativos estiverem adjacentes um ao outro, nenhum dos dois pode ser Empurrado, portanto também não sofre dano por Empurrão. Você não pode ser Empurrado nem sofrer dano por Empurrão se estiver adjacente a um pokémon seu.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Você Isso e Você Aquilo!",
+    "frequencia": "Constante.",
+    "alvo": "Dois pokémons ativos seus ou um pokémon ativo seu e si.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Enquanto seus dois pokémons ativos estiverem adjacentes um ao outro, nenhum dos dois pode ser Empurrado, portanto também não sofre dano por Empurrão. Você não pode ser Empurrado nem sofrer dano por Empurrão se estiver adjacente a um pokémon seu.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Você Isso e Você Aquilo!"
+  }
+}

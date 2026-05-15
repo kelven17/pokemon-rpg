@@ -1,0 +1,20 @@
+{
+  "name": "EMPODERADOR POTENCIAL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 10 horas de trabalho cansativo (consumindo 20 PV), você cria um Item que, ao ser Mantido, eleva uma Fase de um Atributo à sua escolha. Você pode dar a ele o formato e o nome que quiser.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Empoderador Elemental.",
+    "frequencia": "Semanal.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 10 horas de trabalho cansativo (consumindo 20 PV), você cria um Item que, ao ser Mantido, eleva uma Fase de um Atributo à sua escolha. Você pode dar a ele o formato e o nome que quiser.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Empoderador Elemental."
+  }
+}

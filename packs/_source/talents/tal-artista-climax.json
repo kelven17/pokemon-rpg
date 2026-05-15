@@ -1,0 +1,20 @@
+{
+  "name": "CLÍMAX",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O próximo Golpe usado pelo alvo, cuja Frequência seja Por Encontro não terá seu uso consumido. Em Concursos, o efeito deste Talento é outro: Substitua o Descritor de um Golpe usado por um Pokémon seu pelo Descritor Abstração ou pelo Descritor Conquista. Só é possível usar este Talento uma vez por Concurso e ele não afeta a Pontuação Basal do Golpe.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Defesa Especial 15, Ter participado de ao menos 01 Concurso.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O próximo Golpe usado pelo alvo, cuja Frequência seja Por Encontro não terá seu uso consumido. Em Concursos, o efeito deste Talento é outro: Substitua o Descritor de um Golpe usado por um Pokémon seu pelo Descritor Abstração ou pelo Descritor Conquista. Só é possível usar este Talento uma vez por Concurso e ele não afeta a Pontuação Basal do Golpe.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 15, Ter participado de ao menos 01 Concurso."
+  }
+}

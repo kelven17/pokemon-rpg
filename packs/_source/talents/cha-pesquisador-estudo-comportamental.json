@@ -1,0 +1,20 @@
+{
+  "name": "ESTUDO COMPORTAMENTAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, você descobre o Nível do alvo. Se o resultado for 21 ou mais, você identifica quantos Pontos de Vida ele possui no momento.</p>",
+    "category": "characteristic",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE + MDE. Se o resultado for 16 ou mais, você descobre o Nível do alvo. Se o resultado for 21 ou mais, você identifica quantos Pontos de Vida ele possui no momento.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

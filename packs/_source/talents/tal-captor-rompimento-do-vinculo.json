@@ -1,0 +1,20 @@
+{
+  "name": "ROMPIMENTO DO VÍNCULO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MV. Se o resultado for 20 ou mais, você pode ter o alvo como alvo de Furto ou de Furto + mesmo tendo Lealdade 2, desde que o Furto aconteça em até 2 rodadas após o Rompimento do Vínculo.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ter um Pokémon capturado mediante Furto ou Furto +.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon com Lealdade 2.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MV. Se o resultado for 20 ou mais, você pode ter o alvo como alvo de Furto ou de Furto + mesmo tendo Lealdade 2, desde que o Furto aconteça em até 2 rodadas após o Rompimento do Vínculo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter um Pokémon capturado mediante Furto ou Furto +."
+  }
+}

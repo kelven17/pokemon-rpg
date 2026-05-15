@@ -1,0 +1,20 @@
+{
+  "name": "PLANEJAMENTO PERFEITO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Desloque os alvos um número de metros igual a seu MAE ou seu MDE.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Planejamento.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Seus Aliados (Pokémons ou Humanos).",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Desloque os alvos um número de metros igual a seu MAE ou seu MDE.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Planejamento."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "IOGA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 5 minutos de meditação, o alvo estará com Lealdade completa temporariamente e chamará mais atenção. Se ele subir de Nível sem nenhum incidente negativo dentro de uma hora após esta preparação e possuir todos os outros requisitos para evolução, o requisito de Lealdade será suprido e ele poderá evoluir, mesmo que a Lealdade dele retorne ao valor padrão depois (a Lealdade retorna ao padrão após 1 hora).</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "À Vontade.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 5 minutos de meditação, o alvo estará com Lealdade completa temporariamente e chamará mais atenção. Se ele subir de Nível sem nenhum incidente negativo dentro de uma hora após esta preparação e possuir todos os outros requisitos para evolução, o requisito de Lealdade será suprido e ele poderá evoluir, mesmo que a Lealdade dele retorne ao valor padrão depois (a Lealdade retorna ao padrão após 1 hora).</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "EXPLOSÃO DE ATRIBUTO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Pelo resto do encontro, o alvo recebe a Habilidade Explosão de Velocidade. Se seu Atributo de Escolha não é Velocidade, ele recebe uma Habilidade análoga denominada Explosão de Ataque, Explosão de Defesa, Explosão de Ataque Especial ou Explosão de Defesa Especial, (conforme o seu Atributo de Escolha) beneficiando o Atributo de Escolha no lugar de Velocidade.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Nível 10.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon seu.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Pelo resto do encontro, o alvo recebe a Habilidade Explosão de Velocidade. Se seu Atributo de Escolha não é Velocidade, ele recebe uma Habilidade análoga denominada Explosão de Ataque, Explosão de Defesa, Explosão de Ataque Especial ou Explosão de Defesa Especial, (conforme o seu Atributo de Escolha) beneficiando o Atributo de Escolha no lugar de Velocidade.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Nível 10."
+  }
+}

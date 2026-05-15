@@ -1,0 +1,20 @@
+{
+  "name": "ARTE FOTOGRÁFICA",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Você tira uma fotografia que pode ser vendida no valor de 20 vezes o resultado da rolagem.</p>",
+    "category": "characteristic",
+    "sourceClass": "pesquisador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Uma criatura ou um lugar.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Você tira uma fotografia que pode ser vendida no valor de 20 vezes o resultado da rolagem.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TUTORIAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 15 minutos treinando e instruindo o alvo, role 1d20 + MDE. Se o resultado for 16 ou mais, escolha um Golpe que ele pode aprender a partir de um Tutor. O alvo aprende este Golpe. Uma vez que tenha usado esta Característica de Classe em um pokémon, ela jamais poderá ser usada novamente para aquele pokémon. Este Talento consome 02 Pontos de Tutoria.</p>",
+    "category": "characteristic",
+    "sourceClass": "criador",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 15 minutos treinando e instruindo o alvo, role 1d20 + MDE. Se o resultado for 16 ou mais, escolha um Golpe que ele pode aprender a partir de um Tutor. O alvo aprende este Golpe. Uma vez que tenha usado esta Característica de Classe em um pokémon, ela jamais poderá ser usada novamente para aquele pokémon. Este Talento consome 02 Pontos de Tutoria.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

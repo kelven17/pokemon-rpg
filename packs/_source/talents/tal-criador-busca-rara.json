@@ -1,0 +1,20 @@
+{
+  "name": "BUSCA RARA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MDE. Se o resultado for 20 ou mais, você encontra uma Fruta. Para determinar qual fruta, role 1d6 e consulte a tabela abaixo:</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Já ter colhido uma das seguintes frutas em sua Horta: carambola (Starf), Enigma, fruta milagrosa (Micle), jabuticaba (Jaboca), jambo (Rowap), pinha (Custap).",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um local não urbano.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MDE. Se o resultado for 20 ou mais, você encontra uma Fruta. Para determinar qual fruta, role 1d6 e consulte a tabela abaixo:</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Já ter colhido uma das seguintes frutas em sua Horta: carambola (Starf), Enigma, fruta milagrosa (Micle), jabuticaba (Jaboca), jambo (Rowap), pinha (Custap)."
+  }
+}

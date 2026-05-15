@@ -1,0 +1,20 @@
+{
+  "name": "DESTACADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Aqueles que forem atingidos pelo Golpe do seu Pokémon devem atacar o mesmo na rodada seguinte. Se eles acertarem ataques contra o seu Pokémon na rodada seguinte, reduza o dano que o seu Pokémon sofreria por seu MDE + seu MV.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "Velocidade 15.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu está executando um Golpe com o Descritor Som em pelo menos um alvo.",
+    "contragatilho": "",
+    "efeito": "<p>Aqueles que forem atingidos pelo Golpe do seu Pokémon devem atacar o mesmo na rodada seguinte. Se eles acertarem ataques contra o seu Pokémon na rodada seguinte, reduza o dano que o seu Pokémon sofreria por seu MDE + seu MV.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Velocidade 15."
+  }
+}

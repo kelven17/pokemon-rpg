@@ -1,0 +1,20 @@
+{
+  "name": "CONTENÇÃO APRIMORADA ++",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Quando usar Contenção, o teste é feito usando 1d100 - 45 (em vez de apenas -40). Você agora pode possuir 07 Pokémons Prestativos mediante Contenção. Este Talento substitui Contenção Aprimorada +.</p>",
+    "category": "talent",
+    "sourceClass": "ranger",
+    "requisitos": "Ataque 16, Velocidade 16, Autoridade, Contenção Aprimorada +.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Quando usar Contenção, o teste é feito usando 1d100 - 45 (em vez de apenas -40). Você agora pode possuir 07 Pokémons Prestativos mediante Contenção. Este Talento substitui Contenção Aprimorada +.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, Velocidade 16, Autoridade, Contenção Aprimorada +."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "BARREIRAS PESSOAIS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Em vez de criar uma Barreira, o Golpe cria uma Cobertura com os efeitos da Barreira. O efeito, assim, possuirá um só alvo, e seu Pokémon pode ter um aliado, um oponente ou a si mesmo como alvo do efeito. A Cobertura durará até o fim do encontro ou até o alvo ser convocado de volta à Pokébola.</p>",
+    "category": "talent",
+    "sourceClass": "treinador",
+    "requisitos": "Ataque Especial 16.",
+    "frequencia": "Diária. A cada 5 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Um Pokémon seu usa um Golpe com o Descritor Barreira.",
+    "contragatilho": "",
+    "efeito": "<p>Em vez de criar uma Barreira, o Golpe cria uma Cobertura com os efeitos da Barreira. O efeito, assim, possuirá um só alvo, e seu Pokémon pode ter um aliado, um oponente ou a si mesmo como alvo do efeito. A Cobertura durará até o fim do encontro ou até o alvo ser convocado de volta à Pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 16."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PASSADO +",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde a semana anterior. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. Se o item ou o local tiverem importância histórica dentro da última década, você sabe disso, mas não recebe informações exatas sobre o ocorrido para que seja importante. O uso deste Talento consome 24 Pontos de Vida.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "Passado, Ataque Especial 19.",
+    "frequencia": "Diária.",
+    "alvo": "O local onde você se encontra ou um objeto.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Você pode ver o sumário psíquico do que aconteceu com o item ou na área desde a semana anterior. Infelizmente, as informações recebidas são misturadas e podem não seguir uma ordem cronológica. Se o item ou o local tiverem importância histórica dentro da última década, você sabe disso, mas não recebe informações exatas sobre o ocorrido para que seja importante. O uso deste Talento consome 24 Pontos de Vida.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Passado, Ataque Especial 19."
+  }
+}

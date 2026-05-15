@@ -1,0 +1,20 @@
+{
+  "name": "HERANÇA INFUNDIDA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Golpes Herdados e Golpes Naturais (aqueles aprendidos subindo de Nível) também são considerados dentro das listas de Golpes que podem ser aprendidos por TM ou Tutor para os seus Pokémons.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa Especial 16, Chocadeira ter chocado 02 ovos.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Golpes Herdados e Golpes Naturais (aqueles aprendidos subindo de Nível) também são considerados dentro das listas de Golpes que podem ser aprendidos por TM ou Tutor para os seus Pokémons.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa Especial 16, Chocadeira ter chocado 02 ovos."
+  }
+}

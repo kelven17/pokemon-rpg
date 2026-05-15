@@ -1,0 +1,20 @@
+{
+  "name": "ATAQUE PODEROSO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Aumente a Categoria de Dano Basal da arma em 2.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você acerta um ataque de Armas com uma Arma de Escolha.",
+    "contragatilho": "",
+    "efeito": "<p>Aumente a Categoria de Dano Basal da arma em 2.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

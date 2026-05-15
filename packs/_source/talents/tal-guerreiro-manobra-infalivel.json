@@ -1,0 +1,20 @@
+{
+  "name": "MANOBRA INFALÍVEL",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Seu ataque acerta automaticamente o alvo, que deve usar a Defesa Especial – não a Defesa – para reduzir o dano. Um Golpe beneficiado por Manobra Infalível não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Matador, Sangramento, Tiro Múltiplo.</p>",
+    "category": "talent",
+    "sourceClass": "guerreiro",
+    "requisitos": "Ataque 16, 04 Talentos de Soldado (desconte as Características de Classe para este cálculo).",
+    "frequencia": "Diária. A cada 20 Níveis, receba um uso diário adicional.",
+    "alvo": "",
+    "gatilho": "Você declara um ataque de Armas.",
+    "contragatilho": "",
+    "efeito": "<p>Seu ataque acerta automaticamente o alvo, que deve usar a Defesa Especial – não a Defesa – para reduzir o dano. Um Golpe beneficiado por Manobra Infalível não pode receber o benefício dos seguintes Talentos: Abrir Caminhos, Ferimento Profundo, Matador, Sangramento, Tiro Múltiplo.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque 16, 04 Talentos de Soldado (desconte as Características de Classe para este cálculo)."
+  }
+}

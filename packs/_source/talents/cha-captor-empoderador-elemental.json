@@ -1,0 +1,20 @@
+{
+  "name": "EMPODERADOR ELEMENTAL",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>Após 04 horas de trabalho cansativo (consumindo 20 PV) com os materiais adequados, você cria um Empoderador Elemental para um Tipo à sua escolha. Você pode dar a ele o formato e o nome que quiser.</p>",
+    "category": "characteristic",
+    "sourceClass": "captor",
+    "requisitos": "-",
+    "frequencia": "Semanal.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 04 horas de trabalho cansativo (consumindo 20 PV) com os materiais adequados, você cria um Empoderador Elemental para um Tipo à sua escolha. Você pode dar a ele o formato e o nome que quiser.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

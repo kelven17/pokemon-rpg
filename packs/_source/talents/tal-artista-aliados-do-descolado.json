@@ -1,0 +1,20 @@
+{
+  "name": "ALIADOS DO DESCOLADO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Adicione seu MDE à Dificuldade de Acurácia de um Golpe que tenha o seu Pokémon como alvo (Isso não pode ser feito mais de uma vez por combate). Em Concursos, o efeito deste Talento é outro: Quando o alvo usar um Golpe de Perspicácia ou Ternura, o Golpe pode não reduzir a Expectativa.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "1 prêmio em Gincana ou Concurso de Fofura.",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu com pelo menos um prêmio em Espetáculo ou um Pokémon aliado com pelo menos um prêmio em Espetáculo.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Adicione seu MDE à Dificuldade de Acurácia de um Golpe que tenha o seu Pokémon como alvo (Isso não pode ser feito mais de uma vez por combate). Em Concursos, o efeito deste Talento é outro: Quando o alvo usar um Golpe de Perspicácia ou Ternura, o Golpe pode não reduzir a Expectativa.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "1 prêmio em Gincana ou Concurso de Fofura."
+  }
+}

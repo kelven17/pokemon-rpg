@@ -1,0 +1,20 @@
+{
+  "name": "LINGUISTA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha uma família de Pokémons (o que inclui todas as espécies relacionadas por evolução entre si). Você pode falar com os Pokémons desta família e entendê-los. ESPECIAL: Este Talento pode ser escolhido diversas vezes. Seus efeitos não se acumulam. Cada vez que ele é escolhido, ele é aplicado a uma família diferente.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Ataque Especial 20.",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha uma família de Pokémons (o que inclui todas as espécies relacionadas por evolução entre si). Você pode falar com os Pokémons desta família e entendê-los. ESPECIAL: Este Talento pode ser escolhido diversas vezes. Seus efeitos não se acumulam. Cada vez que ele é escolhido, ele é aplicado a uma família diferente.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ataque Especial 20."
+  }
+}

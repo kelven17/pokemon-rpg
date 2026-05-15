@@ -1,0 +1,20 @@
+{
+  "name": "RAIO DE SOMBRAS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>O alvo alvo imediatamente usa o Golpe Relâmpago, mas, para fins de Tipo, o Golpe é considerado sem Tipo (ele causa dano neutro a todos os seres, ignorando resistências, imunidades e vulnerabilidades). O alvo não pode usar outro Golpe nesta rodada. Usar Raio de Sombras torna o pokémon menos propício a gostar de você.</p>",
+    "category": "talent",
+    "sourceClass": "captor",
+    "requisitos": "Ter um pokémon Elétrico capturado mediante Furto ou Furto +.",
+    "frequencia": "Diária.",
+    "alvo": "Um Pokémon seu com Lealdade menor que 3.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>O alvo alvo imediatamente usa o Golpe Relâmpago, mas, para fins de Tipo, o Golpe é considerado sem Tipo (ele causa dano neutro a todos os seres, ignorando resistências, imunidades e vulnerabilidades). O alvo não pode usar outro Golpe nesta rodada. Usar Raio de Sombras torna o pokémon menos propício a gostar de você.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Ter um pokémon Elétrico capturado mediante Furto ou Furto +."
+  }
+}

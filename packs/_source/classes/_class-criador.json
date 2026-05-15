@@ -1,0 +1,17 @@
+{
+  "name": "Criador",
+  "type": "class",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Algumas pessoas gostam de cuidar de pokémons desde o momento em que o mesmo nasceu, afim de construir um vínculo com seus mascotes queridos. O cuidado especial do Criador desde o nascimento até a idade adulta pode mostrar a verdadeira força de um pokémon. Este cuidado amoroso pode ser visto até mesmo nas gerações futuras, constantemente aprimorando a saúde e as competências de cada novo pokémon que nasce. Botânico também é um Criador que encontra alegria não só em criar pokémons, mas também vegetais. Botânicos descobrem como cultivar plantas mais produtivas que selvagens, mais potentes e, melhor de tudo, mais saborosas. Um Botânico tem um cuidado especial para produzir novos e encantadores sabores a partir das frutas que plantam. Também especialistas em encontrar frutas selvagens, os Botânicos podem prover alimento emergencial. Criando frutas híbridas para alimentar pokémons, o Botânico pode melhorar o humor e as habilidades de alguém sortudo o suficiente para tê-lo como amigo. O Cozinheiro também é um ótimo Criador para se ter como amigo. Ele é um talentoso mestre da culinária. Este criador gosta de fazer comida para seus amigos e seus pokémons. Refeições deliciosas e energéticas estarão sempre disponíveis àqueles ao redor do Cozinheiro. Criando refeições que satisfazem as necessidades de cada um, ele aprimora o humor e a qualidade de vida de todos aqueles sortudos o suficiente para serem servidos por ele. A comida é fácil para uma equipe que viaja com um Cozinheiro, porque ele pode usar o mundo ao seu redor para alimentar todos, com temperos, vitaminas, bolos e até medicina natural.</p>",
+    "slug": "criador",
+    "parentClass": "",
+    "keyAttribute": "atk",
+    "hpBase": 8,
+    "hpPerLevel": 5,
+    "grantedTalents": [],
+    "grantedSkills": [],
+    "requirementsSameTree": "",
+    "requirementsOther": ""
+  }
+}

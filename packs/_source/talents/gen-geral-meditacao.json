@@ -1,0 +1,20 @@
+{
+  "name": "MEDITAÇÃO",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Role 1d20 + MAE ou MDE. Se o resultado for 13 ou mais, você mantém sua mente concentrada em um único tópico à sua escolha (ou em nada). A criatura que tentar ler sua mente não obterá nenhuma informação sobre seus pensamentos ou seus conhecimentos. Ao ativar este Talento sua mente está segura contra tentativas de ler mentes até o fim do encontro.</p>",
+    "category": "general",
+    "sourceClass": "geral",
+    "requisitos": "Saúde 12, Ataque Especial 12 ou Defesa Especial 12.",
+    "frequencia": "À Vontade.",
+    "alvo": "",
+    "gatilho": "Um humano ou Pokémon tenta ler sua mente.",
+    "contragatilho": "",
+    "efeito": "<p>Role 1d20 + MAE ou MDE. Se o resultado for 13 ou mais, você mantém sua mente concentrada em um único tópico à sua escolha (ou em nada). A criatura que tentar ler sua mente não obterá nenhuma informação sobre seus pensamentos ou seus conhecimentos. Ao ativar este Talento sua mente está segura contra tentativas de ler mentes até o fim do encontro.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Saúde 12, Ataque Especial 12 ou Defesa Especial 12."
+  }
+}

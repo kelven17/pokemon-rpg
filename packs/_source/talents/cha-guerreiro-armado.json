@@ -1,0 +1,20 @@
+{
+  "name": "ARMADO",
+  "type": "talent",
+  "img": "icons/svg/sun.svg",
+  "system": {
+    "description": "<p>As Dificuldades de Acurácia para seus ataques de Armas com sua(s) Arma(s) de Escolha são de apenas 2. Isso não pode beneficiar um ataque desarmado.</p>",
+    "category": "characteristic",
+    "sourceClass": "guerreiro",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>As Dificuldades de Acurácia para seus ataques de Armas com sua(s) Arma(s) de Escolha são de apenas 2. Isso não pode beneficiar um ataque desarmado.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

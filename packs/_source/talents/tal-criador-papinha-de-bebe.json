@@ -1,0 +1,20 @@
+{
+  "name": "PAPINHA DE BEBÊ",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após cozinhar por 30 minutos (com ingredientes e equipamentos adequados), você cria um Prato que serve até dez criaturas (pessoas ou Pokémons). Quando comido por um Pokémon com Nível até 25, faz o Pokémon receber 25% de experiência extra pelo resto do dia.</p>",
+    "category": "talent",
+    "sourceClass": "criador",
+    "requisitos": "Defesa 16.",
+    "frequencia": "Diária. A cada 15 Níveis, receba um uso diário adicional.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após cozinhar por 30 minutos (com ingredientes e equipamentos adequados), você cria um Prato que serve até dez criaturas (pessoas ou Pokémons). Quando comido por um Pokémon com Nível até 25, faz o Pokémon receber 25% de experiência extra pelo resto do dia.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Defesa 16."
+  }
+}

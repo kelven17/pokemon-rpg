@@ -1,0 +1,20 @@
+{
+  "name": "SUPLEMENTOS EXPLOSIVOS",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Após 01 hora de trabalho químico, você cria um Imunizante ou um Carburante.</p>",
+    "category": "talent",
+    "sourceClass": "pesquisador",
+    "requisitos": "Química, Um Pokémon com Saúde ou Velocidade 20.",
+    "frequencia": "Diária.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Após 01 hora de trabalho químico, você cria um Imunizante ou um Carburante.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "Química, Um Pokémon com Saúde ou Velocidade 20."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PSICOMETRIA",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Escolha um objeto que serve como foco de concentração para você. Concentrando-se nele, você sabe o propósito de qualquer objeto que você tocar. Você sabe exatamente todas as propriedades especiais do item e como ativar o objeto.</p>",
+    "category": "talent",
+    "sourceClass": "empatico",
+    "requisitos": "-",
+    "frequencia": "Constante.",
+    "alvo": "-",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>Escolha um objeto que serve como foco de concentração para você. Concentrando-se nele, você sabe o propósito de qualquer objeto que você tocar. Você sabe exatamente todas as propriedades especiais do item e como ativar o objeto.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}

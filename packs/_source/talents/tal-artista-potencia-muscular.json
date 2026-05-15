@@ -1,0 +1,20 @@
+{
+  "name": "POTÊNCIA MUSCULAR",
+  "type": "talent",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>o alvo ganha a Habilidade Imprudência até ser convocado de volta à Pokébola.</p>",
+    "category": "talent",
+    "sourceClass": "artista",
+    "requisitos": "-",
+    "frequencia": "Diária. A cada 10 Níveis, receba um uso diário adicional.",
+    "alvo": "Um Pokémon seu com pelo menos um prêmio em Concurso de Fisiculturismo ou um Pokémon aliado com pelo menos um prêmio em Concurso de Fisiculturismo.",
+    "gatilho": "",
+    "contragatilho": "",
+    "efeito": "<p>o alvo ganha a Habilidade Imprudência até ser convocado de volta à Pokébola.</p>",
+    "classRestriction": "",
+    "requiredLevel": 1,
+    "activation": "passive",
+    "prerequisites": "-"
+  }
+}
