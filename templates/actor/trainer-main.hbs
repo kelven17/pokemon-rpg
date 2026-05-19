@@ -15,6 +15,11 @@
             <div class="attr-value">
                 <input type="number" name="system.attributes.{{attr.key}}.value" value="{{attr.value}}" data-dtype="Number"/>
             </div>
+            {{#if (neq attr.phase 0)}}
+            <div class="attr-effective" title="{{localize 'POKEMON_RPG.Phase.EffectiveHint'}}">
+                = {{attr.effective}}
+            </div>
+            {{/if}}
             <div class="attr-phase-row">
                 <button type="button" class="phase-btn phase-down" data-action="phaseDown"
                         data-attribute="{{attr.key}}" title="{{localize 'POKEMON_RPG.Phase.Down'}}">−</button>

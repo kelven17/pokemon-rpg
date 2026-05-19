@@ -70,13 +70,15 @@ export class PokemonData extends foundry.abstract.TypeDataModel {
   /* -------------------------------------------- */
 
   prepareDerivedData() {
-    // Para Pokémon, "mod" é o próprio valor (stats diretos), com Fase aplicada.
-    // O valor original (já com delta de natureza embutido pelo hook
-    // preUpdateActor) é multiplicado pelo multiplicador da fase atual.
+    // Para Pokémon:
+    //  - `value` é o stat direto (já com delta de natureza incluso pelo hook).
+    //  - `effective` é `value × multiplicador da fase` (exibição visual).
+    //  - `mod` é o stat usado em rolagens — SEMPRE igual ao value original.
+    //    Fases NÃO afetam o modificador, apenas exibem o atributo efetivo.
     for ( const [key, attr] of Object.entries(this.attributes) ) {
       const mult = POKEMON_RPG.phaseMultiplier(attr.phase || 0);
       attr.effective = Math.max(0, Math.round((attr.value ?? 0) * mult));
-      attr.mod = attr.effective;
+      attr.mod = attr.value ?? 0;
     }
 
     // Delta de Deslocamentos pela fase de Velocidade (apenas algumas

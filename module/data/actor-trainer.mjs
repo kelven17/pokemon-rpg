@@ -76,14 +76,16 @@ export class TrainerData extends foundry.abstract.TypeDataModel {
    * Calcula modificadores, HP máximo, bônus de proficiência e mod das perícias.
    */
   prepareDerivedData() {
-    // 1. Modificador de cada atributo (estilo D&D), com Fase aplicada.
-    //    O valor original (`value`) nunca muda; calculamos um valor efetivo
-    //    com o multiplicador da fase e derivamos o modificador a partir dele.
+    // 1. Modificador e valor efetivo de cada atributo.
+    //    - O valor original (`value`) NUNCA muda.
+    //    - `effective` é o valor com o multiplicador da Fase aplicado
+    //      (representação visual; usado para exibir o atributo "real" em combate).
+    //    - `mod` é o modificador estilo D&D, SEMPRE calculado a partir do
+    //      `value` ORIGINAL — Fases não afetam o modificador.
     for ( const [key, attr] of Object.entries(this.attributes) ) {
       const mult = POKEMON_RPG.phaseMultiplier(attr.phase || 0);
-      const effective = Math.max(0, Math.round((attr.value ?? 0) * mult));
-      attr.effective = effective;
-      attr.mod = POKEMON_RPG.getModifier(effective);
+      attr.effective = Math.max(0, Math.round((attr.value ?? 0) * mult));
+      attr.mod = POKEMON_RPG.getModifier(attr.value ?? 0);
     }
 
     // 2. Bônus de proficiência por nível.
