@@ -121,6 +121,9 @@
     },
 
     "Attributes": "Attributes",
+    "TrainerDetails": "Trainer Details",
+    "SkillsHint": "Click the name to roll · click the circle to toggle proficiency",
+    "RollAttributeHint": "Click to roll this attribute",
 
     "Phase": {
       "Label":         "Phase",

@@ -121,6 +121,9 @@
     },
 
     "Attributes": "Atributos",
+    "TrainerDetails": "Detalhes do Treinador",
+    "SkillsHint": "Clique no nome para rolar · clique no círculo para alternar proficiência",
+    "RollAttributeHint": "Clique para rolar este atributo",
 
     "Phase": {
       "Label":         "Fase",

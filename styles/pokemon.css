@@ -484,9 +484,7 @@
    CARDS GENÉRICOS
    ========================================== */
 .pokemon-rpg .card,
-.pokemon-rpg .trainer-details,
 .pokemon-rpg .skill-group,
-.pokemon-rpg .evasion-block,
 .pokemon-rpg .class-block {
     background: var(--pk-bg-alt);
     border: 1px solid var(--pk-border-soft);
@@ -558,6 +556,66 @@
 }
 .pokemon-rpg .pokemon-attrs .pokemon-attr-card .attr-mod {
     display: none;
+}
+
+/* ==========================================
+   SHEET SECTIONS (cards com cabeçalho)
+   ========================================== */
+.pokemon-rpg .sheet-section {
+    background: var(--pk-bg-alt);
+    border: 1px solid var(--pk-border-soft);
+    border-radius: var(--pk-radius);
+    box-shadow: var(--pk-shadow-sm);
+    padding: 12px 14px 14px;
+    margin-bottom: 14px;
+}
+.pokemon-rpg .sheet-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--pk-accent-tint);
+}
+.pokemon-rpg .sheet-section-title {
+    margin: 0;
+    font-size: 0.92em;
+    color: var(--pk-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.pokemon-rpg .sheet-section-title i {
+    font-size: 0.95em;
+    opacity: 0.8;
+}
+.pokemon-rpg .section-hint {
+    font-size: 0.74em;
+    color: var(--pk-faint);
+    font-style: italic;
+}
+/* Layout 2 colunas pra Evasão + Detalhes */
+.pokemon-rpg .main-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+.pokemon-rpg .main-two-col .sheet-section {
+    margin-bottom: 0;
+}
+@media (max-width: 620px) {
+    .pokemon-rpg .main-two-col {
+        grid-template-columns: 1fr;
+    }
+}
+/* Seções aninhadas não duplicam o card de fundo */
+.pokemon-rpg .sheet-section .evasion-block,
+.pokemon-rpg .sheet-section .skill-group {
+    box-shadow: none;
 }
 
 /* ==========================================
@@ -1633,16 +1691,25 @@
    TRAINER details (cidade/ocupação/idade...)
    ========================================== */
 .pokemon-rpg .trainer-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    padding: 14px;
-    border-radius: var(--pk-radius);
+}
+.pokemon-rpg .trainer-details .form-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.pokemon-rpg .trainer-details .form-group label i {
+    width: 14px;
+    text-align: center;
+    color: var(--pk-accent);
+    opacity: 0.75;
 }
 .pokemon-rpg .trainer-details .form-group input {
     border: 1px solid var(--pk-border);
     border-radius: var(--pk-radius-sm);
-    padding: 5px 8px;
+    padding: 6px 9px;
     background: var(--pk-bg);
     transition: all 0.15s;
 }

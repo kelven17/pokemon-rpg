@@ -1,30 +1,36 @@
 <section class="tab {{#if (eq activeTab 'skills')}}active{{/if}}" data-tab="skills" data-group="primary">
-    <div class="skills-container">
-        {{#each skillsByAttribute as |group attr|}}
-        <div class="skill-group">
-            <h3 class="skill-group-title">{{group.attrLabel}}</h3>
-            <ul class="skill-list">
-                {{#each group.skills}}
-                <li class="skill-row">
-                    <button type="button"
-                            class="prof-toggle {{#if proficient}}is-proficient{{/if}}"
-                            data-action="toggleProficiency"
-                            data-skill="{{key}}"
-                            title="{{localize 'POKEMON_RPG.ToggleProficiency'}}">●</button>
-                    <span class="skill-name" data-action="rollSkill" data-skill="{{key}}">
-                        {{label}}
-                    </span>
-                    <span class="skill-mod">{{signed mod}}</span>
-                    <input type="number"
-                           class="skill-bonus"
-                           name="system.skills.{{key}}.bonus"
-                           value="{{bonus}}"
-                           data-dtype="Number"
-                           title="{{localize 'POKEMON_RPG.MiscBonus'}}"/>
-                </li>
-                {{/each}}
-            </ul>
+    <div class="sheet-section">
+        <div class="sheet-section-header">
+            <h3 class="sheet-section-title"><i class="fas fa-list-check"></i> {{localize "POKEMON_RPG.Tab.Skills"}}</h3>
+            <span class="section-hint">{{localize "POKEMON_RPG.SkillsHint"}}</span>
         </div>
-        {{/each}}
+        <div class="skills-container">
+            {{#each skillsByAttribute as |group attr|}}
+            <div class="skill-group">
+                <h3 class="skill-group-title">{{group.attrLabel}}</h3>
+                <ul class="skill-list">
+                    {{#each group.skills}}
+                    <li class="skill-row">
+                        <button type="button"
+                                class="prof-toggle {{#if proficient}}is-proficient{{/if}}"
+                                data-action="toggleProficiency"
+                                data-skill="{{key}}"
+                                title="{{localize 'POKEMON_RPG.ToggleProficiency'}}">●</button>
+                        <span class="skill-name" data-action="rollSkill" data-skill="{{key}}">
+                            {{label}}
+                        </span>
+                        <span class="skill-mod">{{signed mod}}</span>
+                        <input type="number"
+                               class="skill-bonus"
+                               name="system.skills.{{key}}.bonus"
+                               value="{{bonus}}"
+                               data-dtype="Number"
+                               title="{{localize 'POKEMON_RPG.MiscBonus'}}"/>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/each}}
+        </div>
     </div>
 </section>
