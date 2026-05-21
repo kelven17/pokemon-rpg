@@ -1723,7 +1723,8 @@
 /* ==========================================
    SPECIES PICKER (auto-aplicar dados da espécie)
    ========================================== */
-.pokemon-rpg .species-picker {
+.pokemon-rpg .species-picker,
+.pokemon-rpg .class-picker {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -1735,19 +1736,22 @@
     border-radius: var(--pk-radius);
     margin-bottom: 12px;
 }
-.pokemon-rpg .species-picker .picker-label {
+.pokemon-rpg .species-picker .picker-label,
+.pokemon-rpg .class-picker .picker-label {
     font-size: 0.72em;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--pk-accent);
     font-weight: 800;
 }
-.pokemon-rpg .species-picker .picker-row {
+.pokemon-rpg .species-picker .picker-row,
+.pokemon-rpg .class-picker .picker-row {
     display: flex;
     gap: 8px;
     align-items: stretch;
 }
-.pokemon-rpg .species-picker select {
+.pokemon-rpg .species-picker select,
+.pokemon-rpg .class-picker select {
     flex: 1;
     border: 1px solid var(--pk-border);
     border-radius: var(--pk-radius-sm);
@@ -1756,7 +1760,8 @@
     font-size: 0.92em;
     min-width: 0;
 }
-.pokemon-rpg .species-picker select:focus {
+.pokemon-rpg .species-picker select:focus,
+.pokemon-rpg .class-picker select:focus {
     outline: none;
     border-color: var(--pk-accent);
     box-shadow: 0 0 0 3px var(--pk-accent-tint2);
@@ -1786,7 +1791,8 @@
     transform: translateY(0);
 }
 .pokemon-rpg .apply-species-btn[disabled],
-.pokemon-rpg .species-picker select[disabled] {
+.pokemon-rpg .species-picker select[disabled],
+.pokemon-rpg .class-picker select[disabled] {
     opacity: 0.55;
     cursor: not-allowed;
     transform: none;

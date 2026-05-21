@@ -35,6 +35,11 @@ import {
   importTalentsIfNeeded,
   forceReimportTalents
 } from "./setup/talents-importer.mjs";
+import {
+  registerClassImporterSettings,
+  importClassesIfNeeded,
+  forceReimportClasses
+} from "./setup/classes-importer.mjs";
 import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
 
 /* -------------------------------------------- */
@@ -53,7 +58,8 @@ Hooks.once("init", function() {
     reimportAbilities: forceReimportAbilities,
     reimportCapacities: forceReimportCapacities,
     reimportSpecies: forceReimportSpecies,
-    reimportTalents: forceReimportTalents
+    reimportTalents: forceReimportTalents,
+    reimportClasses: forceReimportClasses
   };
 
   // Registra settings dos importers.
@@ -62,6 +68,7 @@ Hooks.once("init", function() {
   registerCapacityImporterSettings();
   registerSpeciesImporterSettings();
   registerTalentImporterSettings();
+  registerClassImporterSettings();
   CONFIG.POKEMON_RPG = POKEMON_RPG;
 
   // Document classes.
@@ -177,6 +184,12 @@ Hooks.once("ready", async function() {
     await importSpeciesIfNeeded();
   } catch (err) {
     console.error("pokemon-rpg | erro no import de espécies:", err);
+  }
+  // Auto-import das classes.
+  try {
+    await importClassesIfNeeded();
+  } catch (err) {
+    console.error("pokemon-rpg | erro no import de classes:", err);
   }
   // Auto-import dos talentos (geral + classes + características).
   try {

@@ -12,10 +12,28 @@
     <div class="item-section">
         <header class="item-section-header">
             <h3>{{localize "POKEMON_RPG.Classes"}}</h3>
-            <button type="button" data-action="itemCreate" data-type="class" class="create-btn">
-                + {{localize "POKEMON_RPG.NewClass"}}
-            </button>
         </header>
+
+        {{!-- Picker de Classe: adquire uma das classes oficiais do livro --}}
+        <div class="class-picker">
+            <label class="picker-label">{{localize "POKEMON_RPG.Class_Choose"}}</label>
+            <div class="picker-row">
+                {{!-- sem `name` pra não interferir no auto-submit do form --}}
+                <select class="class-pick-select" {{#unless classOptions.length}}disabled{{/unless}}>
+                    <option value="">—</option>
+                    {{#each classOptions}}
+                    <option value="{{this.uuid}}">{{this.name}}</option>
+                    {{/each}}
+                </select>
+                <button type="button" class="apply-species-btn" data-action="acquireClass"
+                        {{#unless classOptions.length}}disabled{{/unless}}>
+                    <i class="fas fa-plus"></i> {{localize "POKEMON_RPG.Class_Acquire"}}
+                </button>
+            </div>
+            {{#unless classOptions.length}}
+            <p class="picker-empty-hint">{{localize "POKEMON_RPG.Class_NoneAvailable"}}</p>
+            {{/unless}}
+        </div>
 
         {{#if classGroups.length}}
             {{#each classGroups}}

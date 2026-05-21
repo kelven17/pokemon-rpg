@@ -224,6 +224,10 @@
       "TalentsBundleVersion": {
         "Name": "Versão do Bundle de Talentos Importado",
         "Hint": "Controla qual versão do bundle de talentos já foi importada para o compendium World-side."
+      },
+      "ClassesBundleVersion": {
+        "Name": "Versão do Bundle de Classes Importado",
+        "Hint": "Controla qual versão do bundle de classes já foi importada para o compendium World-side."
       }
     },
 
@@ -243,6 +247,14 @@
       "Efeito":        "Efeito",
       "Characteristics": "Características de Classe"
     },
+
+    "Class_Choose":        "Adquirir uma classe",
+    "Class_Acquire":       "Adquirir",
+    "Class_Acquired":      "Classe {name} adquirida.",
+    "Class_PickFirst":     "Selecione uma classe primeiro.",
+    "Class_NotFound":      "Classe não encontrada.",
+    "Class_AlreadyOwned":  "O treinador já possui essa classe.",
+    "Class_NoneAvailable": "Nenhuma classe disponível. Aguarde o import das classes terminar.",
 
     "CapacityCategory": {
       "Numeric":    "Numérica",

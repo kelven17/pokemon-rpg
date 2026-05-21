@@ -24,6 +24,7 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       itemEdit: TrainerSheet._onItemEdit,
       itemDelete: TrainerSheet._onItemDelete,
       itemUse: TrainerSheet._onItemUse,
+      acquireClass: TrainerSheet._onAcquireClass,
       phaseUp: TrainerSheet._onPhaseUp,
       phaseDown: TrainerSheet._onPhaseDown,
       phaseReset: TrainerSheet._onPhaseReset,
@@ -188,6 +189,12 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         )
       : {};
 
+    // Classes disponíveis no compendium para o picker (apenas as do Excel).
+    // Exclui as que o treinador já possui.
+    const ownedSlugs = new Set(allClasses.map(c => c.system?.slug).filter(Boolean));
+    context.classOptions = (await TrainerSheet._collectClassOptions())
+      .filter(c => !ownedSlugs.has(c.slug));
+
     // Party de pokémons.
     context.party = await sys.getPartyActors();
 
@@ -314,6 +321,74 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const skillKey = target.dataset.skill;
     const current = this.actor.system.skills[skillKey].proficient;
     await this.actor.update({ [`system.skills.${skillKey}.proficient`]: !current });
+  }
+
+  /* ---------- Classes ---------- */
+
+  /**
+   * Coleta as classes disponíveis nos compendiums de Item.
+   * Retorna [{ uuid, name, slug }] ordenado por nome.
+   */
+  static async _collectClassOptions() {
+    const list = [];
+    const seen = new Set();
+    const itemPacks = (game.packs ?? []).filter(p => p.metadata?.type === "Item");
+    for ( const pack of itemPacks ) {
+      try {
+        const index = await pack.getIndex({ fields: ["type", "system.slug"] });
+        for ( const entry of index ) {
+          if ( entry.type !== "class" ) continue;
+          const uuid = entry.uuid
+            ?? `Compendium.${pack.collection}.${pack.documentName}.${entry._id}`;
+          if ( seen.has(uuid) ) continue;
+          seen.add(uuid);
+          list.push({ uuid, name: entry.name, slug: entry.system?.slug ?? "" });
+        }
+      } catch (err) {
+        console.warn(`pokemon-rpg | falha ao indexar pack ${pack.collection}:`, err);
+      }
+    }
+    // Também classes que já existem como itens de mundo.
+    for ( const item of game.items?.filter(i => i.type === "class") ?? [] ) {
+      if ( seen.has(item.uuid) ) continue;
+      seen.add(item.uuid);
+      list.push({ uuid: item.uuid, name: item.name, slug: item.system?.slug ?? "" });
+    }
+    list.sort((a, b) => a.name.localeCompare(b.name));
+    return list;
+  }
+
+  /**
+   * Action: adquire a classe selecionada no picker, criando o item Class
+   * embeddado no treinador.
+   */
+  static async _onAcquireClass(event, target) {
+    event?.preventDefault?.();
+    const root = target.closest(".class-picker") ?? this.element;
+    const select = root.querySelector(".class-pick-select");
+    const uuid = select?.value;
+    if ( !uuid ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Class_PickFirst"));
+      return;
+    }
+    const classItem = await fromUuid(uuid);
+    if ( !classItem || classItem.type !== "class" ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Class_NotFound"));
+      return;
+    }
+    // Evita duplicar a mesma classe.
+    const slug = classItem.system?.slug ?? "";
+    const already = this.actor.items.some(
+      i => i.type === "class" && i.system?.slug === slug
+    );
+    if ( already ) {
+      ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Class_AlreadyOwned"));
+      return;
+    }
+    await this.actor.createEmbeddedDocuments("Item", [classItem.toObject()]);
+    ui.notifications?.info(
+      game.i18n.format("POKEMON_RPG.Class_Acquired", { name: classItem.name })
+    );
   }
 
   /* ---------- Fases ---------- */

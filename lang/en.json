@@ -224,6 +224,10 @@
       "TalentsBundleVersion": {
         "Name": "Imported Talents Bundle Version",
         "Hint": "Tracks which version of the talents bundle has already been imported into the world-side compendium."
+      },
+      "ClassesBundleVersion": {
+        "Name": "Imported Classes Bundle Version",
+        "Hint": "Tracks which version of the classes bundle has already been imported into the world-side compendium."
       }
     },
 
@@ -243,6 +247,14 @@
       "Efeito":        "Effect",
       "Characteristics": "Class Characteristics"
     },
+
+    "Class_Choose":        "Acquire a class",
+    "Class_Acquire":       "Acquire",
+    "Class_Acquired":      "Class {name} acquired.",
+    "Class_PickFirst":     "Select a class first.",
+    "Class_NotFound":      "Class not found.",
+    "Class_AlreadyOwned":  "The trainer already has this class.",
+    "Class_NoneAvailable": "No classes available. Wait for the class import to finish.",
 
     "CapacityCategory": {
       "Numeric":    "Numeric",
