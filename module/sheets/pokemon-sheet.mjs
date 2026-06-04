@@ -359,10 +359,10 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const natureKey = POKEMON_RPG.randomNature();
     const nature    = POKEMON_RPG.natures?.[natureKey];
     if ( nature?.up && values[nature.up] !== undefined ) {
-      values[nature.up] = Math.max(0, values[nature.up] + 1);
+      values[nature.up] = Math.max(0, values[nature.up] + 2);
     }
     if ( nature?.down && values[nature.down] !== undefined ) {
-      values[nature.down] = Math.max(0, values[nature.down] - 1);
+      values[nature.down] = Math.max(0, values[nature.down] - 2);
     }
 
     const updates = {

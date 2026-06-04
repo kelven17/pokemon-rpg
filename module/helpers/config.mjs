@@ -463,11 +463,12 @@ POKEMON_RPG.talentCategories = {
 /* -------------------------------------------- */
 
 /**
- * As 25 naturezas tradicionais. Cada uma soma +1 no modificador do atributo `up`
- * e subtrai 1 do atributo `down`. As 5 naturezas neutras (Hardy, Docile, Serious,
+ * As 25 naturezas tradicionais. Cada uma soma +2 no atributo `up`
+ * e subtrai 2 do atributo `down`. As 5 naturezas neutras (Hardy, Docile, Serious,
  * Bashful, Quirky) não têm `up`/`down` — são puramente cosméticas.
  *
- * O modificador é aplicado em prepareDerivedData do PokemonData.
+ * O delta é aplicado diretamente no `value` do atributo (via hook preUpdateActor
+ * em pokemon.mjs ao trocar de natureza, e em _applySpecies ao aplicar espécie).
  */
 POKEMON_RPG.natures = {
   hardy:   { label: "POKEMON_RPG.Nature.Hardy",   up: null,  down: null  },

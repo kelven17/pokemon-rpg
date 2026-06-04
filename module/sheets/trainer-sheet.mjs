@@ -1,5 +1,6 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
+import { applyOwnerColor } from "../helpers/owner-color.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -231,6 +232,8 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /** @override */
   _onRender(context, options) {
     super._onRender(context, options);
+    // Aplica a cor do dono da ficha como acento (sobrescreve --pk-accent etc.)
+    applyOwnerColor(this.actor, this.element);
     // Drag-drop de Pokémons na aba party.
     new foundry.applications.ux.DragDrop.implementation({
       dragSelector: ".item",

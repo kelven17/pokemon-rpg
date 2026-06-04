@@ -224,7 +224,7 @@ Hooks.on("preCreateActor", (actor, data, options, userId) => {
  * Quando a natureza de um Pokémon muda, ajusta os valores dos atributos
  * removendo o delta da natureza antiga e aplicando o delta da nova.
  *
- * Cada natureza concede +1 no atributo `up` e -1 no `down`. Naturezas
+ * Cada natureza concede +2 no atributo `up` e -2 no `down`. Naturezas
  * neutras (Hardy, Docile, etc.) não têm modificadores.
  *
  * O sheet pode passar `options.pkrpgSkipNatureHook = true` quando ele já
@@ -247,10 +247,10 @@ Hooks.on("preUpdateActor", (actor, changes, options, userId) => {
   const attrs = ["atk", "def", "spa", "spd", "spe"];
   for ( const attr of attrs ) {
     let delta = 0;
-    if ( oldNature?.up   === attr ) delta -= 1; // remove +1 antigo
-    if ( oldNature?.down === attr ) delta += 1; // remove -1 antigo
-    if ( newNature?.up   === attr ) delta += 1; // adiciona +1 novo
-    if ( newNature?.down === attr ) delta -= 1; // adiciona -1 novo
+    if ( oldNature?.up   === attr ) delta -= 2; // remove +2 antigo
+    if ( oldNature?.down === attr ) delta += 2; // remove -2 antigo
+    if ( newNature?.up   === attr ) delta += 2; // adiciona +2 novo
+    if ( newNature?.down === attr ) delta -= 2; // adiciona -2 novo
     if ( delta === 0 ) continue;
 
     const path = `system.attributes.${attr}.value`;
