@@ -244,28 +244,6 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }).bind(this.element);
   }
 
-<<<<<<< HEAD
-=======
-  /* -------------------------------------------- */
-  /*  Stage / Palco de Avatares                    */
-  /* -------------------------------------------- */
-
-  /** @override — adiciona o botão de palco aos controles do header. */
-  _getHeaderControls() {
-    const controls = super._getHeaderControls?.() ?? [];
-    controls.push({
-      action: "pkrpgStage",
-      icon: "fa-solid fa-masks-theater",
-      label: "POKEMON_RPG.Stage.Toggle"
-    });
-    return controls;
-  }
-
-  static async _onToggleStage(event, target) {
-    return Stage.toggle(this.actor);
-  }
-
->>>>>>> parent of 8cf694c (Revert "correção")
   /**
    * Troca de aba — atualiza apenas as classes .active no DOM, sem re-render.
    * Mantém o estado em this.tabGroups para que o próximo render server-side
@@ -482,11 +460,6 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   static async _onItemUse(event, target) {
-    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
-    const item = this.actor.items.get(itemId);
-    item?.use();
-  }
-}
     const itemId = target.closest("[data-item-id]")?.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.use();
