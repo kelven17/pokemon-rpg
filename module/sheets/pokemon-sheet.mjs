@@ -1,7 +1,6 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 import { findItemsByName } from "../helpers/compendium-lookup.mjs";
-import { fireV1Hooks } from "../helpers/v1-compat.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -58,9 +57,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       initial: "main"
     }
   };
-
-  /** Alias V1 (`app.object`) → ator. Vários módulos legados leem isso. */
-  get object() { return this.actor; }
 
   /**
    * Formata um multiplicador de efetividade para exibição na ficha.
@@ -230,8 +226,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       dropSelector: ".pokemon-sheet",
       callbacks: { drop: this._onDrop.bind(this) }
     }).bind(this.element);
-    // Compatibilidade V1 (Theatre Inserts, etc.).
-    fireV1Hooks(this, this.element, context);
   }
 
   /**
