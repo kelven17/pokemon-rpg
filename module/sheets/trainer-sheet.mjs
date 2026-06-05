@@ -1,7 +1,6 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 import { applyOwnerColor } from "../helpers/owner-color.mjs";
-import { Stage } from "../theatre/stage.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -31,8 +30,7 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: TrainerSheet._onPhaseDown,
       phaseReset: TrainerSheet._onPhaseReset,
       phaseResetAll: TrainerSheet._onPhaseResetAll,
-      tab: TrainerSheet._onChangeTab,
-      pkrpgStage: TrainerSheet._onToggleStage
+      tab: TrainerSheet._onChangeTab
     },
     form: {
       submitOnChange: true,
@@ -244,25 +242,6 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         drop: this._onDrop.bind(this)
       }
     }).bind(this.element);
-  }
-
-  /* -------------------------------------------- */
-  /*  Stage / Palco de Avatares                    */
-  /* -------------------------------------------- */
-
-  /** @override — adiciona o botão de palco aos controles do header. */
-  _getHeaderControls() {
-    const controls = super._getHeaderControls?.() ?? [];
-    controls.push({
-      action: "pkrpgStage",
-      icon: "fa-solid fa-masks-theater",
-      label: "POKEMON_RPG.Stage.Toggle"
-    });
-    return controls;
-  }
-
-  static async _onToggleStage(event, target) {
-    return Stage.toggle(this.actor);
   }
 
   /**
@@ -481,11 +460,6 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   static async _onItemUse(event, target) {
-    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
-    const item = this.actor.items.get(itemId);
-    item?.use();
-  }
-}
     const itemId = target.closest("[data-item-id]")?.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.use();
