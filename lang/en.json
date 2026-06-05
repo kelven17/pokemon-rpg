@@ -481,13 +481,6 @@
       "DeleteItem": "Delete <strong>{name}</strong>?"
     },
 
-    "Stage": {
-      "MenuToggle": "Stage: add / remove",
-      "Added":      "{name} stepped on stage",
-      "Removed":    "{name} left the stage",
-      "Clear":      "Clear stage"
-    },
-
     "TYPES": {
       "Actor": {
         "trainer": "Trainer",
@@ -503,18 +496,4 @@
       }
     }
   }
-}
-        "move": "Move",
-        "talent": "Talent",
-        "class": "Class",
-        "ability": "Ability",
-        "capacity": "Capacity",
-        "species": "Species"
-      }
-    }
-  }
-}
-  }
-}
-
 }
