@@ -1,7 +1,7 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 import { findItemsByName } from "../helpers/compendium-lookup.mjs";
-import { Stage } from "../theatre/stage.mjs";
+import { fireV1Hooks } from "../helpers/v1-compat.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -14,17 +14,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static DEFAULT_OPTIONS = {
     classes: ["pokemon-rpg", "sheet", "actor", "pokemon"],
     position: { width: 680, height: 720 },
-    window: {
-      resizable: true,
-      contentClasses: ["scrollable"],
-      controls: [
-        {
-          action: "pkrpgStage",
-          icon: "fa-solid fa-masks-theater",
-          label: "POKEMON_RPG.Stage.Toggle"
-        }
-      ]
-    },
+    window: { resizable: true, contentClasses: ["scrollable"] },
     actions: {
       rollAttribute: PokemonSheet._onRollAttribute,
       rollMove: PokemonSheet._onRollMove,
@@ -40,8 +30,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: PokemonSheet._onPhaseDown,
       phaseReset: PokemonSheet._onPhaseReset,
       phaseResetAll: PokemonSheet._onPhaseResetAll,
-      tab: PokemonSheet._onChangeTab,
-      pkrpgStage: PokemonSheet._onToggleStage
+      tab: PokemonSheet._onChangeTab
     },
     form: {
       submitOnChange: true,
@@ -69,6 +58,9 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       initial: "main"
     }
   };
+
+  /** Alias V1 (`app.object`) → ator. Vários módulos legados leem isso. */
+  get object() { return this.actor; }
 
   /**
    * Formata um multiplicador de efetividade para exibição na ficha.
@@ -238,14 +230,8 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       dropSelector: ".pokemon-sheet",
       callbacks: { drop: this._onDrop.bind(this) }
     }).bind(this.element);
-  }
-
-  /* -------------------------------------------- */
-  /*  Stage / Palco de Avatares                    */
-  /* -------------------------------------------- */
-
-  static async _onToggleStage(event, target) {
-    return Stage.toggle(this.actor);
+    // Compatibilidade V1 (Theatre Inserts, etc.).
+    fireV1Hooks(this, this.element, context);
   }
 
   /**
