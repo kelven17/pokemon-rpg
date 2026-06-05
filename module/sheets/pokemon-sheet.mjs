@@ -228,6 +228,28 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     }).bind(this.element);
   }
 
+<<<<<<< HEAD
+=======
+  /* -------------------------------------------- */
+  /*  Stage / Palco de Avatares                    */
+  /* -------------------------------------------- */
+
+  /** @override — adiciona o botão de palco aos controles do header. */
+  _getHeaderControls() {
+    const controls = super._getHeaderControls?.() ?? [];
+    controls.push({
+      action: "pkrpgStage",
+      icon: "fa-solid fa-masks-theater",
+      label: "POKEMON_RPG.Stage.Toggle"
+    });
+    return controls;
+  }
+
+  static async _onToggleStage(event, target) {
+    return Stage.toggle(this.actor);
+  }
+
+>>>>>>> parent of 8cf694c (Revert "correção")
   /**
    * Troca de aba — atualiza apenas as classes .active sem disparar re-render.
    */
@@ -574,6 +596,12 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
   static async _onPhaseReset(event, target) {
     return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
+  }
+  static async _onPhaseResetAll(event, target) {
+    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
+  }
+}
+tribute, 0);
   }
   static async _onPhaseResetAll(event, target) {
     return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
