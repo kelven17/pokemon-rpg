@@ -41,6 +41,7 @@ import {
   forceReimportClasses
 } from "./setup/classes-importer.mjs";
 import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
+import { Stage } from "./theatre/stage.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -197,6 +198,13 @@ Hooks.once("ready", async function() {
   } catch (err) {
     console.error("pokemon-rpg | erro no import de talentos:", err);
   }
+  // Inicializa o palco de avatares.
+  try {
+    await Stage.init();
+    game.pokemonRpg.stage = Stage;
+  } catch (err) {
+    console.error("pokemon-rpg | erro ao iniciar Stage:", err);
+  }
 });
 
 /* -------------------------------------------- */
@@ -303,4 +311,14 @@ Hooks.on("updateActor", async (actor, changes, options, userId) => {
   } catch (err) {
     console.error("pokemon-rpg | erro ao auto-aprender golpes:", err);
   }
+});
+newLevel);
+    if ( count === 0 ) {
+      console.log(`pokemon-rpg | ${actor.name} subiu pra nv ${newLevel} (nenhum golpe novo).`);
+    }
+  } catch (err) {
+    console.error("pokemon-rpg | erro ao auto-aprender golpes:", err);
+  }
+});
+}
 });
