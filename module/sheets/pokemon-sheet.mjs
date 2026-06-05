@@ -1,6 +1,7 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 import { findItemsByName } from "../helpers/compendium-lookup.mjs";
+import { Stage } from "../theatre/stage.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -29,7 +30,8 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: PokemonSheet._onPhaseDown,
       phaseReset: PokemonSheet._onPhaseReset,
       phaseResetAll: PokemonSheet._onPhaseResetAll,
-      tab: PokemonSheet._onChangeTab
+      tab: PokemonSheet._onChangeTab,
+      pkrpgStage: PokemonSheet._onToggleStage
     },
     form: {
       submitOnChange: true,
@@ -226,6 +228,25 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       dropSelector: ".pokemon-sheet",
       callbacks: { drop: this._onDrop.bind(this) }
     }).bind(this.element);
+  }
+
+  /* -------------------------------------------- */
+  /*  Stage / Palco de Avatares                    */
+  /* -------------------------------------------- */
+
+  /** @override — adiciona o botão de palco aos controles do header. */
+  _getHeaderControls() {
+    const controls = super._getHeaderControls?.() ?? [];
+    controls.push({
+      action: "pkrpgStage",
+      icon: "fa-solid fa-masks-theater",
+      label: "POKEMON_RPG.Stage.Toggle"
+    });
+    return controls;
+  }
+
+  static async _onToggleStage(event, target) {
+    return Stage.toggle(this.actor);
   }
 
   /**
@@ -574,6 +595,12 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
   static async _onPhaseReset(event, target) {
     return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
+  }
+  static async _onPhaseResetAll(event, target) {
+    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
+  }
+}
+tribute, 0);
   }
   static async _onPhaseResetAll(event, target) {
     return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
