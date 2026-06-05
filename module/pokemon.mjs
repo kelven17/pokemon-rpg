@@ -41,6 +41,7 @@ import {
   forceReimportClasses
 } from "./setup/classes-importer.mjs";
 import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
+import { Stage } from "./theatre/stage.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -196,6 +197,13 @@ Hooks.once("ready", async function() {
     await importTalentsIfNeeded();
   } catch (err) {
     console.error("pokemon-rpg | erro no import de talentos:", err);
+  }
+  // Sistema de palco (avatares estilo visual-novel).
+  try {
+    await Stage.init();
+    game.pokemonRpg.stage = Stage;
+  } catch (err) {
+    console.error("pokemon-rpg | erro ao iniciar Stage:", err);
   }
 });
 

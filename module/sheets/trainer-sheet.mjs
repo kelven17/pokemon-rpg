@@ -1,7 +1,7 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
 import { PokemonSheetPhaseHelpers } from "../helpers/phases.mjs";
 import { applyOwnerColor } from "../helpers/owner-color.mjs";
-import { fireV1Hooks } from "../helpers/v1-compat.mjs";
+import { Stage } from "../theatre/stage.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ActorSheetV2 } = foundry.applications.sheets;
@@ -14,7 +14,17 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static DEFAULT_OPTIONS = {
     classes: ["pokemon-rpg", "sheet", "actor", "trainer"],
     position: { width: 720, height: 760 },
-    window: { resizable: true, contentClasses: ["scrollable"] },
+    window: {
+      resizable: true,
+      contentClasses: ["scrollable"],
+      controls: [
+        {
+          action: "pkrpgStage",
+          icon: "fa-solid fa-masks-theater",
+          label: "POKEMON_RPG.Stage.Toggle"
+        }
+      ]
+    },
     actions: {
       rollSkill: TrainerSheet._onRollSkill,
       rollAttribute: TrainerSheet._onRollAttribute,
@@ -31,7 +41,8 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: TrainerSheet._onPhaseDown,
       phaseReset: TrainerSheet._onPhaseReset,
       phaseResetAll: TrainerSheet._onPhaseResetAll,
-      tab: TrainerSheet._onChangeTab
+      tab: TrainerSheet._onChangeTab,
+      pkrpgStage: TrainerSheet._onToggleStage
     },
     form: {
       submitOnChange: true,
@@ -61,13 +72,6 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       initial: "main"
     }
   };
-
-  /* -------------------------------------------- */
-  /*  Compat V1 (Theatre Inserts, etc.)            */
-  /* -------------------------------------------- */
-
-  /** Alias V1 (`app.object`) → ator. Vários módulos legados leem isso. */
-  get object() { return this.actor; }
 
   /* -------------------------------------------- */
   /*  Context Preparation                          */
@@ -250,9 +254,14 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         drop: this._onDrop.bind(this)
       }
     }).bind(this.element);
-    // Compatibilidade V1 (Theatre Inserts, etc.) — precisa disparar
-    // renderActorSheet com jQuery após o nosso render.
-    fireV1Hooks(this, this.element, context);
+  }
+
+  /* -------------------------------------------- */
+  /*  Stage / Palco de Avatares                    */
+  /* -------------------------------------------- */
+
+  static async _onToggleStage(event, target) {
+    return Stage.toggle(this.actor);
   }
 
   /**

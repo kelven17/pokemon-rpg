@@ -481,10 +481,31 @@
       "DeleteItem": "Excluir <strong>{name}</strong>?"
     },
 
+    "Stage": {
+      "Toggle":  "Pôr no palco / tirar do palco",
+      "Added":   "{name} entrou em cena",
+      "Removed": "{name} saiu de cena",
+      "Clear":   "Esvaziar palco",
+      "Active":  "Falante ativo"
+    },
+
     "TYPES": {
       "Actor": {
         "trainer": "Treinador",
         "pokemon": "Pokémon"
+      },
+      "Item": {
+        "move": "Golpe",
+        "talent": "Talento",
+        "class": "Classe",
+        "ability": "Habilidade",
+        "capacity": "Capacidade",
+        "species": "Espécie"
+      }
+    }
+  }
+}
+
       },
       "Item": {
         "move": "Golpe",

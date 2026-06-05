@@ -481,10 +481,31 @@
       "DeleteItem": "Delete <strong>{name}</strong>?"
     },
 
+    "Stage": {
+      "Toggle":  "Add to / remove from stage",
+      "Added":   "{name} stepped on stage",
+      "Removed": "{name} left the stage",
+      "Clear":   "Clear stage",
+      "Active":  "Active speaker"
+    },
+
     "TYPES": {
       "Actor": {
         "trainer": "Trainer",
         "pokemon": "Pokémon"
+      },
+      "Item": {
+        "move": "Move",
+        "talent": "Talent",
+        "class": "Class",
+        "ability": "Ability",
+        "capacity": "Capacity",
+        "species": "Species"
+      }
+    }
+  }
+}
+kémon"
       },
       "Item": {
         "move": "Move",

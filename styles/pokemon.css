@@ -1981,3 +1981,194 @@
 .pokemon-rpg .scrollable::-webkit-scrollbar-thumb:hover {
     background: var(--pk-faint);
 }
+
+/* ================================================================ */
+/*  Stage (palco de avatares — alternativa nativa ao Theatre Inserts) */
+/* ================================================================ */
+
+#pkrpg-stage {
+    --pkrpg-stage-accent: #cc0000;
+    position: fixed;
+    inset: 0;
+    pointer-events: none;       /* só elementos filhos com pointer-events:auto */
+    z-index: 50;                /* abaixo de dialogs (60+) */
+}
+
+/* ---------- Barra inferior ---------- */
+#pkrpg-stage-bar {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    right: 360px;               /* não passa por cima do sidebar do Foundry */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    background: rgba(20, 22, 28, 0.78);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    pointer-events: auto;
+    max-width: max-content;
+    transition: opacity .25s ease;
+}
+#pkrpg-stage-bar.empty {
+    display: none;
+}
+#pkrpg-stage-bar .pkrpg-stage-clear {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .15s ease;
+}
+#pkrpg-stage-bar .pkrpg-stage-clear:hover {
+    background: rgba(255, 80, 80, 0.25);
+    color: #fff;
+    border-color: rgba(255, 80, 80, 0.5);
+}
+#pkrpg-stage-bar .pkrpg-stage-actors {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+#pkrpg-stage-bar .pkrpg-stage-actor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.85);
+    transition: transform .12s ease;
+    max-width: 72px;
+}
+#pkrpg-stage-bar .pkrpg-stage-actor:hover {
+    transform: translateY(-2px);
+}
+#pkrpg-stage-bar .pkrpg-stage-actor img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+#pkrpg-stage-bar .pkrpg-stage-actor.active img {
+    border-color: #ffcc33;
+    box-shadow: 0 0 0 2px rgba(255, 204, 51, 0.35),
+                0 2px 8px rgba(255, 204, 51, 0.4);
+}
+#pkrpg-stage-bar .pkrpg-stage-actor-name {
+    font-size: 9px;
+    margin-top: 2px;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.1;
+    opacity: 0.85;
+}
+
+/* ---------- Avatar grande (quando alguém fala no chat) ---------- */
+#pkrpg-stage-portrait {
+    position: absolute;
+    left: 24px;
+    bottom: 80px;               /* acima da barra */
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+    transition: opacity .35s ease, transform .35s cubic-bezier(.2,.8,.2,1.2);
+    pointer-events: none;
+    max-width: 520px;
+}
+#pkrpg-stage-portrait.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+#pkrpg-stage-portrait-frame,
+.pkrpg-stage-portrait-frame {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--pkrpg-stage-accent, #cc0000);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55),
+                0 0 0 2px rgba(255, 255, 255, 0.08);
+    background: #1a1c22;
+    flex-shrink: 0;
+}
+.pkrpg-stage-portrait-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.pkrpg-stage-portrait-bubble {
+    background: rgba(20, 22, 28, 0.92);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid var(--pkrpg-stage-accent, #cc0000);
+    border-radius: 14px;
+    padding: 12px 16px;
+    color: #f3f3f3;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+    max-width: 320px;
+    position: relative;
+    margin-bottom: 24px;
+}
+.pkrpg-stage-portrait-bubble::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    bottom: 28px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 12px 8px 0;
+    border-color: transparent var(--pkrpg-stage-accent, #cc0000) transparent transparent;
+}
+.pkrpg-stage-portrait-name {
+    font-family: "Bangers", "Signika", sans-serif;
+    font-size: 18px;
+    letter-spacing: .8px;
+    color: var(--pkrpg-stage-accent, #cc0000);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+.pkrpg-stage-portrait-text {
+    font-size: 14px;
+    line-height: 1.45;
+    color: #ececec;
+    word-break: break-word;
+}
+.pkrpg-stage-portrait-text:empty {
+    display: none;
+}
+
+/* Tablet / janela pequena */
+@media (max-width: 1200px) {
+    #pkrpg-stage-bar {
+        right: 12px;
+    }
+    .pkrpg-stage-portrait-frame {
+        width: 140px;
+        height: 140px;
+    }
+    .pkrpg-stage-portrait-bubble {
+        max-width: 240px;
+        margin-bottom: 14px;
+    }
+}
