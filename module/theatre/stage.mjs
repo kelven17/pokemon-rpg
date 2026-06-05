@@ -61,7 +61,6 @@ export class Stage {
     Stage._activeUuid = actor.uuid;
     await Stage._save();
     Stage._renderBar();
-    Stage._showPortrait(actor, null);   // preview imediato
     ui.notifications?.info(
       game.i18n.format("POKEMON_RPG.Stage.Added", { name: actor.name })
     );
@@ -94,8 +93,6 @@ export class Stage {
     Stage._activeUuid = uuid;
     await Stage._save();
     Stage._renderBar();
-    const actor = fromUuidSync(uuid);
-    if ( actor ) Stage._showPortrait(actor, null);   // preview imediato
   }
 
   /** Limpa o palco inteiro. */
@@ -269,13 +266,6 @@ export class Stage {
     root.setAttribute("aria-hidden", "false");
 
     if ( Stage._portraitTimer ) clearTimeout(Stage._portraitTimer);
-    Stage._portraitTimer = setTimeout(() => {
-      root.classList.remove("visible");
-      root.setAttribute("aria-hidden", "true");
-    }, PORTRAIT_TTL);
-  }
-}
-tTimer);
     Stage._portraitTimer = setTimeout(() => {
       root.classList.remove("visible");
       root.setAttribute("aria-hidden", "true");
