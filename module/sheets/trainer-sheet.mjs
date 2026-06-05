@@ -14,17 +14,7 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static DEFAULT_OPTIONS = {
     classes: ["pokemon-rpg", "sheet", "actor", "trainer"],
     position: { width: 720, height: 760 },
-    window: {
-      resizable: true,
-      contentClasses: ["scrollable"],
-      controls: [
-        {
-          action: "pkrpgStage",
-          icon: "fa-solid fa-masks-theater",
-          label: "POKEMON_RPG.Stage.Toggle"
-        }
-      ]
-    },
+    window: { resizable: true, contentClasses: ["scrollable"] },
     actions: {
       rollSkill: TrainerSheet._onRollSkill,
       rollAttribute: TrainerSheet._onRollAttribute,
@@ -260,6 +250,17 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   /*  Stage / Palco de Avatares                    */
   /* -------------------------------------------- */
 
+  /** @override — adiciona o botão de palco aos controles do header. */
+  _getHeaderControls() {
+    const controls = super._getHeaderControls?.() ?? [];
+    controls.push({
+      action: "pkrpgStage",
+      icon: "fa-solid fa-masks-theater",
+      label: "POKEMON_RPG.Stage.Toggle"
+    });
+    return controls;
+  }
+
   static async _onToggleStage(event, target) {
     return Stage.toggle(this.actor);
   }
@@ -480,6 +481,11 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
 
   static async _onItemUse(event, target) {
+    const itemId = target.closest("[data-item-id]")?.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    item?.use();
+  }
+}
     const itemId = target.closest("[data-item-id]")?.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.use();
