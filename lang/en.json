@@ -26,7 +26,11 @@
     "Power": "Power",
     "Accuracy": "Accuracy",
     "PP": "PP",
-    "MoveCategory": "Category",
+    "MoveCategory": {
+      "Physical": "Physical",
+      "Special": "Special",
+      "Status": "Status"
+    },
     "DamageFormula": "Damage Formula",
     "DamageFormulaHint": "Leave empty for automatic calculation based on power.",
     "Effect": "Effect",
@@ -68,7 +72,6 @@
     "NewTalent": "New Talent",
     "NewClass": "New Class",
     "NewItem": "New {type}",
-
     "Tab": {
       "Main": "Main",
       "Skills": "Skills",
@@ -78,13 +81,11 @@
       "Moves": "Moves",
       "Abilities": "Abilities"
     },
-
     "Sheet": {
       "Trainer": "Trainer Sheet",
       "Pokemon": "Pokémon Sheet",
       "Item": "Item Sheet"
     },
-
     "Attribute": {
       "HP": "Health",
       "Atk": "Attack",
@@ -93,7 +94,6 @@
       "SpD": "Special Defense",
       "Spe": "Speed"
     },
-
     "AttributeAbbr": {
       "HP": "HP",
       "Atk": "ATK",
@@ -102,108 +102,98 @@
       "SpD": "SpD",
       "Spe": "SPE"
     },
-
     "Evasion": {
-      "Title":    "Evasion",
+      "Title": "Evasion",
       "Physical": "Physical Evasion",
-      "Special":  "Special Evasion",
-      "Fast":     "Speed Evasion",
+      "Special": "Special Evasion",
+      "Fast": "Speed Evasion",
       "PhysicalAbbr": "EV.PHY",
-      "SpecialAbbr":  "EV.SPE",
-      "FastAbbr":     "EV.SPD"
+      "SpecialAbbr": "EV.SPE",
+      "FastAbbr": "EV.SPD"
     },
-
     "Captured": {
-      "Label":    "State",
-      "Wild":     "Wild",
+      "Label": "State",
+      "Wild": "Wild",
       "Captured": "Captured",
-      "Hint":     "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
+      "Hint": "Wild uses HP × 3, Captured uses HP × 4. Toggles automatically when entering/leaving a trainer's party."
     },
-
     "Attributes": "Attributes",
     "TrainerDetails": "Trainer Details",
     "SkillsHint": "Click the name to roll · click the circle to toggle proficiency",
     "RollAttributeHint": "Click to roll this attribute",
-
     "Phase": {
-      "Label":         "Phase",
-      "Up":            "Raise Phase",
-      "Down":          "Lower Phase",
-      "Reset":         "Reset Phase",
-      "ResetHint":     "Click to reset this attribute's Phase",
-      "ResetAll":      "Reset Phases",
-      "ResetAllHint":  "Resets all attribute Phases (end of encounter).",
+      "Label": "Phase",
+      "Up": "Raise Phase",
+      "Down": "Lower Phase",
+      "Reset": "Reset Phase",
+      "ResetHint": "Click to reset this attribute's Phase",
+      "ResetAll": "Reset Phases",
+      "ResetAllHint": "Resets all attribute Phases (end of encounter).",
       "EffectiveHint": "Effective value after applying the Phase multiplier",
       "DeslocamentoBonus": "Movement Bonus",
-      "FromSpeedPhase":    "from Speed Phase"
+      "FromSpeedPhase": "from Speed Phase"
     },
-
     "Aptidao": {
-      "Label":       "Aptitude",
-      "Beleza":      "Beauty",
-      "Estilo":      "Cool",
+      "Label": "Aptitude",
+      "Beleza": "Beauty",
+      "Estilo": "Cool",
       "Perspicacia": "Cleverness",
-      "Ternura":     "Cuteness",
-      "Vigor":       "Toughness"
+      "Ternura": "Cuteness",
+      "Vigor": "Toughness"
     },
-
     "Alcance": {
-      "Label":  "Range",
-      "Si":     "Self",
-      "Melee":  "Melee",
+      "Label": "Range",
+      "Si": "Self",
+      "Melee": "Melee",
       "Ranged": "Ranged",
-      "Area":   "Area"
+      "Area": "Area"
     },
-
     "Frequencia": {
-      "Label":        "Frequency",
-      "AtWill":       "At-Will",
-      "EveryOther":   "Every Other Round",
+      "Label": "Frequency",
+      "AtWill": "At-Will",
+      "EveryOther": "Every Other Round",
       "PerEncounter": "Per Encounter",
-      "Daily":        "Daily"
+      "Daily": "Daily"
     },
-
     "Concursos": {
-      "Label":           "Contests",
-      "Abertura":        "Opening",
-      "Abstracao":       "Abstraction",
-      "Amizade":         "Friendship",
-      "Climax":          "Climax",
-      "Cobica":          "Greed",
-      "Conquista":       "Conquest",
+      "Label": "Contests",
+      "Abertura": "Opening",
+      "Abstracao": "Abstraction",
+      "Amizade": "Friendship",
+      "Climax": "Climax",
+      "Cobica": "Greed",
+      "Conquista": "Conquest",
       "Constrangimento": "Embarrassment",
-      "Continuacao":     "Continuation",
-      "Dedicatoria":     "Dedication",
-      "Desfecho":        "Conclusion",
-      "Despedida":       "Farewell",
-      "Encerramento":    "Closing",
-      "Entrada":         "Entrance",
-      "Especial":        "Special",
-      "Excentricidade":  "Eccentricity",
-      "Extravagancia":   "Extravagance",
-      "Incentivo":       "Incentive",
-      "Modelo":          "Model",
-      "Modestia":        "Modesty",
-      "Pausa":           "Pause",
-      "Perspectiva":     "Perspective",
-      "Proveito":        "Profit",
-      "Reviravolta":     "Twist",
-      "Seguranca":       "Safety",
-      "Sorteio":         "Lottery",
-      "Surpresa":        "Surprise"
+      "Continuacao": "Continuation",
+      "Dedicatoria": "Dedication",
+      "Desfecho": "Conclusion",
+      "Despedida": "Farewell",
+      "Encerramento": "Closing",
+      "Entrada": "Entrance",
+      "Especial": "Special",
+      "Excentricidade": "Eccentricity",
+      "Extravagancia": "Extravagance",
+      "Incentivo": "Incentive",
+      "Modelo": "Model",
+      "Modestia": "Modesty",
+      "Pausa": "Pause",
+      "Perspectiva": "Perspective",
+      "Proveito": "Profit",
+      "Reviravolta": "Twist",
+      "Seguranca": "Safety",
+      "Sorteio": "Lottery",
+      "Surpresa": "Surprise"
     },
-
     "Move": {
-      "Descritores":      "Descriptors",
-      "DificuldadeAcc":   "Accuracy Difficulty",
-      "Automatica":       "Automatic",
-      "DanoBasal":        "Base Damage",
-      "ResetEncounter":   "Reset (Encounter)",
-      "ResetDaily":       "Reset (Day)",
-      "Used":             "Used",
-      "Cooldown":         "On cooldown"
+      "Descritores": "Descriptors",
+      "DificuldadeAcc": "Accuracy Difficulty",
+      "Automatica": "Automatic",
+      "DanoBasal": "Base Damage",
+      "ResetEncounter": "Reset (Encounter)",
+      "ResetDaily": "Reset (Day)",
+      "Used": "Used",
+      "Cooldown": "On cooldown"
     },
-
     "Setting": {
       "MovesBundleVersion": {
         "Name": "Imported Moves Bundle Version",
@@ -230,178 +220,156 @@
         "Hint": "Tracks which version of the classes bundle has already been imported into the world-side compendium."
       }
     },
-
     "TalentCategory": {
-      "Label":          "Category",
-      "General":        "General",
-      "Class":          "Class-Granted",
-      "Characteristic": "Class Characteristic"
+      "Label": "Category",
+      "General": "General",
+      "Class": "Class-Granted"
     },
-
     "Talent": {
-      "Requisitos":    "Requirements",
-      "Frequencia":    "Frequency",
-      "Alvo":          "Target",
-      "Gatilho":       "Trigger",
+      "Requisitos": "Requirements",
+      "Frequencia": "Frequency",
+      "Alvo": "Target",
+      "Gatilho": "Trigger",
       "Contragatilho": "Counter-Trigger",
-      "Efeito":        "Effect",
+      "Efeito": "Effect",
       "Characteristics": "Class Characteristics"
     },
-
-    "Class_Choose":        "Acquire a class",
-    "Class_Acquire":       "Acquire",
-    "Class_Acquired":      "Class {name} acquired.",
-    "Class_PickFirst":     "Select a class first.",
-    "Class_NotFound":      "Class not found.",
-    "Class_AlreadyOwned":  "The trainer already has this class.",
+    "Class_Choose": "Acquire a class",
+    "Class_Acquire": "Acquire",
+    "Class_Acquired": "Class {name} acquired.",
+    "Class_PickFirst": "Select a class first.",
+    "Class_NotFound": "Class not found.",
+    "Class_AlreadyOwned": "The trainer already has this class.",
     "Class_NoneAvailable": "No classes available. Wait for the class import to finish.",
-
     "CapacityCategory": {
-      "Numeric":    "Numeric",
-      "Movement":   "Movement",
-      "Special":    "Special",
-      "Sense":      "Sense",
+      "Numeric": "Numeric",
+      "Movement": "Movement",
+      "Special": "Special",
+      "Sense": "Sense",
       "Naturewalk": "Naturewalk"
     },
-
     "Capacity": {
-      "Label":    "Capacity",
-      "Value":    "Value",
+      "Label": "Capacity",
+      "Value": "Value",
       "MaxValue": "Max Value",
-      "Effect":   "Effect"
+      "Effect": "Effect"
     },
-
     "AbilityTrigger": {
-      "Constante":         "Constant",
-      "AtivacaoAtWill":    "At-Will Activation",
-      "AtivacaoHoraria":   "Per-Encounter Activation",
-      "AtivacaoDiaria":    "Daily Activation",
-      "GatilhoConstante":  "Constant Trigger",
-      "GatilhoAtWill":     "At-Will Trigger",
-      "GatilhoHoraria":    "Per-Encounter Trigger",
-      "GatilhoDiaria":     "Daily Trigger"
+      "Constante": "Constant",
+      "AtivacaoAtWill": "At-Will Activation",
+      "AtivacaoHoraria": "Per-Encounter Activation",
+      "AtivacaoDiaria": "Daily Activation",
+      "GatilhoConstante": "Constant Trigger",
+      "GatilhoAtWill": "At-Will Trigger",
+      "GatilhoHoraria": "Per-Encounter Trigger",
+      "GatilhoDiaria": "Daily Trigger"
     },
-
     "Ability": {
-      "Trigger":      "Trigger",
-      "Condicao":     "Condition",
-      "Effect":       "Effect",
-      "Used":         "Used",
+      "Trigger": "Trigger",
+      "Condicao": "Condition",
+      "Effect": "Effect",
+      "Used": "Used",
       "ResetEncounter": "Reset (Encounter)",
-      "ResetDaily":     "Reset (Day)"
+      "ResetDaily": "Reset (Day)"
     },
-
     "Effectiveness": {
-      "Weaknesses":   "Weaknesses",
-      "Resistances":  "Resistances",
-      "Immunities":   "Immunities",
-      "Immune":       "Immune",
-      "NoWeakness":   "No weaknesses.",
+      "Weaknesses": "Weaknesses",
+      "Resistances": "Resistances",
+      "Immunities": "Immunities",
+      "Immune": "Immune",
+      "NoWeakness": "No weaknesses.",
       "NoResistance": "No resistances.",
-      "NoImmunity":   "No immunities."
+      "NoImmunity": "No immunities."
     },
-
     "Nature": {
-      "Label":   "Nature",
-      "None":    "—",
-      "Hardy":   "Hardy",
-      "Lonely":  "Lonely",
-      "Brave":   "Brave",
+      "Label": "Nature",
+      "None": "—",
+      "Hardy": "Hardy",
+      "Lonely": "Lonely",
+      "Brave": "Brave",
       "Adamant": "Adamant",
       "Naughty": "Naughty",
-      "Bold":    "Bold",
-      "Docile":  "Docile",
+      "Bold": "Bold",
+      "Docile": "Docile",
       "Relaxed": "Relaxed",
-      "Impish":  "Impish",
-      "Lax":     "Lax",
-      "Timid":   "Timid",
-      "Hasty":   "Hasty",
+      "Impish": "Impish",
+      "Lax": "Lax",
+      "Timid": "Timid",
+      "Hasty": "Hasty",
       "Serious": "Serious",
-      "Jolly":   "Jolly",
-      "Naive":   "Naive",
-      "Modest":  "Modest",
-      "Mild":    "Mild",
-      "Quiet":   "Quiet",
+      "Jolly": "Jolly",
+      "Naive": "Naive",
+      "Modest": "Modest",
+      "Mild": "Mild",
+      "Quiet": "Quiet",
       "Bashful": "Bashful",
-      "Rash":    "Rash",
-      "Calm":    "Calm",
-      "Gentle":  "Gentle",
-      "Sassy":   "Sassy",
+      "Rash": "Rash",
+      "Calm": "Calm",
+      "Gentle": "Gentle",
+      "Sassy": "Sassy",
       "Careful": "Careful",
-      "Quirky":  "Quirky"
+      "Quirky": "Quirky"
     },
-
-    "Species_Choose":  "Choose species",
-    "Species_Apply":   "Apply species",
+    "Species_Choose": "Choose species",
+    "Species_Apply": "Apply species",
     "Species_Applied": "Species {name} applied — attributes, types and Dex number updated.",
     "Species_NotFound": "No species available. Import species from the compendium or create items of type \"Species\".",
-
     "TalentPoints": {
-      "Label":  "Talent Points",
-      "Spent":  "spent",
-      "Hint":   "Available / total earned by level"
+      "Label": "Talent Points",
+      "Spent": "spent",
+      "Hint": "Available / total earned by level"
     },
-
-    "Subclass":         "Subclass",
-    "MainClass":        "Main Class",
-    "ParentClass":      "Parent Class",
-    "ClassSlug":        "Class Identifier",
-    "SourceClass":      "Source Class",
-    "GeneralTalents":   "General Talents",
-    "OrphanTalents":    "Unattached Talents",
-    "TalentsOfClass":   "Talents of this class",
-    "NoClassTalents":   "No talents from this class yet.",
+    "Subclass": "Subclass",
+    "MainClass": "Main Class",
+    "ParentClass": "Parent Class",
+    "ClassSlug": "Class Identifier",
+    "SourceClass": "Source Class",
+    "GeneralTalents": "General Talents",
+    "OrphanTalents": "Unattached Talents",
+    "TalentsOfClass": "Talents of this class",
+    "NoClassTalents": "No talents from this class yet.",
     "NoGeneralTalents": "No general talents.",
-
-    "TalentCategory": {
-      "Label":   "Category",
-      "General": "General",
-      "Class":   "Class-Granted"
-    },
-
     "Requirements": {
-      "Title":          "Acquisition Requirements",
-      "SameTree":       "Subclass of Own Class",
-      "SameTreeHint":   "Requirements when the trainer already has the parent class.",
-      "Other":          "Multiclass (Other Tree)",
-      "OtherHint":      "Requirements when coming from a different class/subclass tree."
+      "Title": "Acquisition Requirements",
+      "SameTree": "Subclass of Own Class",
+      "SameTreeHint": "Requirements when the trainer already has the parent class.",
+      "Other": "Multiclass (Other Tree)",
+      "OtherHint": "Requirements when coming from a different class/subclass tree."
     },
-
     "Class": {
-      "Treinador":         "Trainer",
-      "Elementalista":     "Elementalist",
-      "Especialista":      "Specialist",
-      "Captor":            "Captor",
-      "Engenheiro":        "Engineer",
-      "Ladrao":            "Thief",
-      "Artifice":          "Artificer",
-      "Criador":           "Breeder",
-      "Medico":            "Medic",
-      "Evolucionista":     "Evolutionist",
-      "Tutor":             "Tutor",
-      "Artista":           "Artist",
-      "Cuidador":          "Caretaker",
-      "Observador":        "Observer",
-      "Pesquisador":       "Researcher",
-      "Fotografo":         "Photographer",
-      "Hipnologo":         "Hypnologist",
-      "Ranger":            "Ranger",
-      "Guia":              "Guide",
-      "Guerreiro":         "Warrior",
-      "Monge":             "Monk",
-      "Ninja":             "Ninja",
-      "Soldado":           "Soldier",
-      "Empatico":          "Empath",
-      "Vidente":           "Seer",
-      "Psiquico":          "Psychic",
+      "Treinador": "Trainer",
+      "Elementalista": "Elementalist",
+      "Especialista": "Specialist",
+      "Captor": "Captor",
+      "Engenheiro": "Engineer",
+      "Ladrao": "Thief",
+      "Artifice": "Artificer",
+      "Criador": "Breeder",
+      "Medico": "Medic",
+      "Evolucionista": "Evolutionist",
+      "Tutor": "Tutor",
+      "Artista": "Artist",
+      "Cuidador": "Caretaker",
+      "Observador": "Observer",
+      "Pesquisador": "Researcher",
+      "Fotografo": "Photographer",
+      "Hipnologo": "Hypnologist",
+      "Ranger": "Ranger",
+      "Guia": "Guide",
+      "Guerreiro": "Warrior",
+      "Monge": "Monk",
+      "Ninja": "Ninja",
+      "Soldado": "Soldier",
+      "Empatico": "Empath",
+      "Vidente": "Seer",
+      "Psiquico": "Psychic",
       "DobradorElemental": "Element Bender",
-      "Mistico":           "Mystic",
-      "Medium":            "Medium",
-      "Ilusionista":       "Illusionist",
-      "Runico":            "Runic",
-      "Xama":              "Shaman"
+      "Mistico": "Mystic",
+      "Medium": "Medium",
+      "Ilusionista": "Illusionist",
+      "Runico": "Runic",
+      "Xama": "Shaman"
     },
-
     "Skill": {
       "Corrida": "Running",
       "Salto": "Jumping",
@@ -428,7 +396,6 @@
       "Percepcao": "Perception",
       "Manha": "Cunning"
     },
-
     "Type": {
       "Label": "Type",
       "Primary": "Primary",
@@ -452,13 +419,6 @@
       "Steel": "Steel",
       "Fairy": "Fairy"
     },
-
-    "MoveCategory": {
-      "Physical": "Physical",
-      "Special": "Special",
-      "Status": "Status"
-    },
-
     "ItemType": {
       "move": "Move",
       "talent": "Talent",
@@ -467,7 +427,6 @@
       "capacity": "Capacity",
       "species": "Species"
     },
-
     "Notify": {
       "PartyFull": "Party already has 6 Pokémon.",
       "AlreadyInParty": "This Pokémon is already in the party.",
@@ -475,12 +434,10 @@
       "SkillTrainerOnly": "Skills only exist on Trainers.",
       "MovePokemonOnly": "Moves can only be used by Pokémon."
     },
-
     "Confirm": {
       "DeleteTitle": "Confirm deletion",
       "DeleteItem": "Delete <strong>{name}</strong>?"
     },
-
     "TYPES": {
       "Actor": {
         "trainer": "Trainer",

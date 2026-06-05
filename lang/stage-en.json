@@ -1,0 +1,10 @@
+{
+  "POKEMON_RPG": {
+    "Stage": {
+      "MenuToggle": "Stage: add / remove",
+      "Added":      "{name} stepped on stage",
+      "Removed":    "{name} left the stage",
+      "Clear":      "Clear stage"
+    }
+  }
+}
