@@ -132,10 +132,10 @@ export class ClassData extends foundry.abstract.TypeDataModel {
         initial: "atk",
         choices: () => Object.keys(POKEMON_RPG.attributes)
       }),
-      // HP base que essa classe concede no nível 1.
-      hpBase: new NumberField({ required: true, nullable: false, integer: true, initial: 8, min: 1 }),
-      // HP por nível adicional.
-      hpPerLevel: new NumberField({ required: true, nullable: false, integer: true, initial: 5, min: 0 }),
+      // NOTA: HP é calculado globalmente pelo sistema como (Saúde + Nível) × 4
+      // (× 3 para pokémons selvagens). Classes NÃO concedem HP — campos
+      // hpBase/hpPerLevel foram removidos.
+      //
       // Lista de slugs de talentos concedidos por esta classe (2 talentos automáticos).
       grantedTalents: new ArrayField(
         new StringField({ blank: false }),

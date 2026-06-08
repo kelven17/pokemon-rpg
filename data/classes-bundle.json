@@ -1,219 +1,199 @@
 [
-{
-"name": "Artista",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Algumas pessoas preferem competir contra outras em Concursos não violentos. Os Artistas conhecem as vantagens naturais da aparência, do carisma e da presença de palco para influenciar os jurados e também a plateia. Eles podem trazer a vitória para si mesmo antes de entrar em uma competição. Um concurso não difere de uma batalha: apenas um Pokémon bem treinado e preparado pode vencer concursos, que envolvem demonstrações de muitas qualidades, desde a valentia física assustadora até a fofice infantil. Enquanto dominam os concursos com poderosas demonstrações e performances, eles ainda podem executar alguns feitos poderosos em batalhas convencionais. Um Artista pode garantir um comportamento apropriado tanto aos Pokémons quanto aos humanos, graças à sua capacidade manipulativa.</p>",
-"slug": "artista",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [
-"Intimidação",
-"Empatia",
-"Manha",
-"Manipulação",
-"Percepção",
-"Acrobacia",
-"Performance",
-"Prestidigitação"
-],
-"requirementsSameTree": "",
-"requirementsOther": "Defesa Especial 13, Velocidade 13."
-}
-},
-{
-"name": "Captor",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Grandes especialistas em capturar pokémons podem encontrar qualquer pokémon selvagem e obter uma nova marca em sua pokéagenda. Com mira incomparável e um grande entendimento sobre a tecnologia do mundo pokémon, os Captores aprimoram suas técnicas de arremesso de pokébolas e como estas funcionam. Eles conhecem intimamente as tecnologias implementadas nos vários tipos de pokébolas e podem melhorar suas taxas de captura com ajustes nelas. Mesmo depois de um pokémon selvagem romper a pokébola após uma tentativa fracassada de captura, o Captor com pouco esforço pode reparar a pokébola para evitar a despesa. Existem também os Colecionadores, que acreditam que cada pokémon é imprescindível para se ter. Eles precisam pegar todos eles. Esse Captor não sonha com a Liga Pokémon ou com qualquer holofote no palco, eles têm uma lista de pokémons e precisam capturar cada um deles. Eles treinam continuamente para melhorar sua taxa de captura, eles não podem parar até que tenham cada uma das espécies diferentes. Alguns Colecionadores são tão fãs de pokémons que se vestem como pokémons diariamente.</p>",
-"slug": "captor",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [],
-"requirementsSameTree": "",
-"requirementsOther": "Saúde 13, Velocidade 13."
-}
-},
-{
-"name": "Criador",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Algumas pessoas gostam de cuidar de pokémons desde o momento em que o mesmo nasceu, afim de construir um vínculo com seus mascotes queridos. O cuidado especial do Criador desde o nascimento até a idade adulta pode mostrar a verdadeira força de um pokémon. Este cuidado amoroso pode ser visto até mesmo nas gerações futuras, constantemente aprimorando a saúde e as competências de cada novo pokémon que nasce. Botânico também é um Criador que encontra alegria não só em criar pokémons, mas também vegetais. Botânicos descobrem como cultivar plantas mais produtivas que selvagens, mais potentes e, melhor de tudo, mais saborosas. Um Botânico tem um cuidado especial para produzir novos e encantadores sabores a partir das frutas que plantam. Também especialistas em encontrar frutas selvagens, os Botânicos podem prover alimento emergencial. Criando frutas híbridas para alimentar pokémons, o Botânico pode melhorar o humor e as habilidades de alguém sortudo o suficiente para tê-lo como amigo. O Cozinheiro também é um ótimo Criador para se ter como amigo. Ele é um talentoso mestre da culinária. Este criador gosta de fazer comida para seus amigos e seus pokémons. Refeições deliciosas e energéticas estarão sempre disponíveis àqueles ao redor do Cozinheiro. Criando refeições que satisfazem as necessidades de cada um, ele aprimora o humor e a qualidade de vida de todos aqueles sortudos o suficiente para serem servidos por ele. A comida é fácil para uma equipe que viaja com um Cozinheiro, porque ele pode usar o mundo ao seu redor para alimentar todos, com temperos, vitaminas, bolos e até medicina natural.</p>",
-"slug": "criador",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [],
-"requirementsSameTree": "",
-"requirementsOther": ""
-}
-},
-{
-"name": "Empático",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Um Empático se relaciona ainda mais com os outros do que um telepata comum. Ele pode realmente sentir as coisas que os outros seres sentem, em vez de apenas saber sobre eles, assim sua compreensão pode ir além do tempo dentro das mentes, e pode vencer a barreira entre espécies para compreender todos os pokémons. Através destes mecanismos, os Empáticos tratam a alma e o corpo das pessoas, trazendo cura e aliviando o sofrimento em ambos pokémons e humanos. Em resumo, o Empático é um bom samaritano que cura e serve como uma ponte mística entre humanos e pokémons.</p>",
-"slug": "empatico",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [
-"Imunidade",
-"Concentração",
-"Regeneração",
-"História",
-"Empatia",
-"Manipulação",
-"Percepção",
-"Performance"
-],
-"requirementsSameTree": "",
-"requirementsOther": "Um Pokémon seu que já subiu pelo menos 20 Níveis com você."
-}
-},
-{
-"name": "Guerreiro",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Alguns humanos excedem fisicamente vários pokémons no físico. Eles combatem diretamente, e se tornam incomparáveis àqueles sem treinamento, que só podem fazer tentativas aleatórias de fazer qualquer coisa. Guerreiros podem nocautear humanos com pouco esforço, e seus pokémons também se beneficiam de suas façanhas. O Guerreiro tem uma afinidade natural com os Tipos Metal, Terra, Pedra e especialmente Lutador – que são todos pokémons muito físicos – de modo que pode treiná-los melhor para usar ataques com todo o seu potencial. Resistente e focado, o Guerreiro vence obstáculos ao lado de seus pokémons. Eles podem usar técnicas de pokémons, demonstrando feitos de força e disciplina. Embora não melhorem tanto as competências dos pokémons como um Treinador, por exemplo, eles obtêm profundo respeito de seus pokémons, uma vez que são capazes de lutar contra seus próprios pokémons.</p>",
-"slug": "guerreiro",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [
-"Apneia",
-"Resiliência",
-"Corrida",
-"Força",
-"Intimidação",
-"Salto",
-"Deflexão",
-"Incansável"
-],
-"requirementsSameTree": "",
-"requirementsOther": "Ataque 13, Defesa 13."
-}
-},
-{
-"name": "Místico",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>O Místico se conecta com os Pokémons e natureza em um nível primitivo que a maioria não entende. Eles são capazes de entrar em um transe para canalizar Pokémons e ver através de seus olhos, forjando uma conexão tão fundamental que podem manifestar algumas habilidades de seus Pokémons. Juntos, o Místico e os Pokémons canalizados podem usar rituais surpreendentes. Por milênios, estes dons guiaram os Místicos em direção a funções religiosas e espirituais, colocando-os como elos aos Pokémons antigos e Lendários. Sua natureza espiritual exige dedicação sacerdotal, por isso, nos tempos atuais, a maioria dos Místicos não vive em meio ao caos urbano, e por isso não é tão facilmente acessada. Místicos se mantêm para si.</p>",
-"slug": "mistico",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [
-"Imunidade",
-"Jejum",
-"Resiliência",
-"Concentração",
-"Deflexão",
-"Regeneração",
-"História",
-"Empatia",
-"Percepção",
-"Furtividade"
-],
-"requirementsSameTree": "",
-"requirementsOther": "Saúde 13, Defesa 13."
-}
-},
-{
-"name": "Pesquisador",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Tendo estudado durante anos as enciclopédias antes de sair em sua jornada, o Pesquisador usa sua sagacidade e seu intelecto para analisar e combater os problemas que encontrar. Ele é útil para qualquer um, e é referência para todos. Os Pesquisadores pretendem saber mais. Eles retêm uma vasta quantidade de conhecimento relacionado à maioria dos pokémons, e muito mais. Alguns Pesquisadores, tornam-se Professor pois, já dominou o conhecimento em torno de todos os tópicos. Eles podem identificar tudo sobre um pokémon: seu nível de poder, seu conjunto completo de técnicas, seus habitats ou qualquer outra coisa sobre qualquer espécie descrita. Os Professores são os de inteligência inigualável e usam sua vasta quantidade de conhecimento em campo como gênios. Um Pesquisador que estuda a biologia, a física e a química é um Cientista. Os Cientistas misturam vários materiais para interação com tecidos vivos, produzindo repelentes, tônicos e outros itens usados para qualquer coisa que possam imaginar. Um Cientista nem sempre tem os materiais certos para o produto desejado, mas talvez alguns experimentos originem a fórmula para um remédio nunca antes visto. Assim, Cientistas passam horas com diferentes materiais e encontram novas maneiras de criar as mesmas coisas que possa ser comprada em uma estante da Pokéloja.</p>",
-"slug": "pesquisador",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [],
-"requirementsSameTree": "",
-"requirementsOther": ""
-}
-},
-{
-"name": "Psíquico",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Nem todo ser humano do mundo Pokémon nasce com habilidades naturais iguais. Os Psíquicos exploram um potencial misterioso que muitos humanos parecem ter escondido dentro de si. Capazes de impactar a matéria com apenas sua mente, o Psíquico é uma força a ser tão reconhecida quantos os pokémons psíquicos. Psíquicos acabam por desenvolver uma afinidade natural com os pokémons Psíquicos, pois também podem mover objetos por telecinesia e telepaticamente entrar nas mentes dos outros. Eles podem descobrir exatamente o que seus pokémons precisam, negociar dentro das mentes de outros e comungar com pokémons selvagens sem se mexer.</p>",
-"slug": "psiquico",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [],
-"requirementsSameTree": "",
-"requirementsOther": ""
-}
-},
-{
-"name": "Ranger",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Rangers são figuras de autoridade responsáveis pela manutenção da paz e do equilíbrio. Os laços que os Rangers criam com seus parceiros são tão poderosos que aquele que um dia foi um pokémon selvagem acabará por se juntar à cruzada do Ranger por justiça e bem-estar. Devido aos serviços excepcionais prestados, um Ranger pode ganhar poder político e governamental. Dentre estes, aqueles com a competência social aguçada para a manipulação são os que têm o dom para a liderança. Estes se destacam e podem esperar serem promovidos a Oficiais, que ocupam cargos chave na administração militar local. Oficiais compartilham os mesmos atributos: lealdade e liderança. Seus parceiros confiam em sua determinação; seus inimigos temem sua perseverança em situações perigosas. A presença do Oficial é tão poderosa que uma ordem dele simplesmente capacita seus aliados a coisas que antes se acreditava serem incapazes de alcançar. Rangers podem ser vistos como cadetes, pois os Policiais são Rangers promovidos. Eles recebem missões mais perigosas para derrotar o crime em todos os níveis. Para lidar com isto, o Policial usará tecnologia extra fornecida pela União Ranger, garantindo vantagens exclusivas. Apesar de poderem lidar com muitas situações perigosas, os Policiais não são instruídos a deixarem as situações se agravarem: eles devem manter a situação sob controle, devem prever e lidar com ameaças antes que incidentes ocorram. Como uma das duas formas de promoção dos Rangers (sendo a outra o Oficial), os Policiais se cercam de um tipo especial de respeito relacionado à aplicação da lei.</p>",
-"slug": "ranger",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [],
-"requirementsSameTree": "",
-"requirementsOther": ""
-}
-},
-{
-"name": "Treinador",
-"type": "class",
-"img": "icons/svg/aura.svg",
-"system": {
-"description": "<p>Treinadores desejam ser os melhores, como ninguém nunca foi. Um Treinador percebe o potencial combativo de cada pokémon. Eles podem maximizar os ataques de seus Pokémon e encontrar pontos fracos no pokémon de um oponente normalmente imunes ou resistentes aos ataques. Esses treinadores são lutadores dedicados que estudaram como maximizar a experiência de batalha de seus pokémons, e desenvolvem seus pokémons em cada batalha, preenchendo-a com paixão.</p>",
-"slug": "treinador",
-"parentClass": "",
-"keyAttribute": "atk",
-"hpBase": 8,
-"hpPerLevel": 5,
-"grantedTalents": [],
-"grantedSkills": [
-"Corrida",
-"Intimidação",
-"Concentração",
-"Incansável",
-"História",
-"Investigação",
-"Manha",
-"Manipulação"
-],
-"requirementsSameTree": "",
-"requirementsOther": "-"
-}
-}
+  {
+    "name": "Artista",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Algumas pessoas preferem competir contra outras em Concursos não violentos. Os Artistas conhecem as vantagens naturais da aparência, do carisma e da presença de palco para influenciar os jurados e também a plateia. Eles podem trazer a vitória para si mesmo antes de entrar em uma competição. Um concurso não difere de uma batalha: apenas um Pokémon bem treinado e preparado pode vencer concursos, que envolvem demonstrações de muitas qualidades, desde a valentia física assustadora até a fofice infantil. Enquanto dominam os concursos com poderosas demonstrações e performances, eles ainda podem executar alguns feitos poderosos em batalhas convencionais. Um Artista pode garantir um comportamento apropriado tanto aos Pokémons quanto aos humanos, graças à sua capacidade manipulativa.</p>",
+      "slug": "artista",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [
+        "Intimidação",
+        "Empatia",
+        "Manha",
+        "Manipulação",
+        "Percepção",
+        "Acrobacia",
+        "Performance",
+        "Prestidigitação"
+      ],
+      "requirementsSameTree": "",
+      "requirementsOther": "Defesa Especial 13, Velocidade 13."
+    }
+  },
+  {
+    "name": "Captor",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Grandes especialistas em capturar pokémons podem encontrar qualquer pokémon selvagem e obter uma nova marca em sua pokéagenda. Com mira incomparável e um grande entendimento sobre a tecnologia do mundo pokémon, os Captores aprimoram suas técnicas de arremesso de pokébolas e como estas funcionam. Eles conhecem intimamente as tecnologias implementadas nos vários tipos de pokébolas e podem melhorar suas taxas de captura com ajustes nelas. Mesmo depois de um pokémon selvagem romper a pokébola após uma tentativa fracassada de captura, o Captor com pouco esforço pode reparar a pokébola para evitar a despesa. Existem também os Colecionadores, que acreditam que cada pokémon é imprescindível para se ter. Eles precisam pegar todos eles. Esse Captor não sonha com a Liga Pokémon ou com qualquer holofote no palco, eles têm uma lista de pokémons e precisam capturar cada um deles. Eles treinam continuamente para melhorar sua taxa de captura, eles não podem parar até que tenham cada uma das espécies diferentes. Alguns Colecionadores são tão fãs de pokémons que se vestem como pokémons diariamente.</p>",
+      "slug": "captor",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [],
+      "requirementsSameTree": "",
+      "requirementsOther": "Saúde 13, Velocidade 13."
+    }
+  },
+  {
+    "name": "Criador",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Algumas pessoas gostam de cuidar de pokémons desde o momento em que o mesmo nasceu, afim de construir um vínculo com seus mascotes queridos. O cuidado especial do Criador desde o nascimento até a idade adulta pode mostrar a verdadeira força de um pokémon. Este cuidado amoroso pode ser visto até mesmo nas gerações futuras, constantemente aprimorando a saúde e as competências de cada novo pokémon que nasce. Botânico também é um Criador que encontra alegria não só em criar pokémons, mas também vegetais. Botânicos descobrem como cultivar plantas mais produtivas que selvagens, mais potentes e, melhor de tudo, mais saborosas. Um Botânico tem um cuidado especial para produzir novos e encantadores sabores a partir das frutas que plantam. Também especialistas em encontrar frutas selvagens, os Botânicos podem prover alimento emergencial. Criando frutas híbridas para alimentar pokémons, o Botânico pode melhorar o humor e as habilidades de alguém sortudo o suficiente para tê-lo como amigo. O Cozinheiro também é um ótimo Criador para se ter como amigo. Ele é um talentoso mestre da culinária. Este criador gosta de fazer comida para seus amigos e seus pokémons. Refeições deliciosas e energéticas estarão sempre disponíveis àqueles ao redor do Cozinheiro. Criando refeições que satisfazem as necessidades de cada um, ele aprimora o humor e a qualidade de vida de todos aqueles sortudos o suficiente para serem servidos por ele. A comida é fácil para uma equipe que viaja com um Cozinheiro, porque ele pode usar o mundo ao seu redor para alimentar todos, com temperos, vitaminas, bolos e até medicina natural.</p>",
+      "slug": "criador",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [],
+      "requirementsSameTree": "",
+      "requirementsOther": ""
+    }
+  },
+  {
+    "name": "Empático",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Um Empático se relaciona ainda mais com os outros do que um telepata comum. Ele pode realmente sentir as coisas que os outros seres sentem, em vez de apenas saber sobre eles, assim sua compreensão pode ir além do tempo dentro das mentes, e pode vencer a barreira entre espécies para compreender todos os pokémons. Através destes mecanismos, os Empáticos tratam a alma e o corpo das pessoas, trazendo cura e aliviando o sofrimento em ambos pokémons e humanos. Em resumo, o Empático é um bom samaritano que cura e serve como uma ponte mística entre humanos e pokémons.</p>",
+      "slug": "empatico",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [
+        "Imunidade",
+        "Concentração",
+        "Regeneração",
+        "História",
+        "Empatia",
+        "Manipulação",
+        "Percepção",
+        "Performance"
+      ],
+      "requirementsSameTree": "",
+      "requirementsOther": "Um Pokémon seu que já subiu pelo menos 20 Níveis com você."
+    }
+  },
+  {
+    "name": "Guerreiro",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Alguns humanos excedem fisicamente vários pokémons no físico. Eles combatem diretamente, e se tornam incomparáveis àqueles sem treinamento, que só podem fazer tentativas aleatórias de fazer qualquer coisa. Guerreiros podem nocautear humanos com pouco esforço, e seus pokémons também se beneficiam de suas façanhas. O Guerreiro tem uma afinidade natural com os Tipos Metal, Terra, Pedra e especialmente Lutador – que são todos pokémons muito físicos – de modo que pode treiná-los melhor para usar ataques com todo o seu potencial. Resistente e focado, o Guerreiro vence obstáculos ao lado de seus pokémons. Eles podem usar técnicas de pokémons, demonstrando feitos de força e disciplina. Embora não melhorem tanto as competências dos pokémons como um Treinador, por exemplo, eles obtêm profundo respeito de seus pokémons, uma vez que são capazes de lutar contra seus próprios pokémons.</p>",
+      "slug": "guerreiro",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [
+        "Apneia",
+        "Resiliência",
+        "Corrida",
+        "Força",
+        "Intimidação",
+        "Salto",
+        "Deflexão",
+        "Incansável"
+      ],
+      "requirementsSameTree": "",
+      "requirementsOther": "Ataque 13, Defesa 13."
+    }
+  },
+  {
+    "name": "Místico",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>O Místico se conecta com os Pokémons e natureza em um nível primitivo que a maioria não entende. Eles são capazes de entrar em um transe para canalizar Pokémons e ver através de seus olhos, forjando uma conexão tão fundamental que podem manifestar algumas habilidades de seus Pokémons. Juntos, o Místico e os Pokémons canalizados podem usar rituais surpreendentes. Por milênios, estes dons guiaram os Místicos em direção a funções religiosas e espirituais, colocando-os como elos aos Pokémons antigos e Lendários. Sua natureza espiritual exige dedicação sacerdotal, por isso, nos tempos atuais, a maioria dos Místicos não vive em meio ao caos urbano, e por isso não é tão facilmente acessada. Místicos se mantêm para si.</p>",
+      "slug": "mistico",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [
+        "Imunidade",
+        "Jejum",
+        "Resiliência",
+        "Concentração",
+        "Deflexão",
+        "Regeneração",
+        "História",
+        "Empatia",
+        "Percepção",
+        "Furtividade"
+      ],
+      "requirementsSameTree": "",
+      "requirementsOther": "Saúde 13, Defesa 13."
+    }
+  },
+  {
+    "name": "Pesquisador",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Tendo estudado durante anos as enciclopédias antes de sair em sua jornada, o Pesquisador usa sua sagacidade e seu intelecto para analisar e combater os problemas que encontrar. Ele é útil para qualquer um, e é referência para todos. Os Pesquisadores pretendem saber mais. Eles retêm uma vasta quantidade de conhecimento relacionado à maioria dos pokémons, e muito mais. Alguns Pesquisadores, tornam-se Professor pois, já dominou o conhecimento em torno de todos os tópicos. Eles podem identificar tudo sobre um pokémon: seu nível de poder, seu conjunto completo de técnicas, seus habitats ou qualquer outra coisa sobre qualquer espécie descrita. Os Professores são os de inteligência inigualável e usam sua vasta quantidade de conhecimento em campo como gênios. Um Pesquisador que estuda a biologia, a física e a química é um Cientista. Os Cientistas misturam vários materiais para interação com tecidos vivos, produzindo repelentes, tônicos e outros itens usados para qualquer coisa que possam imaginar. Um Cientista nem sempre tem os materiais certos para o produto desejado, mas talvez alguns experimentos originem a fórmula para um remédio nunca antes visto. Assim, Cientistas passam horas com diferentes materiais e encontram novas maneiras de criar as mesmas coisas que possa ser comprada em uma estante da Pokéloja.</p>",
+      "slug": "pesquisador",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [],
+      "requirementsSameTree": "",
+      "requirementsOther": ""
+    }
+  },
+  {
+    "name": "Psíquico",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Nem todo ser humano do mundo Pokémon nasce com habilidades naturais iguais. Os Psíquicos exploram um potencial misterioso que muitos humanos parecem ter escondido dentro de si. Capazes de impactar a matéria com apenas sua mente, o Psíquico é uma força a ser tão reconhecida quantos os pokémons psíquicos. Psíquicos acabam por desenvolver uma afinidade natural com os pokémons Psíquicos, pois também podem mover objetos por telecinesia e telepaticamente entrar nas mentes dos outros. Eles podem descobrir exatamente o que seus pokémons precisam, negociar dentro das mentes de outros e comungar com pokémons selvagens sem se mexer.</p>",
+      "slug": "psiquico",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [],
+      "requirementsSameTree": "",
+      "requirementsOther": ""
+    }
+  },
+  {
+    "name": "Ranger",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Rangers são figuras de autoridade responsáveis pela manutenção da paz e do equilíbrio. Os laços que os Rangers criam com seus parceiros são tão poderosos que aquele que um dia foi um pokémon selvagem acabará por se juntar à cruzada do Ranger por justiça e bem-estar. Devido aos serviços excepcionais prestados, um Ranger pode ganhar poder político e governamental. Dentre estes, aqueles com a competência social aguçada para a manipulação são os que têm o dom para a liderança. Estes se destacam e podem esperar serem promovidos a Oficiais, que ocupam cargos chave na administração militar local. Oficiais compartilham os mesmos atributos: lealdade e liderança. Seus parceiros confiam em sua determinação; seus inimigos temem sua perseverança em situações perigosas. A presença do Oficial é tão poderosa que uma ordem dele simplesmente capacita seus aliados a coisas que antes se acreditava serem incapazes de alcançar. Rangers podem ser vistos como cadetes, pois os Policiais são Rangers promovidos. Eles recebem missões mais perigosas para derrotar o crime em todos os níveis. Para lidar com isto, o Policial usará tecnologia extra fornecida pela União Ranger, garantindo vantagens exclusivas. Apesar de poderem lidar com muitas situações perigosas, os Policiais não são instruídos a deixarem as situações se agravarem: eles devem manter a situação sob controle, devem prever e lidar com ameaças antes que incidentes ocorram. Como uma das duas formas de promoção dos Rangers (sendo a outra o Oficial), os Policiais se cercam de um tipo especial de respeito relacionado à aplicação da lei.</p>",
+      "slug": "ranger",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [],
+      "requirementsSameTree": "",
+      "requirementsOther": ""
+    }
+  },
+  {
+    "name": "Treinador",
+    "type": "class",
+    "img": "icons/svg/aura.svg",
+    "system": {
+      "description": "<p>Treinadores desejam ser os melhores, como ninguém nunca foi. Um Treinador percebe o potencial combativo de cada pokémon. Eles podem maximizar os ataques de seus Pokémon e encontrar pontos fracos no pokémon de um oponente normalmente imunes ou resistentes aos ataques. Esses treinadores são lutadores dedicados que estudaram como maximizar a experiência de batalha de seus pokémons, e desenvolvem seus pokémons em cada batalha, preenchendo-a com paixão.</p>",
+      "slug": "treinador",
+      "parentClass": "",
+      "keyAttribute": "atk",
+      "grantedTalents": [],
+      "grantedSkills": [
+        "Corrida",
+        "Intimidação",
+        "Concentração",
+        "Incansável",
+        "História",
+        "Investigação",
+        "Manha",
+        "Manipulação"
+      ],
+      "requirementsSameTree": "",
+      "requirementsOther": "-"
+    }
+  }
 ]

@@ -9,7 +9,7 @@ const BUNDLE_PATH = "systems/pokemon-rpg/data/classes-bundle.json";
 const PACK_NAME   = "pokemon-rpg-classes";
 const PACK_LABEL  = "Pokémon RPG · Classes";
 const SETTING_KEY = "classesBundleVersion";
-const CURRENT_BUNDLE_VERSION = "0.1.0";
+const CURRENT_BUNDLE_VERSION = "0.2.0";
 
 export function registerClassImporterSettings() {
   game.settings.register("pokemon-rpg", SETTING_KEY, {
