@@ -1,0 +1,29 @@
+{
+  "name": "Malícia Amarga",
+  "type": "move",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "",
+    "type": "ghost",
+    "category": "special",
+    "aptidao": "estilo",
+    "descritores": ["Explosão 4"],
+    "accuracy": 2,
+    "damageBasal": "3d10+22",
+    "alcance": "si",
+    "alcanceRange": null,
+    "frequencia": "per-encounter",
+    "usado": false,
+    "contestDescriptor": "encerramento",
+    "contestOverride": "",
+    "pp": {
+      "value": 0,
+      "max": 0
+    },
+    "effect": "Diminui uma Fase de Ataque dos atingidos.",
+    "learnLevel": 1,
+    "priority": 0,
+    "target": "single",
+    "grantedCapacity": ""
+  }
+}

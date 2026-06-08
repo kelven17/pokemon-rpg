@@ -19,7 +19,7 @@ const PACK_NAME   = "pokemon-rpg-moves";   // nome interno do compendium
 const PACK_LABEL  = "Pokémon RPG · Golpes";
 const SETTING_KEY = "movesBundleVersion";
 // Atualize este número quando regerar o bundle pra forçar reimport.
-const CURRENT_BUNDLE_VERSION = "0.2.0";
+const CURRENT_BUNDLE_VERSION = "0.2.1";
 
 /**
  * Registra a setting que rastreia a versão do bundle já importada.
