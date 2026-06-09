@@ -226,31 +226,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       dropSelector: ".pokemon-sheet",
       callbacks: { drop: this._onDrop.bind(this) }
     }).bind(this.element);
-
-    // ── Bio / Notas: prose-mirror salva manualmente via update() ──
-    // O submitOnChange do form não captura o evento do custom element em
-    // todas as versões; ouvimos diretamente o `change` que o ProseMirror
-    // emite ao sair do modo edição.
-    this.element.querySelectorAll("prose-mirror[name]").forEach(pm => {
-      pm.addEventListener("change", async () => {
-        const name = pm.getAttribute("name");
-        const value = pm.value ?? "";
-        if ( name ) {
-          try { await this.actor.update({ [name]: value }); }
-          catch (err) { console.warn("pokemon-rpg | bio save:", err); }
-        }
-      });
-    });
-
-    // ── Picker de Espécie: armazena uuid escolhido pra sobreviver re-renders
-    // e evitar o bug de precisar selecionar duas vezes.
-    const speciesSelect = this.element.querySelector(".species-pick-select");
-    if ( speciesSelect ) {
-      speciesSelect.addEventListener("change", (ev) => {
-        ev.stopPropagation();
-        this._pendingSpeciesUuid = ev.target.value || null;
-      });
-    }
   }
 
   /**
@@ -514,8 +489,7 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     event?.preventDefault?.();
     const root = target.closest(".species-picker") ?? this.element;
     const select = root.querySelector(".species-pick-select");
-    // Prioriza o uuid armazenado no change-event (sobrevive a re-renders).
-    const uuid = this._pendingSpeciesUuid || select?.value;
+    const uuid = select?.value;
     if ( !uuid ) {
       ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Species_NotFound"));
       return;
@@ -525,7 +499,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Species_NotFound"));
       return;
     }
-    this._pendingSpeciesUuid = null;
     return this._applySpecies(item);
   }
 
@@ -605,41 +578,4 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   static async _onPhaseResetAll(event, target) {
     return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
   }
-}
-s.actor.updateEmbeddedDocuments("Item", updates);
-    ui.notifications?.info(game.i18n.localize("POKEMON_RPG.Notify.PPRestored"));
-  }
-
-  static async _onResetMovesEncounter(event, target) {
-    const { resetMoveUsage } = await import("../helpers/rolls.mjs");
-    return resetMoveUsage(this.actor, "encounter");
-  }
-
-  static async _onResetMovesDaily(event, target) {
-    const { resetMoveUsage } = await import("../helpers/rolls.mjs");
-    return resetMoveUsage(this.actor, "daily");
-  }
-
-  static async _onOpenTrainer(event, target) {
-    const trainer = await this.actor.system.getTrainer();
-    trainer?.sheet.render(true);
-  }
-
-  /* ---------- Fases ---------- */
-  static async _onPhaseUp(event, target) {
-    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, +1);
-  }
-  static async _onPhaseDown(event, target) {
-    return PokemonSheetPhaseHelpers.changePhase(this.actor, target.dataset.attribute, -1);
-  }
-  static async _onPhaseReset(event, target) {
-    return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
-  }
-  static async _onPhaseResetAll(event, target) {
-    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
-  }
-}
-tAllPhases(this.actor);
-  }
-}
 }
