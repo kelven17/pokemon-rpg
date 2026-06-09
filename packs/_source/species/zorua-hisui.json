@@ -39,44 +39,74 @@
     ],
     "altasHabilidades": [],
     "learnset": [
-      { "level": 1,  "trigger": "level", "move": "Arranhão" },
-      { "level": 1,  "trigger": "level", "move": "Encarar" },
-      { "level": 5,  "trigger": "level", "move": "Perseguição" },
-      { "level": 9,  "trigger": "level", "move": "Choro" },
-      { "level": 13, "trigger": "level", "move": "Garras Furiosas" },
-      { "level": 17, "trigger": "level", "move": "Ataque Furtivo" },
-      { "level": 21, "trigger": "level", "move": "Careta" },
-      { "level": 25, "trigger": "level", "move": "Provocação" },
-      { "level": 29, "trigger": "level", "move": "Trapaça" },
-      { "level": 33, "trigger": "level", "move": "Tormento" },
-      { "level": 37, "trigger": "level", "move": "Agilidade" },
-      { "level": 41, "trigger": "level", "move": "Malícia Amarga" },
-      { "level": 45, "trigger": "level", "move": "Castigo" },
-      { "level": 49, "trigger": "level", "move": "Conspiração" },
-      { "level": 53, "trigger": "level", "move": "Selo" },
-      { "level": 57, "trigger": "level", "move": "Ofuscação" }
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Arranhão"
+      },
+      {
+        "level": 1,
+        "trigger": "level",
+        "move": "Encarar"
+      },
+      {
+        "level": 4,
+        "trigger": "level",
+        "move": "Tormento"
+      },
+      {
+        "level": 8,
+        "trigger": "level",
+        "move": "Afiar"
+      },
+      {
+        "level": 12,
+        "trigger": "level",
+        "move": "Sombra Traiçoeira"
+      },
+      {
+        "level": 16,
+        "trigger": "level",
+        "move": "Maldição"
+      },
+      {
+        "level": 20,
+        "trigger": "level",
+        "move": "Provocação"
+      },
+      {
+        "level": 24,
+        "trigger": "level",
+        "move": "Nocaute"
+      },
+      {
+        "level": 32,
+        "trigger": "level",
+        "move": "Agilidade"
+      },
+      {
+        "level": 36,
+        "trigger": "level",
+        "move": "Esfera de Sombras"
+      },
+      {
+        "level": 40,
+        "trigger": "level",
+        "move": "Malícia Amarga"
+      },
+      {
+        "level": 44,
+        "trigger": "level",
+        "move": "Conspiração"
+      },
+      {
+        "level": 48,
+        "trigger": "level",
+        "move": "Trapaça"
+      }
     ],
-    "golpesHerdados": [
-      "Cativar",
-      "Contra-Ataque",
-      "Detecção",
-      "Extrassensorial",
-      "Furto",
-      "Imitação",
-      "Lembrança",
-      "Pelas Costas",
-      "Pulso Sombrio"
-    ],
-    "golpesEnsinaveis": [
-      "Clamor",
-      "Cobiça",
-      "Nocaute",
-      "Ódio",
-      "Pular",
-      "Trapaça",
-      "Truque",
-      "Vozeirão"
-    ],
+    "golpesHerdados": [],
+    "golpesEnsinaveis": [],
     "evolucoes": [
       {
         "from": "Zorua (Hisui)",

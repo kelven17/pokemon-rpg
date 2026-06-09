@@ -9,7 +9,7 @@ const BUNDLE_PATH = "systems/pokemon-rpg/data/species-bundle.json";
 const PACK_NAME   = "pokemon-rpg-species";
 const PACK_LABEL  = "Pokémon RPG · Espécies";
 const SETTING_KEY = "speciesBundleVersion";
-const CURRENT_BUNDLE_VERSION = "0.1.1";
+const CURRENT_BUNDLE_VERSION = "0.1.3";
 
 export function registerSpeciesImporterSettings() {
   game.settings.register("pokemon-rpg", SETTING_KEY, {
