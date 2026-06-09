@@ -43,7 +43,7 @@
     border: none;
     padding: 2px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.85);
+    color: #000;
     transition: transform 0.12s ease;
     max-width: 72px;
 }
@@ -79,9 +79,9 @@
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     background: rgba(255, 255, 255, 0.05);
-    color: rgba(255, 255, 255, 0.7);
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,8 +90,8 @@
 }
 #pkrpg-stage-bar .pkrpg-stage-clear:hover {
     background: rgba(255, 80, 80, 0.25);
-    color: #fff;
-    border-color: rgba(255, 80, 80, 0.5);
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.6);
 }
 
 #pkrpg-stage-portrait {
@@ -136,7 +136,7 @@
     font-family: "Bangers", "Signika", sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
     background: rgba(20, 22, 28, 0.85);
     border: 1px solid var(--pkrpg-stage-accent, #cc0000);
     border-radius: 12px;
