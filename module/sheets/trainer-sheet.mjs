@@ -242,6 +242,27 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
         drop: this._onDrop.bind(this)
       }
     }).bind(this.element);
+
+    // ── Bio / Notas: prose-mirror salva manualmente via update() ──
+    this.element.querySelectorAll("prose-mirror[name]").forEach(pm => {
+      pm.addEventListener("change", async () => {
+        const name = pm.getAttribute("name");
+        const value = pm.value ?? "";
+        if ( name ) {
+          try { await this.actor.update({ [name]: value }); }
+          catch (err) { console.warn("pokemon-rpg | bio save:", err); }
+        }
+      });
+    });
+
+    // ── Picker de Classe: armazena uuid escolhido pra sobreviver re-renders ──
+    const classSelect = this.element.querySelector(".class-pick-select");
+    if ( classSelect ) {
+      classSelect.addEventListener("change", (ev) => {
+        ev.stopPropagation();
+        this._pendingClassUuid = ev.target.value || null;
+      });
+    }
   }
 
   /**
@@ -369,7 +390,8 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     event?.preventDefault?.();
     const root = target.closest(".class-picker") ?? this.element;
     const select = root.querySelector(".class-pick-select");
-    const uuid = select?.value;
+    // Prioriza uuid persistido entre re-renders.
+    const uuid = this._pendingClassUuid || select?.value;
     if ( !uuid ) {
       ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Class_PickFirst"));
       return;
@@ -388,6 +410,7 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       ui.notifications?.warn(game.i18n.localize("POKEMON_RPG.Class_AlreadyOwned"));
       return;
     }
+    this._pendingClassUuid = null;
     await this.actor.createEmbeddedDocuments("Item", [classItem.toObject()]);
     ui.notifications?.info(
       game.i18n.format("POKEMON_RPG.Class_Acquired", { name: classItem.name })
@@ -464,4 +487,11 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const item = this.actor.items.get(itemId);
     item?.use();
   }
+}
+st("[data-item-id]")?.dataset.itemId;
+    const item = this.actor.items.get(itemId);
+    item?.use();
+  }
+}
+}
 }
