@@ -1981,3 +1981,12 @@
 .pokemon-rpg .scrollable::-webkit-scrollbar-thumb:hover {
     background: var(--pk-faint);
 }
+
+/* ─────────────────────────────────────────────────
+   Cor preta para textos em <select> e <option> da ficha
+   (override mínimo, não toca em outros estilos)
+   ───────────────────────────────────────────────── */
+.pokemon-rpg select,
+.pokemon-rpg select option {
+    color: #000;
+}
