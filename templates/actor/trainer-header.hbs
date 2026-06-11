@@ -16,7 +16,14 @@
         <circle cx="40" cy="40" r="9" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="4"/>
         <circle cx="40" cy="40" r="3" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2"/>
     </svg>
-    <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
+    <div class="profile-wrap">
+        <img class="profile-img" src="{{actor.img}}" data-action="editAvatar"
+             title="Clique para trocar o avatar"/>
+        <button type="button" class="token-edit-btn" data-action="editToken"
+                title="Trocar imagem do token">
+            <i class="fas fa-image"></i>
+        </button>
+    </div>
     <div class="header-fields">
         <h1 class="charname">
             <input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'POKEMON_RPG.TrainerName'}}"/>

@@ -29,7 +29,9 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: PokemonSheet._onPhaseDown,
       phaseReset: PokemonSheet._onPhaseReset,
       phaseResetAll: PokemonSheet._onPhaseResetAll,
-      tab: PokemonSheet._onChangeTab
+      tab: PokemonSheet._onChangeTab,
+      editAvatar: PokemonSheet._onEditAvatar,
+      editToken: PokemonSheet._onEditToken
     },
     form: {
       submitOnChange: true,
@@ -380,12 +382,23 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       "system.attributes.spe.value": values.spe
     };
 
-    // Renomeia ator se nome genérico
+    // Vínculo de nome: o `actor.name` é o APELIDO (único por pokémon).
+    // A espécie fica em `system.species.name` para referência. Isso evita
+    // colisão de nome/imagem entre vários pokémons da mesma espécie.
     const currentName = this.actor.name ?? "";
+    const currentNick = this.actor.system?.details?.nickname ?? "";
     const genericNames = ["Pokémon", "Pokemon", "New Actor", "Novo Actor"];
-    if ( !currentName || genericNames.includes(currentName) ) {
+    if ( currentNick ) {
+      // Já tem apelido: garante que actor.name = apelido.
+      updates["name"] = currentNick;
+    } else if ( !currentName || genericNames.includes(currentName) ) {
+      // Sem apelido nem nome custom: usa o nome da espécie como base
+      // tanto para o nickname quanto para o name (continuam editáveis).
       updates["name"] = speciesItem.name;
+      updates["system.details.nickname"] = speciesItem.name;
     }
+    // Caso tenha nome custom mas sem apelido: mantém como está; o usuário
+    // pode preencher o apelido depois.
 
     await this.actor.update(updates, { pkrpgSkipNatureHook: true });
 
@@ -577,5 +590,30 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
   static async _onPhaseResetAll(event, target) {
     return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
+  }
+
+  /* ---------- Upload de Avatar / Token ---------- */
+  static async _onEditAvatar(event, target) {
+    event?.preventDefault?.();
+    const actor = this.actor;
+    const current = actor.img || "icons/svg/mystery-man.svg";
+    const fp = new foundry.applications.apps.FilePicker.implementation({
+      type: "image",
+      current,
+      callback: (path) => actor.update({ img: path })
+    });
+    return fp.render(true);
+  }
+
+  static async _onEditToken(event, target) {
+    event?.preventDefault?.();
+    const actor = this.actor;
+    const current = actor.prototypeToken?.texture?.src || actor.img || "icons/svg/mystery-man.svg";
+    const fp = new foundry.applications.apps.FilePicker.implementation({
+      type: "image",
+      current,
+      callback: (path) => actor.update({ "prototypeToken.texture.src": path })
+    });
+    return fp.render(true);
   }
 }

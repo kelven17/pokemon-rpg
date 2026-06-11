@@ -1990,3 +1990,43 @@
 .pokemon-rpg select option {
     color: #000;
 }
+
+/* ─────────────────────────────────────────────────
+   Upload de avatar e token na ficha
+   ───────────────────────────────────────────────── */
+.pokemon-rpg .profile-wrap {
+    position: relative;
+    flex-shrink: 0;
+}
+.pokemon-rpg .profile-wrap .profile-img {
+    cursor: pointer;
+    transition: filter 0.18s ease, transform 0.18s ease;
+}
+.pokemon-rpg .profile-wrap .profile-img:hover {
+    filter: brightness(1.1);
+    transform: scale(1.03);
+}
+.pokemon-rpg .token-edit-btn {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: var(--pk-accent-dark, #B91C1C);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.75em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    transition: transform 0.15s ease, background 0.15s ease;
+    padding: 0;
+    z-index: 2;
+}
+.pokemon-rpg .token-edit-btn:hover {
+    transform: scale(1.1);
+    background: var(--pk-accent, #EE1515);
+}

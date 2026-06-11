@@ -30,7 +30,9 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       phaseDown: TrainerSheet._onPhaseDown,
       phaseReset: TrainerSheet._onPhaseReset,
       phaseResetAll: TrainerSheet._onPhaseResetAll,
-      tab: TrainerSheet._onChangeTab
+      tab: TrainerSheet._onChangeTab,
+      editAvatar: TrainerSheet._onEditAvatar,
+      editToken: TrainerSheet._onEditToken
     },
     form: {
       submitOnChange: true,
@@ -463,5 +465,30 @@ export class TrainerSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     const itemId = target.closest("[data-item-id]")?.dataset.itemId;
     const item = this.actor.items.get(itemId);
     item?.use();
+  }
+
+  /* ---------- Upload de Avatar / Token ---------- */
+  static async _onEditAvatar(event, target) {
+    event?.preventDefault?.();
+    const actor = this.actor;
+    const current = actor.img || "icons/svg/mystery-man.svg";
+    const fp = new foundry.applications.apps.FilePicker.implementation({
+      type: "image",
+      current,
+      callback: (path) => actor.update({ img: path })
+    });
+    return fp.render(true);
+  }
+
+  static async _onEditToken(event, target) {
+    event?.preventDefault?.();
+    const actor = this.actor;
+    const current = actor.prototypeToken?.texture?.src || actor.img || "icons/svg/mystery-man.svg";
+    const fp = new foundry.applications.apps.FilePicker.implementation({
+      type: "image",
+      current,
+      callback: (path) => actor.update({ "prototypeToken.texture.src": path })
+    });
+    return fp.render(true);
   }
 }
