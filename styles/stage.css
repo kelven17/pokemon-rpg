@@ -170,3 +170,16 @@
     color: #ffcc33;
     text-shadow: 0 0 6px rgba(255, 204, 51, 0.6);
 }
+
+/* ─────────────────────────────────────────────────
+   Avatar do palco limpo: só a imagem, sem círculo
+   vermelho nem fundo (override final).
+   ───────────────────────────────────────────────── */
+.pkrpg-stage-portrait-img {
+    border: none;
+    background: transparent;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+#pkrpg-stage-portrait.visible:hover .pkrpg-stage-portrait-img {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
+}
