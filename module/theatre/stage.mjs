@@ -17,21 +17,23 @@ const FLAG_ACTIVE = "stageActive";
 
 class Stage {
   static _staged = new Set();
-  static _activeUuid = null;
+  static _activeUuids = new Set();   // múltiplos atores ativos lado a lado
   static _booted = false;
 
   static async _load() {
     const list = game.user?.getFlag(FLAG_SCOPE, FLAG_STAGED) ?? [];
     Stage._staged = new Set(Array.isArray(list) ? list : []);
-    const a = game.user?.getFlag(FLAG_SCOPE, FLAG_ACTIVE) ?? null;
-    Stage._activeUuid = (a && Stage._staged.has(a)) ? a : null;
+    const actives = game.user?.getFlag(FLAG_SCOPE, FLAG_ACTIVE) ?? [];
+    // Aceita formato antigo (string única) e novo (array).
+    const arr = Array.isArray(actives) ? actives : (actives ? [actives] : []);
+    Stage._activeUuids = new Set(arr.filter(u => Stage._staged.has(u)));
   }
 
   static async _save() {
     if ( !game.user ) return;
     try {
       await game.user.setFlag(FLAG_SCOPE, FLAG_STAGED, [...Stage._staged]);
-      await game.user.setFlag(FLAG_SCOPE, FLAG_ACTIVE, Stage._activeUuid);
+      await game.user.setFlag(FLAG_SCOPE, FLAG_ACTIVE, [...Stage._activeUuids]);
     } catch (err) {
       console.warn("pokemon-rpg | Stage._save:", err);
     }
@@ -45,7 +47,7 @@ class Stage {
     if ( !actor?.uuid ) return;
     const had = Stage._staged.has(actor.uuid);
     Stage._staged.add(actor.uuid);
-    Stage._activeUuid = actor.uuid;
+    Stage._activeUuids.add(actor.uuid);   // ao adicionar já fica visível
     await Stage._save();
     Stage._render();
     Hooks.callAll("pkrpg-stage-changed");
@@ -60,7 +62,7 @@ class Stage {
   static async remove(actor) {
     if ( !actor?.uuid ) return;
     const had = Stage._staged.delete(actor.uuid);
-    if ( Stage._activeUuid === actor.uuid ) Stage._activeUuid = null;
+    Stage._activeUuids.delete(actor.uuid);
     await Stage._save();
     Stage._render();
     Hooks.callAll("pkrpg-stage-changed");
@@ -72,9 +74,11 @@ class Stage {
     }
   }
 
+  /** Alterna a visibilidade do avatar grande para esse uuid (mantém no palco). */
   static async toggleActive(uuid) {
     if ( !Stage._staged.has(uuid) ) return;
-    Stage._activeUuid = (Stage._activeUuid === uuid) ? null : uuid;
+    if ( Stage._activeUuids.has(uuid) ) Stage._activeUuids.delete(uuid);
+    else Stage._activeUuids.add(uuid);
     await Stage._save();
     Stage._render();
   }
@@ -88,7 +92,7 @@ class Stage {
 
   static async clear() {
     Stage._staged.clear();
-    Stage._activeUuid = null;
+    Stage._activeUuids.clear();
     await Stage._save();
     Stage._render();
   }
@@ -201,10 +205,7 @@ class Stage {
     const root = document.createElement("div");
     root.id = "pkrpg-stage";
     root.innerHTML = `
-      <div id="pkrpg-stage-portrait" class="pkrpg-stage-portrait" data-action="hidePortrait" aria-hidden="true">
-        <img class="pkrpg-stage-portrait-img" alt="" />
-        <div class="pkrpg-stage-portrait-name"></div>
-      </div>
+      <div id="pkrpg-stage-portrait" class="pkrpg-stage-portrait" aria-hidden="true"></div>
       <div id="pkrpg-stage-bar" class="pkrpg-stage-bar empty" role="toolbar" aria-label="Stage">
         <div class="pkrpg-stage-actors"></div>
         <button type="button" class="pkrpg-stage-clear" data-action="clear" title="Esvaziar palco" aria-label="Esvaziar palco">
@@ -222,7 +223,8 @@ class Stage {
       else if ( a === "activate" ) { ev.preventDefault(); Stage.toggleActive(t.dataset.uuid); }
       else if ( a === "hidePortrait" ) {
         ev.preventDefault();
-        if ( Stage._activeUuid ) Stage.toggleActive(Stage._activeUuid);
+        // Esconde só o portrait grande clicado (não todos).
+        if ( t.dataset.uuid ) Stage.toggleActive(t.dataset.uuid);
       }
     });
     root.addEventListener("contextmenu", (ev) => {
@@ -257,7 +259,7 @@ class Stage {
     for ( const uuid of Stage._staged ) {
       const actor = fromUuidSync(uuid);
       if ( !actor ) continue;
-      const isActive = uuid === Stage._activeUuid;
+      const isActive = Stage._activeUuids.has(uuid);
       const img  = escape(actor.img || "icons/svg/mystery-man.svg");
       const name = escape(actor.name || "");
       html.push(
@@ -273,32 +275,39 @@ class Stage {
   static _renderPortrait() {
     const root = document.getElementById("pkrpg-stage-portrait");
     if ( !root ) return;
-    const img  = root.querySelector(".pkrpg-stage-portrait-img");
-    const name = root.querySelector(".pkrpg-stage-portrait-name");
-    if ( !Stage._activeUuid ) {
+    // Sem nenhum portrait ativo? esconde tudo.
+    if ( Stage._activeUuids.size === 0 ) {
       root.classList.remove("visible");
       root.setAttribute("aria-hidden", "true");
+      root.innerHTML = "";
       return;
     }
-    const actor = fromUuidSync(Stage._activeUuid);
-    if ( !actor ) {
-      root.classList.remove("visible");
-      root.setAttribute("aria-hidden", "true");
-      return;
+    const escape = (s) => String(s ?? "")
+      .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;").replaceAll("'","&#39;");
+    const html = [];
+    for ( const uuid of Stage._activeUuids ) {
+      const actor = fromUuidSync(uuid);
+      if ( !actor ) continue;
+      // Cor de acento por dono do ator.
+      const owner = (game.users ?? []).find(
+        u => !u.isGM && actor.testUserPermission(u, CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER)
+      );
+      const accent = owner?.color ? String(owner.color) : "#cc0000";
+      const img  = escape(actor.img || "icons/svg/mystery-man.svg");
+      const name = escape(actor.name || "");
+      const safeUuid = escape(uuid);
+      html.push(
+        `<div class="pkrpg-stage-portrait-item" data-action="hidePortrait" data-uuid="${safeUuid}" style="--pkrpg-stage-accent:${escape(accent)}">`
+        + `<img class="pkrpg-stage-portrait-img" src="${img}" alt="" />`
+        + `<div class="pkrpg-stage-portrait-name">${name}</div>`
+        + `</div>`
+      );
     }
-    img.src  = actor.img || "icons/svg/mystery-man.svg";
-    img.alt  = actor.name || "";
-    name.textContent = actor.name || "";
-    const owner = (game.users ?? []).find(
-      u => !u.isGM && actor.testUserPermission(u, CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER)
-    );
-    const accent = owner?.color ? String(owner.color) : "#cc0000";
-    root.style.setProperty("--pkrpg-stage-accent", accent);
+    root.innerHTML = html.join("");
     root.classList.add("visible");
     root.setAttribute("aria-hidden", "false");
   }
 }
 
-// Auto-registra hooks — esse módulo é autônomo, não precisa ser chamado
-// de fora.
 Hooks.once("ready", () => Stage._init());
