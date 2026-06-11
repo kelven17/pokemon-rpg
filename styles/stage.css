@@ -183,3 +183,9 @@
 #pkrpg-stage-portrait.visible:hover .pkrpg-stage-portrait-img {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.55);
 }
+
+/* Sem sombra também — avatar 100% limpo */
+.pkrpg-stage-portrait-img,
+#pkrpg-stage-portrait.visible:hover .pkrpg-stage-portrait-img {
+    box-shadow: none;
+}
