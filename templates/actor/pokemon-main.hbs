@@ -106,7 +106,10 @@
             <label class="picker-label">{{localize "POKEMON_RPG.Species_Choose"}}</label>
             <div class="picker-row">
                 {{!-- sem `name` para que o auto-submit do form não tente persistir --}}
-                <select class="species-pick-select" {{#unless speciesOptions.length}}disabled{{/unless}}>
+                {{!-- onchange inline impede o bubble pro form (submitOnChange) que re-renderizaria e perderia a seleção --}}
+                <select class="species-pick-select"
+                        onchange="event.stopPropagation()"
+                        {{#unless speciesOptions.length}}disabled{{/unless}}>
                     <option value="">—</option>
                     {{#each speciesOptions}}
                     <option value="{{this.uuid}}" {{#if (eq this.uuid ../system.species.uuid)}}selected{{/if}}>

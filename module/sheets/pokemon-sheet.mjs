@@ -226,10 +226,6 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       dropSelector: ".pokemon-sheet",
       callbacks: { drop: this._onDrop.bind(this) }
     }).bind(this.element);
-    // Impede que mudar o select de espécie dispare submitOnChange (que
-    // re-renderiza e perde a seleção antes do clique em "Aplicar").
-    this.element.querySelector(".species-pick-select")
-      ?.addEventListener("change", (ev) => ev.stopPropagation());
   }
 
   /**
@@ -581,16 +577,5 @@ export class PokemonSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
   }
   static async _onPhaseResetAll(event, target) {
     return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
-  }
-}
-
-  }
-  static async _onPhaseReset(event, target) {
-    return PokemonSheetPhaseHelpers.setPhase(this.actor, target.dataset.attribute, 0);
-  }
-  static async _onPhaseResetAll(event, target) {
-    return PokemonSheetPhaseHelpers.resetAllPhases(this.actor);
-  }
-}
   }
 }
