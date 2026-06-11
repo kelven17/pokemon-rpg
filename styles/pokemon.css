@@ -2030,3 +2030,24 @@
     transform: scale(1.1);
     background: var(--pk-accent, #EE1515);
 }
+
+/* ─────────────────────────────────────────────────
+   Avatar limpo: sem círculo vermelho, sem fundo, sem borda
+   (override final)
+   ───────────────────────────────────────────────── */
+.pokemon-rpg .sheet-header .profile-img,
+.pokemon-rpg .profile-wrap .profile-img {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+/* Botão de token só aparece ao passar o mouse sobre o avatar — discreto */
+.pokemon-rpg .profile-wrap .token-edit-btn {
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    pointer-events: none;
+}
+.pokemon-rpg .profile-wrap:hover .token-edit-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
