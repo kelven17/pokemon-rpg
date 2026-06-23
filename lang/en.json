@@ -216,6 +216,10 @@
       "ClassesBundleVersion": {
         "Name": "Imported Classes Bundle Version",
         "Hint": "Tracks which version of the classes bundle has already been imported into the world-side compendium."
+      },
+      "ItemsBundleVersion": {
+        "Name": "Imported Items Bundle Version",
+        "Hint": "Tracks which version of the items bundle has been imported."
       }
     },
     "TalentCategory": {
@@ -447,8 +451,28 @@
         "class": "Class",
         "ability": "Ability",
         "capacity": "Capacity",
-        "species": "Species"
+        "species": "Species",
+        "item": "Item"
       }
+    },
+    "ItemCategory": {
+      "Utility": "Utility",
+      "Berry": "Berries",
+      "Juice": "Juices",
+      "Held": "Held Items",
+      "Medicine": "Medicine",
+      "Ball": "Pokéballs",
+      "Stone": "Stones",
+      "Booster": "Performance Boosters",
+      "Supplement": "Supplements",
+      "Repellent": "Repellents",
+      "TM": "TMs/HMs",
+      "Other": "Other"
+    },
+    "ItemTarget": {
+      "Both": "Both",
+      "Pokemon": "Pokémon",
+      "Trainer": "Trainer"
     }
   }
 }

@@ -41,6 +41,12 @@ import {
   forceReimportClasses
 } from "./setup/classes-importer.mjs";
 import { learnMovesForLevelRange } from "./helpers/learn-moves.mjs";
+import { GenericItemData } from "./data/item-generic.mjs";
+import {
+  registerItemImporterSettings,
+  importItemsIfNeeded,
+  forceReimportItems
+} from "./setup/items-importer.mjs";
 
 /* -------------------------------------------- */
 /*  Init                                         */
@@ -59,7 +65,8 @@ Hooks.once("init", function() {
     reimportCapacities: forceReimportCapacities,
     reimportSpecies: forceReimportSpecies,
     reimportTalents: forceReimportTalents,
-    reimportClasses: forceReimportClasses
+    reimportClasses: forceReimportClasses,
+    reimportItems: forceReimportItems
   };
 
   // Registra settings dos importers.
@@ -69,6 +76,7 @@ Hooks.once("init", function() {
   registerSpeciesImporterSettings();
   registerTalentImporterSettings();
   registerClassImporterSettings();
+  registerItemImporterSettings();
   CONFIG.POKEMON_RPG = POKEMON_RPG;
 
   // Document classes.
@@ -86,7 +94,8 @@ Hooks.once("init", function() {
     class:    ClassData,
     ability:  AbilityData,
     capacity: CapacityData,
-    species:  SpeciesData
+    species:  SpeciesData,
+    item:     GenericItemData
   };
 
   // Sheets — API moderna v13/v14 via DocumentSheetConfig.
@@ -196,6 +205,12 @@ Hooks.once("ready", async function() {
     await importTalentsIfNeeded();
   } catch (err) {
     console.error("pokemon-rpg | erro no import de talentos:", err);
+  }
+  // Auto-import dos itens (poções, pokébolas, suplementos, etc.).
+  try {
+    await importItemsIfNeeded();
+  } catch (err) {
+    console.error("pokemon-rpg | erro no import de itens:", err);
   }
 });
 
