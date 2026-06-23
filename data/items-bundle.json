@@ -1,0 +1,3317 @@
+[
+  {
+    "name": "Corda",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 50,
+      "effect": "Corda com 10 metros que suportará até 100 kg.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Gancho",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 25,
+      "effect": "Um gancho com 2 ou 3 pontas com espaço para amarrar a corda.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kit de Desenho e Escrita",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 50,
+      "effect": "Dois cadernos, 4 lápis e 4 canetas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kit de Ferramentas",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 100,
+      "effect": "Martelo, chaves, régua de aço.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kit de Primeiros Socorros",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 650,
+      "effect": "Restaura humano inconsciente a 1 PV. Requer ATE/DFE 14.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kit de Viagens",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 250,
+      "effect": "Saco de dormir, mochila, tenda, cinto de pokébolas, lanterna.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pregos e Parafusos",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 35,
+      "effect": "20 pregos, 20 parafusos e 20 porcas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Refeição",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "utility",
+      "price": 10,
+      "effect": "Comida (café, almoço ou jantar).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Wepear (Abacate)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pinap (Abacaxi)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pamtre (Açaí)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Bluk (Amora)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Nanab (Banana)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Durin (Durião)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Razz (Framboesa)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Nomel (Limão)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Magost (Mangostão)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Watmel (Melancia)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Spelon (Melão)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Cornn (Milho)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Belue (Mirtilo)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rabuta (Rambutão)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Sem efeito mecânico (uso culinário).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "both",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Persim (Caqui)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 45,
+      "effect": "Restaura Confusão.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Oran (Laranja)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 90,
+      "effect": "Recupera 1d8 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Figy (Figo)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 1/8 dos PV máx; confunde se desgosta de Picante.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Aguav (Goiaba)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 1/8 dos PV máx; confunde se desgosta de Amargo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Wiki (Kiwi)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 1/8 dos PV máx; confunde se desgosta de Seco.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Iapapa (Mamão)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 1/8 dos PV máx; confunde se desgosta de Azedo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Mago (Manga)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 1/8 dos PV máx; confunde se desgosta de Doce.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Sitrus (Toranja)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 155,
+      "effect": "Recupera 2d8 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Chesto (Castanha)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 225,
+      "effect": "Restaura Sono.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Cheri (Cereja)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 225,
+      "effect": "Restaura Paralisia.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rawst (Morango)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 225,
+      "effect": "Restaura Queimadura.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Aspear (Pera)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 225,
+      "effect": "Restaura Congelamento.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pecha (Pêssego)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 225,
+      "effect": "Restaura Veneno.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kebia (Akebia)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Venenoso superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Charti (Alcachofra)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Pedra superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Haban (Araçá)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Dragão superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Coba (Babaco)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Voador superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Babiri (Biribá)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Metálico superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Occa (Cacau)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Fogo superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Shuca (Caju)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Terra superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Colbur (Cardo)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Trevas superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Chople (Chipotle)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Lutador superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Yache (Chirimoia)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Gelo superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Wacan (Guajilote)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Elétrico superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Kasib (Mandioca)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Fantasma superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Passho (Maracujá)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Água superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Payapa (Papaia)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Psíquico superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Tanga (Pitanga)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Inseto superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Roseli (Rosa)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Fada superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Chilan (Chilacayote)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Normal superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rindo (Romã)",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "berry",
+      "price": 275,
+      "effect": "Se sofrer dano de Planta superefetivo, sofre apenas dano neutro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Suco Amarelo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "juice",
+      "price": 150,
+      "effect": "Adiciona 1/4 do valor à Força. Preço-base 150 × valor.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Suco Azul",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "juice",
+      "price": 150,
+      "effect": "Adiciona 1/2 do valor aos Deslocamentos de Escavação, Subaquático e Voo. Preço-base 150 × valor.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Suco Rosa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "juice",
+      "price": 150,
+      "effect": "Adiciona 1/2 do valor aos Deslocamentos Terrestre e Natação. Preço-base 150 × valor.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Suco Verde",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "juice",
+      "price": 150,
+      "effect": "Adiciona 1/4 do valor à Inteligência. Preço-base 150 × valor.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Suco Vermelho",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "juice",
+      "price": 150,
+      "effect": "Adiciona 1/4 do valor ao Salto. Preço-base 150 × valor.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Cinturão do Campeão",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 6000,
+      "effect": "Quando causar dano superefetivo, adiciona o Bônus Elemental ao dano antes da vulnerabilidade.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Disco Duvidoso",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Reduz em 30 todos os ganhos de PX.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Eletrizante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Ganha Habilidade Eletricidade Estática; também Paralisa se inimigo for paralisado por ela.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Empoderador Elemental",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1800,
+      "effect": "Adiciona o Bônus Elemental aos Golpes do Tipo associado.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Empoderador Especializado",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 2000,
+      "effect": "Eleva uma Fase do Atributo associado (diária).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Erva Branca",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 2000,
+      "effect": "Todas as Fases negativas viram neutras.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Erva da Força",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 2000,
+      "effect": "Remove Descritor Preparo de Ataque do Céu, Cavar, Força Sombria, Lâmina de Vento, Mergulho, Pular, Quebra Crânio, Raio Solar, Voar.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Erva Mental",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 2000,
+      "effect": "Restaura Paixão; remove Bis, Desabilitar, Provocação, Tormento, Anátema.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Escama de Dragão",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Golpes com Descritor Moral precisam de resultados menores em 2.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Escama Marinha",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Embaixo d'água eleva 1 Fase de Defesa Especial. Concede/aumenta Subaquático.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Eviolita",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 6000,
+      "effect": "Eleva 1 Fase de 2 Atributos diferentes. Só afeta pokémons não evoluídos ao máximo.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Faixa Meditativa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 7200,
+      "effect": "Se sofreria nocaute com PV cheio, fica com 1 PV.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Farpa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3650,
+      "effect": "Perde 1/10 PV máx/rodada; pode passar para atacante.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Fita Adesiva",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1400,
+      "effect": "Golpes Prisão (1d12/rodada) passam a 1d20/rodada.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Flor Romântica",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Se ficar Apaixonado, o causador também se apaixona.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Gancho de Garra",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3500,
+      "effect": "Golpes Prisão duram o máximo.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Garra Afiada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "-2 ao resultado mínimo para Crítico.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Garra Rápida",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 4200,
+      "effect": "+Bônus Elemental à Velocidade na Iniciativa.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Graveto",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Corpo a Corpo ganha alcance 2m (exceto socos, chutes, cabeçadas).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Incenso Intenso",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1800,
+      "effect": "Ganha Habilidade Adiamento.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Incenso Místico",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1800,
+      "effect": "-1 às Dificuldades de Acurácia (mín 2).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Incenso Relaxante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1800,
+      "effect": "+1 à Evasão.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Lente Larga",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 5200,
+      "effect": "-3 à Dif. de Acurácia do próximo ataque (diária).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Localizador",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Perde imunidades a Tipos.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Lodo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 4000,
+      "effect": "Perde 1/8 PV máx/rodada; Venenoso recupera metade em vez.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Metrônomo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Mesmo Golpe da rodada anterior: bônus de dano = 2× Bônus Elemental.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Orbe Ardente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 4800,
+      "effect": "O usuário fica com Queimadura.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Orbe Tóxico",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 4800,
+      "effect": "O usuário recebe Veneno Mortal.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Orbe Vital",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 8200,
+      "effect": "Adiciona dano = Bônus Elemental sacrificando PV iguais.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Ovo da Sorte",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": null,
+      "effect": "Dobra os PX recebidos. (Indisponível para venda)",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Rei",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Corpo a Corpo Atordoam em Acurácia 19-20.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Sempre",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "O usuário não pode evoluir.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra Flutuante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Peso reduzido em duas Categorias.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra Oval",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "+1 à Força (só se era menor que 3).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra Suave",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3500,
+      "effect": "Tempestade de Areia dura 3 minutos (18 rodadas).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra Úmida",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3500,
+      "effect": "Dança da Chuva dura 3 minutos (18 rodadas).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Placa Elemental",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": null,
+      "effect": "Adiciona dobro do Bônus Elemental aos Golpes do Tipo. (Indisponível)",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Polvilho Brilhante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 6000,
+      "effect": "+2 à Evasão.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Presa Afiada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Corpo a Corpo Atordoam em Acurácia 19-20.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Presa Marinha",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Embaixo d'água eleva 1 Fase de Ataque Especial. Concede/aumenta Subaquático.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Raiz Grande",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Golpes que recuperam PV por dano recuperam o dobro.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Restos",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 2000,
+      "effect": "Recupera 1/16 PV máx/rodada até fim do encontro.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Cauda Retardante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Perde 4 Fases de Velocidade.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "Retardante",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Luvas Retardantes",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Perde 4 Fases de Ataque.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "Retardante",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Olhos Retardantes",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Perde 4 Fases de Ataque Especial.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "Retardante",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Revestimento Metálico",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Tratado como Tipo Metálico até sofrer dano resistido/ignorado (diária).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rocha Gelada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3500,
+      "effect": "Granizo dura 3 minutos.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rocha Magmática",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Ganha Habilidade Flamejante; usuário Queima se inimigo queima.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Rocha Quente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3500,
+      "effect": "Dia de Sol dura 3 minutos.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Sino de Conchas",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 5200,
+      "effect": "Causou dano: recupera PV = metade do dano (diária).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Talismã",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 1000,
+      "effect": "Sempre tem sucesso em fugir (diária).",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Traje do Ceifador",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "held",
+      "price": 3000,
+      "effect": "Capacidade Silêncio e +2 às Dif. de Acurácia À Distância contra o usuário.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Poção",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 200,
+      "effect": "Restaura 2d12+10 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Superpoção",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 350,
+      "effect": "Restaura 3d12+20 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Hiperpoção",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 450,
+      "effect": "Restaura 4d12+30 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Leite",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 400,
+      "effect": "Restaura 8d6+25 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Polvilho Energizante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 300,
+      "effect": "Restaura 4d10+15 PV. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Raiz Energizante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 450,
+      "effect": "Restaura 4d20+15 PV. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Antídoto",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 250,
+      "effect": "Restaura Veneno.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Antiparalisante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 200,
+      "effect": "Restaura Paralisia.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Despertador",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 200,
+      "effect": "Restaura Sono.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pomada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 250,
+      "effect": "Restaura Queimadura.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Anticongelante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 200,
+      "effect": "Restaura Congelamento.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Panaceia",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 500,
+      "effect": "Restaura todas as Condições.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Polvilho Curativo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 300,
+      "effect": "Restaura todas as Condições. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Revivente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 300,
+      "effect": "Restaura pokémon inconsciente a 20 PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Erva Revivente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 200,
+      "effect": "Restaura pokémon inconsciente a 10 PV. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Éter",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 350,
+      "effect": "Restaura uso de 1 Golpe Por Encontro/Centro Pokémon.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Elixir",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 750,
+      "effect": "Restaura uso de todos os Golpes Por Encontro/Centro Pokémon.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Água Enriquecida",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 300,
+      "effect": "Restaura 30 PV (humano).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Soro",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 400,
+      "effect": "Restaura 45 PV (humano).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Limonada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 500,
+      "effect": "Restaura 60 PV (humano).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Remédio",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 350,
+      "effect": "Restaura todas as Condições (humano).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Sutura",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 800,
+      "effect": "Ferimentos graves.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "Serviço Médico",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Gesso",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 1500,
+      "effect": "Imobiliza pernas/braços.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "Serviço Médico",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Hospitalização",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "medicine",
+      "price": 10000,
+      "effect": "Internação salvadora.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "Serviço Médico",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra-Chave",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "other",
+      "price": 15000,
+      "effect": "Permite sincronia com pokémon que possua Megapedra. 15.000–50.000 cr.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Megapedra",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "other",
+      "price": 1000000,
+      "effect": "Objeto extremamente raro. Permite megaevolução.",
+      "consumable": false,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "Megapedra",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Ataque",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Eleva 1 Fase de Ataque.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Defesa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Eleva 1 Fase de Defesa.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Ataque Especial",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Eleva 1 Fase de Ataque Especial.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Defesa Especial",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Eleva 1 Fase de Defesa Especial.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Velocidade",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Eleva 1 Fase de Velocidade.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "X-Acurácia",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "-2 às Dificuldades de Acurácia.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Golpe Atroz",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Críticos em 18-20.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Guarda Especial",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 80,
+      "effect": "Não perde Fases por 5 rodadas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Reforço Natural",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 200,
+      "effect": "+2 Fases de Ataque ou Atk Especial. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Raiz Revigorante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 200,
+      "effect": "+2 Fases de Defesa ou Def Especial. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Fumo Rápido",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "booster",
+      "price": 200,
+      "effect": "+2 Fases de Velocidade. Repulsivo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": true
+    }
+  },
+  {
+    "name": "Pedra Brilhante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra da Água",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra da Alvorada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra da Folha",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra da Lua",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Crepúsculo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Fogo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Frio",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Sol",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pedra do Trovão",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "stone",
+      "price": 4000,
+      "effect": "Evolui pokémons específicos quando consumida.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Básica",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 200,
+      "effect": "",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 15,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Superbola",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 500,
+      "effect": "",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Ultrabola",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 1000,
+      "effect": "",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Bola Mestra",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": null,
+      "effect": "Indisponível. Se vendida, pelo menos 300.000 cr.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -100,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Safari",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Para Zonas de Safari.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Nível",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se Nível alvo < metade do seu pokémon.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Atrativa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se alvo não foi atraído por isca.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Lunar",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se alvo não evolui com Pedra da Lua.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Amigável",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Lealdade começa em 2.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola do Amor",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se sexo do alvo não é oposto.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Pesada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Reduz 5 por Categoria de Peso mais pesada que Leve.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Rápida",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se alvo tem Deslocamento > 7.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Esportiva",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Para Zonas de Safari.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Premiada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Repetição",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se alvo já é possuído.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 10,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Temporizada",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Reduz 5 a cada 2 rodadas (mín -20).",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Ninho",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se Nível alvo < 10.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Teia",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se alvo é Água ou Inseto.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Bola de Mergulho",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se não estiver submerso/subterrâneo.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Luxuosa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Fica feliz.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Curativa",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Recupera todos os PV.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Ligeira",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 na 2ª rodada, -10 depois.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -20,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Bola de Penumbra",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-15 se muito escuro.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Estimável",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": -5,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola de Parque",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Para Zonas de Safari.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Onírica",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "Funciona em sonhos.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 0,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Pokébola Bestial",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "ball",
+      "price": 2000,
+      "effect": "-50 se alvo tem Ultrabesta.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": 45,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Repelente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "repellent",
+      "price": 200,
+      "effect": "1d6+3 horas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Super-repelente",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "repellent",
+      "price": 300,
+      "effect": "1d8+4 horas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Repelente Máximo",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "repellent",
+      "price": 400,
+      "effect": "1d10+5 horas.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "trainer",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Imunizante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Saúde Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Proteína",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Ataque Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Ferro",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Defesa Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Cálcio",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Ataque Especial Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Zinco",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Defesa Especial Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Carburante",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 4900,
+      "effect": "Velocidade Basal +1.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Magnificador",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 9800,
+      "effect": "Reduz em 1 nível a Frequência de um Golpe.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  },
+  {
+    "name": "Doce Raro",
+    "type": "item",
+    "img": "icons/svg/item-bag.svg",
+    "system": {
+      "description": "",
+      "category": "supplement",
+      "price": 48000,
+      "effect": "+15000 PX.",
+      "consumable": true,
+      "quantity": 1,
+      "target": "pokemon",
+      "modifier": null,
+      "subtype": "",
+      "repulsive": false
+    }
+  }
+]

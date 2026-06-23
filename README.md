@@ -53,6 +53,7 @@ npm run clean:packs
 ```
 pokemon-rpg/
 ├── system.json               # manifesto do sistema
+├── package.json              # dependências e scripts de build
 ├── module/                   # código JavaScript
 │   ├── pokemon.mjs           # entry point — registra DataModels e sheets
 │   ├── data/                 # DataModels (schema do sistema)
