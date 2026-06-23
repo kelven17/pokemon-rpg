@@ -1,4 +1,5 @@
 import { POKEMON_RPG } from "../helpers/config.mjs";
+import { rollBallCapture } from "../helpers/ball-roll.mjs";
 
 const { HandlebarsApplicationMixin } = foundry.applications.api;
 const { ItemSheetV2 } = foundry.applications.sheets;
@@ -13,6 +14,9 @@ export class PokemonItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
     classes: ["pokemon-rpg", "sheet", "item"],
     position: { width: 560, height: 540 },
     window: { resizable: true, contentClasses: ["scrollable"] },
+    actions: {
+      rollBall: PokemonItemSheet._onRollBall
+    },
     form: {
       submitOnChange: true,
       closeOnSubmit: false
@@ -84,5 +88,11 @@ export class PokemonItemSheet extends HandlebarsApplicationMixin(ItemSheetV2) {
     }
 
     return context;
+  }
+
+  /* ---------- Roll de Pokébola ---------- */
+  static async _onRollBall(event, target) {
+    event?.preventDefault?.();
+    return rollBallCapture(this.item);
   }
 }

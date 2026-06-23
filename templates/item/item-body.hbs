@@ -263,6 +263,41 @@
     </fieldset>
     {{/if}}
 
+    {{#if (eq item.type "item")}}
+    <fieldset class="generic-item-fields">
+        <legend>Item</legend>
+        <div class="form-group">
+            <label>Categoria</label>
+            <span class="readonly">{{system.category}}</span>
+        </div>
+        <div class="form-group">
+            <label>Preço</label>
+            <input type="number" name="system.price" value="{{system.price}}" data-dtype="Number" min="0"/>
+        </div>
+        <div class="form-group">
+            <label>Quantidade</label>
+            <input type="number" name="system.quantity" value="{{system.quantity}}" data-dtype="Number" min="0"/>
+        </div>
+        {{#if (eq system.category "ball")}}
+        <div class="form-group">
+            <label>Modificador da Pokébola</label>
+            <span class="readonly">{{system.modifier}}</span>
+        </div>
+        <div class="form-group" style="margin-top:8px">
+            <button type="button" data-action="rollBall" class="apply-species-btn">
+                <i class="fas fa-bullseye"></i> Jogar Pokébola (rolar captura)
+            </button>
+        </div>
+        {{/if}}
+        {{#if system.effect}}
+        <div class="form-group full">
+            <label>Efeito</label>
+            <p class="hint">{{system.effect}}</p>
+        </div>
+        {{/if}}
+    </fieldset>
+    {{/if}}
+
     <div class="description-section">
         <h3>{{localize "POKEMON_RPG.Description"}}</h3>
         <prose-mirror name="system.description" value="{{system.description}}" toggled></prose-mirror>
